@@ -1,0 +1,364 @@
+You are STAGE 2 of the CHVD framework:
+ZERO-TEMPERATURE CREATIVE DISTILLER + REALISTIC MVP REFRAMER.
+
+You are not an independent idea generator.
+Do not invent a separate startup concept.
+Do not fabricate evidence, citations, market statistics, competitors, patents,
+companies, or claims of external validation.
+Work only from the supplied input ideas.
+
+Your role is not to delete creativity.
+Your role is to:
+1. Separate the creative core from speculative or unsupported claims.
+2. Preserve the distinctive creative mechanism that gives the idea its identity.
+3. Remove, narrow, or soften unsupported, unsafe, or implausible claims.
+4. Reframe the same idea as the most realistic testable MVP possible.
+5. Score the reframed candidate, not the raw speculative version.
+
+In other words:
+The high-temperature generator supplies creative raw material.
+You are a zero-temperature distiller that converts it into a testable MVP candidate.
+
+Execution mode:
+- prompt_only
+- no_corpus
+- no_RAG
+- no_external_evidence
+- internal_logic_only
+- temperature_expected_zero
+
+Input ideas:
+[
+  {
+    "idea_id": "I001",
+    "source_idea_id": "I001",
+    "domain": "Game Mobile",
+    "title": "Augmented Reality Archaeology Puzzles",
+    "target_user": "Casual mobile gamers interested in history and puzzles, aged 25-45",
+    "problem_or_desire": "Desire for mentally stimulating casual games that blend digital and real-world experiences.",
+    "core_concept": "Use smartphone AR capabilities to scan real-world objects (e.g., books, walls, tables) and overlay puzzle elements that hint at historical artifacts or discoveries, requiring players to manipulate their environment to solve.",
+    "proposed_approach": "Develop a foundational AR engine to recognize basic surfaces. Create a small set of themed puzzle sets that utilize object recognition and AR overlay techniques. Offer a freemium model with core puzzles free and expanded historical epochs as in-app purchases.",
+    "prototype_scope": "Implement AR surface detection and a simple object placement/manipulation system for one themed historical discovery puzzle within a domestic living room environment.",
+    "idea_name": "Augmented Reality Archaeology Puzzles",
+    "one_sentence_pitch": "Use smartphone AR capabilities to scan real-world objects (e.g., books, walls, tables) and overlay puzzle elements that hint at historical artifacts or discoveries, requiring players to manipulate their environment to solve.",
+    "hidden_pain_or_desire": "Desire for mentally stimulating casual games that blend digital and real-world experiences.",
+    "creative_leap": "Use smartphone AR capabilities to scan real-world objects (e.g., books, walls, tables) and overlay puzzle elements that hint at historical artifacts or discoveries, requiring players to manipulate their environment to solve.",
+    "non_obvious_connection": "",
+    "proposed_solution": "Develop a foundational AR engine to recognize basic surfaces. Create a small set of themed puzzle sets that utilize object recognition and AR overlay techniques. Offer a freemium model with core puzzles free and expanded historical epochs as in-app purchases.",
+    "core_experience": "Use smartphone AR capabilities to scan real-world objects (e.g., books, walls, tables) and overlay puzzle elements that hint at historical artifacts or discoveries, requiring players to manipulate their environment to solve.",
+    "core_technology": [],
+    "why_it_feels_new": "",
+    "why_now_speculative": "",
+    "mvp_seed": "Implement AR surface detection and a simple object placement/manipulation system for one themed historical discovery puzzle within a domestic living room environment.",
+    "first_7_day_prototype": "Implement AR surface detection and a simple object placement/manipulation system for one themed historical discovery puzzle within a domestic living room environment.",
+    "business_model_hypothesis": "",
+    "wildness_level": null,
+    "main_assumptions": [],
+    "main_risks": [],
+    "validation_needed_later": [],
+    "hallucination_notes": {
+      "intentionally_speculative_parts": [],
+      "claims_not_yet_validated": []
+    }
+  },
+  {
+    "idea_id": "I002",
+    "source_idea_id": "I002",
+    "domain": "Game Mobile",
+    "title": "Collaborative Storytelling Sandbox",
+    "target_user": "Creative adolescents and young adults (13-20) who enjoy narrative games and social interaction.",
+    "problem_or_desire": "Desire to co-create and collectively influence evolving fictional worlds and character arcs in a game format.",
+    "core_concept": "A turn-based game where each player contributes a narrative event or character action that sequentially shapes an ongoing, shared story. Players vote on critical story junctures. No strict win/loss condition, emphasis is on the unfolding narrative.",
+    "proposed_approach": "Design a robust backend to manage story states and player contributions. Develop an intuitive text-input and event-creation interface. Integrate a simple polling system for branching narrative points. Structure game sessions to encourage short bursts of creative input over days.",
+    "prototype_scope": "Create a simplified lobby system allowing 3-5 users to connect. Implement a basic text-based turn progression where each player adds one sentence; incorporate one player vote for a pre-defined story branch decision.",
+    "idea_name": "Collaborative Storytelling Sandbox",
+    "one_sentence_pitch": "A turn-based game where each player contributes a narrative event or character action that sequentially shapes an ongoing, shared story. Players vote on critical story junctures. No strict win/loss condition, emphasis is on the unfolding narrative.",
+    "hidden_pain_or_desire": "Desire to co-create and collectively influence evolving fictional worlds and character arcs in a game format.",
+    "creative_leap": "A turn-based game where each player contributes a narrative event or character action that sequentially shapes an ongoing, shared story. Players vote on critical story junctures. No strict win/loss condition, emphasis is on the unfolding narrative.",
+    "non_obvious_connection": "",
+    "proposed_solution": "Design a robust backend to manage story states and player contributions. Develop an intuitive text-input and event-creation interface. Integrate a simple polling system for branching narrative points. Structure game sessions to encourage short bursts of creative input over days.",
+    "core_experience": "A turn-based game where each player contributes a narrative event or character action that sequentially shapes an ongoing, shared story. Players vote on critical story junctures. No strict win/loss condition, emphasis is on the unfolding narrative.",
+    "core_technology": [],
+    "why_it_feels_new": "",
+    "why_now_speculative": "",
+    "mvp_seed": "Create a simplified lobby system allowing 3-5 users to connect. Implement a basic text-based turn progression where each player adds one sentence; incorporate one player vote for a pre-defined story branch decision.",
+    "first_7_day_prototype": "Create a simplified lobby system allowing 3-5 users to connect. Implement a basic text-based turn progression where each player adds one sentence; incorporate one player vote for a pre-defined story branch decision.",
+    "business_model_hypothesis": "",
+    "wildness_level": null,
+    "main_assumptions": [],
+    "main_risks": [],
+    "validation_needed_later": [],
+    "hallucination_notes": {
+      "intentionally_speculative_parts": [],
+      "claims_not_yet_validated": []
+    }
+  },
+  {
+    "idea_id": "I003",
+    "source_idea_id": "I003",
+    "domain": "Game Mobile",
+    "title": "Kinetic Rhythm Training Tool",
+    "target_user": "Amateur musicians and dancers looking to improve their internal tempo and rhythmic precision.",
+    "problem_or_desire": "Need a more engaging and effective way to train their sense of rhythm beyond metronomes.",
+    "core_concept": "A game that visualizes complex rhythmic patterns as interactive mazes or paths in an abstract 3D space. Players control a tempo marker to stay 'on beat' or tap precisely on nodal points aligned with sub-beats, encouraging kinesthetic rhythmic learning.",
+    "proposed_approach": "Develop precise beat-detection algorithms. Design progressively complex rhythmic challenges incorporating polyrhythms and syncopation. Use dynamic visual feedback synchronized to audio cues to indicate accuracy. Implement progressive difficulty tiers unlocking new rhythmic patterns.",
+    "prototype_scope": "Build a core game loop where a user taps on their screen in time with audio pulses. Create five distinct difficulty levels featuring increasingly complex 4/4 rhythmic subdivisions, with visual feedback for accuracy.",
+    "idea_name": "Kinetic Rhythm Training Tool",
+    "one_sentence_pitch": "A game that visualizes complex rhythmic patterns as interactive mazes or paths in an abstract 3D space. Players control a tempo marker to stay 'on beat' or tap precisely on nodal points aligned with sub-beats, encouraging kinesthetic rhythmic learning.",
+    "hidden_pain_or_desire": "Need a more engaging and effective way to train their sense of rhythm beyond metronomes.",
+    "creative_leap": "A game that visualizes complex rhythmic patterns as interactive mazes or paths in an abstract 3D space. Players control a tempo marker to stay 'on beat' or tap precisely on nodal points aligned with sub-beats, encouraging kinesthetic rhythmic learning.",
+    "non_obvious_connection": "",
+    "proposed_solution": "Develop precise beat-detection algorithms. Design progressively complex rhythmic challenges incorporating polyrhythms and syncopation. Use dynamic visual feedback synchronized to audio cues to indicate accuracy. Implement progressive difficulty tiers unlocking new rhythmic patterns.",
+    "core_experience": "A game that visualizes complex rhythmic patterns as interactive mazes or paths in an abstract 3D space. Players control a tempo marker to stay 'on beat' or tap precisely on nodal points aligned with sub-beats, encouraging kinesthetic rhythmic learning.",
+    "core_technology": [],
+    "why_it_feels_new": "",
+    "why_now_speculative": "",
+    "mvp_seed": "Build a core game loop where a user taps on their screen in time with audio pulses. Create five distinct difficulty levels featuring increasingly complex 4/4 rhythmic subdivisions, with visual feedback for accuracy.",
+    "first_7_day_prototype": "Build a core game loop where a user taps on their screen in time with audio pulses. Create five distinct difficulty levels featuring increasingly complex 4/4 rhythmic subdivisions, with visual feedback for accuracy.",
+    "business_model_hypothesis": "",
+    "wildness_level": null,
+    "main_assumptions": [],
+    "main_risks": [],
+    "validation_needed_later": [],
+    "hallucination_notes": {
+      "intentionally_speculative_parts": [],
+      "claims_not_yet_validated": []
+    }
+  },
+  {
+    "idea_id": "I004",
+    "source_idea_id": "I004",
+    "domain": "Game Mobile",
+    "title": "Procedural Mystery Puzzle Generator",
+    "target_user": "Adult puzzle enthusiasts (30-60) who enjoy logic deduction and high replayability.",
+    "problem_or_desire": "Tired of finite puzzle sets; seeking a game that offers endless unique logic challenges.",
+    "core_concept": "Leveraging procedural generation to create distinct detective/logic puzzles with a unique set of clues, characters, and deduction trees for each playthrough. Focus on solving a specific anomaly or crime per generated puzzle.",
+    "proposed_approach": "Engineer a puzzle generation algorithm capable of creating varied narrative scenarios and interdependent clue structures. Design a grid/interface for clue intake and logical deduction, and character 'profiles' to manage evidence linkage. Offer replayability through near-infinite procedural generation variations.",
+    "prototype_scope": "Implement a procedural generation system for three discrete archetypal mystery elements (witness, evidence, location). Design a clean note-taking/deduction grid UI for a single, algorithmically generated, simple logical deduction puzzle based on these elements.",
+    "idea_name": "Procedural Mystery Puzzle Generator",
+    "one_sentence_pitch": "Leveraging procedural generation to create distinct detective/logic puzzles with a unique set of clues, characters, and deduction trees for each playthrough. Focus on solving a specific anomaly or crime per generated puzzle.",
+    "hidden_pain_or_desire": "Tired of finite puzzle sets; seeking a game that offers endless unique logic challenges.",
+    "creative_leap": "Leveraging procedural generation to create distinct detective/logic puzzles with a unique set of clues, characters, and deduction trees for each playthrough. Focus on solving a specific anomaly or crime per generated puzzle.",
+    "non_obvious_connection": "",
+    "proposed_solution": "Engineer a puzzle generation algorithm capable of creating varied narrative scenarios and interdependent clue structures. Design a grid/interface for clue intake and logical deduction, and character 'profiles' to manage evidence linkage. Offer replayability through near-infinite procedural generation variations.",
+    "core_experience": "Leveraging procedural generation to create distinct detective/logic puzzles with a unique set of clues, characters, and deduction trees for each playthrough. Focus on solving a specific anomaly or crime per generated puzzle.",
+    "core_technology": [],
+    "why_it_feels_new": "",
+    "why_now_speculative": "",
+    "mvp_seed": "Implement a procedural generation system for three discrete archetypal mystery elements (witness, evidence, location). Design a clean note-taking/deduction grid UI for a single, algorithmically generated, simple logical deduction puzzle based on these elements.",
+    "first_7_day_prototype": "Implement a procedural generation system for three discrete archetypal mystery elements (witness, evidence, location). Design a clean note-taking/deduction grid UI for a single, algorithmically generated, simple logical deduction puzzle based on these elements.",
+    "business_model_hypothesis": "",
+    "wildness_level": null,
+    "main_assumptions": [],
+    "main_risks": [],
+    "validation_needed_later": [],
+    "hallucination_notes": {
+      "intentionally_speculative_parts": [],
+      "claims_not_yet_validated": []
+    }
+  },
+  {
+    "idea_id": "I005",
+    "source_idea_id": "I005",
+    "domain": "Game Mobile",
+    "title": "Ephemeral Real-World Social 'Quests'",
+    "target_user": "Urban young adults and college students (18-28) seeking fun, spontaneous group activities and location-based discovery.",
+    "problem_or_desire": "Desire for low-stakes, time-bound, socially interactive real-world 'missions' to add an element of surprise to daily routines or outings.",
+    "core_concept": "Users receive short, randomized scavenger-hunt-like quests tied to geolocated points in their vicinity. Quests have tight time windows, and successful completion (verified via photo-geo-tag) unlocks a small community leaderboard or digital reward for participating groups.",
+    "proposed_approach": "Utilize mapping APIs and GPS to define quest locations. Implement a secure geo-tagging and photo-upload system for task verification. Design a backend for queueing randomized, time-sensitive quests relevant to urban public spaces. Monetize by offering branded local business sponsorships for quests.",
+    "prototype_scope": "Create a user journey allowing two players within a defined walkable zone (e.g., university campus). Present one objective at a single GPS coordinate and require photo upload with GPS stamp within a 15-minute window to verify successful 'completion'.",
+    "idea_name": "Ephemeral Real-World Social 'Quests'",
+    "one_sentence_pitch": "Users receive short, randomized scavenger-hunt-like quests tied to geolocated points in their vicinity. Quests have tight time windows, and successful completion (verified via photo-geo-tag) unlocks a small community leaderboard or digital reward for participating groups.",
+    "hidden_pain_or_desire": "Desire for low-stakes, time-bound, socially interactive real-world 'missions' to add an element of surprise to daily routines or outings.",
+    "creative_leap": "Users receive short, randomized scavenger-hunt-like quests tied to geolocated points in their vicinity. Quests have tight time windows, and successful completion (verified via photo-geo-tag) unlocks a small community leaderboard or digital reward for participating groups.",
+    "non_obvious_connection": "",
+    "proposed_solution": "Utilize mapping APIs and GPS to define quest locations. Implement a secure geo-tagging and photo-upload system for task verification. Design a backend for queueing randomized, time-sensitive quests relevant to urban public spaces. Monetize by offering branded local business sponsorships for quests.",
+    "core_experience": "Users receive short, randomized scavenger-hunt-like quests tied to geolocated points in their vicinity. Quests have tight time windows, and successful completion (verified via photo-geo-tag) unlocks a small community leaderboard or digital reward for participating groups.",
+    "core_technology": [],
+    "why_it_feels_new": "",
+    "why_now_speculative": "",
+    "mvp_seed": "Create a user journey allowing two players within a defined walkable zone (e.g., university campus). Present one objective at a single GPS coordinate and require photo upload with GPS stamp within a 15-minute window to verify successful 'completion'.",
+    "first_7_day_prototype": "Create a user journey allowing two players within a defined walkable zone (e.g., university campus). Present one objective at a single GPS coordinate and require photo upload with GPS stamp within a 15-minute window to verify successful 'completion'.",
+    "business_model_hypothesis": "",
+    "wildness_level": null,
+    "main_assumptions": [],
+    "main_risks": [],
+    "validation_needed_later": [],
+    "hallucination_notes": {
+      "intentionally_speculative_parts": [],
+      "claims_not_yet_validated": []
+    }
+  }
+]
+
+Rules for every idea:
+
+Step A — Decompose:
+- Identify the original speculative or unsupported elements.
+- Identify the creative core that must remain visible.
+- Identify factual overclaims or mechanisms that should not be retained literally.
+
+Step B — Realistic reframing:
+- Do not replace the input with an unrelated startup idea.
+- Preserve the original creative direction.
+- Remove, narrow, or soften unsupported claims.
+- Scope the MVP so that it can be prototyped in 7–30 days.
+- When a speculative mechanism cannot be preserved literally, preserve a bounded
+  proxy interaction that retains the original user experience or value mechanism.
+- Do not replace a distinctive concept with a generic chatbot, marketplace,
+  recommender, or content generator unless that generic mechanism is genuinely
+  the original creative core.
+
+Step C — Score the reframed candidate:
+Score the reframed version only, not the raw speculative version.
+
+Use a 1–5 scale. Decimal scores are allowed to one decimal place.
+
+1. novelty:
+   Low when the reframed candidate is generic or conventional; high when it
+   retains a distinctive, non-obvious concept.
+
+2. creative_core_strength:
+   Low when there is no clear creative core; high when the input has a strong,
+   distinctive mechanism worth preserving.
+
+3. creative_core_preservation:
+   Low when the reframing loses the original creative core; high when the
+   practical MVP retains the important creative mechanism.
+
+4. reframing_quality:
+   Low when the output remains unrealistic or becomes generic; high when it
+   becomes testable while preserving creative identity.
+
+5. conceptual_coherence:
+   Low when the problem, concept, approach, and MVP conflict or feel fragmented;
+   high when they form a clear and consistent logic.
+
+6. user_pain_plausibility:
+   Low when the user problem or desire is unclear; high when it is concrete,
+   understandable, and plausibly worth addressing.
+
+7. technical_plausibility:
+   Low when the MVP depends on distant or undefined technology; high when a
+   clear implementation path is available within a bounded prototype.
+
+8. mvp_clarity:
+   Low when it is unclear what should be built; high when the MVP has a narrow,
+   concrete, testable scope.
+
+9. business_model_plausibility:
+   Low when the value capture mechanism is unclear; high when there is a
+   credible early monetization or value-exchange hypothesis.
+
+10. hallucination_risk_after_reframing:
+    Low when the reframed MVP has few unsupported, vague, or unverifiable
+    claims; high when major speculative claims remain.
+    This score must be an integer from 1 to 5.
+
+There is no evidence_support metric.
+Missing external evidence is not directly penalized because this is a
+prompt-only creative ideation pipeline. However, unvalidated assumptions must
+be listed under validation_needed_later.
+
+Decision labels:
+- "Potential": overall score >= 70 and hallucination_risk_after_reframing <= 3
+- "Needs refinement": overall score 45–69 or the candidate still needs material narrowing
+- "Too speculative": overall score < 45 or hallucination_risk_after_reframing >= 5
+
+Deterministic overall_score formula, 0–100:
+
+positive_score =
+15% novelty
++ 12% creative_core_strength
++ 13% creative_core_preservation
++ 15% reframing_quality
++ 10% conceptual_coherence
++ 10% user_pain_plausibility
++ 10% technical_plausibility
++ 10% mvp_clarity
++ 5% business_model_plausibility
+
+Then subtract the penalty for hallucination_risk_after_reframing:
+risk 1: subtract 0
+risk 2: subtract 5
+risk 3: subtract 10
+risk 4: subtract 18
+risk 5: subtract 30
+
+Important:
+- Return 1–5 scores for every metric.
+- overall_score and decision inside the LLM JSON are placeholders only.
+- Python will recompute overall_score and decision deterministically.
+- Do not inflate overall_score or decision.
+
+Output requirements:
+- All JSON values and all narrative text must be in English.
+- Keep JSON keys in English.
+- Return valid JSON only.
+- Do not use Markdown.
+- Do not add new independent ideas.
+- Every evaluation must correspond to one input idea.
+
+Required schema:
+
+{
+  "metadata": {
+    "pipeline": "CHVD",
+    "version": "P1_M3_en_v1",
+    "stage": "zero_temperature_creative_distiller_to_realistic_mvp",
+    "language": "en",
+    "evaluation_mode": "prompt_only_internal_logic_creative_distillation",
+    "description": "Separate the creative core from unsupported overclaims and reframe each input into a realistic MVP candidate."
+  },
+  "evaluations": [
+    {
+      "idea_id": "I001",
+      "idea_name": "",
+      "raw_hallucination_summary": "",
+      "creative_core_to_preserve": "",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        ""
+      ],
+      "realistic_reframing": "",
+      "practical_mvp": "",
+      "mvp_7_to_30_day_plan": [
+        ""
+      ],
+      "scores": {
+        "novelty": 1.0,
+        "creative_core_strength": 1.0,
+        "creative_core_preservation": 1.0,
+        "reframing_quality": 1.0,
+        "conceptual_coherence": 1.0,
+        "user_pain_plausibility": 1.0,
+        "technical_plausibility": 1.0,
+        "mvp_clarity": 1.0,
+        "business_model_plausibility": 1.0,
+        "hallucination_risk_after_reframing": 1
+      },
+      "overall_score": 0,
+      "decision": "Potential | Needs refinement | Too speculative",
+      "expert_rationale": "",
+      "strong_points_after_reframing": [
+        ""
+      ],
+      "weak_points_after_reframing": [
+        ""
+      ],
+      "validation_needed_later": [
+        ""
+      ],
+      "final_recommendation": ""
+    }
+  ],
+  "ranked_summary": [
+    {
+      "rank": 1,
+      "idea_id": "I001",
+      "idea_name": "",
+      "overall_score": 0,
+      "decision": "Potential | Needs refinement | Too speculative",
+      "hallucination_risk_after_reframing": 1
+    }
+  ]
+}

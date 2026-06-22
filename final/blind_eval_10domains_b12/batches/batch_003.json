@@ -1,0 +1,101 @@
+[
+  {
+    "candidate_id": "BLIND_0062",
+    "domain": "Offline 2D Games",
+    "title": "Vũ Điệu Của Vật Chất: Game Vật Lý Tương Tác Tối Giản",
+    "problem_or_desire": "Mong muốn một trải nghiệm giải đố mới lạ, không chỉ dựa trên thao tác mà còn dựa trên sự hiểu biết và vận dụng các quy luật vật lý cơ bản một cách sáng tạo.",
+    "core_concept": "Một game giải đố vật lý 2D tối giản, nơi người chơi điều khiển các 'nguyên tố' cơ bản (nước, lửa, khí, đất) để tạo ra các phản ứng dây chuyền, giải quyết các thử thách môi trường và đạt được mục tiêu.",
+    "proposed_approach": "Mỗi màn chơi là một bối cảnh 2D với các chướng ngại vật và mục tiêu (ví dụ: đưa một hạt giống đến nơi có nước và ánh sáng). Người chơi có một lượng giới hạn các 'nguyên tố' hoặc 'hành động nguyên tố' (ví dụ: tạo ra một giọt nước, một tia lửa nhỏ, một luồng gió, một mẩu đất). Người chơi phải sắp xếp trình tự các hành động này để tạo ra một chuỗi phản ứng vật lý dẫn đến kết quả mong muốn (ví dụ: lửa làm bốc hơi nước tạo thành mây, gió thổi mây đến vị trí cần, nước rơi xuống là…",
+    "prototype_scope": "Một vài màn chơi tập trung vào tương tác giữa nước và lửa, với mục tiêu đơn giản như dập tắt một đám cháy hoặc làm bốc hơi một lượng nước nhất định."
+  },
+  {
+    "candidate_id": "BLIND_0063",
+    "domain": "Online Business",
+    "title": "Chợ Kỹ Năng 'Vô Hình'",
+    "problem_or_desire": "Khó khăn trong việc định lượng, đánh giá và chứng minh các kỹ năng mềm quan trọng trong môi trường làm việc hiện đại. Mong muốn có một cách thức minh bạch và đáng tin cậy để xác nhận các năng lực này.",
+    "core_concept": "Một sàn giao dịch trực tuyến nơi mọi người có thể mua bán các kỹ năng 'vô hình' hoặc khó định lượng như sự đồng cảm, khả năng lắng nghe, tư duy phản biện, hoặc sự sáng tạo, được đánh giá và chứng nhận bởi cộng đồng.",
+    "proposed_approach": "Một nền tảng nơi người dùng có thể tạo hồ sơ, liệt kê các kỹ năng 'vô hình' mà họ sở hữu. Các người dùng khác (đã được xác minh và có uy tín) có thể 'đánh giá' hoặc 'chứng nhận' các kỹ năng này dựa trên tương tác thực tế (ví dụ: qua các dự án hợp tác, phản hồi trong các buổi cố vấn). Các chứng nhận này được ghi lại trên blockchain để đảm bảo tính minh bạch và không thể giả mạo.",
+    "prototype_scope": "Một diễn đàn hoặc nhóm nhỏ nơi người dùng có thể đăng tải các 'yêu cầu chứng nhận kỹ năng' và những người khác có thể đưa ra 'phản hồi' hoặc 'chứng nhận' dưới dạng văn bản."
+  },
+  {
+    "candidate_id": "BLIND_0058",
+    "domain": "Coffee Services",
+    "title": "Không Gian Cafe Tâm Linh Tương Lai",
+    "problem_or_desire": "Sự nhàm chán với các menu cafe truyền thống; mong muốn tìm kiếm những trải nghiệm có ý nghĩa sâu sắc hơn, mang tính 'mở khóa' hoặc tiên đoán cho một ngày.",
+    "core_concept": "Cafe phục vụ đồ uống cá nhân hóa dựa trên phân tích chiêm tinh học và năng lượng cá nhân, cung cấp trải nghiệm trị liệu tinh thần nhẹ nhàng song hành với ly cà phê.",
+    "proposed_approach": "Quán cafe ứng dụng một 'cỗ máy tiên tri' cafe – khách hàng cung cấp ngày/giờ sinh hoặc câu hỏi trắc nghiệm vui liên quan đến tâm trạng. AI sẽ xử lý và gợi ý một loại cafe hoặc công thức phối trộn đặc biệt, kèm giải mã 'tiên tri ngắn' của ly cafe.",
+    "prototype_scope": "Xây dựng một hệ thống quy tắc đơn giản dựa trên 12 cung hoàng đạo và các câu hỏi chủ đề, liên kết với 5 loại cafe cơ bản có hương vị đặc trưng. Thiết lập một bộ 'tiên tri ngắn' ban đầu."
+  },
+  {
+    "candidate_id": "BLIND_0072",
+    "domain": "Online Business",
+    "title": "Sàn Ký Sinh Trí Tuệ Cận",
+    "problem_or_desire": "Sự thất vọng khi nhiều ý tưởng tốt 'chết yểu' trong tâm trí; Khả năng cống hiến trí tuệ của họ một cách sáng tạo và tạo ra nguồn thu nhập mới từ những gì họ đã suy nghĩ; Muốn tham gia vào tương lai của AI thay vì chỉ bị nó 'phát triển lại từ dữ liệu đã công khai'.",
+    "core_concept": "Nền tảng 'ký sinh trí tuệ', nơi người dùng đóng vai trò như 'vật chủ trí tuệ' (insight host), cho phép các chuyên gia/nhà sáng tạo AI 'hút' những insight mới nổi từ não bộ của họ theo cách có kiểm soát để rèn luyện AI hoặc kiến thức mới.",
+    "proposed_approach": "Người dùng (insight hosts) đồng ý với một 'giao thức hút tinh chất' cho phép các nhà nghiên cứu AI (insight miners) quét qua nhật ký suy nghĩ (được quản lý chặt chẽ, mã hóa), hoặc đặt câu hỏi nhạy (được ghi âm, chuyển đổi nội dung) và trả thù lao trực tiếp dưới dạng token crypto hoặc fractional ownership, 'tiêm' (seed) ý tưởng khởi đầu để khai quật sâu hơn.",
+    "prototype_scope": "Cho phép 'nhà sáng tạo AI' mô tả 'lỗ hổng' kiến thức (vd: 'tôi cần 50 insight về trải nghiệm người dùng với Ẩn mình', Insight Hosts sẽ chỉ cho link blog post, hoặc tweet của họ chứa điều đó."
+  },
+  {
+    "candidate_id": "BLIND_0057",
+    "domain": "Youtube & Tiktok Video Content",
+    "title": "Khí Phách Chợ Nghệ: Chợ Ảo Của Người Sáng Tạo",
+    "problem_or_desire": "Người sáng tạo mong muốn có kênh bán hàng linh hoạt, tự chủ hơn cho 'tài sản tinh thần' của mình, tránh phụ thuộc quảng cáo hoặc các nền tảng quá khô khan. Họ cũng muốn công nhận và định giá xứng đáng hơn cho những ý tưởng/lao động đằng sau mỗi clip.",
+    "core_concept": "Ý tưởng cốt lõi về việc tạo ra một không gian chuyên biệt cho người sáng tạo nội dung để bán các 'tài sản tinh thần' độc đáo (ý tưởng, vật phẩm hậu trường, quyền truy cập sớm) cho người hâm mộ, kết hợp yếu tố sưu tầm và cộng đồng.",
+    "proposed_approach": "Một nền tảng web đơn giản cho phép người sáng tạo đăng bán các 'gói trải nghiệm độc quyền' hoặc 'sản phẩm số giới hạn' (ví dụ: quyền truy cập sớm vào concept video, bản phác thảo nhân vật, đoạn B-roll độc quyền chỉ dành cho fan cứng). Giao dịch ban đầu sử dụng tiền tệ thực (VND/USD) thông qua cổng thanh toán thông thường. Token nội bộ có thể được xem xét phát triển sau này khi nền tảng có đủ người dùng và giao dịch.",
+    "prototype_scope": "Một website đơn giản nơi người sáng tạo có thể tạo hồ sơ, đăng bán các 'sản phẩm số độc quyền' (ví dụ: 'Quyền xem trước concept MV X', 'Bản phác thảo nhân vật Y', 'Đoạn B-roll độc quyền Z'). Người dùng có thể mua trực tiếp hoặc đặt giá (bid) cho các sản phẩm đấu giá giới hạn thời gian. Thanh toán bằng VND/USD qua cổng thanh toán tích hợp."
+  },
+  {
+    "candidate_id": "BLIND_0081",
+    "domain": "Web App Services",
+    "title": "Nhà Tạo Lập 'Hương Vị Ký Ức'",
+    "problem_or_desire": "Mong muốn sống lại những khoảnh khắc quý giá, chia sẻ trải nghiệm cảm xúc với người khác, hoặc tìm kiếm những cách thức mới lạ để kết nối với quá khứ hoặc một địa điểm.",
+    "core_concept": "Một web app sử dụng AI để phân tích các mô tả về kỷ niệm hoặc địa điểm, sau đó gợi ý hoặc tạo ra các công thức nấu ăn, mùi hương, hoặc danh sách nhạc độc đáo để tái hiện lại 'hương vị' của ký ức đó.",
+    "proposed_approach": "Người dùng nhập mô tả về một kỷ niệm (ví dụ: 'buổi chiều hè ở quê ngoại, có mùi rơm khô và tiếng ve sầu') hoặc một địa điểm ('chợ đêm Sài Gòn, mùi đồ ăn đường phố, tiếng rao'). AI sẽ phân tích các yếu tố cảm quan, địa lý, văn hóa và gợi ý: 1) Công thức nấu ăn liên quan (ví dụ: món ăn gia đình, nguyên liệu đặc trưng). 2) Gợi ý về các loại mùi hương (tinh dầu, nến thơm) có thể tái tạo không khí. 3) Danh sách nhạc gợi lên không khí của kỷ niệm/địa điểm đó. Có thể mở rộng để AI…",
+    "prototype_scope": "Cho phép người dùng nhập mô tả kỷ niệm/địa điểm, AI gợi ý 1-2 công thức nấu ăn đơn giản và 1-2 bài hát gợi ý."
+  },
+  {
+    "candidate_id": "BLIND_0061",
+    "domain": "Online Business",
+    "title": "Nhà Máy Cảm Xúc Số",
+    "problem_or_desire": "Sự khó khăn trong việc nhận diện, gọi tên và quản lý các trạng thái cảm xúc phức tạp. Nhu cầu về các công cụ hỗ trợ tinh thần cá nhân hóa, dễ tiếp cận và không mang tính y tế truyền thống.",
+    "core_concept": "Một dịch vụ trực tuyến tạo ra các 'bản đồ cảm xúc' cá nhân hóa và các 'liều thuốc cảm xúc' kỹ thuật số (âm thanh, hình ảnh, văn bản) để giúp người dùng điều hướng và cân bằng trạng thái tinh thần của họ.",
+    "proposed_approach": "Người dùng tương tác với một chatbot AI để mô tả trạng thái cảm xúc hiện tại hoặc mong muốn. AI phân tích đầu vào và tạo ra một 'bản đồ cảm xúc' trực quan (ví dụ: biểu đồ màu sắc, hình ảnh trừu tượng) và một 'liều thuốc cảm xúc' kỹ thuật số cá nhân hóa (ví dụ: một bản nhạc ambient được tạo riêng, một chuỗi hình ảnh động thư giãn, hoặc một đoạn văn bản truyền cảm hứng).",
+    "prototype_scope": "Một chatbot đơn giản cho phép người dùng chọn từ một danh sách các trạng thái cảm xúc cơ bản (vui, buồn, giận, lo lắng) và nhận về một hình ảnh tĩnh hoặc một đoạn nhạc ngắn được tạo ra tương ứng."
+  },
+  {
+    "candidate_id": "BLIND_0097",
+    "domain": "Coffee Services",
+    "title": "Cà Phê Sinh Học Tương Lai: Nuôi Trồng Cà Phê Tại Gia Bằng Công Nghệ Sinh Học",
+    "problem_or_desire": "Nỗi đau: Cảm giác xa rời nguồn gốc thực phẩm, thiếu kiểm soát về chất lượng và tính bền vững của cà phê tiêu thụ. Mong muốn: Trải nghiệm sự hài lòng khi tự tay tạo ra sản phẩm, hiểu rõ hơn về quy trình sản xuất, và giảm thiểu tác động môi trường.",
+    "core_concept": "Cung cấp bộ kit và nền tảng công nghệ cho phép người dùng tự nuôi trồng cây cà phê tại nhà, thu hoạch và chế biến hạt cà phê tươi.",
+    "proposed_approach": "Bộ kit bao gồm cây cà phê con được nhân giống bằng công nghệ sinh học (có thể là giống lùn, năng suất cao, kháng bệnh tốt), đất trồng đặc biệt, hệ thống chiếu sáng thông minh, cảm biến IoT để theo dõi độ ẩm, ánh sáng, nhiệt độ, và một ứng dụng di động hướng dẫn chi tiết từng bước từ chăm sóc đến thu hoạch và chế biến sơ bộ (phơi, tách vỏ). Nền tảng trực tuyến kết nối cộng đồng người trồng, chia sẻ kinh nghiệm và có thể cung cấp dịch vụ thu mua hạt cà phê tươi để chế biến chu…",
+    "prototype_scope": "Bán bộ kit 'trồng cà phê mini' cho ban công/cửa sổ, bao gồm cây con, đất, chậu, và hướng dẫn cơ bản qua PDF. Tập trung vào trải nghiệm chăm sóc cây và thu hoạch vài quả."
+  },
+  {
+    "candidate_id": "BLIND_0090",
+    "domain": "Restaurant Services",
+    "title": "Đại Sứ Hương Vị : Dịch vụ Nhà hàng Bằng Đặt Tên Thực Vật Bí Ẩn",
+    "problem_or_desire": "Mong muốn sự phiêu lưu trong lựa chọn món ăn hàng ngày, thay vì phải lật đi lật lại menu quá rõ ràng. Niềm khao khát được 'khai quật' câu chuyện, nguồn gốc của mỗi thành phần trong món ăn một cách tinh tế, không phô trương.",
+    "core_concept": "Biến việc đặt món ăn thành một trải nghiệm khám phá, giải mã, và học hỏi về nguồn gốc nguyên liệu. Tạo ra sự tò mò và hứng thú cho khách hàng thông qua cách đặt tên và kể chuyện độc đáo.",
+    "proposed_approach": "Một dịch vụ giao đồ ăn cung cấp các món ăn với tên gọi gợi mở, mang tính 'bí ẩn' hoặc liên quan đến nguồn gốc nguyên liệu một cách tinh tế. Mỗi món ăn đi kèm một thẻ thông tin nhỏ chứa mã QR dẫn đến một trang web cung cấp tên món ăn thật, câu chuyện ngắn về nguồn gốc nguyên liệu chính, hoặc một 'mẹo' ẩm thực thú vị liên quan. Tập trung vào việc tạo ra sự tò mò và cung cấp thông tin giá trị, thay vì một hệ thống mã hóa phức tạp.",
+    "prototype_scope": "Một dịch vụ giao bữa trưa cho văn phòng, cung cấp 5-7 món ăn Á. Mỗi món sẽ có một tên gọi 'gợi mở' (ví dụ: 'Cơm Gà Lửa', 'Cá Hồi Hoàng Gia'). Đi kèm mỗi hộp cơm là một thẻ nhỏ có mã QR. Khi quét mã, khách hàng sẽ được dẫn đến một trang web đơn giản hiển thị tên món ăn thật, một câu chuyện ngắn (khoảng 50-100 từ) về nguồn gốc hoặc đặc điểm thú vị của nguyên liệu chính (ví dụ: 'Gà được nuôi thả vườn', 'Cá hồi từ vùng biển lạnh'), và một hình ảnh minh họa."
+  },
+  {
+    "candidate_id": "BLIND_0013",
+    "domain": "Edtech",
+    "title": "Chợ Cổ Sinh Thái Nội Tại",
+    "problem_or_desire": "Sự trừu tượng hóa của kiến thức lịch sử/sinh học sâu sắc khiến nó khó hình dung và thiếu đi sự đồng cảm sâu sắc với các quá trình vận động hàng triệu năm.",
+    "core_concept": "Một nền tảng học tập cá nhân hóa trải nghiệm học 'ngược dòng thời gian' qua một sinh vật/hiện tượng tồn tại qua hàng thiên niên kỷ, tương tác với các giai đoạn tiến hóa của nó để hiểu bài học.",
+    "proposed_approach": "Cung cấp các 'phòng thí nghiệm ảo' về các loài sinh vật bí ẩn (như trilobite, ammonite, cố đại khủng long ban đầu), hoặc các hiện tượng địa chất quan trọng (Vụ Great Dying), nơi người học tương tác ở các \"điểm khóa\" trong quá trình tiến hóa/biến đổi, nhận bài học lồng ghép.",
+    "prototype_scope": "Tạo một kiosk trải nghiệm mô phỏng sự sống và cái chết của một kỷ nguyên jurassic, yêu cầu người dùng thực hiện vài quyết định sinh tử nhỏ mang tính lịch sử."
+  },
+  {
+    "candidate_id": "BLIND_0014",
+    "domain": "Youtube & Tiktok Video Content",
+    "title": "Nguồn Năng Lượng Hết Giờ Cho Kênh Nhỏ & Trung Bình",
+    "problem_or_desire": "Hết ý tưởng khi sức lực và tài chính chỉ cho phép quay cảnh vật trong vòng không, sản xuất 'hiệu ứng sốc' đơn giản, chi phí paid promotions cho bài post còn leo thang nhanh trong khi bản thân không có chi phí 'big money' để 'hối lộ'.",
+    "core_concept": "Ý tưởng cốt lõi về việc cung cấp các công cụ hỗ trợ đơn giản, chi phí thấp, dựa trên AI để giúp các nhà sáng tạo nội dung nhỏ và vừa vượt qua giai đoạn cạn kiệt ý tưởng và năng lượng, đảm bảo sự liên tục trong sản xuất nội dung.",
+    "proposed_approach": "Một extension trình duyệt hoặc dashboard đơn giản cung cấp các gợi ý ý tưởng nội dung ngắn gọn (ví dụ: poll, câu hỏi tương tác, chủ đề cho story) dựa trên từ khóa hoặc lĩnh vực của người sáng tạo. Đồng thời, cung cấp các template chỉnh sửa video đơn giản hoặc gợi ý sử dụng tài nguyên miễn phí (stock footage, AI sound effects) để lấp đầy các khoảng trống trong video.",
+    "prototype_scope": "Một extension Chrome đơn giản. Khi người dùng nhập 3-5 từ khóa về chủ đề nội dung, extension sẽ gợi ý 3 loại ý tưởng: 1) Ý tưởng cho bài đăng/story nhanh (ví dụ: câu hỏi thăm dò ý kiến). 2) Gợi ý B-roll template (link tới các video stock miễn phí hoặc các mẫu video đơn giản có thể tùy chỉnh). 3) Gợi ý tiêu đề/hook line ngắn gọn."
+  }
+]

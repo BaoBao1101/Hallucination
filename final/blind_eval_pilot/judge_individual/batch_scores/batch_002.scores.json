@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "stage": "blind_individual_metric_judge",
+    "judge_model": "gemini-2.5-flash-lite",
+    "temperature": 0.0,
+    "top_p": 0.1,
+    "batch_source": "blind_eval_pilot\\batches\\batch_002.json",
+    "created_at": "2026-06-21T19:22:37"
+  },
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0014",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng độc đáo, giải quyết vấn đề giao tiếp nhạy cảm. MVP rõ ràng nhưng việc phân tích sâu sắc các sắc thái văn hóa và tôn giáo có thể là thách thức kỹ thuật."
+    },
+    {
+      "candidate_id": "BLIND_0010",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 2.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Khái niệm cá nhân hóa cà phê theo tâm trạng khá thú vị. MVP tập trung vào đề xuất thủ công là hợp lý, nhưng việc tích hợp dữ liệu sinh học và đề xuất chính xác cần nhiều nghiên cứu."
+    },
+    {
+      "candidate_id": "BLIND_0050",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Ý tưởng học tập lịch sử/sinh học qua trải nghiệm tương tác ngược dòng thời gian rất sáng tạo. MVP kiosk mô phỏng có vẻ khả thi nhưng việc tái hiện chân thực một kỷ nguyên là phức tạp."
+    },
+    {
+      "candidate_id": "BLIND_0020",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Công cụ sáng tạo ngôn ngữ giả tưởng với sự hỗ trợ của AI rất mới lạ và có MVP rõ ràng. Kỹ thuật khả thi và MVP tập trung vào các chức năng cốt lõi."
+    },
+    {
+      "candidate_id": "BLIND_0012",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 3.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Ý tưởng tạo 'phóng chiếu ảo' nhân vật lịch sử/người thân là hấp dẫn. MVP demo về nhà sử học có vẻ khả thi, nhưng việc mô phỏng tính cách và cảm xúc sâu sắc là thách thức lớn và có rủi ro đạo đức."
+    }
+  ]
+}

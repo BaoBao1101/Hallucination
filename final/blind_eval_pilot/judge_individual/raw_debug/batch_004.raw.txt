@@ -1,0 +1,84 @@
+{
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0056",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng dân chủ hóa làm phim bằng AI khá mới lạ và giải quyết được nỗi đau rõ ràng. MVP tập trung vào việc tạo mood video ngắn là hợp lý, tuy nhiên việc AI tạo ra hình ảnh động/video ngắn từ mô tả văn bản có thể gặp thách thức kỹ thuật."
+    },
+    {
+      "candidate_id": "BLIND_0031",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 2.5,
+        "mvp_clarity": 1.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 2.0,
+        "prototype_willingness": 2.5
+      },
+      "short_rationale": "Ý tưởng tạo nhạc theo yêu cầu bằng AI rất sáng tạo và giải quyết nhu cầu thực tế. Tuy nhiên, MVP chỉ gợi ý loop nhạc 10 giây từ màu sắc/âm thanh là quá đơn giản và không thể hiện được hết concept cốt lõi, đồng thời rủi ro về tính khả thi kỹ thuật để tạo ra nhạc chất lượng cao là đáng kể."
+    },
+    {
+      "candidate_id": "BLIND_0016",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Sự kết hợp giữa cà phê và di sản văn hóa/gia đình là một ý tưởng độc đáo và có tính kết nối cao. MVP rõ ràng, dễ thực hiện và mang lại giá trị trải nghiệm rõ rệt cho người dùng."
+    },
+    {
+      "candidate_id": "BLIND_0008",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng về cà phê tương tác mang lại trải nghiệm mới lạ, tuy nhiên 'tương tác' chủ yếu qua nội dung số thay vì đồ uống thực tế. MVP rõ ràng, dễ triển khai và cung cấp thông tin giá trị về nguồn gốc cà phê."
+    },
+    {
+      "candidate_id": "BLIND_0011",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 2.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Nền tảng chia sẻ ký ức cộng đồng có tính nhân văn và độc đáo. MVP tập trung vào việc đăng tải và gắn thẻ câu chuyện là hợp lý, tuy nhiên mô hình 'giao dịch' ký ức cần làm rõ hơn về giá trị và cách thức hoạt động để đảm bảo tính bền vững."
+    }
+  ]
+}

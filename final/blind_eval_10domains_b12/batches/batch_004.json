@@ -1,0 +1,110 @@
+[
+  {
+    "candidate_id": "BLIND_0053",
+    "domain": "Game Mobile",
+    "title": "Lãng Du Thiền Định: Trò Chơi Tối Giản Du Lịch & Sáng Tạo Nội Dung Tự Lập Trình",
+    "problem_or_desire": "Nhu cầu khám phá không gian tinh thần của bản thân một cách có chủ đích nhưng không thành kiến, tích hợp những trải nghiệm giác quan đời thực (du lịch, thiên nhiên) vào một không gian số để nâng tầm. Mong muốn tạo ra 'sản phẩm số' của riêng mình mang đậm dấu ấn cá nhân về sự bình an nội tâm.",
+    "core_concept": "Một tựa game casual nơi người chơi xây dựng và chia sẻ những 'phong cảnh nội tâm' bằng cách kết hợp các yếu tố thực tế (hình ảnh chuyến đi) và các quy tắc sáng tạo dựa trên triết học, để đạt đến trạng thái 'thiền định số'.",
+    "proposed_approach": "Game mô phỏng/xếp hình với kho tài nguyên (textures, âm thanh, cảm xúc placeholder) rút ra từ kho ảnh/video tự chụp của người chơi, hoặc từ kho \"thiên nhiên 3D\" được tạo sẵn, được quy đổi thành 'phân tử năng lượng tâm trạng'. Người chơi dùng các quy tắc 'họa sỹ' để sắp đặt các phân tử này, tự động hóa các đệ quy hình ảnh hoặc âm thanh phản ánh sự phát triển nội tâm của họ, có thể xuất bản tác phẩm. Gameplay dựa trên các nguyên lý dòng chảy (flow state) và chủ nghĩa khắc kỷ (…",
+    "prototype_scope": "Cho phép người chơi đưa 5 ảnh thực tế vào. Từ đó, game gợi ý 3 dạng texture ảnh, 2 âm thanh đi kèm, và 1 mẫu cảnh quan 3D cơ bản. Người chơi sắp xếp chúng dựa trên 3-4 nguyên tắc 'tương sinh/tương khắc tâm lý' có giải thích ngắn. Bảng trưng bày các cảnh quan hoàn chỉnh."
+  },
+  {
+    "candidate_id": "BLIND_0027",
+    "domain": "Online Business",
+    "title": "AI Trợ Lý Vũ Trụ Đa Vị Lai",
+    "problem_or_desire": "Nỗi sợ đưa ra quyết định sai lầm và ân hận về sau; áp lực thành công cá nhân trong một thế giới quá nhanh; mong muốn có trí tuệ 'tinh lọc' từ kinh nghiệm của tương lai.",
+    "core_concept": "Một trợ lý AI đồng hành, nơi người dùng tương tác với các phiên bản 'ai có thể có' trong tương lai của chính họ, để đưa ra quyết định cho hiện tại.",
+    "proposed_approach": "Giao diện web nơi người dùng mô tả một tình huống/lựa chọn hiện tại. AI đưa ra 'quan điểm' từ 3-5 phiên bản bạn của tương lai (ví dụ: 'bạn CEO 2040', 'bạn nghệ sĩ indie 2038', 'bạn nhà nghiên cứu tự do 2042'), mỗi phiên bản đưa ra lời khuyên dựa trên kịch bản giả định về hành trình của họ.",
+    "prototype_scope": "Cho phép người dùng nhập một câu hỏi về quyết định ('Nên chuyển ngành hay không?') và AI trả lời dưới góc nhìn duy nhất của 'chính bạn của tương lai muốn sống một cuộc đời nghệ thuật'."
+  },
+  {
+    "candidate_id": "BLIND_0083",
+    "domain": "Restaurant Services",
+    "title": "Học Viện Ẩm Thực Tương Lai: Nấu Ăn Với Robot Đồng Hành",
+    "problem_or_desire": "Sự nhàm chán trong các lớp học nấu ăn truyền thống, nỗi sợ mắc lỗi khi nấu ăn, mong muốn tiếp cận công nghệ mới trong lĩnh vực ẩm thực.",
+    "core_concept": "Một học viện nấu ăn kết hợp giữa con người và robot, nơi người học được hướng dẫn bởi robot đầu bếp thông minh và thực hành trên các thiết bị nấu ăn tự động.",
+    "proposed_approach": "Học viện trang bị các trạm nấu ăn cá nhân với robot hỗ trợ (cắt, trộn, đo lường chính xác) và màn hình tương tác hiển thị hướng dẫn từng bước từ robot 'giáo viên'. Robot có thể điều chỉnh độ khó, đưa ra phản hồi tức thì và chấm điểm quá trình thực hành.",
+    "prototype_scope": "Thiết lập một trạm nấu ăn demo với một robot đơn giản (ví dụ: cánh tay robot hỗ trợ cắt thái) và một màn hình hướng dẫn. Tập trung vào một vài khóa học cơ bản (ví dụ: làm bánh quy, món Âu đơn giản)."
+  },
+  {
+    "candidate_id": "BLIND_0005",
+    "domain": "Online Business",
+    "title": "Thư Viện Ký Ức Tương Lai",
+    "problem_or_desire": "Mong muốn ghi lại và theo dõi sự phát triển cá nhân, nhu cầu về một công cụ để giữ lời hứa với bản thân, sự tò mò về việc phiên bản tương lai của mình sẽ ra sao, hoặc mong muốn để lại một dấu ấn cá nhân cho thế hệ sau.",
+    "core_concept": "Một nền tảng trực tuyến cho phép người dùng tạo ra và lưu trữ các 'ký ức tương lai' được cá nhân hóa (ví dụ: lời nhắn cho chính mình trong 10 năm tới, kế hoạch cho một sự kiện quan trọng, hoặc tầm nhìn về cuộc sống lý tưởng), được trình bày dưới dạng đa phương tiện và có thể truy cập vào thời điểm xác định.",
+    "proposed_approach": "Người dùng tạo một 'ký ức tương lai' bằng cách ghi âm giọng nói, viết văn bản, tải lên hình ảnh/video, hoặc tạo các bản vẽ. Họ đặt một ngày/thời điểm cụ thể trong tương lai để 'ký ức' này được gửi đến họ (hoặc người nhận được chỉ định). Nền tảng đảm bảo lưu trữ an toàn và gửi đi đúng hạn.",
+    "prototype_scope": "Một trang web đơn giản cho phép người dùng viết một tin nhắn văn bản, đặt ngày gửi (trong vòng 1 năm tới) và nhập email của họ. Tin nhắn sẽ được gửi qua email vào ngày đã chọn."
+  },
+  {
+    "candidate_id": "BLIND_0111",
+    "domain": "Online Business",
+    "title": "Nhà Máy Cảm Xúc Số",
+    "problem_or_desire": "Sự khó khăn trong việc nhận diện, gọi tên và quản lý các trạng thái cảm xúc phức tạp. Nhu cầu về các công cụ hỗ trợ tinh thần cá nhân hóa, dễ tiếp cận và không mang tính y tế truyền thống.",
+    "core_concept": "Một dịch vụ trực tuyến tạo ra các 'bản đồ cảm xúc' cá nhân hóa và các 'liều thuốc cảm xúc' kỹ thuật số (âm thanh, hình ảnh, văn bản) để giúp người dùng điều hướng và cân bằng trạng thái tinh thần của họ.",
+    "proposed_approach": "Người dùng tương tác với một chatbot AI để mô tả trạng thái cảm xúc hiện tại hoặc mong muốn. AI phân tích đầu vào và tạo ra một 'bản đồ cảm xúc' trực quan (ví dụ: biểu đồ màu sắc, hình ảnh trừu tượng) và một 'liều thuốc cảm xúc' kỹ thuật số cá nhân hóa (ví dụ: một bản nhạc ambient được tạo riêng, một chuỗi hình ảnh động thư giãn, hoặc một đoạn văn bản truyền cảm hứng).",
+    "prototype_scope": "Một chatbot đơn giản cho phép người dùng chọn từ một danh sách các trạng thái cảm xúc cơ bản (vui, buồn, giận, lo lắng) và nhận về một hình ảnh tĩnh hoặc một đoạn nhạc ngắn được tạo ra tương ứng."
+  },
+  {
+    "candidate_id": "BLIND_0032",
+    "domain": "Restaurant Services",
+    "title": "Bếp Trưởng Tạm Thời: Ẩm Thực Theo Tâm Trạng",
+    "problem_or_desire": "Mong muốn được ăn ngon, được chăm sóc, được thưởng thức món ăn 'đúng ý' vào đúng thời điểm mà không cần phải tự tay làm hoặc ra ngoài.",
+    "core_concept": "Dịch vụ cung cấp đầu bếp cá nhân 'tạm thời' đến tận nhà, chuyên chế biến món ăn dựa trên tâm trạng và yêu cầu tức thời của khách hàng.",
+    "proposed_approach": "Khách hàng đặt lịch qua ứng dụng, mô tả tâm trạng (ví dụ: 'thèm đồ cay ấm bụng', 'muốn ăn gì đó nhẹ nhàng, thanh đạm', 'cần một bữa ăn thịnh soạn để đãi khách đột xuất'). Ứng dụng ghép nối với đầu bếp có kỹ năng phù hợp và sẵn sàng. Đầu bếp đến nhà, mua nguyên liệu (hoặc khách chuẩn bị), và nấu ăn tại chỗ.",
+    "prototype_scope": "Tập trung vào một khu vực địa lý nhỏ, tuyển chọn một nhóm đầu bếp có kỹ năng đa dạng. Cho phép đặt lịch trước ít nhất 24 giờ với các tùy chọn tâm trạng/món ăn cơ bản."
+  },
+  {
+    "candidate_id": "BLIND_0073",
+    "domain": "Online Business",
+    "title": "Thư Viện Ký Ức Tương Lai",
+    "problem_or_desire": "Mong muốn ghi lại và theo dõi sự phát triển cá nhân, nhu cầu về một công cụ để giữ lời hứa với bản thân, sự tò mò về việc phiên bản tương lai của mình sẽ ra sao, hoặc mong muốn để lại một dấu ấn cá nhân cho thế hệ sau.",
+    "core_concept": "Một nền tảng trực tuyến cho phép người dùng tạo ra và lưu trữ các 'ký ức tương lai' được cá nhân hóa (ví dụ: lời nhắn cho chính mình trong 10 năm tới, kế hoạch cho một sự kiện quan trọng, hoặc tầm nhìn về cuộc sống lý tưởng), được trình bày dưới dạng đa phương tiện và có thể truy cập vào thời điểm xác định.",
+    "proposed_approach": "Người dùng tạo một 'ký ức tương lai' bằng cách ghi âm giọng nói, viết văn bản, tải lên hình ảnh/video, hoặc tạo các bản vẽ. Họ đặt một ngày/thời điểm cụ thể trong tương lai để 'ký ức' này được gửi đến họ (hoặc người nhận được chỉ định). Nền tảng đảm bảo lưu trữ an toàn và gửi đi đúng hạn.",
+    "prototype_scope": "Một trang web đơn giản cho phép người dùng viết một tin nhắn văn bản, đặt ngày gửi (trong vòng 1 năm tới) và nhập email của họ. Tin nhắn sẽ được gửi qua email vào ngày đã chọn."
+  },
+  {
+    "candidate_id": "BLIND_0100",
+    "domain": "Edtech",
+    "title": "Ngân Hàng Giấc Mơ Học Tập",
+    "problem_or_desire": "Cảm giác lãng phí thời gian tiềm năng trong giấc ngủ, mong muốn có được các bước đột phá sáng tạo hoặc thấu hiểu các chủ đề khó một cách 'tự nhiên' hơn.",
+    "core_concept": "Một dịch vụ AI cá nhân hóa cung cấp các trải nghiệm giấc mơ tiền lập trình như một công cụ học hỏi bí mật trong lúc ngủ, tập trung vào kỹ năng, công thức hay từ vựng phức tạp.",
+    "proposed_approach": "Người dùng thiết lập mục tiêu học (ví dụ: cấu trúc dữ liệu, cấu pháp ngữ pháp nâng cao, biểu diễn nhạc lý trừu tượng). AI sẽ tạo 'kịch bản' giấc mơ, 'chiếu phim' qua các luồng âm thanh lặp lại, âm điệu đặc trưng có khả năng tương tác với hệ thống cảm xúc và logic thụ động của não bộ người đang ngủ.",
+    "prototype_scope": "Một app đêm đơn giản thử nghiệm tạo tiếng động và tone giọng lặp lại từ từ tăng cường phức mắc, với hy vọng hỗ trợ ghi nhớ 10 từ mới vào ngày hôm sau."
+  },
+  {
+    "candidate_id": "BLIND_0110",
+    "domain": "Coffee Services",
+    "title": "Cafe Dịch Chuyển Giác Quan (Synesthesia Coffee)",
+    "problem_or_desire": "Sự nhàm chán trong cách miêu tả và thưởng thức cà phê; mong muốn phá vỡ rào cản của một giác quan duy nhất và bước vào thế giới mới của trải nghiệm liên giác quan.",
+    "core_concept": "Tái định nghĩa hương vị cà phê, trải nghiệm thực sự việc 'nhìn thấy âm thanh' và 'nghe thấy màu sắc' thông qua cafe được tinh chỉnh để gợi lên các trải nghiệm giao thoa giác quan độc đáo, dựa trên khoa học.",
+    "proposed_approach": "Phối hợp với chuyên gia âm nhạc (neuroscience-based composer) và chuyên gia pha chế (food scientist barista) để tạo ra 'menu mùa theo tần số' hay 'bản giao hưởng caffeinated'. Mỗi ly cà phê sẽ được gọi tên hoặc miêu tả theo các hiện tượng giao thoa giác quan (\"Nốt Sol thăng - Cam đất rung động\", \"Mảng Màu tím êm ái, thoảng mùi khói\"). Tác động tần số nhẹ nhàng qua hệ thống âm thanh quán (âm thanh tối thiểu, được mã hóa để cộng hưởng vị giác).",
+    "prototype_scope": "Chọn lọc một vài \"điểm nốt hương chính\" (ví dụ hạt robusta có mùi đất sẽ liên kết với nốt Sol bass sâu, hay hạt Arabica wash tươi có mùi trái cây với nốt Fa trong \"C-Major\") để phát triển thành 3-4 loại cocktail cafe/mocktail độc đáo dựa trên âm nhạc ứng dụng cơ bản nhất (chỉ sử dụng quy tắc kết hợp cung & ngũ cung."
+  },
+  {
+    "candidate_id": "BLIND_0008",
+    "domain": "Online Business",
+    "title": "Sân Khấu Hội Ngộ Của Ký Ức",
+    "problem_or_desire": "Sự cô đơn thế hệ; cảm giác lãng quên, mất mát khi các nền tảng mạng xã hội trở nên quá ồn ào và nông cạn; mong muốn tái kết nối với chính mình hoặc người khác thông qua dòng chảy thời gian.",
+    "core_concept": "Nền tảng kết nối mọi người thông qua việc gợi lại và chia sẻ những khoảnh khắc ký ức số chung, mang lại cảm giác hoài niệm, kết nối và tự nhận thức.",
+    "proposed_approach": "Một nền tảng web/app cho phép người dùng kết nối các tài khoản mạng xã hội và dịch vụ lưu trữ ảnh cũ (ví dụ: Facebook, Google Photos) để hệ thống gợi ý các 'giao điểm ký ức' tiềm năng giữa họ và những người dùng khác (hoặc với chính họ trong quá khứ). Tập trung vào việc gợi ý các sự kiện, địa điểm, hoặc nội dung tương đồng dựa trên dữ liệu có sẵn, nhằm khơi gợi sự hoài niệm và kết nối ban đầu.",
+    "prototype_scope": "Một ứng dụng web đơn giản cho phép hai người dùng nhập ID ẩn danh hoặc liên kết tài khoản mạng xã hội (chỉ đọc dữ liệu công khai hoặc được phép). Hệ thống sẽ phân tích lịch sử vị trí địa lý và các bài đăng có gắn thẻ địa điểm để tìm ra các địa điểm chung mà cả hai đã từng ghé thăm, hiển thị danh sách các địa điểm này và tần suất xuất hiện."
+  },
+  {
+    "candidate_id": "BLIND_0087",
+    "domain": "Edtech",
+    "title": "Trường Học Đa Chiều Thời Gian",
+    "problem_or_desire": "Sự nhàm chán với sách giáo khoa lịch sử khô khan, khó hình dung về cuộc sống quá khứ. Mong muốn 'sống' lại lịch sử thay vì chỉ đọc về nó.",
+    "core_concept": "Một nền tảng giáo dục cho phép người học du hành thời gian ảo để trải nghiệm các sự kiện lịch sử, khoa học, hoặc văn hóa từ góc nhìn của những người đã sống trong thời đại đó.",
+    "proposed_approach": "Người học đeo kính VR và được đưa đến một bối cảnh lịch sử cụ thể (ví dụ: Athens cổ đại, Paris thời Phục hưng, phòng thí nghiệm của Marie Curie). Họ có thể đi lại, quan sát, lắng nghe, và tương tác với các nhân vật AI được lập trình để phản ánh tư tưởng, ngôn ngữ, và kiến thức của thời đại đó. Các nhiệm vụ học tập được lồng ghép vào trải nghiệm.",
+    "prototype_scope": "Một trải nghiệm VR ngắn cho phép người học tham quan một khu chợ La Mã cổ đại, tương tác với 3-4 người bán hàng AI và học 5-10 từ vựng Latin thông dụng."
+  },
+  {
+    "candidate_id": "BLIND_0010",
+    "domain": "Online Business",
+    "title": "Thư Viện Giấc Mơ Tùy Chỉnh",
+    "problem_or_desire": "Mong muốn kiểm soát hoặc định hình trải nghiệm giấc mơ, sự tò mò về tiềm thức, nhu cầu về một hình thức giải trí hoàn toàn mới lạ và cá nhân hóa, hoặc mong muốn thoát ly khỏi thực tại một cách an toàn.",
+    "core_concept": "Một nền tảng trực tuyến cho phép người dùng thiết kế, ghi lại và trải nghiệm những giấc mơ được cá nhân hóa thông qua các yếu tố âm thanh, hình ảnh và kể chuyện được AI tạo ra.",
+    "proposed_approach": "Một ứng dụng web/di động nơi người dùng chọn chủ đề, cảm xúc, nhân vật, bối cảnh và các yếu tố khác. AI sẽ tạo ra một 'kịch bản giấc mơ' dưới dạng chuỗi âm thanh, hình ảnh động đơn giản và văn bản dẫn chuyện, được thiết kế để phát trong khi ngủ (có thể qua tai nghe đặc biệt hoặc loa phát âm thanh nhẹ nhàng).",
+    "prototype_scope": "Một công cụ tạo kịch bản giấc mơ đơn giản dựa trên các mẫu có sẵn (ví dụ: 'Giấc mơ phiêu lưu trong rừng', 'Giấc mơ thư giãn trên bãi biển') với âm thanh nền và hình ảnh tĩnh được AI tạo ra."
+  }
+]

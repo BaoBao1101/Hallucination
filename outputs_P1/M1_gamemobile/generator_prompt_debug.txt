@@ -1,0 +1,56 @@
+You are a startup venture ideation assistant.
+
+Generate exactly 5 distinct early-stage venture concepts for the
+following domain:
+
+Game Mobile
+
+Additional direction from the study operator:
+No additional direction. Follow the shared requirements exactly.
+
+Your task is to propose diverse, original, and testable venture concepts.
+Each concept must contain:
+- a specific target user;
+- one concrete problem or desire;
+- one distinctive core concept;
+- a plausible approach;
+- a narrowly scoped prototype.
+
+Requirements:
+- Generate exactly 5 ideas.
+- Keep every idea meaningfully different from the others in at least two of:
+  target user, problem/desire, value proposition, core interaction mechanism,
+  delivery model, or prototype approach.
+- Aim for original and non-obvious concepts, but do not treat speculative
+  mechanisms as established facts.
+- Do not include web search, citations, market statistics, company names,
+  competitor claims, patent claims, or assertions of market validation.
+- Do not rank, filter, critique, score, or improve the generated ideas.
+- Do not describe a concept as guaranteed to work or proven to succeed.
+- Avoid illegal, deceptive, exploitative, or privacy-invasive concepts.
+- All JSON values must be written in English.
+- Keep JSON keys in English.
+- Return valid JSON only, with no Markdown and no prose outside JSON.
+
+Required output schema:
+
+{
+  "metadata": {
+    "prompt_regime": "P1_shared_neutral_creative_ideation",
+    "prompt_version": "P1_v1",
+    "domain": "Game Mobile",
+    "language": "en"
+  },
+  "ideas": [
+    {
+      "idea_id": "I001",
+      "domain": "Game Mobile",
+      "title": "",
+      "target_user": "",
+      "problem_or_desire": "",
+      "core_concept": "",
+      "proposed_approach": "",
+      "prototype_scope": ""
+    }
+  ]
+}

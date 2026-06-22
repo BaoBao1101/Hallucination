@@ -1,0 +1,84 @@
+{
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0023",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng về metaverse cộng tác định hình không gian ảo khá mới lạ và hấp dẫn. MVP rõ ràng, nhưng việc AI tổng hợp đóng góp để tạo cảnh quan động có thể là thách thức kỹ thuật."
+    },
+    {
+      "candidate_id": "BLIND_0019",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 3.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 2.5,
+        "mvp_clarity": 2.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 3.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 2.5,
+        "prototype_willingness": 2.5
+      },
+      "short_rationale": "Kết hợp cà phê với di sản gia đình là ý tưởng thú vị, nhưng MVP 'gói di sản ảo' với AI 'thôi miên' và pha cà phê cổ rất khó hiểu và khó thực hiện. Mô tả về nội dung ví và cách AI hoạt động còn mơ hồ."
+    },
+    {
+      "candidate_id": "BLIND_0037",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.5,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng về thế giới kịch bản sống động với AI phản ứng linh hoạt rất hấp dẫn và có tiềm năng lớn. MVP rõ ràng, tập trung vào tương tác văn bản với nhân vật AI, khả thi để thử nghiệm."
+    },
+    {
+      "candidate_id": "BLIND_0049",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Ứng dụng WebAR kể chuyện lịch sử qua âm thanh kích hoạt vị trí rất sáng tạo và giải quyết tốt nhu cầu khám phá sâu hơn. MVP rõ ràng, khả thi kỹ thuật và có thể triển khai nhanh chóng."
+    },
+    {
+      "candidate_id": "BLIND_0003",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Bộ kit trồng cà phê thông minh với IoT và AI là một ý tưởng thú vị, giải quyết nhu cầu về cà phê bền vững và trải nghiệm tự làm. MVP tập trung vào hướng dẫn cơ bản và cộng đồng, khả thi và rõ ràng."
+    }
+  ]
+}

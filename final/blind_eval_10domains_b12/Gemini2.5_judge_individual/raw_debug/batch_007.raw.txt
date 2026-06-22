@@ -1,0 +1,196 @@
+{
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0018",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 3.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng mới lạ, kết hợp phân tích giấc mơ với AI sáng tạo. MVP rõ ràng nhưng việc AI tạo ra hình ảnh/âm thanh/câu chuyện chất lượng cao từ mô tả giấc mơ còn là thách thức kỹ thuật."
+    },
+    {
+      "candidate_id": "BLIND_0044",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Concept quán cà phê kết hợp động vật và không gian thư giãn có tính khả thi cao. MVP rõ ràng, tập trung vào trải nghiệm thụ động và ẩm thực nhẹ nhàng, giảm thiểu rủi ro về đạo đức và kỹ thuật."
+    },
+    {
+      "candidate_id": "BLIND_0096",
+      "scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Ý tưởng kết nối hành vi xanh với phần thưởng rõ ràng rất hấp dẫn và có tính khả thi. MVP tập trung vào hệ thống tích điểm đơn giản và xác nhận thủ công, dễ dàng thử nghiệm."
+    },
+    {
+      "candidate_id": "BLIND_0102",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Game idle kết hợp ASMR và chiêm nghiệm là một ý tưởng độc đáo, giải quyết nhu cầu thư giãn. MVP rất rõ ràng, tập trung vào việc thu thập văn bản triết lý đơn giản và hiệu ứng âm thanh."
+    },
+    {
+      "candidate_id": "BLIND_0026",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Ứng dụng học lịch sử qua AR có tiềm năng sáng tạo. Tuy nhiên, MVP chỉ giới hạn ở mô hình 3D đơn giản và quiz, chưa thể hiện rõ trải nghiệm AR nhập vai."
+    },
+    {
+      "candidate_id": "BLIND_0088",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Dịch vụ tối ưu bio cho creator là một nhu cầu thực tế. MVP tập trung vào việc AI gợi ý tiêu đề và bio dựa trên từ khóa, có thể thử nghiệm được."
+    },
+    {
+      "candidate_id": "BLIND_0056",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Game mobile thu thập và lai tạo cảm xúc là một ý tưởng độc đáo và có chiều sâu. MVP với các cảm xúc cơ bản, cơ chế lai tạo đơn giản và vài màn giải đố là khả thi."
+    },
+    {
+      "candidate_id": "BLIND_0071",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.0,
+        "prototype_willingness": 3.0
+      },
+      "short_rationale": "AI huấn luyện giao tiếp theo phong cách kịch tính là ý tưởng mới lạ, nhưng MVP chỉ dừng ở việc phân tích giọng điệu và đưa ra biến thể câu thoại, chưa rõ ràng về cách huấn luyện kịch tính."
+    },
+    {
+      "candidate_id": "BLIND_0038",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 3.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Nền tảng kết nối qua ký ức số là ý tưởng độc đáo, giải quyết nỗi cô đơn thế hệ. MVP chỉ tập trung vào lịch sử vị trí/nhạc, chưa khai thác hết tiềm năng kết nối ký ức đa dạng."
+    },
+    {
+      "candidate_id": "BLIND_0075",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "AI sáng tác âm thanh môi trường theo yêu cầu là ý tưởng thú vị, giải quyết sự nhàm chán của playlist cố định. MVP với các chủ đề định sẵn và đoạn âm thanh 5 phút là rõ ràng và khả thi."
+    },
+    {
+      "candidate_id": "BLIND_0069",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Trợ lý sáng tạo cho creator nhỏ là một ý tưởng thực tế, giải quyết vấn đề cạn kiệt ý tưởng và ngân sách. MVP với plugin gợi ý nội dung và liên kết tài nguyên miễn phí là rõ ràng."
+    },
+    {
+      "candidate_id": "BLIND_0107",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Game giải đố 2D giải mã cảm xúc là một concept độc đáo, mang tính nghệ thuật cao. MVP với vài màn chơi tập trung vào cảm xúc cơ bản và bộ mảnh ghép giới hạn là khả thi."
+    }
+  ]
+}

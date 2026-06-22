@@ -1,0 +1,47 @@
+[
+  {
+    "candidate_id": "BLIND_0056",
+    "domain": "Entertainment Services",
+    "title": "Nhà Sản Xuất Mơ Mộng",
+    "problem_or_desire": "Mất ngủ ý tưởng do không đủ kỹ năng/nguồn lực làm phim; nỗi đau khi ý tưởng hay chỉ nằm trong đầu, không biến thành hình ảnh chân thực; mong muốn sáng tạo một cách nhanh chóng, dễ dàng và có thể chia sẻ rộng rãi.",
+    "core_concept": "Ý tưởng cốt lõi về việc dân chủ hóa việc làm phim, cho phép người dùng có ý tưởng nhưng thiếu kỹ năng/nguồn lực có thể biến ý tưởng đó thành video ngắn một cách dễ dàng thông qua AI. Khai thác nhu cầu sáng tạo nội dung video nhanh chóng và độc đáo.",
+    "proposed_approach": "Một công cụ tạo video ngắn dựa trên AI, cho phép người dùng nhập các yếu tố chính (nhân vật, địa điểm, hành động, cảm xúc chủ đạo). AI sẽ tạo ra một chuỗi các hình ảnh động ngắn (cinemagraphs) hoặc các đoạn video ngắn (khoảng 10-30 giây) tập trung vào việc thể hiện 'mood' và các yếu tố chính đã nhập. Sản phẩm cuối cùng có thể là một slideshow video được ghép nối đơn giản với nhạc nền, hoặc một chuỗi các cảnh ngắn có thể tùy chỉnh thêm bởi người dùng. MVP sẽ tập trung vào việ…",
+    "prototype_scope": "Một ứng dụng web cho phép người dùng chọn một bối cảnh (ví dụ: 'quán cà phê', 'công viên'), chọn 2 nhân vật (từ thư viện có sẵn hoặc mô tả đơn giản), và nhập một hành động/cảm xúc chính (ví dụ: 'hai người trò chuyện vui vẻ', 'một người đang suy tư'). AI sẽ tạo ra 2-3 đoạn video ngắn (khoảng 5-10 giây mỗi đoạn) thể hiện cảnh đó, có thể ghép lại thành một video ngắn 20-30 giây với nhạc nền đơn giản. Không có facial animation phức tạp hay narrative mạch lạc."
+  },
+  {
+    "candidate_id": "BLIND_0031",
+    "domain": "Entertainment Services",
+    "title": "Nhà Giả Kim Lời Bài",
+    "problem_or_desire": "Nhu cầu lớn về âm nhạc original mang đậm dấu ấn cá nhân hoặc thương hiệu nhưng không đủ tiền thuê nhạc sĩ chuyên nghiệp.",
+    "core_concept": "Dịch vụ độc nhất sáng tạo ca khúc hit theo yêu cầu cho cá nhân, ban nhạc nhỏ, influencer, bằng cách phân tích sâu (AI) dữ liệu phong cách âm nhạc họ ưa thích, xu hướng thị trường & thông điệp muốn truyền tải.",
+    "proposed_approach": "Người dùng nhập vào dữ liệu ban đầu: VD \"Mình thích black metal của ban Ghost và rap trap của G-Eazy\", muốn bài hát thể hiện sự cô đơn khi làm việc khuya. Chọn giới tính giọng hát, độ tuổi, sở thích về độ phức tạp melody/beat. Hệ thống AI phân tích phong cách người dùng qua (optionally) link nhạc sẵn có/file nhạc upload, kết hợp thông tin về bài nhạc 'xu hướng' của genre. Sau vài rounds confirm (hook giai điệu, cấu trúc bài), AI viết lời, lên nhạc cụ, chỉnh sửa và xuất ra fi…",
+    "prototype_scope": "Công cụ cho phép người dùng chọn 3 màu sắc và 2 âm thanh 'cảm hứng'. AI gợi ý một loop nhạc nền 10 giây theo 'mood' chung dựa trên nghiên cứu màu sắc - âm thanh."
+  },
+  {
+    "candidate_id": "BLIND_0016",
+    "domain": "Coffee Services",
+    "title": "Ancestral Coffee Timekeepers (ACT)",
+    "problem_or_desire": "Cảm giác đứt gãy kết nối với cội nguồn, mong muốn tưởng nhớ và gìn giữ di sản văn hóa/lịch sử gia đình theo một cách ý nghĩa và sống động.",
+    "core_concept": "Kết nối trải nghiệm uống cà phê với di sản, lịch sử gia đình và văn hóa địa phương thông qua các bộ kit bao gồm cà phê, nội dung kể chuyện (âm thanh, hình ảnh) và dụng cụ pha chế gợi nhớ quá khứ.",
+    "proposed_approach": "Các bộ kit cà phê 'Di sản' (Heritage Coffee Kits), mỗi bộ bao gồm: hạt cà phê từ một vùng có lịch sử hoặc di sản văn hóa đặc trưng, một playlist nhạc gợi nhớ thời kỳ đó, và một 'sổ tay kể chuyện' (story journal) với các mẩu chuyện lịch sử, văn hóa địa phương hoặc câu chuyện gia đình liên quan. Có thể kèm theo một dụng cụ pha chế đơn giản mang phong cách cổ điển.",
+    "prototype_scope": "Tạo ra 3-5 loại 'Heritage Coffee Kits' khác nhau, mỗi loại tập trung vào một vùng địa lý hoặc một giai đoạn lịch sử cụ thể (ví dụ: 'Cà phê Cầu Đất xưa', 'Cà phê Sài Gòn thập niên 60'). Mỗi kit bao gồm: 1 gói cà phê specialty, 1 playlist nhạc (qua mã QR), và 1 cuốn sổ nhỏ chứa các mẩu chuyện lịch sử/văn hóa và hình ảnh minh họa."
+  },
+  {
+    "candidate_id": "BLIND_0008",
+    "domain": "Coffee Services",
+    "title": "Sentient Sips: AI Coffee Pal",
+    "problem_or_desire": "Mong muốn đồ uống cá nhân không chỉ để thưởng thức mà còn 'tương tác', mang lại trải nghiệm thú vị và đôi khi là \"yếu tố bất ngờ\" thông minh, thoát ly khỏi sự đơn điệu.",
+    "core_concept": "Tạo ra trải nghiệm cà phê tương tác, mang tính cá nhân hóa cao, nơi đồ uống có thể 'giao tiếp' hoặc cung cấp thông tin thú vị cho người dùng.",
+    "proposed_approach": "Một dòng cà phê đặc biệt đi kèm với một ứng dụng di động hoặc một thiết bị tương tác nhỏ. Ứng dụng này sẽ cung cấp các câu chuyện thú vị, thông tin về nguồn gốc cà phê, hoặc các gợi ý cá nhân hóa dựa trên sở thích đã lưu của người dùng. Thay vì đồ uống 'nói chuyện', công nghệ sẽ hỗ trợ trải nghiệm thưởng thức.",
+    "prototype_scope": "Một bộ kit cà phê đặc sản bao gồm: túi cà phê chất lượng cao, một mã QR dẫn đến một trang web/ứng dụng di động. Trang web/ứng dụng này sẽ chứa: thông tin chi tiết về nguồn gốc hạt cà phê, câu chuyện về người nông dân, các playlist nhạc gợi ý theo 'mood' của cà phê, và một tính năng 'nhật ký cà phê' để người dùng ghi lại cảm nhận của mình. Có thể thêm một tính năng chatbot đơn giản để trả lời các câu hỏi thường gặp về cà phê."
+  },
+  {
+    "candidate_id": "BLIND_0011",
+    "domain": "Web App For Community Services",
+    "title": "Chợ Ký Ức Cộng Đồng",
+    "problem_or_desire": "Nỗi sợ ký ức bị lãng quên, mong muốn để lại di sản tinh thần, khát khao tìm kiếm sự đồng cảm và bài học từ người khác một cách chân thực.",
+    "core_concept": "Một nền tảng web cho phép người dùng chia sẻ, trao đổi và 'giao dịch' các ký ức, câu chuyện, kinh nghiệm cá nhân có giá trị tinh thần hoặc bài học cuộc sống cho cộng đồng.",
+    "proposed_approach": "Web app với giao diện trực quan cho phép người dùng ghi lại ký ức dưới dạng văn bản, âm thanh, hình ảnh. Có hệ thống 'tagging' cảm xúc, bài học, địa điểm. Người dùng có thể 'ủng hộ' ký ức họ thấy giá trị bằng 'điểm tương tác' hoặc 'lời cảm ơn', và có thể 'yêu cầu' người khác chia sẻ ký ức về một chủ đề cụ thể.",
+    "prototype_scope": "Cho phép người dùng đăng tải câu chuyện cá nhân (văn bản) và gắn thẻ chủ đề/bài học. Người dùng khác có thể 'like' và bình luận."
+  }
+]

@@ -1,0 +1,344 @@
+{
+  "metadata": {
+    "pipeline": "CHVD",
+    "version": "v5.4",
+    "stage": "zero_temperature_hallucination_distiller_to_realistic_mvp",
+    "language": "vi",
+    "evaluation_mode": "prompt_only_internal_logic_hallucination_distillation",
+    "description": "Tách creative core khỏi hallucinated overclaim, hiện thực hóa thành MVP khả thi hơn, không dùng corpus/evidence scoring.",
+    "normalized_at": "2026-06-21T20:08:29",
+    "filter_model": "gemini-2.5-flash-lite",
+    "filter_temperature": 0.0,
+    "filter_top_p": 0.1,
+    "input_file": "outputs_v5_3\\ideas_raw_vi.json",
+    "source_generator_metadata": {
+      "pipeline": "CHVD",
+      "version": "v5.3",
+      "domain": "Game Mobile",
+      "language": "vi",
+      "mode": "prompt_only_no_corpus_no_weak_signals",
+      "temperature_role": "maximal_divergent_creativity",
+      "stage": "high_temperature_creative_hallucination_generator",
+      "saved_at": "2026-06-21T19:45:22",
+      "generator_model": "gemini-2.5-flash-lite",
+      "generator_temperature": 2.0,
+      "generator_top_p": 0.99,
+      "user_prompt": ""
+    },
+    "raw_filter_text": "{\n  \"metadata\": {\n    \"pipeline\": \"CHVD\",\n    \"version\": \"v5.4\",\n    \"stage\": \"zero_temperature_hallucination_distiller_to_realistic_mvp\",\n    \"language\": \"vi\",\n    \"evaluation_mode\": \"prompt_only_internal_logic_hallucination_distillation\",\n    \"description\": \"Tách creative core khỏi hallucinated overclaim, hiện thực hóa thành MVP khả thi hơn, không dùng corpus/evidence scoring.\"\n  },\n  \"evaluations\": [\n    {\n      \"idea_id\": \"I001\",\n      \"idea_name\": \"Lãng Du Thiền Định: Trò Chơi Tối Giản Du Lịch & Sáng Tạo Nội Dung Tự Lập Trình\",\n      \"raw_hallucination_summary\": \"Ý tưởng này có những phần mang tính suy đoán cao về việc tạo ra 'nền văn hóa số tâm linh' thực thụ và khả năng thuật toán 'đo lường' mức độ chánh niệm. Việc hành vi ứng dụng triết học theo quy tắc game có phản ánh sự 'an yên' thật sự và mức độ sẵn sàng thanh toán cho 'không gian tự chữa lành kỹ thuật số' vẫn chưa được kiểm chứng.\",\n      \"creative_core_to_preserve\": \"Kết hợp trải nghiệm du lịch thực tế (ảnh, video) với sáng tạo nội dung số để tạo ra không gian thiền định cá nhân, nơi người chơi sắp đặt các yếu tố cảm xúc để dệt nên 'phong cảnh nội tâm'.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Khả năng tạo ra 'nền văn hóa số tâm linh' thực thụ.\",\n        \"Thuật toán có khả năng 'đo lường' và mô phỏng mức độ chánh niệm.\",\n        \"Khẳng định hành vi ứng dụng triết học theo quy tắc game sẽ phản ánh sự 'an yên' thật sự.\",\n        \"Khẳng định mức độ sẵn sàng thanh toán cho 'không gian tự chữa lành kỹ thuật số'.\"\n      ],\n      \"realistic_reframing\": \"Một game mobile casual cho phép người chơi sử dụng ảnh và video từ chuyến đi của họ để tạo ra các 'không gian nội tâm' tĩnh lặng. Người chơi sắp xếp các yếu tố hình ảnh và âm thanh theo các quy tắc đơn giản dựa trên triết lý zen để tạo ra các cảnh quan số mang tính cá nhân. Sản phẩm tập trung vào trải nghiệm sáng tạo và thư giãn, không hứa hẹn đo lường chánh niệm hay xây dựng văn hóa tâm linh.\",\n      \"practical_mvp\": \"Một sandbox 'họa sĩ tĩnh lặng' nơi người chơi có thể upload 1 ảnh từ điện thoại. Game sẽ tự động gợi ý 2-3 texture ảnh và 1 đoạn nhạc nền dựa trên ảnh đó. Người chơi có thể sắp xếp các yếu tố này trên một khung cảnh 3D đơn giản và lưu lại tác phẩm của mình. Có chức năng chia sẻ tác phẩm qua link.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Phát triển giao diện upload ảnh và chọn nhạc nền.\",\n        \"Tích hợp thuật toán đơn giản để gợi ý texture và âm thanh dựa trên ảnh đầu vào.\",\n        \"Xây dựng hệ thống sắp xếp các yếu tố trên một khung cảnh 3D cơ bản.\",\n        \"Triển khai chức năng lưu và chia sẻ tác phẩm.\"\n      ],\n      \"scores\": {\n        \"novelty\": 4.0,\n        \"creative_core_strength\": 4.5,\n        \"creative_core_preservation\": 4.0,\n        \"reframing_quality\": 4.0,\n        \"conceptual_coherence\": 4.0,\n        \"user_pain_plausibility\": 4.0,\n        \"technical_plausibility\": 3.5,\n        \"mvp_clarity\": 4.5,\n        \"business_model_plausibility\": 3.0,\n        \"hallucination_risk_after_reframing\": 2.5\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"expert_rationale\": \"Ý tưởng gốc có hạt nhân sáng tạo mạnh mẽ trong việc kết hợp du lịch thực tế và sáng tạo nội dung số để tạo không gian thiền định. Phiên bản reframe tập trung vào MVP thực tế hơn, loại bỏ các tuyên bố quá lớn về đo lường chánh niệm hay xây dựng văn hóa số. MVP rõ ràng, có thể xây dựng trong thời gian ngắn. Tuy nhiên, tính kỹ thuật của việc gợi ý texture/âm thanh và mô hình kinh doanh cần được làm rõ hơn.\",\n      \"strong_points_after_reframing\": [\n        \"Hạt nhân sáng tạo về việc biến trải nghiệm du lịch thành không gian thiền định được giữ lại.\",\n        \"MVP rõ ràng, tập trung vào trải nghiệm cốt lõi.\",\n        \"Loại bỏ các tuyên bố không kiểm chứng về đo lường chánh niệm và văn hóa số.\",\n        \"Tiềm năng thu hút người dùng tìm kiếm sự thư giãn và sáng tạo.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Tính kỹ thuật của thuật toán gợi ý texture/âm thanh cần được chứng minh.\",\n        \"Mô hình kinh doanh freemium cần được cụ thể hóa hơn.\",\n        \"Cần làm rõ hơn cách 'quy tắc sáng tạo' ảnh hưởng đến trải nghiệm người dùng.\"\n      ],\n      \"validation_needed_later\": [\n        \"Kiểm tra mức độ hài lòng của người dùng với trải nghiệm sáng tạo và thư giãn.\",\n        \"Đánh giá khả năng người dùng tiếp tục sử dụng và chia sẻ tác phẩm.\",\n        \"Thử nghiệm các mô hình kinh doanh khác nhau (ví dụ: bán gói tài nguyên cao cấp).\"\n      ],\n      \"final_recommendation\": \"Tập trung phát triển MVP đã đề xuất, kiểm chứng giả định về trải nghiệm người dùng và mô hình kinh doanh.\"\n    },\n    {\n      \"idea_id\": \"I002\",\n      \"idea_name\": \"Chiếc Hộp Ký Ức: Phục Dựng Kỷ Niệm Cổ Xưa Qua Góc Nhìn Người Cháu\",\n      \"raw_hallucination_summary\": \"Ý tưởng có những phần suy đoán về thuật toán 'chuyên gia' mô phỏng hành vi của nhà làm phim/nhà báo thập niên trước và chế độ 'thăm bảo tàng ký ức' tập thể. Khả năng chuyển đổi trực giác cảm xúc cốt lõi từ tệp nguồn phi văn bản sang văn bản/hành động tương tác qua AI có sắc thái như con người và lợi nhuận bền vững từ việc bán các gói 'tượng đài ký ức ảo' chưa được kiểm chứng.\",\n      \"creative_core_to_preserve\": \"Biến các tài liệu cũ (ảnh, thư, âm thanh) thành một câu chuyện nhập vai, nơi người chơi đóng vai người phục dựng ký ức gia đình, sử dụng công cụ AI để làm sống lại quá khứ.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Thuật toán 'chuyên gia' mô phỏng hành vi của nhiếp ảnh gia, nhà báo thập niên trước.\",\n        \"Chế độ 'thăm bảo tàng ký ức' tập thể.\",\n        \"Khẳng định khả năng chuyển đổi trực giác cảm xúc cốt lõi từ tệp nguồn phi văn bản sang văn bản/hành động tương tác qua AI có sắc thái như con người.\",\n        \"Khẳng định lợi nhuận bền vững từ việc bán các gói 'tượng đài ký ức ảo'.\"\n      ],\n      \"realistic_reframing\": \"Một game mobile giải đố/phiêu lưu nơi người chơi sử dụng các công cụ AI đơn giản để phục dựng và xâu chuỗi các tài liệu gia đình (ảnh, thư, ghi âm). Game tập trung vào việc tạo ra một trải nghiệm suy luận nhân văn, giúp người chơi khám phá câu chuyện của người thân đã khuất. Các công cụ AI sẽ hỗ trợ phục hồi ảnh (tô màu, làm nét), làm rõ âm thanh, và tạo lời thoại/tường thuật cơ bản dựa trên nội dung tài liệu.\",\n      \"practical_mvp\": \"Một thư mục chứa 10 cặp ảnh/mẩu thư có mối liên hệ logic. Game sẽ: 1) Tự động tô màu/làm nét sơ bộ cho 5 cặp ảnh có sẵn. 2) 2 mẩu thư với nội dung được AI (sử dụng mô hình LLM cơ bản) đọc và chuyển sang dạng đối thoại ngắn, tương tác với nhau. Người chơi lật mở 1 cặp thông tin để giải khóa đối thoại số 2, từ đó mở khóa text/ảnh kế tiếp.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Xây dựng giao diện quản lý tài liệu (ảnh, thư).\",\n        \"Tích hợp API cho các công cụ AI phục hồi ảnh cơ bản (tô màu, làm nét).\",\n        \"Tích hợp LLM để đọc hiểu văn bản và tạo đối thoại ngắn.\",\n        \"Thiết kế hệ thống logic giải đố dựa trên việc mở khóa thông tin tuần tự.\"\n      ],\n      \"scores\": {\n        \"novelty\": 4.0,\n        \"creative_core_strength\": 4.5,\n        \"creative_core_preservation\": 4.0,\n        \"reframing_quality\": 4.0,\n        \"conceptual_coherence\": 4.0,\n        \"user_pain_plausibility\": 4.5,\n        \"technical_plausibility\": 4.0,\n        \"mvp_clarity\": 4.5,\n        \"business_model_plausibility\": 3.5,\n        \"hallucination_risk_after_reframing\": 2.0\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"expert_rationale\": \"Ý tưởng có tiềm năng lớn trong việc khai thác nhu cầu tìm hiểu nguồn cội và sử dụng AI để làm sống lại ký ức. Phiên bản reframe tập trung vào các công cụ AI thực tế và MVP rõ ràng. Pain point của người dùng được xác định tốt. Tuy nhiên, cần làm rõ hơn về mô hình kinh doanh và cách AI tạo ra cảm xúc chân thực.\",\n      \"strong_points_after_reframing\": [\n        \"Hạt nhân sáng tạo về việc phục dựng ký ức gia đình bằng công nghệ AI được giữ lại.\",\n        \"MVP rõ ràng, tập trung vào trải nghiệm cốt lõi và công cụ AI thực tế.\",\n        \"Xác định rõ pain point của người dùng về sự mơ hồ thông tin gia đình.\",\n        \"Tiềm năng thu hút người dùng quan tâm đến lịch sử cá nhân và gia đình.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Cần làm rõ hơn cách AI tạo ra cảm xúc chân thực và 'hồn cốt' của tài liệu gốc.\",\n        \"Mô hình kinh doanh bán theo gói cốt truyện cần được thử nghiệm.\",\n        \"Rủi ro bản quyền với dữ liệu lịch sử cần được xem xét kỹ.\"\n      ],\n      \"validation_needed_later\": [\n        \"Kiểm tra mức độ hài lòng của người dùng với trải nghiệm phục dựng và câu chuyện.\",\n        \"Đánh giá khả năng người dùng chi trả cho các gói cốt truyện hoặc dịch vụ phục dựng nâng cao.\",\n        \"Thử nghiệm các công cụ AI khác nhau để tối ưu hóa chất lượng phục dựng.\"\n      ],\n      \"final_recommendation\": \"Tập trung phát triển MVP đã đề xuất, ưu tiên kiểm chứng khả năng tạo cảm xúc chân thực và mô hình kinh doanh.\"\n    },\n    {\n      \"idea_id\": \"I003\",\n      \"idea_name\": \"Vũ Trụ Từ Vựng Trộm Lửa: Kỹ Năng Ngôn Ngữ Giao thoa Sức Mạnh Ẩn Danh\",\n      \"raw_hallucination_summary\": \"Ý tưởng có những phần suy đoán về khả năng cho người chơi định hình 'biểu tượng tinh thần' riêng và sử dụng chúng để thay đổi 'giao diện ý nghĩ' trên mạng xã hội, thậm chí được các nền tảng giải trí lớn như Netflix quan tâm. Hệ thống đề xuất từ ngữ độc đáo dựa trên 'nhu cầu giao tiếp' của người dùng cũng mang tính suy đoán cao. Liệu người chơi có coi việc trau dồi kiến thức này là giá trị và phương thức định giá 'ý nghĩa tương tác' mang tính định lượng/biến thiên hay không vẫn chưa rõ.\",\n      \"creative_core_to_preserve\": \"Một game ARPG nơi sức mạnh phép thuật được tạo ra từ việc kết hợp từ ngữ, xây dựng vốn từ vựng và khả năng diễn đạt của người chơi.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Khả năng cho người chơi định hình 'biểu tượng tinh thần' riêng và sử dụng chúng trên mạng xã hội/nền tảng giải trí lớn.\",\n        \"Hệ thống đề xuất từ ngữ độc đáo dựa trên 'nhu cầu giao tiếp' của người dùng.\",\n        \"Khẳng định người chơi sẽ coi việc trau dồi kiến thức này là giá trị.\",\n        \"Khẳng định phương thức định giá 'ý nghĩa tương tác' mang tính định lượng/biến thiên.\"\n      ],\n      \"realistic_reframing\": \"Một game mobile ARPG tập trung vào cơ chế chiến đấu độc đáo, nơi người chơi tạo ra các 'câu thần chú' bằng cách kết hợp các từ khóa có liên quan ngữ nghĩa hoặc logic ẩn. Game sẽ có một hệ thống từ điển mở rộng, khuyến khích người chơi học từ mới và hiểu sâu hơn về cách sử dụng ngôn từ. Sức mạnh của phép thuật sẽ phụ thuộc vào sự phong phú và sáng tạo trong cách người chơi kết hợp từ ngữ.\",\n      \"practical_mvp\": \"Một giao diện chiến đấu đơn giản với một từ khóa cơ bản 'HƠI NÓNG' và môi trường game 'Thiên Thu Vụn'. Người chơi có 5 đòn đánh (trừ, phép khống chế) cần combo từ + hệ ký tự phụ. Người chơi chọn 2 trong 20 ô (ví dụ: các địa điểm trừu tượng như 'quán cafe chạng vạng', 'cửa hàng sửa móng tay cóc nhái') để kích hoạt các từ khóa liên quan, từ đó tạo ra hiệu ứng phép thuật.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Thiết kế giao diện chiến đấu cơ bản.\",\n        \"Xây dựng hệ thống từ khóa ban đầu và logic kết hợp đơn giản.\",\n        \"Tạo 5 loại đòn đánh cơ bản với hiệu ứng hình ảnh/âm thanh.\",\n        \"Thiết kế 20 ô tương tác với các từ khóa liên quan.\"\n      ],\n      \"scores\": {\n        \"novelty\": 4.5,\n        \"creative_core_strength\": 4.5,\n        \"creative_core_preservation\": 4.0,\n        \"reframing_quality\": 4.0,\n        \"conceptual_coherence\": 4.0,\n        \"user_pain_plausibility\": 4.0,\n        \"technical_plausibility\": 3.5,\n        \"mvp_clarity\": 4.0,\n        \"business_model_plausibility\": 3.0,\n        \"hallucination_risk_after_reframing\": 3.0\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"expert_rationale\": \"Ý tưởng có tính mới lạ cao với cơ chế chiến đấu dựa trên ngôn từ. Hạt nhân sáng tạo mạnh mẽ. Phiên bản reframe tập trung vào MVP thực tế và loại bỏ các tuyên bố quá lớn về ảnh hưởng xã hội. Tuy nhiên, tính kỹ thuật của việc tạo ra 'câu thần chú' có ý nghĩa và mô hình kinh doanh cần được làm rõ hơn. Rủi ro về việc game play có đủ hấp dẫn hay không là đáng kể.\",\n      \"strong_points_after_reframing\": [\n        \"Cơ chế chiến đấu độc đáo dựa trên ngôn từ và từ vựng.\",\n        \"Hạt nhân sáng tạo về việc biến ngôn ngữ thành sức mạnh được giữ lại.\",\n        \"MVP tập trung vào cơ chế cốt lõi của game.\",\n        \"Tiềm năng thu hút game thủ thích thử thách trí óc và phát triển kỹ năng ngôn ngữ.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Cần làm rõ cách AI phân tích và áp dụng logic ngữ nghĩa phức tạp.\",\n        \"Mô hình kinh doanh bán 'kết quả kỳ diệu' hoặc 'hiệu ứng thuật ngữ' cần được thử nghiệm.\",\n        \"Rủi ro game play quá trừu tượng hoặc không đủ hấp dẫn so với các game ARPG truyền thống.\"\n      ],\n      \"validation_needed_later\": [\n        \"Kiểm tra mức độ hấp dẫn và thỏa mãn của cơ chế tạo câu thần chú.\",\n        \"Đánh giá khả năng người chơi chuyển đổi kiến thức ngôn ngữ vào gameplay.\",\n        \"Thử nghiệm các mô hình kinh doanh khác nhau.\"\n      ],\n      \"final_recommendation\": \"Tập trung phát triển MVP đã đề xuất, ưu tiên kiểm chứng tính hấp dẫn của cơ chế gameplay và khả năng tạo ra giá trị thực cho người chơi.\"\n    },\n    {\n      \"idea_id\": \"I004\",\n      \"idea_name\": \"Chuyên Gia Biểu Cảm Da Người Tảo Sinh: Mô phỏng Khóa Học Phẫu Thuật Sắc Đẹp & Spa Cá Nhân Đạo'\",\n      \"raw_hallucination_summary\": \"Ý tưởng có những phần suy đoán về khả năng AI 'hướng dẫn cho từng người chơi' con đường chăm da 'dự đoán' tình trạng da & tâm lý trong 3-5 năm tới, và tích hợp cơ chế đấu giá/giao thương 'thành phần hữu cơ độc đáo'. Khả năng người dùng game di động (thiếu tính nhất quán) có đủ hấp dẫn cho nhiều giai đoạn khó tin hay không và liệu giá một gói trị liệu có đắt hay không vẫn chưa rõ.\",\n      \"creative_core_to_preserve\": \"Một game mô phỏng nơi người chơi vào vai 'bác sĩ da liễu biểu cảm', chẩn đoán và điều trị các vấn đề da ảo liên quan đến trạng thái cảm xúc của nhân vật, kết hợp kiến thức thẩm mỹ và tâm lý.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Khả năng AI 'hướng dẫn cho từng người chơi' con đường chăm da dự đoán tình trạng da & tâm lý trong 3-5 năm tới.\",\n        \"Tích hợp cơ chế đấu giá/giao thương 'thành phần hữu cơ độc đáo'.\",\n        \"Khẳng định người dùng game di động sẽ đủ hấp dẫn cho nhiều giai đoạn khó tin.\",\n        \"Khẳng định giá một gói trị liệu (nếu trả tiền) sẽ hợp lý.\"\n      ],\n      \"realistic_reframing\": \"Một game mô phỏng thẩm mỹ (simulation game) nơi người chơi vào vai chuyên gia chăm sóc da. Game tập trung vào việc chẩn đoán các vấn đề da ảo dựa trên các 'chỉ số cảm xúc' của nhân vật (ví dụ: căng thẳng, thiếu ngủ). Người chơi sẽ áp dụng các liệu pháp chăm sóc da ảo (làm sạch, massage, sử dụng sản phẩm ảo) để cải thiện tình trạng da. Game nhấn mạnh vào quy trình chẩn đoán và trị liệu, cung cấp kiến thức cơ bản về skincare.\",\n      \"practical_mvp\": \"Một phòng khám nhỏ nơi người chơi tiếp 3 bệnh nhân ảo với các vấn đề da nhẹ kèm 1 cảm xúc - mâu thuẫn chung (ví dụ: 'thiếu ngủ - mắt thâm quầng', 'căng thẳng mệt mỏi - da tái'). Người chơi chỉ được chọn: làm sạch + (AI gợi ý 1 loại massage cơ bản). Game sẽ có chức năng 'Khám phá' cho phép học kỹ năng cho da khô & nhạy cảm.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Thiết kế giao diện phòng khám và mô hình bệnh nhân ảo.\",\n        \"Xây dựng hệ thống 'chỉ số cảm xúc' đơn giản ảnh hưởng đến tình trạng da.\",\n        \"Tích hợp 2 công cụ trị liệu cơ bản (làm sạch, massage) và 1 loại sản phẩm ảo.\",\n        \"Triển khai chức năng 'Khám phá' để học kỹ năng mới.\"\n      ],\n      \"scores\": {\n        \"novelty\": 3.5,\n        \"creative_core_strength\": 4.0,\n        \"creative_core_preservation\": 4.0,\n        \"reframing_quality\": 4.0,\n        \"conceptual_coherence\": 4.0,\n        \"user_pain_plausibility\": 4.0,\n        \"technical_plausibility\": 4.0,\n        \"mvp_clarity\": 4.5,\n        \"business_model_plausibility\": 3.5,\n        \"hallucination_risk_after_reframing\": 2.5\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"expert_rationale\": \"Ý tưởng có tiềm năng thu hút đối tượng quan tâm đến skincare và mô phỏng. Hạt nhân sáng tạo về việc kết nối cảm xúc và tình trạng da được giữ lại. MVP rõ ràng và có thể xây dựng. Tuy nhiên, tính mới lạ không quá cao và cần làm rõ hơn về cách AI hỗ trợ chẩn đoán và liệu pháp. Mô hình kinh doanh 'học viện làm đẹp ảo' cần được cụ thể hóa.\",\n      \"strong_points_after_reframing\": [\n        \"Hạt nhân sáng tạo về việc kết nối cảm xúc và tình trạng da được giữ lại.\",\n        \"MVP rõ ràng, tập trung vào quy trình chẩn đoán và trị liệu cơ bản.\",\n        \"Tiềm năng thu hút người dùng quan tâm đến skincare và mô phỏng.\",\n        \"Cung cấp kiến thức cơ bản về chăm sóc da một cách giải trí.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Tính mới lạ không quá cao so với các game mô phỏng khác.\",\n        \"Cần làm rõ hơn vai trò của AI trong việc chẩn đoán và đề xuất liệu pháp.\",\n        \"Mô hình kinh doanh 'học viện làm đẹp ảo' cần được cụ thể hóa và chứng minh tính khả thi.\"\n      ],\n      \"validation_needed_later\": [\n        \"Kiểm tra mức độ hài lòng của người dùng với trải nghiệm chẩn đoán và trị liệu.\",\n        \"Đánh giá khả năng người chơi ghi nhớ và áp dụng kiến thức skincare cơ bản.\",\n        \"Thử nghiệm các mô hình kinh doanh khác nhau, đặc biệt là các gói DLC liệu pháp nâng cao.\"\n      ],\n      \"final_recommendation\": \"Tập trung phát triển MVP đã đề xuất, ưu tiên kiểm chứng tính hấp dẫn của gameplay và mô hình kinh doanh.\"\n    },\n    {\n      \"idea_id\": \"I005\",\n      \"idea_name\": \"Biện Phép Thoát Hiểm Bản Năng Nguyên Thủy: Tĩnh tâm qua Sức mạnh Trí nhớ Chậm Phản Tư'\",\n      \"raw_hallucination_summary\": \"Ý tưởng có những phần suy đoán về việc tích hợp thuật toán AI sinh 'bản đồ giác quan - kí ức' cá nhân và ra mắt phiên bản tương tác ảo chung 'sân đình ký ức tập thể'. Sự sẵn sàng chi trả cho các gói 'đánh thức nội tâm bằng cách thả trôi' và tính 'cohesion' của kỹ thuật nghe nhìn khi chúng lấn sang việc thực hành mindfulness vẫn chưa được kiểm chứng.\",\n      \"creative_core_to_preserve\": \"Một game idle/narrative kết hợp ASMR, nơi người chơi dẫn dắt nhân vật 'trôi nổi trong ký ức tiềm thức', vượt qua rào cản tâm lý bằng cách thao tác dòng thời gian và thụ động 'thu hoạch' kiến thức sâu sắc từ các bài học chậm rãi.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Tích hợp thuật toán AI sinh 'bản đồ giác quan - kí ức' cá nhân.\",\n        \"Ra mắt phiên bản tương tác ảo chung 'sân đình ký ức tập thể'.\",\n        \"Khẳng định sự sẵn sàng chi trả cho các gói 'đánh thức nội tâm bằng cách thả trôi'.\",\n        \"Khẳng định tính 'cohesion' của kỹ thuật nghe nhìn khi chúng lấn sang việc thực hành mindfulness.\"\n      ],\n      \"realistic_reframing\": \"Một game idle/narrative kết hợp yếu tố ASMR, nơi người chơi tương tác với các 'mảnh ký ức' ảo. Thay vì thao tác dòng thời gian phức tạp, người chơi sẽ 'chạm' vào các mốc ký ức để mở khóa các đoạn văn bản chiêm nghiệm hoặc triết lý đơn giản. Game tập trung vào trải nghiệm thư giãn, thụ động, với hiệu ứng âm thanh ASMR nhẹ nhàng, khuyến khích người chơi thực hành mindfulness. Tiến trình game dựa trên việc 'thu hoạch' các bài học và mở khóa các mốc ký ức mới.\",\n      \"practical_mvp\": \"Trong một màn chơi 'Đám mây Trạng thái Kí ức', với một kiểu ký tự 'Lá Úa'. Người chơi bấm nút 'Gợi nhớ', game diễn hoạt nó bay trong không trung mờ ảo. Sau thời gian nhất định, nó xuất hiện 2 câu text triết lí đơn giản về mất mát (ví dụ: 'Cuộc đời luôn để lại vết tích trên đó, quan trọng là ta tìm thấy gì sau khi dấu vết nó lui vào tăm tối?'). Nút để ‘thu hoạch’ câu nói, cho nó trơ vào mục lục thu thập 'Kính ngắm'. Khai thác không bị hạn chế.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Thiết kế giao diện màn chơi 'Đám mây Trạng thái Kí ức'.\",\n        \"Tạo hiệu ứng hoạt ảnh đơn giản cho 'Lá Úa'.\",\n        \"Xây dựng hệ thống hiển thị 2 câu text triết lý sau một khoảng thời gian.\",\n        \"Triển khai chức năng 'thu hoạch' và lưu trữ các câu nói vào mục lục 'Kính ngắm'.\"\n      ],\n      \"scores\": {\n        \"novelty\": 3.5,\n        \"creative_core_strength\": 4.0,\n        \"creative_core_preservation\": 4.0,\n        \"reframing_quality\": 4.0,\n        \"conceptual_coherence\": 4.0,\n        \"user_pain_plausibility\": 4.0,\n        \"technical_plausibility\": 3.5,\n        \"mvp_clarity\": 4.5,\n        \"business_model_plausibility\": 3.0,\n        \"hallucination_risk_after_reframing\": 2.5\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"expert_rationale\": \"Ý tưởng có tiềm năng thu hút người dùng tìm kiếm sự thư giãn và mindfulness. Hạt nhân sáng tạo về việc biến ký ức thành 'nông nghiệp tâm trí' được giữ lại. MVP rõ ràng và tập trung vào trải nghiệm cốt lõi. Tuy nhiên, tính mới lạ không quá cao và cần làm rõ hơn về cách game khuyến khích thực hành mindfulness. Mô hình kinh doanh bán 'vũ trụ thiền định cá nhân' cần được cụ thể hóa.\",\n      \"strong_points_after_reframing\": [\n        \"Hạt nhân sáng tạo về việc biến ký ức thành 'nông nghiệp tâm trí' được giữ lại.\",\n        \"MVP rõ ràng, tập trung vào trải nghiệm thư giãn và thu hoạch bài học.\",\n        \"Kết hợp hiệu quả yếu tố ASMR và mindfulness.\",\n        \"Tiềm năng thu hút người dùng tìm kiếm sự bình yên và chiêm nghiệm.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Tính mới lạ không quá cao so với các game idle/ASMR khác.\",\n        \"Cần làm rõ hơn cách game khuyến khích người chơi thực hành mindfulness sâu sắc.\",\n        \"Mô hình kinh doanh bán 'vũ trụ thiền định cá nhân' cần được cụ thể hóa và chứng minh tính khả thi.\"\n      ],\n      \"validation_needed_later\": [\n        \"Kiểm tra mức độ người chơi cảm thấy thư giãn và có thực hành mindfulness hiệu quả.\",\n        \"Đánh giá khả năng người chơi tiếp tục sử dụng game để thu hoạch bài học.\",\n        \"Thử nghiệm các mô hình kinh doanh khác nhau, đặc biệt là các gói DLC mở rộng 'nhật ký sâu'.\"\n      ],\n      \"final_recommendation\": \"Tập trung phát triển MVP đã đề xuất, ưu tiên kiểm chứng tính hấp dẫn của trải nghiệm thư giãn và mô hình kinh doanh.\"\n    }\n  ],\n  \"ranked_summary\": [\n    {\n      \"rank\": 1,\n      \"idea_id\": \"I001\",\n      \"idea_name\": \"Lãng Du Thiền Định: Trò Chơi Tối Giản Du Lịch & Sáng Tạo Nội Dung Tự Lập Trình\",\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"hallucination_risk_after_reframing\": 2.5\n    },\n    {\n      \"rank\": 2,\n      \"idea_id\": \"I002\",\n      \"idea_name\": \"Chiếc Hộp Ký Ức: Phục Dựng Kỷ Niệm Cổ Xưa Qua Góc Nhìn Người Cháu\",\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"hallucination_risk_after_reframing\": 2.0\n    },\n    {\n      \"rank\": 3,\n      \"idea_id\": \"I004\",\n      \"idea_name\": \"Chuyên Gia Biểu Cảm Da Người Tảo Sinh: Mô phỏng Khóa Học Phẫu Thuật Sắc Đẹp & Spa Cá Nhân Đạo'\",\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"hallucination_risk_after_reframing\": 2.5\n    },\n    {\n      \"rank\": 4,\n      \"idea_id\": \"I005\",\n      \"idea_name\": \"Biện Phép Thoát Hiểm Bản Năng Nguyên Thủy: Tĩnh tâm qua Sức mạnh Trí nhớ Chậm Phản Tư'\",\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"hallucination_risk_after_reframing\": 2.5\n    },\n    {\n      \"rank\": 5,\n      \"idea_id\": \"I003\",\n      \"idea_name\": \"Vũ Trụ Từ Vựng Trộm Lửa: Kỹ Năng Ngôn Ngữ Giao thoa Sức Mạnh Ẩn Danh\",\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"hallucination_risk_after_reframing\": 3.0\n    }\n  ]\n}"
+  },
+  "evaluations": [
+    {
+      "idea_id": "I002",
+      "idea_name": "Chiếc Hộp Ký Ức: Phục Dựng Kỷ Niệm Cổ Xưa Qua Góc Nhìn Người Cháu",
+      "raw_hallucination_summary": "Ý tưởng có những phần suy đoán về thuật toán 'chuyên gia' mô phỏng hành vi của nhà làm phim/nhà báo thập niên trước và chế độ 'thăm bảo tàng ký ức' tập thể. Khả năng chuyển đổi trực giác cảm xúc cốt lõi từ tệp nguồn phi văn bản sang văn bản/hành động tương tác qua AI có sắc thái như con người và lợi nhuận bền vững từ việc bán các gói 'tượng đài ký ức ảo' chưa được kiểm chứng.",
+      "creative_core_to_preserve": "Biến các tài liệu cũ (ảnh, thư, âm thanh) thành một câu chuyện nhập vai, nơi người chơi đóng vai người phục dựng ký ức gia đình, sử dụng công cụ AI để làm sống lại quá khứ.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Thuật toán 'chuyên gia' mô phỏng hành vi của nhiếp ảnh gia, nhà báo thập niên trước.",
+        "Chế độ 'thăm bảo tàng ký ức' tập thể.",
+        "Khẳng định khả năng chuyển đổi trực giác cảm xúc cốt lõi từ tệp nguồn phi văn bản sang văn bản/hành động tương tác qua AI có sắc thái như con người.",
+        "Khẳng định lợi nhuận bền vững từ việc bán các gói 'tượng đài ký ức ảo'."
+      ],
+      "realistic_reframing": "Một game mobile giải đố/phiêu lưu nơi người chơi sử dụng các công cụ AI đơn giản để phục dựng và xâu chuỗi các tài liệu gia đình (ảnh, thư, ghi âm). Game tập trung vào việc tạo ra một trải nghiệm suy luận nhân văn, giúp người chơi khám phá câu chuyện của người thân đã khuất. Các công cụ AI sẽ hỗ trợ phục hồi ảnh (tô màu, làm nét), làm rõ âm thanh, và tạo lời thoại/tường thuật cơ bản dựa trên nội dung tài liệu.",
+      "practical_mvp": "Một thư mục chứa 10 cặp ảnh/mẩu thư có mối liên hệ logic. Game sẽ: 1) Tự động tô màu/làm nét sơ bộ cho 5 cặp ảnh có sẵn. 2) 2 mẩu thư với nội dung được AI (sử dụng mô hình LLM cơ bản) đọc và chuyển sang dạng đối thoại ngắn, tương tác với nhau. Người chơi lật mở 1 cặp thông tin để giải khóa đối thoại số 2, từ đó mở khóa text/ảnh kế tiếp.",
+      "mvp_7_to_30_day_plan": [
+        "Xây dựng giao diện quản lý tài liệu (ảnh, thư).",
+        "Tích hợp API cho các công cụ AI phục hồi ảnh cơ bản (tô màu, làm nét).",
+        "Tích hợp LLM để đọc hiểu văn bản và tạo đối thoại ngắn.",
+        "Thiết kế hệ thống logic giải đố dựa trên việc mở khóa thông tin tuần tự."
+      ],
+      "scores": {
+        "novelty": 4.0,
+        "creative_core_strength": 4.5,
+        "creative_core_preservation": 4.0,
+        "reframing_quality": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "hallucination_risk_after_reframing": 2.0
+      },
+      "overall_score": 73.38,
+      "decision": "Tiềm năng",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Tiềm năng",
+      "expert_rationale": "Ý tưởng có tiềm năng lớn trong việc khai thác nhu cầu tìm hiểu nguồn cội và sử dụng AI để làm sống lại ký ức. Phiên bản reframe tập trung vào các công cụ AI thực tế và MVP rõ ràng. Pain point của người dùng được xác định tốt. Tuy nhiên, cần làm rõ hơn về mô hình kinh doanh và cách AI tạo ra cảm xúc chân thực.",
+      "strong_points_after_reframing": [
+        "Hạt nhân sáng tạo về việc phục dựng ký ức gia đình bằng công nghệ AI được giữ lại.",
+        "MVP rõ ràng, tập trung vào trải nghiệm cốt lõi và công cụ AI thực tế.",
+        "Xác định rõ pain point của người dùng về sự mơ hồ thông tin gia đình.",
+        "Tiềm năng thu hút người dùng quan tâm đến lịch sử cá nhân và gia đình."
+      ],
+      "weak_points_after_reframing": [
+        "Cần làm rõ hơn cách AI tạo ra cảm xúc chân thực và 'hồn cốt' của tài liệu gốc.",
+        "Mô hình kinh doanh bán theo gói cốt truyện cần được thử nghiệm.",
+        "Rủi ro bản quyền với dữ liệu lịch sử cần được xem xét kỹ."
+      ],
+      "validation_needed_later": [
+        "Kiểm tra mức độ hài lòng của người dùng với trải nghiệm phục dựng và câu chuyện.",
+        "Đánh giá khả năng người dùng chi trả cho các gói cốt truyện hoặc dịch vụ phục dựng nâng cao.",
+        "Thử nghiệm các công cụ AI khác nhau để tối ưu hóa chất lượng phục dựng."
+      ],
+      "final_recommendation": "Tập trung phát triển MVP đã đề xuất, ưu tiên kiểm chứng khả năng tạo cảm xúc chân thực và mô hình kinh doanh."
+    },
+    {
+      "idea_id": "I001",
+      "idea_name": "Lãng Du Thiền Định: Trò Chơi Tối Giản Du Lịch & Sáng Tạo Nội Dung Tự Lập Trình",
+      "raw_hallucination_summary": "Ý tưởng này có những phần mang tính suy đoán cao về việc tạo ra 'nền văn hóa số tâm linh' thực thụ và khả năng thuật toán 'đo lường' mức độ chánh niệm. Việc hành vi ứng dụng triết học theo quy tắc game có phản ánh sự 'an yên' thật sự và mức độ sẵn sàng thanh toán cho 'không gian tự chữa lành kỹ thuật số' vẫn chưa được kiểm chứng.",
+      "creative_core_to_preserve": "Kết hợp trải nghiệm du lịch thực tế (ảnh, video) với sáng tạo nội dung số để tạo ra không gian thiền định cá nhân, nơi người chơi sắp đặt các yếu tố cảm xúc để dệt nên 'phong cảnh nội tâm'.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Khả năng tạo ra 'nền văn hóa số tâm linh' thực thụ.",
+        "Thuật toán có khả năng 'đo lường' và mô phỏng mức độ chánh niệm.",
+        "Khẳng định hành vi ứng dụng triết học theo quy tắc game sẽ phản ánh sự 'an yên' thật sự.",
+        "Khẳng định mức độ sẵn sàng thanh toán cho 'không gian tự chữa lành kỹ thuật số'."
+      ],
+      "realistic_reframing": "Một game mobile casual cho phép người chơi sử dụng ảnh và video từ chuyến đi của họ để tạo ra các 'không gian nội tâm' tĩnh lặng. Người chơi sắp xếp các yếu tố hình ảnh và âm thanh theo các quy tắc đơn giản dựa trên triết lý zen để tạo ra các cảnh quan số mang tính cá nhân. Sản phẩm tập trung vào trải nghiệm sáng tạo và thư giãn, không hứa hẹn đo lường chánh niệm hay xây dựng văn hóa tâm linh.",
+      "practical_mvp": "Một sandbox 'họa sĩ tĩnh lặng' nơi người chơi có thể upload 1 ảnh từ điện thoại. Game sẽ tự động gợi ý 2-3 texture ảnh và 1 đoạn nhạc nền dựa trên ảnh đó. Người chơi có thể sắp xếp các yếu tố này trên một khung cảnh 3D đơn giản và lưu lại tác phẩm của mình. Có chức năng chia sẻ tác phẩm qua link.",
+      "mvp_7_to_30_day_plan": [
+        "Phát triển giao diện upload ảnh và chọn nhạc nền.",
+        "Tích hợp thuật toán đơn giản để gợi ý texture và âm thanh dựa trên ảnh đầu vào.",
+        "Xây dựng hệ thống sắp xếp các yếu tố trên một khung cảnh 3D cơ bản.",
+        "Triển khai chức năng lưu và chia sẻ tác phẩm."
+      ],
+      "scores": {
+        "novelty": 4.0,
+        "creative_core_strength": 4.5,
+        "creative_core_preservation": 4.0,
+        "reframing_quality": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.0,
+        "hallucination_risk_after_reframing": 2.5
+      },
+      "overall_score": 70.25,
+      "decision": "Tiềm năng",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Tiềm năng",
+      "expert_rationale": "Ý tưởng gốc có hạt nhân sáng tạo mạnh mẽ trong việc kết hợp du lịch thực tế và sáng tạo nội dung số để tạo không gian thiền định. Phiên bản reframe tập trung vào MVP thực tế hơn, loại bỏ các tuyên bố quá lớn về đo lường chánh niệm hay xây dựng văn hóa số. MVP rõ ràng, có thể xây dựng trong thời gian ngắn. Tuy nhiên, tính kỹ thuật của việc gợi ý texture/âm thanh và mô hình kinh doanh cần được làm rõ hơn.",
+      "strong_points_after_reframing": [
+        "Hạt nhân sáng tạo về việc biến trải nghiệm du lịch thành không gian thiền định được giữ lại.",
+        "MVP rõ ràng, tập trung vào trải nghiệm cốt lõi.",
+        "Loại bỏ các tuyên bố không kiểm chứng về đo lường chánh niệm và văn hóa số.",
+        "Tiềm năng thu hút người dùng tìm kiếm sự thư giãn và sáng tạo."
+      ],
+      "weak_points_after_reframing": [
+        "Tính kỹ thuật của thuật toán gợi ý texture/âm thanh cần được chứng minh.",
+        "Mô hình kinh doanh freemium cần được cụ thể hóa hơn.",
+        "Cần làm rõ hơn cách 'quy tắc sáng tạo' ảnh hưởng đến trải nghiệm người dùng."
+      ],
+      "validation_needed_later": [
+        "Kiểm tra mức độ hài lòng của người dùng với trải nghiệm sáng tạo và thư giãn.",
+        "Đánh giá khả năng người dùng tiếp tục sử dụng và chia sẻ tác phẩm.",
+        "Thử nghiệm các mô hình kinh doanh khác nhau (ví dụ: bán gói tài nguyên cao cấp)."
+      ],
+      "final_recommendation": "Tập trung phát triển MVP đã đề xuất, kiểm chứng giả định về trải nghiệm người dùng và mô hình kinh doanh."
+    },
+    {
+      "idea_id": "I004",
+      "idea_name": "Chuyên Gia Biểu Cảm Da Người Tảo Sinh: Mô phỏng Khóa Học Phẫu Thuật Sắc Đẹp & Spa Cá Nhân Đạo'",
+      "raw_hallucination_summary": "Ý tưởng có những phần suy đoán về khả năng AI 'hướng dẫn cho từng người chơi' con đường chăm da 'dự đoán' tình trạng da & tâm lý trong 3-5 năm tới, và tích hợp cơ chế đấu giá/giao thương 'thành phần hữu cơ độc đáo'. Khả năng người dùng game di động (thiếu tính nhất quán) có đủ hấp dẫn cho nhiều giai đoạn khó tin hay không và liệu giá một gói trị liệu có đắt hay không vẫn chưa rõ.",
+      "creative_core_to_preserve": "Một game mô phỏng nơi người chơi vào vai 'bác sĩ da liễu biểu cảm', chẩn đoán và điều trị các vấn đề da ảo liên quan đến trạng thái cảm xúc của nhân vật, kết hợp kiến thức thẩm mỹ và tâm lý.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Khả năng AI 'hướng dẫn cho từng người chơi' con đường chăm da dự đoán tình trạng da & tâm lý trong 3-5 năm tới.",
+        "Tích hợp cơ chế đấu giá/giao thương 'thành phần hữu cơ độc đáo'.",
+        "Khẳng định người dùng game di động sẽ đủ hấp dẫn cho nhiều giai đoạn khó tin.",
+        "Khẳng định giá một gói trị liệu (nếu trả tiền) sẽ hợp lý."
+      ],
+      "realistic_reframing": "Một game mô phỏng thẩm mỹ (simulation game) nơi người chơi vào vai chuyên gia chăm sóc da. Game tập trung vào việc chẩn đoán các vấn đề da ảo dựa trên các 'chỉ số cảm xúc' của nhân vật (ví dụ: căng thẳng, thiếu ngủ). Người chơi sẽ áp dụng các liệu pháp chăm sóc da ảo (làm sạch, massage, sử dụng sản phẩm ảo) để cải thiện tình trạng da. Game nhấn mạnh vào quy trình chẩn đoán và trị liệu, cung cấp kiến thức cơ bản về skincare.",
+      "practical_mvp": "Một phòng khám nhỏ nơi người chơi tiếp 3 bệnh nhân ảo với các vấn đề da nhẹ kèm 1 cảm xúc - mâu thuẫn chung (ví dụ: 'thiếu ngủ - mắt thâm quầng', 'căng thẳng mệt mỏi - da tái'). Người chơi chỉ được chọn: làm sạch + (AI gợi ý 1 loại massage cơ bản). Game sẽ có chức năng 'Khám phá' cho phép học kỹ năng cho da khô & nhạy cảm.",
+      "mvp_7_to_30_day_plan": [
+        "Thiết kế giao diện phòng khám và mô hình bệnh nhân ảo.",
+        "Xây dựng hệ thống 'chỉ số cảm xúc' đơn giản ảnh hưởng đến tình trạng da.",
+        "Tích hợp 2 công cụ trị liệu cơ bản (làm sạch, massage) và 1 loại sản phẩm ảo.",
+        "Triển khai chức năng 'Khám phá' để học kỹ năng mới."
+      ],
+      "scores": {
+        "novelty": 3.5,
+        "creative_core_strength": 4.0,
+        "creative_core_preservation": 4.0,
+        "reframing_quality": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "hallucination_risk_after_reframing": 2.5
+      },
+      "overall_score": 68.75,
+      "decision": "Cần chỉnh",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Tiềm năng",
+      "expert_rationale": "Ý tưởng có tiềm năng thu hút đối tượng quan tâm đến skincare và mô phỏng. Hạt nhân sáng tạo về việc kết nối cảm xúc và tình trạng da được giữ lại. MVP rõ ràng và có thể xây dựng. Tuy nhiên, tính mới lạ không quá cao và cần làm rõ hơn về cách AI hỗ trợ chẩn đoán và liệu pháp. Mô hình kinh doanh 'học viện làm đẹp ảo' cần được cụ thể hóa.",
+      "strong_points_after_reframing": [
+        "Hạt nhân sáng tạo về việc kết nối cảm xúc và tình trạng da được giữ lại.",
+        "MVP rõ ràng, tập trung vào quy trình chẩn đoán và trị liệu cơ bản.",
+        "Tiềm năng thu hút người dùng quan tâm đến skincare và mô phỏng.",
+        "Cung cấp kiến thức cơ bản về chăm sóc da một cách giải trí."
+      ],
+      "weak_points_after_reframing": [
+        "Tính mới lạ không quá cao so với các game mô phỏng khác.",
+        "Cần làm rõ hơn vai trò của AI trong việc chẩn đoán và đề xuất liệu pháp.",
+        "Mô hình kinh doanh 'học viện làm đẹp ảo' cần được cụ thể hóa và chứng minh tính khả thi."
+      ],
+      "validation_needed_later": [
+        "Kiểm tra mức độ hài lòng của người dùng với trải nghiệm chẩn đoán và trị liệu.",
+        "Đánh giá khả năng người chơi ghi nhớ và áp dụng kiến thức skincare cơ bản.",
+        "Thử nghiệm các mô hình kinh doanh khác nhau, đặc biệt là các gói DLC liệu pháp nâng cao."
+      ],
+      "final_recommendation": "Tập trung phát triển MVP đã đề xuất, ưu tiên kiểm chứng tính hấp dẫn của gameplay và mô hình kinh doanh."
+    },
+    {
+      "idea_id": "I005",
+      "idea_name": "Biện Phép Thoát Hiểm Bản Năng Nguyên Thủy: Tĩnh tâm qua Sức mạnh Trí nhớ Chậm Phản Tư'",
+      "raw_hallucination_summary": "Ý tưởng có những phần suy đoán về việc tích hợp thuật toán AI sinh 'bản đồ giác quan - kí ức' cá nhân và ra mắt phiên bản tương tác ảo chung 'sân đình ký ức tập thể'. Sự sẵn sàng chi trả cho các gói 'đánh thức nội tâm bằng cách thả trôi' và tính 'cohesion' của kỹ thuật nghe nhìn khi chúng lấn sang việc thực hành mindfulness vẫn chưa được kiểm chứng.",
+      "creative_core_to_preserve": "Một game idle/narrative kết hợp ASMR, nơi người chơi dẫn dắt nhân vật 'trôi nổi trong ký ức tiềm thức', vượt qua rào cản tâm lý bằng cách thao tác dòng thời gian và thụ động 'thu hoạch' kiến thức sâu sắc từ các bài học chậm rãi.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Tích hợp thuật toán AI sinh 'bản đồ giác quan - kí ức' cá nhân.",
+        "Ra mắt phiên bản tương tác ảo chung 'sân đình ký ức tập thể'.",
+        "Khẳng định sự sẵn sàng chi trả cho các gói 'đánh thức nội tâm bằng cách thả trôi'.",
+        "Khẳng định tính 'cohesion' của kỹ thuật nghe nhìn khi chúng lấn sang việc thực hành mindfulness."
+      ],
+      "realistic_reframing": "Một game idle/narrative kết hợp yếu tố ASMR, nơi người chơi tương tác với các 'mảnh ký ức' ảo. Thay vì thao tác dòng thời gian phức tạp, người chơi sẽ 'chạm' vào các mốc ký ức để mở khóa các đoạn văn bản chiêm nghiệm hoặc triết lý đơn giản. Game tập trung vào trải nghiệm thư giãn, thụ động, với hiệu ứng âm thanh ASMR nhẹ nhàng, khuyến khích người chơi thực hành mindfulness. Tiến trình game dựa trên việc 'thu hoạch' các bài học và mở khóa các mốc ký ức mới.",
+      "practical_mvp": "Trong một màn chơi 'Đám mây Trạng thái Kí ức', với một kiểu ký tự 'Lá Úa'. Người chơi bấm nút 'Gợi nhớ', game diễn hoạt nó bay trong không trung mờ ảo. Sau thời gian nhất định, nó xuất hiện 2 câu text triết lí đơn giản về mất mát (ví dụ: 'Cuộc đời luôn để lại vết tích trên đó, quan trọng là ta tìm thấy gì sau khi dấu vết nó lui vào tăm tối?'). Nút để ‘thu hoạch’ câu nói, cho nó trơ vào mục lục thu thập 'Kính ngắm'. Khai thác không bị hạn chế.",
+      "mvp_7_to_30_day_plan": [
+        "Thiết kế giao diện màn chơi 'Đám mây Trạng thái Kí ức'.",
+        "Tạo hiệu ứng hoạt ảnh đơn giản cho 'Lá Úa'.",
+        "Xây dựng hệ thống hiển thị 2 câu text triết lý sau một khoảng thời gian.",
+        "Triển khai chức năng 'thu hoạch' và lưu trữ các câu nói vào mục lục 'Kính ngắm'."
+      ],
+      "scores": {
+        "novelty": 3.5,
+        "creative_core_strength": 4.0,
+        "creative_core_preservation": 4.0,
+        "reframing_quality": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.0,
+        "hallucination_risk_after_reframing": 2.5
+      },
+      "overall_score": 66.88,
+      "decision": "Cần chỉnh",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Tiềm năng",
+      "expert_rationale": "Ý tưởng có tiềm năng thu hút người dùng tìm kiếm sự thư giãn và mindfulness. Hạt nhân sáng tạo về việc biến ký ức thành 'nông nghiệp tâm trí' được giữ lại. MVP rõ ràng và tập trung vào trải nghiệm cốt lõi. Tuy nhiên, tính mới lạ không quá cao và cần làm rõ hơn về cách game khuyến khích thực hành mindfulness. Mô hình kinh doanh bán 'vũ trụ thiền định cá nhân' cần được cụ thể hóa.",
+      "strong_points_after_reframing": [
+        "Hạt nhân sáng tạo về việc biến ký ức thành 'nông nghiệp tâm trí' được giữ lại.",
+        "MVP rõ ràng, tập trung vào trải nghiệm thư giãn và thu hoạch bài học.",
+        "Kết hợp hiệu quả yếu tố ASMR và mindfulness.",
+        "Tiềm năng thu hút người dùng tìm kiếm sự bình yên và chiêm nghiệm."
+      ],
+      "weak_points_after_reframing": [
+        "Tính mới lạ không quá cao so với các game idle/ASMR khác.",
+        "Cần làm rõ hơn cách game khuyến khích người chơi thực hành mindfulness sâu sắc.",
+        "Mô hình kinh doanh bán 'vũ trụ thiền định cá nhân' cần được cụ thể hóa và chứng minh tính khả thi."
+      ],
+      "validation_needed_later": [
+        "Kiểm tra mức độ người chơi cảm thấy thư giãn và có thực hành mindfulness hiệu quả.",
+        "Đánh giá khả năng người chơi tiếp tục sử dụng game để thu hoạch bài học.",
+        "Thử nghiệm các mô hình kinh doanh khác nhau, đặc biệt là các gói DLC mở rộng 'nhật ký sâu'."
+      ],
+      "final_recommendation": "Tập trung phát triển MVP đã đề xuất, ưu tiên kiểm chứng tính hấp dẫn của trải nghiệm thư giãn và mô hình kinh doanh."
+    },
+    {
+      "idea_id": "I003",
+      "idea_name": "Vũ Trụ Từ Vựng Trộm Lửa: Kỹ Năng Ngôn Ngữ Giao thoa Sức Mạnh Ẩn Danh",
+      "raw_hallucination_summary": "Ý tưởng có những phần suy đoán về khả năng cho người chơi định hình 'biểu tượng tinh thần' riêng và sử dụng chúng để thay đổi 'giao diện ý nghĩ' trên mạng xã hội, thậm chí được các nền tảng giải trí lớn như Netflix quan tâm. Hệ thống đề xuất từ ngữ độc đáo dựa trên 'nhu cầu giao tiếp' của người dùng cũng mang tính suy đoán cao. Liệu người chơi có coi việc trau dồi kiến thức này là giá trị và phương thức định giá 'ý nghĩa tương tác' mang tính định lượng/biến thiên hay không vẫn chưa rõ.",
+      "creative_core_to_preserve": "Một game ARPG nơi sức mạnh phép thuật được tạo ra từ việc kết hợp từ ngữ, xây dựng vốn từ vựng và khả năng diễn đạt của người chơi.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Khả năng cho người chơi định hình 'biểu tượng tinh thần' riêng và sử dụng chúng trên mạng xã hội/nền tảng giải trí lớn.",
+        "Hệ thống đề xuất từ ngữ độc đáo dựa trên 'nhu cầu giao tiếp' của người dùng.",
+        "Khẳng định người chơi sẽ coi việc trau dồi kiến thức này là giá trị.",
+        "Khẳng định phương thức định giá 'ý nghĩa tương tác' mang tính định lượng/biến thiên."
+      ],
+      "realistic_reframing": "Một game mobile ARPG tập trung vào cơ chế chiến đấu độc đáo, nơi người chơi tạo ra các 'câu thần chú' bằng cách kết hợp các từ khóa có liên quan ngữ nghĩa hoặc logic ẩn. Game sẽ có một hệ thống từ điển mở rộng, khuyến khích người chơi học từ mới và hiểu sâu hơn về cách sử dụng ngôn từ. Sức mạnh của phép thuật sẽ phụ thuộc vào sự phong phú và sáng tạo trong cách người chơi kết hợp từ ngữ.",
+      "practical_mvp": "Một giao diện chiến đấu đơn giản với một từ khóa cơ bản 'HƠI NÓNG' và môi trường game 'Thiên Thu Vụn'. Người chơi có 5 đòn đánh (trừ, phép khống chế) cần combo từ + hệ ký tự phụ. Người chơi chọn 2 trong 20 ô (ví dụ: các địa điểm trừu tượng như 'quán cafe chạng vạng', 'cửa hàng sửa móng tay cóc nhái') để kích hoạt các từ khóa liên quan, từ đó tạo ra hiệu ứng phép thuật.",
+      "mvp_7_to_30_day_plan": [
+        "Thiết kế giao diện chiến đấu cơ bản.",
+        "Xây dựng hệ thống từ khóa ban đầu và logic kết hợp đơn giản.",
+        "Tạo 5 loại đòn đánh cơ bản với hiệu ứng hình ảnh/âm thanh.",
+        "Thiết kế 20 ô tương tác với các từ khóa liên quan."
+      ],
+      "scores": {
+        "novelty": 4.5,
+        "creative_core_strength": 4.5,
+        "creative_core_preservation": 4.0,
+        "reframing_quality": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "hallucination_risk_after_reframing": 3.0
+      },
+      "overall_score": 65.88,
+      "decision": "Cần chỉnh",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Tiềm năng",
+      "expert_rationale": "Ý tưởng có tính mới lạ cao với cơ chế chiến đấu dựa trên ngôn từ. Hạt nhân sáng tạo mạnh mẽ. Phiên bản reframe tập trung vào MVP thực tế và loại bỏ các tuyên bố quá lớn về ảnh hưởng xã hội. Tuy nhiên, tính kỹ thuật của việc tạo ra 'câu thần chú' có ý nghĩa và mô hình kinh doanh cần được làm rõ hơn. Rủi ro về việc game play có đủ hấp dẫn hay không là đáng kể.",
+      "strong_points_after_reframing": [
+        "Cơ chế chiến đấu độc đáo dựa trên ngôn từ và từ vựng.",
+        "Hạt nhân sáng tạo về việc biến ngôn ngữ thành sức mạnh được giữ lại.",
+        "MVP tập trung vào cơ chế cốt lõi của game.",
+        "Tiềm năng thu hút game thủ thích thử thách trí óc và phát triển kỹ năng ngôn ngữ."
+      ],
+      "weak_points_after_reframing": [
+        "Cần làm rõ cách AI phân tích và áp dụng logic ngữ nghĩa phức tạp.",
+        "Mô hình kinh doanh bán 'kết quả kỳ diệu' hoặc 'hiệu ứng thuật ngữ' cần được thử nghiệm.",
+        "Rủi ro game play quá trừu tượng hoặc không đủ hấp dẫn so với các game ARPG truyền thống."
+      ],
+      "validation_needed_later": [
+        "Kiểm tra mức độ hấp dẫn và thỏa mãn của cơ chế tạo câu thần chú.",
+        "Đánh giá khả năng người chơi chuyển đổi kiến thức ngôn ngữ vào gameplay.",
+        "Thử nghiệm các mô hình kinh doanh khác nhau."
+      ],
+      "final_recommendation": "Tập trung phát triển MVP đã đề xuất, ưu tiên kiểm chứng tính hấp dẫn của cơ chế gameplay và khả năng tạo ra giá trị thực cho người chơi."
+    }
+  ],
+  "ranked_summary": [
+    {
+      "rank": 1,
+      "idea_id": "I002",
+      "idea_name": "Chiếc Hộp Ký Ức: Phục Dựng Kỷ Niệm Cổ Xưa Qua Góc Nhìn Người Cháu",
+      "overall_score": 73.38,
+      "decision": "Tiềm năng",
+      "hallucination_risk_after_reframing": 2.0
+    },
+    {
+      "rank": 2,
+      "idea_id": "I001",
+      "idea_name": "Lãng Du Thiền Định: Trò Chơi Tối Giản Du Lịch & Sáng Tạo Nội Dung Tự Lập Trình",
+      "overall_score": 70.25,
+      "decision": "Tiềm năng",
+      "hallucination_risk_after_reframing": 2.5
+    },
+    {
+      "rank": 3,
+      "idea_id": "I004",
+      "idea_name": "Chuyên Gia Biểu Cảm Da Người Tảo Sinh: Mô phỏng Khóa Học Phẫu Thuật Sắc Đẹp & Spa Cá Nhân Đạo'",
+      "overall_score": 68.75,
+      "decision": "Cần chỉnh",
+      "hallucination_risk_after_reframing": 2.5
+    },
+    {
+      "rank": 4,
+      "idea_id": "I005",
+      "idea_name": "Biện Phép Thoát Hiểm Bản Năng Nguyên Thủy: Tĩnh tâm qua Sức mạnh Trí nhớ Chậm Phản Tư'",
+      "overall_score": 66.88,
+      "decision": "Cần chỉnh",
+      "hallucination_risk_after_reframing": 2.5
+    },
+    {
+      "rank": 5,
+      "idea_id": "I003",
+      "idea_name": "Vũ Trụ Từ Vựng Trộm Lửa: Kỹ Năng Ngôn Ngữ Giao thoa Sức Mạnh Ẩn Danh",
+      "overall_score": 65.88,
+      "decision": "Cần chỉnh",
+      "hallucination_risk_after_reframing": 3.0
+    }
+  ]
+}

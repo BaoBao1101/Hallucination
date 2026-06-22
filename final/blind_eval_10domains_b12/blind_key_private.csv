@@ -1,0 +1,114 @@
+﻿candidate_id,method_true,domain,original_idea_id,pair_key,source_file
+BLIND_0001,M0_DIRECT_LOW_TEMP,Online Business,I002,,ideas_raw_direct_OnlineBusiness.json
+BLIND_0002,M3_CHVD_DISTILLED,Web App Services,I002,PAIR::web_app_services::I002,ideas_filtered_webappservices.json
+BLIND_0003,M1_RAW_HIGH_TEMP,Coffee Services,I002,PAIR::coffee_services::I002,ideas_raw_coffee.json
+BLIND_0004,M1_RAW_HIGH_TEMP,Artificial Intelligence App,I002,PAIR::artificial_intelligence_app::I002,ideas_raw_AIApp.json
+BLIND_0005,M0_DIRECT_LOW_TEMP,Online Business,I004,,ideas_raw_direct_youtubetiktok.json
+BLIND_0006,M0_DIRECT_LOW_TEMP,Online Business,I001,,ideas_raw_direct_youtubetiktok.json
+BLIND_0007,M1_RAW_HIGH_TEMP,Game Mobile,I005,PAIR::game_mobile::I005,ideas_raw_gamemobile.json
+BLIND_0008,M3_CHVD_DISTILLED,Online Business,I001,PAIR::online_business::I001,ideas_filtered_OnlineBusiness.json
+BLIND_0009,M1_RAW_HIGH_TEMP,Web App Services,I001,PAIR::web_app_services::I001,ideas_raw_webappservices.json
+BLIND_0010,M0_DIRECT_LOW_TEMP,Online Business,I001,,ideas_raw_direct_AIApp.json
+BLIND_0011,M3_CHVD_DISTILLED,Youtube & Tiktok Video Content,I004,PAIR::youtube_tiktok_video_content::I004,ideas_filtered_youtubetiktok.json
+BLIND_0012,M3_CHVD_DISTILLED,Online Business,I002,PAIR::online_business::I002,ideas_filtered_OnlineBusiness.json
+BLIND_0013,M1_RAW_HIGH_TEMP,Edtech,I001,PAIR::edtech::I001,ideas_raw_edtech.json
+BLIND_0014,M3_CHVD_DISTILLED,Youtube & Tiktok Video Content,I003,PAIR::youtube_tiktok_video_content::I003,ideas_filtered_youtubetiktok.json
+BLIND_0015,M3_CHVD_DISTILLED,Coffee Services,I004,PAIR::coffee_services::I004,ideas_filtered_coffee.json
+BLIND_0016,M1_RAW_HIGH_TEMP,Game Mobile,I004,PAIR::game_mobile::I004,ideas_raw_gamemobile.json
+BLIND_0017,M1_RAW_HIGH_TEMP,Artificial Intelligence App,I004,PAIR::artificial_intelligence_app::I004,ideas_raw_AIApp.json
+BLIND_0018,M0_DIRECT_LOW_TEMP,Web App Services,I001,,ideas_raw_direct_webappservices.json
+BLIND_0019,M3_CHVD_DISTILLED,Restaurant Services,I001,PAIR::restaurant_services::I001,ideas_filtered_restaurant.json
+BLIND_0020,M0_DIRECT_LOW_TEMP,Edtech,I004,,ideas_raw_direct_edtech.json
+BLIND_0021,M3_CHVD_DISTILLED,Game Mobile,I002,PAIR::game_mobile::I002,ideas_filtered_gamemobile.json
+BLIND_0022,M0_DIRECT_LOW_TEMP,Game Mobile,I002,,ideas_raw_direct_gamemobile.json
+BLIND_0023,M0_DIRECT_LOW_TEMP,Restaurant Services,I004,,ideas_raw_direct_restaurant.json
+BLIND_0024,M1_RAW_HIGH_TEMP,Web App Services,I004,PAIR::web_app_services::I004,ideas_raw_webappservices.json
+BLIND_0025,M3_CHVD_DISTILLED,Edtech,I004,PAIR::edtech::I004,ideas_filtered_edtech.json
+BLIND_0026,M1_RAW_HIGH_TEMP,Web App Services,I002,PAIR::web_app_services::I002,ideas_raw_webappservices.json
+BLIND_0027,M1_RAW_HIGH_TEMP,Online Business,I002,PAIR::online_business::I002,ideas_raw_OnlineBusiness.json
+BLIND_0028,M0_DIRECT_LOW_TEMP,Coffee Services,I004,,ideas_raw_direct_coffee.json
+BLIND_0029,M3_CHVD_DISTILLED,Offline 2D Game,I002,PAIR::offline_2d_game::I002,ideas_filtered_offline2dgames.json
+BLIND_0030,M0_DIRECT_LOW_TEMP,Edtech,I005,,ideas_raw_direct_edtech.json
+BLIND_0031,M0_DIRECT_LOW_TEMP,Offline 2D Games,I003,,ideas_raw_direct_offline2dgames.json
+BLIND_0032,M0_DIRECT_LOW_TEMP,Restaurant Services,I002,,ideas_raw_direct_restaurant.json
+BLIND_0033,M0_DIRECT_LOW_TEMP,Game Mobile,I004,,ideas_raw_direct_gamemobile.json
+BLIND_0034,M1_RAW_HIGH_TEMP,Restaurant Services,I004,PAIR::restaurant_services::I004,ideas_raw_restaurant.json
+BLIND_0035,M1_RAW_HIGH_TEMP,Coffee Services,I003,PAIR::coffee_services::I003,ideas_raw_coffee.json
+BLIND_0036,M3_CHVD_DISTILLED,Edtech,I005,PAIR::edtech::I005,ideas_filtered_edtech.json
+BLIND_0037,M3_CHVD_DISTILLED,Coffee Services,I001,PAIR::coffee_services::I001,ideas_filtered_coffee.json
+BLIND_0038,M1_RAW_HIGH_TEMP,Online Business,I001,PAIR::online_business::I001,ideas_raw_OnlineBusiness.json
+BLIND_0039,M3_CHVD_DISTILLED,Edtech,I001,PAIR::edtech::I001,ideas_filtered_edtech.json
+BLIND_0040,M1_RAW_HIGH_TEMP,Artificial Intelligence App,I001,PAIR::artificial_intelligence_app::I001,ideas_raw_AIApp.json
+BLIND_0041,M3_CHVD_DISTILLED,Youtube & Tiktok Video Content,I002,PAIR::youtube_tiktok_video_content::I002,ideas_filtered_youtubetiktok.json
+BLIND_0042,M1_RAW_HIGH_TEMP,Edtech,I004,PAIR::edtech::I004,ideas_raw_edtech.json
+BLIND_0043,M0_DIRECT_LOW_TEMP,Online Business,I004,,ideas_raw_direct_OnlineBusiness.json
+BLIND_0044,M3_CHVD_DISTILLED,Restaurant Services,I004,PAIR::restaurant_services::I004,ideas_filtered_restaurant.json
+BLIND_0045,M3_CHVD_DISTILLED,Offline 2D Game,I003,PAIR::offline_2d_game::I003,ideas_filtered_offline2dgames.json
+BLIND_0046,M1_RAW_HIGH_TEMP,Youtube & Tiktok Video Content,I002,PAIR::youtube_tiktok_video_content::I002,ideas_raw_youtubetiktok.json
+BLIND_0047,M1_RAW_HIGH_TEMP,Youtube & Tiktok Video Content,I001,PAIR::youtube_tiktok_video_content::I001,ideas_raw_youtubetiktok.json
+BLIND_0048,M3_CHVD_DISTILLED,Offline 2D Game,I001,PAIR::offline_2d_game::I001,ideas_filtered_offline2dgames.json
+BLIND_0049,M1_RAW_HIGH_TEMP,Artificial Intelligence App,I003,PAIR::artificial_intelligence_app::I003,ideas_raw_AIApp.json
+BLIND_0050,M1_RAW_HIGH_TEMP,Offline 2D Game,I003,PAIR::offline_2d_game::I003,ideas_raw_offline2dgames.json
+BLIND_0051,M0_DIRECT_LOW_TEMP,Edtech,I003,,ideas_raw_direct_edtech.json
+BLIND_0052,M3_CHVD_DISTILLED,Online Business,I004,PAIR::online_business::I004,ideas_filtered_OnlineBusiness.json
+BLIND_0053,M1_RAW_HIGH_TEMP,Game Mobile,I001,PAIR::game_mobile::I001,ideas_raw_gamemobile.json
+BLIND_0054,M0_DIRECT_LOW_TEMP,Game Mobile,I003,,ideas_raw_direct_gamemobile.json
+BLIND_0055,M3_CHVD_DISTILLED,Web App Services,I001,PAIR::web_app_services::I001,ideas_filtered_webappservices.json
+BLIND_0056,M0_DIRECT_LOW_TEMP,Game Mobile,I001,,ideas_raw_direct_gamemobile.json
+BLIND_0057,M3_CHVD_DISTILLED,Youtube & Tiktok Video Content,I001,PAIR::youtube_tiktok_video_content::I001,ideas_filtered_youtubetiktok.json
+BLIND_0058,M1_RAW_HIGH_TEMP,Coffee Services,I001,PAIR::coffee_services::I001,ideas_raw_coffee.json
+BLIND_0059,M3_CHVD_DISTILLED,Game Mobile,I001,PAIR::game_mobile::I001,ideas_filtered_gamemobile.json
+BLIND_0060,M1_RAW_HIGH_TEMP,Restaurant Services,I003,PAIR::restaurant_services::I003,ideas_raw_restaurant.json
+BLIND_0061,M0_DIRECT_LOW_TEMP,Online Business,I003,,ideas_raw_direct_AIApp.json
+BLIND_0062,M0_DIRECT_LOW_TEMP,Offline 2D Games,I004,,ideas_raw_direct_offline2dgames.json
+BLIND_0063,M0_DIRECT_LOW_TEMP,Online Business,I002,,ideas_raw_direct_youtubetiktok.json
+BLIND_0064,M1_RAW_HIGH_TEMP,Game Mobile,I002,PAIR::game_mobile::I002,ideas_raw_gamemobile.json
+BLIND_0065,M3_CHVD_DISTILLED,Artificial Intelligence App,I002,PAIR::artificial_intelligence_app::I002,ideas_filtered_AIApp.json
+BLIND_0066,M3_CHVD_DISTILLED,Artificial Intelligence App,I003,PAIR::artificial_intelligence_app::I003,ideas_filtered_AIApp.json
+BLIND_0067,M1_RAW_HIGH_TEMP,Restaurant Services,I002,PAIR::restaurant_services::I002,ideas_raw_restaurant.json
+BLIND_0068,M3_CHVD_DISTILLED,Artificial Intelligence App,I004,PAIR::artificial_intelligence_app::I004,ideas_filtered_AIApp.json
+BLIND_0069,M1_RAW_HIGH_TEMP,Youtube & Tiktok Video Content,I003,PAIR::youtube_tiktok_video_content::I003,ideas_raw_youtubetiktok.json
+BLIND_0070,M0_DIRECT_LOW_TEMP,Coffee Services,I002,,ideas_raw_direct_coffee.json
+BLIND_0071,M1_RAW_HIGH_TEMP,Edtech,I005,PAIR::edtech::I005,ideas_raw_edtech.json
+BLIND_0072,M1_RAW_HIGH_TEMP,Online Business,I004,PAIR::online_business::I004,ideas_raw_OnlineBusiness.json
+BLIND_0073,M0_DIRECT_LOW_TEMP,Online Business,I004,,ideas_raw_direct_AIApp.json
+BLIND_0074,M1_RAW_HIGH_TEMP,Offline 2D Game,I002,PAIR::offline_2d_game::I002,ideas_raw_offline2dgames.json
+BLIND_0075,M3_CHVD_DISTILLED,Online Business,I003,PAIR::online_business::I003,ideas_filtered_OnlineBusiness.json
+BLIND_0076,M0_DIRECT_LOW_TEMP,Online Business,I002,,ideas_raw_direct_AIApp.json
+BLIND_0077,M1_RAW_HIGH_TEMP,Offline 2D Game,I001,PAIR::offline_2d_game::I001,ideas_raw_offline2dgames.json
+BLIND_0078,M3_CHVD_DISTILLED,Game Mobile,I004,PAIR::game_mobile::I004,ideas_filtered_gamemobile.json
+BLIND_0079,M0_DIRECT_LOW_TEMP,Online Business,I001,,ideas_raw_direct_OnlineBusiness.json
+BLIND_0080,M3_CHVD_DISTILLED,Edtech,I002,PAIR::edtech::I002,ideas_filtered_edtech.json
+BLIND_0081,M0_DIRECT_LOW_TEMP,Web App Services,I003,,ideas_raw_direct_webappservices.json
+BLIND_0082,M1_RAW_HIGH_TEMP,Edtech,I003,PAIR::edtech::I003,ideas_raw_edtech.json
+BLIND_0083,M0_DIRECT_LOW_TEMP,Restaurant Services,I003,,ideas_raw_direct_restaurant.json
+BLIND_0084,M3_CHVD_DISTILLED,Restaurant Services,I003,PAIR::restaurant_services::I003,ideas_filtered_restaurant.json
+BLIND_0085,M0_DIRECT_LOW_TEMP,Online Business,I003,,ideas_raw_direct_OnlineBusiness.json
+BLIND_0086,M0_DIRECT_LOW_TEMP,Restaurant Services,I001,,ideas_raw_direct_restaurant.json
+BLIND_0087,M0_DIRECT_LOW_TEMP,Edtech,I002,,ideas_raw_direct_edtech.json
+BLIND_0088,M1_RAW_HIGH_TEMP,Youtube & Tiktok Video Content,I004,PAIR::youtube_tiktok_video_content::I004,ideas_raw_youtubetiktok.json
+BLIND_0089,M1_RAW_HIGH_TEMP,Restaurant Services,I001,PAIR::restaurant_services::I001,ideas_raw_restaurant.json
+BLIND_0090,M3_CHVD_DISTILLED,Restaurant Services,I002,PAIR::restaurant_services::I002,ideas_filtered_restaurant.json
+BLIND_0091,M1_RAW_HIGH_TEMP,Offline 2D Game,I004,PAIR::offline_2d_game::I004,ideas_raw_offline2dgames.json
+BLIND_0092,M3_CHVD_DISTILLED,Offline 2D Game,I004,PAIR::offline_2d_game::I004,ideas_filtered_offline2dgames.json
+BLIND_0093,M3_CHVD_DISTILLED,Artificial Intelligence App,I001,PAIR::artificial_intelligence_app::I001,ideas_filtered_AIApp.json
+BLIND_0094,M0_DIRECT_LOW_TEMP,Web App Services,I004,,ideas_raw_direct_webappservices.json
+BLIND_0095,M0_DIRECT_LOW_TEMP,Web App Services,I002,,ideas_raw_direct_webappservices.json
+BLIND_0096,M3_CHVD_DISTILLED,Coffee Services,I002,PAIR::coffee_services::I002,ideas_filtered_coffee.json
+BLIND_0097,M0_DIRECT_LOW_TEMP,Coffee Services,I003,,ideas_raw_direct_coffee.json
+BLIND_0098,M3_CHVD_DISTILLED,Edtech,I003,PAIR::edtech::I003,ideas_filtered_edtech.json
+BLIND_0099,M1_RAW_HIGH_TEMP,Game Mobile,I003,PAIR::game_mobile::I003,ideas_raw_gamemobile.json
+BLIND_0100,M1_RAW_HIGH_TEMP,Edtech,I002,PAIR::edtech::I002,ideas_raw_edtech.json
+BLIND_0101,M3_CHVD_DISTILLED,Coffee Services,I003,PAIR::coffee_services::I003,ideas_filtered_coffee.json
+BLIND_0102,M3_CHVD_DISTILLED,Game Mobile,I005,PAIR::game_mobile::I005,ideas_filtered_gamemobile.json
+BLIND_0103,M3_CHVD_DISTILLED,Web App Services,I004,PAIR::web_app_services::I004,ideas_filtered_webappservices.json
+BLIND_0104,M0_DIRECT_LOW_TEMP,Offline 2D Games,I002,,ideas_raw_direct_offline2dgames.json
+BLIND_0105,M3_CHVD_DISTILLED,Web App Services,I003,PAIR::web_app_services::I003,ideas_filtered_webappservices.json
+BLIND_0106,M1_RAW_HIGH_TEMP,Online Business,I003,PAIR::online_business::I003,ideas_raw_OnlineBusiness.json
+BLIND_0107,M0_DIRECT_LOW_TEMP,Offline 2D Games,I001,,ideas_raw_direct_offline2dgames.json
+BLIND_0108,M0_DIRECT_LOW_TEMP,Coffee Services,I001,,ideas_raw_direct_coffee.json
+BLIND_0109,M3_CHVD_DISTILLED,Game Mobile,I003,PAIR::game_mobile::I003,ideas_filtered_gamemobile.json
+BLIND_0110,M1_RAW_HIGH_TEMP,Coffee Services,I004,PAIR::coffee_services::I004,ideas_raw_coffee.json
+BLIND_0111,M0_DIRECT_LOW_TEMP,Online Business,I003,,ideas_raw_direct_youtubetiktok.json
+BLIND_0112,M0_DIRECT_LOW_TEMP,Edtech,I001,,ideas_raw_direct_edtech.json
+BLIND_0113,M1_RAW_HIGH_TEMP,Web App Services,I003,PAIR::web_app_services::I003,ideas_raw_webappservices.json

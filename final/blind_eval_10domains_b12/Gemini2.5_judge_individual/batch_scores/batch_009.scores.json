@@ -1,0 +1,188 @@
+{
+  "metadata": {
+    "stage": "blind_individual_metric_judge",
+    "judge_model": "gemini-2.5-flash-lite",
+    "temperature": 0.0,
+    "top_p": 0.1,
+    "batch_source": "blind_eval_10domains_b12\\batches\\batch_009.json",
+    "created_at": "2026-06-22T09:59:19"
+  },
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0022",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng game xây dựng thế giới từ giấc mơ rất mới lạ và hấp dẫn. Tuy nhiên, việc tái tạo tài sản 3D bằng AI từ mô tả văn bản có thể là một thách thức kỹ thuật lớn."
+    },
+    {
+      "candidate_id": "BLIND_0084",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 2.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Khái niệm kết hợp âm nhạc và ẩm thực để nâng cao trải nghiệm là thú vị, nhưng nỗi đau người dùng được mô tả hơi khó hiểu và trừu tượng. MVP tập trung vào pop-up cafe là hợp lý."
+    },
+    {
+      "candidate_id": "BLIND_0108",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.5,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng cá nhân hóa cà phê theo tâm trạng dựa trên dữ liệu cảm xúc là mới lạ và có tiềm năng. MVP là ứng dụng web gợi ý pha chế tại nhà khá rõ ràng và khả thi."
+    },
+    {
+      "candidate_id": "BLIND_0024",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Khái niệm 'mã hóa mưu mẹo cuộc sống' thành các đoạn code có thể tái sử dụng là rất sáng tạo. MVP tập trung vào các mẫu cụ thể và chức năng copy-paste là rõ ràng."
+    },
+    {
+      "candidate_id": "BLIND_0101",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Sử dụng hoa lá ăn được có nguồn gốc sinh thái để trang trí và làm nguyên liệu là một ý tưởng hay, gắn liền với thiên nhiên. MVP với 3-5 loại thực vật và 2-3 món ăn nhẹ là cụ thể."
+    },
+    {
+      "candidate_id": "BLIND_0020",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 2.5,
+        "mvp_clarity": 3.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 3.5,
+        "ethical_privacy_risk": 2.0,
+        "overall_mvp_usefulness": 3.0,
+        "prototype_willingness": 3.0
+      },
+      "short_rationale": "Ý tưởng 'lập trình' kiến thức vào tiềm thức khi ngủ rất độc đáo và hấp dẫn. Tuy nhiên, tính khả thi kỹ thuật và rủi ro về khẳng định chưa được hỗ trợ là khá cao."
+    },
+    {
+      "candidate_id": "BLIND_0041",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Biến đổi bình luận toxic thành nội dung sáng tạo, hài hước là một ý tưởng rất hay và có tính ứng dụng cao. MVP là ứng dụng web đơn giản với các gợi ý diễn đạt lại là rất rõ ràng."
+    },
+    {
+      "candidate_id": "BLIND_0091",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 3.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Game giải đố phân biệt hình ảnh quảng cáo bị biến tấu là một ý tưởng độc đáo, kết hợp nghệ thuật và phê bình truyền thông. MVP với 3 nhãn quen và các kiểu chỉnh màu là khá cụ thể."
+    },
+    {
+      "candidate_id": "BLIND_0055",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ứng dụng phân tích giấc mơ và tạo hình ảnh minh họa gợi mở là một ý tưởng thú vị về khám phá nội tâm. MVP với chức năng nhập văn bản, tạo ảnh tĩnh và gợi ý suy ngẫm là rõ ràng."
+    },
+    {
+      "candidate_id": "BLIND_0043",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Nền tảng lưu trữ 'ký ức tương lai' để gửi lại cho chính mình hoặc người khác là một ý tưởng ý nghĩa và có tính ứng dụng cao. MVP là trang web gửi tin nhắn văn bản qua email là rất rõ ràng."
+    },
+    {
+      "candidate_id": "BLIND_0031",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Game xây dựng thế giới nội tâm cho NPC là một ý tưởng độc đáo, mang tính nghệ thuật và chữa lành. MVP với các loại địa hình, vật thể giới hạn và NPC đơn giản là cụ thể."
+    }
+  ]
+}

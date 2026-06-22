@@ -1,0 +1,204 @@
+{
+  "metadata": {
+    "stage": "blind_individual_metric_judge",
+    "judge_model": "gemini-2.5-flash-lite",
+    "temperature": 0.0,
+    "top_p": 0.1,
+    "batch_source": "blind_eval_10domains_b12\\batches\\batch_008.json",
+    "created_at": "2026-06-22T09:59:08"
+  },
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0050",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 3.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng game sinh thái vi mô độc đáo, nhưng tính khả thi kỹ thuật và mô hình kinh doanh còn cần làm rõ. MVP tập trung vào cơ chế cốt lõi, có thể thử nghiệm được."
+    },
+    {
+      "candidate_id": "BLIND_0089",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Concept nhà hàng đa giác quan rất mới lạ và hấp dẫn, MVP rõ ràng cho việc thử nghiệm trải nghiệm cốt lõi. Khả thi kỹ thuật và chi phí vận hành là thách thức."
+    },
+    {
+      "candidate_id": "BLIND_0052",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 3.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Nền tảng chia sẻ ý tưởng cho AI có tiềm năng, MVP tập trung vào việc thu thập và đánh dấu ý tưởng. Rủi ro về đạo đức và quyền riêng tư cần được xem xét kỹ."
+    },
+    {
+      "candidate_id": "BLIND_0002",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Ứng dụng AR lịch sử có tính tương tác cao, MVP rõ ràng và khả thi về kỹ thuật. Cần làm rõ cách thu hút người dùng và mô hình kinh doanh lâu dài."
+    },
+    {
+      "candidate_id": "BLIND_0085",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Ý tưởng 'nhà máy cảm xúc' sáng tạo, MVP đơn giản và dễ thử nghiệm. Cần làm rõ cách AI phân tích và tạo ra 'liều thuốc cảm xúc' hiệu quả."
+    },
+    {
+      "candidate_id": "BLIND_0093",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ứng dụng AI tạo sinh giấc mơ có tính mới lạ cao, MVP tập trung vào việc tạo video/hình ảnh gợi mở. Khả thi kỹ thuật tốt nhưng cần làm rõ giá trị thực tế cho người dùng."
+    },
+    {
+      "candidate_id": "BLIND_0001",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 3.5,
+        "ethical_privacy_risk": 1.5,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Chợ kỹ năng mềm độc đáo, MVP tập trung vào việc thu thập chứng nhận từ cộng đồng. Tính minh bạch và khả năng chống gian lận là thách thức lớn."
+    },
+    {
+      "candidate_id": "BLIND_0070",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Dịch vụ cà phê ký ức có ý tưởng cảm xúc mạnh mẽ, MVP tập trung vào tư vấn và gợi ý hương vị. Khả thi kỹ thuật và tính cá nhân hóa là điểm mạnh."
+    },
+    {
+      "candidate_id": "BLIND_0048",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Game giải đố thính giác độc đáo, MVP tập trung vào cơ chế tái tạo rung động. Cần làm rõ cách thu hút người chơi và phát triển sâu hơn."
+    },
+    {
+      "candidate_id": "BLIND_0103",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Nền tảng 'công thức' mẹo vặt hữu ích, MVP rõ ràng và dễ triển khai. Tính mới lạ không cao nhưng giải quyết vấn đề thực tế."
+    },
+    {
+      "candidate_id": "BLIND_0023",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Nền tảng kết nối bếp gia đình có tiềm năng, MVP tập trung vào việc kết nối người dùng và đầu bếp. Cần làm rõ vấn đề logistics và kiểm soát chất lượng."
+    },
+    {
+      "candidate_id": "BLIND_0086",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Nhà hàng tái hiện món ăn ký ức có ý tưởng độc đáo, MVP tập trung vào việc tái tạo món ăn dựa trên câu chuyện. Cần làm rõ khả năng AI phân tích và tái tạo món ăn chính xác."
+    }
+  ]
+}

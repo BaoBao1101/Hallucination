@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "stage": "directional_pairwise_raw_to_chvd_judge",
+    "judge_model": "gemini-2.5-flash-lite",
+    "temperature": 0.0,
+    "top_p": 0.1,
+    "input_source": "blind_eval_10domains_b12\\pairwise_distillation_input.jsonl",
+    "batch_index": 8,
+    "created_at": "2026-06-22T10:08:10"
+  },
+  "evaluations": [
+    {
+      "pair_id": "PAIRBLIND_0036",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "Bản revision làm rõ hơn về tính khả thi của MVP bằng cách giảm bớt các yếu tố kỹ thuật phức tạp như tín hiệu sinh học, tập trung vào việc tạo ra trải nghiệm thị giác và âm thanh gợi mở thay vì mô phỏng giấc mơ thực tế."
+    },
+    {
+      "pair_id": "PAIRBLIND_0037",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "Bản revision làm cho MVP rõ ràng hơn bằng cách giới hạn số lượng 'nhân cách tương lai' và tập trung vào một góc nhìn duy nhất, giúp dễ dàng triển khai và kiểm thử hơn so với việc mô phỏng nhiều phiên bản tương lai cùng lúc."
+    },
+    {
+      "pair_id": "PAIRBLIND_0038",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "Bản revision tập trung vào việc tạo nhạc nền tùy chỉnh thay vì phân tích tín hiệu sinh học phức tạp, làm cho MVP dễ triển khai và kiểm thử hơn, đồng thời vẫn giữ được cốt lõi sáng tạo là âm nhạc điều chỉnh tâm trạng."
+    }
+  ]
+}

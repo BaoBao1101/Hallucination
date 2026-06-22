@@ -1,0 +1,84 @@
+{
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0060",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Ý tưởng kết hợp cà phê với trải nghiệm đa giác quan là mới lạ. MVP tập trung vào việc điều chỉnh ánh sáng và âm thanh dựa trên nhịp tim là khả thi nhưng cần làm rõ hơn về cách đo lường và tác động thực tế."
+    },
+    {
+      "candidate_id": "BLIND_0009",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Ý tưởng tạo 'hiện thân số' của nhân vật lịch sử bằng AI rất độc đáo và có tiềm năng thu hút. MVP chatbot là rõ ràng, khả thi và có thể thử nghiệm nhanh chóng, tuy nhiên cần cân nhắc kỹ về rủi ro đạo đức khi mô phỏng nhân vật lịch sử."
+    },
+    {
+      "candidate_id": "BLIND_0042",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 3.0,
+        "technical_plausibility": 2.5,
+        "mvp_clarity": 2.5,
+        "business_model_plausibility": 2.0,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 2.5,
+        "prototype_willingness": 2.5
+      },
+      "short_rationale": "Khái niệm về metaverse VR nơi người dùng định hình vũ trụ bằng suy nghĩ là rất mới lạ. Tuy nhiên, MVP mô tả còn khá mơ hồ và yêu cầu kỹ thuật cao, khó để đánh giá tính khả thi và hữu ích."
+    },
+    {
+      "candidate_id": "BLIND_0028",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.0,
+        "prototype_willingness": 3.0
+      },
+      "short_rationale": "Ý tưởng ứng dụng AI tạo phim ngắn từ prompt là hấp dẫn và giải quyết được nỗi đau của người làm phim. MVP tập trung vào hoạt ảnh ngắn 'mood' thay vì narrative mạch lạc là một bước đi hợp lý để thử nghiệm."
+    },
+    {
+      "candidate_id": "BLIND_0048",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 3.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 2.0,
+        "mvp_clarity": 2.0,
+        "business_model_plausibility": 2.0,
+        "unsupported_claim_risk": 3.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 2.0,
+        "prototype_willingness": 2.0
+      },
+      "short_rationale": "Khái niệm sử dụng AI để mô phỏng các kịch bản sự nghiệp là thú vị, nhưng MVP mô tả rất khó hiểu và thiếu rõ ràng về cách thức hoạt động cũng như kết quả mong đợi."
+    }
+  ]
+}

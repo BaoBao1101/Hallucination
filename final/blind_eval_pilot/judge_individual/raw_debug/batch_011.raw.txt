@@ -1,0 +1,84 @@
+{
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0022",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 3.0,
+        "technical_plausibility": 1.5,
+        "mvp_clarity": 3.0,
+        "business_model_plausibility": 1.0,
+        "unsupported_claim_risk": 4.5,
+        "ethical_privacy_risk": 4.0,
+        "overall_mvp_usefulness": 2.0,
+        "prototype_willingness": 1.5
+      },
+      "short_rationale": "Ý tưởng rất mới lạ nhưng tính khả thi về mặt kỹ thuật và mô hình kinh doanh còn rất mơ hồ. MVP chỉ tập trung vào âm thanh mà không giải quyết được cốt lõi học tập qua giấc mơ."
+    },
+    {
+      "candidate_id": "BLIND_0058",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Giải quyết vấn đề rõ ràng với MVP cụ thể, khả thi về kỹ thuật và có tiềm năng thu hút người dùng đóng góp dữ liệu."
+    },
+    {
+      "candidate_id": "BLIND_0057",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Ý tưởng sáng tạo, giải quyết nhu cầu cảm xúc sâu sắc với MVP có thể thực hiện được, tuy nhiên việc AI tạo 'bản phác thảo cảm xúc' cần làm rõ hơn."
+    },
+    {
+      "candidate_id": "BLIND_0035",
+      "scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.5,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "MVP rõ ràng, giải quyết nhu cầu thực tế về quản lý cảm xúc với cách tiếp cận có thể thực hiện được. Rủi ro đạo đức thấp."
+    },
+    {
+      "candidate_id": "BLIND_0040",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Giải quyết vấn đề rõ ràng với MVP cụ thể, khả thi về kỹ thuật và có tiềm năng tạo ra giá trị cộng đồng lớn thông qua trao đổi phi tài chính."
+    }
+  ]
+}

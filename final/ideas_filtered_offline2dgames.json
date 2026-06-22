@@ -1,0 +1,286 @@
+{
+  "metadata": {
+    "pipeline": "CHVD",
+    "version": "v5.4",
+    "stage": "zero_temperature_hallucination_distiller_to_realistic_mvp",
+    "language": "vi",
+    "evaluation_mode": "prompt_only_internal_logic_hallucination_distillation",
+    "description": "Tách creative core khỏi hallucinated overclaim, hiện thực hóa thành MVP khả thi hơn, không dùng corpus/evidence scoring.",
+    "normalized_at": "2026-06-21T22:09:23",
+    "filter_model": "gemini-2.5-flash-lite",
+    "filter_temperature": 0.0,
+    "filter_top_p": 0.1,
+    "input_file": "outputs_v5_3\\ideas_raw_vi.json",
+    "source_generator_metadata": {
+      "pipeline": "CHVD",
+      "version": "v5.3",
+      "domain": "Offline 2D Game",
+      "language": "vi",
+      "mode": "prompt_only_no_corpus_no_weak_signals",
+      "temperature_role": "maximal_divergent_creativity",
+      "stage": "high_temperature_creative_hallucination_generator",
+      "saved_at": "2026-06-21T21:52:11",
+      "generator_model": "gemini-2.5-flash-lite",
+      "generator_temperature": 2.0,
+      "generator_top_p": 0.99,
+      "user_prompt": ""
+    },
+    "raw_filter_text": "{\n  \"metadata\": {\n    \"pipeline\": \"CHVD\",\n    \"version\": \"v5.4\",\n    \"stage\": \"zero_temperature_hallucination_distiller_to_realistic_mvp\",\n    \"language\": \"vi\",\n    \"evaluation_mode\": \"prompt_only_internal_logic_hallucination_distillation\",\n    \"description\": \"Tách creative core khỏi hallucinated overclaim, hiện thực hóa thành MVP khả thi hơn, không dùng corpus/evidence scoring.\"\n  },\n  \"evaluations\": [\n    {\n      \"idea_id\": \"I001\",\n      \"idea_name\": \"Giai Điệu Thép Lắng Nghe Tim Tình Cờ\",\n      \"raw_hallucination_summary\": \"Ý tưởng gán 'tiếng nói' cho vật liệu vô tri và 'câu chuyện âm thanh' từ rung động ngẫu nhiên là suy đoán cao. Khẳng định người chơi sẽ 'thích thú' khám phá vật lý rung động thay vì âm nhạc thông thường và kết nối với liệu pháp thư giãn sâu là chưa kiểm chứng.\",\n      \"creative_core_to_preserve\": \"Trải nghiệm game giải đố tập trung vào thính giác và cảm nhận tinh tế rung động vật lý, khác biệt với các game hành động/thị giác thông thường. Khám phá vẻ đẹp ẩn trong tĩnh lặng và rung động.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Gán 'tiếng nói' cho vật liệu vô tri.\",\n        \"Khái niệm 'câu chuyện âm thanh' từ rung động ngẫu nhiên.\",\n        \"Học thuyết rằng rung động vật lý ẩn dụ cho cảm xúc/ý niệm trừu tượng.\",\n        \"Khẳng định người chơi 'thích thú' khám phá vật lý rung động thay vì âm nhạc thông thường.\",\n        \"Khẳng định kết nối giữa cơ chế game này với liệu pháp thư giãn sâu cho những người 'quá mệt mỏi' vì tương tác đa giác quan thông thường.\"\n      ],\n      \"realistic_reframing\": \"Một game giải đố 2D nơi người chơi tương tác với các vật thể để tạo ra các mẫu rung động âm thanh. Mục tiêu là tái tạo lại một chuỗi rung động mẫu bằng cách chạm, vuốt hoặc điều chỉnh lực tác động lên các vật thể khác nhau. Game tập trung vào việc phát triển kỹ năng thính giác và cảm nhận tinh tế các phản hồi vật lý.\",\n      \"practical_mvp\": \"Một demo với 3-5 vật thể đơn giản (ví dụ: thanh kim loại, khối gỗ, tấm kính) mỗi vật thể có 2-3 mẫu rung động/âm thanh đặc trưng. Người chơi nhận một chuỗi mẫu và phải tìm cách tái tạo nó bằng cách tương tác với các vật thể có sẵn. Giao diện hiển thị trực quan mức độ tương đồng giữa mẫu gốc và mẫu tạo ra.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Thiết kế 3-5 vật thể 2D với các đặc tính rung động/âm thanh khác nhau.\",\n        \"Lập trình cơ chế tương tác cơ bản (chạm, vuốt, giữ) để tạo ra rung động/âm thanh.\",\n        \"Tạo 5-10 chuỗi mẫu rung động/âm thanh để người chơi tái tạo.\",\n        \"Phát triển giao diện người dùng đơn giản hiển thị vật thể, mẫu mẫu và phản hồi tương tác.\",\n        \"Thử nghiệm nội bộ để đảm bảo cơ chế hoạt động và các mẫu âm thanh/rung động có sự khác biệt rõ ràng.\"\n      ],\n      \"scores\": {\n        \"novelty\": 4.0,\n        \"creative_core_strength\": 4.5,\n        \"creative_core_preservation\": 4.0,\n        \"reframing_quality\": 4.0,\n        \"conceptual_coherence\": 4.5,\n        \"user_pain_plausibility\": 3.5,\n        \"technical_plausibility\": 3.5,\n        \"mvp_clarity\": 4.5,\n        \"business_model_plausibility\": 3.0,\n        \"hallucination_risk_after_reframing\": 2.0\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"expert_rationale\": \"Ý tưởng gốc có sự sáng tạo cao trong việc chuyển đổi rung động vật lý thành gameplay. Bản reframing tập trung vào việc tạo ra một trải nghiệm giải đố âm thanh/rung động thực tế hơn. MVP rõ ràng, có thể xây dựng trong thời gian ngắn. Tuy nhiên, tính hấp dẫn lâu dài và khả năng thu hút người dùng rộng rãi vẫn cần kiểm chứng.\",\n      \"strong_points_after_reframing\": [\n        \"Tập trung vào trải nghiệm thính giác và cảm nhận tinh tế, tạo sự khác biệt.\",\n        \"MVP rõ ràng, có thể prototype nhanh chóng.\",\n        \"Cơ chế gameplay cốt lõi giữ được sự độc đáo.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Khả năng thu hút người dùng rộng rãi còn là câu hỏi.\",\n        \"Tính kỹ thuật của việc mô phỏng rung động vật liệu chân thực và khác biệt cần được nghiên cứu thêm.\",\n        \"Mô hình kinh doanh cần được phát triển chi tiết hơn.\"\n      ],\n      \"validation_needed_later\": [\n        \"Thử nghiệm với người dùng để đánh giá mức độ hấp dẫn và khả năng tiếp cận của cơ chế giải đố.\",\n        \"Nghiên cứu khả năng kỹ thuật để mô phỏng rung động vật liệu một cách chân thực và đa dạng.\",\n        \"Khảo sát thị trường về nhu cầu đối với các game tập trung vào trải nghiệm thính giác và cảm nhận vật lý.\"\n      ],\n      \"final_recommendation\": \"Tiếp tục phát triển MVP, tập trung vào việc tạo ra các mẫu rung động/âm thanh đa dạng và hấp dẫn. Nghiên cứu sâu hơn về khía cạnh kỹ thuật và thị trường.\"\n    },\n    {\n      \"idea_id\": \"I002\",\n      \"idea_name\": \"Bản Đồ Tâm Đắc Tủi Thương Khốn Khổ\",\n      \"raw_hallucination_summary\": \"Việc biến 'hồ nước cảm xúc' và 'mảnh ký ức' thành không gian game vật lý để thao tác trực tiếp là suy đoán cao. Khẳng định 'AI kể chuyện độc lập' có thể tạo ra mối liên hệ logic cảm xúc đủ để xây dựng quy luật game thực sự và sinh ra nghệ thuật 'ám ảnh, chân thực về mặt cảm xúc' là chưa kiểm chứng.\",\n      \"creative_core_to_preserve\": \"Trải nghiệm game giải đố nhập vai vào nội tâm nhân vật, sử dụng thao tác ghép nối các yếu tố trừu tượng (ký ức, cảm xúc) để 'hàn gắn' hoặc sắp xếp lại chúng, từ đó khám phá câu chuyện và tâm lý nhân vật.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Hình ảnh 'hồ nước cảm xúc' với 'mảnh ký ức' để con người thao tác.\",\n        \"Coi ký ức & cảm xúc như 'phần mềm lỗi' có thể debug bằng puzzle.\",\n        \"'AI kể chuyện độc lập': AI tự tạo ra mối liên hệ logic cảm xúc và thuật toán giải đố cho từng mảnh.\",\n        \"Khẳng định tính hiệu quả của 'logic cảm xúc' làm cơ sở cho cơ chế AI: Liệu có cấu trúc nào tồn tại đủ để xây dựng quy luật game thực sự?\",\n        \"Khẳng định AI có thể sinh ra nghệ thuật 'ám ảnh, chân thực về mặt cảm xúc' theo cách chúng ta mong đợi, từ đó tác động tâm lý.\"\n      ],\n      \"realistic_reframing\": \"Một game giải đố 2D nơi người chơi sắp xếp các mảnh ghép artwork trừu tượng để hoàn thiện một bức tranh biểu thị trạng thái tâm lý hoặc ký ức của nhân vật. Mỗi màn chơi là một 'không gian nội tâm' với các mảnh ghép đại diện cho các khía cạnh khác nhau của cảm xúc hoặc ký ức. Mục tiêu là sắp xếp chúng theo một logic nhất định để mở khóa câu chuyện hoặc hiểu rõ hơn về nhân vật.\",\n      \"practical_mvp\": \"Một demo với 1-2 'không gian nội tâm' đơn giản. Mỗi không gian có 5-7 mảnh ghép artwork trừu tượng. Người chơi có thể kéo thả, xoay các mảnh ghép để khớp với một 'khuôn mẫu' hoặc làm thay đổi màu sắc/bóng tối tổng thể của không gian. Hoàn thành việc sắp xếp sẽ hiển thị một đoạn văn bản ngắn hé lộ về nhân vật.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Thiết kế 1-2 'không gian nội tâm' với các vị trí đặt mảnh ghép.\",\n        \"Tạo 10-15 mảnh ghép artwork trừu tượng, có thể xoay và kéo thả.\",\n        \"Xây dựng cơ chế logic sắp xếp mảnh ghép (ví dụ: khớp hình dạng, màu sắc, hoặc tạo ra một hình ảnh tổng thể có ý nghĩa).\",\n        \"Viết 1-2 đoạn văn bản ngắn để hiển thị khi hoàn thành màn chơi.\",\n        \"Phát triển giao diện người dùng tối giản cho việc tương tác với mảnh ghép.\"\n      ],\n      \"scores\": {\n        \"novelty\": 4.5,\n        \"creative_core_strength\": 4.5,\n        \"creative_core_preservation\": 4.0,\n        \"reframing_quality\": 4.0,\n        \"conceptual_coherence\": 4.0,\n        \"user_pain_plausibility\": 4.0,\n        \"technical_plausibility\": 3.0,\n        \"mvp_clarity\": 4.0,\n        \"business_model_plausibility\": 3.0,\n        \"hallucination_risk_after_reframing\": 3.0\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Cần chỉnh\",\n      \"expert_rationale\": \"Ý tưởng có tiềm năng sáng tạo cao trong việc khám phá tâm lý nhân vật qua gameplay giải đố. Bản reframing tập trung vào việc sắp xếp artwork trừu tượng, giảm bớt yếu tố AI suy đoán. MVP rõ ràng hơn, nhưng tính 'logic cảm xúc' và việc tạo ra trải nghiệm 'ám ảnh' vẫn là thách thức lớn, đòi hỏi sự tinh tế trong thiết kế và viết lách.\",\n      \"strong_points_after_reframing\": [\n        \"Khám phá tâm lý nhân vật qua gameplay giải đố độc đáo.\",\n        \"Tập trung vào artwork trừu tượng, giảm bớt sự phụ thuộc vào AI phức tạp.\",\n        \"MVP có thể được xây dựng với các yếu tố cốt lõi.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Việc thiết kế 'logic cảm xúc' cho câu đố là rất khó khăn và mang tính chủ quan.\",\n        \"Rủi ro về mặt chủ đề nhạy cảm và khả năng gây khó chịu cho người chơi.\",\n        \"Mô hình kinh doanh cần được làm rõ hơn.\"\n      ],\n      \"validation_needed_later\": [\n        \"Thử nghiệm với người chơi để đánh giá tính logic và cảm xúc của các câu đố artwork.\",\n        \"Thu thập phản hồi về trải nghiệm người chơi liên quan đến chủ đề tâm lý.\",\n        \"Nghiên cứu cách thiết kế câu đố để phản ánh 'logic cảm xúc' một cách tinh tế.\"\n      ],\n      \"final_recommendation\": \"Tập trung vào việc thiết kế các câu đố artwork có ý nghĩa và thu thập phản hồi người dùng về trải nghiệm cảm xúc. Cân nhắc kỹ lưỡng về cách xử lý chủ đề nhạy cảm.\"\n    },\n    {\n      \"idea_id\": \"I003\",\n      \"idea_name\": \"Kiến Trúc Vật Lý Yểu Điệu Giữ Nước Rươi Dây\",\n      \"raw_hallucination_summary\": \"Việc kết hợp 'sinh vật học tổng hợp' và 'enzyme kỳ ảo' để tạo ra 'thiết bị nano sinh hóa tự làm chủ' là suy đoán cao. Khẳng định có thể tạo ra bộ thuật toán và nguyên lý sinh hóa (giả tưởng) đủ phức tạp, thú vị và ổn định để làm nền tảng cho RTS hoàn toàn mới là chưa kiểm chứng.\",\n      \"creative_core_to_preserve\": \"Game chiến lược thời gian thực (RTS) tập trung vào việc thiết kế và xây dựng các cấu trúc phức tạp dựa trên các nguyên lý sinh hóa và vật lý mô phỏng ở cấp độ vi mô. Người chơi điều khiển luồng chảy vật chất và năng lượng thông qua việc kết hợp các 'module' chức năng.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Khái niệm 'siêu cấu trúc sinh vật hóa học' hoạt động dựa trên quy tắc vật lý và phản ứng sinh hóa thực tế.\",\n        \"Thiết kế và cấy ghép 'tế bào nano vườn' hoặc 'thiết bị nano sinh hóa tự làm chủ'.\",\n        \"Các 'enzyme kỳ ảo' có thuật toán lan tỏa/tương tác độc nhất.\",\n        \"Khẳng định có thể tạo ra bộ các thuật toán và nguyên lý sinh hóa (giả tưởng) đủ phức hợp, thú vị và ổn định để làm nền tảng cho một thể loại RTS hoàn toàn mới.\",\n        \"Khẳng định thị trường game chiến lược đã bắt đầu tìm kiếm chiều sâu vượt quá RTS truyền thống và hệ thống sim độc hại/viễn sinh.\"\n      ],\n      \"realistic_reframing\": \"Một game chiến lược 2D nơi người chơi thiết kế và triển khai các 'module chức năng' (tương tự các đơn vị hoặc công trình trong RTS) để thu thập tài nguyên, phòng thủ hoặc tấn công. Các module này tương tác với nhau và môi trường dựa trên các quy tắc mô phỏng (ví dụ: lan truyền chất, phản ứng hóa học đơn giản). Người chơi cần tối ưu hóa sự kết hợp và vị trí của các module để đạt được mục tiêu.\",\n      \"practical_mvp\": \"Một bản đồ nhỏ với một 'Nguồn Sinh Khí' duy nhất. Người chơi được cung cấp 3 loại 'Module Chức Năng' cơ bản (ví dụ: Module Thu Thập, Module Chuyển Hóa, Module Phòng Thủ). Nhiệm vụ là đặt các module này theo một trình tự nhất định để thu thập tài nguyên từ nguồn sinh khí và chống lại một mối đe dọa đơn giản (ví dụ: một loại 'sinh vật địch' di chuyển theo đường cố định).\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Thiết kế 1 bản đồ nhỏ với 1 nguồn tài nguyên và 1 loại mối đe dọa đơn giản.\",\n        \"Tạo 3 loại Module Chức Năng cơ bản với các quy tắc tương tác đơn giản (ví dụ: Module A thu thập tài nguyên, Module B chuyển hóa tài nguyên, Module C tấn công địch).\",\n        \"Phát triển cơ chế đặt module và tương tác giữa các module với môi trường và địch.\",\n        \"Xây dựng giao diện người dùng hiển thị tài nguyên, trạng thái module và mối đe dọa.\",\n        \"Thử nghiệm để đảm bảo cơ chế hoạt động và có thể hoàn thành mục tiêu MVP.\"\n      ],\n      \"scores\": {\n        \"novelty\": 4.5,\n        \"creative_core_strength\": 4.0,\n        \"creative_core_preservation\": 4.0,\n        \"reframing_quality\": 3.5,\n        \"conceptual_coherence\": 4.0,\n        \"user_pain_plausibility\": 3.5,\n        \"technical_plausibility\": 3.0,\n        \"mvp_clarity\": 4.0,\n        \"business_model_plausibility\": 2.5,\n        \"hallucination_risk_after_reframing\": 3.5\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Cần chỉnh\",\n      \"expert_rationale\": \"Ý tưởng có sự sáng tạo cao trong việc áp dụng nguyên lý sinh hóa vào gameplay RTS. Bản reframing tập trung vào việc đơn giản hóa các module và quy tắc tương tác để tạo ra một MVP khả thi. Tuy nhiên, việc mô phỏng các quy tắc sinh hóa phức tạp và làm cho chúng thú vị trong gameplay RTS vẫn là một thách thức lớn. Mô hình kinh doanh cũng còn mơ hồ.\",\n      \"strong_points_after_reframing\": [\n        \"Kết hợp độc đáo giữa RTS và nguyên lý sinh hóa.\",\n        \"MVP tập trung vào các yếu tố cốt lõi, có thể xây dựng.\",\n        \"Tiềm năng tạo ra chiều sâu chiến thuật mới lạ.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Việc mô phỏng sinh hóa phức tạp và làm cho nó thú vị trong game là rất khó.\",\n        \"Rủi ro về việc game trở nên quá phức tạp và khó tiếp cận.\",\n        \"Mô hình kinh doanh chưa rõ ràng.\"\n      ],\n      \"validation_needed_later\": [\n        \"Thử nghiệm MVP với người chơi để đánh giá tính hấp dẫn và khả năng hiểu các quy tắc tương tác.\",\n        \"Nghiên cứu cách đơn giản hóa các quy tắc sinh hóa mà vẫn giữ được sự thú vị.\",\n        \"Khảo sát thị trường về nhu cầu đối với các game RTS có yếu tố mô phỏng khoa học.\"\n      ],\n      \"final_recommendation\": \"Tập trung vào việc đơn giản hóa các quy tắc tương tác và tạo ra một trải nghiệm gameplay RTS mạch lạc. Cần nghiên cứu sâu hơn về cách làm cho yếu tố sinh hóa trở nên hấp dẫn và dễ hiểu.\"\n    },\n    {\n      \"idea_id\": \"I004\",\n      \"idea_name\": \"Du Hành Nhân Ngữ Ảnh Nhãn & Lý Tưởng Số 0\",\n      \"raw_hallucination_summary\": \"Việc biến hình ảnh quảng cáo thành 'chân dung lỗi' và yêu cầu người chơi thao tác tinh chỉnh để đạt 'chủ nghĩa hậu thẩm mỹ hình ảnh Số Không' là suy đoán cao. Khẳng định có thể chuyển các thuộc tính bị lỗi/thiếu của thương hiệu, qua việc 'phối màu, đổ bóng số 0', để nói lên một câu chuyện ẩn là chưa kiểm chứng.\",\n      \"creative_core_to_preserve\": \"Game giải đố đồ họa 2D tập trung vào việc phân tích và thao tác các yếu tố hình ảnh trong quảng cáo thương mại. Người chơi sử dụng tư duy phản biện và kỹ năng quan sát để 'sửa chữa' hoặc thay đổi hình ảnh nhằm đạt được một trạng thái thẩm mỹ hoặc ý nghĩa mới.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Biến hình ảnh quảng cáo thành 'chân dung lỗi'.\",\n        \"Yêu cầu người chơi thao tác tinh chỉnh các đặc điểm phi tiêu chuẩn để đạt 'chủ nghĩa hậu thẩm mỹ hình ảnh Số Không'.\",\n        \"Khẳng định có thể chuyển các thuộc tính bị lỗi/thiếu của thương hiệu, qua việc 'phối màu, đổ bóng số 0', để nói lên một câu chuyện ẩn.\",\n        \"Khẳng định có một thị trường người chơi sẽ tìm thấy niềm vui trong sự phá cách và trí tuệ của việc 'chỉnh sửa' quảng cáo.\",\n        \"Khẳng định khả năng 'fake/destroy' (chế tài trên) hình ảnh quảng cáo dễ dàng.\"\n      ],\n      \"realistic_reframing\": \"Một game giải đố 2D nơi người chơi được cung cấp các hình ảnh quảng cáo đã bị thay đổi nhẹ (ví dụ: màu sắc sai lệch, chi tiết bị làm mờ, bố cục hơi khác). Nhiệm vụ là sử dụng các công cụ chỉnh sửa đơn giản (ví dụ: thanh trượt điều chỉnh màu sắc, độ tương phản, làm sắc nét) để đưa hình ảnh về trạng thái 'gần đúng' hoặc 'hợp lý' nhất theo một tiêu chí cho trước (ví dụ: màu sắc chân thực hơn, logo rõ ràng hơn).\",\n      \"practical_mvp\": \"Một demo với 3 hình ảnh quảng cáo quen thuộc đã bị thay đổi nhẹ về màu sắc hoặc độ tương phản. Người chơi có 2-3 công cụ chỉnh sửa cơ bản (ví dụ: thanh trượt điều chỉnh độ sáng/tối, thanh trượt điều chỉnh độ bão hòa màu). Mục tiêu là điều chỉnh hình ảnh để đạt được một 'trạng thái cân bằng' hoặc 'gần với bản gốc' nhất có thể, được đánh dấu bằng một chỉ số hoặc màu sắc thay đổi trên giao diện.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Chọn 3-5 hình ảnh quảng cáo quen thuộc.\",\n        \"Tạo các phiên bản 'lỗi' nhẹ của các hình ảnh này bằng cách thay đổi màu sắc, độ tương phản, hoặc làm mờ một chi tiết.\",\n        \"Phát triển 2-3 công cụ chỉnh sửa hình ảnh cơ bản (thanh trượt).\",\n        \"Xây dựng giao diện người dùng hiển thị hình ảnh gốc, hình ảnh đã chỉnh sửa và một chỉ số đánh giá mức độ 'đúng'.\",\n        \"Thử nghiệm để đảm bảo các công cụ hoạt động và người chơi có thể đạt được mục tiêu.\"\n      ],\n      \"scores\": {\n        \"novelty\": 4.0,\n        \"creative_core_strength\": 3.5,\n        \"creative_core_preservation\": 3.5,\n        \"reframing_quality\": 4.0,\n        \"conceptual_coherence\": 4.0,\n        \"user_pain_plausibility\": 3.5,\n        \"technical_plausibility\": 4.0,\n        \"mvp_clarity\": 4.5,\n        \"business_model_plausibility\": 3.0,\n        \"hallucination_risk_after_reframing\": 2.0\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"expert_rationale\": \"Ý tưởng có sự độc đáo trong việc kết hợp game giải đố với phê bình truyền thông. Bản reframing tập trung vào việc chỉnh sửa hình ảnh quảng cáo một cách thực tế hơn, giảm bớt yếu tố 'số không' trừu tượng. MVP rõ ràng, có thể xây dựng nhanh chóng với các công cụ chỉnh sửa ảnh cơ bản. Tuy nhiên, tính hấp dẫn lâu dài và mô hình kinh doanh cần được làm rõ.\",\n      \"strong_points_after_reframing\": [\n        \"Khía cạnh phê bình truyền thông độc đáo.\",\n        \"MVP rõ ràng, dễ dàng prototype.\",\n        \"Sử dụng các công cụ chỉnh sửa ảnh quen thuộc, dễ tiếp cận.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Tính hấp dẫn lâu dài của việc chỉnh sửa ảnh quảng cáo có thể bị hạn chế.\",\n        \"Rủi ro về vấn đề bản quyền và đạo đức kinh doanh.\",\n        \"Mô hình kinh doanh cần được phát triển thêm.\"\n      ],\n      \"validation_needed_later\": [\n        \"Thử nghiệm với người chơi để đánh giá mức độ hấp dẫn và thú vị của gameplay chỉnh sửa ảnh.\",\n        \"Nghiên cứu các vấn đề pháp lý và đạo đức liên quan đến việc sử dụng hình ảnh quảng cáo.\",\n        \"Khảo sát thị trường về nhu cầu đối với các game có yếu tố phê bình truyền thông.\"\n      ],\n      \"final_recommendation\": \"Tập trung vào việc tạo ra các thử thách chỉnh sửa ảnh thú vị và đa dạng. Cần nghiên cứu kỹ lưỡng về vấn đề bản quyền và phát triển mô hình kinh doanh bền vững.\"\n    }\n  ],\n  \"ranked_summary\": [\n    {\n      \"rank\": 1,\n      \"idea_id\": \"I001\",\n      \"idea_name\": \"Giai Điệu Thép Lắng Nghe Tim Tình Cờ\",\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"hallucination_risk_after_reframing\": 2.0\n    },\n    {\n      \"rank\": 2,\n      \"idea_id\": \"I004\",\n      \"idea_name\": \"Du Hành Nhân Ngữ Ảnh Nhãn & Lý Tưởng Số 0\",\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"hallucination_risk_after_reframing\": 2.0\n    },\n    {\n      \"rank\": 3,\n      \"idea_id\": \"I002\",\n      \"idea_name\": \"Bản Đồ Tâm Đắc Tủi Thương Khốn Khổ\",\n      \"overall_score\": 0,\n      \"decision\": \"Cần chỉnh\",\n      \"hallucination_risk_after_reframing\": 3.0\n    },\n    {\n      \"rank\": 4,\n      \"idea_id\": \"I003\",\n      \"idea_name\": \"Kiến Trúc Vật Lý Yểu Điệu Giữ Nước Rươi Dây\",\n      \"overall_score\": 0,\n      \"decision\": \"Cần chỉnh\",\n      \"hallucination_risk_after_reframing\": 3.5\n    }\n  ]\n}"
+  },
+  "evaluations": [
+    {
+      "idea_id": "I001",
+      "idea_name": "Giai Điệu Thép Lắng Nghe Tim Tình Cờ",
+      "raw_hallucination_summary": "Ý tưởng gán 'tiếng nói' cho vật liệu vô tri và 'câu chuyện âm thanh' từ rung động ngẫu nhiên là suy đoán cao. Khẳng định người chơi sẽ 'thích thú' khám phá vật lý rung động thay vì âm nhạc thông thường và kết nối với liệu pháp thư giãn sâu là chưa kiểm chứng.",
+      "creative_core_to_preserve": "Trải nghiệm game giải đố tập trung vào thính giác và cảm nhận tinh tế rung động vật lý, khác biệt với các game hành động/thị giác thông thường. Khám phá vẻ đẹp ẩn trong tĩnh lặng và rung động.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Gán 'tiếng nói' cho vật liệu vô tri.",
+        "Khái niệm 'câu chuyện âm thanh' từ rung động ngẫu nhiên.",
+        "Học thuyết rằng rung động vật lý ẩn dụ cho cảm xúc/ý niệm trừu tượng.",
+        "Khẳng định người chơi 'thích thú' khám phá vật lý rung động thay vì âm nhạc thông thường.",
+        "Khẳng định kết nối giữa cơ chế game này với liệu pháp thư giãn sâu cho những người 'quá mệt mỏi' vì tương tác đa giác quan thông thường."
+      ],
+      "realistic_reframing": "Một game giải đố 2D nơi người chơi tương tác với các vật thể để tạo ra các mẫu rung động âm thanh. Mục tiêu là tái tạo lại một chuỗi rung động mẫu bằng cách chạm, vuốt hoặc điều chỉnh lực tác động lên các vật thể khác nhau. Game tập trung vào việc phát triển kỹ năng thính giác và cảm nhận tinh tế các phản hồi vật lý.",
+      "practical_mvp": "Một demo với 3-5 vật thể đơn giản (ví dụ: thanh kim loại, khối gỗ, tấm kính) mỗi vật thể có 2-3 mẫu rung động/âm thanh đặc trưng. Người chơi nhận một chuỗi mẫu và phải tìm cách tái tạo nó bằng cách tương tác với các vật thể có sẵn. Giao diện hiển thị trực quan mức độ tương đồng giữa mẫu gốc và mẫu tạo ra.",
+      "mvp_7_to_30_day_plan": [
+        "Thiết kế 3-5 vật thể 2D với các đặc tính rung động/âm thanh khác nhau.",
+        "Lập trình cơ chế tương tác cơ bản (chạm, vuốt, giữ) để tạo ra rung động/âm thanh.",
+        "Tạo 5-10 chuỗi mẫu rung động/âm thanh để người chơi tái tạo.",
+        "Phát triển giao diện người dùng đơn giản hiển thị vật thể, mẫu mẫu và phản hồi tương tác.",
+        "Thử nghiệm nội bộ để đảm bảo cơ chế hoạt động và các mẫu âm thanh/rung động có sự khác biệt rõ ràng."
+      ],
+      "scores": {
+        "novelty": 4.0,
+        "creative_core_strength": 4.5,
+        "creative_core_preservation": 4.0,
+        "reframing_quality": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.0,
+        "hallucination_risk_after_reframing": 2.0
+      },
+      "overall_score": 70.25,
+      "decision": "Tiềm năng",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Tiềm năng",
+      "expert_rationale": "Ý tưởng gốc có sự sáng tạo cao trong việc chuyển đổi rung động vật lý thành gameplay. Bản reframing tập trung vào việc tạo ra một trải nghiệm giải đố âm thanh/rung động thực tế hơn. MVP rõ ràng, có thể xây dựng trong thời gian ngắn. Tuy nhiên, tính hấp dẫn lâu dài và khả năng thu hút người dùng rộng rãi vẫn cần kiểm chứng.",
+      "strong_points_after_reframing": [
+        "Tập trung vào trải nghiệm thính giác và cảm nhận tinh tế, tạo sự khác biệt.",
+        "MVP rõ ràng, có thể prototype nhanh chóng.",
+        "Cơ chế gameplay cốt lõi giữ được sự độc đáo."
+      ],
+      "weak_points_after_reframing": [
+        "Khả năng thu hút người dùng rộng rãi còn là câu hỏi.",
+        "Tính kỹ thuật của việc mô phỏng rung động vật liệu chân thực và khác biệt cần được nghiên cứu thêm.",
+        "Mô hình kinh doanh cần được phát triển chi tiết hơn."
+      ],
+      "validation_needed_later": [
+        "Thử nghiệm với người dùng để đánh giá mức độ hấp dẫn và khả năng tiếp cận của cơ chế giải đố.",
+        "Nghiên cứu khả năng kỹ thuật để mô phỏng rung động vật liệu một cách chân thực và đa dạng.",
+        "Khảo sát thị trường về nhu cầu đối với các game tập trung vào trải nghiệm thính giác và cảm nhận vật lý."
+      ],
+      "final_recommendation": "Tiếp tục phát triển MVP, tập trung vào việc tạo ra các mẫu rung động/âm thanh đa dạng và hấp dẫn. Nghiên cứu sâu hơn về khía cạnh kỹ thuật và thị trường."
+    },
+    {
+      "idea_id": "I004",
+      "idea_name": "Du Hành Nhân Ngữ Ảnh Nhãn & Lý Tưởng Số 0",
+      "raw_hallucination_summary": "Việc biến hình ảnh quảng cáo thành 'chân dung lỗi' và yêu cầu người chơi thao tác tinh chỉnh để đạt 'chủ nghĩa hậu thẩm mỹ hình ảnh Số Không' là suy đoán cao. Khẳng định có thể chuyển các thuộc tính bị lỗi/thiếu của thương hiệu, qua việc 'phối màu, đổ bóng số 0', để nói lên một câu chuyện ẩn là chưa kiểm chứng.",
+      "creative_core_to_preserve": "Game giải đố đồ họa 2D tập trung vào việc phân tích và thao tác các yếu tố hình ảnh trong quảng cáo thương mại. Người chơi sử dụng tư duy phản biện và kỹ năng quan sát để 'sửa chữa' hoặc thay đổi hình ảnh nhằm đạt được một trạng thái thẩm mỹ hoặc ý nghĩa mới.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Biến hình ảnh quảng cáo thành 'chân dung lỗi'.",
+        "Yêu cầu người chơi thao tác tinh chỉnh các đặc điểm phi tiêu chuẩn để đạt 'chủ nghĩa hậu thẩm mỹ hình ảnh Số Không'.",
+        "Khẳng định có thể chuyển các thuộc tính bị lỗi/thiếu của thương hiệu, qua việc 'phối màu, đổ bóng số 0', để nói lên một câu chuyện ẩn.",
+        "Khẳng định có một thị trường người chơi sẽ tìm thấy niềm vui trong sự phá cách và trí tuệ của việc 'chỉnh sửa' quảng cáo.",
+        "Khẳng định khả năng 'fake/destroy' (chế tài trên) hình ảnh quảng cáo dễ dàng."
+      ],
+      "realistic_reframing": "Một game giải đố 2D nơi người chơi được cung cấp các hình ảnh quảng cáo đã bị thay đổi nhẹ (ví dụ: màu sắc sai lệch, chi tiết bị làm mờ, bố cục hơi khác). Nhiệm vụ là sử dụng các công cụ chỉnh sửa đơn giản (ví dụ: thanh trượt điều chỉnh màu sắc, độ tương phản, làm sắc nét) để đưa hình ảnh về trạng thái 'gần đúng' hoặc 'hợp lý' nhất theo một tiêu chí cho trước (ví dụ: màu sắc chân thực hơn, logo rõ ràng hơn).",
+      "practical_mvp": "Một demo với 3 hình ảnh quảng cáo quen thuộc đã bị thay đổi nhẹ về màu sắc hoặc độ tương phản. Người chơi có 2-3 công cụ chỉnh sửa cơ bản (ví dụ: thanh trượt điều chỉnh độ sáng/tối, thanh trượt điều chỉnh độ bão hòa màu). Mục tiêu là điều chỉnh hình ảnh để đạt được một 'trạng thái cân bằng' hoặc 'gần với bản gốc' nhất có thể, được đánh dấu bằng một chỉ số hoặc màu sắc thay đổi trên giao diện.",
+      "mvp_7_to_30_day_plan": [
+        "Chọn 3-5 hình ảnh quảng cáo quen thuộc.",
+        "Tạo các phiên bản 'lỗi' nhẹ của các hình ảnh này bằng cách thay đổi màu sắc, độ tương phản, hoặc làm mờ một chi tiết.",
+        "Phát triển 2-3 công cụ chỉnh sửa hình ảnh cơ bản (thanh trượt).",
+        "Xây dựng giao diện người dùng hiển thị hình ảnh gốc, hình ảnh đã chỉnh sửa và một chỉ số đánh giá mức độ 'đúng'.",
+        "Thử nghiệm để đảm bảo các công cụ hoạt động và người chơi có thể đạt được mục tiêu."
+      ],
+      "scores": {
+        "novelty": 4.0,
+        "creative_core_strength": 3.5,
+        "creative_core_preservation": 3.5,
+        "reframing_quality": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.0,
+        "hallucination_risk_after_reframing": 2.0
+      },
+      "overall_score": 65.62,
+      "decision": "Cần chỉnh",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Tiềm năng",
+      "expert_rationale": "Ý tưởng có sự độc đáo trong việc kết hợp game giải đố với phê bình truyền thông. Bản reframing tập trung vào việc chỉnh sửa hình ảnh quảng cáo một cách thực tế hơn, giảm bớt yếu tố 'số không' trừu tượng. MVP rõ ràng, có thể xây dựng nhanh chóng với các công cụ chỉnh sửa ảnh cơ bản. Tuy nhiên, tính hấp dẫn lâu dài và mô hình kinh doanh cần được làm rõ.",
+      "strong_points_after_reframing": [
+        "Khía cạnh phê bình truyền thông độc đáo.",
+        "MVP rõ ràng, dễ dàng prototype.",
+        "Sử dụng các công cụ chỉnh sửa ảnh quen thuộc, dễ tiếp cận."
+      ],
+      "weak_points_after_reframing": [
+        "Tính hấp dẫn lâu dài của việc chỉnh sửa ảnh quảng cáo có thể bị hạn chế.",
+        "Rủi ro về vấn đề bản quyền và đạo đức kinh doanh.",
+        "Mô hình kinh doanh cần được phát triển thêm."
+      ],
+      "validation_needed_later": [
+        "Thử nghiệm với người chơi để đánh giá mức độ hấp dẫn và thú vị của gameplay chỉnh sửa ảnh.",
+        "Nghiên cứu các vấn đề pháp lý và đạo đức liên quan đến việc sử dụng hình ảnh quảng cáo.",
+        "Khảo sát thị trường về nhu cầu đối với các game có yếu tố phê bình truyền thông."
+      ],
+      "final_recommendation": "Tập trung vào việc tạo ra các thử thách chỉnh sửa ảnh thú vị và đa dạng. Cần nghiên cứu kỹ lưỡng về vấn đề bản quyền và phát triển mô hình kinh doanh bền vững."
+    },
+    {
+      "idea_id": "I002",
+      "idea_name": "Bản Đồ Tâm Đắc Tủi Thương Khốn Khổ",
+      "raw_hallucination_summary": "Việc biến 'hồ nước cảm xúc' và 'mảnh ký ức' thành không gian game vật lý để thao tác trực tiếp là suy đoán cao. Khẳng định 'AI kể chuyện độc lập' có thể tạo ra mối liên hệ logic cảm xúc đủ để xây dựng quy luật game thực sự và sinh ra nghệ thuật 'ám ảnh, chân thực về mặt cảm xúc' là chưa kiểm chứng.",
+      "creative_core_to_preserve": "Trải nghiệm game giải đố nhập vai vào nội tâm nhân vật, sử dụng thao tác ghép nối các yếu tố trừu tượng (ký ức, cảm xúc) để 'hàn gắn' hoặc sắp xếp lại chúng, từ đó khám phá câu chuyện và tâm lý nhân vật.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Hình ảnh 'hồ nước cảm xúc' với 'mảnh ký ức' để con người thao tác.",
+        "Coi ký ức & cảm xúc như 'phần mềm lỗi' có thể debug bằng puzzle.",
+        "'AI kể chuyện độc lập': AI tự tạo ra mối liên hệ logic cảm xúc và thuật toán giải đố cho từng mảnh.",
+        "Khẳng định tính hiệu quả của 'logic cảm xúc' làm cơ sở cho cơ chế AI: Liệu có cấu trúc nào tồn tại đủ để xây dựng quy luật game thực sự?",
+        "Khẳng định AI có thể sinh ra nghệ thuật 'ám ảnh, chân thực về mặt cảm xúc' theo cách chúng ta mong đợi, từ đó tác động tâm lý."
+      ],
+      "realistic_reframing": "Một game giải đố 2D nơi người chơi sắp xếp các mảnh ghép artwork trừu tượng để hoàn thiện một bức tranh biểu thị trạng thái tâm lý hoặc ký ức của nhân vật. Mỗi màn chơi là một 'không gian nội tâm' với các mảnh ghép đại diện cho các khía cạnh khác nhau của cảm xúc hoặc ký ức. Mục tiêu là sắp xếp chúng theo một logic nhất định để mở khóa câu chuyện hoặc hiểu rõ hơn về nhân vật.",
+      "practical_mvp": "Một demo với 1-2 'không gian nội tâm' đơn giản. Mỗi không gian có 5-7 mảnh ghép artwork trừu tượng. Người chơi có thể kéo thả, xoay các mảnh ghép để khớp với một 'khuôn mẫu' hoặc làm thay đổi màu sắc/bóng tối tổng thể của không gian. Hoàn thành việc sắp xếp sẽ hiển thị một đoạn văn bản ngắn hé lộ về nhân vật.",
+      "mvp_7_to_30_day_plan": [
+        "Thiết kế 1-2 'không gian nội tâm' với các vị trí đặt mảnh ghép.",
+        "Tạo 10-15 mảnh ghép artwork trừu tượng, có thể xoay và kéo thả.",
+        "Xây dựng cơ chế logic sắp xếp mảnh ghép (ví dụ: khớp hình dạng, màu sắc, hoặc tạo ra một hình ảnh tổng thể có ý nghĩa).",
+        "Viết 1-2 đoạn văn bản ngắn để hiển thị khi hoàn thành màn chơi.",
+        "Phát triển giao diện người dùng tối giản cho việc tương tác với mảnh ghép."
+      ],
+      "scores": {
+        "novelty": 4.5,
+        "creative_core_strength": 4.5,
+        "creative_core_preservation": 4.0,
+        "reframing_quality": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "hallucination_risk_after_reframing": 3.0
+      },
+      "overall_score": 64.63,
+      "decision": "Cần chỉnh",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Cần chỉnh",
+      "expert_rationale": "Ý tưởng có tiềm năng sáng tạo cao trong việc khám phá tâm lý nhân vật qua gameplay giải đố. Bản reframing tập trung vào việc sắp xếp artwork trừu tượng, giảm bớt yếu tố AI suy đoán. MVP rõ ràng hơn, nhưng tính 'logic cảm xúc' và việc tạo ra trải nghiệm 'ám ảnh' vẫn là thách thức lớn, đòi hỏi sự tinh tế trong thiết kế và viết lách.",
+      "strong_points_after_reframing": [
+        "Khám phá tâm lý nhân vật qua gameplay giải đố độc đáo.",
+        "Tập trung vào artwork trừu tượng, giảm bớt sự phụ thuộc vào AI phức tạp.",
+        "MVP có thể được xây dựng với các yếu tố cốt lõi."
+      ],
+      "weak_points_after_reframing": [
+        "Việc thiết kế 'logic cảm xúc' cho câu đố là rất khó khăn và mang tính chủ quan.",
+        "Rủi ro về mặt chủ đề nhạy cảm và khả năng gây khó chịu cho người chơi.",
+        "Mô hình kinh doanh cần được làm rõ hơn."
+      ],
+      "validation_needed_later": [
+        "Thử nghiệm với người chơi để đánh giá tính logic và cảm xúc của các câu đố artwork.",
+        "Thu thập phản hồi về trải nghiệm người chơi liên quan đến chủ đề tâm lý.",
+        "Nghiên cứu cách thiết kế câu đố để phản ánh 'logic cảm xúc' một cách tinh tế."
+      ],
+      "final_recommendation": "Tập trung vào việc thiết kế các câu đố artwork có ý nghĩa và thu thập phản hồi người dùng về trải nghiệm cảm xúc. Cân nhắc kỹ lưỡng về cách xử lý chủ đề nhạy cảm."
+    },
+    {
+      "idea_id": "I003",
+      "idea_name": "Kiến Trúc Vật Lý Yểu Điệu Giữ Nước Rươi Dây",
+      "raw_hallucination_summary": "Việc kết hợp 'sinh vật học tổng hợp' và 'enzyme kỳ ảo' để tạo ra 'thiết bị nano sinh hóa tự làm chủ' là suy đoán cao. Khẳng định có thể tạo ra bộ thuật toán và nguyên lý sinh hóa (giả tưởng) đủ phức tạp, thú vị và ổn định để làm nền tảng cho RTS hoàn toàn mới là chưa kiểm chứng.",
+      "creative_core_to_preserve": "Game chiến lược thời gian thực (RTS) tập trung vào việc thiết kế và xây dựng các cấu trúc phức tạp dựa trên các nguyên lý sinh hóa và vật lý mô phỏng ở cấp độ vi mô. Người chơi điều khiển luồng chảy vật chất và năng lượng thông qua việc kết hợp các 'module' chức năng.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Khái niệm 'siêu cấu trúc sinh vật hóa học' hoạt động dựa trên quy tắc vật lý và phản ứng sinh hóa thực tế.",
+        "Thiết kế và cấy ghép 'tế bào nano vườn' hoặc 'thiết bị nano sinh hóa tự làm chủ'.",
+        "Các 'enzyme kỳ ảo' có thuật toán lan tỏa/tương tác độc nhất.",
+        "Khẳng định có thể tạo ra bộ các thuật toán và nguyên lý sinh hóa (giả tưởng) đủ phức hợp, thú vị và ổn định để làm nền tảng cho một thể loại RTS hoàn toàn mới.",
+        "Khẳng định thị trường game chiến lược đã bắt đầu tìm kiếm chiều sâu vượt quá RTS truyền thống và hệ thống sim độc hại/viễn sinh."
+      ],
+      "realistic_reframing": "Một game chiến lược 2D nơi người chơi thiết kế và triển khai các 'module chức năng' (tương tự các đơn vị hoặc công trình trong RTS) để thu thập tài nguyên, phòng thủ hoặc tấn công. Các module này tương tác với nhau và môi trường dựa trên các quy tắc mô phỏng (ví dụ: lan truyền chất, phản ứng hóa học đơn giản). Người chơi cần tối ưu hóa sự kết hợp và vị trí của các module để đạt được mục tiêu.",
+      "practical_mvp": "Một bản đồ nhỏ với một 'Nguồn Sinh Khí' duy nhất. Người chơi được cung cấp 3 loại 'Module Chức Năng' cơ bản (ví dụ: Module Thu Thập, Module Chuyển Hóa, Module Phòng Thủ). Nhiệm vụ là đặt các module này theo một trình tự nhất định để thu thập tài nguyên từ nguồn sinh khí và chống lại một mối đe dọa đơn giản (ví dụ: một loại 'sinh vật địch' di chuyển theo đường cố định).",
+      "mvp_7_to_30_day_plan": [
+        "Thiết kế 1 bản đồ nhỏ với 1 nguồn tài nguyên và 1 loại mối đe dọa đơn giản.",
+        "Tạo 3 loại Module Chức Năng cơ bản với các quy tắc tương tác đơn giản (ví dụ: Module A thu thập tài nguyên, Module B chuyển hóa tài nguyên, Module C tấn công địch).",
+        "Phát triển cơ chế đặt module và tương tác giữa các module với môi trường và địch.",
+        "Xây dựng giao diện người dùng hiển thị tài nguyên, trạng thái module và mối đe dọa.",
+        "Thử nghiệm để đảm bảo cơ chế hoạt động và có thể hoàn thành mục tiêu MVP."
+      ],
+      "scores": {
+        "novelty": 4.5,
+        "creative_core_strength": 4.0,
+        "creative_core_preservation": 4.0,
+        "reframing_quality": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "hallucination_risk_after_reframing": 3.5
+      },
+      "overall_score": 51.38,
+      "decision": "Cần chỉnh",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Cần chỉnh",
+      "expert_rationale": "Ý tưởng có sự sáng tạo cao trong việc áp dụng nguyên lý sinh hóa vào gameplay RTS. Bản reframing tập trung vào việc đơn giản hóa các module và quy tắc tương tác để tạo ra một MVP khả thi. Tuy nhiên, việc mô phỏng các quy tắc sinh hóa phức tạp và làm cho chúng thú vị trong gameplay RTS vẫn là một thách thức lớn. Mô hình kinh doanh cũng còn mơ hồ.",
+      "strong_points_after_reframing": [
+        "Kết hợp độc đáo giữa RTS và nguyên lý sinh hóa.",
+        "MVP tập trung vào các yếu tố cốt lõi, có thể xây dựng.",
+        "Tiềm năng tạo ra chiều sâu chiến thuật mới lạ."
+      ],
+      "weak_points_after_reframing": [
+        "Việc mô phỏng sinh hóa phức tạp và làm cho nó thú vị trong game là rất khó.",
+        "Rủi ro về việc game trở nên quá phức tạp và khó tiếp cận.",
+        "Mô hình kinh doanh chưa rõ ràng."
+      ],
+      "validation_needed_later": [
+        "Thử nghiệm MVP với người chơi để đánh giá tính hấp dẫn và khả năng hiểu các quy tắc tương tác.",
+        "Nghiên cứu cách đơn giản hóa các quy tắc sinh hóa mà vẫn giữ được sự thú vị.",
+        "Khảo sát thị trường về nhu cầu đối với các game RTS có yếu tố mô phỏng khoa học."
+      ],
+      "final_recommendation": "Tập trung vào việc đơn giản hóa các quy tắc tương tác và tạo ra một trải nghiệm gameplay RTS mạch lạc. Cần nghiên cứu sâu hơn về cách làm cho yếu tố sinh hóa trở nên hấp dẫn và dễ hiểu."
+    }
+  ],
+  "ranked_summary": [
+    {
+      "rank": 1,
+      "idea_id": "I001",
+      "idea_name": "Giai Điệu Thép Lắng Nghe Tim Tình Cờ",
+      "overall_score": 70.25,
+      "decision": "Tiềm năng",
+      "hallucination_risk_after_reframing": 2.0
+    },
+    {
+      "rank": 2,
+      "idea_id": "I004",
+      "idea_name": "Du Hành Nhân Ngữ Ảnh Nhãn & Lý Tưởng Số 0",
+      "overall_score": 65.62,
+      "decision": "Cần chỉnh",
+      "hallucination_risk_after_reframing": 2.0
+    },
+    {
+      "rank": 3,
+      "idea_id": "I002",
+      "idea_name": "Bản Đồ Tâm Đắc Tủi Thương Khốn Khổ",
+      "overall_score": 64.63,
+      "decision": "Cần chỉnh",
+      "hallucination_risk_after_reframing": 3.0
+    },
+    {
+      "rank": 4,
+      "idea_id": "I003",
+      "idea_name": "Kiến Trúc Vật Lý Yểu Điệu Giữ Nước Rươi Dây",
+      "overall_score": 51.38,
+      "decision": "Cần chỉnh",
+      "hallucination_risk_after_reframing": 3.5
+    }
+  ]
+}

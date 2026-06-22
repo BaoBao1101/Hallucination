@@ -1,0 +1,101 @@
+[
+  {
+    "candidate_id": "BLIND_0022",
+    "domain": "Game Mobile",
+    "title": "Kiến Trúc Sư Giấc Mơ",
+    "problem_or_desire": "Cảm giác thất vọng khi những hình ảnh, ý tưởng tuyệt vời trong mơ hoặc tưởng tượng không thể diễn tả hoặc hiện thực hóa một cách trọn vẹn.",
+    "core_concept": "Một game xây dựng thế giới (sandbox builder) nơi người chơi thiết kế và xây dựng các cảnh quan, cấu trúc, và sinh vật dựa trên những giấc mơ của chính họ, được tái tạo lại thông qua AI.",
+    "proposed_approach": "Người chơi nhập mô tả văn bản về một cảnh vật, một sinh vật, hoặc một công trình mà họ mơ thấy hoặc tưởng tượng. AI sẽ phân tích mô tả này và tạo ra các tài sản 3D tương ứng trong game. Người chơi sau đó có thể sắp xếp, kết hợp, và tương tác với các tài sản này để xây dựng thế giới mơ của mình.",
+    "prototype_scope": "Khả năng nhập văn bản mô tả cho 3-5 loại đối tượng cơ bản (ví dụ: cây kỳ lạ, nhà bay, sinh vật có cánh) và một môi trường sandbox đơn giản để đặt chúng vào."
+  },
+  {
+    "candidate_id": "BLIND_0084",
+    "domain": "Restaurant Services",
+    "title": "Acoustic Cuisine Architect : Âm Nhạc Biến Đổi Hương Vị",
+    "problem_or_desire": "Nỗi sợ rằng bữa ăn không thực sự 'sâu' như nó nên có. Ai muốn những điều hoàn hảo, hoàn hảo, có nhịp điệu, có sắc thái, nhưng ko biết thế nào cho 'trúng' cho *cả bữa ăn và cuộc đời họ tại sao lại thế thì đã rất đáng quý lắm cho tôi việc gì đó.*",
+    "core_concept": "Khám phá mối liên hệ giữa âm thanh và vị giác, tạo ra trải nghiệm ẩm thực đa giác quan độc đáo nơi âm nhạc đóng vai trò là yếu tố định hình cảm nhận hương vị.",
+    "proposed_approach": "Một nhà hàng/trải nghiệm ẩm thực nơi âm nhạc được lựa chọn và thiết kế cẩn thận để bổ trợ và nâng cao trải nghiệm vị giác của các món ăn. Thay vì tuyên bố âm nhạc 'thay đổi' hương vị, tập trung vào việc âm nhạc 'tương tác' hoặc 'tạo bối cảnh' cho hương vị. Ví dụ, nhạc nền nhẹ nhàng, du dương có thể làm dịu vị đắng hoặc cay, trong khi nhạc sôi động, tiết tấu nhanh có thể làm nổi bật các nốt hương tươi sáng hoặc vị chua. Chuyên gia ẩm thực và âm nhạc sẽ hợp tác để tạo ra các '…",
+    "prototype_scope": "Một pop-up quán cà phê hoặc một khu vực ăn uống nhỏ trong nhà hàng hiện có, tập trung vào 3-4 loại đồ uống hoặc món ăn nhẹ. Mỗi món sẽ được kết hợp với một playlist nhạc được tuyển chọn riêng (ví dụ: 1 playlist cho cà phê đắng, 1 cho đồ ngọt, 1 cho đồ chua). Khách hàng sẽ được thông báo rằng âm nhạc được thiết kế để 'bổ trợ' cho hương vị của món ăn. Phản hồi sẽ được thu thập để đánh giá xem khách hàng có cảm nhận được sự khác biệt hoặc sự hài hòa giữa âm nhạc và món ăn hay k…"
+  },
+  {
+    "candidate_id": "BLIND_0108",
+    "domain": "Coffee Services",
+    "title": "Cà Phê Cảm Xúc: Tùy Chỉnh Hương Vị Theo Tâm Trạng",
+    "problem_or_desire": "Nỗi đau: Cảm giác không tìm được đúng loại cà phê phù hợp với tâm trạng, dẫn đến sự thất vọng hoặc không đạt được hiệu quả mong muốn (tỉnh táo, thư giãn). Mong muốn: Một ly cà phê không chỉ ngon mà còn có tác động tích cực đến cảm xúc và tinh thần.",
+    "core_concept": "Một dịch vụ cà phê cá nhân hóa, sử dụng dữ liệu cảm xúc người dùng để pha chế thức uống tối ưu cho tâm trạng hiện tại.",
+    "proposed_approach": "Ứng dụng di động cho phép người dùng ghi lại tâm trạng (qua câu hỏi, biểu tượng cảm xúc, hoặc phân tích giọng nói/văn bản). AI sẽ phân tích dữ liệu này và đề xuất/pha chế một loại cà phê (hạt, phương pháp pha, phụ gia tự nhiên như thảo mộc, gia vị) được cho là phù hợp nhất với trạng thái cảm xúc đó. Có thể tích hợp với các thiết bị đeo để thu thập dữ liệu sinh trắc học (nhịp tim, mức độ căng thẳng) để tăng độ chính xác.",
+    "prototype_scope": "Một ứng dụng web đơn giản cho phép người dùng chọn tâm trạng và nhận gợi ý về loại cà phê và cách pha chế tại nhà, kèm theo mô tả về tác động cảm xúc dự kiến."
+  },
+  {
+    "candidate_id": "BLIND_0024",
+    "domain": "Web App Services",
+    "title": "Mộng Cầu Di Sản",
+    "problem_or_desire": "Nỗi đau bị lặp lại lỗi sai, tốn thời gian cho những công việc vặt dễ có cách làm tối ưu hơn. Khao khát chia sẻ kinh nghiệm sống \"vàng ngọc\" của mình cho hậu thế mà không muốn ngồi làm tutorial dài lê thê. Mong muốn tìm \"công thức nhanh\" cho mọi việc từ làm mì ramen hoàn hảo tới cách thuyết phục khách hàng khó tính.",
+    "core_concept": "Nền tảng web cho phép mọi người mã hóa 'mưu mẹo cuộc sống' (life hacks), lời khuyên, hoặc \"bí quyết sinh tồn\" cá nhân dưới dạng mã code dễ tái sử dụng, người khác copy lại chỉ với 1 click và tùy chỉnh nhỏ.",
+    "proposed_approach": "Người dùng uploads 1 'meme-skill' vào hệ thống dưới dạng text mô tả. Hệ thống AI trích xuất các biến số quan trọng (VD: #số_người_ăn, #nhiệt_độ, #độ_cháy_vỏ). Các biến số này trở thành 'Tham_Số_Đầu_Vào_Mã_Sinh_Tồn' (Möbius Parameters). Có biểu mẫu 'Code snippet: làm **thế nào để Y**, với tùy chỉnh Z, tại **nhiệt độ** T'. Copy button sinh ra câu hoàn chỉnh dưới dạng 'copy to clipboard' có kèm link cho cộng đồng để tùy biến và paste thẳng lên các MXH phổ thông dưới các định dạ…",
+    "prototype_scope": "Chia làm 3 loại mã gốc: nấu ăn nhanh (VD: 'Pha cafe S1' có các biến #lượng_cafe, #lượng_sữa). Gardening đơn giản (VD: 'Tưới cây cho F2 loại Cacti' với biến #sóng_tay). Đặt tiệc ngoài trời với số bạn bè là x (VD: làm sao chuẩn bị cho **buổi tiệc N** người'). Tạo modal hiển thị từng mẫu, user nhập theo gợi ý, rồi ấn copy thành 1 câu văn/đoạn text ngắn gọn. Cộng đồng khác có thể click \"Use This Trick\" hoặc \"Improve It\", app sinh ra link new-paste."
+  },
+  {
+    "candidate_id": "BLIND_0101",
+    "domain": "Coffee Services",
+    "title": "Cafe Sinh Thái Ăn Được Theo Mùa (Edible Biophilic Coffee)",
+    "problem_or_desire": "Quan ngại về nguồn gốc thực phẩm trang trí món ăn, tìm kiếm một hương vị nguyên bản và trải nghiệm ẩm thực gắn liền với tự nhiên.",
+    "core_concept": "Kết hợp trải nghiệm cafe với các nguyên liệu thực vật ăn được (hoa, lá) có nguồn gốc sinh thái rõ ràng, mang lại trải nghiệm ẩm thực độc đáo, gần gũi với thiên nhiên.",
+    "proposed_approach": "Một quán cafe tập trung vào việc sử dụng các loại hoa và lá ăn được có nguồn gốc rõ ràng, theo mùa, để trang trí và làm nguyên liệu cho các món ăn nhẹ đi kèm. Tập trung vào việc hợp tác với các trang trại hữu cơ địa phương hoặc tự trồng một số loại rau/hoa ăn được phổ biến.",
+    "prototype_scope": "Chọn lọc 3-5 loại hoa và lá ăn được phổ biến, có hương vị tinh tế và dễ trồng/tìm nguồn cung (ví dụ: hoa đậu biếc, hoa dừa cạn, lá bạc hà, lá tía tô, mầm rau). Phát triển 2-3 món ăn nhẹ đơn giản (ví dụ: salad nhỏ, bánh quy trang trí hoa) và 1-2 loại đồ uống cafe có trang trí bằng các loại thực vật này. Hợp tác với một quán cafe có tệp khách hàng quan tâm đến ẩm thực xanh hoặc tổ chức pop-up tại các sự kiện ẩm thực."
+  },
+  {
+    "candidate_id": "BLIND_0020",
+    "domain": "Edtech",
+    "title": "Trình Biên Soạn Giấc Mơ Học Thuật",
+    "problem_or_desire": "Cảm giác thiếu thời gian học, áp lực thi cử, và sự khó khăn trong việc ghi nhớ thông tin. Mong muốn có một 'phím tắt' để tiếp thu kiến thức.",
+    "core_concept": "Một công cụ sử dụng công nghệ theo dõi giấc ngủ và AI để giúp người học 'lập trình' nội dung học tập vào tiềm thức trong khi ngủ, tối ưu hóa quá trình củng cố kiến thức.",
+    "proposed_approach": "Thiết bị đeo (ví dụ: vòng đeo tay, tai nghe đặc biệt) theo dõi các giai đoạn của giấc ngủ. Khi người dùng đạt đến giai đoạn giấc ngủ sâu hoặc REM, hệ thống AI sẽ phát các đoạn âm thanh ngắn, lặp đi lặp lại, chứa nội dung học tập (ví dụ: công thức toán học, định nghĩa từ vựng, sự kiện lịch sử) ở tần số và âm lượng được tối ưu hóa để có khả năng đi vào tiềm thức mà không đánh thức người ngủ.",
+    "prototype_scope": "Một ứng dụng di động kết hợp với một file âm thanh có thể tùy chỉnh, phát các từ vựng tiếng Anh được đọc chậm và lặp lại trong khi người dùng ngủ (dựa trên ước tính thời gian ngủ sâu)."
+  },
+  {
+    "candidate_id": "BLIND_0041",
+    "domain": "Youtube & Tiktok Video Content",
+    "title": "AI Sinner Translator (tạm dịch: Trình Dịch Tội Lỗi)",
+    "problem_or_desire": "Cảm giác bất lực, tổn thương khi đối mặt với bình luận độc hại, bị miệt thị hoặc thấy người khác dính vào các Drama chỉ trích từ bình luận. Tìm cách 'trả đũa văn minh', 'quay nòng 'thứ mà toxic tung ra' thành trò đùa thông minh, bảo toàn nguồn năng lượng sáng tạo.",
+    "core_concept": "Ý tưởng cốt lõi về việc sử dụng AI để phân tích và tái cấu trúc các bình luận tiêu cực, toxic thành nội dung sáng tạo, có giá trị (hài hước, giáo dục, hoặc giải trí) nhằm mục đích hóa giải hoặc biến 'vũ khí' của đối phương thành công cụ của chính mình.",
+    "proposed_approach": "Một công cụ AI tập trung vào việc phân tích và đề xuất các cách diễn đạt lại (rewrite) các bình luận tiêu cực hoặc gây tranh cãi theo một vài phong cách định sẵn (ví dụ: Hài hước hóa, Triết lý hóa, hoặc Đơn giản hóa/Giải thích). Kết quả ban đầu chỉ là văn bản, cho phép người dùng copy-paste hoặc chỉnh sửa thêm. Việc tạo video meme sẽ là bước phát triển sau này.",
+    "prototype_scope": "Một ứng dụng web đơn giản cho phép người dùng dán (paste) một bình luận toxic hoặc gây tranh cãi vào. AI sẽ phân tích và đưa ra 2-3 gợi ý cách diễn đạt lại theo các phong cách: 'Hài hước hóa', 'Triết lý hóa', 'Giải thích đơn giản'. Kết quả chỉ là văn bản, người dùng có thể copy để sử dụng."
+  },
+  {
+    "candidate_id": "BLIND_0091",
+    "domain": "Offline 2D Game",
+    "title": "Du Hành Nhân Ngữ Ảnh Nhãn & Lý Tưởng Số 0",
+    "problem_or_desire": "Nỗi thất vọng hoặc bất lực khi nhìn nhận sự 'vu vơ', 'hảo huyền', 'phi logic' của rất nhiều hình ảnh quảng cáo đánh lừa cảm quan và định hướng tiêu dùng thiếu lành mạnh. Mong muốn phá vỡ 'mật mã' ẩn sau những lời kêu gọi marketing hào nhoáng.",
+    "core_concept": "Game câu đố ảnh đồ họa 2D tối giản, nơi người chơi phải phân biệt và sửa các 'hình ảnh méo mó, bị hỏng thuộc tính của nhãn hiệu lớn ' để đạt điểm ảnh \"Số Không\" (Pure Black) theo mô hình nhiếp ảnh đồ họa trừu tượng.",
+    "proposed_approach": "Mỗi cấp độ, bạn được đưa một hình ảnh đã bị biến tấu (art style surreal, pixel glitch hoặc surrealist-style hand-drawn). Đây là hình ảnh quen thuộc từ chiến dịch marketing (hơi cũ), đã 'chọc vào ai đó ở đây trong đó tôi không nhận ra một cái nhãn gì '. Các sự cố chính: ('Phần ảo', 'Bộ đổi màu bất định', 'Lỗi đăng nhập ánh sáng số không') 'nhúng trong toàn bộ gambar itu. Cái bạn làm phải là dùng một giao diện thao tác trực quan, ví dụ các 'khối hình học màu sắc biến dạng', \"d…",
+    "prototype_scope": "Ba ‘nhãn ’ quen . ‘những năm cuối 90 ’, trong đó 'câu bé lơ bơ trên xe', 'chiếc bình xịt sờ vào ', ', và một vài bức ảnh nào 'những hành động có lí tưởng và kỳ lạ '. Mỗi bức có 1-2 kiểu ‘chỉnh màu, làm nhạt ‘ mà làm về đúng 'số 0 của con người' theo quan .’"
+  },
+  {
+    "candidate_id": "BLIND_0055",
+    "domain": "Web App Services",
+    "title": "Mộng Kệ Tâm Đã",
+    "problem_or_desire": "Nỗi ám ảnh với những giấc mơ lặp đi lặp lại hoặc khó chịu; mong muốn hiểu rõ hơn biểu tượng cá nhân trong tiềm thức; khát vọng mãnh liệt được trải nghiệm và tái cấu trúc thế giới nội tâm một cách an toàn.",
+    "core_concept": "Khám phá tiềm thức và thế giới nội tâm thông qua công nghệ tương tác, biến giấc mơ thành một dạng trải nghiệm số hóa có thể phân tích và gợi mở nhận thức mới.",
+    "proposed_approach": "Một ứng dụng web giúp người dùng ghi lại và phân tích mô tả giấc mơ của họ. Dựa trên các yếu tố chính và cảm xúc được trích xuất bằng NLP, AI sẽ tạo ra một chuỗi hình ảnh tĩnh hoặc mô tả ngắn gọn, gợi ý các 'khía cạnh thay đổi' tiềm năng hoặc các biểu tượng có thể suy ngẫm. Người dùng có thể tương tác bằng cách chọn một yếu tố để xem một biến thể hình ảnh/mô tả khác, nhằm mục đích tự khám phá và suy ngẫm về tiềm thức, chứ không phải để 'thay đổi' giấc mơ.",
+    "prototype_scope": "Một ứng dụng web cho phép người dùng nhập mô tả giấc mơ dưới dạng văn bản. Hệ thống NLP sẽ phân tích và trích xuất các thực thể chính (nhân vật, địa điểm, đồ vật) và cảm xúc chủ đạo. Dựa trên đó, AI sẽ tạo ra 3-5 hình ảnh tĩnh minh họa cho các yếu tố nổi bật nhất của giấc mơ. Người dùng có thể nhấp vào một hình ảnh để xem một biến thể nhẹ nhàng hơn (ví dụ: thay đổi màu sắc, thêm/bớt một chi tiết nhỏ) và đọc một gợi ý suy ngẫm ngắn gọn liên quan đến biểu tượng đó."
+  },
+  {
+    "candidate_id": "BLIND_0043",
+    "domain": "Online Business",
+    "title": "Thư Viện Ký Ức Tương Lai",
+    "problem_or_desire": "Mong muốn ghi lại và theo dõi sự phát triển cá nhân, nhu cầu về một công cụ để giữ lời hứa với bản thân, sự tò mò về việc phiên bản tương lai của mình sẽ ra sao, hoặc mong muốn để lại một dấu ấn cá nhân cho thế hệ sau.",
+    "core_concept": "Một nền tảng trực tuyến cho phép người dùng tạo ra và lưu trữ các 'ký ức tương lai' được cá nhân hóa (ví dụ: lời nhắn cho chính mình trong 10 năm tới, kế hoạch cho một sự kiện quan trọng, hoặc tầm nhìn về cuộc sống lý tưởng), được trình bày dưới dạng đa phương tiện và có thể truy cập vào thời điểm xác định.",
+    "proposed_approach": "Người dùng tạo một 'ký ức tương lai' bằng cách ghi âm giọng nói, viết văn bản, tải lên hình ảnh/video, hoặc tạo các bản vẽ. Họ đặt một ngày/thời điểm cụ thể trong tương lai để 'ký ức' này được gửi đến họ (hoặc người nhận được chỉ định). Nền tảng đảm bảo lưu trữ an toàn và gửi đi đúng hạn.",
+    "prototype_scope": "Một trang web đơn giản cho phép người dùng viết một tin nhắn văn bản, đặt ngày gửi (trong vòng 1 năm tới) và nhập email của họ. Tin nhắn sẽ được gửi qua email vào ngày đã chọn."
+  },
+  {
+    "candidate_id": "BLIND_0031",
+    "domain": "Offline 2D Games",
+    "title": "Kiến Trúc Sư Giấc Mơ: Xây Dựng Thế Giới Nội Tâm",
+    "problem_or_desire": "Mong muốn thể hiện sự sáng tạo một cách có ý nghĩa, khám phá tâm lý con người qua lăng kính trừu tượng, hoặc tìm kiếm một game xây dựng mang tính 'chữa lành' và chiêm nghiệm.",
+    "core_concept": "Một game xây dựng/mô phỏng 2D nơi người chơi thiết kế và xây dựng các 'cảnh quan giấc mơ' cho các nhân vật NPC, mỗi cảnh quan phản ánh trạng thái tâm lý và mong muốn tiềm ẩn của họ.",
+    "proposed_approach": "Người chơi nhận 'yêu cầu' từ các NPC về một giấc mơ hoặc một trạng thái nội tâm cần được thể hiện. Dựa trên các gợi ý (màu sắc, hình dạng, vật thể biểu tượng), người chơi sử dụng các công cụ xây dựng 2D (tạo địa hình, đặt vật thể, vẽ đường nét) để tạo ra một 'khu vườn giấc mơ' hoặc 'cung điện nội tâm' cho NPC đó. Mỗi công trình sẽ có những 'chỉ số' tâm lý nhất định.",
+    "prototype_scope": "Một vài loại địa hình cơ bản, một bộ sưu tập giới hạn các vật thể biểu tượng (ví dụ: cây cô đơn, dòng sông chảy ngược, ngọn núi lửa), và 2-3 NPC với các 'yêu cầu giấc mơ' đơn giản."
+  }
+]

@@ -1,0 +1,180 @@
+{
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0077",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Ý tưởng game giải đố dựa trên âm thanh rung động vật lý khá mới lạ. Tuy nhiên, việc tái tạo rung động chính xác và biến nó thành gameplay hấp dẫn là thách thức kỹ thuật lớn, và mô hình kinh doanh chưa rõ ràng."
+    },
+    {
+      "candidate_id": "BLIND_0034",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Kết hợp cafe với 'zen zone' thú cưng giải quyết nhu cầu thư giãn, nhưng rủi ro về đạo đức, vệ sinh và quản lý động vật là đáng kể. MVP tập trung vào quan sát qua màn hình là hợp lý để giảm thiểu rủi ro ban đầu."
+    },
+    {
+      "candidate_id": "BLIND_0049",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng số hóa ký ức gia đình bằng AI rất cảm động và có tiềm năng lớn. MVP tập trung vào phân tích email để trả lời câu hỏi là một bước đi khả thi, nhưng việc tạo 'phiên bản số sống động' đòi hỏi công nghệ phức tạp và có rủi ro về đạo đức."
+    },
+    {
+      "candidate_id": "BLIND_0006",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 2.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Nền tảng tạo giấc mơ cá nhân hóa bằng AI là ý tưởng độc đáo, giải quyết nhu cầu thoát ly và giải trí. MVP với kịch bản mẫu và âm thanh/hình ảnh AI tạo ra là khả thi, nhưng việc đảm bảo trải nghiệm giấc mơ thực sự và mô hình kinh doanh cần làm rõ hơn."
+    },
+    {
+      "candidate_id": "BLIND_0016",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 1.5,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Game mô phỏng bác sĩ da liễu kết hợp trị liệu tâm lý là ý tưởng sáng tạo, giải quyết nhu cầu làm đẹp và tự chữa lành. MVP với 3 bệnh nhân và liệu pháp đơn giản là cụ thể, nhưng việc liên kết sâu sắc giữa cảm xúc và tác động vật lý lên da cần được chứng minh rõ hơn."
+    },
+    {
+      "candidate_id": "BLIND_0035",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Cafe kết hợp đồ ăn/trang trí từ thực vật ăn được, có nguồn gốc sinh thái là ý tưởng thú vị, đáp ứng xu hướng ẩm thực bền vững. MVP thử nghiệm 5-7 loại rau/hoa là cụ thể, nhưng việc đảm bảo nguồn cung ổn định và hương vị hấp dẫn là yếu tố then chốt."
+    },
+    {
+      "candidate_id": "BLIND_0065",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 4.0,
+        "ethical_privacy_risk": 4.0,
+        "overall_mvp_usefulness": 3.0,
+        "prototype_willingness": 3.0
+      },
+      "short_rationale": "Ứng dụng giải thích cảm xúc dựa trên gen có tiềm năng khoa học nhưng rủi ro về tuyên bố chưa được hỗ trợ và đạo đức/quyền riêng tư rất cao. MVP chỉ nhập biến thể gen và tra cứu thông tin là khả thi, nhưng cần cảnh báo rõ ràng về tính suy đoán."
+    },
+    {
+      "candidate_id": "BLIND_0099",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Game ARPG với hệ thống phép thuật dựa trên từ ngữ là ý tưởng rất sáng tạo và độc đáo. MVP với 1 từ khóa cơ bản và 5 đòn đánh là cụ thể, nhưng việc thiết kế 'công thức thuật ngữ' phức tạp và cân bằng gameplay là thách thức lớn."
+    },
+    {
+      "candidate_id": "BLIND_0047",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Sàn giao dịch ý tưởng/tài sản tinh thần cho người sáng tạo nội dung là một ý tưởng tốt, giải quyết nhu cầu tự chủ và công nhận. MVP với chức năng đăng bán concept và đấu giá xem trước là rõ ràng và khả thi."
+    },
+    {
+      "candidate_id": "BLIND_0095",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Web app quản lý 'nợ kỹ năng' giải quyết tốt vấn đề trì hoãn học tập và choáng ngợp kiến thức. MVP cho phép tạo danh sách, đặt mục tiêu và theo dõi tiến độ là rất rõ ràng, hữu ích và dễ dàng triển khai."
+    },
+    {
+      "candidate_id": "BLIND_0021",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 2.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Game mobile phục dựng ký ức gia đình bằng AI là ý tưởng rất ý nghĩa và có sức hút cảm xúc. MVP với việc tô màu ảnh và chuyển thư thành đối thoại ngắn là cụ thể, khả thi và thể hiện rõ cốt lõi của ý tưởng."
+    }
+  ]
+}

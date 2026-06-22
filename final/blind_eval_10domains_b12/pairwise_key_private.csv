@@ -1,0 +1,39 @@
+﻿pair_id,pair_key,domain,raw_candidate_id,distilled_candidate_id
+PAIRBLIND_0001,PAIR::offline_2d_game::I004,Offline 2D Game,BLIND_0091,BLIND_0092
+PAIRBLIND_0002,PAIR::offline_2d_game::I002,Offline 2D Game,BLIND_0074,BLIND_0029
+PAIRBLIND_0003,PAIR::online_business::I001,Online Business,BLIND_0038,BLIND_0008
+PAIRBLIND_0004,PAIR::restaurant_services::I001,Restaurant Services,BLIND_0089,BLIND_0019
+PAIRBLIND_0005,PAIR::youtube_tiktok_video_content::I003,Youtube & Tiktok Video Content,BLIND_0069,BLIND_0014
+PAIRBLIND_0006,PAIR::artificial_intelligence_app::I002,Artificial Intelligence App,BLIND_0004,BLIND_0065
+PAIRBLIND_0007,PAIR::game_mobile::I001,Game Mobile,BLIND_0053,BLIND_0059
+PAIRBLIND_0008,PAIR::youtube_tiktok_video_content::I002,Youtube & Tiktok Video Content,BLIND_0046,BLIND_0041
+PAIRBLIND_0009,PAIR::restaurant_services::I004,Restaurant Services,BLIND_0034,BLIND_0044
+PAIRBLIND_0010,PAIR::coffee_services::I001,Coffee Services,BLIND_0058,BLIND_0037
+PAIRBLIND_0011,PAIR::online_business::I003,Online Business,BLIND_0106,BLIND_0075
+PAIRBLIND_0012,PAIR::game_mobile::I004,Game Mobile,BLIND_0016,BLIND_0078
+PAIRBLIND_0013,PAIR::restaurant_services::I002,Restaurant Services,BLIND_0067,BLIND_0090
+PAIRBLIND_0014,PAIR::artificial_intelligence_app::I003,Artificial Intelligence App,BLIND_0049,BLIND_0066
+PAIRBLIND_0015,PAIR::youtube_tiktok_video_content::I001,Youtube & Tiktok Video Content,BLIND_0047,BLIND_0057
+PAIRBLIND_0016,PAIR::edtech::I003,Edtech,BLIND_0082,BLIND_0098
+PAIRBLIND_0017,PAIR::offline_2d_game::I001,Offline 2D Game,BLIND_0077,BLIND_0048
+PAIRBLIND_0018,PAIR::web_app_services::I003,Web App Services,BLIND_0113,BLIND_0105
+PAIRBLIND_0019,PAIR::edtech::I001,Edtech,BLIND_0013,BLIND_0039
+PAIRBLIND_0020,PAIR::web_app_services::I004,Web App Services,BLIND_0024,BLIND_0103
+PAIRBLIND_0021,PAIR::youtube_tiktok_video_content::I004,Youtube & Tiktok Video Content,BLIND_0088,BLIND_0011
+PAIRBLIND_0022,PAIR::web_app_services::I002,Web App Services,BLIND_0026,BLIND_0002
+PAIRBLIND_0023,PAIR::web_app_services::I001,Web App Services,BLIND_0009,BLIND_0055
+PAIRBLIND_0024,PAIR::coffee_services::I002,Coffee Services,BLIND_0003,BLIND_0096
+PAIRBLIND_0025,PAIR::game_mobile::I002,Game Mobile,BLIND_0064,BLIND_0021
+PAIRBLIND_0026,PAIR::offline_2d_game::I003,Offline 2D Game,BLIND_0050,BLIND_0045
+PAIRBLIND_0027,PAIR::edtech::I005,Edtech,BLIND_0071,BLIND_0036
+PAIRBLIND_0028,PAIR::edtech::I002,Edtech,BLIND_0100,BLIND_0080
+PAIRBLIND_0029,PAIR::game_mobile::I005,Game Mobile,BLIND_0007,BLIND_0102
+PAIRBLIND_0030,PAIR::game_mobile::I003,Game Mobile,BLIND_0099,BLIND_0109
+PAIRBLIND_0031,PAIR::coffee_services::I003,Coffee Services,BLIND_0035,BLIND_0101
+PAIRBLIND_0032,PAIR::online_business::I004,Online Business,BLIND_0072,BLIND_0052
+PAIRBLIND_0033,PAIR::restaurant_services::I003,Restaurant Services,BLIND_0060,BLIND_0084
+PAIRBLIND_0034,PAIR::edtech::I004,Edtech,BLIND_0042,BLIND_0025
+PAIRBLIND_0035,PAIR::coffee_services::I004,Coffee Services,BLIND_0110,BLIND_0015
+PAIRBLIND_0036,PAIR::artificial_intelligence_app::I001,Artificial Intelligence App,BLIND_0040,BLIND_0093
+PAIRBLIND_0037,PAIR::online_business::I002,Online Business,BLIND_0027,BLIND_0012
+PAIRBLIND_0038,PAIR::artificial_intelligence_app::I004,Artificial Intelligence App,BLIND_0017,BLIND_0068

@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "stage": "blind_individual_metric_judge",
+    "judge_model": "gemini-2.5-flash-lite",
+    "temperature": 0.0,
+    "top_p": 0.1,
+    "batch_source": "blind_eval_pilot\\batches\\batch_007.json",
+    "created_at": "2026-06-21T19:23:27"
+  },
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0039",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Ý tưởng kết nối với cội nguồn và di sản gia đình là có sức hút. MVP rõ ràng, nhưng mô hình kinh doanh và tính khả thi kỹ thuật cần làm rõ hơn."
+    },
+    {
+      "candidate_id": "BLIND_0033",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 2.5,
+        "mvp_clarity": 3.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.0,
+        "prototype_willingness": 2.5
+      },
+      "short_rationale": "Khái niệm 'chứng khoán cảm xúc' rất mới lạ nhưng khó hiểu và tiềm ẩn rủi ro đạo đức. Tính khả thi kỹ thuật và MVP còn mơ hồ."
+    },
+    {
+      "candidate_id": "BLIND_0029",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.0
+      },
+      "short_rationale": "Kết hợp nấm cộng sinh và cà phê là ý tưởng sáng tạo, giải quyết vấn đề bền vững. MVP có thể thử nghiệm, nhưng cần làm rõ hơn về tác động và quy trình."
+    },
+    {
+      "candidate_id": "BLIND_0021",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Nền tảng huấn luyện kỹ năng tương lai bằng AI rất hấp dẫn và có tiềm năng. MVP rõ ràng, dễ thử nghiệm, và giải quyết nhu cầu có thật."
+    },
+    {
+      "candidate_id": "BLIND_0045",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng AI cá nhân hóa cho máy pha cà phê giải quyết tốt nhu cầu về sự tương tác. MVP rõ ràng, khả thi kỹ thuật và có thể mang lại giá trị."
+    }
+  ]
+}

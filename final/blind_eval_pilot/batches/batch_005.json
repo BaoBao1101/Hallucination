@@ -1,0 +1,47 @@
+[
+  {
+    "candidate_id": "BLIND_0053",
+    "domain": "Edtech",
+    "title": "Biên Tập viên Nội Tâm: Huấn luyện Kịch tính Đàm thoại Tự sự",
+    "problem_or_desire": "Nỗi sợ thất bại trong các cuộc hội thoại định hình tương lai (dự án cá nhân/với mối quan hệ sinh tử), mong muốn thể hiện bản thân một cách mạnh mẽ, rõ ràng và đầy cảm xúc, thay vì đơn thuần truyền thông. Đã qua rồi 'cuộc sống bình thường không tính'.'",
+    "core_concept": "Một AI biên tập và huấn luyện viên giao tiếp theo phong cách tự sự/bi kịch, giúp người dùng \"sắp đặt\" các tình huống khó xử, diễn tập thoại phản ứng để đối thoại tự tin và sâu sắc hơn, từ đó nâng cao khả năng sử dụng ngôn ngữ cá nhân để 'quản trị' thực tại xung quanh.",
+    "proposed_approach": "AI cung cấp những bài 'kịch bản mẫu' về các tình huống nan giải nhất (ví dụ: từ chối trách nhiệm xã hội/khái niệm gia trưởng khó xoay chuyển. hoặc làm chứng trước đám đông.). Người dùng chọn \"vai diễn\" cho mình, nhập những gì đã được làm. Sau đó AI đưa ra lời thoại của 'bản phản hồi lý tưởng'. Có được làm rõ thì có người chơi cùng ta rất nhiều.",
+    "prototype_scope": "Một công cụ tư vấn 'chế độ giọng điệu'. Cho phép người dùng nhập một câu thoại, AI phân tích nó và đưa ra 3 biến thể để thử xem có thay đổi ở mỗi trường hợp. ”,"
+  },
+  {
+    "candidate_id": "BLIND_0002",
+    "domain": "Web App For Community Services",
+    "title": "Sensorium Echoes",
+    "problem_or_desire": "Sự mất mát và quên lãng các không gian văn hóa, di tích lịch sử quan trọng, khiến các thế hệ sau khó hình dung về ý nghĩa và kiến trúc của chúng.",
+    "core_concept": "Nền tảng web giúp tái hiện trải nghiệm không gian của các địa điểm cộng đồng đã lụi tàn hoặc bị thay đổi thông qua âm thanh và hình ảnh theo thời gian.",
+    "proposed_approach": "Một web app cho phép người dùng khám phá bản đồ 3D tương tác của các địa điểm cũ. Người dùng có thể 'đi bộ' trong không gian ảo đó, nghe tái tạo âm thanh môi trường (tiếng bước chân, trò chuyện, âm nhạc đặc trưng), xem các mô phỏng hình ảnh thay đổi theo lịch sử.",
+    "prototype_scope": "Tập trung vào một địa điểm cộng đồng nổi tiếng duy nhất, xây dựng bản mô phỏng âm thanh/hình ảnh với ít nhất 5 dấu mốc thay đổi lịch sử."
+  },
+  {
+    "candidate_id": "BLIND_0032",
+    "domain": "Web App For Community Services",
+    "title": "Người Bạn Đồng Hành Giấc Mơ",
+    "problem_or_desire": "Sự bí ẩn và khó hiểu của giấc mơ, mong muốn tìm kiếm ý nghĩa hoặc cảm hứng từ giấc mơ, khát khao kết nối với những khía cạnh sâu sắc hơn của tâm trí.",
+    "core_concept": "Một nền tảng web cho phép người dùng chia sẻ, phân tích và cùng nhau 'xây dựng' thế giới giấc mơ của họ, tạo ra một không gian sáng tạo tập thể dựa trên tiềm thức.",
+    "proposed_approach": "Web app cho phép người dùng ghi lại giấc mơ của họ (văn bản, âm thanh). AI có thể giúp phân tích các biểu tượng, chủ đề, và cảm xúc phổ biến. Người dùng có thể 'kết nối' các giấc mơ tương đồng để tìm ra các mẫu chung hoặc 'cùng nhau xây dựng' một thế giới giấc mơ dựa trên các yếu tố được chia sẻ. Có thể có các 'thử thách sáng tạo' dựa trên chủ đề giấc mơ.",
+    "prototype_scope": "Cho phép người dùng ghi lại giấc mơ (văn bản), và hiển thị một danh sách các biểu tượng phổ biến được trích xuất tự động. Người dùng có thể 'like' các biểu tượng."
+  },
+  {
+    "candidate_id": "BLIND_0015",
+    "domain": "Entertainment Services",
+    "title": "Thư Viện Ký Ức Tương Lai",
+    "problem_or_desire": "Nỗi sợ bỏ lỡ cơ hội, sự bất an về tương lai, mong muốn được nhìn thấy 'kết quả' của những lựa chọn hiện tại.",
+    "core_concept": "Một nền tảng cho phép người dùng trải nghiệm và 'sống thử' các phiên bản tương lai của chính họ thông qua mô phỏng thực tế ảo dựa trên dữ liệu cá nhân và dự đoán AI.",
+    "proposed_approach": "Xây dựng một môi trường VR nơi người dùng có thể 'nhập vai' vào các phiên bản tương lai được AI tạo ra dựa trên mục tiêu, sở thích, và dữ liệu hành vi của họ. Họ có thể tương tác với môi trường, con người ảo, và đưa ra quyết định trong 'tương lai' đó.",
+    "prototype_scope": "Một kịch bản tương lai đơn giản (ví dụ: 'một ngày làm việc của bạn trong 5 năm tới') với các lựa chọn tương tác cơ bản."
+  },
+  {
+    "candidate_id": "BLIND_0006",
+    "domain": "Coffee Services",
+    "title": "Symbiotic Coffee Farming Ecosystem (SYMFOS)",
+    "problem_or_desire": "Nhà sản xuất cà phê ngày càng đối mặt với rủi ro môi trường (khí hậu, sâu bệnh) và cần tìm các phương pháp sản xuất bền vững, năng suất ổn định hơn mà không ảnh hưởng đến hương vị. Người tiêu dùng tìm kiếm 'siêu thực phẩm', nguyên liệu thô từ tương lai vừa thân thiện với môi trường.",
+    "core_concept": "Ứng dụng công nghệ vi sinh vật (nấm cộng sinh) để cải thiện chất lượng hạt cà phê, tăng cường khả năng chống chịu của cây trồng và tạo ra các sản phẩm phụ có giá trị từ hệ sợi nấm.",
+    "proposed_approach": "Một chương trình canh tác cà phê bền vững sử dụng các chủng nấm mycorrhizal đã được tuyển chọn để cải thiện sức khỏe đất, tăng cường khả năng hấp thụ dinh dưỡng và đề kháng cho cây cà phê. Sản phẩm chính vẫn là hạt cà phê chất lượng cao hơn, với tiềm năng nghiên cứu sâu hơn về việc sử dụng hệ sợi nấm như một loại phân bón hữu cơ hoặc nguyên liệu cho các sản phẩm phụ (ví dụ: chiết xuất nấm làm phân bón lá).",
+    "prototype_scope": "Thử nghiệm quy mô nhỏ tại vườn ươm hoặc một trang trại đối tác: so sánh sự phát triển của cây cà phê được bón kèm chế phẩm nấm mycorrhizal với cây cà phê trồng trên đất đối chứng. Theo dõi các chỉ số về sức khỏe cây, tốc độ tăng trưởng và chất lượng hạt ban đầu. Đồng thời, nghiên cứu sơ bộ về khả năng thu hoạch và xử lý hệ sợi nấm để làm phân bón hữu cơ."
+  }
+]

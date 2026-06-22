@@ -1,0 +1,243 @@
+{
+  "metadata": {
+    "pipeline": "CHVD",
+    "version": "v5.3",
+    "domain": "Coffee Services",
+    "language": "vi",
+    "mode": "prompt_only_no_corpus_no_weak_signals",
+    "temperature_role": "maximal_divergent_creativity",
+    "stage": "high_temperature_creative_hallucination_generator",
+    "saved_at": "2026-06-21T21:47:48",
+    "generator_model": "gemini-2.5-flash-lite",
+    "generator_temperature": 2.0,
+    "generator_top_p": 0.99,
+    "user_prompt": ""
+  },
+  "ideas": [
+    {
+      "idea_id": "I001",
+      "idea_name": "Không Gian Cafe Tâm Linh Tương Lai",
+      "domain": "Coffee Services",
+      "one_sentence_pitch": "Cafe phục vụ đồ uống cá nhân hóa dựa trên phân tích chiêm tinh học và năng lượng cá nhân, cung cấp trải nghiệm trị liệu tinh thần nhẹ nhàng song hành với ly cà phê.",
+      "target_user": "Những người tìm kiếm sự kết nối tâm linh, sự minh triết cá nhân hoặc muốn thêm yếu tố bí ẩn, tâm linh vào đời sống hàng ngày qua thói quen uống cafe.",
+      "hidden_pain_or_desire": "Sự nhàm chán với các menu cafe truyền thống; mong muốn tìm kiếm những trải nghiệm có ý nghĩa sâu sắc hơn, mang tính 'mở khóa' hoặc tiên đoán cho một ngày.",
+      "creative_leap": "Kết hợp chiêm tinh học (asrology), thần số học (numerology), và phân tích năng lượng Aura (siêu nhiên) với nghệ thuật pha chế cafe để tạo ra đồ uống \"cá nhân hóa linh hoạt.\"",
+      "non_obvious_connection": "Cà phê (thức uống tạo hưng phấn, buổi sáng quen thuộc) với các mô hình tiên tri, hỗ trợ sức khỏe tinh thần, định vị bản thân.",
+      "proposed_solution": "Quán cafe ứng dụng một 'cỗ máy tiên tri' cafe – khách hàng cung cấp ngày/giờ sinh hoặc câu hỏi trắc nghiệm vui liên quan đến tâm trạng. AI sẽ xử lý và gợi ý một loại cafe hoặc công thức phối trộn đặc biệt, kèm giải mã 'tiên tri ngắn' của ly cafe.",
+      "core_experience": "Trải nghiệm được khám phá bản thân thông qua sự gợi ý 'khó đoán' và cá nhân từ 'la bàn tâm linh' của ly cà phê, cảm giác ly cafe không chỉ ngon mà còn 'hiểu' mình.",
+      "core_technology": [
+        "AI-driven Astrological & Numerological Profiling",
+        "Biometric Sentiment Analysis (speculative, for mood)",
+        "Personalized Drink Formulation Engine"
+      ],
+      "why_it_feels_new": "Biến đổi ngành cà phê từ trải nghiệm thể chất và vị giác đơn thuần sang trải nghiệm tâm linh-vật lý-giải trí tương tác, mang lại giá trị cộng hưởng cảm xúc ngoài mong đợi.",
+      "why_now_speculative": "Sự gia tăng của văn hóa 'self-care', tìm kiếm sự định hướng cá nhân và sự phổ biến của các công cụ AI-với yếu tố giải trí tương tác mạnh mẽ.",
+      "mvp_seed": "Xây dựng một hệ thống quy tắc đơn giản dựa trên 12 cung hoàng đạo và các câu hỏi chủ đề, liên kết với 5 loại cafe cơ bản có hương vị đặc trưng. Thiết lập một bộ 'tiên tri ngắn' ban đầu.",
+      "first_7_day_prototype": "Tạo landing page giới thiệu concept. Thu thập thông tin ngày sinh của 50 người ngẫu nhiên online, phân tích đơn giản (ví dụ 'hành trình ánh dương' cho ai sinh ngày Mặt Trời v.v.), gửi gợi ý 1 ly cafe và 1 lời nhắn đoán vui. Phát coffee voucher tại 1 tiệm cafe thử nghiệm.",
+      "business_model_hypothesis": "Premium beverage pricing, độc quyền menu 'linh tri', dịch vụ tư vấn 'tip' cafe hàng ngày qua app (freemium).",
+      "wildness_level": 4,
+      "main_assumptions": [
+        {
+          "claim": "Nhu cầu khám phá bản thân, sự tò mò về tâm linh trong giới trẻ hiện đại đủ lớn để sẵn sàng thử nghiệm các hình thức kết hợp này.",
+          "type": "user_need"
+        },
+        {
+          "claim": "Việc liên kết các thuộc tính chiêm tinh/thần số với các loại cafe và 'tiên tri ngắn' có thể được mã hóa hóa tương đối đơn giản ban đầu.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Người dùng sẵn lòng trả thêm phí cho trải nghiệm cafe mang tính giải trí, kết nối và 'khác biệt'.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Tính nhạy cảm tôn giáo/tâm linh, phản ứng tiêu cực của một bộ phận công chúng.",
+        "Khó khăn trong việc giữ uy tín cho 'tiên tri', khả năng gây hiểu lầm hoặc sai lệch.",
+        "Sự bão hòa của các dịch vụ tư vấn/tiên tri trực tuyến. "
+      ],
+      "validation_needed_later": [
+        "Số lượng và tần suất khách hàng quay lại đặt món theo 'tiên tri'.",
+        "Feedback về 'độ khớp' của ly cafe/lời nhắn với tâm trạng/ngày hôm đó.",
+        "Nghiên cứu về văn hóa đối diện với mô hình tâm linh/chiêm tinh giải trí."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "AI 'hiểu' khách hàng mà không có quá nhiều data profile ban đầu",
+          "Tác động cảm xúc rõ ràng từ việc uống một ly cafe "
+        ],
+        "claims_not_yet_validated": [
+          "Sự hứng thú có thể chuyển đổi thành hành vi chi tiêu lâu dài cho mô hình này.",
+          "Khả năng mở rộng công nghệ tri giác năng lượng trên cơ thể một cách hiệu quả ở mô hình quán cafe."
+        ]
+      }
+    },
+    {
+      "idea_id": "I002",
+      "idea_name": "Trao Đổi Môi Trường Lấy Cà Phê (Eco-Credit Cafe Exchange)",
+      "domain": "Coffee Services",
+      "one_sentence_pitch": "Quán cà phê khuyến khích hành vi bền vững bằng cách đổi \"tín chỉ xanh\" (eco-credits) mà khách hàng tích lũy được từ các hoạt động thân thiện môi trường lấy đồ uống hoặc ưu đãi cà phê đặc biệt.",
+      "target_user": "Nhóm những người quan tâm đến môi trường, thích lối sống xanh, tìm kiếm động lực để hành động vì cộng đồng và thích nhận phần thưởng.",
+      "hidden_pain_or_desire": "Người dùng có ý thức bảo vệ môi trường nhưng thiếu động lực hữu hình để duy trì, và mong muốn những hành động đó được công nhận rõ ràng và có lợi tức (lấy cafe ngon).",
+      "creative_leap": "Xây dựng một hệ sinh thái tích điểm ảo ('eco-credits') liên kết trực tiếp với việc tiêu thụ dịch vụ cà phê, gắn kết ý thức với tiêu dùng.\n",
+      "non_obvious_connection": "Cà phê (một ngành có vòng đời sản phẩm ảnh hưởng môi trường nhiều) với hành vi tiêu dùng bền vững có ý nghĩa nhân văn cao, qua việc trao thưởng điểm.\n",
+      "proposed_solution": "Phát triển một ứng dụng di động cho phép người dùng báo cáo (có chứng nhận/hình ảnh minh chứng ban đầu rất đơn giản: tái chế chai nhựa, dùng túi vải, đi xe công cộng, tưới cây) để nhận 'eco-credits'. Khách hàng sử dụng điểm này để đổi cafe, học hỏi kỹ năng sống xanh hoặc đóng góp vào các dự án cộng đồng.",
+      "core_experience": "Cảm giác 'tử tế' hơn khi uống cafe, biến hành động nhỏ hàng ngày thành việc nhận thưởng xứng đáng từ sở thích cà phê. Góp phần nhỏ nhưng có cảm giác được ghi nhận trên quy mô lớn hơn.",
+      "core_technology": [
+        "Eco-credit Tokenization (blockchain/distributed ledger potential for the future)",
+        "Mobile Reporting & Verification Module (AI visual recognition)",
+        "Loyalty-based Discount Engine"
+      ],
+      "why_it_feels_new": "Biến ý tưởng 'lan tỏa hành động tốt' thành một mô hình 'thương mại nhân văn', nơi hoạt động có trách nhiệm cộng đồng mang lại lợi ích tức thời và hữu hình (cà phê), thay vì chỉ là danh hiệu hay cảm giác vicariously.",
+      "why_now_speculative": "Nhận thức về biến đổi khí hậu gia tăng, mong muốn của người dùng muốn thấy hành động của họ có ý nghĩa, các giải pháp phần mềm 'gamified loyalty' và tiềm năng của công nghệ blockchain có thể làm tin cậy hóa giao dịch điểm về sau.",
+      "mvp_seed": "Tập trung vào 2-3 hành động xanh phổ biến nhất (tái chế, từ chối ống hút nhựa, mang bình nước). Phát hành phiên bản app beta cực đơn giản cho phép 'báo cáo thủ công', tích điểm nội bộ cho các đơn vị quán cafe thử nghiệm. ",
+      "first_7_day_prototype": "Lập fanpage Facebook chạy mini-game 'Báo cáo 1 hành động xanh trong ngày'. 50 người tham gia sớm nhất nhận 2 vé thử nghiệm cà phê miễn phí. Thông báo mở cửa tiệm popup tại khu vực giới trẻ trong 1 ngày, cho phép quét QR code đơn giản để đổi eco-credit lấy một combo cafe + ưu đãi nhỏ.",
+      "business_model_hypothesis": "Định phí thương hiệu xanh cho các hoạt động marketing đối tác, mô hình subscription cho các cấp độ eco-credit 'VIP', bán các sản phẩm thân thiện môi trường mang thương hiệu 'eco-exchange' cafe.",
+      "wildness_level": 3,
+      "main_assumptions": [
+        {
+          "claim": "Có một lượng người dùng có đủ động lực muốn 'chuẩn hóa' và 'được thưởng' cho các hành vi đã và sẽ làm, đủ để sử dụng và tương tác đều đặn với app.",
+          "type": "user_need"
+        },
+        {
+          "claim": "Việc quản lý ban đầu hệ thống 'tín chỉ' dựa trên độ tin cậy cơ bản hoặc báo cáo định tính có thể được thực hiện thủ công hoặc bán tự động cho mô hình ban đầu.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Thương hiệu cà phê xây dựng quanh hoạt động bền vững có thể thu hút một tệp khách hàng trung thành có giá trị định vị và tiềm năng chi tiêu.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Rủi ro lạm dụng (gian lận) hệ thống eco-credit dễ dàng với tính năng xác minh đơn giản.",
+        "Người dùng cảm thấy mất động lực khi tích lũy điểm quá chậm, thiếu thú vị.",
+        "Quảng bá hiệu quả hoạt động bền vững làm đối trọng với ưu đãi cafe (cạnh tranh về lợi ích)."
+      ],
+      "validation_needed_later": [
+        "Tỷ lệ 'tham gia báo cáo hoạt động xanh' hàng tháng trên tổng số người dùng app.",
+        "Tỷ lệ điểm eco-credit được sử dụng để đổi cà phê hay các quyền lợi khác.",
+        "Mức độ sẵn lòng của người dùng đối với mô hình kinh doanh có \"bên lề\" là hoạt động có lợi cho môi trường."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Blockchain hay AI xử lý hình ảnh sẽ hiệu quả tức thời và tức thời để định giá mỗi hành động."
+        ],
+        "claims_not_yet_validated": [
+          "Duy trì được người dùng tham gia đủ lâu để thực sự tác động đến lợi nhuận cốt lõi. Các đối tác lớn muốn nhảy vào (tiềm năng thu lợi khác). "
+        ]
+      }
+    },
+    {
+      "idea_id": "I003",
+      "idea_name": "Cafe Sinh Thái Ăn Được Theo Mùa (Edible Biophilic Coffee)",
+      "domain": "Coffee Services",
+      "one_sentence_pitch": "Nâng tầm trải nghiệm cafe xanh lên tầm quốc tế, cung cấp không chỉ thức uống cafe mà còn đồ ăn kèm 'sinh thái' có thể ăn được hoàn toàn (dùng hoa, lá cây từ trang trại có chứng nhận bio-eco) đi kèm.",
+      "target_user": "Nhóm sành điệu tìm kiếm trải nghiệm ẩm thực độc đáo, an toàn, nhấn mạnh nguồn gốc \"thuần khiết\" và thân thiện với môi trường từ hoa, lá ăn được chất lượng cao.",
+      "hidden_pain_or_desire": "Quan ngại về nguồn gốc thực phẩm trang trí món ăn, tìm kiếm một hương vị nguyên bản và trải nghiệm ẩm thực gắn liền với tự nhiên.",
+      "creative_leap": "Nguyên liệu phục vụ cho cafe và các món ăn kèm đều là thực vật \"ăn được\" (edible plants), được trồng theo quy trình sinh thái nghiêm ngặt, trở thành một phần trải nghiệm thưởng thức.\n",
+      "non_obvious_connection": "Kỹ thuật trồng trọt hữu cơ-sinh thái kết hợp (chắn côn trùng tự nhiên bằng thảo mộc, dinh dưỡng từ compost) và fine dining (trang trí đẹp mắt bằng lá, hoa từ cùng nông trại có tính trang trí và an toàn), được 'chủ nghĩa rừng nhiệt đới bản địa' hóa bằng chính sản phẩm cafe đó. \n",
+      "proposed_solution": "Mỗi cửa hàng cafe là một \"nông trại thu nhỏ\" hoặc hợp tác độc quyền với các \"organic farms\" cho hoa, lá, mầm cây có hương vị tinh tế (lá mạo chồn, hoa giềng, lá tía tô ăn được...) để vừa là thức trang trí cho cafe, latte art độc đáo; vừa là nguyên liệu chính cho một menu đồ ăn nhẹ có thể thưởng thức (salads, soup), kết hợp cà phê \"hút\" vị cây cỏ từ bản địa mà thực khách ít khi biết đến.",
+      "core_experience": "Cảm giác sống trọn vẹn, cảm nhận \"bản giao hưởng\" hương vị và mùi thơm chân thật từ \"đất mẹ\";  mỗi lần thưởng thức cafe là một lần gần gũi và tôn trọng thiên nhiên.",
+      "core_technology": [
+        "Vertical Farming/Hydroponics for Edible Flowers & Greens",
+        "Bio-certified Sustainable Sourcing",
+        "Micro-botanical Recipe Development"
+      ],
+      "why_it_feels_new": "Cafe & Eats gặp gỡ \"edible art\"; nó biến rau/hoa từ yếu tố trang trí rời rạc thành trung tâm của trải nghiệm thưởng thức. Là trải nghiệm \"farm-to-cup\" mở rộng sang cả \"farm-to-bite\" bên cạnh cà phê.",
+      "why_now_speculative": "Xu hướng thực dưỡng, chế độ ăn thực vật, và sự tìm kiếm trải nghiệm ẩm thực mới lạ ở các thành phố lớn, cộng hưởng với khả năng thương mại hóa dựa trên việc bán sức khỏe và hương vị cây cỏ từ nguồn gốc hoàn toàn minh bạch.",
+      "mvp_seed": "Bắt đầu với việc thử nghiệm 5-7 loại rau lá và 5 loại hoa có mùi vị tiềm năng. Liên kết với một trang trại rau sạch hoặc xây dựng vườn mini,  hợp tác cafe có tệp khách nhất định tập trung vào \"unique dining experience\". ",
+      "first_7_day_prototype": "Khảo sát 10 quán cafe yêu thích ý tưởng \"món ăn kèm được trang trí bằng hoa/lá thật, nguồn gốc rõ ràng\". Tại một sự kiện popup/pop-up street food, tạo ra 3 set món ăn nhẹ trang trí bằng rau/hoa có chứng nhận bio, và chỉ phục vụ cùng ly cafe cold brew  với lá mint \"lớn\". Bán thử trong 2 ngày cuối tuần với số lượng hạn chế, collect feedback  về vị và trải nghiệm.",
+      "business_model_hypothesis": "Định giá cao cho premium set ăn kèm + cafe theo mùa, tổ chức workshop làm vườn mini/nấu ăn sinh thái. Phát triển sản phẩm lẻ từ 'bộ sưu tập hoa, lá ăn được của nhà cà phê' kèm kit trồng cây mini.",
+      "wildness_level": 4,
+      "main_assumptions": [
+        {
+          "claim": "Người dùng sẵn sàng chi trả cao hơn cho các sản phẩm cà phê và món ăn nhẹ có chứng nhận sinh thái rõ ràng và được trang trí/chế biến từ nguyên liệu gốc tự nhiên độc đáo.",
+          "type": "user_need"
+        },
+        {
+          "claim": "Việc trồng và thu hái rau/hoa ăn được để trang trí cho món ăn (chú trọng hương vị và mỹ thuật) với quy mô nhỏ và tùy thuộc vào nguồn lực tại địa phương là có thể thực hiện được ban đầu.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Có khả năng xây dựng một chuỗi giá trị khép kín với các farm sinh thái đối tác hoặc nông trại của riêng, vừa đảm bảo nguyên liệu, vừa mang giá trị branding cao.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Vòng đời nguyên liệu (tươi) ngắn và vấn đề vận hành trang trại (chất lượng/sản lượng thất thường) gây gián đoạn dịch vụ.",
+        "Đòi hỏi kiến thức chuyên sâu về nông nghiệp sinh thái kết hợp ẩm thực mà ítfounder có thể sở hữu đầy đủ.\n",
+        "Năng suất thu hồi/độ cạnh tranh về giá cho bộ quà tặng hoặc workshops."
+      ],
+      "validation_needed_later": [
+        "Biên độ lợi nhuận trên mỗi set món ăn kèm + cà phê.",
+        "Khách hàng chi tiêu ra sao cho sản phẩm 'combo theo mùa' so với các món truyền thống?",
+        "Tỷ lệ phản hồi về 'ý tưởng' và sự sẵn sàng chia sẻ hình ảnh món ăn kèm với bạn bè."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Hiệu quả lan tỏa trong cộng đồng yêu thích thực dưỡng & vegan trên MXH thông qua việc chia sẻ hình ảnh/trải nghiệm",
+          "Tạo ra nhu cầu mới chưa từng tồn tại trước đây nhờ việc kết hợp 2 nền văn hóa F&B khác biệt nhau rất nhiều"
+        ],
+        "claims_not_yet_validated": [
+          "Tính pháp lý của việc thu thập/nuôi/sử dụng hạt giống ngoại lai/mới cho mục đích thương mại hóa sản phẩm ăn uống."
+        ]
+      }
+    },
+    {
+      "idea_id": "I004",
+      "idea_name": "Cafe Dịch Chuyển Giác Quan (Synesthesia Coffee)",
+      "domain": "Coffee Services",
+      "one_sentence_pitch": "Tái định nghĩa hương vị cà phê, trải nghiệm thực sự việc 'nhìn thấy âm thanh' và 'nghe thấy màu sắc' thông qua cafe được tinh chỉnh để gợi lên các trải nghiệm giao thoa giác quan độc đáo, dựa trên khoa học.",
+      "target_user": "Những người tìm kiếm trải nghiệm độc đáo không theo khuôn mẫu, người yêu nghệ thuật cảm giác, và những người muốn thử nghiệm cách nhận thức được mở rộng thông qua khoa học dinh dưỡng và âm nhạc.",
+      "hidden_pain_or_desire": "Sự nhàm chán trong cách miêu tả và thưởng thức cà phê; mong muốn phá vỡ rào cản của một giác quan duy nhất và bước vào thế giới mới của trải nghiệm liên giác quan.",
+      "creative_leap": "Áp dụng nguyên lý synesthesia (hội chứng hay tượng liên giác quan) của con người để kiến tạo menu cà phê; dùng âm nhạc curated (hoặc thậm chí rung động rung tâm vi tế được mã hóa thành mô hình nước uống) như công thức định hướng phát triển hương vị. ",
+      "non_obvious_connection": "Cà phê (những đặc tính vốn phức tạp, đa lớp hương) kết hợp với triết lý tối giản trong ẩm thực trừu tượng và những nghiên cứu về mối quan hệ giữa não bộ, âm thanh, và hương vị. Tức là, một bản nhạc có thể 'pha ra' một ly espresso cụ thể.",
+      "proposed_solution": "Phối hợp với chuyên gia âm nhạc (neuroscience-based composer) và chuyên gia pha chế (food scientist barista) để tạo ra 'menu mùa theo tần số' hay 'bản giao hưởng caffeinated'. Mỗi ly cà phê sẽ được gọi tên hoặc miêu tả theo các hiện tượng giao thoa giác quan (\"Nốt Sol thăng - Cam đất rung động\", \"Mảng Màu tím êm ái, thoảng mùi khói\"). Tác động tần số nhẹ nhàng qua hệ thống âm thanh quán (âm thanh tối thiểu, được mã hóa để cộng hưởng vị giác).",
+      "core_experience": "",
+      "core_technology": [
+        "Algorithmic Music-to-Flavor Mapping",
+        "Psychoacoustic Resonance Modulation in coffee machines (speculative)",
+        "Sensory Translation Database (sight-to-smell, sound-to-taste linkages)"
+      ],
+      "why_it_feels_new": "Nâng cà phê lên tầm 'trải nghiệm nghệ thuật đa giác quan được hỗ trợ bởi công nghệ', khuyến khích người dùng thực sự \"nhìn\" cà phê của mình.",
+      "why_now_speculative": "Sự phát triển vượt bậc của neuromarketing, các thiết bị cảm biến cho môi trường rung động, và sự quan tâm ngày càng lớn của xã hội đối với các loại hình nghệ thuật tương tác, đồng thời khoa học lý giải cách các giác quan tương hỗ nhau càng lúc càng nhiều.",
+      "mvp_seed": "Chọn lọc một vài \"điểm nốt hương chính\" (ví dụ hạt robusta có mùi đất sẽ liên kết với nốt Sol bass sâu, hay hạt Arabica wash tươi có mùi trái cây với nốt Fa trong \"C-Major\") để phát triển thành 3-4 loại cocktail cafe/mocktail độc đáo dựa trên âm nhạc ứng dụng cơ bản nhất (chỉ sử dụng quy tắc kết hợp cung & ngũ cung.",
+      "first_7_day_prototype": "Chuẩn bị một \"tasting set\": 4 ly cà phê nhỏ (mỗi loại được lấy cảm hứng từ 1 khúc nhạc tối thiểu 5-10 giây, ứng với \"khuynh hướng vị\" - ví dụ bản nhạc hơi nhanh, giai điệu bay sẽ làm một ly vị chanh thơm hơn). Phục vụ khách tình nguyện tại 1 không gian nhỏ yên tĩnh, yêu cầu viết review theo hướng miêu tả \"màu sắc\"/\"chuyển động\" họ cảm nhận từ ly cà phê. \"",
+      "business_model_hypothesis": "Membership program 'Ambassador of Sensation' (truy cập menu bí mật, pré-event), bán bộ curated music album + coffee recipe ebook, bán máy xay cafe cá nhân hóa.",
+      "wildness_level": 5,
+      "main_assumptions": [
+        {
+          "claim": "Có đủ lượng khách hàng thích thử nghiệm những điều mới lạ để tin vào tiềm năng của \"cà phê chuyển ngữ cảm quan\", ngay cả khi nó có tính trừu tượng cao.",
+          "type": "user_need"
+        },
+        {
+          "claim": "Có thể thiết kế quy trình để 'chuyển' chất âm thanh hoặc mô tả hành vi của âm thanh thành tỉ lệ pha trộn thành phần hương vị cho đồ uống mà có ý nghĩa nhất định với đa số người dùng ban đầu.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Liên kết 3 lĩnh vực vốn dĩ độc lập: Khoa học thần kinh (sự chi phối não bộ), Cà phê và Âm nhạc, có thể mở ra một thị trường niche tiềm năng giá cao.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Khái niệm rất trừu tượng và khó hiểu với người tiêu dùng đại trà, đòi hỏi nỗ lực marketing giáo dục lớn.",
+        "Rất dễ bị xem là 'chiêu trò' nếu chất lượng cà phê thực tế không đủ cao hoặc hiệu ứng cảm quan quá yếu/không ổn định.\n",
+        "Khó khăn trong việc 'chuẩn hóa' kết quả vì phản ứng với âm thanh và hương vị mang tính cá nhân và văn hóa cao."
+      ],
+      "validation_needed_later": [
+        "Tần suất người dùng báo cáo 'trải nghiệm màu sắc/chuyển động' mong muốn khi gọi món?",
+        "Lối giải thích món cà phê thông qua âm nhạc có gây nhầm lẫn hoặc nhận phản hồi trái chiều không? ",
+        "Mức chi trả cho 'phiên bản premium trải nghiệm' (premium pairing hoặc event riêng)."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Kết quả rõ ràng và có thể đo lường được của việc liên kết âm nhạc với cảm quan vị giác.",
+          "Sản phẩm cafe tạo cảm hứng cho người ta thay đổi cách cảm nhận thế giới xung quanh họ chỉ trong vòng vài phút."
+        ],
+        "claims_not_yet_validated": [
+          "Yếu tố có khả năng tái lặp định kỳ (không quá tốn kém) của phần mềm/công nghệ để liên tục tạo ra trải nghiệm mới, thay vì là duy nhất 1 lần mang tính khám phá, kích thích sự tiêu dùng.",
+          "Phản hồi có nhất quán về chất lượng cà phê giữa \"hiệu ứng truyền thông ảo\" và \"thực tế thụ hưởng\""
+        ]
+      }
+    }
+  ]
+}

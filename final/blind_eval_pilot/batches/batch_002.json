@@ -1,0 +1,47 @@
+[
+  {
+    "candidate_id": "BLIND_0014",
+    "domain": "Web App For Community Services",
+    "title": "Contextual Connotation Weaver",
+    "problem_or_desire": "Viết thông báo, bài đăng cộng đồng tưởng chừng đơn giản nhưng đôi khi lại dễ gây hiểu lầm sâu sắc vì không nhận ra ẩn ý nhạy cảm về giới, tuổi, văn hóa, hay tôn giáo mà người đọc sẽ cảm nhận.",
+    "core_concept": "Trình duyệt \"biên kịch con chữ\", cho phép người dùng định hình sắc thái, hàm ý, và rung cảm của thông điệp cộng đồng trước khi công khai, dựa trên phân tích ngữ cảnh (contextual connotation) của văn bản.",
+    "proposed_approach": "Người dùng nhập đoạn văn bản. Công cụ AI sẽ phân tích 'từ khóa cảm quan' (sentiment keywords), 'từ ngữ tiềm ẩn ngụ ý tiêu cực theo bối cảnh' (contexually-implicit negative trigger words), và gợi ý chỉnh sửa/biên tập. Dữ liệu học máy ban đầu từ hàng ngàn ca xử lý ngôn ngữ sai biệt công khai từ các mạng xã hội, báo chí (nếu có) kèm bài học rút ra, và phản hồi thử nghiệm theo chiều tương phản.",
+    "prototype_scope": "Tập trung vào ngôn ngữ Tiếng Việt, tạo một web-based editor: Soạn thảo. Cho user nhập một câu 300 chars, phân tích ra ít nhất 1-2 nguy cơ có thể gây hiểu lầm về văn hoá (giàu nghèo, bắc nam). Đưa ra một cách sửa (chữ TQ, câu đơn giản) đơn giản (sửa 1-2 từ), đặc biệt là cho chủ đề dễ \"cháy nổ\"."
+  },
+  {
+    "candidate_id": "BLIND_0010",
+    "domain": "Coffee Services",
+    "title": "Cà Phê Cảm Xúc: Tinh Chỉnh Hương Vị Theo Tâm Trạng",
+    "problem_or_desire": "Mong muốn tìm thấy sự cân bằng cảm xúc và năng lượng thông qua một thức uống quen thuộc, nhưng không biết làm thế nào để 'tối ưu hóa' ly cà phê cho nhu cầu tức thời.",
+    "core_concept": "Một dịch vụ cà phê cá nhân hóa, sử dụng AI để phân tích tín hiệu sinh học và môi trường, từ đó pha chế ly cà phê có hương vị và thành phần tối ưu cho trạng thái cảm xúc hiện tại của người dùng.",
+    "proposed_approach": "Ứng dụng di động kết nối với thiết bị đeo (smartwatch, vòng đeo tay) để thu thập dữ liệu về nhịp tim, mức độ căng thẳng, giấc ngủ. AI phân tích dữ liệu này để đề xuất hoặc tự động pha chế (qua máy pha thông minh) ly cà phê với tỷ lệ caffeine, hương liệu tự nhiên (ví dụ: hoa cúc cho thư giãn, bạc hà cho tỉnh táo), và nhiệt độ phù hợp.",
+    "prototype_scope": "Một ứng dụng cho phép người dùng nhập thủ công trạng thái cảm xúc và nhận đề xuất công thức cà phê độc đáo, kèm theo hướng dẫn pha chế thủ công."
+  },
+  {
+    "candidate_id": "BLIND_0050",
+    "domain": "Edtech",
+    "title": "Chợ Cổ Sinh Thái Nội Tại",
+    "problem_or_desire": "Sự trừu tượng hóa của kiến thức lịch sử/sinh học sâu sắc khiến nó khó hình dung và thiếu đi sự đồng cảm sâu sắc với các quá trình vận động hàng triệu năm.",
+    "core_concept": "Một nền tảng học tập cá nhân hóa trải nghiệm học 'ngược dòng thời gian' qua một sinh vật/hiện tượng tồn tại qua hàng thiên niên kỷ, tương tác với các giai đoạn tiến hóa của nó để hiểu bài học.",
+    "proposed_approach": "Cung cấp các 'phòng thí nghiệm ảo' về các loài sinh vật bí ẩn (như trilobite, ammonite, cố đại khủng long ban đầu), hoặc các hiện tượng địa chất quan trọng (Vụ Great Dying), nơi người học tương tác ở các \"điểm khóa\" trong quá trình tiến hóa/biến đổi, nhận bài học lồng ghép.",
+    "prototype_scope": "Tạo một kiosk trải nghiệm mô phỏng sự sống và cái chết của một kỷ nguyên jurassic, yêu cầu người dùng thực hiện vài quyết định sinh tử nhỏ mang tính lịch sử."
+  },
+  {
+    "candidate_id": "BLIND_0020",
+    "domain": "Edtech",
+    "title": "Atlas Ngôn Ngữ Tiềm Năng",
+    "problem_or_desire": "Sự cứng nhắc trong hiểu biết về ngôn ngữ hiện tại, mong muốn phá vỡ giới hạn tư duy do ngôn ngữ giới hạn tạo ra, khả năng thiếu hiểu sâu về quá khứ hoặc tương lai xa lắc của ngữ âm.",
+    "core_concept": "Công cụ sáng tạo ngôn ngữ, cho phép người dùng xây dựng các hệ thống ngữ pháp và âm vị giả định, khám phá mối liên hệ giữa ngôn ngữ và tư duy.",
+    "proposed_approach": "Một công cụ sáng tạo ngôn ngữ (conlang tool) cho phép người dùng định nghĩa các âm vị, quy tắc ngữ pháp cơ bản và từ vựng ban đầu. AI sẽ hỗ trợ gợi ý các biến thể âm thanh, quy tắc ngữ pháp dựa trên các mô hình ngôn ngữ học đã biết, và giúp người dùng tổ chức, trực quan hóa cấu trúc ngôn ngữ của họ. Nền tảng này tập trung vào việc hỗ trợ nhà văn, nhà thiết kế game, hoặc những người yêu thích ngôn ngữ trong quá trình tạo ra ngôn ngữ giả tưởng.",
+    "prototype_scope": "Một ứng dụng web đơn giản cho phép người dùng định nghĩa bộ âm vị (IPA), các quy tắc ngữ pháp cơ bản (ví dụ: SVO, SOV), và tạo từ vựng ban đầu. AI sẽ gợi ý các biến thể âm thanh (ví dụ: các tổ hợp phụ âm/nguyên âm phổ biến) và các cấu trúc ngữ pháp đơn giản dựa trên input của người dùng. Giao diện trực quan hóa các quy tắc ngữ pháp và âm vị."
+  },
+  {
+    "candidate_id": "BLIND_0012",
+    "domain": "Entertainment Services",
+    "title": "Chân Linh Thế Kỷ",
+    "problem_or_desire": "Nỗi sợ lịch sử trở nên khô khan, nhàm chán; khát vọng thấu hiểu sâu sắc tư tưởng, con người đằng sau những sự kiện lịch sử; mong muốn kết nối phi vật chất với người thân yêu đã mất.",
+    "core_concept": "Tạo ra các 'phóng chiếu ảo' chân thực về các nhân vật lịch sử, danh nhân văn hóa và thậm chí những người thân yêu đã khuất, cho phép người dùng tương tác qua AI đối thoại chuyên sâu.",
+    "proposed_approach": "Người dùng chọn một nhân vật có sẵn (dựa trên dữ liệu số hóa rộng lớn về cuộc đời và lời nói của họ) hoặc tải lên tài liệu về một nhân vật cá nhân. AI tạo ra mô hình 3D tương tác (qua web hoặc VR) thể hiện ngoại hình và chuyển động môi/khuôn mặt chân thực. Phần cốt lõi là chatbot AI được huấn luyện đặc biệt để suy luận, trả lời dựa trên dữ liệu đó, mô phỏng tính cách, văn phong và quan điểm của nhân vật, có khả năng diễn đạt cảm xúc.",
+    "prototype_scope": "Phiên bản demo về một nhà sử học Việt Nam nổi tiếng: cho phép người dùng hỏi về ít nhất 5 chủ đề chính trị/xã hội/văn hóa giai đoạn đó."
+  }
+]

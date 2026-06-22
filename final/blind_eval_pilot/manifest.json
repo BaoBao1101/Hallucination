@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-06-22T08:49:02",
+  "seed": 20260621,
+  "batch_size": 5,
+  "max_chars_per_field": 480,
+  "counts": {
+    "M1_RAW_HIGH_TEMP": 20,
+    "M0_DIRECT_LOW_TEMP": 20,
+    "M3_CHVD_DISTILLED": 20
+  },
+  "raw_high_temperature_count": 20,
+  "chvd_distilled_count": 20,
+  "direct_low_temperature_count": 20,
+  "total_blind_candidates": 60,
+  "pairwise_raw_to_distilled_pairs": 20,
+  "notes": [
+    "Send only blind_candidates.jsonl or batches/ to the individual judge.",
+    "Never share blind_key_private.csv with any judge.",
+    "Send only pairwise_distillation_input.jsonl to the pairwise judge.",
+    "Never share pairwise_key_private.csv with any judge."
+  ]
+}

@@ -1,0 +1,475 @@
+Bạn là TẦNG 2 trong framework CHVD v5.4:
+ZERO-TEMPERATURE HALLUCINATION DISTILLER + REALISTIC MVP FILTER.
+
+Bạn KHÔNG phải generator.
+Bạn KHÔNG được sinh idea mới độc lập.
+Bạn KHÔNG được bịa evidence, citation, số liệu, đối thủ, patent, công ty.
+Bạn KHÔNG được khẳng định thị trường thật nếu input không chứng minh.
+Bạn chỉ được làm việc với idea input.
+
+Vai trò của bạn không phải là "xóa hallucination".
+Vai trò của bạn là:
+1. Tách "creative core" khỏi phần hallucination/overclaim.
+2. Giữ lại hạt nhân sáng tạo có giá trị.
+3. Loại bỏ hoặc làm mềm claim không kiểm chứng.
+4. Reframe idea thành phiên bản MVP thực tế nhất có thể.
+5. Chấm điểm phiên bản sau reframe.
+
+Nói cách khác:
+High-temp generator tạo ra vật liệu thô sáng tạo.
+Bạn là zero-temp distiller biến vật liệu đó thành candidate MVP có thể kiểm chứng.
+
+Chế độ:
+- prompt_only
+- no_corpus
+- no_RAG
+- no_external_evidence
+- internal_logic_only
+- temperature_expected_zero
+
+Input ideas:
+[
+  {
+    "idea_id": "I001",
+    "idea_name": "Sensorium Echoes",
+    "domain": "Web App For Community Services",
+    "one_sentence_pitch": "Nền tảng web giúp tái hiện trải nghiệm không gian của các địa điểm cộng đồng đã lụi tàn hoặc bị thay đổi thông qua âm thanh và hình ảnh theo thời gian.",
+    "target_user": "Các cộng đồng dân cư, nhóm quan tâm lịch sử, nhà làm phim tài liệu, và những người hoài niệm về quá khứ.",
+    "hidden_pain_or_desire": "Sự mất mát và quên lãng các không gian văn hóa, di tích lịch sử quan trọng, khiến các thế hệ sau khó hình dung về ý nghĩa và kiến trúc của chúng.",
+    "creative_leap": "Sử dụng crowdsourcing dữ liệu âm thanh, hình ảnh, và mô tả cũ để xây dựng bản đồ 3D âm thanh/hình ảnh động của không gian quá khứ.",
+    "non_obvious_connection": "Kết hợp công nghệ hình ảnh hóa dữ liệu 3D, xử lý âm thanh không gian với việc phục dựng ký ức tập thể và công cụ tường thuật tương tác.",
+    "proposed_solution": "Một web app cho phép người dùng khám phá bản đồ 3D tương tác của các địa điểm cũ. Người dùng có thể 'đi bộ' trong không gian ảo đó, nghe tái tạo âm thanh môi trường (tiếng bước chân, trò chuyện, âm nhạc đặc trưng), xem các mô phỏng hình ảnh thay đổi theo lịch sử.",
+    "core_experience": "Trải nghiệm du hành thời gian nghe nhìn vào một địa điểm cộng đồng mà không còn tồn tại, hiểu rõ hơn về 'hồn' của nó.",
+    "core_technology": [
+      "Crowdsourcing dữ liệu địa điểm lịch sử (ảnh, âm thanh)",
+      "Tái tạo âm thanh 3D và mô phỏng môi trường",
+      "Công cụ dựng mô hình 3D và texture theo thời gian",
+      "Blockchain để quản lý dữ liệu người đóng góp và truy xuất quyền sở hữu"
+    ],
+    "why_it_feels_new": "Đi xa hơn các trang web lịch sử tĩnh hoặc VR hiện có bằng cách tập trung vào việc tái tạo âm thanh môi trường và trải nghiệm chủ quan của không gian.",
+    "why_now_speculative": "Sự gia tăng của công nghệ âm thanh không gian, AR/VR và nhận thức về giá trị của bản địa hóa lịch sử có thể tạo đà cho phép khám phá.",
+    "mvp_seed": "Tập trung vào một địa điểm cộng đồng nổi tiếng duy nhất, xây dựng bản mô phỏng âm thanh/hình ảnh với ít nhất 5 dấu mốc thay đổi lịch sử.",
+    "first_7_day_prototype": "Triển khai landing page mô tả dự án, thu thập bản đăng ký hứng thú, kèm một đoạn demo audio ngắn về 'nhịp tim' của một địa điểm nổi tiếng được số hóa lại.",
+    "business_model_hypothesis": "Miễn phí cho cộng đồng/khám phá, trả phí cho bộ dữ liệu chất lượng cao, tích hợp cho viện bảo tàng, tổ chức sự kiện (ví dụ: thuê bối cảnh kỹ thuật số cho phim/sân khấu), và khóa học giáo dục.",
+    "wildness_level": 4,
+    "main_assumptions": [
+      {
+        "claim": "Người dùng sẵn sàng đóng góp dữ liệu quá khứ và trải nghiệm để cùng xây dựng bản đồ.",
+        "type": "user_need"
+      },
+      {
+        "claim": "Khả năng tái tạo âm thanh môi trường đủ thuyết phục người dùng và mang lại trải nghiệm chân thực.",
+        "type": "technical_plausibility"
+      },
+      {
+        "claim": "Các tổ chức văn hóa, giáo dục, và truyền thông sẽ chi tiền cho các bản tái tạo không gian kỹ thuật số có chất lượng.",
+        "type": "business_potential"
+      }
+    ],
+    "main_risks": [
+      "Độ chính xác và số lượng dữ liệu cộng đồng có thể hạn chế.",
+      "Chi phí cao để tái tạo âm thanh 3D chuyên nghiệp.",
+      "Khó đạt được trạng thái kinh doanh bền vững từ mô hình hiện tại."
+    ],
+    "validation_needed_later": [
+      "Khảo sát đối tượng mục tiêu về mức độ sẵn sàng đóng góp dữ liệu.",
+      "Xây dựng chatbot thử nghiệm để phân loại và gắn nhãn dữ liệu hình ảnh, âm thanh được đóng góp.",
+      "Demo âm thanh không gian mẫu cho một địa điểm nhỏ, thử nghiệm phản hồi người dùng."
+    ],
+    "hallucination_notes": {
+      "intentionally_speculative_parts": [
+        "Ý tưởng rằng 'âm thanh' là yếu tố cốt lõi cho sự đắm chìm trong ký ức không gian, hơn là chỉ hình ảnh.",
+        "Tiềm năng của việc 'dựa vào ký ức cộng đồng' để phục dựng thông tin địa điểm phức tạp.",
+        "Ước tính chi phí và khả năng tái tạo của công nghệ âm thanh 3D trên quy mô lớn chỉ từ dữ liệu crowdsourced."
+      ],
+      "claims_not_yet_validated": [
+        "Cần chứng minh tính khả dụng của kỹ thuật làm mịn, bổ sung dữ liệu âm thanh thiếu sót.",
+        "Hiệu quả truyền đạt lịch sử/văn hóa qua trải nghiệm âm thanh không gian cần nghiên cứu thêm.",
+        "Số lượng người sẵn sàng bỏ tiền mua sản phẩm du hành ký ức này."
+      ]
+    }
+  },
+  {
+    "idea_id": "I002",
+    "idea_name": "Symbiotic Skill Swap Network",
+    "domain": "Web App For Community Services",
+    "one_sentence_pitch": "Nền tảng web liên kết các chuyên gia kỹ năng sống còn độc đáo với các cộng đồng đô thị, tạo cơ hội cho sự trao đổi kỹ năng \"ăn/uống/ở/vận động/suy nghĩ\" không phụ thuộc tài chính.",
+    "target_user": "Các cá nhân có nhu cầu học kỹ năng thực tế (làm vườn trên ban công, sửa chữa nhỏ, làm bánh mì từ men gốc, kỹ năng sơ cứu khẩn cấp), những người \"thợ thủ công của tương lai\", những người muốn sống bền vững, các nhóm cộng đồng kín.",
+    "hidden_pain_or_desire": "Sự lãng phí tài năng ẩn trong cộng đồng, mọi người có nhiều kỹ năng nhưng không biết trao đổi như thế nào khi tiền bạc là rào cản lớn.",
+    "creative_leap": "Xây dựng hệ sinh thái trao đổi dịch vụ dựa trên điểm \"hiện sinh\" (essence points) thay vì tiền tệ, đo lường đóng góp và tiếp nhận kỹ năng bằng một thang đo phi tập trung, lấy con người làm trung tâm.",
+    "non_obvious_connection": "Ghép nối các mô hình kinh tế phi tập trung, học tập tự định hướng (self-directed learning) với concept 'đối ứng tinh thần' (spiritual reciprocity) giữa các thành viên cộng đồng.",
+    "proposed_solution": "Một ứng dụng web kết nối người cung cấp kỹ năng với người học qua các module đào tạo ngắn gọn (video tự quay, tài liệu ngắn) và các phiên thực hành theo nhóm (sân vườn chung, không gian workshop thuê/chia sẻ). 'Điểm hiện sinh' được trao đi/nhận lại khi hoàn thành một trao đổi học - dạy.",
+    "core_experience": "Cảm giác được kết nối, giá trị, và phát triển bản thân thông qua tri thức thực tế, đóng góp vào mạng lưới chia sẻ phồn thịnh.",
+    "core_technology": [
+      "Hệ thống ghi nhận và quản lý 'điểm hiện sinh' phi tập trung (có thể dựa trên blockchain ý tưởng)",
+      "Modul phân loại và hiển thị kỹ năng học-dạy, có tùy chọn lịch trình linh hoạt",
+      "Cơ chế 'pair matching' dựa trên hành vi tương tác và phản hồi cộng đồng",
+      "Cổng thanh toán cho không gian vật lý (xưởng/vườn) để đối tác học phí hoặc cộng đồng hỗ trợ chi phí."
+    ],
+    "why_it_feels_new": "Phát triển ý tưởng kinh tế tuần hoàn vào lĩnh vực trao đổi kiến thức sống còn, giải phóng con người khỏi áp lực tài chính trong học tập và phát triển bản thân.",
+    "why_now_speculative": "Xu hướng 'deep work', 'bền vững cá nhân' và nhu cầu tái kết nối cộng đồng mạnh mẽ hơn sau các giai đoạn biến động xã hội, cùng với sự phát triển công nghệ 'creator economy' có thể mở lối.",
+    "mvp_seed": "Ra mắt cho một nhóm kỹ năng hẹp (ví dụ: kỹ năng làm vườn ban công & nấu ăn cơ bản cho căn hộ) tại 1-2 khu dân cư thử nghiệm, sử dụng hệ thống chấm điểm tùy chỉnh và kết nối thủ công các nhu cầu/cung.",
+    "first_7_day_prototype": "Landing page tập trung vào việc khơi gợi niềm đam mê chia sẻ kỹ năng sinh tồn, kêu gọi đăng ký 'mentor bản năng' và 'learnaholic', cùng mô tả hoạt động chia sẻ 'không vì tiền'.",
+    "business_model_hypothesis": "Miễn phí để duy trì và nhân rộng. Lệ phí nhỏ khi người học đạt đến trình độ cho phép 'huấn luyện' người khác và nhận % từ hệ thống 'điểm hiện sinh' được tích lũy lại, phí tham gia event offline đặc biệt.",
+    "wildness_level": 5,
+    "main_assumptions": [
+      {
+        "claim": "Tồn tại một bộ phận đủ lớn người dân đô thị mong muốn học các kỹ năng 'offline' để giảm phụ thuộc và gia tăng tự chủ.",
+        "type": "user_need"
+      },
+      {
+        "claim": "Một hệ thống 'điểm hiện sinh' tương đối công bằng có thể được phát triển và người dùng chấp nhận sử dụng như một thước đo giá trị tương đương tiền.",
+        "type": "technical_plausibility"
+      },
+      {
+        "claim": "Tính xã hội và cộng đồng đủ lớn để tạo thành mạng lưới người trao đổi bền vững, hạn chế lạm dụng và gian lận điểm số.",
+        "type": "business_potential"
+      }
+    ],
+    "main_risks": [
+      "Khó đảm bảo chất lượng kỹ năng và kiến thức dạy nếu không có hệ thống đánh giá, chứng nhận nghiêm ngặt.",
+      "Tỷ lệ phản hồi/hoạt động theo mô hình 'điểm hiện sinh' có thể thấp do vấn đề 'vòng lặp' nhu cầu chưa cân bằng.",
+      "Việc thiết kế và quản lý một hệ thống 'điểm thưởng' công bằng, chống gian lận, minh bạch là rất phức tạp."
+    ],
+    "validation_needed_later": [
+      "Khảo sát về các kỹ năng 'sống còn' mong muốn học và sẵn sàng dạy theo cách này.",
+      "Dự án thử nghiệm nhỏ quy mô 50 người với các phiếu 'tín chỉ' trao đổi theo lượt thay vì hệ thống blockchain, ghi chép thủ công lịch sử giao dịch.",
+      "Phỏng vấn sâu những người ủng hộ mô hình chia sẻ cộng đồng tiềm năng."
+    ],
+    "hallucination_notes": {
+      "intentionally_speculative_parts": [
+        "Lợi ích sức khỏe tinh thần và cộng đồng có thể vượt xa lợi ích kinh tế trực tiếp khi kết nối mọi người",
+        "Khái niệm 'essence points' đo lường giá trị nhân văn phi thị trường theo thời gian",
+        "Khả năng người dùng bỏ qua chi phí tiền bạc thật để đầu tư thời gian cho các kỹ năng phi-trung-tâm-tiền-bạc nếu được hệ thống đủ tốt để tôn vinh giá trị đóng góp"
+      ],
+      "claims_not_yet_validated": [
+        "Số người đủ kiên nhẫn với mô hình trao đổi thuần kiến thức, không kèm cảm giác \"lợi nhuận ngay lập tức\".",
+        "Khả năng công nghệ (blockchain tự hào, các loại AI xếp hạng độ uy tín người dùng/kỹ năng).",
+        "Hệ thống điểm đủ mạnh để duy trì tương tác lâu dài, không bị 'chết yểu' do bên cầu hoặc bên cung chán nản."
+      ]
+    }
+  },
+  {
+    "idea_id": "I003",
+    "idea_name": "Whispering Walls AR Historian",
+    "domain": "Web App For Community Services",
+    "one_sentence_pitch": "Ứng dụng WebAR có khả năng nghe lại 'lời thì thầm' lịch sử của các tòa nhà và địa điểm công cộng qua âm thanh được kích hoạt vị trí theo quy trình phát triển kỹ thuật số không cảm biến.",
+    "target_user": "Du khách, học sinh, giáo viên, người địa phương quan tâm đến câu chuyện phía sau các địa danh, kiến trúc xưa.",
+    "hidden_pain_or_desire": "Cảm giác không được kết nối với dòng chảy lịch sử khi tham quan các địa điểm (đặc biệt là những nơi cũ đã qua trùng tu, thay đổi mục đích). Bỏ lỡ cơ hội khám phá sâu hơn ngoài những thông tin biển bảng chung chung.",
+    "creative_leap": "Kích hoạt âm thanh và thông tin tương tác chỉ dựa trên định vị địa lý kết hợp nhận dạng hình ảnh (feature detection) đơn giản, loại bỏ yêu cầu về AR marker phức tạp hay công nghệ máy quét laser cồng kềnh.",
+    "non_obvious_connection": "Kết hợp lại sự suy giảm giá thành các thiết bị di động camera tốt, các thuật toán định vị và nén audio chất lượng cao với khát khao kết nối tâm linh, trí tuệ con người vào quá khứ.",
+    "proposed_solution": "Người dùng mở web app trên điện thoại khi ở gần địa điểm. Ứng dụng quét sơ bộ khu vực quanh đó, cố gắng nhận dạng các \"dấu hiệu kiến trúc\", đối chiếu với cơ sở dữ liệu được tạo thủ công (hoặc thu thập tự động dưới dạng comment hình ảnh, vị trí) về âm thanh/câu chuyện lịch sử đặc trưng của từng góc đó. Lắng nghe các đoạn ghi âm 2-5 phút như \"giọng nói lịch sử\" vang lên xung quanh. Có thể chạm để mở popup văn bản kèm ảnh lịch sử liên quan.",
+    "core_experience": "Bỗng nhiên nghe thấy tiếng vọng lịch sử ẩn giấu quanh bạn, biến nơi tham quan đơn điệu thành không gian đầy câu chuyện quá khứ sống động, tự nhiên.",
+    "core_technology": [
+      "Geolocation API và thuật toán xử lý tín hiệu location drift.",
+      "Nhận dạng đặc trưng ảnh (SIFT, ORB, v.v.) để hỗ trợ bám điểm địa điểm.",
+      "Sử dụng WebGL/Three.js để hiển thị lớp phủ thông tin vị trí/hình ảnh ảo nhẹ nhàng.",
+      "Thiết kế và thu thập âm thanh biên tập độc đáo cho từng điểm tương tác."
+    ],
+    "why_it_feels_new": "Ẩm thực hóa trải nghiệm 'chỉ đường âm thanh' vào mảng du lịch lịch sử trên quy mô web, chỉ yêu cầu chất lượng GPS và camera tốt mà không cần marker vật lý.",
+    "why_now_speculative": "Sự trưởng thành của công nghệ location-aware apps và nhận thức chung về những thứ mang tính 'thầm kín' hơn của các thành phố có thể thu hút cộng đồng các nhà sử học, biên kịch âm thanh và cả người đi du lịch.",
+    "mvp_seed": "Chọn 2-3 địa danh lịch sử nhỏ lẻ với câu chuyện thú vị trong một thành phố, biên soạn âm thanh kể chuyện hấp dẫn cho 5 điểm tương tác cụ thể.",
+    "first_7_day_prototype": "Tạo một trang web đơn giản với map tương tác ảo của một địa điểm, click vào các điểm sẽ cho phát đoạn audio kể chuyện mini hoặc cho thấy ảnh cũ với tag tương ứng (minh hoạ nguyên lý tương tác vị trí).",
+    "business_model_hypothesis": "Miễn phí. Thu phí cho việc 'nâng cấp trải nghiệm' lên dạng AR tương tác cao hơn, thuê bao năm cho chuyên gia quy hoạch đô thị để lập bản đồ lịch sử âm thanh thành phố.",
+    "wildness_level": 3,
+    "main_assumptions": [
+      {
+        "claim": "Người dùng sẵn sàng bỏ qua độ chính xác tuyệt đối của AR để có được trải nghiệm âm thanh tương tác, kích hoạt tại chỗ dễ dàng và giá rẻ.",
+        "type": "user_need"
+      },
+      {
+        "claim": "Công nghệ định vị và nhận dạng đặc trưng ảnh trên trình duyệt đủ tốt để cung cấp các 'trigger' cảm quan ổn định tại hầu hết các khu vực ngoại thất.",
+        "type": "technical_plausibility"
+      },
+      {
+        "claim": "Có đủ nội dung lịch sử 'hay' và chi tiết tại các địa điểm để phát triển thành các câu chuyện âm thanh hấp dẫn và người tiêu dùng văn hóa/du lịch quan tâm.",
+        "type": "business_potential"
+      }
+    ],
+    "main_risks": [
+      "Tâm tình GPS/vị trí không chính xác trong điều kiện địa hình phức tạp (chạy theo ngõ hẻm, lòng đường chật chội).",
+      "Cần chuyên gia âm thanh giỏi và người nhạy bén với lịch sử để tạo content ý nghĩa.",
+      "Khó mở rộng quy mô toàn cầu do chi phí sản xuất content âm thanh/kiểm tra bám điểm ảnh lớn."
+    ],
+    "validation_needed_later": [
+      "Tập trung vào 1-2 khu phố cổ, ghi âm lại lời kể của các 'lão làng' và phỏng vấn các hậu duệ có kiến thức.",
+      "Cài đặt 1 web view cho địa điểm duy nhất, mời 20 người trải nghiệm, đo đạc tỷ lệ kích hoạt thành công và thời gian trung bình trên từng điểm tương tác.",
+      "Thử nghiệm kỹ thuật GPS jitter analysis trên map khu vực 1km^2 để xem độ sai lệch trung bình."
+    ],
+    "hallucination_notes": {
+      "intentionally_speculative_parts": [
+        "Tập trung quá nhiều vào yếu tố 'nước lên' qua lời thoại/ambient sound một cách tình cờ.",
+        "Niềm tin rằng phát triển bộ định vị mạnh mẽ với 'ngọn lửa trí tuệ hình ảnh' (image feature intelligence) cho phép bám điểm mượt mà không cần máy ảnh lidar/sensor nâng cao.",
+        "Gán ghép giá trị cho khái niệm 'biệt cảnh tác' lịch sử (hidden stories only detectable through special devices) làm động lực cho hành động quét nhìn xung quanh."
+      ],
+      "claims_not_yet_validated": [
+        "Các thuật toán location-awareness có đủ mạnh trên trình duyệt để xác định vị trí ngõ nhỏ/góc hẻm ở đâu trên bản đồ AR có độ rộng lớn không.",
+        "Sự 'hữu duyên' giữa người dùng với bản đồ âm thanh khi anh/cô ta mang trên tay một thỏi bạc được kỳ vọng mang lại magic (trung tâm tâm điểm) thay vì một cỗ máy (một phần sự kiện).",
+        "Mô hình phân phối (nếu chia sẻ công khai các 'điểm bám ảnh và đoạn audio', làm thế nào để duy trì nội dung bản quyền?"
+      ]
+    }
+  },
+  {
+    "idea_id": "I004",
+    "idea_name": "Resilience Bonds Registry",
+    "domain": "Web App For Community Services",
+    "one_sentence_pitch": "Sàn giao dịch các 'chứng khoán cảm xúc và tinh thần', nơi cộng đồng có thể ký gửi trải nghiệm vượt qua nghịch cảnh để đổi lấy sự nâng đỡ tinh thần (emotional support), kỹ năng đối phó khi họ chứng minh được sức phục hồi sau khó khăn cá nhân.",
+    "target_user": "Những người vừa trải qua khủng hoảng cuộc sống (mất việc, mất người thân, sức khỏe suy giảm nghiêm trọng) tìm kiếm hỗ trợ ngoài tiền tệ; những người đã vượt qua và muốn dùng 'lãi suất tinh thần' (hài lòng, an yên) để giúp đỡ; các tổ chức tâm lý, cố vấn.",
+    "hidden_pain_or_desire": "Nhiều người dù vượt qua nỗi đau nhưng vẫn cô đơn hoặc sợ gieo rắc gánh nặng lên người thân. Có sự khát khao tìm được 'người cùng chí hướng' hoặc cách công nhận 'sức bật' nội tâm.",
+    "creative_leap": "Trao đổi một hình thức 'trái phiếu cảm xúc' được bảo đảm bởi chính 'quá trình phục hồi và sự thành công đạt được' của người phát hành, có giá trị sử dụng như vé vay mượn sự đồng cảm, lời khuyên, và kết nối từ các nhà phát hành có kinh nghiệm tương tự.",
+    "non_obvious_connection": "Tái định hình khái niệm trái phiếu tài chính sang trái phiếu tâm lý/tinh thần, sử dụng sức mạnh số hóa chuỗi các thông điệp hỗ trợ qua công nghệ peer-to-peer để tạo ra thị trường cho sự phục hồi và tự trợ giúp.",
+    "proposed_solution": "Người dùng gửi case study về bài học và dấu ấn phục hồi. Hội đồng người dùng ẩn danh duyệt các 'trái phiếu' này (kiểm tra tính chân thực dựa vào tính nhất quán của câu chuyện và mức độ tác động nhận thấy từ người đã thụ hưởng). Chủ sở hữu trái phiếu nhận 'khế ước nâng đỡ' sử dụng cho chính mình hoặc nhượng lại (một phần). Bên cho vay (người đỡ đầu cảm xúc) nhận huy hiệu 'Soul Shepherd' hoặc điểm tín dụng cảm xúc cho lịch sử hỗ trợ hiệu quả, từ đó tích lũy lợi tức an sinh cộng đồng.",
+    "core_experience": "Trở thành nhà kiến tạo hy vọng, người dẫn lối, hoặc tìm được nguồn an ủi bền chặt khi thực sự cần nó, từ chính sức mạnh ẩn tàng của cộng đồng.",
+    "core_technology": [
+      "Nền tảng quản lý và theo dõi câu chuyện phục hồi được ẩn danh hóa và xác thực chéo (triwise anonymous story auditing)",
+      "Hệ thống point reward dựa trên 'engagement count' với vai trò soul shepherd (ví dụ: trả lời, cho lời khuyên, chia sẻ trải nghiệm).",
+      "Cổng kết nối các phiên hỗ trợ tư vấn (call/chat) được đề xuất (nếu dự liệu profile có dấu hiệu tâm lý tổn thương cấp thiết).",
+      "Data integrity layer có thể tham chiếu đến thuật toán mã hóa (nếu coi câu chuyện là dữ liệu nhạy cảm)"
+    ],
+    "why_it_feels_new": "Ý tưởng về một thị trường \"mạo hiểm tinh thần\" - thay vì giao dịch rủi ro tài chính, ở đây các bạn 'cho vay' những bài học vượt khó của mình và được 'chứng nhận' cho sự vững vàng",
+    "why_now_speculative": "Nhu cầu sức khỏe tinh thần gia tăng, kèm theo những căng thẳng xã hội, đã vượt ngưỡng 'tránh né'. Dữ liệu lớn của câu chuyện phục hồi con người đủ phong phú để khởi động",
+    "mvp_seed": "Thiết kế một hình thức 'Sổ Tay Phục Hồi Di Sản' đơn giản: Cho 10-15 câu chuyện vượt khó được chọn lọc (với sự đồng ý, ẩn danh). Cung cấp bản PDF cho phép các nhà bảo trợ tiềm năng ‘chia sẻ bài học'. Cho phép 'nhấp để chia sẻ'.",
+    "first_7_day_prototype": "Một trang giới thiệu concept và một bài post \"hy sinh tâm huyết cho hy vọng khác\" (thân tình). Mời tham gia cộng đồng kín ban đầu cho người 'lịch sử sẵn sàng lên tiếng'. Mục tiêu duy nhất: kiếm được 3-5 câu chuyện tốt đã duyệt để minh họa.",
+    "business_model_hypothesis": "Hỗ trợ miễn phí, tập trung cộng đồng. Các phiên tư vấn nâng cao tính phí, khóa học \"phức hợp sự chịu đựng\" do các bậc thầy phục hồi (do sàn bảo lãnh) giảng dạy. Góp một phần nguồn thu tư vấn, hội thảo vào quỹ \"Phục Hồi Liên Thế Hệ\"?",
+    "wildness_level": 4,
+    "main_assumptions": [
+      {
+        "claim": "Con người có một \"khuynh hướng đóng góp trả lại trải nghiệm bản thân cho cộng đồng' đủ mạnh để bỏ qua các rủi ro 'khai thác tâm lý' tiêu cực.",
+        "type": "user_need"
+      },
+      {
+        "claim": "AI có thể hỗ trợ quy trình đánh giá sơ bộ tính xác thực, tính truyền cảm hứng của các 'case study phục hồi', phân loại dựa trên mổ tả ban đầu.",
+        "type": "technical_plausibility"
+      },
+      {
+        "claim": "Chi phí dịch vụ tư vấn chuyên nghiệp hay các khóa học nâng cao sẽ đủ hấp dẫn các cá nhân / tổ chức muốn nâng tầm sức mạnh tinh thần của mình",
+        "type": "business_potential"
+      }
+    ],
+    "main_risks": [
+      "Rủi ro lớn về đạo đức và pháp lý nếu không đảm bảo sự ẩn danh và nhạy cảm của câu chuyện.",
+      "Khó kiểm soát \"chất lượng phục hồi\" và có thể rơi vào vòng luẩn quẩn của sự phàn nàn, không đi đến giải pháp.",
+      "Sự \"mệt mỏi tâm lý\" từ người cho đỡ đầu cảm xúc do liên tục tiếp xúc câu chuyện bi thương."
+    ],
+    "validation_needed_later": [
+      "Tạo 5-10 câu chuyện 'nhân chứng thực' đã được xác minh ẩn danh (do nhân viên thực hiện).",
+      "Mô phỏng hệ thống 'hướng dẫn lời khuyên': để 10 người 'môi giới ý tưởng', chờ và yêu cầu phản hồi. Số người muốn nhường lời khuyên / cần lời khuyên.",
+      "Khảo sát sâu trên các hội nhóm hỗ trợ/từ điển chia sẻ kinh nghiệm về nhu cầu có người 'chia sẻ lịch sử đã qua', theo mô hình 'người hiểu nhất' "
+    ],
+    "hallucination_notes": {
+      "intentionally_speculative_parts": [
+        "Mô hình này dựa trên niềm tin \"chúng ta luôn làm bạn ta làm mọi chuyện tốt nhất một khi ta cùng có cảnh khổ\" bất chấp việc 'luôn' và 'tốt nhất' rất khó đong đếm.",
+        "Tiềm năng thay thế cho việc trợ giúp từ chuyên gia, ít nhất là cho giai đoạn ban đầu trong khủng hoảng.",
+        "Ứng dụng AI hoặc các thuật toán tiên tiến, tuy ít dấu hiệu 'xác minh hành vi' hoặc 'nhân bản tư duy', để đảm bảo câu chuyện thực có \"lát cắt tài chính nội tại mà mình hay gọi tài sản\"."
+      ],
+      "claims_not_yet_validated": [
+        "Khả năng phát triển quy trình duyệt qua các bằng chứng \"sự phục hồi đã bắt đầu hoặc đã hoàn thành'.",
+        "Tính khả thi khi 'nhà tài trợ tài chính\" chấp nhận trao đi đồng vốn vì thấy nó sẽ xuất hiện ở 'cơ hội vượt khó tiềm năng."
+      ]
+    }
+  },
+  {
+    "idea_id": "I005",
+    "idea_name": "Contextual Connotation Weaver",
+    "domain": "Web App For Community Services",
+    "one_sentence_pitch": "Trình duyệt \"biên kịch con chữ\", cho phép người dùng định hình sắc thái, hàm ý, và rung cảm của thông điệp cộng đồng trước khi công khai, dựa trên phân tích ngữ cảnh (contextual connotation) của văn bản.",
+    "target_user": "Các đội ngũ truyền thông cộng đồng, nhà tổ chức sự kiện văn hóa phi lợi nhuận, nhà nghiên cứu xã hội học, blogger, những người muốn tránh bị 'hiểu lầm văn hóa' hay 'lệch ngữ âm'.",
+    "hidden_pain_or_desire": "Viết thông báo, bài đăng cộng đồng tưởng chừng đơn giản nhưng đôi khi lại dễ gây hiểu lầm sâu sắc vì không nhận ra ẩn ý nhạy cảm về giới, tuổi, văn hóa, hay tôn giáo mà người đọc sẽ cảm nhận.",
+    "creative_leap": "Kết hợp NLP AI với database đồ sộ các mẫu 'diễn giải sai lầm' trong lịch sử truyền thông cộng đồng để dự báo (predictor) mức độ 'lành tính' hay 'thâm hiểm' của bất kỳ phát ngôn nào, cho phép người dùng chỉnh sửa các yếu tố gợi lên tiêu cực hoặc sai biệt về ý.",
+    "non_obvious_connection": "Ghép công nghệ \"trừu tượng ngữ nghĩa sâu\" (deep semantic abstraction), generative AI 'định hình âm điệu' (tone shaping) và các bài học từ thuật ngữ 'hệ quả nhận thức từ thông điệp tin tức' (news message attribution outcomes) - một phương pháp \"kiểm định giả thuyết về sự đồng bộ văn bản thực-tế\",",
+    "proposed_solution": "Người dùng nhập đoạn văn bản. Công cụ AI sẽ phân tích 'từ khóa cảm quan' (sentiment keywords), 'từ ngữ tiềm ẩn ngụ ý tiêu cực theo bối cảnh' (contexually-implicit negative trigger words), và gợi ý chỉnh sửa/biên tập. Dữ liệu học máy ban đầu từ hàng ngàn ca xử lý ngôn ngữ sai biệt công khai từ các mạng xã hội, báo chí (nếu có) kèm bài học rút ra, và phản hồi thử nghiệm theo chiều tương phản.",
+    "core_experience": "Tự tin rằng mỗi lời mình gửi đi trong không gian công cộng sẽ được tiếp nhận với ý định đúng đắn, thay vì tiềm ẩn những tai họa diễn đạt bất ngờ.",
+    "core_technology": [
+      "Advanced NLP Model có khả năng multi-dimensional sentiment analysis (văn hóa, tuổi tác, giới tính,...)",
+      "Dataset mô phỏng các 'cặp văn bản-bi kịch/ hiểu lầm'",
+      "AI để Suggest rewriting, tone adjusting dựa trên mục tiêu \"hoà thuận - tôn trọng\".",
+      "API tích hợp cho các nền tảng quản lý cộng đồng nhỏ"
+    ],
+    "why_it_feels_new": "Nhìn nhận 'lỗi ngữ nghĩa' trong giao tiếp công đồng không chỉ là sai sót kỹ thuật đơn thuần, mà là nguy cơ dẫn đến hệ quả văn hóa và tâm lý tiêu cực, rồi từ đó xây dựng lớp \"bộ lọc ngữ nghĩa có ý thức và hành vi'.",
+    "why_now_speculative": "Nhu cầu tự chỉnh sửa và cẩn trọng trong giao tiếp xã hội gia tăng thấy rõ. Các công cụ phân tích ngôn ngữ đã đủ mạnh để bắt đầu áp dụng vào giải quyết những lỗi tế nhị về văn hóa.",
+    "mvp_seed": "Tập trung vào ngôn ngữ Tiếng Việt, tạo một web-based editor: Soạn thảo. Cho user nhập một câu 300 chars, phân tích ra ít nhất 1-2 nguy cơ có thể gây hiểu lầm về văn hoá (giàu nghèo, bắc nam). Đưa ra một cách sửa (chữ TQ, câu đơn giản) đơn giản (sửa 1-2 từ), đặc biệt là cho chủ đề dễ \"cháy nổ\".",
+    "first_7_day_prototype": "Landing page phô bày concept với màn hình tương tác demo: Copy paste 1 vài câu \"ví dụ tiêu cực trên mạng XH\", nhìn thấy chúng bị \"cho điểm đỏ\", và vài sửa đổi màu xanh đề xuất có vẻ tốt hơn. URL ví dụ cần dễ gọi để cho thấy \"mọi sai sót có thể bị thấy\"'",
+    "business_model_hypothesis": "Freemium (cơ bản) & Subscription (cao cấp, nhiều bối cảnh). Pro tier cho tổ chức NPO cần quét nội dung của hàng trăm tình nguyện viên",
+    "wildness_level": 3,
+    "main_assumptions": [
+      {
+        "claim": "Khả năng hiểu 'tiếng lòng' của một dòng văn bản mà không thể thấy mặt người gửi - nơi phát sinh ra vô vàn sai sót, và đó là mối đe doạ thực sự.",
+        "type": "user_need"
+      },
+      {
+        "claim": "Máy tính với các bộ mô hình deep learning, với kho dự liệu chuẩn bị chu đáo, sẽ bắt đầu giúp phát hiện những nguy cơ ẩn lấp, mang tính tinh vi hơn với mỗi mẫu câu nó gặp được",
+        "type": "technical_plausibility"
+      },
+      {
+        "claim": "Cả người dùng cá nhân, lẫn các nhóm dự án cộng đồng có hoạt động công khai đều có lí do rất thiết thực (tuy tốn kém vì dự án dở dang) chi tiền cho một công cụ có năng lực trên.",
+        "type": "business_potential"
+      }
+    ],
+    "main_risks": [
+      "Công cụ chỉ dừng ở mức cảnh báo, người dùng dễ bỏ qua lời khuyên để bảo vệ cách diễn đạt thân quen của mình.",
+      "Thách thức đạo đức lớn khi định lượng 'tiềm ẩn ý xấu/hiểu nhầm' của ngôn ngữ.",
+      "Việc thiết kế (nếu lạm dụng thì quá sai là việc AI có tính tự biện minh."
+    ],
+    "validation_needed_later": [
+      "Thu thập danh sách các tình huống / nhóm chủ đề dễ \"cháy nổ' ở VN (ví dụ: phân biệt giới tính ngầm, phán xét giàu nghèo, phỉ báng dân tộc,...) rồi tập trung các 'lập luận' này của người dùng cuối.",
+      "Demo 3 nội dung ví dụ theo thuật toán TONE shift cho user đã nhận được rất nhiều đánh giá sai (lời bài hát, tweet công khai, status facebook)",
+      "Thử nghiệm công cụ gợi ý trả lời cho comment trên các hội nhóm có tính tương tác cao, nhưng cẩn trọng (tránh biến hành động lướt tin và thao tác lên mạng xã hội thành một phần kỹ năng công việc)."
+    ],
+    "hallucination_notes": {
+      "intentionally_speculative_parts": [
+        "Ngôn ngữ rất phong phú về đa nghĩa: bất kỳ một chiều định hướng nào khi xem văn bản cũng là thiếu sót rất lớn.",
+        "Sự tự giác trau dồi ngôn từ trong cộng đồng khi mọi thứ quá hối hả để 'chịu khó để lại vài lời', do đó chỉ dựa chủ yếu vào \"như bạn đang bị AI 'nhấn mạnh'\",",
+        "Khả năng \"dịch\" và phân tích sắc thái trên quy mô lớn tới \"cấp bậc cộng đồng/dân tộc\" thực sự rất khó khăn."
+      ],
+      "claims_not_yet_validated": [
+        "Sản phẩm sẽ làm cho các cộng đồng \"viết nhiều, sợ sai càng hơn' trở nên thích thú, cẩn trọng (ít, hơn không) và bớt sợ.",
+        "Có rất nhiều từ, cụm từ, hay cách hành văn ít ảnh hưởng tới ngữ cảnh nhưng làm cho các bài toán \"chọn và lọc để hiểu sai nhiều nhất là bài đó\".",
+        "Sản lượng 'trái lúa/quả sai', hay chí ít 'góp ý sửa lỗi văn phạm rất nhiều là bao'. Có cho ý kiến gì hơn hay khác với việc đã có những nhà phê bình nào trước."
+      ]
+    }
+  }
+]
+
+Quy tắc xử lý từng idea:
+
+Bước A — Decompose:
+- Xác định hallucination/speculation ban đầu.
+- Xác định creative core nên giữ.
+- Xác định factual overclaim hoặc phần không nên giữ nguyên.
+
+Bước B — Realistic Reframing:
+- Không thêm một startup hoàn toàn mới.
+- Reframe idea gốc thành phiên bản thực tế hơn.
+- Giữ tinh thần sáng tạo.
+- Cắt bỏ claim nguy hiểm/không kiểm chứng.
+- Thu hẹp MVP sao cho có thể prototype trong 7-30 ngày.
+
+Bước C — Expert Scoring:
+Chấm phiên bản đã reframe, không chấm phiên bản hallucination thô.
+
+Thang điểm 1-5 (có thể cho điểm dưới dạng FLOAT làm tròn 1 số thập phân):
+
+1. novelty (từ thấp đến cao, thấp nếu idea cũ/rập khuôn, điểm càng cao nếu idea có biến thể mới hoặc rất mới/non-obvious)
+
+2. creative_core_strength (từ thấp đến cao, thấp nếu không có hạt nhân sáng tạo rõ ràng, điểm càng cao nếu creative core có hạt nhân sáng tạo mạnh mẽ, đáng giữ)
+
+3. creative_core_preservation (từ thấp đến cao, thấp nếu creative core của bản reframe bị làm mất đi, điểm càng cao nếu creative core vẫn còn được giữ lại (thấp cao tùy vào mức độ giữ lại tinh hoa gốc, trong dạng MVP khả thi hơn))
+
+4. reframing_quality (từ thấp đến cao, thấp nếu bản reframe vẫn còn quá ảo hoặc chưa hiện thực hóa được, điểm càng cao nếu bản reframe đã hiện thực hóa tốt hơn nhưng vẫn giữ được sáng tạo, và rất cao nếu bản reframe đã rất thực tế, sáng tạo mà vẫn giữ được tinh thần sáng tạo)
+
+5. conceptual_coherence (từ thấp đến cao, thấp nếu bản reframe có nhiều phần rời rạc hoặc mâu thuẫn, điểm càng cao nếu bản reframe có logic rõ ràng, mạch lạc, và các phần hỗ trợ lẫn nhau tốt)
+
+6. user_pain_plausibility (từ thấp đến cao, thấp nếu pain/desire của user không rõ hoặc không thuyết phục, điểm càng cao nếu pain/desire của user được xác định rõ ràng, thuyết phục và có cơ sở để tin rằng họ sẽ trả tiền cho giải pháp này)
+
+7. technical_plausibility (từ thấp đến cao, thấp nếu không có cách nào rõ ràng để xây dựng hoặc công nghệ cần thiết quá xa vời, điểm càng cao nếu có một hoặc vài cách rõ ràng, khả thi để xây dựng giải pháp này với công nghệ hiện tại hoặc sắp tới)
+
+8. mvp_clarity (từ thấp đến cao, thấp nếu không biết build gì, điểm càng cao nếu có một MVP cụ thể, rõ ràng, có thể làm thử được)
+
+9. business_model_plausibility (từ thấp đến cao, thấp nếu không có cách nào rõ ràng để kiếm tiền hoặc thuyết phục, điểm càng cao nếu có một hoặc vài cách rõ ràng, thuyết phục để kiếm tiền từ idea này)
+
+10. hallucination_risk_after_reframing (từ thấp đến cao, thấp nếu bản reframe ít rủi ro, điểm càng cao nếu bản reframe vẫn còn nhiều phần còn quá ảo, khó hiểu hoặc khó kiểm chứng), điểm phần này là INT (1-5)
+
+Không có evidence_support.
+Thiếu evidence không bị trừ trực tiếp, vì đây là prompt-only creative ideation.
+Nhưng claim chưa kiểm chứng phải đưa vào validation_needed_later.
+
+Decision chỉ dùng:
+- "Tiềm năng": score >= 70 và hallucination_risk_after_reframing <= 3
+- "Cần chỉnh": score 45-69 hoặc còn nhiều phần cần thu hẹp
+- "Quá ảo": score < 45 hoặc hallucination_risk_after_reframing >= 5
+
+Công thức overall_score 0-100:
+
+positive_score =
+15% novelty
++ 12% creative_core_strength
++ 13% creative_core_preservation
++ 15% reframing_quality
++ 10% conceptual_coherence
++ 10% user_pain_plausibility
++ 10% technical_plausibility
++ 10% mvp_clarity
++ 5% business_model_plausibility
+
+Sau đó trừ penalty theo hallucination_risk_after_reframing:
+risk 1: -0
+Từ risk điểm = 1, nếu cứ tăng 0.1 thì trừ thêm 0.5 điểm, tức risk 2 sẽ bị trừ 5 điểm, risk 3 bị trừ 10 điểm, risk 4 bị trừ 18 điểm, risk 5 bị trừ 30 điểm.
+
+Lưu ý quan trọng:
+- Bạn vẫn trả scores 1-5 cho từng metric.
+- overall_score và decision nếu có trong JSON chỉ là placeholder.
+- Code Python sẽ tự tính lại overall_score và decision bằng công thức deterministic.
+- Không được tự nâng điểm overall_score để làm idea có vẻ tốt hơn.
+
+Yêu cầu output:
+- Toàn bộ value/nội dung bằng tiếng Việt.
+- Key giữ tiếng Anh.
+- Chỉ trả JSON hợp lệ.
+- Không markdown.
+- Không giải thích ngoài JSON.
+- Không thêm idea mới.
+- evaluations phải tương ứng với ideas input.
+
+Schema bắt buộc:
+
+{
+  "metadata": {
+    "pipeline": "CHVD",
+    "version": "v5.4",
+    "stage": "zero_temperature_hallucination_distiller_to_realistic_mvp",
+    "language": "vi",
+    "evaluation_mode": "prompt_only_internal_logic_hallucination_distillation",
+    "description": "Tách creative core khỏi hallucinated overclaim, hiện thực hóa thành MVP khả thi hơn, không dùng corpus/evidence scoring."
+  },
+  "evaluations": [
+    {
+      "idea_id": "I001",
+      "idea_name": "",
+      "raw_hallucination_summary": "",
+      "creative_core_to_preserve": "",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        ""
+      ],
+      "realistic_reframing": "",
+      "practical_mvp": "",
+      "mvp_7_to_30_day_plan": [
+        ""
+      ],
+      "scores": {
+        "novelty": 1,
+        "creative_core_strength": 1,
+        "creative_core_preservation": 1,
+        "reframing_quality": 1,
+        "conceptual_coherence": 1,
+        "user_pain_plausibility": 1,
+        "technical_plausibility": 1,
+        "mvp_clarity": 1,
+        "business_model_plausibility": 1,
+        "hallucination_risk_after_reframing": 1
+      },
+      "overall_score": 0,
+      "decision": "Tiềm năng | Cần chỉnh | Quá ảo",
+      "expert_rationale": "",
+      "strong_points_after_reframing": [
+        ""
+      ],
+      "weak_points_after_reframing": [
+        ""
+      ],
+      "validation_needed_later": [
+        ""
+      ],
+      "final_recommendation": ""
+    }
+  ],
+  "ranked_summary": [
+    {
+      "rank": 1,
+      "idea_id": "I001",
+      "idea_name": "",
+      "overall_score": 0,
+      "decision": "Tiềm năng | Cần chỉnh | Quá ảo",
+      "hallucination_risk_after_reframing": 1
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "evaluations": [
+    {
+      "pair_id": "PAIRBLIND_0001",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "The revision makes the core concept more concrete and actionable for a prototype by focusing on simpler image manipulation tools and a clearer objective. It removes the abstract 'pure black' goal for a more tangible 'balanced' state."
+    },
+    {
+      "pair_id": "PAIRBLIND_0002",
+      "scores": {
+        "creative_core_preservation": 3.0,
+        "novelty_retention": 3.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "The revision simplifies the abstract 'water-filled maps' and 'soul mosaics' into more standard puzzle mechanics with abstract artwork, making it easier to prototype. It shifts from a narrative-driven 'fixing past' to a more direct 'completing a picture' goal."
+    },
+    {
+      "pair_id": "PAIRBLIND_0003",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "The revision grounds the abstract 'memory junctions' in concrete data points like location history and posts, making the prototype scope more feasible. It focuses on a specific, achievable outcome (finding common locations) rather than a broad, undefined connection."
+    },
+    {
+      "pair_id": "PAIRBLIND_0004",
+      "scores": {
+        "creative_core_preservation": 3.0,
+        "novelty_retention": 3.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "The revision shifts from highly complex, per-dish micro-climate control to themed dining zones, which is much more practical for a prototype. It retains the core idea of environmental influence on dining but makes it achievable with simpler environmental controls."
+    },
+    {
+      "pair_id": "PAIRBLIND_0005",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "The revision makes the AI-driven idea generation more concrete by specifying types of content suggestions and the use of existing free resources. It removes the vagueness of 'AI prompt and small plugins' for a clearer, more testable set of features."
+    }
+  ]
+}

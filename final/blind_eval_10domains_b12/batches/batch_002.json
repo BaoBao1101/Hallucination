@@ -1,0 +1,101 @@
+[
+  {
+    "candidate_id": "BLIND_0015",
+    "domain": "Coffee Services",
+    "title": "Cafe Dịch Chuyển Giác Quan (Synesthesia Coffee)",
+    "problem_or_desire": "Sự nhàm chán trong cách miêu tả và thưởng thức cà phê; mong muốn phá vỡ rào cản của một giác quan duy nhất và bước vào thế giới mới của trải nghiệm liên giác quan.",
+    "core_concept": "Tạo ra trải nghiệm cafe độc đáo bằng cách liên kết hương vị với âm nhạc và các giác quan khác, mang lại cảm giác khám phá và mở rộng nhận thức.",
+    "proposed_approach": "Một quán cafe cung cấp menu đồ uống được thiết kế dựa trên sự liên kết giữa hương vị và âm nhạc. Mỗi loại đồ uống sẽ được gợi ý hoặc đặt tên theo một bản nhạc hoặc một 'tâm trạng âm nhạc' nhất định. Quán có thể phát nhạc được tuyển chọn kỹ lưỡng để tạo không khí, và nhân viên sẽ tư vấn cách cảm nhận hương vị cafe tương ứng với âm nhạc.",
+    "prototype_scope": "Chọn lọc 3-4 loại đồ uống cafe (có thể là cocktail cafe hoặc mocktail) và liên kết chúng với 3-4 bản nhạc hoặc 'tâm trạng âm nhạc' (ví dụ: nhạc cổ điển nhẹ nhàng - cafe vị trái cây, nhạc jazz sôi động - cafe vị đậm đà). Nhân viên sẽ tư vấn cho khách hàng về sự liên kết này khi họ gọi món. Có thể cung cấp một danh sách nhạc được tuyển chọn trên Spotify hoặc các nền tảng khác để khách hàng trải nghiệm thêm."
+  },
+  {
+    "candidate_id": "BLIND_0025",
+    "domain": "Edtech",
+    "title": "Phản Tỉnh Nghịch Cảnh",
+    "problem_or_desire": "Nỗi sợ đưa ra quyết định sai lầm về sự nghiệp, mong muốn thử nghiệm các phương án mà không phải chịu hậu quả trong thực tế, cần thấy rõ những hệ quả lâu dài của một quyết định 'hơi hướng tà'",
+    "core_concept": "Khám phá các ngã rẽ sự nghiệp tiềm năng và hậu quả của các quyết định cá nhân thông qua mô phỏng, nhằm thúc đẩy nhận thức và tư duy chiến lược.",
+    "proposed_approach": "Một công cụ tư vấn nghề nghiệp dựa trên mô phỏng kịch bản. Người dùng nhập thông tin về mục tiêu nghề nghiệp, kỹ năng, và các quyết định quan trọng đã đưa ra. AI sẽ tạo ra các kịch bản 'nếu như' (what-if scenarios) dựa trên các yếu tố có thể thay đổi (ví dụ: 'Nếu bạn chọn ngành A thay vì B', 'Nếu bạn chấp nhận lời đề nghị làm việc đó'). Các kịch bản này sẽ mô tả các kết quả có thể xảy ra dựa trên các mô hình phát triển sự nghiệp và phân tích rủi ro cơ bản, giúp người dùng su…",
+    "prototype_scope": "Một ứng dụng web đơn giản, tập trung vào việc mô phỏng 1-2 quyết định nghề nghiệp quan trọng (ví dụ: chọn ngành học, chấp nhận/từ chối một lời mời làm việc). Người dùng nhập thông tin cơ bản, và AI sẽ tạo ra 2-3 kịch bản 'nếu như' với các kết quả mô tả ngắn gọn về tác động tiềm năng đến sự nghiệp."
+  },
+  {
+    "candidate_id": "BLIND_0029",
+    "domain": "Offline 2D Game",
+    "title": "Bản Đồ Tâm Đắc Tủi Thương Khốn Khổ",
+    "problem_or_desire": "Nỗi bất lực khi không thể 'sửa chữa' quá khứ hoặc trạng thái tinh thần của bản thân hoặc người khác. Khao khát tìm lại hoặc sắp xếp lại những mảng ký ức bị bỏ quên hay sai lệch để hiểu trọn vẹn hơn.",
+    "core_concept": "Trải nghiệm game giải đố nhập vai vào nội tâm nhân vật, sử dụng thao tác ghép nối các yếu tố trừu tượng (ký ức, cảm xúc) để 'hàn gắn' hoặc sắp xếp lại chúng, từ đó khám phá câu chuyện và tâm lý nhân vật.",
+    "proposed_approach": "Một game giải đố 2D nơi người chơi sắp xếp các mảnh ghép artwork trừu tượng để hoàn thiện một bức tranh biểu thị trạng thái tâm lý hoặc ký ức của nhân vật. Mỗi màn chơi là một 'không gian nội tâm' với các mảnh ghép đại diện cho các khía cạnh khác nhau của cảm xúc hoặc ký ức. Mục tiêu là sắp xếp chúng theo một logic nhất định để mở khóa câu chuyện hoặc hiểu rõ hơn về nhân vật.",
+    "prototype_scope": "Một demo với 1-2 'không gian nội tâm' đơn giản. Mỗi không gian có 5-7 mảnh ghép artwork trừu tượng. Người chơi có thể kéo thả, xoay các mảnh ghép để khớp với một 'khuôn mẫu' hoặc làm thay đổi màu sắc/bóng tối tổng thể của không gian. Hoàn thành việc sắp xếp sẽ hiển thị một đoạn văn bản ngắn hé lộ về nhân vật."
+  },
+  {
+    "candidate_id": "BLIND_0003",
+    "domain": "Coffee Services",
+    "title": "Trao Đổi Môi Trường Lấy Cà Phê (Eco-Credit Cafe Exchange)",
+    "problem_or_desire": "Người dùng có ý thức bảo vệ môi trường nhưng thiếu động lực hữu hình để duy trì, và mong muốn những hành động đó được công nhận rõ ràng và có lợi tức (lấy cafe ngon).",
+    "core_concept": "Quán cà phê khuyến khích hành vi bền vững bằng cách đổi \"tín chỉ xanh\" (eco-credits) mà khách hàng tích lũy được từ các hoạt động thân thiện môi trường lấy đồ uống hoặc ưu đãi cà phê đặc biệt.",
+    "proposed_approach": "Phát triển một ứng dụng di động cho phép người dùng báo cáo (có chứng nhận/hình ảnh minh chứng ban đầu rất đơn giản: tái chế chai nhựa, dùng túi vải, đi xe công cộng, tưới cây) để nhận 'eco-credits'. Khách hàng sử dụng điểm này để đổi cafe, học hỏi kỹ năng sống xanh hoặc đóng góp vào các dự án cộng đồng.",
+    "prototype_scope": "Tập trung vào 2-3 hành động xanh phổ biến nhất (tái chế, từ chối ống hút nhựa, mang bình nước). Phát hành phiên bản app beta cực đơn giản cho phép 'báo cáo thủ công', tích điểm nội bộ cho các đơn vị quán cafe thử nghiệm."
+  },
+  {
+    "candidate_id": "BLIND_0094",
+    "domain": "Web App Services",
+    "title": "Người Dịch 'Ngôn Ngữ Vật Thể'",
+    "problem_or_desire": "Cảm giác tò mò về nguồn gốc và câu chuyện đằng sau những đồ vật quen thuộc, mong muốn kết nối sâu sắc hơn với thế giới vật chất, hoặc tìm kiếm nguồn cảm hứng từ những chi tiết nhỏ bé.",
+    "core_concept": "Một web app sử dụng AI để phân tích hình ảnh các đồ vật hàng ngày và giải mã 'câu chuyện' hoặc 'ý nghĩa tiềm ẩn' của chúng, từ lịch sử sản xuất, ý nghĩa văn hóa, đến các liên kết cảm xúc cá nhân.",
+    "proposed_approach": "Người dùng tải lên hình ảnh một đồ vật (ví dụ: một chiếc ghế cũ, một chiếc cốc, một cuốn sách). AI sẽ cố gắng nhận dạng vật thể, tìm kiếm thông tin liên quan từ các nguồn dữ liệu khổng lồ (lịch sử thiết kế, các giai đoạn sản xuất, ý nghĩa biểu tượng trong các nền văn hóa khác nhau, các câu chuyện/bài viết liên quan đến loại đồ vật đó). Ứng dụng sẽ trình bày 'câu chuyện' của đồ vật dưới dạng văn bản hấp dẫn, có thể bao gồm cả các liên kết suy đoán về ý nghĩa cá nhân mà người…",
+    "prototype_scope": "Cho phép người dùng tải lên ảnh một đồ vật phổ biến (ví dụ: ghế, bàn, đèn). AI nhận dạng và cung cấp 1-2 sự thật thú vị về lịch sử hoặc ý nghĩa văn hóa của loại đồ vật đó."
+  },
+  {
+    "candidate_id": "BLIND_0036",
+    "domain": "Edtech",
+    "title": "Biên Tập viên Nội Tâm: Huấn luyện Kịch tính Đàm thoại Tự sự",
+    "problem_or_desire": "Nỗi sợ thất bại trong các cuộc hội thoại định hình tương lai (dự án cá nhân/với mối quan hệ sinh tử), mong muốn thể hiện bản thân một cách mạnh mẽ, rõ ràng và đầy cảm xúc, thay vì đơn thuần truyền thông. Đã qua rồi 'cuộc sống bình thường không tính'.'",
+    "core_concept": "Huấn luyện kỹ năng giao tiếp và xử lý tình huống khó khăn thông qua việc diễn tập thoại và phân tích phản ứng, giúp người dùng tự tin và hiệu quả hơn trong đối thoại.",
+    "proposed_approach": "Một ứng dụng huấn luyện kỹ năng giao tiếp, tập trung vào việc giúp người dùng chuẩn bị cho các cuộc đối thoại khó khăn. Ứng dụng cung cấp các kịch bản tình huống phổ biến (ví dụ: từ chối, đàm phán, giải quyết mâu thuẫn). Người dùng có thể nhập vai, diễn tập các câu trả lời, và AI sẽ đưa ra phản hồi về cách diễn đạt, giọng điệu, và hiệu quả tiềm năng của câu trả lời. AI cũng có thể gợi ý các cách diễn đạt thay thế.",
+    "prototype_scope": "Một ứng dụng web/mobile với các kịch bản đối thoại mẫu (ví dụ: 'Từ chối yêu cầu của đồng nghiệp', 'Thương lượng lương'). Người dùng chọn một kịch bản, nhập câu trả lời của mình, và AI sẽ phân tích (ví dụ: độ dài, từ ngữ sử dụng, cảm xúc tiềm ẩn) và đưa ra phản hồi đơn giản, cùng với 1-2 gợi ý cách diễn đạt khác."
+  },
+  {
+    "candidate_id": "BLIND_0059",
+    "domain": "Game Mobile",
+    "title": "Lãng Du Thiền Định: Trò Chơi Tối Giản Du Lịch & Sáng Tạo Nội Dung Tự Lập Trình",
+    "problem_or_desire": "Nhu cầu khám phá không gian tinh thần của bản thân một cách có chủ đích nhưng không thành kiến, tích hợp những trải nghiệm giác quan đời thực (du lịch, thiên nhiên) vào một không gian số để nâng tầm. Mong muốn tạo ra 'sản phẩm số' của riêng mình mang đậm dấu ấn cá nhân về sự bình an nội tâm.",
+    "core_concept": "Kết hợp trải nghiệm du lịch thực tế (ảnh, video) với sáng tạo nội dung số để tạo ra không gian thiền định cá nhân, nơi người chơi sắp đặt các yếu tố cảm xúc để dệt nên 'phong cảnh nội tâm'.",
+    "proposed_approach": "Một game mobile casual cho phép người chơi sử dụng ảnh và video từ chuyến đi của họ để tạo ra các 'không gian nội tâm' tĩnh lặng. Người chơi sắp xếp các yếu tố hình ảnh và âm thanh theo các quy tắc đơn giản dựa trên triết lý zen để tạo ra các cảnh quan số mang tính cá nhân. Sản phẩm tập trung vào trải nghiệm sáng tạo và thư giãn, không hứa hẹn đo lường chánh niệm hay xây dựng văn hóa tâm linh.",
+    "prototype_scope": "Một sandbox 'họa sĩ tĩnh lặng' nơi người chơi có thể upload 1 ảnh từ điện thoại. Game sẽ tự động gợi ý 2-3 texture ảnh và 1 đoạn nhạc nền dựa trên ảnh đó. Người chơi có thể sắp xếp các yếu tố này trên một khung cảnh 3D đơn giản và lưu lại tác phẩm của mình. Có chức năng chia sẻ tác phẩm qua link."
+  },
+  {
+    "candidate_id": "BLIND_0105",
+    "domain": "Web App Services",
+    "title": "Trao-Đổi Khái Niệm",
+    "problem_or_desire": "Thất vọng vì không thể truyền đạt hoặc dạy được những kỹ năng thiên về cảm nhận, trực giác mà không có thuật ngữ chính xác. Mong muốn 'cảm được điều nó' hay 'sờ thấy sự vật mình đang học'. Tìm kiếm ngôn ngữ giao tiếp phi ngôn ngữ hiệu quả để lĩnh hội tri thức.",
+    "core_concept": "Truyền đạt và lĩnh hội các kỹ năng phức tạp, thiên về cảm nhận và trực giác, thông qua các hình thức biểu đạt phi ngôn ngữ và phân tích của AI, thay vì chỉ dựa vào ngôn ngữ mô tả truyền thống.",
+    "proposed_approach": "Một nền tảng web cho phép các chuyên gia (mentor) ghi lại video mô tả chi tiết 'cảm giác' hoặc 'trạng thái cơ thể' khi thực hiện một kỹ năng phức tạp. Hệ thống AI sẽ phân tích cử chỉ, biểu cảm và trích xuất các từ khóa liên quan đến cảm giác vật lý (ví dụ: 'căng', 'mềm', 'xoay'). Người học (học viên) sẽ xem video và các gợi ý từ khóa này, sau đó cố gắng tái hiện lại kỹ năng đó thông qua video của chính họ. AI sẽ cung cấp phản hồi sơ bộ dựa trên sự tương đồng về cử chỉ và các…",
+    "prototype_scope": "Một ứng dụng web cho phép người dùng tải lên video ngắn (tối đa 30 giây) mô tả một động tác kỹ năng đơn giản (ví dụ: một động tác võ thuật cơ bản, một bước nhảy múa). Mentor có thể xem video và ghi lại các từ khóa mô tả cảm giác vật lý (ví dụ: 'nặng vai', 'nhẹ chân', 'xoay hông'). Học viên xem video của mentor và các từ khóa, sau đó quay video của mình. Hệ thống sẽ hiển thị các từ khóa của mentor và cho phép học viên tự đánh giá mức độ tương đồng cảm giác của mình với mentor…"
+  },
+  {
+    "candidate_id": "BLIND_0068",
+    "domain": "Artificial Intelligence App",
+    "title": "Nhạc Sư Trạng Thái Hành Vi",
+    "problem_or_desire": "Loay hoay tìm kiếm danh sách nhạc phù hợp cho từng mục đích (hỗ trợ tập trung, làm dịu căng thẳng, tăng động lực, chuẩn bị cho giấc ngủ...) và mất thời gian để thử nghiệm các lựa chọn âm nhạc khác nhau, với kết quả không ổn định.",
+    "core_concept": "Nhu cầu sử dụng âm nhạc như một công cụ để điều chỉnh tâm trạng, năng suất và trạng thái cảm xúc. Hạt nhân sáng tạo nằm ở việc tạo ra âm nhạc được tùy chỉnh để phù hợp với mục tiêu cụ thể của người dùng, thay vì chỉ là các danh sách phát được tuyển chọn.",
+    "proposed_approach": "Một ứng dụng phát nhạc được tạo ra bởi AI, tập trung vào việc tạo ra các bản nhạc nền (ambient music) phù hợp với các mục tiêu trạng thái người dùng đã chọn (ví dụ: Tập trung, Thư giãn, Năng lượng). AI sẽ điều chỉnh các yếu tố như nhịp độ, giai điệu, và độ phức tạp của âm nhạc dựa trên các mô hình âm nhạc đã được chứng minh là có tác động đến trạng thái tinh thần, và có thể nhận phản hồi đơn giản từ người dùng (thích/không thích) để tinh chỉnh dần.",
+    "prototype_scope": "Một ứng dụng web/di động cho phép người dùng chọn một trong 3-4 mục tiêu trạng thái (ví dụ: 'Tập trung', 'Thư giãn', 'Năng lượng'). AI sẽ tạo ra một bản nhạc nền gốc, liên tục thay đổi (generative ambient music) dựa trên các tham số được thiết lập sẵn cho từng mục tiêu. Người dùng có thể đánh giá bản nhạc (ví dụ: nút 👍/👎) để AI học hỏi và điều chỉnh các bản nhạc tiếp theo trong phiên đó hoặc các phiên sau. Không có phân tích tín hiệu sinh học phức tạp."
+  },
+  {
+    "candidate_id": "BLIND_0076",
+    "domain": "Online Business",
+    "title": "Chợ Kỹ Năng 'Vô Hình'",
+    "problem_or_desire": "Khó khăn trong việc định lượng, đánh giá và chứng minh các kỹ năng mềm quan trọng trong môi trường làm việc hiện đại. Mong muốn có một cách thức minh bạch và đáng tin cậy để xác nhận các năng lực này.",
+    "core_concept": "Một sàn giao dịch trực tuyến nơi mọi người có thể mua bán các kỹ năng 'vô hình' hoặc khó định lượng như sự đồng cảm, khả năng lắng nghe, tư duy phản biện, hoặc sự sáng tạo, được đánh giá và chứng nhận bởi cộng đồng.",
+    "proposed_approach": "Một nền tảng nơi người dùng có thể tạo hồ sơ, liệt kê các kỹ năng 'vô hình' mà họ sở hữu. Các người dùng khác (đã được xác minh và có uy tín) có thể 'đánh giá' hoặc 'chứng nhận' các kỹ năng này dựa trên tương tác thực tế (ví dụ: qua các dự án hợp tác, phản hồi trong các buổi cố vấn). Các chứng nhận này được ghi lại trên blockchain để đảm bảo tính minh bạch và không thể giả mạo.",
+    "prototype_scope": "Một diễn đàn hoặc nhóm nhỏ nơi người dùng có thể đăng tải các 'yêu cầu chứng nhận kỹ năng' và những người khác có thể đưa ra 'phản hồi' hoặc 'chứng nhận' dưới dạng văn bản."
+  },
+  {
+    "candidate_id": "BLIND_0082",
+    "domain": "Edtech",
+    "title": "Atlas Ngôn Ngữ Tiềm Năng",
+    "problem_or_desire": "Sự cứng nhắc trong hiểu biết về ngôn ngữ hiện tại, mong muốn phá vỡ giới hạn tư duy do ngôn ngữ giới hạn tạo ra, khả năng thiếu hiểu sâu về quá khứ hoặc tương lai xa lắc của ngữ âm.",
+    "core_concept": "Một nền tảng cho phép người học tương tác, xây dựng và thử nghiệm các \"ngôn ngữ đã biến mất\" giả định hoặc \"siêu văn hóa ngữ pháp\" có thể tồn tại song song với thực tế, nhằm mở rộng tư duy ngôn ngữ.",
+    "proposed_approach": "Công cụ cho phép người dùng nhập các gốc từ, quy luật ngữ pháp thô sơ, nguyên lý âm thanh. AI sẽ 'tiến hóa' các hệ thống ngôn ngữ này thành dạng tiềm năng nhất của nó. Từ đó, người học 'sinh hoạt' trong 'chương trình mô phỏng ngữ pháp đó, với một số hệ thống quy tắc định hướng sẵn sàng, người dùng mới có một ý tưởng sáng tác hoặc hiểu được tư duy khác biệt được biểu thị bằng hệ ngữ âm.",
+    "prototype_scope": "Công cụ giúp user tự tạo các danh từ/động từ đơn giản theo hệ thống quy luật âm thanh do họ chọn ban đầu."
+  }
+]

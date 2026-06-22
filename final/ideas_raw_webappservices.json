@@ -1,0 +1,246 @@
+{
+  "metadata": {
+    "pipeline": "CHVD",
+    "version": "v5.3",
+    "domain": "Web App Services",
+    "language": "vi",
+    "mode": "prompt_only_no_corpus_no_weak_signals",
+    "temperature_role": "maximal_divergent_creativity",
+    "stage": "high_temperature_creative_hallucination_generator",
+    "saved_at": "2026-06-21T22:13:28",
+    "generator_model": "gemini-2.5-flash-lite",
+    "generator_temperature": 2.0,
+    "generator_top_p": 0.99,
+    "user_prompt": ""
+  },
+  "ideas": [
+    {
+      "idea_id": "I001",
+      "idea_name": "Mộng Kệ Tâm Đã",
+      "domain": "Web App Services",
+      "one_sentence_pitch": "Một nền tảng web cho phép người dùng trải nghiệm lại giấc mơ, thay đổi kết cục hoặc khám phá tiềm thức theo cách nghệ thuật tương tác.",
+      "target_user": "Những người tò mò về giấc mơ, người gặp khó khăn với trải nghiệm giấc mơ tiêu cực, nghệ sĩ, nhà nghiên cứu tiềm thức, hoặc bất kỳ ai tìm kiếm sự tự khám phá sâu sắc.",
+      "hidden_pain_or_desire": "Nỗi ám ảnh với những giấc mơ lặp đi lặp lại hoặc khó chịu; mong muốn hiểu rõ hơn biểu tượng cá nhân trong tiềm thức; khát vọng mãnh liệt được trải nghiệm và tái cấu trúc thế giới nội tâm một cách an toàn.",
+      "creative_leap": "Biến những vùng khó nắm bắt của tâm trí (giấc mơ) thành một không gian tương tác, có thể \"chơi đùa\" và chỉnh sửa.",
+      "non_obvious_connection": "Giữa công nghệ giấc mơ được thần thoại hóa (dream interpretation) với game thực tế ảo/tăng cường và neuroscience.",
+      "proposed_solution": "Ứng dụng web cung cấp các công cụ cho người dùng ghi lại giấc mơ chi tiết. Dựa trên các yếu tố chính và cảm xúc, AI tạo ra một 'kịch bản giấc mơ' số hóa. Người dùng sau đó có thể tương tác để thay đổi tình tiết, cảnh quan, hoặc nhân vật, nhận về những hình ảnh/kết cục 'tỉnh táo' khác biệt. Nó có thể kết hợp nhập liệu từ EEG hoặc các cảm biến sinh trắc học đơn giản trong tương lai xa.",
+      "core_experience": "Sự choáng ngợp khi 'vào vai' và điều khiển thế giới giấc mơ của chính mình, đạt được sự giải tỏa hoặc nhận thức mới từ việc nhìn lại bản thân dưới lăng kính ảo.",
+      "core_technology": [
+        "Natural Language Processing (NLP) cho việc phân tích mô tả giấc mơ",
+        "Procedural Generation (PG) hoặc Generative Adversarial Networks (GANs) để tạo hình ảnh giấc mơ",
+        "User Interface/User Experience (UI/UX) tương tác cảm xúc"
+      ],
+      "why_it_feels_new": "Chuyển hóa giấc mơ từ trạng thái thụ động, khó hiểu sang một \"thực tế ảo nhỏ\" có thể tác động và chỉnh sửa bởi chính người mơ.",
+      "why_now_speculative": "Sự phát triển của AI tạo sinh hình ảnh đã chạm ngưỡng thuyết phục. Giới trẻ ngày càng quan tâm đến sức khỏe tinh thần và các hình thức self-care phi truyền thống. Thị trường VR/AR vẫn đang định hình, mở đường cho các ứng dụng trải nghiệm sâu.",
+      "mvp_seed": "Cho phép người dùng nhập mô tả chi tiết một giấc mơ. AI gợi ý 2-3 \"yếu tố thay đổi\" và tạo ra một chuỗi 5-7 hình ảnh tĩnh dựa trên mô tả đó. Người dùng chọn 1 'yếu tố thay đổi' và xem kết cục hình ảnh được AI điều chỉnh.",
+      "first_7_day_prototype": "Web app cho phép người dùng tải lên file text mô tả giấc mơ. Máy chủ NLP tự động phân loại các vật thể, nhân vật và địa điểm chính. Một bộ các mẫu hình ảnh cơ bản (gốc) và biến thể (cảm xúc tiêu cực) được hiển thị. Người dùng nhấp chuột chọn vào 1 vật/nhân vật để 'ẩn' nó và xem hình ảnh mới - một bản render tĩnh cơ bản cho cốt truyện \"thế giới đã thay đổi\".",
+      "business_model_hypothesis": "Subscription cho tính năng cao cấp (phân tích sâu hơn, tạo animation ngắn, chia sẻ cộng đồng ẩn danh). Thanh toán một lần cho các 'gói trải nghiệm chủ đề giấc mơ' đặc biệt.",
+      "wildness_level": 5,
+      "main_assumptions": [
+        {
+          "claim": "Nhiều người muốn can thiệp, hiểu hoặc chơi đùa với giấc mơ của chính họ.",
+          "type": "user_need"
+        },
+        {
+          "claim": "AI hiện có thể diễn giải và sinh hình ảnh mạch lạc tương đối từ dữ liệu mơ hạn chế.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Sự khao khát được hiểu và kiểm soát bản thân - ngay cả qua giấc mơ - tạo ra thị trường lớn cho các công cụ self-exploration kỹ thuật số.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Đảm bảo sự tôn trọng dữ liệu cá nhân nhạy cảm về tâm lý.",
+        "Sự khó đoán và mang tính chủ quan của giấc mơ khiến việc chuẩn hóa trải nghiệm trở nên thách thức.",
+        "Rủi ro đưa người dùng vào vòng lặp tâm lý tiêu cực thay vì giải tỏa."
+      ],
+      "validation_needed_later": [
+        "Đánh giá tâm lý mức độ 'có ích' của công cụ đối với người dùng.",
+        "Số hóa và trực quan hóa các mô hình biểu tượng giấc mơ.",
+        "Khảo sát mức độ chính xác và sáng tạo của AI trong việc tái hiện thế giới mơ."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Khả năng 'trải nghiệm lại' hay 'thay đổi kết cục giấc mơ' bằng hình ảnh mô phỏng có ý nghĩa sâu sắc vượt trội so với ý nghĩa gốc của giấc mơ. ",
+          "Nỗ lực cá nhân hóa trải nghiệm đến mức có thể phản ánh các học thuyết phân tâm hoặc các thuật ngữ khoa học thần kinh còn đang tranh cãi.",
+          "Việc đơn giản hóa và cấu trúc hóa trải nghiệm giấc mơ bằng công nghệ liệu có gạt bỏ hoặc làm sai lệch ý nghĩa \"tự nhiên\" vốn có?"
+        ],
+        "claims_not_yet_validated": [
+          "Người dùng sẵn sàng nhập liệu chi tiết, thường xuyên và bảo mật về giấc mơ."
+        ]
+      }
+    },
+    {
+      "idea_id": "I002",
+      "idea_name": "Du Ca Kiến Thức",
+      "domain": "Web App Services",
+      "one_sentence_pitch": "Một ứng dụng web biến việc học các sự kiện lịch sử ngẫu nhiên, tiểu sử nhân vật ít được biết đến thành một trải nghiệm khám phá thế giới thực tế aumentada (AR) vui nhộn.",
+      "target_user": "Học sinh phổ thông, phụ huynh quan tâm giáo dục, du khách địa phương, những người yêu lịch sử muốn cách học mới mẻ, người thích các thử thách 'game hóa'.",
+      "hidden_pain_or_desire": "Sự nhàm chán của sách giáo khoa lịch sử truyền thống, khó ghi nhớ các mốc thời gian, sự kiện phức tạp, thiếu sự liên kết cảm xúc và cảm giác chân thật với quá khứ.",
+      "creative_leap": "Mang kiến thức lịch sử từ sách vở, màn hình phẳng ra đời thực thông qua lớp phủ AR và 'điểm đến tìm hiểu', biến mọi nơi thành 'di tích số' di động.",
+      "non_obvious_connection": "Giữa bảo tàng ảo/digital twin (bản sao số) với ứng dụng định vị địa lý và lịch sử gia đình mở rộng (family trees).",
+      "proposed_solution": "Người dùng nhận nhiệm vụ tìm 'Mảnh Vụn Lịch Sử' tại các địa điểm thực tế hoặc theo chỉ dẫn AR. Khi đến đúng vị trí, ứng dụng mở ra một mô hình 3D AR của một hiện vật, chân dung nhân vật, hoặc sự kiện. Người dùng hoàn thành nhiệm vụ mini (trả lời câu hỏi, sắp xếp lại trật tự sự kiện) để thu thập 'mảnh', dần hoàn thiện 'bức tranh' lịch sử và mở khóa câu chuyện sâu hơn, đôi khi kể từ góc nhìn bất ngờ (thằng lính vô danh, người bán hàng rong).",
+      "core_experience": "Cảm giác mình là một nhà khảo cổ/thám tử lịch sử 'thời gian thực', tự tay 'dò dẫm' tìm lại quá khứ giữa cuộc sống hiện đại.",
+      "core_technology": [
+        "ARKit / ARCore (cho trải nghiệm AR)",
+        "Geo-location / Geofencing technologies (định vị nhiệm vụ)",
+        "Interactive 3D Modeling và rendering",
+        "Gamification Framework"
+      ],
+      "why_it_feels_new": "Hệ thống hoá cách trải nghiệm 'sống' lại các khoảnh khắc/nhân vật lịch sử dựa trên vị trí địa lý thực tế và dữ liệu AR sinh động, thay vì mô tả khô khan.",
+      "why_now_speculative": "Độ phủ smartphone với AR ngày càng lớn. 'Học đi đôi với hành', 'learning by doing' là xu hướng giáo dục không ngừng gia tăng. 'Gamification' dần là yếu tố không thể thiếu trong mọi ứng dụng hiện đại, từ sức khỏe đến giáo dục.",
+      "mvp_seed": "Chọn 5-10 sự kiện lịch sử với các địa điểm được xác định rõ (chỉ quanh một vài thành phố lớn để thử nghiệm). Cho phép người dùng mở map tìm điểm đến. Tại điểm đến, màn hình chỉ hiện dòng mô tả sự kiện và một nhân vật 3D đơn giản. Có nút 'Quiz 3 câu' về sự kiện đó. Thành công unlock text chi tiết ngắn.",
+      "first_7_day_prototype": "Web app/mobile web cho phép chọn một vài 'Hành Trình Lịch Sử' (VD: 'Hành Trình Lính Trận SG_MùaTHoaĐỏ', 'Thất Thành Tổ Nghiệp' trong khu vực nhất định. Yêu cầu cấp quyền vị trí, sau đó dẫn người dùng theo chỉ dẫn tới một địa điểm AR 'hologram' sự kiện/nhân vật. Thao tác swipe-screen simple trivia game (gồm 3-5 câu) để 'phá băng' câu chuyện tiếp theo dưới dạng text giàu hình ảnh kèm âm thanh kịch tính ngắn.",
+      "business_model_hypothesis": "Bán gói 'Hành Trình' mở rộng (cho trường học, cho tour du lịch tùy chỉnh, cho chủ đề chuyên sâu). Quảng cáo giới hạn (liên quan đến lịch sử, du lịch, bảo tàng). Mô hình tài trợ của các quỹ văn hóa/tổ chức giáo dục.",
+      "wildness_level": 4,
+      "main_assumptions": [
+        {
+          "claim": "Giới trẻ chán nản cách học lịch sử truyền thống và khao khát sự 'nhập vai' sống động.",
+          "type": "user_need"
+        },
+        {
+          "claim": "AR có thể hiển thị nội dung lịch sử 3D một cách thuyết phục và di động.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Kết hợp địa lý, game hoá và kiến thức sâu có khả năng tạo nên sản phẩm giáo dục gây nghiện và hiệu quả.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Phụ thuộc nhiều vào chất lượng GPS và khả năng hiển thị AR ổn định trên nhiều thiết bị.",
+        "Vấn đề bản quyền liên quan đến lịch sử và tái hiện mô hình 3D các di tích, hiện vật.",
+        "Thị trường ngách vì không phải ai cũng chủ động tìm học lịch sử theo cách này."
+      ],
+      "validation_needed_later": [
+        "Kiểm tra mức độ ghi nhớ thông tin lịch sử sau khi trải nghiệm AR.",
+        "Mở rộng hệ thống quản lý 'mảnh lịch sử' 3D số.",
+        "Khảo sát tương tác và các điểm gây khó khăn khi khám phá trong môi trường thực."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Công nghệ AR sẽ đủ phổ biến và ổn định như GPS hoặc máy ảnh thông thường để trở thành công cụ giáo dục chính thống, sánh ngang với sách giáo khoa.  Các địa điểm không hẳn là 'di tích lịch sử' sẽ tự động biến thành bối cảnh học tập thông qua lớp phủ số AR, giúp 'sống dậy' cả những khu phố, tòa nhà không rõ công trạng quá khứ. Mô hình lịch sử chi tiết được vẽ ra trong AR có thể có một sự 'hòa quyện tinh tế' với cảnh quan thực, đôi khi mang yếu tố nghệ thuật siêu thực hơn là sao chép y hệt lịch sử.",
+          "Việc khai thác triệt để 'góc nhìn bình dân, ít nổi' về sự kiện lịch sử sẽ làm rung động và sâu sắc cảm nhận người học theo cách mà sách vở hiếm khi làm được."
+        ],
+        "claims_not_yet_validated": [
+          "Người dùng sẽ chủ động bỏ ra thời gian vật lý (không chỉ online) để di chuyển đến các địa điểm do app chỉ định cho mục đích học tập.",
+          "Ngân sách công ty phần mềm dành cho sản xuất mô hình 3D AR chi tiết có thể là khổng lồ mà vẫn đảm bảo LỢI NHUẬN."
+        ]
+      }
+    },
+    {
+      "idea_id": "I003",
+      "idea_name": "Trao-Đổi Khái Niệm",
+      "domain": "Web App Services",
+      "one_sentence_pitch": "Một web app học tập ngược, nơi chuyên gia (hoặc người đã am tường) mô tả chi tiết *cảm giác* làm một kỹ năng phức tạp, còn 'học viên mới' cố gắng diễn dịch và vẽ/khiêu vũ/viết ngược lại, nhận về phản hồi mang tính trực giác từ hệ thống và con người.",
+      "target_user": "Những người chuyên môn cao (Bác sĩ phẫu thuật, nhạc trưởng, thợ thủ công lành nghề, nghệ sĩ múa) và bất kỳ ai đang vật lộn học một kỹ năng chuyên sâu nơi ngôn ngữ mô tả đơn thuần là thiếu.",
+      "hidden_pain_or_desire": "Thất vọng vì không thể truyền đạt hoặc dạy được những kỹ năng thiên về cảm nhận, trực giác mà không có thuật ngữ chính xác. Mong muốn 'cảm được điều nó' hay 'sờ thấy sự vật mình đang học'. Tìm kiếm ngôn ngữ giao tiếp phi ngôn ngữ hiệu quả để lĩnh hội tri thức.",
+      "creative_leap": "Thay vì giải thích logic, app khai thác trải nghiệm cảm giác của chuyên gia, mã hóa chúng, rồi giải mã thông qua nhiều hình thức biểu đạt khác nhau, từ đó làm sáng tỏ các khía cạnh tiềm ẩn và mang tính vật lý của kỹ năng.",
+      "non_obvious_connection": "Giữa neuroplasticity (tính dẻo của thần kinh, khi tạo ra những kết nối mới về kiến thức liên quan đến vận động, cảm giác) với hệ thống sinh thái trao đổi dữ liệu và khái niệm số hóa các hành động (choreography, motor primitives).",
+      "proposed_solution": "Chuyên gia (mentor) quay video hoặc ghi âm giải thích lại một 'cảm giác then chốt' khi thực hiện kỹ năng (VD: cảm giác cánh tay khi bác sĩ phẫu thuật thực hiện một đường cắt nhất định). Hệ thống transcodes âm thanh và cử chỉ (gesture) để đề xuất vài 'gợi ý trừu tượng' về 'màu', 'nhịp điệu', 'áp lực' ...  Những người học ('những chú lính chì hiểu ngôn ngữ thân thể của cơ bắp và giác quan') sẽ phải biểu đạt lại thông qua: vẽ, mô tả cảm giác vật lý (nếu bóp lại hay vuốt nhẹ?), motion capture/quay phim, nhảy, viết văn tượng hình - những phản hồi này sẽ lại được phân tích bởi hệ thống. ",
+      "core_experience": "Trải nghiệm giải mã một 'ngôn ngữ câm' của cơ thể và tâm trí; cảm giác kết nối với một tri thức 'sống' và không chỉ dựa vào ngôn từ. Sự thăng hoa khi 'bắt sóng' được cảm giác mà chuyên gia đang truyền.",
+      "core_technology": [
+        "AI for Affective Computing / Emotion Recognition (nhận diện 'trạng thái cảm xúc/trải nghiệm').",
+        "Motion Capture (gián tiếp) & Computer Vision.",
+        "Generative AI cho mô phỏng các phản hồi (trừu tượng về màu, hình, cử chỉ đơn giản).",
+        "Collaborative Filtering / Similarity Algorithms để gợi ý từ người cùng kinh nghiệm."
+      ],
+      "why_it_feels_new": "Sử dụng toàn bộ khả năng biểu đạt phi ngôn ngữ của con người (hình ảnh, âm thanh cảm xúc, cử chỉ, cử động vũ đạo, sờ, nắn) như ngôn ngữ học tập chính, thay vì văn bản hay toán học. Kết hợp AI để phân tích sâu hơn cái *siêu ngôn ngữ* đó.",
+      "why_now_speculative": "Khái niệm 'Embodied Cognition' (nhận thức về thân xác) ngày càng được chấp nhận rộng rãi. AI có khả năng phân tích cảm xúc con người và hành động người ta càng phức tạp, cho phép mở ra giao diện 'phản hồi cơ thể'. Cuộc chiến content ngắn nhan nhản trên TikTok đang đào tạo bộ não mọi người phản hồi nhanh nhạy với mọi thứ phi tuyến tính.",
+      "mvp_seed": "Chọn một động tác thể thao (đấm móc) và mời 2 vận động viên chuyên nghiệp miêu tả *cảm giác* tay, vai khi làm. Hệ thống thu nhận các mô tả *chỉ bằng từ khoá liên quan đến vật lý* (nặng, xoắn, bay lướt...). Chuyên gia chỉ lại động tác 1 lần bằng mo-cap đơn giản. 10 người chưa biết đấm tạo video quay cận cảnh tương tự dựa vào clip mo-cap rồi nhấp vào các biểu tượng 'hình ảnh gợi ý phản ứng cảm xúc cơ bản của mô tả (VD: hình lửa = căng, hình giọt nước = trơn tru)' để đánh giá liệu họ có hiểu tương đối đúng không.",
+      "first_7_day_prototype": "Web app có chức năng user upload video của 'expert' mô tả cảm giác khi làm kỹ năng đơn giản (như gấp giấy Origami đỉnh cao, hay giữ hơi thở bằng kĩ thuật nhất định). AI sẽ cố gắng phân tích cử động cơ thể chính trong clip và vài 'keywords mô tả trạng thái thần kinh tiềm ẩn'. Task đề bài đặt ra cho user là: Cứ dựa vào 2 nguồn đó, cố gắng thể hiện 'tạm tạm' cái action người ta đang làm qua việc **sao chép motion quay camera cùng thời điểm**, và chỉ được tô thêm 2 màu duy nhất mà app đề xuất dựa trên màu 'dễ biểu đạt cảm xúc của chủ đề'",
+      "business_model_hypothesis": "Phí subscription cho 'nhà học' (khả năng truy cập thư viện kỹ năng, phân tích video nâng cao). Phí chia sẻ (revenue share) cho 'mentor' khi có 'nhà học' đầu tiên hoàn thành cấp độ skill nhất định qua 'bài học của họ'. Nền tảng 'white-label' cho các khóa training nội bộ doanh nghiệp. Có thể mở auction/bán đấu giá những \"khái niệm trải nghiệm độc đáo\" của mentor.",
+      "wildness_level": 5,
+      "main_assumptions": [
+        {
+          "claim": "Nhiều kiến thức 'cốt lõi' của các kỹ năng thực tế và nghệ thuật phức tạp không thể truyền đạt chỉ bằng lời nói hoặc văn bản thuần túy, đòi hỏi sự chuyển giao cảm giác / nhận thức động học.",
+          "type": "user_need"
+        },
+        {
+          "claim": "AI ngày nay đủ 'tinh tế' để phân tích và mã hóa tương đối các tín hiệu biểu cảm phi ngôn ngữ ở một mức độ nào đó có ích cho người học.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Ngành công nghiệp sáng tạo và đào tạo kỹ năng chuyên biệt thiếu phương tiện mới mẻ, mang tính cảm thụ này, tạo ra cơ hội chiếm lĩnh thị trường 'siêu ngách'.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Rất khó đo lường và thẩm định \"tính chính xác\" hoặc \"hiệu quả\" của quá trình học do mang tính chủ quan.",
+        "Chi phí đào tạo và bảo trì cơ sở dữ liệu biểu đạt cảm xúc, hành động (motion capture, nhận diện cử chỉ phức thụ) quá cao, tốn kém."
+      ],
+      "validation_needed_later": [
+        "Kiểm tra \"bước nhảy chân lý\" của người học đối với các kỹ năng 'khó cảm' trước và sau khi trải nghiệm nền tảng.",
+        "Thiết lập các \"thước đo đánh giá học lực\" không lệ thuộc hoàn toàn vào phản hồi của Mentor.",
+        "Phân tích so sánh mức độ hiệu quả của platform so với các phương pháp học kỹ năng truyền thống cùng loại."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Tập đoàn chuyên gia giỏi của các ngành mũi nhọn toàn cầu sẵn sàng bỏ công sức thu thập và minh họa cho hệ thống cách 'diễn cảm' về chuyên môn nghiệp vụ phức tạp. Khả năng \"AI nhặt hạt sỏi từ lớp trầm tích ý niệm\" để hệ thống đưa ra những gợi ý phản hồi màu sắc hay hình dạng sáng tạo cho người học mà chính chuyên gia cũng không ngờ tới, tạo ra \"giao thoa bất ngờ làm kiến thức thẩm thấu\", Nền tảng có thể mở ra phương pháp 'song hành kỹ năng: tâm lý qua ảo thuật thân xác'.",
+          "Một khi ý tưởng 'thấy thì hiểu', 'cảm thì biết' thành công, có thể tạo ra cuộc chạy đua mã hóa các dạng tri thức khó 'khai sinh' trước đây ra thành hệ thống ý tưởng sáng tạo."
+        ],
+        "claims_not_yet_validated": [
+          "Tốc độ phát triển của các bộ phân tích AI hành vi và cảm xúc của con người đáp ứng được mức độ tinh tế như yêu cầu. (Nó yêu cầu hiểu sâu 'nguyên lý cảm thụ sâu' chứ không chỉ là học thuộc vẹt về vật lý.)"
+        ]
+      }
+    },
+    {
+      "idea_id": "I004",
+      "idea_name": "Mộng Cầu Di Sản",
+      "domain": "Web App Services",
+      "one_sentence_pitch": "Nền tảng web cho phép mọi người mã hóa 'mưu mẹo cuộc sống' (life hacks), lời khuyên, hoặc \"bí quyết sinh tồn\" cá nhân dưới dạng mã code dễ tái sử dụng, người khác copy lại chỉ với 1 click và tùy chỉnh nhỏ.",
+      "target_user": "Những người có cuộc sống \"tủ lạnh bí mật\" nhiều mẹo vặt chưa công khai, giới content creators tìm nguồn kiếm idea mới và khán giả muốn tiết kiệm thời gian làm những việc lặp lại. Các bạn trẻ vừa bước ra xã hội, gặp bỡ ngỡ mọi mặt.",
+      "hidden_pain_or_desire": "Nỗi đau bị lặp lại lỗi sai, tốn thời gian cho những công việc vặt dễ có cách làm tối ưu hơn. Khao khát chia sẻ kinh nghiệm sống \"vàng ngọc\" của mình cho hậu thế mà không muốn ngồi làm tutorial dài lê thê. Mong muốn tìm \"công thức nhanh\" cho mọi việc từ làm mì ramen hoàn hảo tới cách thuyết phục khách hàng khó tính.",
+      "creative_leap": "Ứng dụng ý tưởng code (mỗi thứ là một \"snippet\") vào đời sống hàng ngày, biến \"những điều nhỏ nhặt không tên\" có khả năng \"biên dịch\" và áp dụng tức thì với con số tùy chỉnh.",
+      "non_obvious_connection": "Giữa lập trình ngôn ngữ mở (open-source coding) với văn hóa DIY (do it yourself) và hệ thống kinh doanh meme/trend bắt người.",
+      "proposed_solution": "Người dùng uploads 1 'meme-skill' vào hệ thống dưới dạng text mô tả. Hệ thống AI trích xuất các biến số quan trọng (VD: #số_người_ăn, #nhiệt_độ, #độ_cháy_vỏ). Các biến số này trở thành 'Tham_Số_Đầu_Vào_Mã_Sinh_Tồn' (Möbius Parameters). Có biểu mẫu 'Code snippet: làm **thế nào để Y**, với tùy chỉnh Z, tại **nhiệt độ** T'. Copy button sinh ra câu hoàn chỉnh dưới dạng 'copy to clipboard' có kèm link cho cộng đồng để tùy biến và paste thẳng lên các MXH phổ thông dưới các định dạng text đơn giản.",
+      "core_experience": "Cảm giác mình giống một 'phù thủy tối giản', \"trộn\" các công thức lại với nhau chỉ bằng sự thay đổi vài con số, không cần quá nhiều công phu.",
+      "core_technology": [
+        "Natural Language Processing (NLP) để parse \"mã sinh tồn\".",
+        "Template/Macro engines cho tự động điền biến số. ",
+        "AI gợi ý (recommendation) các combo 'mã sinh tồn' hoặc các giá trị cho biến số."
+      ],
+      "why_it_feels_new": "Ứng dụng một mô hình \"open source data mining/generation\" (khai phá và tạo dữ liệu mở) cho đời sống thường ngày theo hướng tự động, giảm thiểu công sức sao chép và chỉnh sửa thủ công như cũ. Mỗi \"hành vi/thông tin đời sống\" trở thành 1 'API sống'.",
+      "why_now_speculative": "Xu hướng \"efficiency\" (hiệu quả) luôn có; đặc biệt dân số trẻ yêu công nghệ. Với sự phổ biến của smart phone, bất cứ thứ gì dễ chia sẻ/sao chép và biến tấu đều có khả năng lan rộng. Sự bùng nổ creator economy cũng cho thấy giá trị của 'knowledge bite-size'.",
+      "mvp_seed": "Chia làm 3 loại mã gốc: nấu ăn nhanh (VD: 'Pha cafe S1' có các biến #lượng_cafe, #lượng_sữa). Gardening đơn giản (VD: 'Tưới cây cho F2 loại Cacti' với biến #sóng_tay). Đặt tiệc ngoài trời với số bạn bè là x (VD: làm sao chuẩn bị cho **buổi tiệc N** người'). Tạo modal hiển thị từng mẫu, user nhập theo gợi ý, rồi ấn copy thành 1 câu văn/đoạn text ngắn gọn. Cộng đồng khác có thể click \"Use This Trick\" hoặc \"Improve It\", app sinh ra link new-paste.",
+      "first_7_day_prototype": "Webapp dạng cho user (qua UI trilinear/vuông) 'xây dựng' câu đố hóa vấn đề 'làm một việc A cho B' bằng cách đánh dấu 'elements của A' và điền # biến số. Ví dụ cho loại nấu ăn sẽ hỏi: 'Nấu mì thế nào cho ra chất S?', 3 slots sẽ mở cho users nhập 'tỉ lệ tương đối (vd 1:3)', 'nhiệt độ cao' (tương đương temp hot/normal/cold scale, và chọn chất X cho sợi mì/bột làm sốt). Sau khi các ô # đều có 'thông tin'. ấn 'Generate Masterpiece-Code' và nó copy vào clipboard 1 đoạn văn text dài, 'đã điền placeholder', kèm icon # biểu thị biến chưa tùy chỉnh của các user sau.",
+      "business_model_hypothesis": "Freemium: chức năng nâng cao (advanced ML optimization các mã, chia sẻ privately, tích hợp với lịch/todo apps). Nền tảng 'paid submission': một số influencer/hàng brand có thể tạo 'codes' riêng, họ có thu nhập và app thu phí nền tảng. Market-place cho các bộ mã có phí (highly niche / pro tools - ví dụ mã chế thuốc trừ sâu gia đình hiệu quả cao từ nguyên liệu sẵn có).",
+      "wildness_level": 3,
+      "main_assumptions": [
+        {
+          "claim": "Số lượng lớn 'mẹo vặt'/hành vi đơn giản trong cuộc sống lại theo các nguyên tắc cơ bản, có thể được trích xuất và 'copy-paste hóa' một cách tương đối...",
+          "type": "user_need"
+        },
+        {
+          "claim": "Sử dụng ML + template và thuật toán gợi ý cho việc điền biến số thay vì nhập liệu thủ công 100% có khả năng thành công cao về mặt công nghệ. Các boilerplate này phải được sinh ra.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Công dân thế hệ Z và Thiên niên kỷ đang tìm mọi cách 'optiize cuộc sống' (simplify life) mà ko muốn phải suy nghĩ quá nhiều hay tự mò mẫm ban đầu - nếu có app có thể mang đến cái gốc của một công thức, họ sẽ chấp nhận.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Số lượng các vấn đề thực tế trong cuộc sống là vô hạn, làm cho hệ thống mã trở nên tan rã, phân tán, không kiểm soát được và bị mất trung tâm...",
+        "Việc tạo ra các mã sinh tồn 'cẩn thận sai lệch / thiếu hụt', vì lỗi nhỏ mang thể khiến người ta mất nhiều công hơn (chủ đích của app ban đầu là muốn lợi ích ).",
+        "Cạnh tranh ngầm về 'độ tinh vi' của code sống hoặc khả năng tự \"cấy\" biến số/context khiến người khác chỉ \"đặt niềm tin\" vào 1 group nhất định."
+      ],
+      "validation_needed_later": [
+        "Phân tích lượng lớn hành vi của người dùng: Họ hay custom những biến số nào nhất? Kết hợp 'code snippet' dạng gì có lợi.",
+        "Kiểm tra khả năng 'duy trì sản sinh sinh vật/sinh ý cho mọi vấn đề', tránh rơi vào 'cái tôi hóa quá đà' hoặc 'quá trình biến động/xử lý biến số phức tạp', nơi không giải quyết được nhiều.",
+        "Ước tính 'trung bình sai sót' và 'khả năng cứu vãn của người dùng' sau mỗi lần xài 1 mã sinh tồn đã tùy chỉnh mà fail - ví dụ: tỉ lệ thay đổi sai sót/điều chỉnh nhanh có nằm trong ngưỡng không?"
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "AI của nền tảng không chỉ 'hỗ trợ biến số' mà còn có thể chủ động 'tạo sinh các đề xuất bổ sung, đi xa hơn mô tả ban đầu mà user cung cấp' giống như hệ thống tự 'auto-complete' dựa vào các dự đoán về bối cảnh.",
+          "Trong tương lai nền tảng có thể phát triển các API 'open code' (mã nguồn mở) để liên kết với các thiết bị smart home (ví dụ mã \"Pha Cà Phê 5' Nhanh\", sẽ tự kích hoạt máy pha thông minh kèm điều chỉnh thông số sẵn). Điều này thay đổi mối liên kết giữa user và sản phẩm đời sống.",
+          "Con người sẽ trở nên quen thuộc với ý niệm rằng 'mỗi vật/thông tin trong đời sống đều có thể copy, paste, và tùy chỉnh chỉ bằng việc thay số như 1 cái filter ứng dụng chỉnh ảnh. Điều này tác động sâu sắc cách họ sáng tạo và thụ hưởng."
+        ],
+        "claims_not_yet_validated": [
+          "Cấu trúc ngôn ngữ mô tả cuộc sống đời thường đủ phổ biến và đơn giản cho việc chiết xuất tham số số lượng lớn. (Văn hóa Á Đông như VN hay bị 'dùng dằng', ước lượng ko cụ thể được như người tây tự tin lắm)"
+        ]
+      }
+    }
+  ]
+}

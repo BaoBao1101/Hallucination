@@ -1,0 +1,47 @@
+[
+  {
+    "candidate_id": "BLIND_0004",
+    "domain": "Entertainment Services",
+    "title": "Vũ Trụ Âm Thanh Cá Nhân Hóa",
+    "problem_or_desire": "Sự nhàm chán với danh sách nhạc cố định, khó khăn trong việc tìm âm thanh phù hợp với tâm trạng/hoạt động, mong muốn có một 'bản nhạc nền' cuộc sống luôn đồng hành.",
+    "core_concept": "Một nền tảng tạo ra 'vũ trụ âm thanh' độc đáo và luôn thay đổi cho từng người dùng, phản ánh tâm trạng, hoạt động, và môi trường xung quanh họ theo thời gian thực.",
+    "proposed_approach": "Người dùng kết nối ứng dụng với các cảm biến (ví dụ: micro điện thoại, thiết bị đeo thông minh, cảm biến nhà thông minh) và cung cấp thông tin về hoạt động hiện tại. AI sẽ liên tục tạo ra các lớp âm thanh (nhạc nền, hiệu ứng âm thanh, tiếng động môi trường) phù hợp với ngữ cảnh, tâm trạng, và sở thích cá nhân, tạo thành một 'vũ trụ âm thanh' độc nhất cho người dùng tại thời điểm đó.",
+    "prototype_scope": "Một ứng dụng tạo nhạc ambient dựa trên tâm trạng người dùng (chọn từ vài trạng thái: tập trung, thư giãn, buồn ngủ)."
+  },
+  {
+    "candidate_id": "BLIND_0036",
+    "domain": "Edtech",
+    "title": "Thư Viện Ký Ức Cảm Xúc",
+    "problem_or_desire": "Nỗi đau khi học kiến thức khô khan, khó nhớ, thiếu sự kết nối cá nhân. Mong muốn học tập trở nên ý nghĩa và đáng nhớ hơn.",
+    "core_concept": "Một nền tảng học tập cá nhân hóa sâu sắc, nơi kiến thức được gắn kết với ký ức cảm xúc của người học để tối ưu hóa khả năng ghi nhớ và hiểu biết.",
+    "proposed_approach": "Hệ thống AI phân tích phong cách học, trạng thái cảm xúc hiện tại và quá khứ của người học để tạo ra các bài học, câu đố, và bài tập thực hành được 'tẩm ướp' cảm xúc phù hợp (vui vẻ, tò mò, thử thách, thậm chí cả chút tiếc nuối hoặc đồng cảm) nhằm neo giữ kiến thức vào ký ức dài hạn.",
+    "prototype_scope": "Một module học từ vựng tiếng Anh, nơi mỗi từ mới được liên kết với một câu chuyện ngắn gợi cảm xúc hoặc một hình ảnh có tính gợi nhớ mạnh mẽ, và người dùng có thể 'tương tác' với cảm xúc đó."
+  },
+  {
+    "candidate_id": "BLIND_0027",
+    "domain": "Entertainment Services",
+    "title": "Nhà Giả Kim Lời Bài",
+    "problem_or_desire": "Nhu cầu lớn về âm nhạc original mang đậm dấu ấn cá nhân hoặc thương hiệu nhưng không đủ tiền thuê nhạc sĩ chuyên nghiệp.",
+    "core_concept": "Ý tưởng cốt lõi về việc sử dụng AI để tự động hóa và cá nhân hóa quá trình sáng tác nhạc, giúp người dùng sở hữu các ca khúc độc đáo, mang đậm dấu ấn cá nhân hoặc thương hiệu mà không cần chi phí cao hoặc kỹ năng chuyên môn.",
+    "proposed_approach": "Một dịch vụ sáng tác nhạc dựa trên AI, cho phép người dùng cung cấp các yếu tố đầu vào như thể loại yêu thích, nghệ sĩ tham khảo, thông điệp muốn truyền tải, và các yếu tố âm thanh/giai điệu gợi ý. AI sẽ phân tích các yếu tố này và tạo ra một bản nhạc demo (khoảng 30-60 giây) bao gồm giai điệu, hòa âm và phối khí cơ bản. Người dùng có thể yêu cầu chỉnh sửa một vài yếu tố (ví dụ: tempo, nhạc cụ chính) trước khi nhận bản nhạc hoàn chỉnh. MVP sẽ tập trung vào việc tạo các đoạn…",
+    "prototype_scope": "Một ứng dụng web cho phép người dùng chọn 3-5 thể loại nhạc yêu thích, nhập 1-2 từ khóa mô tả cảm xúc/thông điệp, và chọn 1-2 nghệ sĩ tham khảo. AI sẽ tạo ra một đoạn nhạc demo (khoảng 30 giây) với giai điệu và phối khí cơ bản, cố gắng kết hợp các yếu tố đã nhập. Người dùng có thể yêu cầu thay đổi tempo hoặc nhạc cụ chính một lần. Không có lời bài hát phức tạp hoặc sản xuất âm thanh chuyên nghiệp."
+  },
+  {
+    "candidate_id": "BLIND_0041",
+    "domain": "Coffee Services",
+    "title": "Sentient Sips: AI Coffee Pal",
+    "problem_or_desire": "Mong muốn đồ uống cá nhân không chỉ để thưởng thức mà còn 'tương tác', mang lại trải nghiệm thú vị và đôi khi là \"yếu tố bất ngờ\" thông minh, thoát ly khỏi sự đơn điệu.",
+    "core_concept": "Tích hợp AI vào đồ uống cà phê (túi lọc, vỏ hạt, hoặc pha) để các ngụm cà phê này có thể 'nói chuyện', ghi nhớ sở thích của bạn, và cung cấp những thông tin ngẫu nhiên hay hữu ích theo yêu cầu cá nhân của người uống lúc đấy.",
+    "proposed_approach": "Đây là một dòng cà phê 'ảo', 'ý niệm'. Tưởng tượng bạn nhận được túi cà phê đựng kèm các 'típ vi nấm thông tin', trong đó được cấy microscopic processors, hoàn toàn chịu được mọi xử lý hóa nhiệt . Sau mỗi ngụm - ‘digital dust’ này sẽ tạo lập lại quá khứ vị duy nhất cho khách . Về phần mình, AI của chúng thì dựa vào từng cái vị riêng, bộ vị ấy lúc này tự thân mở các cửa ngõ nhận biết, và dựa trên thông số đó, lúc bấy giờ mới nói với khách hàng bạn đó: ''Chào bạn [user name],…",
+    "prototype_scope": "Nhuộm mỗi phần tư (25%) phần đồ dùng trong cốc cà phê cho nó hiển thị một dòng văn bản \"hayho\", tức thời tương phản cao nhờ chất liệu đổi màu với tốc độ ánh sáng 3 cấp khác nhau khi ta nhấp từng muỗng."
+  },
+  {
+    "candidate_id": "BLIND_0055",
+    "domain": "Edtech",
+    "title": "Trường Học Đa Chiều Thời Gian",
+    "problem_or_desire": "Sự nhàm chán với sách giáo khoa lịch sử khô khan, khó hình dung về cuộc sống quá khứ. Mong muốn 'sống' lại lịch sử thay vì chỉ đọc về nó.",
+    "core_concept": "Một nền tảng giáo dục cho phép người học du hành thời gian ảo để trải nghiệm các sự kiện lịch sử, khoa học, hoặc văn hóa từ góc nhìn của những người đã sống trong thời đại đó.",
+    "proposed_approach": "Người học đeo kính VR và được đưa đến một bối cảnh lịch sử cụ thể (ví dụ: Athens cổ đại, Paris thời Phục hưng, phòng thí nghiệm của Marie Curie). Họ có thể đi lại, quan sát, lắng nghe, và tương tác với các nhân vật AI được lập trình để phản ánh tư tưởng, ngôn ngữ, và kiến thức của thời đại đó. Các nhiệm vụ học tập được lồng ghép vào trải nghiệm.",
+    "prototype_scope": "Một trải nghiệm VR ngắn cho phép người học tham quan một khu chợ La Mã cổ đại, tương tác với 3-4 người bán hàng AI và học 5-10 từ vựng Latin thông dụng."
+  }
+]

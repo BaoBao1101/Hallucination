@@ -1,0 +1,347 @@
+{
+  "metadata": {
+    "pipeline": "CHVD",
+    "version": "v5.4",
+    "stage": "zero_temperature_hallucination_distiller_to_realistic_mvp",
+    "language": "vi",
+    "evaluation_mode": "prompt_only_internal_logic_hallucination_distillation",
+    "description": "Tách creative core khỏi hallucinated overclaim, hiện thực hóa thành MVP khả thi hơn, không dùng corpus/evidence scoring.",
+    "normalized_at": "2026-06-21T14:48:06",
+    "filter_model": "gemini-2.5-flash-lite",
+    "filter_temperature": 0.0,
+    "filter_top_p": 0.1,
+    "input_file": "outputs_v5_3\\ideas_raw_vi.json",
+    "source_generator_metadata": {
+      "pipeline": "CHVD",
+      "version": "v5.3",
+      "stage": "high_temperature_creative_hallucination_generator",
+      "domain": "Edtech",
+      "language": "vi",
+      "mode": "prompt_only_no_corpus_no_weak_signals",
+      "temperature_role": "maximal_divergent_creativity",
+      "description": "Sinh giả thuyết cơ hội khởi nghiệp sáng tạo bằng high-temperature controlled hallucination, chưa kiểm chứng bằng corpus.",
+      "saved_at": "2026-06-21T14:47:03",
+      "generator_model": "gemini-2.5-flash-lite",
+      "generator_temperature": 2.0,
+      "generator_top_p": 0.99,
+      "user_prompt": ""
+    },
+    "raw_filter_text": "{\n  \"metadata\": {\n    \"pipeline\": \"CHVD\",\n    \"version\": \"v5.4\",\n    \"stage\": \"zero_temperature_hallucination_distiller_to_realistic_mvp\",\n    \"language\": \"vi\",\n    \"evaluation_mode\": \"prompt_only_internal_logic_hallucination_distillation\",\n    \"description\": \"Tách creative core khỏi hallucinated overclaim, hiện thực hóa thành MVP khả thi hơn, không dùng corpus/evidence scoring.\"\n  },\n  \"evaluations\": [\n    {\n      \"idea_id\": \"I001\",\n      \"idea_name\": \"Chợ Cổ Sinh Thái Nội Tại\",\n      \"raw_hallucination_summary\": \"Ý tưởng đề xuất một nền tảng học tập cá nhân hóa trải nghiệm học 'ngược dòng thời gian' qua một sinh vật/hiện tượng tồn tại qua hàng thiên niên kỷ, tương tác với các giai đoạn tiến hóa của nó để hiểu bài học. Các công nghệ cốt lõi bao gồm Generative AI mô phỏng tương tác sinh thái và diễn biến lịch sử, mô phỏng 3D chi tiết với deep learning, hệ thống nhận dạng ý định người dùng và cốt truyện dựa trên câu trả lời/hành động, procedural generation of environmental conditions. Khẳng định 'tích hợp tâm thức qua lịch sử vi mô' sẽ mang lại kết quả học tập vượt trội và khả năng tái hiện chân thực các điều kiện cổ sinh thái và biến đổi ở mức đủ sâu cho trải nghiệm giáo dục.\",\n      \"creative_core_to_preserve\": \"Trải nghiệm học tập nhập vai, cho phép người học hóa thân và chủ động tương tác với các giai đoạn lịch sử tiến hóa của sinh vật/hiện tượng cổ đại để hiểu bài học. Kết nối giữa game mô phỏng và elearning gamified.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Khẳng định 'tích hợp tâm thức qua lịch sử vi mô' sẽ mang lại kết quả học tập vượt trội.\",\n        \"Mức độ phức tạp của mô phỏng các sự kiện địa chấn và môi trường biến đổi toàn cầu qua nhiều kỷ.\",\n        \"Khả năng đạt được mức độ học tập 'mãnh liệt' như mô tả.\",\n        \"Việc biên soạn quy luật tiến hóa phức tạp dựa trên các mô phỏng ban đầu quá hạn hẹp.\"\n      ],\n      \"realistic_reframing\": \"Một nền tảng elearning gamified, tập trung vào việc tái hiện lịch sử tiến hóa của một vài sinh vật/hiện tượng cổ đại tiêu biểu (ví dụ: Trilobite, Amonite). Thay vì mô phỏng 3D phức tạp, sử dụng các infographic tương tác, video hoạt hình ngắn, và các mini-game mô phỏng các giai đoạn sinh tồn quan trọng (ví dụ: tìm kiếm thức ăn, tránh kẻ săn mồi, thích nghi với môi trường thay đổi). AI sẽ hỗ trợ tạo ra các câu chuyện tương tác dựa trên dữ liệu khoa học, và cá nhân hóa lộ trình học tập.\",\n      \"practical_mvp\": \"Một ứng dụng web/mobile đơn giản, tập trung vào một sinh vật cổ đại (ví dụ: Trilobite). Người dùng sẽ tương tác qua các câu hỏi trắc nghiệm, lựa chọn hành động trong các tình huống sinh tồn giả định, và xem các đoạn hoạt hình/infographic giải thích về quá trình tiến hóa và môi trường sống của Trilobite qua các kỷ.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Thiết kế giao diện người dùng (UI/UX) cho một sinh vật mẫu (Trilobite).\",\n        \"Xây dựng cơ sở dữ liệu kiến thức khoa học cơ bản về Trilobite và môi trường sống của nó.\",\n        \"Phát triển các mini-game/tương tác đơn giản (ví dụ: 'tìm thức ăn', 'tránh kẻ săn mồi').\",\n        \"Tạo các đoạn hoạt hình/infographic ngắn giải thích các giai đoạn tiến hóa.\",\n        \"Tích hợp AI cơ bản để cá nhân hóa câu hỏi hoặc gợi ý học tập dựa trên tương tác của người dùng.\"\n      ],\n      \"scores\": {\n        \"novelty\": 3.5,\n        \"creative_core_strength\": 4.0,\n        \"creative_core_preservation\": 3.5,\n        \"reframing_quality\": 4.0,\n        \"conceptual_coherence\": 4.0,\n        \"user_pain_plausibility\": 3.5,\n        \"technical_plausibility\": 3.0,\n        \"mvp_clarity\": 4.0,\n        \"business_model_plausibility\": 3.0,\n        \"hallucination_risk_after_reframing\": 2.5\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Cần chỉnh\",\n      \"expert_rationale\": \"Ý tưởng gốc có hạt nhân sáng tạo mạnh mẽ về trải nghiệm học tập nhập vai lịch sử. Tuy nhiên, các công nghệ đề xuất ban đầu (mô phỏng 3D chi tiết, AI mô phỏng sinh thái phức tạp) là quá tham vọng cho MVP. Phiên bản reframe tập trung vào một sinh vật cụ thể, sử dụng các phương pháp tương tác đơn giản hơn (infographic, mini-game) và AI hỗ trợ kể chuyện, làm cho MVP khả thi hơn trong 7-30 ngày. Rủi ro về hallucination giảm đáng kể nhưng vẫn cần kiểm chứng khả năng thu hút người học với trải nghiệm ít phức tạp hơn.\",\n      \"strong_points_after_reframing\": [\n        \"Giữ được tinh thần học tập nhập vai và tương tác với lịch sử tiến hóa.\",\n        \"MVP rõ ràng, khả thi trong thời gian ngắn.\",\n        \"Giảm thiểu rủi ro về công nghệ và chi phí phát triển ban đầu.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Trải nghiệm có thể kém hấp dẫn hơn so với kỳ vọng ban đầu về mô phỏng 3D chi tiết.\",\n        \"Khả năng thu hút người học cần được kiểm chứng.\",\n        \"Công nghệ AI vẫn cần phát triển để tạo ra câu chuyện tương tác đủ sâu sắc.\"\n      ],\n      \"validation_needed_later\": [\n        \"Phản hồi từ người dùng về mức độ hấp dẫn và hiệu quả học tập của trải nghiệm infographic/mini-game so với kỳ vọng.\",\n        \"Kiểm tra khả năng mở rộng sang các sinh vật/hiện tượng khác.\",\n        \"Đánh giá hiệu quả của AI trong việc cá nhân hóa câu chuyện và lộ trình học tập.\"\n      ],\n      \"final_recommendation\": \"Tập trung phát triển MVP với một sinh vật mẫu, sử dụng các công cụ tương tác đơn giản và AI hỗ trợ kể chuyện. Thu thập phản hồi người dùng để điều chỉnh và mở rộng.\"\n    },\n    {\n      \"idea_id\": \"I002\",\n      \"idea_name\": \"Ngân Hàng Giấc Mơ Học Tập\",\n      \"raw_hallucination_summary\": \"Đề xuất một dịch vụ AI cá nhân hóa cung cấp các trải nghiệm giấc mơ tiền lập trình như một công cụ học hỏi bí mật trong lúc ngủ, tập trung vào kỹ năng, công thức hay từ vựng phức tạp. Công nghệ cốt lõi bao gồm neural network điều chỉnh luồng âm thanh theo sóng não giai đoạn REM, generative AI cho kịch bản âm thanh - thị giác ẩn, deep learning kiến tạo các mẩu tương tác logic/kỹ thuật hóa đơn giản. Khẳng định AI có thể kiến tạo các mẩu tin tức hay mô thức kiến thức học thuật mà bộ não REM tự liên kết và khả năng AI làm chủ 'lời khuyên theo từng lời của ý chí' được truyền thông vào chu kỳ giấc ngủ.\",\n      \"creative_core_to_preserve\": \"Sử dụng giấc ngủ như một kênh tiềm năng để hỗ trợ học tập, bằng cách tác động nhẹ nhàng vào não bộ trong giai đoạn REM thông qua âm thanh/kích thích thị giác ẩn.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Khẳng định AI có thể kiến tạo các mẩu tin tức hay mô thức kiến thức học thuật mà bộ não REM tự liên kết.\",\n        \"Khả năng AI làm chủ 'lời khuyên theo từng lời của ý chí' được truyền thông vào chu kỳ giấc ngủ.\",\n        \"Mức độ 'chu kỳ học hỏi suốt đêm' và khả năng duy trì 'mơ tỉnh táo' như mong muốn.\"\n      ],\n      \"realistic_reframing\": \"Một ứng dụng hỗ trợ giấc ngủ, sử dụng âm thanh và các kích thích thị giác nhẹ nhàng (ví dụ: ánh sáng nhấp nháy chậm) được thiết kế để tối ưu hóa môi trường ngủ và có thể hỗ trợ củng cố trí nhớ. Ứng dụng sẽ theo dõi chu kỳ giấc ngủ (qua cảm biến thiết bị đeo hoặc phân tích âm thanh) và phát các âm thanh/kích thích được thiết kế khoa học để hỗ trợ ghi nhớ thông tin đơn giản (ví dụ: từ vựng, công thức cơ bản) hoặc thúc đẩy trạng thái thư giãn, sáng tạo.\",\n      \"practical_mvp\": \"Một ứng dụng di động cung cấp các 'bản nhạc nền giấc ngủ' được thiết kế khoa học, có thể điều chỉnh theo giai đoạn giấc ngủ (nếu có tích hợp cảm biến). Ban đầu, tập trung vào việc hỗ trợ ghi nhớ 10-20 từ vựng mới mỗi đêm thông qua các chuỗi âm thanh lặp lại có tần số và nhịp điệu được tối ưu hóa.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Nghiên cứu các tần số âm thanh và nhịp điệu được cho là có lợi cho trí nhớ và giấc ngủ sâu.\",\n        \"Thiết kế giao diện người dùng đơn giản cho ứng dụng di động.\",\n        \"Phát triển các 'bản nhạc nền giấc ngủ' ban đầu với các chuỗi âm thanh lặp lại.\",\n        \"Tích hợp chức năng hẹn giờ và theo dõi giấc ngủ cơ bản (nếu có thể).\",\n        \"Thử nghiệm với một nhóm nhỏ người dùng để đánh giá khả năng hỗ trợ ghi nhớ từ vựng.\"\n      ],\n      \"scores\": {\n        \"novelty\": 3.0,\n        \"creative_core_strength\": 3.5,\n        \"creative_core_preservation\": 3.0,\n        \"reframing_quality\": 3.5,\n        \"conceptual_coherence\": 3.5,\n        \"user_pain_plausibility\": 3.0,\n        \"technical_plausibility\": 2.5,\n        \"mvp_clarity\": 3.5,\n        \"business_model_plausibility\": 2.5,\n        \"hallucination_risk_after_reframing\": 3.0\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Cần chỉnh\",\n      \"expert_rationale\": \"Ý tưởng gốc về 'dạy trong mơ' là rất tham vọng và mang tính đầu cơ cao. Phiên bản reframe thu hẹp lại thành một ứng dụng hỗ trợ giấc ngủ và củng cố trí nhớ thông qua âm thanh khoa học, một lĩnh vực có cơ sở nghiên cứu thực tế hơn. MVP tập trung vào việc hỗ trợ ghi nhớ từ vựng đơn giản, khả thi hơn nhiều so với việc 'tiêm nhiễm' kiến thức phức tạp. Rủi ro về hallucination vẫn còn do tính chất khó đo lường hiệu quả thực tế của việc tác động vào giấc ngủ.\",\n      \"strong_points_after_reframing\": [\n        \"Tập trung vào một ứng dụng hỗ trợ giấc ngủ có cơ sở khoa học thực tế hơn.\",\n        \"MVP rõ ràng, tập trung vào chức năng hỗ trợ ghi nhớ đơn giản.\",\n        \"Giảm thiểu rủi ro về đạo đức và y sinh so với ý tưởng gốc.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Hiệu quả thực tế của việc hỗ trợ ghi nhớ qua âm thanh cần được chứng minh.\",\n        \"Cạnh tranh với các ứng dụng thiền, ngủ đã có trên thị trường.\",\n        \"Khả năng mở rộng sang các loại kiến thức phức tạp hơn còn hạn chế.\"\n      ],\n      \"validation_needed_later\": [\n        \"Thử nghiệm lâm sàng nhỏ để đánh giá hiệu quả của âm thanh trong việc hỗ trợ ghi nhớ từ vựng.\",\n        \"Phản hồi người dùng về chất lượng giấc ngủ và cảm giác tỉnh táo.\",\n        \"So sánh hiệu quả với các phương pháp học từ vựng truyền thống.\"\n      ],\n      \"final_recommendation\": \"Phát triển MVP như một ứng dụng hỗ trợ giấc ngủ với các bản nhạc nền khoa học, tập trung vào việc hỗ trợ ghi nhớ từ vựng. Cần có các thử nghiệm để chứng minh hiệu quả.\"\n    },\n    {\n      \"idea_id\": \"I003\",\n      \"idea_name\": \"Atlas Ngôn Ngữ Tiềm Năng\",\n      \"raw_hallucination_summary\": \"Đề xuất một nền tảng cho phép người học tương tác, xây dựng và thử nghiệm các 'ngôn ngữ đã biến mất' giả định hoặc 'siêu văn hóa ngữ pháp' có thể tồn tại song song với thực tế, nhằm mở rộng tư duy ngôn ngữ. Công nghệ cốt lõi bao gồm Generative Grammar AI, simulation of proto-languages and linguistic drift, interactive platform with visualizers for linguistic structures. Khẳng định AI có thể 'tiến hóa' các hệ thống ngôn ngữ này thành dạng tiềm năng nhất và người dùng có thể 'sinh hoạt' trong 'chương trình mô phỏng ngữ pháp đó'.\",\n      \"creative_core_to_preserve\": \"Công cụ sáng tạo ngôn ngữ, cho phép người dùng xây dựng các hệ thống ngữ pháp và âm vị giả định, khám phá mối liên hệ giữa ngôn ngữ và tư duy.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Khẳng định AI có thể 'tiến hóa' các hệ thống ngôn ngữ thành dạng tiềm năng nhất.\",\n        \"Khả năng 'sinh hoạt' trong 'chương trình mô phỏng ngữ pháp' một cách sâu sắc.\",\n        \"Mức độ 'hài hước' và 'kỳ diệu' mà AI có thể 'làm sống dậy' các luật lệ âm thanh thô sơ.\",\n        \"Giả định rằng việc chơi với 'kiến tạo quy tắc giao tiếp' thực sự khai sáng hơn là tốn công vô bổ.\"\n      ],\n      \"realistic_reframing\": \"Một công cụ sáng tạo ngôn ngữ (conlang tool) cho phép người dùng định nghĩa các âm vị, quy tắc ngữ pháp cơ bản và từ vựng ban đầu. AI sẽ hỗ trợ gợi ý các biến thể âm thanh, quy tắc ngữ pháp dựa trên các mô hình ngôn ngữ học đã biết, và giúp người dùng tổ chức, trực quan hóa cấu trúc ngôn ngữ của họ. Nền tảng này tập trung vào việc hỗ trợ nhà văn, nhà thiết kế game, hoặc những người yêu thích ngôn ngữ trong quá trình tạo ra ngôn ngữ giả tưởng.\",\n      \"practical_mvp\": \"Một ứng dụng web đơn giản cho phép người dùng định nghĩa bộ âm vị (IPA), các quy tắc ngữ pháp cơ bản (ví dụ: SVO, SOV), và tạo từ vựng ban đầu. AI sẽ gợi ý các biến thể âm thanh (ví dụ: các tổ hợp phụ âm/nguyên âm phổ biến) và các cấu trúc ngữ pháp đơn giản dựa trên input của người dùng. Giao diện trực quan hóa các quy tắc ngữ pháp và âm vị.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Thiết kế giao diện người dùng cho việc định nghĩa âm vị và quy tắc ngữ pháp.\",\n        \"Xây dựng cơ sở dữ liệu các âm vị và cấu trúc ngữ pháp phổ biến.\",\n        \"Tích hợp AI cơ bản để gợi ý các biến thể âm thanh và cấu trúc ngữ pháp.\",\n        \"Phát triển công cụ trực quan hóa đơn giản cho cấu trúc ngôn ngữ.\",\n        \"Cho phép người dùng lưu trữ và xuất (export) các định nghĩa ngôn ngữ của họ.\"\n      ],\n      \"scores\": {\n        \"novelty\": 4.0,\n        \"creative_core_strength\": 4.0,\n        \"creative_core_preservation\": 4.0,\n        \"reframing_quality\": 4.0,\n        \"conceptual_coherence\": 4.0,\n        \"user_pain_plausibility\": 3.5,\n        \"technical_plausibility\": 3.5,\n        \"mvp_clarity\": 4.0,\n        \"business_model_plausibility\": 3.0,\n        \"hallucination_risk_after_reframing\": 2.0\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"expert_rationale\": \"Ý tưởng gốc về việc AI 'tiến hóa' ngôn ngữ là quá xa vời. Phiên bản reframe tập trung vào việc cung cấp một công cụ hỗ trợ người dùng sáng tạo ngôn ngữ (conlang tool), nơi AI đóng vai trò gợi ý và tổ chức. MVP rất rõ ràng và khả thi, tập trung vào các chức năng cốt lõi của việc định nghĩa âm vị, ngữ pháp và từ vựng. Rủi ro về hallucination giảm đáng kể, chỉ còn ở mức độ AI có thể đưa ra gợi ý thú vị hay không.\",\n      \"strong_points_after_reframing\": [\n        \"MVP rất rõ ràng, tập trung vào chức năng cốt lõi của công cụ sáng tạo ngôn ngữ.\",\n        \"Giữ được hạt nhân sáng tạo về việc khám phá cấu trúc ngôn ngữ.\",\n        \"Rủi ro về công nghệ và hallucination thấp.\",\n        \"Có tiềm năng thu hút cộng đồng nhà văn, nhà thiết kế game.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Cần chứng minh AI có thể đưa ra các gợi ý đủ sáng tạo và hữu ích.\",\n        \"Mô hình kinh doanh cần được làm rõ hơn.\",\n        \"Cần thu hút được một cộng đồng người dùng đủ lớn.\"\n      ],\n      \"validation_needed_later\": [\n        \"Đánh giá chất lượng và tính hữu ích của các gợi ý AI từ người dùng.\",\n        \"Tỷ lệ người dùng tiếp tục sử dụng công cụ sau lần đầu.\",\n        \"Phản hồi về khả năng hỗ trợ quá trình sáng tạo ngôn ngữ của họ.\"\n      ],\n      \"final_recommendation\": \"Phát triển MVP như một công cụ sáng tạo ngôn ngữ mạnh mẽ, tập trung vào giao diện người dùng và các gợi ý AI hữu ích. Xây dựng cộng đồng xung quanh nền tảng.\"\n    },\n    {\n      \"idea_id\": \"I004\",\n      \"idea_name\": \"Phản Tỉnh Nghịch Cảnh\",\n      \"raw_hallucination_summary\": \"Đề xuất một nền tảng giáo dục sử dụng AI phân tích sâu các dữ liệu cá nhân để tạo ra 'hoàn cảnh' độc đáo, các phản ứng lại những hoán vị sai của lịch sử sự nghiệp và kiến thức cá nhân, để thúc đẩy nhận thức. Khẳng định AI có khả năng 'suy' ra và trình bày mạch lạc các 'đường đi sự nghiệp song song' theo xác suất có căn cứ và người ta muốn nhìn thấy tương lai của các quyết định theo ngã khác nhau đến cùng cực. Khả năng AI tiên đoán hoàn cảnh nghịch lý cho từng cá nhân dựa trên một bộ dữ liệu mở.\",\n      \"creative_core_to_preserve\": \"Khám phá các ngã rẽ sự nghiệp tiềm năng và hậu quả của các quyết định cá nhân thông qua mô phỏng, nhằm thúc đẩy nhận thức và tư duy chiến lược.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Khẳng định AI có khả năng 'suy' ra và trình bày mạch lạc các 'đường đi sự nghiệp song song' theo xác suất có căn cứ.\",\n        \"Khả năng AI tiên đoán hoàn cảnh nghịch lý cho từng cá nhân dựa trên một bộ dữ liệu mở.\",\n        \"Việc người dùng muốn nhìn thấy tương lai của các quyết định theo ngã khác nhau đến cùng cực.\",\n        \"Khả năng AI tái tạo 'chuỗi hậu quả logic sự nghiệp bất ngờ' đến đâu.\"\n      ],\n      \"realistic_reframing\": \"Một công cụ tư vấn nghề nghiệp dựa trên mô phỏng kịch bản. Người dùng nhập thông tin về mục tiêu nghề nghiệp, kỹ năng, và các quyết định quan trọng đã đưa ra. AI sẽ tạo ra các kịch bản 'nếu như' (what-if scenarios) dựa trên các yếu tố có thể thay đổi (ví dụ: 'Nếu bạn chọn ngành A thay vì B', 'Nếu bạn chấp nhận lời đề nghị làm việc đó'). Các kịch bản này sẽ mô tả các kết quả có thể xảy ra dựa trên các mô hình phát triển sự nghiệp và phân tích rủi ro cơ bản, giúp người dùng suy ngẫm về các lựa chọn của mình.\",\n      \"practical_mvp\": \"Một ứng dụng web đơn giản, tập trung vào việc mô phỏng 1-2 quyết định nghề nghiệp quan trọng (ví dụ: chọn ngành học, chấp nhận/từ chối một lời mời làm việc). Người dùng nhập thông tin cơ bản, và AI sẽ tạo ra 2-3 kịch bản 'nếu như' với các kết quả mô tả ngắn gọn về tác động tiềm năng đến sự nghiệp.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Thiết kế giao diện người dùng cho việc nhập thông tin nghề nghiệp và lựa chọn quyết định.\",\n        \"Xây dựng cơ sở dữ liệu các yếu tố ảnh hưởng đến sự nghiệp (ví dụ: ngành nghề, kỹ năng, xu hướng thị trường).\",\n        \"Phát triển thuật toán cơ bản để tạo ra các kịch bản 'nếu như' đơn giản.\",\n        \"Tạo các mô tả kết quả kịch bản ngắn gọn, tập trung vào tác động tiềm năng.\",\n        \"Cho phép người dùng lưu trữ và xem lại các kịch bản đã tạo.\"\n      ],\n      \"scores\": {\n        \"novelty\": 3.5,\n        \"creative_core_strength\": 3.5,\n        \"creative_core_preservation\": 3.5,\n        \"reframing_quality\": 4.0,\n        \"conceptual_coherence\": 4.0,\n        \"user_pain_plausibility\": 4.0,\n        \"technical_plausibility\": 3.0,\n        \"mvp_clarity\": 4.0,\n        \"business_model_plausibility\": 3.5,\n        \"hallucination_risk_after_reframing\": 2.0\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"expert_rationale\": \"Ý tưởng gốc về việc AI 'phán xét' sự nghiệp là quá ảo tưởng. Phiên bản reframe tập trung vào việc cung cấp một công cụ mô phỏng kịch bản 'nếu như' để hỗ trợ tư vấn nghề nghiệp. MVP rất rõ ràng, tập trung vào việc mô phỏng một vài quyết định quan trọng với các kết quả mô tả ngắn gọn. Rủi ro về hallucination giảm đáng kể, tập trung vào việc các kịch bản có đủ thuyết phục hay không.\",\n      \"strong_points_after_reframing\": [\n        \"MVP rõ ràng, tập trung vào việc mô phỏng kịch bản nghề nghiệp.\",\n        \"Giải quyết được nỗi đau rõ ràng về việc đưa ra quyết định sự nghiệp.\",\n        \"Rủi ro về công nghệ và hallucination thấp.\",\n        \"Có tiềm năng thu hút người dùng trẻ tuổi và những người đang tìm kiếm định hướng.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Cần chứng minh các kịch bản mô phỏng có đủ tính thuyết phục và hữu ích.\",\n        \"Cần làm rõ cách AI phân tích và tạo ra các kịch bản.\",\n        \"Mô hình kinh doanh cần được làm rõ hơn.\"\n      ],\n      \"validation_needed_later\": [\n        \"Phản hồi từ người dùng về tính hữu ích và độ tin cậy của các kịch bản mô phỏng.\",\n        \"Đánh giá khả năng công cụ giúp người dùng đưa ra quyết định tốt hơn.\",\n        \"Kiểm tra khả năng mở rộng sang các loại quyết định khác.\"\n      ],\n      \"final_recommendation\": \"Phát triển MVP như một công cụ mô phỏng kịch bản nghề nghiệp, tập trung vào việc tạo ra các kịch bản 'nếu như' thuyết phục và hữu ích. Cần làm rõ cơ chế hoạt động của AI.\"\n    },\n    {\n      \"idea_id\": \"I005\",\n      \"idea_name\": \"Biên Tập viên Nội Tâm: Huấn luyện Kịch tính Đàm thoại Tự sự\",\n      \"raw_hallucination_summary\": \"Đề xuất một AI biên tập và huấn luyện viên giao tiếp theo phong cách tự sự/bi kịch, giúp người dùng 'sắp đặt' các tình huống khó xử, diễn tập thoại phản ứng để đối thoại tự tin và sâu sắc hơn. Khẳng định AI có thể xây dựng được các luồng thoại vừa mang tính chiến thuật, vừa đầy đủ lòng trắc ẩn và 'đáp ứng đúng sự kỳ vọng của tâm trí' của người dùng. Khả năng đảm bảo an toàn tinh thần cho người dùng trong quá trình 'huấn luyện tâm lý thông qua kịch nghệ'.\",\n      \"creative_core_to_preserve\": \"Huấn luyện kỹ năng giao tiếp và xử lý tình huống khó khăn thông qua việc diễn tập thoại và phân tích phản ứng, giúp người dùng tự tin và hiệu quả hơn trong đối thoại.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Khẳng định AI có thể xây dựng được các luồng thoại vừa mang tính chiến thuật, vừa đầy đủ lòng trắc ẩn và 'đáp ứng đúng sự kỳ vọng của tâm trí'.\",\n        \"Khả năng đảm bảo an toàn tinh thần cho người dùng trong quá trình 'huấn luyện tâm lý thông qua kịch nghệ'.\",\n        \"Mức độ thành công khi áp dụng chiến thuật ngôn ngữ AI vào các môi trường giao tiếp ngoài đời thực đầy biến số.\",\n        \"Khả năng AI để một lúc cứ muốn vậy nhưng ta lại tìm câu khác quá đúng.\"\n      ],\n      \"realistic_reframing\": \"Một ứng dụng huấn luyện kỹ năng giao tiếp, tập trung vào việc giúp người dùng chuẩn bị cho các cuộc đối thoại khó khăn. Ứng dụng cung cấp các kịch bản tình huống phổ biến (ví dụ: từ chối, đàm phán, giải quyết mâu thuẫn). Người dùng có thể nhập vai, diễn tập các câu trả lời, và AI sẽ đưa ra phản hồi về cách diễn đạt, giọng điệu, và hiệu quả tiềm năng của câu trả lời. AI cũng có thể gợi ý các cách diễn đạt thay thế.\",\n      \"practical_mvp\": \"Một ứng dụng web/mobile với các kịch bản đối thoại mẫu (ví dụ: 'Từ chối yêu cầu của đồng nghiệp', 'Thương lượng lương'). Người dùng chọn một kịch bản, nhập câu trả lời của mình, và AI sẽ phân tích (ví dụ: độ dài, từ ngữ sử dụng, cảm xúc tiềm ẩn) và đưa ra phản hồi đơn giản, cùng với 1-2 gợi ý cách diễn đạt khác.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Xây dựng danh sách các kịch bản đối thoại phổ biến và khó khăn.\",\n        \"Thiết kế giao diện người dùng cho việc nhập và xem phản hồi.\",\n        \"Phát triển thuật toán phân tích văn bản cơ bản (ví dụ: phân tích cảm xúc, độ dài câu).\",\n        \"Tích hợp AI để đưa ra phản hồi đơn giản và gợi ý cách diễn đạt thay thế.\",\n        \"Cho phép người dùng lưu trữ các phiên tập luyện.\"\n      ],\n      \"scores\": {\n        \"novelty\": 3.5,\n        \"creative_core_strength\": 4.0,\n        \"creative_core_preservation\": 4.0,\n        \"reframing_quality\": 4.0,\n        \"conceptual_coherence\": 4.0,\n        \"user_pain_plausibility\": 4.0,\n        \"technical_plausibility\": 3.5,\n        \"mvp_clarity\": 4.0,\n        \"business_model_plausibility\": 3.5,\n        \"hallucination_risk_after_reframing\": 2.0\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"expert_rationale\": \"Ý tưởng gốc về việc AI 'biên tập nội tâm' và 'huấn luyện kịch tính' là khá trừu tượng. Phiên bản reframe tập trung vào việc cung cấp một công cụ huấn luyện kỹ năng giao tiếp thực tế, với các kịch bản và phản hồi rõ ràng. MVP rất rõ ràng, tập trung vào việc phân tích và gợi ý cách diễn đạt cho các tình huống đối thoại cụ thể. Rủi ro về hallucination giảm đáng kể, tập trung vào việc phản hồi của AI có đủ hữu ích hay không.\",\n      \"strong_points_after_reframing\": [\n        \"MVP rõ ràng, tập trung vào việc huấn luyện kỹ năng giao tiếp thực tế.\",\n        \"Giải quyết được nỗi đau rõ ràng về việc đối mặt với các cuộc đối thoại khó khăn.\",\n        \"Rủi ro về công nghệ và hallucination thấp.\",\n        \"Có tiềm năng thu hút nhiều đối tượng người dùng.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Cần chứng minh phản hồi của AI có đủ hữu ích và chính xác.\",\n        \"Cần làm rõ cách AI phân tích và đưa ra gợi ý.\",\n        \"Cần thu hút người dùng thực hành thường xuyên.\"\n      ],\n      \"validation_needed_later\": [\n        \"Phản hồi từ người dùng về tính hữu ích của các kịch bản và phản hồi AI.\",\n        \"Đánh giá khả năng công cụ giúp người dùng tự tin hơn trong giao tiếp thực tế.\",\n        \"Tỷ lệ người dùng tiếp tục sử dụng ứng dụng để tập luyện.\"\n      ],\n      \"final_recommendation\": \"Phát triển MVP như một ứng dụng huấn luyện kỹ năng giao tiếp, tập trung vào các kịch bản thực tế và phản hồi AI hữu ích. Cần làm rõ cơ chế hoạt động của AI và khuyến khích người dùng thực hành.\"\n    }\n  ],\n  \"ranked_summary\": [\n    {\n      \"rank\": 1,\n      \"idea_id\": \"I003\",\n      \"idea_name\": \"Atlas Ngôn Ngữ Tiềm Năng\",\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"hallucination_risk_after_reframing\": 2.0\n    },\n    {\n      \"rank\": 2,\n      \"idea_id\": \"I004\",\n      \"idea_name\": \"Phản Tỉnh Nghịch Cảnh\",\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"hallucination_risk_after_reframing\": 2.0\n    },\n    {\n      \"rank\": 3,\n      \"idea_id\": \"I005\",\n      \"idea_name\": \"Biên Tập viên Nội Tâm: Huấn luyện Kịch tính Đàm thoại Tự sự\",\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"hallucination_risk_after_reframing\": 2.0\n    },\n    {\n      \"rank\": 4,\n      \"idea_id\": \"I001\",\n      \"idea_name\": \"Chợ Cổ Sinh Thái Nội Tại\",\n      \"overall_score\": 0,\n      \"decision\": \"Cần chỉnh\",\n      \"hallucination_risk_after_reframing\": 2.5\n    },\n    {\n      \"rank\": 5,\n      \"idea_id\": \"I002\",\n      \"idea_name\": \"Ngân Hàng Giấc Mơ Học Tập\",\n      \"overall_score\": 0,\n      \"decision\": \"Cần chỉnh\",\n      \"hallucination_risk_after_reframing\": 3.0\n    }\n  ]\n}"
+  },
+  "evaluations": [
+    {
+      "idea_id": "I003",
+      "idea_name": "Atlas Ngôn Ngữ Tiềm Năng",
+      "raw_hallucination_summary": "Đề xuất một nền tảng cho phép người học tương tác, xây dựng và thử nghiệm các 'ngôn ngữ đã biến mất' giả định hoặc 'siêu văn hóa ngữ pháp' có thể tồn tại song song với thực tế, nhằm mở rộng tư duy ngôn ngữ. Công nghệ cốt lõi bao gồm Generative Grammar AI, simulation of proto-languages and linguistic drift, interactive platform with visualizers for linguistic structures. Khẳng định AI có thể 'tiến hóa' các hệ thống ngôn ngữ này thành dạng tiềm năng nhất và người dùng có thể 'sinh hoạt' trong 'chương trình mô phỏng ngữ pháp đó'.",
+      "creative_core_to_preserve": "Công cụ sáng tạo ngôn ngữ, cho phép người dùng xây dựng các hệ thống ngữ pháp và âm vị giả định, khám phá mối liên hệ giữa ngôn ngữ và tư duy.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Khẳng định AI có thể 'tiến hóa' các hệ thống ngôn ngữ thành dạng tiềm năng nhất.",
+        "Khả năng 'sinh hoạt' trong 'chương trình mô phỏng ngữ pháp' một cách sâu sắc.",
+        "Mức độ 'hài hước' và 'kỳ diệu' mà AI có thể 'làm sống dậy' các luật lệ âm thanh thô sơ.",
+        "Giả định rằng việc chơi với 'kiến tạo quy tắc giao tiếp' thực sự khai sáng hơn là tốn công vô bổ."
+      ],
+      "realistic_reframing": "Một công cụ sáng tạo ngôn ngữ (conlang tool) cho phép người dùng định nghĩa các âm vị, quy tắc ngữ pháp cơ bản và từ vựng ban đầu. AI sẽ hỗ trợ gợi ý các biến thể âm thanh, quy tắc ngữ pháp dựa trên các mô hình ngôn ngữ học đã biết, và giúp người dùng tổ chức, trực quan hóa cấu trúc ngôn ngữ của họ. Nền tảng này tập trung vào việc hỗ trợ nhà văn, nhà thiết kế game, hoặc những người yêu thích ngôn ngữ trong quá trình tạo ra ngôn ngữ giả tưởng.",
+      "practical_mvp": "Một ứng dụng web đơn giản cho phép người dùng định nghĩa bộ âm vị (IPA), các quy tắc ngữ pháp cơ bản (ví dụ: SVO, SOV), và tạo từ vựng ban đầu. AI sẽ gợi ý các biến thể âm thanh (ví dụ: các tổ hợp phụ âm/nguyên âm phổ biến) và các cấu trúc ngữ pháp đơn giản dựa trên input của người dùng. Giao diện trực quan hóa các quy tắc ngữ pháp và âm vị.",
+      "mvp_7_to_30_day_plan": [
+        "Thiết kế giao diện người dùng cho việc định nghĩa âm vị và quy tắc ngữ pháp.",
+        "Xây dựng cơ sở dữ liệu các âm vị và cấu trúc ngữ pháp phổ biến.",
+        "Tích hợp AI cơ bản để gợi ý các biến thể âm thanh và cấu trúc ngữ pháp.",
+        "Phát triển công cụ trực quan hóa đơn giản cho cấu trúc ngôn ngữ.",
+        "Cho phép người dùng lưu trữ và xuất (export) các định nghĩa ngôn ngữ của họ."
+      ],
+      "scores": {
+        "novelty": 4.0,
+        "creative_core_strength": 4.0,
+        "creative_core_preservation": 4.0,
+        "reframing_quality": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "hallucination_risk_after_reframing": 2.0
+      },
+      "overall_score": 66.25,
+      "decision": "Cần chỉnh",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Tiềm năng",
+      "expert_rationale": "Ý tưởng gốc về việc AI 'tiến hóa' ngôn ngữ là quá xa vời. Phiên bản reframe tập trung vào việc cung cấp một công cụ hỗ trợ người dùng sáng tạo ngôn ngữ (conlang tool), nơi AI đóng vai trò gợi ý và tổ chức. MVP rất rõ ràng và khả thi, tập trung vào các chức năng cốt lõi của việc định nghĩa âm vị, ngữ pháp và từ vựng. Rủi ro về hallucination giảm đáng kể, chỉ còn ở mức độ AI có thể đưa ra gợi ý thú vị hay không.",
+      "strong_points_after_reframing": [
+        "MVP rất rõ ràng, tập trung vào chức năng cốt lõi của công cụ sáng tạo ngôn ngữ.",
+        "Giữ được hạt nhân sáng tạo về việc khám phá cấu trúc ngôn ngữ.",
+        "Rủi ro về công nghệ và hallucination thấp.",
+        "Có tiềm năng thu hút cộng đồng nhà văn, nhà thiết kế game."
+      ],
+      "weak_points_after_reframing": [
+        "Cần chứng minh AI có thể đưa ra các gợi ý đủ sáng tạo và hữu ích.",
+        "Mô hình kinh doanh cần được làm rõ hơn.",
+        "Cần thu hút được một cộng đồng người dùng đủ lớn."
+      ],
+      "validation_needed_later": [
+        "Đánh giá chất lượng và tính hữu ích của các gợi ý AI từ người dùng.",
+        "Tỷ lệ người dùng tiếp tục sử dụng công cụ sau lần đầu.",
+        "Phản hồi về khả năng hỗ trợ quá trình sáng tạo ngôn ngữ của họ."
+      ],
+      "final_recommendation": "Phát triển MVP như một công cụ sáng tạo ngôn ngữ mạnh mẽ, tập trung vào giao diện người dùng và các gợi ý AI hữu ích. Xây dựng cộng đồng xung quanh nền tảng."
+    },
+    {
+      "idea_id": "I005",
+      "idea_name": "Biên Tập viên Nội Tâm: Huấn luyện Kịch tính Đàm thoại Tự sự",
+      "raw_hallucination_summary": "Đề xuất một AI biên tập và huấn luyện viên giao tiếp theo phong cách tự sự/bi kịch, giúp người dùng 'sắp đặt' các tình huống khó xử, diễn tập thoại phản ứng để đối thoại tự tin và sâu sắc hơn. Khẳng định AI có thể xây dựng được các luồng thoại vừa mang tính chiến thuật, vừa đầy đủ lòng trắc ẩn và 'đáp ứng đúng sự kỳ vọng của tâm trí' của người dùng. Khả năng đảm bảo an toàn tinh thần cho người dùng trong quá trình 'huấn luyện tâm lý thông qua kịch nghệ'.",
+      "creative_core_to_preserve": "Huấn luyện kỹ năng giao tiếp và xử lý tình huống khó khăn thông qua việc diễn tập thoại và phân tích phản ứng, giúp người dùng tự tin và hiệu quả hơn trong đối thoại.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Khẳng định AI có thể xây dựng được các luồng thoại vừa mang tính chiến thuật, vừa đầy đủ lòng trắc ẩn và 'đáp ứng đúng sự kỳ vọng của tâm trí'.",
+        "Khả năng đảm bảo an toàn tinh thần cho người dùng trong quá trình 'huấn luyện tâm lý thông qua kịch nghệ'.",
+        "Mức độ thành công khi áp dụng chiến thuật ngôn ngữ AI vào các môi trường giao tiếp ngoài đời thực đầy biến số.",
+        "Khả năng AI để một lúc cứ muốn vậy nhưng ta lại tìm câu khác quá đúng."
+      ],
+      "realistic_reframing": "Một ứng dụng huấn luyện kỹ năng giao tiếp, tập trung vào việc giúp người dùng chuẩn bị cho các cuộc đối thoại khó khăn. Ứng dụng cung cấp các kịch bản tình huống phổ biến (ví dụ: từ chối, đàm phán, giải quyết mâu thuẫn). Người dùng có thể nhập vai, diễn tập các câu trả lời, và AI sẽ đưa ra phản hồi về cách diễn đạt, giọng điệu, và hiệu quả tiềm năng của câu trả lời. AI cũng có thể gợi ý các cách diễn đạt thay thế.",
+      "practical_mvp": "Một ứng dụng web/mobile với các kịch bản đối thoại mẫu (ví dụ: 'Từ chối yêu cầu của đồng nghiệp', 'Thương lượng lương'). Người dùng chọn một kịch bản, nhập câu trả lời của mình, và AI sẽ phân tích (ví dụ: độ dài, từ ngữ sử dụng, cảm xúc tiềm ẩn) và đưa ra phản hồi đơn giản, cùng với 1-2 gợi ý cách diễn đạt khác.",
+      "mvp_7_to_30_day_plan": [
+        "Xây dựng danh sách các kịch bản đối thoại phổ biến và khó khăn.",
+        "Thiết kế giao diện người dùng cho việc nhập và xem phản hồi.",
+        "Phát triển thuật toán phân tích văn bản cơ bản (ví dụ: phân tích cảm xúc, độ dài câu).",
+        "Tích hợp AI để đưa ra phản hồi đơn giản và gợi ý cách diễn đạt thay thế.",
+        "Cho phép người dùng lưu trữ các phiên tập luyện."
+      ],
+      "scores": {
+        "novelty": 3.5,
+        "creative_core_strength": 4.0,
+        "creative_core_preservation": 4.0,
+        "reframing_quality": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "hallucination_risk_after_reframing": 2.0
+      },
+      "overall_score": 66.25,
+      "decision": "Cần chỉnh",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Tiềm năng",
+      "expert_rationale": "Ý tưởng gốc về việc AI 'biên tập nội tâm' và 'huấn luyện kịch tính' là khá trừu tượng. Phiên bản reframe tập trung vào việc cung cấp một công cụ huấn luyện kỹ năng giao tiếp thực tế, với các kịch bản và phản hồi rõ ràng. MVP rất rõ ràng, tập trung vào việc phân tích và gợi ý cách diễn đạt cho các tình huống đối thoại cụ thể. Rủi ro về hallucination giảm đáng kể, tập trung vào việc phản hồi của AI có đủ hữu ích hay không.",
+      "strong_points_after_reframing": [
+        "MVP rõ ràng, tập trung vào việc huấn luyện kỹ năng giao tiếp thực tế.",
+        "Giải quyết được nỗi đau rõ ràng về việc đối mặt với các cuộc đối thoại khó khăn.",
+        "Rủi ro về công nghệ và hallucination thấp.",
+        "Có tiềm năng thu hút nhiều đối tượng người dùng."
+      ],
+      "weak_points_after_reframing": [
+        "Cần chứng minh phản hồi của AI có đủ hữu ích và chính xác.",
+        "Cần làm rõ cách AI phân tích và đưa ra gợi ý.",
+        "Cần thu hút người dùng thực hành thường xuyên."
+      ],
+      "validation_needed_later": [
+        "Phản hồi từ người dùng về tính hữu ích của các kịch bản và phản hồi AI.",
+        "Đánh giá khả năng công cụ giúp người dùng tự tin hơn trong giao tiếp thực tế.",
+        "Tỷ lệ người dùng tiếp tục sử dụng ứng dụng để tập luyện."
+      ],
+      "final_recommendation": "Phát triển MVP như một ứng dụng huấn luyện kỹ năng giao tiếp, tập trung vào các kịch bản thực tế và phản hồi AI hữu ích. Cần làm rõ cơ chế hoạt động của AI và khuyến khích người dùng thực hành."
+    },
+    {
+      "idea_id": "I004",
+      "idea_name": "Phản Tỉnh Nghịch Cảnh",
+      "raw_hallucination_summary": "Đề xuất một nền tảng giáo dục sử dụng AI phân tích sâu các dữ liệu cá nhân để tạo ra 'hoàn cảnh' độc đáo, các phản ứng lại những hoán vị sai của lịch sử sự nghiệp và kiến thức cá nhân, để thúc đẩy nhận thức. Khẳng định AI có khả năng 'suy' ra và trình bày mạch lạc các 'đường đi sự nghiệp song song' theo xác suất có căn cứ và người ta muốn nhìn thấy tương lai của các quyết định theo ngã khác nhau đến cùng cực. Khả năng AI tiên đoán hoàn cảnh nghịch lý cho từng cá nhân dựa trên một bộ dữ liệu mở.",
+      "creative_core_to_preserve": "Khám phá các ngã rẽ sự nghiệp tiềm năng và hậu quả của các quyết định cá nhân thông qua mô phỏng, nhằm thúc đẩy nhận thức và tư duy chiến lược.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Khẳng định AI có khả năng 'suy' ra và trình bày mạch lạc các 'đường đi sự nghiệp song song' theo xác suất có căn cứ.",
+        "Khả năng AI tiên đoán hoàn cảnh nghịch lý cho từng cá nhân dựa trên một bộ dữ liệu mở.",
+        "Việc người dùng muốn nhìn thấy tương lai của các quyết định theo ngã khác nhau đến cùng cực.",
+        "Khả năng AI tái tạo 'chuỗi hậu quả logic sự nghiệp bất ngờ' đến đâu."
+      ],
+      "realistic_reframing": "Một công cụ tư vấn nghề nghiệp dựa trên mô phỏng kịch bản. Người dùng nhập thông tin về mục tiêu nghề nghiệp, kỹ năng, và các quyết định quan trọng đã đưa ra. AI sẽ tạo ra các kịch bản 'nếu như' (what-if scenarios) dựa trên các yếu tố có thể thay đổi (ví dụ: 'Nếu bạn chọn ngành A thay vì B', 'Nếu bạn chấp nhận lời đề nghị làm việc đó'). Các kịch bản này sẽ mô tả các kết quả có thể xảy ra dựa trên các mô hình phát triển sự nghiệp và phân tích rủi ro cơ bản, giúp người dùng suy ngẫm về các lựa chọn của mình.",
+      "practical_mvp": "Một ứng dụng web đơn giản, tập trung vào việc mô phỏng 1-2 quyết định nghề nghiệp quan trọng (ví dụ: chọn ngành học, chấp nhận/từ chối một lời mời làm việc). Người dùng nhập thông tin cơ bản, và AI sẽ tạo ra 2-3 kịch bản 'nếu như' với các kết quả mô tả ngắn gọn về tác động tiềm năng đến sự nghiệp.",
+      "mvp_7_to_30_day_plan": [
+        "Thiết kế giao diện người dùng cho việc nhập thông tin nghề nghiệp và lựa chọn quyết định.",
+        "Xây dựng cơ sở dữ liệu các yếu tố ảnh hưởng đến sự nghiệp (ví dụ: ngành nghề, kỹ năng, xu hướng thị trường).",
+        "Phát triển thuật toán cơ bản để tạo ra các kịch bản 'nếu như' đơn giản.",
+        "Tạo các mô tả kết quả kịch bản ngắn gọn, tập trung vào tác động tiềm năng.",
+        "Cho phép người dùng lưu trữ và xem lại các kịch bản đã tạo."
+      ],
+      "scores": {
+        "novelty": 3.5,
+        "creative_core_strength": 3.5,
+        "creative_core_preservation": 3.5,
+        "reframing_quality": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "hallucination_risk_after_reframing": 2.0
+      },
+      "overall_score": 61.88,
+      "decision": "Cần chỉnh",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Tiềm năng",
+      "expert_rationale": "Ý tưởng gốc về việc AI 'phán xét' sự nghiệp là quá ảo tưởng. Phiên bản reframe tập trung vào việc cung cấp một công cụ mô phỏng kịch bản 'nếu như' để hỗ trợ tư vấn nghề nghiệp. MVP rất rõ ràng, tập trung vào việc mô phỏng một vài quyết định quan trọng với các kết quả mô tả ngắn gọn. Rủi ro về hallucination giảm đáng kể, tập trung vào việc các kịch bản có đủ thuyết phục hay không.",
+      "strong_points_after_reframing": [
+        "MVP rõ ràng, tập trung vào việc mô phỏng kịch bản nghề nghiệp.",
+        "Giải quyết được nỗi đau rõ ràng về việc đưa ra quyết định sự nghiệp.",
+        "Rủi ro về công nghệ và hallucination thấp.",
+        "Có tiềm năng thu hút người dùng trẻ tuổi và những người đang tìm kiếm định hướng."
+      ],
+      "weak_points_after_reframing": [
+        "Cần chứng minh các kịch bản mô phỏng có đủ tính thuyết phục và hữu ích.",
+        "Cần làm rõ cách AI phân tích và tạo ra các kịch bản.",
+        "Mô hình kinh doanh cần được làm rõ hơn."
+      ],
+      "validation_needed_later": [
+        "Phản hồi từ người dùng về tính hữu ích và độ tin cậy của các kịch bản mô phỏng.",
+        "Đánh giá khả năng công cụ giúp người dùng đưa ra quyết định tốt hơn.",
+        "Kiểm tra khả năng mở rộng sang các loại quyết định khác."
+      ],
+      "final_recommendation": "Phát triển MVP như một công cụ mô phỏng kịch bản nghề nghiệp, tập trung vào việc tạo ra các kịch bản 'nếu như' thuyết phục và hữu ích. Cần làm rõ cơ chế hoạt động của AI."
+    },
+    {
+      "idea_id": "I001",
+      "idea_name": "Chợ Cổ Sinh Thái Nội Tại",
+      "raw_hallucination_summary": "Ý tưởng đề xuất một nền tảng học tập cá nhân hóa trải nghiệm học 'ngược dòng thời gian' qua một sinh vật/hiện tượng tồn tại qua hàng thiên niên kỷ, tương tác với các giai đoạn tiến hóa của nó để hiểu bài học. Các công nghệ cốt lõi bao gồm Generative AI mô phỏng tương tác sinh thái và diễn biến lịch sử, mô phỏng 3D chi tiết với deep learning, hệ thống nhận dạng ý định người dùng và cốt truyện dựa trên câu trả lời/hành động, procedural generation of environmental conditions. Khẳng định 'tích hợp tâm thức qua lịch sử vi mô' sẽ mang lại kết quả học tập vượt trội và khả năng tái hiện chân thực các điều kiện cổ sinh thái và biến đổi ở mức đủ sâu cho trải nghiệm giáo dục.",
+      "creative_core_to_preserve": "Trải nghiệm học tập nhập vai, cho phép người học hóa thân và chủ động tương tác với các giai đoạn lịch sử tiến hóa của sinh vật/hiện tượng cổ đại để hiểu bài học. Kết nối giữa game mô phỏng và elearning gamified.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Khẳng định 'tích hợp tâm thức qua lịch sử vi mô' sẽ mang lại kết quả học tập vượt trội.",
+        "Mức độ phức tạp của mô phỏng các sự kiện địa chấn và môi trường biến đổi toàn cầu qua nhiều kỷ.",
+        "Khả năng đạt được mức độ học tập 'mãnh liệt' như mô tả.",
+        "Việc biên soạn quy luật tiến hóa phức tạp dựa trên các mô phỏng ban đầu quá hạn hẹp."
+      ],
+      "realistic_reframing": "Một nền tảng elearning gamified, tập trung vào việc tái hiện lịch sử tiến hóa của một vài sinh vật/hiện tượng cổ đại tiêu biểu (ví dụ: Trilobite, Amonite). Thay vì mô phỏng 3D phức tạp, sử dụng các infographic tương tác, video hoạt hình ngắn, và các mini-game mô phỏng các giai đoạn sinh tồn quan trọng (ví dụ: tìm kiếm thức ăn, tránh kẻ săn mồi, thích nghi với môi trường thay đổi). AI sẽ hỗ trợ tạo ra các câu chuyện tương tác dựa trên dữ liệu khoa học, và cá nhân hóa lộ trình học tập.",
+      "practical_mvp": "Một ứng dụng web/mobile đơn giản, tập trung vào một sinh vật cổ đại (ví dụ: Trilobite). Người dùng sẽ tương tác qua các câu hỏi trắc nghiệm, lựa chọn hành động trong các tình huống sinh tồn giả định, và xem các đoạn hoạt hình/infographic giải thích về quá trình tiến hóa và môi trường sống của Trilobite qua các kỷ.",
+      "mvp_7_to_30_day_plan": [
+        "Thiết kế giao diện người dùng (UI/UX) cho một sinh vật mẫu (Trilobite).",
+        "Xây dựng cơ sở dữ liệu kiến thức khoa học cơ bản về Trilobite và môi trường sống của nó.",
+        "Phát triển các mini-game/tương tác đơn giản (ví dụ: 'tìm thức ăn', 'tránh kẻ săn mồi').",
+        "Tạo các đoạn hoạt hình/infographic ngắn giải thích các giai đoạn tiến hóa.",
+        "Tích hợp AI cơ bản để cá nhân hóa câu hỏi hoặc gợi ý học tập dựa trên tương tác của người dùng."
+      ],
+      "scores": {
+        "novelty": 3.5,
+        "creative_core_strength": 4.0,
+        "creative_core_preservation": 3.5,
+        "reframing_quality": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "hallucination_risk_after_reframing": 2.5
+      },
+      "overall_score": 61.5,
+      "decision": "Cần chỉnh",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Cần chỉnh",
+      "expert_rationale": "Ý tưởng gốc có hạt nhân sáng tạo mạnh mẽ về trải nghiệm học tập nhập vai lịch sử. Tuy nhiên, các công nghệ đề xuất ban đầu (mô phỏng 3D chi tiết, AI mô phỏng sinh thái phức tạp) là quá tham vọng cho MVP. Phiên bản reframe tập trung vào một sinh vật cụ thể, sử dụng các phương pháp tương tác đơn giản hơn (infographic, mini-game) và AI hỗ trợ kể chuyện, làm cho MVP khả thi hơn trong 7-30 ngày. Rủi ro về hallucination giảm đáng kể nhưng vẫn cần kiểm chứng khả năng thu hút người học với trải nghiệm ít phức tạp hơn.",
+      "strong_points_after_reframing": [
+        "Giữ được tinh thần học tập nhập vai và tương tác với lịch sử tiến hóa.",
+        "MVP rõ ràng, khả thi trong thời gian ngắn.",
+        "Giảm thiểu rủi ro về công nghệ và chi phí phát triển ban đầu."
+      ],
+      "weak_points_after_reframing": [
+        "Trải nghiệm có thể kém hấp dẫn hơn so với kỳ vọng ban đầu về mô phỏng 3D chi tiết.",
+        "Khả năng thu hút người học cần được kiểm chứng.",
+        "Công nghệ AI vẫn cần phát triển để tạo ra câu chuyện tương tác đủ sâu sắc."
+      ],
+      "validation_needed_later": [
+        "Phản hồi từ người dùng về mức độ hấp dẫn và hiệu quả học tập của trải nghiệm infographic/mini-game so với kỳ vọng.",
+        "Kiểm tra khả năng mở rộng sang các sinh vật/hiện tượng khác.",
+        "Đánh giá hiệu quả của AI trong việc cá nhân hóa câu chuyện và lộ trình học tập."
+      ],
+      "final_recommendation": "Tập trung phát triển MVP với một sinh vật mẫu, sử dụng các công cụ tương tác đơn giản và AI hỗ trợ kể chuyện. Thu thập phản hồi người dùng để điều chỉnh và mở rộng."
+    },
+    {
+      "idea_id": "I002",
+      "idea_name": "Ngân Hàng Giấc Mơ Học Tập",
+      "raw_hallucination_summary": "Đề xuất một dịch vụ AI cá nhân hóa cung cấp các trải nghiệm giấc mơ tiền lập trình như một công cụ học hỏi bí mật trong lúc ngủ, tập trung vào kỹ năng, công thức hay từ vựng phức tạp. Công nghệ cốt lõi bao gồm neural network điều chỉnh luồng âm thanh theo sóng não giai đoạn REM, generative AI cho kịch bản âm thanh - thị giác ẩn, deep learning kiến tạo các mẩu tương tác logic/kỹ thuật hóa đơn giản. Khẳng định AI có thể kiến tạo các mẩu tin tức hay mô thức kiến thức học thuật mà bộ não REM tự liên kết và khả năng AI làm chủ 'lời khuyên theo từng lời của ý chí' được truyền thông vào chu kỳ giấc ngủ.",
+      "creative_core_to_preserve": "Sử dụng giấc ngủ như một kênh tiềm năng để hỗ trợ học tập, bằng cách tác động nhẹ nhàng vào não bộ trong giai đoạn REM thông qua âm thanh/kích thích thị giác ẩn.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Khẳng định AI có thể kiến tạo các mẩu tin tức hay mô thức kiến thức học thuật mà bộ não REM tự liên kết.",
+        "Khả năng AI làm chủ 'lời khuyên theo từng lời của ý chí' được truyền thông vào chu kỳ giấc ngủ.",
+        "Mức độ 'chu kỳ học hỏi suốt đêm' và khả năng duy trì 'mơ tỉnh táo' như mong muốn."
+      ],
+      "realistic_reframing": "Một ứng dụng hỗ trợ giấc ngủ, sử dụng âm thanh và các kích thích thị giác nhẹ nhàng (ví dụ: ánh sáng nhấp nháy chậm) được thiết kế để tối ưu hóa môi trường ngủ và có thể hỗ trợ củng cố trí nhớ. Ứng dụng sẽ theo dõi chu kỳ giấc ngủ (qua cảm biến thiết bị đeo hoặc phân tích âm thanh) và phát các âm thanh/kích thích được thiết kế khoa học để hỗ trợ ghi nhớ thông tin đơn giản (ví dụ: từ vựng, công thức cơ bản) hoặc thúc đẩy trạng thái thư giãn, sáng tạo.",
+      "practical_mvp": "Một ứng dụng di động cung cấp các 'bản nhạc nền giấc ngủ' được thiết kế khoa học, có thể điều chỉnh theo giai đoạn giấc ngủ (nếu có tích hợp cảm biến). Ban đầu, tập trung vào việc hỗ trợ ghi nhớ 10-20 từ vựng mới mỗi đêm thông qua các chuỗi âm thanh lặp lại có tần số và nhịp điệu được tối ưu hóa.",
+      "mvp_7_to_30_day_plan": [
+        "Nghiên cứu các tần số âm thanh và nhịp điệu được cho là có lợi cho trí nhớ và giấc ngủ sâu.",
+        "Thiết kế giao diện người dùng đơn giản cho ứng dụng di động.",
+        "Phát triển các 'bản nhạc nền giấc ngủ' ban đầu với các chuỗi âm thanh lặp lại.",
+        "Tích hợp chức năng hẹn giờ và theo dõi giấc ngủ cơ bản (nếu có thể).",
+        "Thử nghiệm với một nhóm nhỏ người dùng để đánh giá khả năng hỗ trợ ghi nhớ từ vựng."
+      ],
+      "scores": {
+        "novelty": 3.0,
+        "creative_core_strength": 3.5,
+        "creative_core_preservation": 3.0,
+        "reframing_quality": 3.5,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 3.0,
+        "technical_plausibility": 2.5,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 2.5,
+        "hallucination_risk_after_reframing": 3.0
+      },
+      "overall_score": 44.0,
+      "decision": "Quá ảo",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Cần chỉnh",
+      "expert_rationale": "Ý tưởng gốc về 'dạy trong mơ' là rất tham vọng và mang tính đầu cơ cao. Phiên bản reframe thu hẹp lại thành một ứng dụng hỗ trợ giấc ngủ và củng cố trí nhớ thông qua âm thanh khoa học, một lĩnh vực có cơ sở nghiên cứu thực tế hơn. MVP tập trung vào việc hỗ trợ ghi nhớ từ vựng đơn giản, khả thi hơn nhiều so với việc 'tiêm nhiễm' kiến thức phức tạp. Rủi ro về hallucination vẫn còn do tính chất khó đo lường hiệu quả thực tế của việc tác động vào giấc ngủ.",
+      "strong_points_after_reframing": [
+        "Tập trung vào một ứng dụng hỗ trợ giấc ngủ có cơ sở khoa học thực tế hơn.",
+        "MVP rõ ràng, tập trung vào chức năng hỗ trợ ghi nhớ đơn giản.",
+        "Giảm thiểu rủi ro về đạo đức và y sinh so với ý tưởng gốc."
+      ],
+      "weak_points_after_reframing": [
+        "Hiệu quả thực tế của việc hỗ trợ ghi nhớ qua âm thanh cần được chứng minh.",
+        "Cạnh tranh với các ứng dụng thiền, ngủ đã có trên thị trường.",
+        "Khả năng mở rộng sang các loại kiến thức phức tạp hơn còn hạn chế."
+      ],
+      "validation_needed_later": [
+        "Thử nghiệm lâm sàng nhỏ để đánh giá hiệu quả của âm thanh trong việc hỗ trợ ghi nhớ từ vựng.",
+        "Phản hồi người dùng về chất lượng giấc ngủ và cảm giác tỉnh táo.",
+        "So sánh hiệu quả với các phương pháp học từ vựng truyền thống."
+      ],
+      "final_recommendation": "Phát triển MVP như một ứng dụng hỗ trợ giấc ngủ với các bản nhạc nền khoa học, tập trung vào việc hỗ trợ ghi nhớ từ vựng. Cần có các thử nghiệm để chứng minh hiệu quả."
+    }
+  ],
+  "ranked_summary": [
+    {
+      "rank": 1,
+      "idea_id": "I003",
+      "idea_name": "Atlas Ngôn Ngữ Tiềm Năng",
+      "overall_score": 66.25,
+      "decision": "Cần chỉnh",
+      "hallucination_risk_after_reframing": 2.0
+    },
+    {
+      "rank": 2,
+      "idea_id": "I005",
+      "idea_name": "Biên Tập viên Nội Tâm: Huấn luyện Kịch tính Đàm thoại Tự sự",
+      "overall_score": 66.25,
+      "decision": "Cần chỉnh",
+      "hallucination_risk_after_reframing": 2.0
+    },
+    {
+      "rank": 3,
+      "idea_id": "I004",
+      "idea_name": "Phản Tỉnh Nghịch Cảnh",
+      "overall_score": 61.88,
+      "decision": "Cần chỉnh",
+      "hallucination_risk_after_reframing": 2.0
+    },
+    {
+      "rank": 4,
+      "idea_id": "I001",
+      "idea_name": "Chợ Cổ Sinh Thái Nội Tại",
+      "overall_score": 61.5,
+      "decision": "Cần chỉnh",
+      "hallucination_risk_after_reframing": 2.5
+    },
+    {
+      "rank": 5,
+      "idea_id": "I002",
+      "idea_name": "Ngân Hàng Giấc Mơ Học Tập",
+      "overall_score": 44.0,
+      "decision": "Quá ảo",
+      "hallucination_risk_after_reframing": 3.0
+    }
+  ]
+}

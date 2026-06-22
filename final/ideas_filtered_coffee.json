@@ -1,0 +1,282 @@
+{
+  "metadata": {
+    "pipeline": "CHVD",
+    "version": "v5.4",
+    "stage": "zero_temperature_hallucination_distiller_to_realistic_mvp",
+    "language": "vi",
+    "evaluation_mode": "prompt_only_internal_logic_hallucination_distillation",
+    "description": "Tách creative core khỏi hallucinated overclaim, hiện thực hóa thành MVP khả thi hơn, không dùng corpus/evidence scoring.",
+    "normalized_at": "2026-06-21T21:49:35",
+    "filter_model": "gemini-2.5-flash-lite",
+    "filter_temperature": 0.0,
+    "filter_top_p": 0.1,
+    "input_file": "outputs_v5_3\\ideas_raw_vi.json",
+    "source_generator_metadata": {
+      "pipeline": "CHVD",
+      "version": "v5.3",
+      "domain": "Coffee Services",
+      "language": "vi",
+      "mode": "prompt_only_no_corpus_no_weak_signals",
+      "temperature_role": "maximal_divergent_creativity",
+      "stage": "high_temperature_creative_hallucination_generator",
+      "saved_at": "2026-06-21T21:47:48",
+      "generator_model": "gemini-2.5-flash-lite",
+      "generator_temperature": 2.0,
+      "generator_top_p": 0.99,
+      "user_prompt": ""
+    },
+    "raw_filter_text": "{\n  \"metadata\": {\n    \"pipeline\": \"CHVD\",\n    \"version\": \"v5.4\",\n    \"stage\": \"zero_temperature_hallucination_distiller_to_realistic_mvp\",\n    \"language\": \"vi\",\n    \"evaluation_mode\": \"prompt_only_internal_logic_hallucination_distillation\",\n    \"description\": \"Tách creative core khỏi hallucinated overclaim, hiện thực hóa thành MVP khả thi hơn, không dùng corpus/evidence scoring.\"\n  },\n  \"evaluations\": [\n    {\n      \"idea_id\": \"I001\",\n      \"idea_name\": \"Không Gian Cafe Tâm Linh Tương Lai\",\n      \"raw_hallucination_summary\": \"Ý tưởng đề xuất AI có khả năng phân tích chiêm tinh học, thần số học, và năng lượng Aura để đưa ra gợi ý đồ uống cá nhân hóa và 'tiên tri ngắn'. Công nghệ 'Biometric Sentiment Analysis' và 'Personalized Drink Formulation Engine' được đề cập một cách mơ hồ, cùng với khẳng định về tác động cảm xúc rõ ràng và khả năng AI 'hiểu' khách hàng mà không có nhiều dữ liệu ban đầu.\",\n      \"creative_core_to_preserve\": \"Kết hợp trải nghiệm cafe với yếu tố cá nhân hóa dựa trên thông tin ngày sinh/câu hỏi, mang lại cảm giác 'đặc biệt' và 'có ý nghĩa' cho ly cafe, vượt ra ngoài hương vị đơn thuần.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"AI phân tích năng lượng Aura, Biometric Sentiment Analysis.\",\n        \"AI 'hiểu' khách hàng mà không có dữ liệu profile ban đầu.\",\n        \"Khẳng định tác động cảm xúc rõ ràng và 'khó đoán' từ ly cafe.\",\n        \"Công nghệ 'Personalized Drink Formulation Engine' phức tạp.\"\n      ],\n      \"realistic_reframing\": \"Một quán cafe cung cấp menu đồ uống được cá nhân hóa dựa trên thông tin ngày sinh và các câu hỏi trắc nghiệm vui về tâm trạng. Dựa trên đó, nhân viên (hoặc một hệ thống gợi ý đơn giản) sẽ đề xuất một loại cafe hoặc công thức phối trộn đặc biệt, kèm theo một lời nhắn 'tiên tri ngắn' hoặc thông điệp truyền cảm hứng được soạn sẵn, liên kết với cung hoàng đạo hoặc thần số học cơ bản.\",\n      \"practical_mvp\": \"Một menu cafe với 5-7 loại đồ uống được đặt tên theo các cung hoàng đạo hoặc các 'năng lượng' phổ biến (ví dụ: 'Năng lượng Tươi Mới', 'Sự Tập Trung', 'Kết Nối'). Khách hàng chọn một cung hoàng đạo hoặc trả lời 3 câu hỏi trắc nghiệm đơn giản. Dựa trên lựa chọn đó, nhân viên sẽ gợi ý một loại cafe hoặc một cách pha chế đặc biệt (ví dụ: thêm một loại syrup, hoặc một loại topping nhất định) và kèm theo một tấm thiệp nhỏ với thông điệp 'tiên tri ngắn' được soạn sẵn, liên quan đến cung hoàng đạo hoặc chủ đề câu hỏi.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Thiết kế 5-7 loại đồ uống cafe cơ bản với tên gọi và mô tả liên quan đến các cung hoàng đạo hoặc các 'năng lượng' phổ biến.\",\n        \"Soạn sẵn 12-20 mẫu 'tiên tri ngắn' hoặc thông điệp truyền cảm hứng, mỗi mẫu có thể áp dụng cho nhiều đối tượng.\",\n        \"Huấn luyện nhân viên cách gợi ý đồ uống và trao thiệp cho khách hàng dựa trên lựa chọn của họ.\",\n        \"Tạo một khu vực nhỏ trong quán để khách hàng có thể điền thông tin (cung hoàng đạo) hoặc làm bài trắc nghiệm nhanh.\",\n        \"Thử nghiệm trong 1-2 tuần tại một quán cafe hiện có hoặc một pop-up store.\"\n      ],\n      \"scores\": {\n        \"novelty\": 3.5,\n        \"creative_core_strength\": 4.0,\n        \"creative_core_preservation\": 4.5,\n        \"reframing_quality\": 4.0,\n        \"conceptual_coherence\": 4.0,\n        \"user_pain_plausibility\": 3.5,\n        \"technical_plausibility\": 3.0,\n        \"mvp_clarity\": 4.5,\n        \"business_model_plausibility\": 3.5,\n        \"hallucination_risk_after_reframing\": 3.0\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Cần chỉnh\",\n      \"expert_rationale\": \"Ý tưởng gốc có sự sáng tạo cao trong việc kết hợp cafe với yếu tố tâm linh cá nhân hóa. Tuy nhiên, các công nghệ AI và phân tích năng lượng được đề cập là quá xa vời và khó kiểm chứng cho MVP. Phiên bản reframe tập trung vào việc sử dụng các quy tắc đơn giản (cung hoàng đạo, câu hỏi trắc nghiệm) và thông điệp soạn sẵn, biến nó thành một trải nghiệm 'gamified' và mang tính giải trí, dễ triển khai hơn. Rủi ro về tính nhạy cảm tâm linh vẫn còn nhưng có thể quản lý được bằng cách định vị là 'giải trí' và 'truyền cảm hứng'.\",\n      \"strong_points_after_reframing\": [\n        \"Giữ được hạt nhân sáng tạo về cá nhân hóa trải nghiệm cafe.\",\n        \"MVP rõ ràng, dễ triển khai trong thời gian ngắn.\",\n        \"Giảm thiểu rủi ro công nghệ và chi phí ban đầu.\",\n        \"Tập trung vào trải nghiệm người dùng và yếu tố 'bất ngờ' thú vị.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Vẫn cần kiểm chứng liệu người dùng có thực sự quan tâm đến 'tiên tri ngắn' hay không.\",\n        \"Khả năng mở rộng và tự động hóa còn hạn chế so với ý tưởng gốc.\",\n        \"Cần cẩn trọng trong việc truyền thông để tránh bị xem là mê tín dị đoan.\"\n      ],\n      \"validation_needed_later\": [\n        \"Phản hồi của khách hàng về sự thú vị và 'độ khớp' của lời nhắn/gợi ý đồ uống.\",\n        \"Tỷ lệ khách hàng quay lại sử dụng dịch vụ cá nhân hóa này.\",\n        \"Mức độ sẵn lòng chi trả cho trải nghiệm 'tâm linh giải trí' này.\"\n      ],\n      \"final_recommendation\": \"Tập trung vào việc xây dựng trải nghiệm cá nhân hóa thú vị và mang tính giải trí, sử dụng các yếu tố chiêm tinh/thần số học một cách nhẹ nhàng và sáng tạo. Cần có chiến lược truyền thông khéo léo để định vị sản phẩm.\"\n    },\n    {\n      \"idea_id\": \"I002\",\n      \"idea_name\": \"Trao Đổi Môi Trường Lấy Cà Phê (Eco-Credit Cafe Exchange)\",\n      \"raw_hallucination_summary\": \"Đề cập đến 'Eco-credit Tokenization (blockchain/distributed ledger potential for the future)' và 'AI visual recognition' cho việc xác minh hành động xanh, cùng với tiềm năng 'blockchain' làm tin cậy hóa giao dịch điểm về sau. Các ý tưởng về đối tác lớn muốn nhảy vào cũng mang tính suy đoán.\",\n      \"creative_core_to_preserve\": \"Khuyến khích hành vi bền vững bằng cách thưởng cho người dùng bằng 'eco-credits' có thể đổi lấy cà phê hoặc ưu đãi, tạo động lực hữu hình cho các hành động xanh.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Blockchain/distributed ledger cho eco-credit ở giai đoạn đầu.\",\n        \"AI visual recognition để xác minh hành động xanh.\",\n        \"Khẳng định đối tác lớn muốn nhảy vào.\"\n      ],\n      \"realistic_reframing\": \"Một chương trình khách hàng thân thiết cho quán cà phê, nơi khách hàng tích lũy 'điểm xanh' (eco-credits) thông qua các hành động bền vững đơn giản (ví dụ: mang bình nước cá nhân, từ chối ống hút nhựa, tái chế). Các điểm này có thể đổi lấy đồ uống hoặc ưu đãi tại quán. Việc xác minh ban đầu dựa trên khai báo trung thực hoặc xác nhận đơn giản từ nhân viên.\",\n      \"practical_mvp\": \"Xây dựng một hệ thống tích điểm đơn giản trên ứng dụng di động hoặc thẻ vật lý. Khách hàng được cấp một số điểm ban đầu. Họ có thể 'báo cáo' các hành động xanh (ví dụ: chụp ảnh mang bình nước, khai báo đã tái chế) và nhận thêm điểm sau khi nhân viên xác nhận thủ công hoặc dựa trên sự trung thực ban đầu. Điểm tích lũy có thể đổi lấy các loại đồ uống cơ bản hoặc giảm giá.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Thiết kế 2-3 hành động xanh đơn giản và phổ biến nhất để khách hàng thực hiện (ví dụ: mang bình cá nhân, từ chối túi nilon).\",\n        \"Xây dựng một trang landing page hoặc ứng dụng di động đơn giản để khách hàng đăng ký và theo dõi điểm.\",\n        \"Thiết lập quy trình 'báo cáo' và 'xác nhận' điểm thủ công hoặc bán tự động.\",\n        \"Liên kết với 1-2 quán cà phê thử nghiệm để triển khai chương trình.\",\n        \"Tạo các ưu đãi đổi điểm ban đầu (ví dụ: 1 ly cafe miễn phí cho 100 điểm).\"\n      ],\n      \"scores\": {\n        \"novelty\": 3.5,\n        \"creative_core_strength\": 4.0,\n        \"creative_core_preservation\": 4.5,\n        \"reframing_quality\": 4.0,\n        \"conceptual_coherence\": 4.5,\n        \"user_pain_plausibility\": 4.0,\n        \"technical_plausibility\": 3.5,\n        \"mvp_clarity\": 4.5,\n        \"business_model_plausibility\": 3.5,\n        \"hallucination_risk_after_reframing\": 2.5\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"expert_rationale\": \"Ý tưởng về việc thưởng cho hành động xanh là có giá trị và phù hợp với xu hướng hiện tại. Phiên bản reframe loại bỏ các công nghệ phức tạp như blockchain và AI xác minh hình ảnh, thay vào đó tập trung vào một hệ thống tích điểm đơn giản, dựa trên sự trung thực và xác nhận thủ công ban đầu. Điều này làm cho MVP trở nên khả thi và dễ triển khai hơn. Rủi ro gian lận là có thật nhưng có thể quản lý được ở giai đoạn đầu bằng cách giới hạn số lượng hành động và điểm thưởng.\",\n      \"strong_points_after_reframing\": [\n        \"Giữ nguyên ý tưởng cốt lõi về việc thưởng cho hành động xanh.\",\n        \"MVP rất rõ ràng và có thể triển khai nhanh chóng.\",\n        \"Giảm thiểu rủi ro công nghệ và chi phí ban đầu.\",\n        \"Phù hợp với xu hướng tiêu dùng có ý thức về môi trường.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Rủi ro gian lận điểm thưởng là cao.\",\n        \"Cần có chiến lược để giữ chân người dùng khi việc tích điểm có thể chậm.\",\n        \"Mô hình kinh doanh cần được làm rõ hơn về cách tạo ra lợi nhuận bền vững.\"\n      ],\n      \"validation_needed_later\": [\n        \"Tỷ lệ người dùng tích cực tham gia báo cáo hành động xanh.\",\n        \"Tỷ lệ điểm thưởng được sử dụng để đổi ưu đãi.\",\n        \"Mức độ hài lòng của người dùng với hệ thống điểm thưởng và các ưu đãi.\"\n      ],\n      \"final_recommendation\": \"Tập trung vào việc xây dựng một hệ thống tích điểm đơn giản, minh bạch và mang lại giá trị rõ ràng cho người dùng. Cần có kế hoạch quản lý rủi ro gian lận và chiến lược giữ chân khách hàng.\"\n    },\n    {\n      \"idea_id\": \"I003\",\n      \"idea_name\": \"Cafe Sinh Thái Ăn Được Theo Mùa (Edible Biophilic Coffee)\",\n      \"raw_hallucination_summary\": \"Đề cập đến 'Vertical Farming/Hydroponics for Edible Flowers & Greens' và 'Bio-certified Sustainable Sourcing' như những công nghệ cốt lõi, cùng với khả năng tạo ra nhu cầu mới chưa từng tồn tại. Ý tưởng về việc thu thập/nuôi/sử dụng hạt giống ngoại lai/mới cho mục đích thương mại hóa sản phẩm ăn uống cũng tiềm ẩn rủi ro pháp lý.\",\n      \"creative_core_to_preserve\": \"Kết hợp trải nghiệm cafe với các nguyên liệu thực vật ăn được (hoa, lá) có nguồn gốc sinh thái rõ ràng, mang lại trải nghiệm ẩm thực độc đáo, gần gũi với thiên nhiên.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Công nghệ Vertical Farming/Hydroponics phức tạp cho MVP.\",\n        \"Khẳng định tạo ra nhu cầu mới chưa từng tồn tại.\",\n        \"Rủi ro pháp lý về hạt giống ngoại lai/mới.\"\n      ],\n      \"realistic_reframing\": \"Một quán cafe tập trung vào việc sử dụng các loại hoa và lá ăn được có nguồn gốc rõ ràng, theo mùa, để trang trí và làm nguyên liệu cho các món ăn nhẹ đi kèm. Tập trung vào việc hợp tác với các trang trại hữu cơ địa phương hoặc tự trồng một số loại rau/hoa ăn được phổ biến.\",\n      \"practical_mvp\": \"Chọn lọc 3-5 loại hoa và lá ăn được phổ biến, có hương vị tinh tế và dễ trồng/tìm nguồn cung (ví dụ: hoa đậu biếc, hoa dừa cạn, lá bạc hà, lá tía tô, mầm rau). Phát triển 2-3 món ăn nhẹ đơn giản (ví dụ: salad nhỏ, bánh quy trang trí hoa) và 1-2 loại đồ uống cafe có trang trí bằng các loại thực vật này. Hợp tác với một quán cafe có tệp khách hàng quan tâm đến ẩm thực xanh hoặc tổ chức pop-up tại các sự kiện ẩm thực.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Nghiên cứu và lựa chọn 3-5 loại hoa/lá ăn được an toàn, có hương vị và thẩm mỹ phù hợp.\",\n        \"Tìm kiếm nguồn cung ứng ổn định từ các trang trại hữu cơ hoặc bắt đầu trồng thử nghiệm một vài loại.\",\n        \"Thiết kế 2-3 món ăn nhẹ và 1-2 loại đồ uống cafe có trang trí bằng nguyên liệu này.\",\n        \"Tổ chức một buổi thử nghiệm (tasting event) hoặc pop-up tại một địa điểm phù hợp.\",\n        \"Thu thập phản hồi về hương vị, thẩm mỹ và trải nghiệm tổng thể.\"\n      ],\n      \"scores\": {\n        \"novelty\": 4.0,\n        \"creative_core_strength\": 4.5,\n        \"creative_core_preservation\": 4.5,\n        \"reframing_quality\": 4.0,\n        \"conceptual_coherence\": 4.0,\n        \"user_pain_plausibility\": 3.5,\n        \"technical_plausibility\": 3.0,\n        \"mvp_clarity\": 4.0,\n        \"business_model_plausibility\": 3.5,\n        \"hallucination_risk_after_reframing\": 3.0\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Cần chỉnh\",\n      \"expert_rationale\": \"Ý tưởng về việc sử dụng nguyên liệu ăn được từ trang trại sinh thái là độc đáo và có tiềm năng. Phiên bản reframe tập trung vào việc sử dụng các nguyên liệu phổ biến, dễ tìm nguồn cung và phát triển các món ăn nhẹ đơn giản thay vì công nghệ trồng trọt phức tạp. Điều này làm cho MVP khả thi hơn. Tuy nhiên, vấn đề về vòng đời nguyên liệu tươi, vận hành trang trại và kiến thức chuyên môn vẫn là những thách thức cần được giải quyết.\",\n      \"strong_points_after_reframing\": [\n        \"Ý tưởng cốt lõi về ẩm thực sinh thái và nguyên liệu ăn được được giữ lại.\",\n        \"MVP tập trung vào việc thử nghiệm nguyên liệu và món ăn, dễ thực hiện.\",\n        \"Tiềm năng tạo ra trải nghiệm ẩm thực độc đáo và thu hút khách hàng sành điệu.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Vấn đề về nguồn cung nguyên liệu tươi, theo mùa và chất lượng ổn định.\",\n        \"Đòi hỏi kiến thức chuyên môn về nông nghiệp sinh thái và ẩm thực.\",\n        \"Chi phí nguyên liệu có thể cao, ảnh hưởng đến giá thành sản phẩm.\"\n      ],\n      \"validation_needed_later\": [\n        \"Phản hồi của khách hàng về hương vị và sự độc đáo của các món ăn kèm.\",\n        \"Khả năng tìm kiếm nguồn cung nguyên liệu ổn định và chất lượng.\",\n        \"Mức độ sẵn lòng chi trả cho trải nghiệm ẩm thực 'farm-to-bite' này.\"\n      ],\n      \"final_recommendation\": \"Tập trung vào việc xây dựng mối quan hệ với các trang trại hữu cơ uy tín và phát triển các món ăn nhẹ sáng tạo, tận dụng tối đa hương vị và thẩm mỹ của các loại hoa/lá ăn được. Cần có kế hoạch quản lý chuỗi cung ứng chặt chẽ.\"\n    },\n    {\n      \"idea_id\": \"I004\",\n      \"idea_name\": \"Cafe Dịch Chuyển Giác Quan (Synesthesia Coffee)\",\n      \"raw_hallucination_summary\": \"Đề cập đến 'Psychoacoustic Resonance Modulation in coffee machines (speculative)' và 'Sensory Translation Database (sight-to-smell, sound-to-taste linkages)' như những công nghệ cốt lõi. Khẳng định sản phẩm cafe có thể thay đổi cách cảm nhận thế giới xung quanh chỉ trong vài phút và tạo ra nhu cầu mới. Yếu tố 'tạo ra trải nghiệm mới lạ' và 'thay đổi cách cảm nhận thế giới' là rất khó đo lường và kiểm chứng.\",\n      \"creative_core_to_preserve\": \"Tạo ra trải nghiệm cafe độc đáo bằng cách liên kết hương vị với âm nhạc và các giác quan khác, mang lại cảm giác khám phá và mở rộng nhận thức.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Psychoacoustic Resonance Modulation trong máy pha cafe.\",\n        \"Sensory Translation Database phức tạp.\",\n        \"Khẳng định cafe có thể thay đổi cách cảm nhận thế giới.\",\n        \"Tạo ra nhu cầu mới chưa từng tồn tại.\"\n      ],\n      \"realistic_reframing\": \"Một quán cafe cung cấp menu đồ uống được thiết kế dựa trên sự liên kết giữa hương vị và âm nhạc. Mỗi loại đồ uống sẽ được gợi ý hoặc đặt tên theo một bản nhạc hoặc một 'tâm trạng âm nhạc' nhất định. Quán có thể phát nhạc được tuyển chọn kỹ lưỡng để tạo không khí, và nhân viên sẽ tư vấn cách cảm nhận hương vị cafe tương ứng với âm nhạc.\",\n      \"practical_mvp\": \"Chọn lọc 3-4 loại đồ uống cafe (có thể là cocktail cafe hoặc mocktail) và liên kết chúng với 3-4 bản nhạc hoặc 'tâm trạng âm nhạc' (ví dụ: nhạc cổ điển nhẹ nhàng - cafe vị trái cây, nhạc jazz sôi động - cafe vị đậm đà). Nhân viên sẽ tư vấn cho khách hàng về sự liên kết này khi họ gọi món. Có thể cung cấp một danh sách nhạc được tuyển chọn trên Spotify hoặc các nền tảng khác để khách hàng trải nghiệm thêm.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Nghiên cứu và lựa chọn 3-4 loại đồ uống cafe có hương vị đặc trưng.\",\n        \"Tuyển chọn 3-4 bản nhạc hoặc 'tâm trạng âm nhạc' phù hợp với từng loại đồ uống.\",\n        \"Thiết kế menu với tên gọi đồ uống và mô tả ngắn gọn về sự liên kết với âm nhạc.\",\n        \"Huấn luyện nhân viên cách tư vấn cho khách hàng.\",\n        \"Tổ chức một buổi thử nghiệm nhỏ hoặc pop-up để thu thập phản hồi.\"\n      ],\n      \"scores\": {\n        \"novelty\": 4.5,\n        \"creative_core_strength\": 4.0,\n        \"creative_core_preservation\": 4.0,\n        \"reframing_quality\": 3.5,\n        \"conceptual_coherence\": 3.5,\n        \"user_pain_plausibility\": 3.0,\n        \"technical_plausibility\": 2.5,\n        \"mvp_clarity\": 3.5,\n        \"business_model_plausibility\": 3.0,\n        \"hallucination_risk_after_reframing\": 4.0\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Quá ảo\",\n      \"expert_rationale\": \"Ý tưởng về việc liên kết cafe với âm nhạc và các giác quan khác là rất sáng tạo và độc đáo. Tuy nhiên, việc 'dịch chuyển giác quan' và tạo ra trải nghiệm 'synesthesia' thực sự là rất khó kiểm chứng và mang tính chủ quan cao. Phiên bản reframe cố gắng làm cho nó thực tế hơn bằng cách tập trung vào sự liên kết hương vị-âm nhạc, nhưng ngay cả điều này cũng rất khó để tạo ra hiệu ứng rõ ràng và nhất quán cho đa số người dùng. Rủi ro bị xem là chiêu trò hoặc khó hiểu là rất cao.\",\n      \"strong_points_after_reframing\": [\n        \"Ý tưởng cốt lõi về trải nghiệm cafe đa giác quan rất mới lạ.\",\n        \"Tiềm năng thu hút nhóm khách hàng tìm kiếm sự độc đáo và trải nghiệm nghệ thuật.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Khái niệm rất trừu tượng, khó hiểu và khó truyền đạt.\",\n        \"Rủi ro cao bị xem là chiêu trò hoặc thiếu tính thực tế.\",\n        \"Khó khăn trong việc chuẩn hóa trải nghiệm vì tính chủ quan của người dùng.\",\n        \"MVP vẫn còn khá mơ hồ về cách tạo ra hiệu ứng 'dịch chuyển giác quan' rõ rệt.\"\n      ],\n      \"validation_needed_later\": [\n        \"Phản hồi của khách hàng về sự liên kết giữa hương vị cafe và âm nhạc.\",\n        \"Mức độ người dùng có thực sự cảm nhận được sự 'khác biệt' trong trải nghiệm hay không.\",\n        \"Khả năng lặp lại trải nghiệm và sự hài lòng của khách hàng.\"\n      ],\n      \"final_recommendation\": \"Cần có một cách tiếp cận cực kỳ sáng tạo và cẩn trọng trong việc truyền thông để làm cho khái niệm này trở nên dễ tiếp cận và hấp dẫn hơn. Có thể bắt đầu với các buổi workshop hoặc sự kiện trải nghiệm nhỏ để thăm dò phản ứng của thị trường.\"\n    }\n  ],\n  \"ranked_summary\": [\n    {\n      \"rank\": 1,\n      \"idea_id\": \"I002\",\n      \"idea_name\": \"Trao Đổi Môi Trường Lấy Cà Phê (Eco-Credit Cafe Exchange)\",\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"hallucination_risk_after_reframing\": 2.5\n    },\n    {\n      \"rank\": 2,\n      \"idea_id\": \"I001\",\n      \"idea_name\": \"Không Gian Cafe Tâm Linh Tương Lai\",\n      \"overall_score\": 0,\n      \"decision\": \"Cần chỉnh\",\n      \"hallucination_risk_after_reframing\": 3.0\n    },\n    {\n      \"rank\": 3,\n      \"idea_id\": \"I003\",\n      \"idea_name\": \"Cafe Sinh Thái Ăn Được Theo Mùa (Edible Biophilic Coffee)\",\n      \"overall_score\": 0,\n      \"decision\": \"Cần chỉnh\",\n      \"hallucination_risk_after_reframing\": 3.0\n    },\n    {\n      \"rank\": 4,\n      \"idea_id\": \"I004\",\n      \"idea_name\": \"Cafe Dịch Chuyển Giác Quan (Synesthesia Coffee)\",\n      \"overall_score\": 0,\n      \"decision\": \"Quá ảo\",\n      \"hallucination_risk_after_reframing\": 4.0\n    }\n  ]\n}"
+  },
+  "evaluations": [
+    {
+      "idea_id": "I002",
+      "idea_name": "Trao Đổi Môi Trường Lấy Cà Phê (Eco-Credit Cafe Exchange)",
+      "raw_hallucination_summary": "Đề cập đến 'Eco-credit Tokenization (blockchain/distributed ledger potential for the future)' và 'AI visual recognition' cho việc xác minh hành động xanh, cùng với tiềm năng 'blockchain' làm tin cậy hóa giao dịch điểm về sau. Các ý tưởng về đối tác lớn muốn nhảy vào cũng mang tính suy đoán.",
+      "creative_core_to_preserve": "Khuyến khích hành vi bền vững bằng cách thưởng cho người dùng bằng 'eco-credits' có thể đổi lấy cà phê hoặc ưu đãi, tạo động lực hữu hình cho các hành động xanh.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Blockchain/distributed ledger cho eco-credit ở giai đoạn đầu.",
+        "AI visual recognition để xác minh hành động xanh.",
+        "Khẳng định đối tác lớn muốn nhảy vào."
+      ],
+      "realistic_reframing": "Một chương trình khách hàng thân thiết cho quán cà phê, nơi khách hàng tích lũy 'điểm xanh' (eco-credits) thông qua các hành động bền vững đơn giản (ví dụ: mang bình nước cá nhân, từ chối ống hút nhựa, tái chế). Các điểm này có thể đổi lấy đồ uống hoặc ưu đãi tại quán. Việc xác minh ban đầu dựa trên khai báo trung thực hoặc xác nhận đơn giản từ nhân viên.",
+      "practical_mvp": "Xây dựng một hệ thống tích điểm đơn giản trên ứng dụng di động hoặc thẻ vật lý. Khách hàng được cấp một số điểm ban đầu. Họ có thể 'báo cáo' các hành động xanh (ví dụ: chụp ảnh mang bình nước, khai báo đã tái chế) và nhận thêm điểm sau khi nhân viên xác nhận thủ công hoặc dựa trên sự trung thực ban đầu. Điểm tích lũy có thể đổi lấy các loại đồ uống cơ bản hoặc giảm giá.",
+      "mvp_7_to_30_day_plan": [
+        "Thiết kế 2-3 hành động xanh đơn giản và phổ biến nhất để khách hàng thực hiện (ví dụ: mang bình cá nhân, từ chối túi nilon).",
+        "Xây dựng một trang landing page hoặc ứng dụng di động đơn giản để khách hàng đăng ký và theo dõi điểm.",
+        "Thiết lập quy trình 'báo cáo' và 'xác nhận' điểm thủ công hoặc bán tự động.",
+        "Liên kết với 1-2 quán cà phê thử nghiệm để triển khai chương trình.",
+        "Tạo các ưu đãi đổi điểm ban đầu (ví dụ: 1 ly cafe miễn phí cho 100 điểm)."
+      ],
+      "scores": {
+        "novelty": 3.5,
+        "creative_core_strength": 4.0,
+        "creative_core_preservation": 4.5,
+        "reframing_quality": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "hallucination_risk_after_reframing": 2.5
+      },
+      "overall_score": 70.37,
+      "decision": "Tiềm năng",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Tiềm năng",
+      "expert_rationale": "Ý tưởng về việc thưởng cho hành động xanh là có giá trị và phù hợp với xu hướng hiện tại. Phiên bản reframe loại bỏ các công nghệ phức tạp như blockchain và AI xác minh hình ảnh, thay vào đó tập trung vào một hệ thống tích điểm đơn giản, dựa trên sự trung thực và xác nhận thủ công ban đầu. Điều này làm cho MVP trở nên khả thi và dễ triển khai hơn. Rủi ro gian lận là có thật nhưng có thể quản lý được ở giai đoạn đầu bằng cách giới hạn số lượng hành động và điểm thưởng.",
+      "strong_points_after_reframing": [
+        "Giữ nguyên ý tưởng cốt lõi về việc thưởng cho hành động xanh.",
+        "MVP rất rõ ràng và có thể triển khai nhanh chóng.",
+        "Giảm thiểu rủi ro công nghệ và chi phí ban đầu.",
+        "Phù hợp với xu hướng tiêu dùng có ý thức về môi trường."
+      ],
+      "weak_points_after_reframing": [
+        "Rủi ro gian lận điểm thưởng là cao.",
+        "Cần có chiến lược để giữ chân người dùng khi việc tích điểm có thể chậm.",
+        "Mô hình kinh doanh cần được làm rõ hơn về cách tạo ra lợi nhuận bền vững."
+      ],
+      "validation_needed_later": [
+        "Tỷ lệ người dùng tích cực tham gia báo cáo hành động xanh.",
+        "Tỷ lệ điểm thưởng được sử dụng để đổi ưu đãi.",
+        "Mức độ hài lòng của người dùng với hệ thống điểm thưởng và các ưu đãi."
+      ],
+      "final_recommendation": "Tập trung vào việc xây dựng một hệ thống tích điểm đơn giản, minh bạch và mang lại giá trị rõ ràng cho người dùng. Cần có kế hoạch quản lý rủi ro gian lận và chiến lược giữ chân khách hàng."
+    },
+    {
+      "idea_id": "I003",
+      "idea_name": "Cafe Sinh Thái Ăn Được Theo Mùa (Edible Biophilic Coffee)",
+      "raw_hallucination_summary": "Đề cập đến 'Vertical Farming/Hydroponics for Edible Flowers & Greens' và 'Bio-certified Sustainable Sourcing' như những công nghệ cốt lõi, cùng với khả năng tạo ra nhu cầu mới chưa từng tồn tại. Ý tưởng về việc thu thập/nuôi/sử dụng hạt giống ngoại lai/mới cho mục đích thương mại hóa sản phẩm ăn uống cũng tiềm ẩn rủi ro pháp lý.",
+      "creative_core_to_preserve": "Kết hợp trải nghiệm cafe với các nguyên liệu thực vật ăn được (hoa, lá) có nguồn gốc sinh thái rõ ràng, mang lại trải nghiệm ẩm thực độc đáo, gần gũi với thiên nhiên.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Công nghệ Vertical Farming/Hydroponics phức tạp cho MVP.",
+        "Khẳng định tạo ra nhu cầu mới chưa từng tồn tại.",
+        "Rủi ro pháp lý về hạt giống ngoại lai/mới."
+      ],
+      "realistic_reframing": "Một quán cafe tập trung vào việc sử dụng các loại hoa và lá ăn được có nguồn gốc rõ ràng, theo mùa, để trang trí và làm nguyên liệu cho các món ăn nhẹ đi kèm. Tập trung vào việc hợp tác với các trang trại hữu cơ địa phương hoặc tự trồng một số loại rau/hoa ăn được phổ biến.",
+      "practical_mvp": "Chọn lọc 3-5 loại hoa và lá ăn được phổ biến, có hương vị tinh tế và dễ trồng/tìm nguồn cung (ví dụ: hoa đậu biếc, hoa dừa cạn, lá bạc hà, lá tía tô, mầm rau). Phát triển 2-3 món ăn nhẹ đơn giản (ví dụ: salad nhỏ, bánh quy trang trí hoa) và 1-2 loại đồ uống cafe có trang trí bằng các loại thực vật này. Hợp tác với một quán cafe có tệp khách hàng quan tâm đến ẩm thực xanh hoặc tổ chức pop-up tại các sự kiện ẩm thực.",
+      "mvp_7_to_30_day_plan": [
+        "Nghiên cứu và lựa chọn 3-5 loại hoa/lá ăn được an toàn, có hương vị và thẩm mỹ phù hợp.",
+        "Tìm kiếm nguồn cung ứng ổn định từ các trang trại hữu cơ hoặc bắt đầu trồng thử nghiệm một vài loại.",
+        "Thiết kế 2-3 món ăn nhẹ và 1-2 loại đồ uống cafe có trang trí bằng nguyên liệu này.",
+        "Tổ chức một buổi thử nghiệm (tasting event) hoặc pop-up tại một địa điểm phù hợp.",
+        "Thu thập phản hồi về hương vị, thẩm mỹ và trải nghiệm tổng thể."
+      ],
+      "scores": {
+        "novelty": 4.0,
+        "creative_core_strength": 4.5,
+        "creative_core_preservation": 4.5,
+        "reframing_quality": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "hallucination_risk_after_reframing": 3.0
+      },
+      "overall_score": 63.75,
+      "decision": "Cần chỉnh",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Cần chỉnh",
+      "expert_rationale": "Ý tưởng về việc sử dụng nguyên liệu ăn được từ trang trại sinh thái là độc đáo và có tiềm năng. Phiên bản reframe tập trung vào việc sử dụng các nguyên liệu phổ biến, dễ tìm nguồn cung và phát triển các món ăn nhẹ đơn giản thay vì công nghệ trồng trọt phức tạp. Điều này làm cho MVP khả thi hơn. Tuy nhiên, vấn đề về vòng đời nguyên liệu tươi, vận hành trang trại và kiến thức chuyên môn vẫn là những thách thức cần được giải quyết.",
+      "strong_points_after_reframing": [
+        "Ý tưởng cốt lõi về ẩm thực sinh thái và nguyên liệu ăn được được giữ lại.",
+        "MVP tập trung vào việc thử nghiệm nguyên liệu và món ăn, dễ thực hiện.",
+        "Tiềm năng tạo ra trải nghiệm ẩm thực độc đáo và thu hút khách hàng sành điệu."
+      ],
+      "weak_points_after_reframing": [
+        "Vấn đề về nguồn cung nguyên liệu tươi, theo mùa và chất lượng ổn định.",
+        "Đòi hỏi kiến thức chuyên môn về nông nghiệp sinh thái và ẩm thực.",
+        "Chi phí nguyên liệu có thể cao, ảnh hưởng đến giá thành sản phẩm."
+      ],
+      "validation_needed_later": [
+        "Phản hồi của khách hàng về hương vị và sự độc đáo của các món ăn kèm.",
+        "Khả năng tìm kiếm nguồn cung nguyên liệu ổn định và chất lượng.",
+        "Mức độ sẵn lòng chi trả cho trải nghiệm ẩm thực 'farm-to-bite' này."
+      ],
+      "final_recommendation": "Tập trung vào việc xây dựng mối quan hệ với các trang trại hữu cơ uy tín và phát triển các món ăn nhẹ sáng tạo, tận dụng tối đa hương vị và thẩm mỹ của các loại hoa/lá ăn được. Cần có kế hoạch quản lý chuỗi cung ứng chặt chẽ."
+    },
+    {
+      "idea_id": "I001",
+      "idea_name": "Không Gian Cafe Tâm Linh Tương Lai",
+      "raw_hallucination_summary": "Ý tưởng đề xuất AI có khả năng phân tích chiêm tinh học, thần số học, và năng lượng Aura để đưa ra gợi ý đồ uống cá nhân hóa và 'tiên tri ngắn'. Công nghệ 'Biometric Sentiment Analysis' và 'Personalized Drink Formulation Engine' được đề cập một cách mơ hồ, cùng với khẳng định về tác động cảm xúc rõ ràng và khả năng AI 'hiểu' khách hàng mà không có nhiều dữ liệu ban đầu.",
+      "creative_core_to_preserve": "Kết hợp trải nghiệm cafe với yếu tố cá nhân hóa dựa trên thông tin ngày sinh/câu hỏi, mang lại cảm giác 'đặc biệt' và 'có ý nghĩa' cho ly cafe, vượt ra ngoài hương vị đơn thuần.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "AI phân tích năng lượng Aura, Biometric Sentiment Analysis.",
+        "AI 'hiểu' khách hàng mà không có dữ liệu profile ban đầu.",
+        "Khẳng định tác động cảm xúc rõ ràng và 'khó đoán' từ ly cafe.",
+        "Công nghệ 'Personalized Drink Formulation Engine' phức tạp."
+      ],
+      "realistic_reframing": "Một quán cafe cung cấp menu đồ uống được cá nhân hóa dựa trên thông tin ngày sinh và các câu hỏi trắc nghiệm vui về tâm trạng. Dựa trên đó, nhân viên (hoặc một hệ thống gợi ý đơn giản) sẽ đề xuất một loại cafe hoặc công thức phối trộn đặc biệt, kèm theo một lời nhắn 'tiên tri ngắn' hoặc thông điệp truyền cảm hứng được soạn sẵn, liên kết với cung hoàng đạo hoặc thần số học cơ bản.",
+      "practical_mvp": "Một menu cafe với 5-7 loại đồ uống được đặt tên theo các cung hoàng đạo hoặc các 'năng lượng' phổ biến (ví dụ: 'Năng lượng Tươi Mới', 'Sự Tập Trung', 'Kết Nối'). Khách hàng chọn một cung hoàng đạo hoặc trả lời 3 câu hỏi trắc nghiệm đơn giản. Dựa trên lựa chọn đó, nhân viên sẽ gợi ý một loại cafe hoặc một cách pha chế đặc biệt (ví dụ: thêm một loại syrup, hoặc một loại topping nhất định) và kèm theo một tấm thiệp nhỏ với thông điệp 'tiên tri ngắn' được soạn sẵn, liên quan đến cung hoàng đạo hoặc chủ đề câu hỏi.",
+      "mvp_7_to_30_day_plan": [
+        "Thiết kế 5-7 loại đồ uống cafe cơ bản với tên gọi và mô tả liên quan đến các cung hoàng đạo hoặc các 'năng lượng' phổ biến.",
+        "Soạn sẵn 12-20 mẫu 'tiên tri ngắn' hoặc thông điệp truyền cảm hứng, mỗi mẫu có thể áp dụng cho nhiều đối tượng.",
+        "Huấn luyện nhân viên cách gợi ý đồ uống và trao thiệp cho khách hàng dựa trên lựa chọn của họ.",
+        "Tạo một khu vực nhỏ trong quán để khách hàng có thể điền thông tin (cung hoàng đạo) hoặc làm bài trắc nghiệm nhanh.",
+        "Thử nghiệm trong 1-2 tuần tại một quán cafe hiện có hoặc một pop-up store."
+      ],
+      "scores": {
+        "novelty": 3.5,
+        "creative_core_strength": 4.0,
+        "creative_core_preservation": 4.5,
+        "reframing_quality": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "hallucination_risk_after_reframing": 3.0
+      },
+      "overall_score": 61.62,
+      "decision": "Cần chỉnh",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Cần chỉnh",
+      "expert_rationale": "Ý tưởng gốc có sự sáng tạo cao trong việc kết hợp cafe với yếu tố tâm linh cá nhân hóa. Tuy nhiên, các công nghệ AI và phân tích năng lượng được đề cập là quá xa vời và khó kiểm chứng cho MVP. Phiên bản reframe tập trung vào việc sử dụng các quy tắc đơn giản (cung hoàng đạo, câu hỏi trắc nghiệm) và thông điệp soạn sẵn, biến nó thành một trải nghiệm 'gamified' và mang tính giải trí, dễ triển khai hơn. Rủi ro về tính nhạy cảm tâm linh vẫn còn nhưng có thể quản lý được bằng cách định vị là 'giải trí' và 'truyền cảm hứng'.",
+      "strong_points_after_reframing": [
+        "Giữ được hạt nhân sáng tạo về cá nhân hóa trải nghiệm cafe.",
+        "MVP rõ ràng, dễ triển khai trong thời gian ngắn.",
+        "Giảm thiểu rủi ro công nghệ và chi phí ban đầu.",
+        "Tập trung vào trải nghiệm người dùng và yếu tố 'bất ngờ' thú vị."
+      ],
+      "weak_points_after_reframing": [
+        "Vẫn cần kiểm chứng liệu người dùng có thực sự quan tâm đến 'tiên tri ngắn' hay không.",
+        "Khả năng mở rộng và tự động hóa còn hạn chế so với ý tưởng gốc.",
+        "Cần cẩn trọng trong việc truyền thông để tránh bị xem là mê tín dị đoan."
+      ],
+      "validation_needed_later": [
+        "Phản hồi của khách hàng về sự thú vị và 'độ khớp' của lời nhắn/gợi ý đồ uống.",
+        "Tỷ lệ khách hàng quay lại sử dụng dịch vụ cá nhân hóa này.",
+        "Mức độ sẵn lòng chi trả cho trải nghiệm 'tâm linh giải trí' này."
+      ],
+      "final_recommendation": "Tập trung vào việc xây dựng trải nghiệm cá nhân hóa thú vị và mang tính giải trí, sử dụng các yếu tố chiêm tinh/thần số học một cách nhẹ nhàng và sáng tạo. Cần có chiến lược truyền thông khéo léo để định vị sản phẩm."
+    },
+    {
+      "idea_id": "I004",
+      "idea_name": "Cafe Dịch Chuyển Giác Quan (Synesthesia Coffee)",
+      "raw_hallucination_summary": "Đề cập đến 'Psychoacoustic Resonance Modulation in coffee machines (speculative)' và 'Sensory Translation Database (sight-to-smell, sound-to-taste linkages)' như những công nghệ cốt lõi. Khẳng định sản phẩm cafe có thể thay đổi cách cảm nhận thế giới xung quanh chỉ trong vài phút và tạo ra nhu cầu mới. Yếu tố 'tạo ra trải nghiệm mới lạ' và 'thay đổi cách cảm nhận thế giới' là rất khó đo lường và kiểm chứng.",
+      "creative_core_to_preserve": "Tạo ra trải nghiệm cafe độc đáo bằng cách liên kết hương vị với âm nhạc và các giác quan khác, mang lại cảm giác khám phá và mở rộng nhận thức.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Psychoacoustic Resonance Modulation trong máy pha cafe.",
+        "Sensory Translation Database phức tạp.",
+        "Khẳng định cafe có thể thay đổi cách cảm nhận thế giới.",
+        "Tạo ra nhu cầu mới chưa từng tồn tại."
+      ],
+      "realistic_reframing": "Một quán cafe cung cấp menu đồ uống được thiết kế dựa trên sự liên kết giữa hương vị và âm nhạc. Mỗi loại đồ uống sẽ được gợi ý hoặc đặt tên theo một bản nhạc hoặc một 'tâm trạng âm nhạc' nhất định. Quán có thể phát nhạc được tuyển chọn kỹ lưỡng để tạo không khí, và nhân viên sẽ tư vấn cách cảm nhận hương vị cafe tương ứng với âm nhạc.",
+      "practical_mvp": "Chọn lọc 3-4 loại đồ uống cafe (có thể là cocktail cafe hoặc mocktail) và liên kết chúng với 3-4 bản nhạc hoặc 'tâm trạng âm nhạc' (ví dụ: nhạc cổ điển nhẹ nhàng - cafe vị trái cây, nhạc jazz sôi động - cafe vị đậm đà). Nhân viên sẽ tư vấn cho khách hàng về sự liên kết này khi họ gọi món. Có thể cung cấp một danh sách nhạc được tuyển chọn trên Spotify hoặc các nền tảng khác để khách hàng trải nghiệm thêm.",
+      "mvp_7_to_30_day_plan": [
+        "Nghiên cứu và lựa chọn 3-4 loại đồ uống cafe có hương vị đặc trưng.",
+        "Tuyển chọn 3-4 bản nhạc hoặc 'tâm trạng âm nhạc' phù hợp với từng loại đồ uống.",
+        "Thiết kế menu với tên gọi đồ uống và mô tả ngắn gọn về sự liên kết với âm nhạc.",
+        "Huấn luyện nhân viên cách tư vấn cho khách hàng.",
+        "Tổ chức một buổi thử nghiệm nhỏ hoặc pop-up để thu thập phản hồi."
+      ],
+      "scores": {
+        "novelty": 4.5,
+        "creative_core_strength": 4.0,
+        "creative_core_preservation": 4.0,
+        "reframing_quality": 3.5,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 3.0,
+        "technical_plausibility": 2.5,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "hallucination_risk_after_reframing": 4.0
+      },
+      "overall_score": 47.0,
+      "decision": "Cần chỉnh",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Quá ảo",
+      "expert_rationale": "Ý tưởng về việc liên kết cafe với âm nhạc và các giác quan khác là rất sáng tạo và độc đáo. Tuy nhiên, việc 'dịch chuyển giác quan' và tạo ra trải nghiệm 'synesthesia' thực sự là rất khó kiểm chứng và mang tính chủ quan cao. Phiên bản reframe cố gắng làm cho nó thực tế hơn bằng cách tập trung vào sự liên kết hương vị-âm nhạc, nhưng ngay cả điều này cũng rất khó để tạo ra hiệu ứng rõ ràng và nhất quán cho đa số người dùng. Rủi ro bị xem là chiêu trò hoặc khó hiểu là rất cao.",
+      "strong_points_after_reframing": [
+        "Ý tưởng cốt lõi về trải nghiệm cafe đa giác quan rất mới lạ.",
+        "Tiềm năng thu hút nhóm khách hàng tìm kiếm sự độc đáo và trải nghiệm nghệ thuật."
+      ],
+      "weak_points_after_reframing": [
+        "Khái niệm rất trừu tượng, khó hiểu và khó truyền đạt.",
+        "Rủi ro cao bị xem là chiêu trò hoặc thiếu tính thực tế.",
+        "Khó khăn trong việc chuẩn hóa trải nghiệm vì tính chủ quan của người dùng.",
+        "MVP vẫn còn khá mơ hồ về cách tạo ra hiệu ứng 'dịch chuyển giác quan' rõ rệt."
+      ],
+      "validation_needed_later": [
+        "Phản hồi của khách hàng về sự liên kết giữa hương vị cafe và âm nhạc.",
+        "Mức độ người dùng có thực sự cảm nhận được sự 'khác biệt' trong trải nghiệm hay không.",
+        "Khả năng lặp lại trải nghiệm và sự hài lòng của khách hàng."
+      ],
+      "final_recommendation": "Cần có một cách tiếp cận cực kỳ sáng tạo và cẩn trọng trong việc truyền thông để làm cho khái niệm này trở nên dễ tiếp cận và hấp dẫn hơn. Có thể bắt đầu với các buổi workshop hoặc sự kiện trải nghiệm nhỏ để thăm dò phản ứng của thị trường."
+    }
+  ],
+  "ranked_summary": [
+    {
+      "rank": 1,
+      "idea_id": "I002",
+      "idea_name": "Trao Đổi Môi Trường Lấy Cà Phê (Eco-Credit Cafe Exchange)",
+      "overall_score": 70.37,
+      "decision": "Tiềm năng",
+      "hallucination_risk_after_reframing": 2.5
+    },
+    {
+      "rank": 2,
+      "idea_id": "I003",
+      "idea_name": "Cafe Sinh Thái Ăn Được Theo Mùa (Edible Biophilic Coffee)",
+      "overall_score": 63.75,
+      "decision": "Cần chỉnh",
+      "hallucination_risk_after_reframing": 3.0
+    },
+    {
+      "rank": 3,
+      "idea_id": "I001",
+      "idea_name": "Không Gian Cafe Tâm Linh Tương Lai",
+      "overall_score": 61.62,
+      "decision": "Cần chỉnh",
+      "hallucination_risk_after_reframing": 3.0
+    },
+    {
+      "rank": 4,
+      "idea_id": "I004",
+      "idea_name": "Cafe Dịch Chuyển Giác Quan (Synesthesia Coffee)",
+      "overall_score": 47.0,
+      "decision": "Cần chỉnh",
+      "hallucination_risk_after_reframing": 4.0
+    }
+  ]
+}

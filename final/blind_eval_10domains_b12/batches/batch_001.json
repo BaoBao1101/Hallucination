@@ -1,0 +1,101 @@
+[
+  {
+    "candidate_id": "BLIND_0112",
+    "domain": "Edtech",
+    "title": "Thư Viện Ký Ức Cảm Xúc",
+    "problem_or_desire": "Nỗi đau khi học kiến thức khô khan, khó nhớ, thiếu sự kết nối cá nhân. Mong muốn học tập trở nên ý nghĩa và đáng nhớ hơn.",
+    "core_concept": "Một nền tảng học tập cá nhân hóa sâu sắc, nơi kiến thức được gắn kết với ký ức cảm xúc của người học để tối ưu hóa khả năng ghi nhớ và hiểu biết.",
+    "proposed_approach": "Hệ thống AI phân tích phong cách học, trạng thái cảm xúc hiện tại và quá khứ của người học để tạo ra các bài học, câu đố, và bài tập thực hành được 'tẩm ướp' cảm xúc phù hợp (vui vẻ, tò mò, thử thách, thậm chí cả chút tiếc nuối hoặc đồng cảm) nhằm neo giữ kiến thức vào ký ức dài hạn.",
+    "prototype_scope": "Một module học từ vựng tiếng Anh, nơi mỗi từ mới được liên kết với một câu chuyện ngắn gợi cảm xúc hoặc một hình ảnh có tính gợi nhớ mạnh mẽ, và người dùng có thể 'tương tác' với cảm xúc đó."
+  },
+  {
+    "candidate_id": "BLIND_0046",
+    "domain": "Youtube & Tiktok Video Content",
+    "title": "AI Sinner Translator (tạm dịch: Trình Dịch Tội Lỗi)",
+    "problem_or_desire": "Cảm giác bất lực, tổn thương khi đối mặt với bình luận độc hại, bị miệt thị hoặc thấy người khác dính vào các Drama chỉ trích từ bình luận. Tìm cách 'trả đũa văn minh', 'quay nòng 'thứ mà toxic tung ra' thành trò đùa thông minh, bảo toàn nguồn năng lượng sáng tạo.",
+    "core_concept": "Công cụ AI tạo ra các phiên bản 'nhẹ nhàng', 'hài hước' hoặc 'mang tính giáo dục cực đoan' từ các phát ngôn toxic/troll/gây tranh cãi của người xem hoặc bản thân creator, sau đó dựng thành video meme ngắn để post lại.",
+    "proposed_approach": "Một platform/app: người dùng copy-paste comment, AI sẽ parse & reformulate (đưa ra options như: Hài hước hoá / Nâng tầm triết lý hóa / 'Back to School' hóa giải đáp căn bản / Đốt thành Tro Xịt lên Mặt NCA / Tạo clip 'phản hồi lười biếng nhất mọi thời đại'. Tiếp đó là các template video ngắn gợi ý về mood, BGM, hiệu ứng để cho thấy 'bài học từ tội lỗi' này. Thậm chí clone tiếng user comment đó và dub theo.",
+    "prototype_scope": "Mô hình Text-to-Text với các style output đa dạng (ví dụ: Comment 1 --> AI 'Ngốm Trọng Nghĩa' biến: 'Mày nhìn trông nản thế' => AI: 'Con à, sự vĩ đại của đời ẩn mình trong thử thách bản thân, một bài học cho sau này...' rồi 'dày môi'). Chỉ render text."
+  },
+  {
+    "candidate_id": "BLIND_0037",
+    "domain": "Coffee Services",
+    "title": "Không Gian Cafe Tâm Linh Tương Lai",
+    "problem_or_desire": "Sự nhàm chán với các menu cafe truyền thống; mong muốn tìm kiếm những trải nghiệm có ý nghĩa sâu sắc hơn, mang tính 'mở khóa' hoặc tiên đoán cho một ngày.",
+    "core_concept": "Kết hợp trải nghiệm cafe với yếu tố cá nhân hóa dựa trên thông tin ngày sinh/câu hỏi, mang lại cảm giác 'đặc biệt' và 'có ý nghĩa' cho ly cafe, vượt ra ngoài hương vị đơn thuần.",
+    "proposed_approach": "Một quán cafe cung cấp menu đồ uống được cá nhân hóa dựa trên thông tin ngày sinh và các câu hỏi trắc nghiệm vui về tâm trạng. Dựa trên đó, nhân viên (hoặc một hệ thống gợi ý đơn giản) sẽ đề xuất một loại cafe hoặc công thức phối trộn đặc biệt, kèm theo một lời nhắn 'tiên tri ngắn' hoặc thông điệp truyền cảm hứng được soạn sẵn, liên kết với cung hoàng đạo hoặc thần số học cơ bản.",
+    "prototype_scope": "Một menu cafe với 5-7 loại đồ uống được đặt tên theo các cung hoàng đạo hoặc các 'năng lượng' phổ biến (ví dụ: 'Năng lượng Tươi Mới', 'Sự Tập Trung', 'Kết Nối'). Khách hàng chọn một cung hoàng đạo hoặc trả lời 3 câu hỏi trắc nghiệm đơn giản. Dựa trên lựa chọn đó, nhân viên sẽ gợi ý một loại cafe hoặc một cách pha chế đặc biệt (ví dụ: thêm một loại syrup, hoặc một loại topping nhất định) và kèm theo một tấm thiệp nhỏ với thông điệp 'tiên tri ngắn' được soạn sẵn, liên quan đến…"
+  },
+  {
+    "candidate_id": "BLIND_0054",
+    "domain": "Game Mobile",
+    "title": "Nhà Thám Hiểm Âm Thanh",
+    "problem_or_desire": "Mong muốn trải nghiệm game theo một cách hoàn toàn mới, thoát khỏi sự phụ thuộc vào đồ họa, và khám phá tiềm năng của các giác quan khác.",
+    "core_concept": "Một game phiêu lưu khám phá thế giới dựa trên âm thanh, nơi người chơi sử dụng thính giác và các công cụ âm thanh để định vị, tương tác và giải mã bí ẩn trong môi trường hoàn toàn không có hình ảnh.",
+    "proposed_approach": "Người chơi di chuyển trong một thế giới ảo bằng cách lắng nghe các tín hiệu âm thanh (tiếng bước chân, tiếng gió, tiếng nước chảy, tiếng vọng). Họ có thể 'phát ra' các âm thanh (ví dụ: tiếng vỗ tay, tiếng huýt sáo) để tạo tiếng vọng và định vị vật thể, kẻ thù, hoặc lối đi. Các câu đố sẽ dựa trên việc nhận diện mẫu âm thanh, nhịp điệu, hoặc tần số.",
+    "prototype_scope": "Một khu vực nhỏ với các loại âm thanh môi trường khác nhau, 2-3 loại đối tượng có thể định vị bằng âm thanh (ví dụ: một con suối, một tảng đá, một sinh vật ẩn nấp), và một cơ chế 'phát âm thanh' đơn giản để tạo tiếng vọng."
+  },
+  {
+    "candidate_id": "BLIND_0067",
+    "domain": "Restaurant Services",
+    "title": "Đại Sứ Hương Vị : Dịch vụ Nhà hàng Bằng Đặt Tên Thực Vật Bí Ẩn",
+    "problem_or_desire": "Mong muốn sự phiêu lưu trong lựa chọn món ăn hàng ngày, thay vì phải lật đi lật lại menu quá rõ ràng. Niềm khao khát được 'khai quật' câu chuyện, nguồn gốc của mỗi thành phần trong món ăn một cách tinh tế, không phô trương.",
+    "core_concept": "Dịch vụ giao đồ ăn/nhận tại nhà mang tính trinh thám, nơi các món ăn được mã hóa bằng tên khoa học hoặc các loài động vật/thực vật kỳ lạ, đồng thời kết hợp thông tin về 'di sản địa lý ẩm thực' (terroir-inspired stories).",
+    "proposed_approach": "Khách hàng đặt món từ một 'danh mục ẩn'. Các món ăn sẽ được hiển thị theo cách trừu tượng:ví dụ: 'Gà Sóc Chim Hoàng Yến' (thay vì Cơm gà Tần Dương Châu), 'Cá Sấu Ngọc Bích' (thay vì Bò tái chuối xanh kiểu Thái). Mỗi gói hàng sẽ đi kèm một thẻ nhỏ với tên khoa học 'giả mạo' cho món ăn (ví dụ: 'Gallus gallus cygnus'). Sau khi ăn, khách có thể truy cập một nền tảng online dùng mã code trên thẻ để khám phá tên thật của món ăn, câu chuyện nguồn gốc, công thức bí mật, hoặc các mối…",
+    "prototype_scope": "Dịch vụ giao bữa trưa tại văn phòng cho 8 loại món ăn Á. Mỗi món có 1 tên 'loài hoa lai kỳ lạ', khách mở ra sẽ có link QR về tên món thật và 'truyền thuyết về nguyên liệu' (vài câu chuyện ngắn, fact hay ho về nguyên liệu chính. VD: Đậu Hà Lan là giống mới nuôi trong SA.)"
+  },
+  {
+    "candidate_id": "BLIND_0017",
+    "domain": "Artificial Intelligence App",
+    "title": "Nhạc Sư Trạng Thái Hành Vi",
+    "problem_or_desire": "Loay hoay tìm kiếm danh sách nhạc phù hợp cho từng mục đích (hỗ trợ tập trung, làm dịu căng thẳng, tăng động lực, chuẩn bị cho giấc ngủ...) và mất thời gian để thử nghiệm các lựa chọn âm nhạc khác nhau, với kết quả không ổn định.",
+    "core_concept": "Trí tuệ nhân tạo cá nhân hóa âm nhạc để chủ động điều hướng tâm trạng, từ lo âu đến sáng tạo tập trung, dựa trên dữ liệu sinh học và hành vi thời gian thực.",
+    "proposed_approach": "Ứng dụng theo dõi các dấu hiệu trạng thái của người dùng (như giọng nói phản hồi về cảm xúc hiện tại, mức độ vận động tay qua cảm ứng điện thoại). Dựa trên AI tiên tiến, nó phân tích mục tiêu người dùng (ví dụ: 'Cần tập trung cao') và cấu trúc/chỉnh sửa luồng nhạc tức thời – điều chỉnh micro-tempo, độ phức tạp bè, cộng hưởng để đưa người dùng đến trạng thái mong muốn nhanh chóng và duy trì liên tục.",
+    "prototype_scope": "Người dùng chọn một trong 3 mục tiêu: Tập trung, Thư giãn, Tăng năng lượng. AI bắt đầu phát nhạc tùy chỉnh từ các module âm nhạc dựa trên mục tiêu này và phát lại các bản nhạc trước theo phản hồi đơn giản (👍, 👎)."
+  },
+  {
+    "candidate_id": "BLIND_0009",
+    "domain": "Web App Services",
+    "title": "Mộng Kệ Tâm Đã",
+    "problem_or_desire": "Nỗi ám ảnh với những giấc mơ lặp đi lặp lại hoặc khó chịu; mong muốn hiểu rõ hơn biểu tượng cá nhân trong tiềm thức; khát vọng mãnh liệt được trải nghiệm và tái cấu trúc thế giới nội tâm một cách an toàn.",
+    "core_concept": "Một nền tảng web cho phép người dùng trải nghiệm lại giấc mơ, thay đổi kết cục hoặc khám phá tiềm thức theo cách nghệ thuật tương tác.",
+    "proposed_approach": "Ứng dụng web cung cấp các công cụ cho người dùng ghi lại giấc mơ chi tiết. Dựa trên các yếu tố chính và cảm xúc, AI tạo ra một 'kịch bản giấc mơ' số hóa. Người dùng sau đó có thể tương tác để thay đổi tình tiết, cảnh quan, hoặc nhân vật, nhận về những hình ảnh/kết cục 'tỉnh táo' khác biệt. Nó có thể kết hợp nhập liệu từ EEG hoặc các cảm biến sinh trắc học đơn giản trong tương lai xa.",
+    "prototype_scope": "Cho phép người dùng nhập mô tả chi tiết một giấc mơ. AI gợi ý 2-3 \"yếu tố thay đổi\" và tạo ra một chuỗi 5-7 hình ảnh tĩnh dựa trên mô tả đó. Người dùng chọn 1 'yếu tố thay đổi' và xem kết cục hình ảnh được AI điều chỉnh."
+  },
+  {
+    "candidate_id": "BLIND_0004",
+    "domain": "Artificial Intelligence App",
+    "title": "Chuyên Gia Đồng Cảm Di Truyền",
+    "problem_or_desire": "Cảm giác bối rối, hoặc thấy khó hiểu trước phản ứng cảm xúc mạnh mẽ đột ngột, hoặc hành vi đôi khi vô lý của bản thân hoặc người khác, và khao khát một 'lời giải thích khoa học' cá nhân cho nó.",
+    "core_concept": "Một ứng dụng AI phân tích dữ liệu gen để dự đoán và \"dịch\" cảm xúc/phản ứng khó lường dựa trên hồ sơ di truyền của người dùng.",
+    "proposed_approach": "Ứng dụng nhận dữ liệu bộ gen của người dùng (ví dụ từ dịch vụ giải mã ADN công cộng hoặc người dùng tự nhập dữ liệu gen ẩn danh/hợp pháp), sau đó áp dụng một bộ thuật toán AI để \"kỳ vọng\" các ngưỡng phản ứng với các kích thích tình huống điển hình (stress, tức giận, vui vẻ,...). Sau đó, nó cung cấp 'giải thích mang tính dự báo' khi các trạng thái đó xảy ra.",
+    "prototype_scope": "Phân tích một tập hợp nhỏ các gen đã biết có liên quan đến sự nhạy cảm với stress và cảnh báo người dùng về 'xác suất cao' có xu hướng hành vi (thay vì dự đoán hành động cụ thể)."
+  },
+  {
+    "candidate_id": "BLIND_0060",
+    "domain": "Restaurant Services",
+    "title": "Acoustic Cuisine Architect : Âm Nhạc Biến Đổi Hương Vị",
+    "problem_or_desire": "Nỗi sợ rằng bữa ăn không thực sự 'sâu' như nó nên có. Ai muốn những điều hoàn hảo, hoàn hảo, có nhịp điệu, có sắc thái, nhưng ko biết thế nào cho 'trúng' cho *cả bữa ăn và cuộc đời họ tại sao lại thế thì đã rất đáng quý lắm cho tôi việc gì đó.*",
+    "core_concept": "Nhà hàng/công nghệ tiên phong, sử dụng âm thanh có tần số, tiết tấu và cấu trúc không gian hóa để thay đổi perception (cảm nhận) về hương vị, tạo ra bảng 'spectrum of taste' dựa trên nhạc nền theo thời gian thực.",
+    "proposed_approach": "Các món ăn được xây dựng để tương thích và hưởng lợi từ một bảng phổ tần số và cấu trúc nhịp điệu nhất định. Ứng dụng công nghệ 'soundscape architecting' tại chỗ, sử dụng hệ thống loa chuyên dụng (ví dụ: binaural audio hoặc ambisonics) đặt chiến lược. Ví dụ: bài hát với bass trầm, tempo chậm có thể làm vị đắng của cà phê ngọt dịu hoặc đắng hơn tùy chủ đích, bài nhạc sôi động, nhiều note cao lại đẩy vị cay nóng 'hổ báo'. Mỗi set menu 'âm thanh - vị giác' sẽ được soạn thảo bởi…",
+    "prototype_scope": "Dự án thử nghiệm pop-up quán cà phê với 3 loại hạt: Espresso đơn nguồn (cacao đắng), Macchiato (carmel ngọt) và Flat white (dịu mát vani). Dùng 1 hệ thống loa chỉ 2 dải: bas trầm (cho Espresso tăng cảm giác 'tuyệt vọng' hơi cay nồng của caffeine) và treble bay bổng (cho Flat White làm thơm đắng dịu, cho Macchiato cho lớp espuma bông lại theo cach thi vị). Ghi log về 10 khách dùng thử ở mỗi combo, tổng cộng 4 combos (mỗi món cafe mỗi loại nhạc), tức 40 trải nghiệm. Test cả cù…"
+  },
+  {
+    "candidate_id": "BLIND_0104",
+    "domain": "Offline 2D Games",
+    "title": "Thợ Săn Âm Thanh Lạc Loài: Game Khám Phá Thế Giới Qua Âm Thanh",
+    "problem_or_desire": "Mong muốn trải nghiệm thế giới game theo một cách hoàn toàn mới, không chỉ bằng thị giác mà còn bằng thính giác; sự hứng thú với việc 'lắng nghe' và khám phá những chi tiết ẩn giấu.",
+    "core_concept": "Một game phiêu lưu 2D nơi người chơi điều khiển một 'thợ săn' sử dụng các thiết bị đặc biệt để thu thập, phân tích và tái tạo các âm thanh độc đáo của môi trường, từ đó mở khóa các khu vực mới và giải mã bí ẩn.",
+    "proposed_approach": "Xây dựng một thế giới 2D với các khu vực có hệ sinh thái âm thanh đặc trưng. Người chơi sử dụng 'máy dò âm thanh' để xác định nguồn âm, 'bộ ghi âm' để thu thập, và 'bộ phát âm thanh' để mô phỏng lại âm thanh đó, từ đó tương tác với môi trường (ví dụ: làm cây nở hoa, đánh thức sinh vật ngủ quên, mở cổng bằng tần số phù hợp).",
+    "prototype_scope": "Một khu vực nhỏ với 3-4 loại âm thanh độc đáo, một vài câu đố đơn giản dựa trên việc thu thập và phát lại âm thanh để mở khóa một khu vực mới."
+  },
+  {
+    "candidate_id": "BLIND_0033",
+    "domain": "Game Mobile",
+    "title": "Nhà Giả Kim Thời Gian",
+    "problem_or_desire": "Mong muốn khám phá các kịch bản 'điều gì sẽ xảy ra nếu' trong lịch sử và khoa học, và thử nghiệm với các quy luật nhân quả một cách an toàn và vui vẻ.",
+    "core_concept": "Một game mô phỏng/chiến thuật nơi người chơi quản lý một 'nhà máy' sản xuất các vật phẩm từ các dòng thời gian khác nhau, đối mặt với các nghịch lý và sự kiện lịch sử bất ngờ.",
+    "proposed_approach": "Người chơi điều hành một cơ sở có khả năng 'chiết xuất' vật liệu, công nghệ, hoặc thậm chí là các sinh vật từ các mốc thời gian khác nhau (ví dụ: lấy kim cương từ kỷ Phấn trắng, lấy chip bán dẫn từ tương lai xa). Họ phải quản lý nguồn cung, nhu cầu, và quan trọng nhất là 'sự ổn định thời gian', tránh tạo ra các nghịch lý lớn có thể phá hủy nhà máy hoặc thế giới.",
+    "prototype_scope": "Một vài loại 'nguyên liệu thời gian' có thể chiết xuất (ví dụ: 'Đồng nguyên thủy', 'Sắt thời Trung cổ', 'Năng lượng tương lai'). Một dây chuyền sản xuất đơn giản để kết hợp chúng thành một sản phẩm duy nhất. Một cơ chế 'nghịch lý' cơ bản gây ảnh hưởng tiêu cực nhỏ."
+  }
+]

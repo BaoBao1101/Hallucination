@@ -1,0 +1,289 @@
+{
+  "metadata": {
+    "pipeline": "CHVD",
+    "version": "v5.4",
+    "stage": "zero_temperature_hallucination_distiller_to_realistic_mvp",
+    "language": "vi",
+    "evaluation_mode": "prompt_only_internal_logic_hallucination_distillation",
+    "description": "Tách creative core khỏi hallucinated overclaim, hiện thực hóa thành MVP khả thi hơn, không dùng corpus/evidence scoring.",
+    "normalized_at": "2026-06-22T08:30:17",
+    "filter_model": "gemini-2.5-flash-lite",
+    "filter_temperature": 0.0,
+    "filter_top_p": 0.1,
+    "input_file": "outputs_v5_3\\ideas_raw_vi.json",
+    "source_generator_metadata": {
+      "pipeline": "CHVD",
+      "version": "v5.3",
+      "domain": "Artificial Intelligence App",
+      "language": "vi",
+      "mode": "prompt_only_no_corpus_no_weak_signals",
+      "temperature_role": "maximal_divergent_creativity",
+      "stage": "high_temperature_creative_hallucination_generator",
+      "saved_at": "2026-06-22T08:28:18",
+      "generator_model": "gemini-2.5-flash-lite",
+      "generator_temperature": 2.0,
+      "generator_top_p": 0.99,
+      "user_prompt": ""
+    },
+    "raw_filter_text": "{\n  \"metadata\": {\n    \"pipeline\": \"CHVD\",\n    \"version\": \"v5.4\",\n    \"stage\": \"zero_temperature_hallucination_distiller_to_realistic_mvp\",\n    \"language\": \"vi\",\n    \"evaluation_mode\": \"prompt_only_internal_logic_hallucination_distillation\",\n    \"description\": \"Tách creative core khỏi hallucinated overclaim, hiện thực hóa thành MVP khả thi hơn, không dùng corpus/evidence scoring.\"\n  },\n  \"evaluations\": [\n    {\n      \"idea_id\": \"I001\",\n      \"idea_name\": \"Mô Phỏng Giấc Mơ Tùy Chỉnh\",\n      \"raw_hallucination_summary\": \"Ý tưởng gốc mô tả một ứng dụng AI có khả năng tạo ra và cho phép người dùng tương tác, điều hướng giấc mơ theo thời gian thực thông qua giao diện não-máy tính (BCI) hoặc tín hiệu sinh học cơ bản. Phần 'sáng tạo nhảy vọt' và 'tại sao bây giờ' đều dựa trên giả định mạnh mẽ về khả năng BCI và AI ngoại suy trạng thái mơ, điều này hiện tại nằm trong lĩnh vực khoa học viễn tưởng.\",\n      \"creative_core_to_preserve\": \"Khát vọng của con người muốn khám phá và định hình thế giới nội tâm, sử dụng công nghệ để tạo ra trải nghiệm cá nhân hóa sâu sắc. Hạt nhân sáng tạo nằm ở việc ứng dụng AI tạo sinh để tạo ra các trải nghiệm đa giác quan dựa trên mong muốn của người dùng, dù ban đầu chỉ là mô phỏng thụ động.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Khả năng tương tác và điều hướng giấc mơ thực tế thông qua BCI hoặc tín hiệu sinh học cơ bản.\",\n        \"Khẳng định AI có thể 'tổng hợp dữ liệu sinh học thô theo thời gian thực' để 'ngắm' trạng thái mơ.\",\n        \"Việc định hình lại kết quả giấc mơ 'ngay cả khi đang ngủ' thông qua phản hồi non-stop.\"\n      ],\n      \"realistic_reframing\": \"Một ứng dụng AI tạo sinh (Generative AI) giúp người dùng mô tả mong muốn về một giấc mơ (dưới dạng văn bản, hình ảnh tham khảo). AI sẽ tạo ra một chuỗi trải nghiệm thị giác và âm thanh ngắn, mang tính gợi mở, dựa trên mô tả đó. Trải nghiệm này không phải là giấc mơ thực tế mà là một dạng 'phim cá nhân hóa' hoặc 'kịch bản giấc mơ' để người dùng xem hoặc nghe trước khi ngủ, hoặc để khơi gợi cảm hứng.\",\n      \"practical_mvp\": \"Một ứng dụng web/di động cho phép người dùng nhập mô tả văn bản về một cảnh hoặc câu chuyện giấc mơ mong muốn. AI tạo sinh (ví dụ: sử dụng các mô hình như Stable Diffusion cho hình ảnh và các mô hình ngôn ngữ lớn cho kịch bản/âm thanh nền) sẽ tạo ra một video ngắn hoặc một chuỗi hình ảnh động kèm âm thanh, phản ánh chủ đề và cảm xúc được yêu cầu. Người dùng có thể xem lại hoặc chia sẻ.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Xây dựng giao diện người dùng đơn giản để nhập mô tả giấc mơ (văn bản).\",\n        \"Tích hợp một mô hình AI tạo ảnh (text-to-image) để tạo ra các hình ảnh tĩnh hoặc chuỗi hình ảnh dựa trên prompt.\",\n        \"Tích hợp một mô hình AI tạo văn bản (LLM) để tạo ra một đoạn mô tả ngắn hoặc kịch bản dựa trên prompt.\",\n        \"Sử dụng các thư viện âm thanh có sẵn hoặc tạo âm thanh nền đơn giản dựa trên chủ đề.\",\n        \"Kết hợp các yếu tố trên thành một video/trình chiếu ngắn.\",\n        \"Cho phép người dùng xem và lưu lại kết quả.\"\n      ],\n      \"scores\": {\n        \"novelty\": 3.5,\n        \"creative_core_strength\": 4.0,\n        \"creative_core_preservation\": 4.0,\n        \"reframing_quality\": 4.5,\n        \"conceptual_coherence\": 4.0,\n        \"user_pain_plausibility\": 3.5,\n        \"technical_plausibility\": 3.5,\n        \"mvp_clarity\": 4.5,\n        \"business_model_plausibility\": 3.0,\n        \"hallucination_risk_after_reframing\": 2.5\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Cần chỉnh\",\n      \"expert_rationale\": \"Ý tưởng gốc có tham vọng cao nhưng dựa nhiều vào công nghệ viễn tưởng (BCI). Bản reframing tập trung vào việc sử dụng AI tạo sinh hiện có để tạo ra trải nghiệm 'mô phỏng giấc mơ' dưới dạng nội dung đa phương tiện thụ động. Điều này giữ lại hạt nhân sáng tạo về việc cá nhân hóa trải nghiệm nội tâm nhưng loại bỏ các yếu tố không khả thi. MVP rõ ràng và có thể xây dựng trong thời gian ngắn. Tuy nhiên, tính độc đáo của trải nghiệm so với các ứng dụng tạo nội dung sáng tạo khác cần được làm rõ hơn, và mô hình kinh doanh cần được phát triển thêm.\",\n      \"strong_points_after_reframing\": [\n        \"Giữ lại ý tưởng cốt lõi về việc tạo ra trải nghiệm cá nhân hóa sâu sắc dựa trên mong muốn của người dùng.\",\n        \"Loại bỏ hoàn toàn các yếu tố BCI và điều hướng giấc mơ thời gian thực, thay thế bằng nội dung đa phương tiện thụ động.\",\n        \"MVP rõ ràng, tập trung vào việc tạo video/hình ảnh ngắn từ mô tả văn bản.\",\n        \"Khả năng tạo ra sản phẩm thử nghiệm nhanh chóng với các công cụ AI tạo sinh hiện có.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Trải nghiệm 'mô phỏng giấc mơ' có thể không đủ độc đáo hoặc hấp dẫn so với các ứng dụng tạo nội dung sáng tạo khác.\",\n        \"Mô hình kinh doanh còn mơ hồ, cần xác định rõ giá trị gia tăng để người dùng sẵn sàng trả phí.\",\n        \"Cần làm rõ hơn sự khác biệt và lợi ích so với các công cụ AI tạo ảnh/video hiện có.\"\n      ],\n      \"validation_needed_later\": [\n        \"Mức độ hài lòng của người dùng với trải nghiệm 'mô phỏng giấc mơ' thụ động.\",\n        \"Khả năng phân biệt và tạo ra trải nghiệm thực sự độc đáo so với các công cụ AI tạo nội dung khác.\",\n        \"Nhu cầu thị trường cho loại nội dung này và khả năng chi trả.\"\n      ],\n      \"final_recommendation\": \"Tập trung vào việc làm cho trải nghiệm tạo nội dung đa phương tiện trở nên độc đáo và có ý nghĩa hơn, có thể bằng cách tích hợp các yếu tố gợi nhớ hoặc cá nhân hóa sâu hơn từ dữ liệu người dùng (nếu có thể xử lý an toàn và có đạo đức). Phát triển mô hình kinh doanh rõ ràng hơn.\"\n    },\n    {\n      \"idea_id\": \"I002\",\n      \"idea_name\": \"Chuyên Gia Đồng Cảm Di Truyền\",\n      \"raw_hallucination_summary\": \"Ý tưởng gốc đề xuất một ứng dụng AI phân tích dữ liệu gen để dự đoán và 'dịch' cảm xúc/phản ứng khó lường của con người. Phần 'sáng tạo nhảy vọt' và 'kết nối không hiển nhiên' ám chỉ mối liên hệ trực tiếp và có thể dự đoán được giữa cấu trúc bộ gen và các hành vi cảm xúc chi tiết, điều này hiện tại là một lĩnh vực nghiên cứu rất sơ khai và phức tạp, vượt xa khả năng dự đoán chính xác của AI hiện tại.\",\n      \"creative_core_to_preserve\": \"Mong muốn hiểu sâu hơn về bản thân, đặc biệt là nguồn gốc của các phản ứng cảm xúc, và tìm kiếm lời giải thích khoa học cho hành vi cá nhân. Hạt nhân sáng tạo nằm ở việc khám phá mối liên hệ tiềm ẩn giữa yếu tố sinh học nội tại (gen) và biểu hiện cảm xúc bên ngoài, dù chỉ ở mức độ 'khuynh hướng'.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Khả năng 'dịch' cảm xúc/phản ứng khó lường dựa trên hồ sơ di truyền.\",\n        \"Khẳng định AI có thể 'kỳ vọng' các ngưỡng phản ứng với kích thích tình huống điển hình.\",\n        \"Việc cung cấp 'giải thích mang tính dự báo' khi các trạng thái đó xảy ra dựa trên gen.\",\n        \"Mối liên hệ trực tiếp và có thể định lượng giữa cấu trúc bộ gen và các hành vi cảm xúc chi tiết.\"\n      ],\n      \"realistic_reframing\": \"Một ứng dụng cung cấp thông tin giáo dục và phân tích dựa trên các nghiên cứu khoa học hiện có về mối liên hệ giữa các biến thể gen đã biết và các khuynh hướng tính cách/cảm xúc chung. Ứng dụng sẽ yêu cầu người dùng cung cấp dữ liệu gen (từ các dịch vụ bên thứ ba hoặc nhập thủ công các biến thể gen cụ thể đã biết) và sau đó trình bày các 'khuynh hướng có thể có' dựa trên các bằng chứng khoa học được công bố, kèm theo cảnh báo rõ ràng về tính phức tạp và hạn chế của mối liên hệ này. Nó hoạt động như một công cụ 'khám phá bản thân' dựa trên khoa học, không phải là công cụ dự đoán hành vi.\",\n      \"practical_mvp\": \"Một ứng dụng web/di động cho phép người dùng nhập một số biến thể gen cụ thể (ví dụ: rsID) mà họ quan tâm hoặc đã có kết quả từ các dịch vụ giải mã gen. Ứng dụng sẽ tra cứu trong một cơ sở dữ liệu được xây dựng từ các nghiên cứu khoa học đã công bố (ví dụ: PubMed, các bài báo khoa học uy tín) để tìm các mối liên hệ đã được báo cáo giữa các biến thể gen đó và các đặc điểm tính cách/khuynh hướng cảm xúc chung (ví dụ: khuynh hướng lo âu, mức độ nhạy cảm với stress). Kết quả sẽ được trình bày dưới dạng báo cáo thông tin, nhấn mạnh tính xác suất và sự phức tạp của di truyền học.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Xây dựng giao diện người dùng để nhập các biến thể gen (rsID).\",\n        \"Thiết lập một cơ sở dữ liệu ban đầu chứa các biến thể gen phổ biến và các khuynh hướng tính cách/cảm xúc được liên kết trong các nghiên cứu khoa học đã công bố.\",\n        \"Phát triển thuật toán tra cứu và tổng hợp thông tin từ cơ sở dữ liệu.\",\n        \"Thiết kế giao diện hiển thị kết quả dưới dạng báo cáo thông tin, có cảnh báo rõ ràng về tính xác suất và hạn chế.\",\n        \"Tập trung vào việc cung cấp thông tin giáo dục, không đưa ra dự đoán cá nhân.\",\n        \"Đảm bảo ẩn danh hóa và bảo mật dữ liệu người dùng.\"\n      ],\n      \"scores\": {\n        \"novelty\": 3.0,\n        \"creative_core_strength\": 3.5,\n        \"creative_core_preservation\": 4.0,\n        \"reframing_quality\": 4.5,\n        \"conceptual_coherence\": 4.0,\n        \"user_pain_plausibility\": 4.0,\n        \"technical_plausibility\": 4.0,\n        \"mvp_clarity\": 4.5,\n        \"business_model_plausibility\": 3.5,\n        \"hallucination_risk_after_reframing\": 1.5\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"expert_rationale\": \"Ý tưởng gốc quá tham vọng và dựa trên khoa học chưa đủ vững chắc. Bản reframing chuyển hướng sang cung cấp thông tin giáo dục dựa trên các nghiên cứu khoa học hiện có, giảm thiểu rủi ro về dự đoán sai và vấn đề đạo đức. MVP tập trung vào việc tra cứu và tổng hợp thông tin, có thể thực hiện được với công nghệ hiện tại. Nhu cầu hiểu bản thân và sự quan tâm đến di truyền học là có thật. Tuy nhiên, cần cẩn trọng trong việc trình bày thông tin để tránh gây hiểu lầm.\",\n      \"strong_points_after_reframing\": [\n        \"Chuyển từ dự đoán sang cung cấp thông tin giáo dục dựa trên khoa học đã công bố.\",\n        \"Giảm thiểu rủi ro về đạo đức và dự đoán sai.\",\n        \"MVP rõ ràng, tập trung vào việc tra cứu và tổng hợp thông tin từ các nguồn khoa học.\",\n        \"Tận dụng sự quan tâm ngày càng tăng của công chúng đối với di truyền học và sức khỏe cá nhân.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Tính độc đáo có thể bị hạn chế nếu chỉ dựa trên các nghiên cứu đã có.\",\n        \"Cần xây dựng và duy trì một cơ sở dữ liệu khoa học cập nhật và đáng tin cậy.\",\n        \"Mô hình kinh doanh cần được làm rõ hơn ngoài việc chỉ cung cấp thông tin.\"\n      ],\n      \"validation_needed_later\": [\n        \"Mức độ tin cậy và sự hữu ích của thông tin được cung cấp đối với người dùng.\",\n        \"Khả năng người dùng hiểu đúng và không hiểu sai các thông tin về di truyền và tính cách.\",\n        \"Chiến lược để cập nhật cơ sở dữ liệu khoa học một cách liên tục và chính xác.\"\n      ],\n      \"final_recommendation\": \"Tập trung vào việc xây dựng một cơ sở dữ liệu khoa học mạnh mẽ và giao diện người dùng thân thiện, dễ hiểu. Cân nhắc các mô hình kinh doanh như báo cáo di truyền chi tiết (dựa trên các biến thể gen đã biết và nghiên cứu), hoặc các khóa học/webinar về di truyền học cá nhân.\"\n    },\n    {\n      \"idea_id\": \"I003\",\n      \"idea_name\": \"Kiến Trúc Sư Di Sản Số\",\n      \"raw_hallucination_summary\": \"Ý tưởng gốc đề xuất AI 'sắp đặt lại và bổ sung' dữ liệu số cũ để tạo ra các tương tác tự nhiên như trò chuyện, đưa ra lời khuyên, hoặc mô phỏng 'phiên bản số' của người đã khuất. Phần 'sáng tạo nhảy vọt' và 'kết nối không hiển nhiên' ám chỉ khả năng AI tạo ra một 'persona kỹ thuật số' đủ sâu sắc, có thể 'sáng tạo' dựa trên dữ liệu hạn chế, và tái tạo 'tư duy chiều sâu' một cách nhất quán, điều này hiện tại rất khó và mang tính khoa học viễn tưởng.\",\n      \"creative_core_to_preserve\": \"Nhu cầu lưu giữ và hồi sinh ký ức số cá nhân/gia đình, mong muốn kết nối với quá khứ và hiểu rõ hơn về tổ tiên. Hạt nhân sáng tạo nằm ở việc biến kho lưu trữ số tĩnh thành một không gian tương tác, nơi ký ức được 'sống lại' và có thể khám phá.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Khả năng AI 'sáng tạo' dựa trên dữ liệu hạn chế để tạo ra persona sâu sắc.\",\n        \"Tái tạo 'tư duy chiều sâu' và các tương tác ý nghĩa một cách nhất quán.\",\n        \"Mô phỏng lời khuyên của người đã khuất trong tình huống nhất định.\",\n        \"Việc tạo ra một 'phiên bản số' có thể trò chuyện tự nhiên như người thật.\"\n      ],\n      \"realistic_reframing\": \"Một nền tảng lưu trữ và tổ chức dữ liệu số cá nhân/gia đình (ảnh, video, email, nhật ký, ghi âm). AI được sử dụng để phân loại, nhận dạng khuôn mặt/giọng nói, trích xuất chủ đề chính, và tạo ra các 'dòng thời gian ký ức' tương tác. Người dùng có thể tìm kiếm ký ức theo chủ đề, người, hoặc thời gian, và xem lại các kỷ niệm được trình bày một cách trực quan và có ngữ cảnh. Có thể có tính năng tạo 'trích dẫn nổi bật' hoặc 'tóm tắt câu chuyện' từ dữ liệu văn bản.\",\n      \"practical_mvp\": \"Một ứng dụng web cho phép người dùng tải lên các file ảnh, video, và văn bản (nhật ký, email). AI sẽ thực hiện: 1) Nhận dạng khuôn mặt và gắn thẻ người. 2) Phân loại nội dung theo chủ đề (ví dụ: du lịch, gia đình, công việc). 3) Tạo dòng thời gian trực quan của các kỷ niệm. 4) Cho phép tìm kiếm theo từ khóa, người, hoặc chủ đề. 5) Trích xuất các 'câu trích dẫn đáng nhớ' từ dữ liệu văn bản.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Xây dựng giao diện tải lên file (ảnh, video, văn bản).\",\n        \"Tích hợp API nhận dạng khuôn mặt (ví dụ: Google Vision AI, AWS Rekognition).\",\n        \"Tích hợp API phân loại văn bản/chủ đề (ví dụ: Google Natural Language API).\",\n        \"Phát triển logic để tạo dòng thời gian và hiển thị các kỷ niệm.\",\n        \"Xây dựng chức năng tìm kiếm cơ bản.\",\n        \"Cho phép người dùng xem lại các 'câu trích dẫn nổi bật' từ nhật ký/email.\",\n        \"Đảm bảo bảo mật và quyền riêng tư cho dữ liệu người dùng.\"\n      ],\n      \"scores\": {\n        \"novelty\": 3.5,\n        \"creative_core_strength\": 4.0,\n        \"creative_core_preservation\": 4.0,\n        \"reframing_quality\": 4.5,\n        \"conceptual_coherence\": 4.5,\n        \"user_pain_plausibility\": 4.5,\n        \"technical_plausibility\": 4.0,\n        \"mvp_clarity\": 4.5,\n        \"business_model_plausibility\": 4.0,\n        \"hallucination_risk_after_reframing\": 2.0\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"expert_rationale\": \"Ý tưởng gốc có yếu tố khoa học viễn tưởng mạnh mẽ về việc tái tạo persona. Bản reframing tập trung vào việc tổ chức và làm cho kho lưu trữ số trở nên có thể khám phá và tương tác được, giữ lại nhu cầu cốt lõi về di sản số. MVP rõ ràng, sử dụng các công nghệ AI hiện có để phân loại và tìm kiếm. Vấn đề đạo đức và bản quyền vẫn cần được xem xét kỹ lưỡng, nhưng ở mức độ MVP này, rủi ro được giảm thiểu. Nhu cầu về việc lưu giữ ký ức gia đình là rất lớn.\",\n      \"strong_points_after_reframing\": [\n        \"Tập trung vào việc tổ chức và làm cho kho lưu trữ số trở nên có thể khám phá, thay vì tái tạo persona.\",\n        \"Sử dụng các công nghệ AI hiện có (nhận dạng khuôn mặt, phân loại văn bản) để tạo giá trị.\",\n        \"MVP rõ ràng, có thể xây dựng và thử nghiệm nhanh chóng.\",\n        \"Giải quyết một nhu cầu cảm xúc và thực tế mạnh mẽ của người dùng (lưu giữ ký ức gia đình).\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Tính độc đáo có thể bị ảnh hưởng bởi các dịch vụ lưu trữ đám mây hiện có.\",\n        \"Cần làm rõ hơn giá trị gia tăng so với các giải pháp lưu trữ đơn thuần.\",\n        \"Vấn đề đạo đức và bản quyền cần được xử lý cẩn thận khi mở rộng tính năng.\"\n      ],\n      \"validation_needed_later\": [\n        \"Mức độ người dùng sẵn sàng tải lên và tổ chức dữ liệu cá nhân/gia đình.\",\n        \"Hiệu quả của AI trong việc phân loại và tạo ngữ cảnh cho các kỷ niệm.\",\n        \"Phản hồi về trải nghiệm khám phá và tìm kiếm ký ức.\"\n      ],\n      \"final_recommendation\": \"Tập trung vào việc tạo ra trải nghiệm người dùng mượt mà và trực quan cho việc tổ chức và khám phá ký ức. Cân nhắc các tính năng bổ sung như tạo album ảnh thông minh, video tóm tắt kỷ niệm, hoặc khả năng chia sẻ có kiểm soát với các thành viên gia đình.\"\n    },\n    {\n      \"idea_id\": \"I004\",\n      \"idea_name\": \"Nhạc Sư Trạng Thái Hành Vi\",\n      \"raw_hallucination_summary\": \"Ý tưởng gốc đề xuất AI cá nhân hóa âm nhạc để chủ động điều hướng tâm trạng bằng cách 'biến tấu các tham số âm nhạc theo thời gian thực một cách thích ứng, đồng bộ hóa chặt chẽ với dấu hiệu sinh học và mô hình sử dụng'. Phần 'sáng tạo nhảy vọt' và 'kết nối không hiển nhiên' ám chỉ khả năng AI giải mã cảm xúc chi tiết qua âm thanh và cung cấp phản hồi sinh học phù hợp với 'thiết kế hành vi mục tiêu' một cách chính xác, điều này rất khó và mang tính khoa học viễn tưởng.\",\n      \"creative_core_to_preserve\": \"Nhu cầu sử dụng âm nhạc như một công cụ để điều chỉnh tâm trạng, năng suất và trạng thái cảm xúc. Hạt nhân sáng tạo nằm ở việc tạo ra âm nhạc được tùy chỉnh để phù hợp với mục tiêu cụ thể của người dùng, thay vì chỉ là các danh sách phát được tuyển chọn.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Khả năng AI 'giải mã cảm xúc chi tiết qua âm thanh' và cung cấp phản hồi sinh học phù hợp.\",\n        \"Việc 'biến tấu các tham số âm nhạc theo thời gian thực một cách thích ứng' dựa trên tín hiệu sinh học phức tạp.\",\n        \"Khẳng định AI có thể 'thiết kế hành vi mục tiêu' thông qua âm nhạc.\"\n      ],\n      \"realistic_reframing\": \"Một ứng dụng phát nhạc được tạo ra bởi AI, tập trung vào việc tạo ra các bản nhạc nền (ambient music) phù hợp với các mục tiêu trạng thái người dùng đã chọn (ví dụ: Tập trung, Thư giãn, Năng lượng). AI sẽ điều chỉnh các yếu tố như nhịp độ, giai điệu, và độ phức tạp của âm nhạc dựa trên các mô hình âm nhạc đã được chứng minh là có tác động đến trạng thái tinh thần, và có thể nhận phản hồi đơn giản từ người dùng (thích/không thích) để tinh chỉnh dần.\",\n      \"practical_mvp\": \"Một ứng dụng web/di động cho phép người dùng chọn một trong 3-4 mục tiêu trạng thái (ví dụ: 'Tập trung', 'Thư giãn', 'Năng lượng'). AI sẽ tạo ra một bản nhạc nền gốc, liên tục thay đổi (generative ambient music) dựa trên các tham số được thiết lập sẵn cho từng mục tiêu. Người dùng có thể đánh giá bản nhạc (ví dụ: nút 👍/👎) để AI học hỏi và điều chỉnh các bản nhạc tiếp theo trong phiên đó hoặc các phiên sau. Không có phân tích tín hiệu sinh học phức tạp.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Xây dựng giao diện chọn mục tiêu trạng thái.\",\n        \"Tích hợp một mô hình AI tạo nhạc nền (generative music engine) có khả năng tạo ra các bản nhạc liên tục thay đổi.\",\n        \"Thiết lập các bộ tham số âm nhạc ban đầu cho từng mục tiêu (ví dụ: nhịp độ chậm cho Thư giãn, nhịp độ nhanh hơn cho Tập trung).\",\n        \"Triển khai hệ thống phản hồi đơn giản (👍/👎) để người dùng đánh giá bản nhạc.\",\n        \"Sử dụng phản hồi để tinh chỉnh các tham số âm nhạc trong các lần phát tiếp theo.\",\n        \"Cho phép người dùng nghe nhạc nền trong một khoảng thời gian nhất định.\"\n      ],\n      \"scores\": {\n        \"novelty\": 3.0,\n        \"creative_core_strength\": 3.5,\n        \"creative_core_preservation\": 4.0,\n        \"reframing_quality\": 4.0,\n        \"conceptual_coherence\": 4.0,\n        \"user_pain_plausibility\": 4.0,\n        \"technical_plausibility\": 3.5,\n        \"mvp_clarity\": 4.0,\n        \"business_model_plausibility\": 3.5,\n        \"hallucination_risk_after_reframing\": 2.0\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Cần chỉnh\",\n      \"expert_rationale\": \"Ý tưởng gốc quá phức tạp và dựa trên khả năng giải mã sinh học chưa thực tế. Bản reframing tập trung vào việc tạo nhạc nền AI cho các mục tiêu trạng thái đã chọn, sử dụng phản hồi đơn giản của người dùng để tinh chỉnh. Điều này giữ lại ý tưởng cốt lõi về âm nhạc cá nhân hóa để điều chỉnh tâm trạng nhưng loại bỏ các yếu tố không khả thi. MVP rõ ràng và có thể xây dựng. Tuy nhiên, tính độc đáo so với các ứng dụng nhạc thiền/tập trung hiện có cần được làm rõ.\",\n      \"strong_points_after_reframing\": [\n        \"Tập trung vào việc tạo nhạc nền AI cho các mục tiêu trạng thái đã chọn.\",\n        \"Loại bỏ các yếu tố phân tích sinh học phức tạp và thay thế bằng phản hồi người dùng đơn giản.\",\n        \"MVP rõ ràng, có thể xây dựng với các công cụ tạo nhạc AI hiện có.\",\n        \"Giải quyết nhu cầu sử dụng âm nhạc để cải thiện năng suất và tâm trạng.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Tính độc đáo có thể bị hạn chế so với các ứng dụng nhạc thiền, tập trung hoặc danh sách phát được tuyển chọn.\",\n        \"Cần làm rõ cách thức AI tạo nhạc sẽ vượt trội hơn các giải pháp hiện có.\",\n        \"Mô hình kinh doanh cần được phát triển thêm để cạnh tranh trong thị trường âm nhạc streaming.\"\n      ],\n      \"validation_needed_later\": [\n        \"Mức độ hiệu quả của âm nhạc được tạo ra trong việc đạt được các mục tiêu trạng thái của người dùng.\",\n        \"Phản hồi về trải nghiệm nghe nhạc nền liên tục thay đổi.\",\n        \"So sánh với các ứng dụng nhạc thiền/tập trung hiện có trên thị trường.\"\n      ],\n      \"final_recommendation\": \"Tập trung vào việc tạo ra chất lượng âm nhạc độc đáo và trải nghiệm người dùng hấp dẫn. Cân nhắc các tính năng như khả năng tùy chỉnh sâu hơn các yếu tố âm nhạc, hoặc tích hợp với các ứng dụng năng suất khác. Phát triển mô hình kinh doanh rõ ràng hơn, có thể là đăng ký cao cấp cho âm nhạc chất lượng cao và tùy biến.\"\n    }\n  ],\n  \"ranked_summary\": [\n    {\n      \"rank\": 1,\n      \"idea_id\": \"I003\",\n      \"idea_name\": \"Kiến Trúc Sư Di Sản Số\",\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"hallucination_risk_after_reframing\": 2.0\n    },\n    {\n      \"rank\": 2,\n      \"idea_id\": \"I002\",\n      \"idea_name\": \"Chuyên Gia Đồng Cảm Di Truyền\",\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"hallucination_risk_after_reframing\": 1.5\n    },\n    {\n      \"rank\": 3,\n      \"idea_id\": \"I004\",\n      \"idea_name\": \"Nhạc Sư Trạng Thái Hành Vi\",\n      \"overall_score\": 0,\n      \"decision\": \"Cần chỉnh\",\n      \"hallucination_risk_after_reframing\": 2.0\n    },\n    {\n      \"rank\": 4,\n      \"idea_id\": \"I001\",\n      \"idea_name\": \"Mô Phỏng Giấc Mơ Tùy Chỉnh\",\n      \"overall_score\": 0,\n      \"decision\": \"Cần chỉnh\",\n      \"hallucination_risk_after_reframing\": 2.5\n    }\n  ]\n}"
+  },
+  "evaluations": [
+    {
+      "idea_id": "I003",
+      "idea_name": "Kiến Trúc Sư Di Sản Số",
+      "raw_hallucination_summary": "Ý tưởng gốc đề xuất AI 'sắp đặt lại và bổ sung' dữ liệu số cũ để tạo ra các tương tác tự nhiên như trò chuyện, đưa ra lời khuyên, hoặc mô phỏng 'phiên bản số' của người đã khuất. Phần 'sáng tạo nhảy vọt' và 'kết nối không hiển nhiên' ám chỉ khả năng AI tạo ra một 'persona kỹ thuật số' đủ sâu sắc, có thể 'sáng tạo' dựa trên dữ liệu hạn chế, và tái tạo 'tư duy chiều sâu' một cách nhất quán, điều này hiện tại rất khó và mang tính khoa học viễn tưởng.",
+      "creative_core_to_preserve": "Nhu cầu lưu giữ và hồi sinh ký ức số cá nhân/gia đình, mong muốn kết nối với quá khứ và hiểu rõ hơn về tổ tiên. Hạt nhân sáng tạo nằm ở việc biến kho lưu trữ số tĩnh thành một không gian tương tác, nơi ký ức được 'sống lại' và có thể khám phá.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Khả năng AI 'sáng tạo' dựa trên dữ liệu hạn chế để tạo ra persona sâu sắc.",
+        "Tái tạo 'tư duy chiều sâu' và các tương tác ý nghĩa một cách nhất quán.",
+        "Mô phỏng lời khuyên của người đã khuất trong tình huống nhất định.",
+        "Việc tạo ra một 'phiên bản số' có thể trò chuyện tự nhiên như người thật."
+      ],
+      "realistic_reframing": "Một nền tảng lưu trữ và tổ chức dữ liệu số cá nhân/gia đình (ảnh, video, email, nhật ký, ghi âm). AI được sử dụng để phân loại, nhận dạng khuôn mặt/giọng nói, trích xuất chủ đề chính, và tạo ra các 'dòng thời gian ký ức' tương tác. Người dùng có thể tìm kiếm ký ức theo chủ đề, người, hoặc thời gian, và xem lại các kỷ niệm được trình bày một cách trực quan và có ngữ cảnh. Có thể có tính năng tạo 'trích dẫn nổi bật' hoặc 'tóm tắt câu chuyện' từ dữ liệu văn bản.",
+      "practical_mvp": "Một ứng dụng web cho phép người dùng tải lên các file ảnh, video, và văn bản (nhật ký, email). AI sẽ thực hiện: 1) Nhận dạng khuôn mặt và gắn thẻ người. 2) Phân loại nội dung theo chủ đề (ví dụ: du lịch, gia đình, công việc). 3) Tạo dòng thời gian trực quan của các kỷ niệm. 4) Cho phép tìm kiếm theo từ khóa, người, hoặc chủ đề. 5) Trích xuất các 'câu trích dẫn đáng nhớ' từ dữ liệu văn bản.",
+      "mvp_7_to_30_day_plan": [
+        "Xây dựng giao diện tải lên file (ảnh, video, văn bản).",
+        "Tích hợp API nhận dạng khuôn mặt (ví dụ: Google Vision AI, AWS Rekognition).",
+        "Tích hợp API phân loại văn bản/chủ đề (ví dụ: Google Natural Language API).",
+        "Phát triển logic để tạo dòng thời gian và hiển thị các kỷ niệm.",
+        "Xây dựng chức năng tìm kiếm cơ bản.",
+        "Cho phép người dùng xem lại các 'câu trích dẫn nổi bật' từ nhật ký/email.",
+        "Đảm bảo bảo mật và quyền riêng tư cho dữ liệu người dùng."
+      ],
+      "scores": {
+        "novelty": 3.5,
+        "creative_core_strength": 4.0,
+        "creative_core_preservation": 4.0,
+        "reframing_quality": 4.5,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 4.0,
+        "hallucination_risk_after_reframing": 2.0
+      },
+      "overall_score": 73.75,
+      "decision": "Tiềm năng",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Tiềm năng",
+      "expert_rationale": "Ý tưởng gốc có yếu tố khoa học viễn tưởng mạnh mẽ về việc tái tạo persona. Bản reframing tập trung vào việc tổ chức và làm cho kho lưu trữ số trở nên có thể khám phá và tương tác được, giữ lại nhu cầu cốt lõi về di sản số. MVP rõ ràng, sử dụng các công nghệ AI hiện có để phân loại và tìm kiếm. Vấn đề đạo đức và bản quyền vẫn cần được xem xét kỹ lưỡng, nhưng ở mức độ MVP này, rủi ro được giảm thiểu. Nhu cầu về việc lưu giữ ký ức gia đình là rất lớn.",
+      "strong_points_after_reframing": [
+        "Tập trung vào việc tổ chức và làm cho kho lưu trữ số trở nên có thể khám phá, thay vì tái tạo persona.",
+        "Sử dụng các công nghệ AI hiện có (nhận dạng khuôn mặt, phân loại văn bản) để tạo giá trị.",
+        "MVP rõ ràng, có thể xây dựng và thử nghiệm nhanh chóng.",
+        "Giải quyết một nhu cầu cảm xúc và thực tế mạnh mẽ của người dùng (lưu giữ ký ức gia đình)."
+      ],
+      "weak_points_after_reframing": [
+        "Tính độc đáo có thể bị ảnh hưởng bởi các dịch vụ lưu trữ đám mây hiện có.",
+        "Cần làm rõ hơn giá trị gia tăng so với các giải pháp lưu trữ đơn thuần.",
+        "Vấn đề đạo đức và bản quyền cần được xử lý cẩn thận khi mở rộng tính năng."
+      ],
+      "validation_needed_later": [
+        "Mức độ người dùng sẵn sàng tải lên và tổ chức dữ liệu cá nhân/gia đình.",
+        "Hiệu quả của AI trong việc phân loại và tạo ngữ cảnh cho các kỷ niệm.",
+        "Phản hồi về trải nghiệm khám phá và tìm kiếm ký ức."
+      ],
+      "final_recommendation": "Tập trung vào việc tạo ra trải nghiệm người dùng mượt mà và trực quan cho việc tổ chức và khám phá ký ức. Cân nhắc các tính năng bổ sung như tạo album ảnh thông minh, video tóm tắt kỷ niệm, hoặc khả năng chia sẻ có kiểm soát với các thành viên gia đình."
+    },
+    {
+      "idea_id": "I001",
+      "idea_name": "Mô Phỏng Giấc Mơ Tùy Chỉnh",
+      "raw_hallucination_summary": "Ý tưởng gốc mô tả một ứng dụng AI có khả năng tạo ra và cho phép người dùng tương tác, điều hướng giấc mơ theo thời gian thực thông qua giao diện não-máy tính (BCI) hoặc tín hiệu sinh học cơ bản. Phần 'sáng tạo nhảy vọt' và 'tại sao bây giờ' đều dựa trên giả định mạnh mẽ về khả năng BCI và AI ngoại suy trạng thái mơ, điều này hiện tại nằm trong lĩnh vực khoa học viễn tưởng.",
+      "creative_core_to_preserve": "Khát vọng của con người muốn khám phá và định hình thế giới nội tâm, sử dụng công nghệ để tạo ra trải nghiệm cá nhân hóa sâu sắc. Hạt nhân sáng tạo nằm ở việc ứng dụng AI tạo sinh để tạo ra các trải nghiệm đa giác quan dựa trên mong muốn của người dùng, dù ban đầu chỉ là mô phỏng thụ động.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Khả năng tương tác và điều hướng giấc mơ thực tế thông qua BCI hoặc tín hiệu sinh học cơ bản.",
+        "Khẳng định AI có thể 'tổng hợp dữ liệu sinh học thô theo thời gian thực' để 'ngắm' trạng thái mơ.",
+        "Việc định hình lại kết quả giấc mơ 'ngay cả khi đang ngủ' thông qua phản hồi non-stop."
+      ],
+      "realistic_reframing": "Một ứng dụng AI tạo sinh (Generative AI) giúp người dùng mô tả mong muốn về một giấc mơ (dưới dạng văn bản, hình ảnh tham khảo). AI sẽ tạo ra một chuỗi trải nghiệm thị giác và âm thanh ngắn, mang tính gợi mở, dựa trên mô tả đó. Trải nghiệm này không phải là giấc mơ thực tế mà là một dạng 'phim cá nhân hóa' hoặc 'kịch bản giấc mơ' để người dùng xem hoặc nghe trước khi ngủ, hoặc để khơi gợi cảm hứng.",
+      "practical_mvp": "Một ứng dụng web/di động cho phép người dùng nhập mô tả văn bản về một cảnh hoặc câu chuyện giấc mơ mong muốn. AI tạo sinh (ví dụ: sử dụng các mô hình như Stable Diffusion cho hình ảnh và các mô hình ngôn ngữ lớn cho kịch bản/âm thanh nền) sẽ tạo ra một video ngắn hoặc một chuỗi hình ảnh động kèm âm thanh, phản ánh chủ đề và cảm xúc được yêu cầu. Người dùng có thể xem lại hoặc chia sẻ.",
+      "mvp_7_to_30_day_plan": [
+        "Xây dựng giao diện người dùng đơn giản để nhập mô tả giấc mơ (văn bản).",
+        "Tích hợp một mô hình AI tạo ảnh (text-to-image) để tạo ra các hình ảnh tĩnh hoặc chuỗi hình ảnh dựa trên prompt.",
+        "Tích hợp một mô hình AI tạo văn bản (LLM) để tạo ra một đoạn mô tả ngắn hoặc kịch bản dựa trên prompt.",
+        "Sử dụng các thư viện âm thanh có sẵn hoặc tạo âm thanh nền đơn giản dựa trên chủ đề.",
+        "Kết hợp các yếu tố trên thành một video/trình chiếu ngắn.",
+        "Cho phép người dùng xem và lưu lại kết quả."
+      ],
+      "scores": {
+        "novelty": 3.5,
+        "creative_core_strength": 4.0,
+        "creative_core_preservation": 4.0,
+        "reframing_quality": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.0,
+        "hallucination_risk_after_reframing": 2.5
+      },
+      "overall_score": 67.5,
+      "decision": "Cần chỉnh",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Cần chỉnh",
+      "expert_rationale": "Ý tưởng gốc có tham vọng cao nhưng dựa nhiều vào công nghệ viễn tưởng (BCI). Bản reframing tập trung vào việc sử dụng AI tạo sinh hiện có để tạo ra trải nghiệm 'mô phỏng giấc mơ' dưới dạng nội dung đa phương tiện thụ động. Điều này giữ lại hạt nhân sáng tạo về việc cá nhân hóa trải nghiệm nội tâm nhưng loại bỏ các yếu tố không khả thi. MVP rõ ràng và có thể xây dựng trong thời gian ngắn. Tuy nhiên, tính độc đáo của trải nghiệm so với các ứng dụng tạo nội dung sáng tạo khác cần được làm rõ hơn, và mô hình kinh doanh cần được phát triển thêm.",
+      "strong_points_after_reframing": [
+        "Giữ lại ý tưởng cốt lõi về việc tạo ra trải nghiệm cá nhân hóa sâu sắc dựa trên mong muốn của người dùng.",
+        "Loại bỏ hoàn toàn các yếu tố BCI và điều hướng giấc mơ thời gian thực, thay thế bằng nội dung đa phương tiện thụ động.",
+        "MVP rõ ràng, tập trung vào việc tạo video/hình ảnh ngắn từ mô tả văn bản.",
+        "Khả năng tạo ra sản phẩm thử nghiệm nhanh chóng với các công cụ AI tạo sinh hiện có."
+      ],
+      "weak_points_after_reframing": [
+        "Trải nghiệm 'mô phỏng giấc mơ' có thể không đủ độc đáo hoặc hấp dẫn so với các ứng dụng tạo nội dung sáng tạo khác.",
+        "Mô hình kinh doanh còn mơ hồ, cần xác định rõ giá trị gia tăng để người dùng sẵn sàng trả phí.",
+        "Cần làm rõ hơn sự khác biệt và lợi ích so với các công cụ AI tạo ảnh/video hiện có."
+      ],
+      "validation_needed_later": [
+        "Mức độ hài lòng của người dùng với trải nghiệm 'mô phỏng giấc mơ' thụ động.",
+        "Khả năng phân biệt và tạo ra trải nghiệm thực sự độc đáo so với các công cụ AI tạo nội dung khác.",
+        "Nhu cầu thị trường cho loại nội dung này và khả năng chi trả."
+      ],
+      "final_recommendation": "Tập trung vào việc làm cho trải nghiệm tạo nội dung đa phương tiện trở nên độc đáo và có ý nghĩa hơn, có thể bằng cách tích hợp các yếu tố gợi nhớ hoặc cá nhân hóa sâu hơn từ dữ liệu người dùng (nếu có thể xử lý an toàn và có đạo đức). Phát triển mô hình kinh doanh rõ ràng hơn."
+    },
+    {
+      "idea_id": "I002",
+      "idea_name": "Chuyên Gia Đồng Cảm Di Truyền",
+      "raw_hallucination_summary": "Ý tưởng gốc đề xuất một ứng dụng AI phân tích dữ liệu gen để dự đoán và 'dịch' cảm xúc/phản ứng khó lường của con người. Phần 'sáng tạo nhảy vọt' và 'kết nối không hiển nhiên' ám chỉ mối liên hệ trực tiếp và có thể dự đoán được giữa cấu trúc bộ gen và các hành vi cảm xúc chi tiết, điều này hiện tại là một lĩnh vực nghiên cứu rất sơ khai và phức tạp, vượt xa khả năng dự đoán chính xác của AI hiện tại.",
+      "creative_core_to_preserve": "Mong muốn hiểu sâu hơn về bản thân, đặc biệt là nguồn gốc của các phản ứng cảm xúc, và tìm kiếm lời giải thích khoa học cho hành vi cá nhân. Hạt nhân sáng tạo nằm ở việc khám phá mối liên hệ tiềm ẩn giữa yếu tố sinh học nội tại (gen) và biểu hiện cảm xúc bên ngoài, dù chỉ ở mức độ 'khuynh hướng'.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Khả năng 'dịch' cảm xúc/phản ứng khó lường dựa trên hồ sơ di truyền.",
+        "Khẳng định AI có thể 'kỳ vọng' các ngưỡng phản ứng với kích thích tình huống điển hình.",
+        "Việc cung cấp 'giải thích mang tính dự báo' khi các trạng thái đó xảy ra dựa trên gen.",
+        "Mối liên hệ trực tiếp và có thể định lượng giữa cấu trúc bộ gen và các hành vi cảm xúc chi tiết."
+      ],
+      "realistic_reframing": "Một ứng dụng cung cấp thông tin giáo dục và phân tích dựa trên các nghiên cứu khoa học hiện có về mối liên hệ giữa các biến thể gen đã biết và các khuynh hướng tính cách/cảm xúc chung. Ứng dụng sẽ yêu cầu người dùng cung cấp dữ liệu gen (từ các dịch vụ bên thứ ba hoặc nhập thủ công các biến thể gen cụ thể đã biết) và sau đó trình bày các 'khuynh hướng có thể có' dựa trên các bằng chứng khoa học được công bố, kèm theo cảnh báo rõ ràng về tính phức tạp và hạn chế của mối liên hệ này. Nó hoạt động như một công cụ 'khám phá bản thân' dựa trên khoa học, không phải là công cụ dự đoán hành vi.",
+      "practical_mvp": "Một ứng dụng web/di động cho phép người dùng nhập một số biến thể gen cụ thể (ví dụ: rsID) mà họ quan tâm hoặc đã có kết quả từ các dịch vụ giải mã gen. Ứng dụng sẽ tra cứu trong một cơ sở dữ liệu được xây dựng từ các nghiên cứu khoa học đã công bố (ví dụ: PubMed, các bài báo khoa học uy tín) để tìm các mối liên hệ đã được báo cáo giữa các biến thể gen đó và các đặc điểm tính cách/khuynh hướng cảm xúc chung (ví dụ: khuynh hướng lo âu, mức độ nhạy cảm với stress). Kết quả sẽ được trình bày dưới dạng báo cáo thông tin, nhấn mạnh tính xác suất và sự phức tạp của di truyền học.",
+      "mvp_7_to_30_day_plan": [
+        "Xây dựng giao diện người dùng để nhập các biến thể gen (rsID).",
+        "Thiết lập một cơ sở dữ liệu ban đầu chứa các biến thể gen phổ biến và các khuynh hướng tính cách/cảm xúc được liên kết trong các nghiên cứu khoa học đã công bố.",
+        "Phát triển thuật toán tra cứu và tổng hợp thông tin từ cơ sở dữ liệu.",
+        "Thiết kế giao diện hiển thị kết quả dưới dạng báo cáo thông tin, có cảnh báo rõ ràng về tính xác suất và hạn chế.",
+        "Tập trung vào việc cung cấp thông tin giáo dục, không đưa ra dự đoán cá nhân.",
+        "Đảm bảo ẩn danh hóa và bảo mật dữ liệu người dùng."
+      ],
+      "scores": {
+        "novelty": 3.0,
+        "creative_core_strength": 3.5,
+        "creative_core_preservation": 4.0,
+        "reframing_quality": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "hallucination_risk_after_reframing": 1.5
+      },
+      "overall_score": 67.25,
+      "decision": "Cần chỉnh",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Tiềm năng",
+      "expert_rationale": "Ý tưởng gốc quá tham vọng và dựa trên khoa học chưa đủ vững chắc. Bản reframing chuyển hướng sang cung cấp thông tin giáo dục dựa trên các nghiên cứu khoa học hiện có, giảm thiểu rủi ro về dự đoán sai và vấn đề đạo đức. MVP tập trung vào việc tra cứu và tổng hợp thông tin, có thể thực hiện được với công nghệ hiện tại. Nhu cầu hiểu bản thân và sự quan tâm đến di truyền học là có thật. Tuy nhiên, cần cẩn trọng trong việc trình bày thông tin để tránh gây hiểu lầm.",
+      "strong_points_after_reframing": [
+        "Chuyển từ dự đoán sang cung cấp thông tin giáo dục dựa trên khoa học đã công bố.",
+        "Giảm thiểu rủi ro về đạo đức và dự đoán sai.",
+        "MVP rõ ràng, tập trung vào việc tra cứu và tổng hợp thông tin từ các nguồn khoa học.",
+        "Tận dụng sự quan tâm ngày càng tăng của công chúng đối với di truyền học và sức khỏe cá nhân."
+      ],
+      "weak_points_after_reframing": [
+        "Tính độc đáo có thể bị hạn chế nếu chỉ dựa trên các nghiên cứu đã có.",
+        "Cần xây dựng và duy trì một cơ sở dữ liệu khoa học cập nhật và đáng tin cậy.",
+        "Mô hình kinh doanh cần được làm rõ hơn ngoài việc chỉ cung cấp thông tin."
+      ],
+      "validation_needed_later": [
+        "Mức độ tin cậy và sự hữu ích của thông tin được cung cấp đối với người dùng.",
+        "Khả năng người dùng hiểu đúng và không hiểu sai các thông tin về di truyền và tính cách.",
+        "Chiến lược để cập nhật cơ sở dữ liệu khoa học một cách liên tục và chính xác."
+      ],
+      "final_recommendation": "Tập trung vào việc xây dựng một cơ sở dữ liệu khoa học mạnh mẽ và giao diện người dùng thân thiện, dễ hiểu. Cân nhắc các mô hình kinh doanh như báo cáo di truyền chi tiết (dựa trên các biến thể gen đã biết và nghiên cứu), hoặc các khóa học/webinar về di truyền học cá nhân."
+    },
+    {
+      "idea_id": "I004",
+      "idea_name": "Nhạc Sư Trạng Thái Hành Vi",
+      "raw_hallucination_summary": "Ý tưởng gốc đề xuất AI cá nhân hóa âm nhạc để chủ động điều hướng tâm trạng bằng cách 'biến tấu các tham số âm nhạc theo thời gian thực một cách thích ứng, đồng bộ hóa chặt chẽ với dấu hiệu sinh học và mô hình sử dụng'. Phần 'sáng tạo nhảy vọt' và 'kết nối không hiển nhiên' ám chỉ khả năng AI giải mã cảm xúc chi tiết qua âm thanh và cung cấp phản hồi sinh học phù hợp với 'thiết kế hành vi mục tiêu' một cách chính xác, điều này rất khó và mang tính khoa học viễn tưởng.",
+      "creative_core_to_preserve": "Nhu cầu sử dụng âm nhạc như một công cụ để điều chỉnh tâm trạng, năng suất và trạng thái cảm xúc. Hạt nhân sáng tạo nằm ở việc tạo ra âm nhạc được tùy chỉnh để phù hợp với mục tiêu cụ thể của người dùng, thay vì chỉ là các danh sách phát được tuyển chọn.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Khả năng AI 'giải mã cảm xúc chi tiết qua âm thanh' và cung cấp phản hồi sinh học phù hợp.",
+        "Việc 'biến tấu các tham số âm nhạc theo thời gian thực một cách thích ứng' dựa trên tín hiệu sinh học phức tạp.",
+        "Khẳng định AI có thể 'thiết kế hành vi mục tiêu' thông qua âm nhạc."
+      ],
+      "realistic_reframing": "Một ứng dụng phát nhạc được tạo ra bởi AI, tập trung vào việc tạo ra các bản nhạc nền (ambient music) phù hợp với các mục tiêu trạng thái người dùng đã chọn (ví dụ: Tập trung, Thư giãn, Năng lượng). AI sẽ điều chỉnh các yếu tố như nhịp độ, giai điệu, và độ phức tạp của âm nhạc dựa trên các mô hình âm nhạc đã được chứng minh là có tác động đến trạng thái tinh thần, và có thể nhận phản hồi đơn giản từ người dùng (thích/không thích) để tinh chỉnh dần.",
+      "practical_mvp": "Một ứng dụng web/di động cho phép người dùng chọn một trong 3-4 mục tiêu trạng thái (ví dụ: 'Tập trung', 'Thư giãn', 'Năng lượng'). AI sẽ tạo ra một bản nhạc nền gốc, liên tục thay đổi (generative ambient music) dựa trên các tham số được thiết lập sẵn cho từng mục tiêu. Người dùng có thể đánh giá bản nhạc (ví dụ: nút 👍/👎) để AI học hỏi và điều chỉnh các bản nhạc tiếp theo trong phiên đó hoặc các phiên sau. Không có phân tích tín hiệu sinh học phức tạp.",
+      "mvp_7_to_30_day_plan": [
+        "Xây dựng giao diện chọn mục tiêu trạng thái.",
+        "Tích hợp một mô hình AI tạo nhạc nền (generative music engine) có khả năng tạo ra các bản nhạc liên tục thay đổi.",
+        "Thiết lập các bộ tham số âm nhạc ban đầu cho từng mục tiêu (ví dụ: nhịp độ chậm cho Thư giãn, nhịp độ nhanh hơn cho Tập trung).",
+        "Triển khai hệ thống phản hồi đơn giản (👍/👎) để người dùng đánh giá bản nhạc.",
+        "Sử dụng phản hồi để tinh chỉnh các tham số âm nhạc trong các lần phát tiếp theo.",
+        "Cho phép người dùng nghe nhạc nền trong một khoảng thời gian nhất định."
+      ],
+      "scores": {
+        "novelty": 3.0,
+        "creative_core_strength": 3.5,
+        "creative_core_preservation": 4.0,
+        "reframing_quality": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "hallucination_risk_after_reframing": 2.0
+      },
+      "overall_score": 62.88,
+      "decision": "Cần chỉnh",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Cần chỉnh",
+      "expert_rationale": "Ý tưởng gốc quá phức tạp và dựa trên khả năng giải mã sinh học chưa thực tế. Bản reframing tập trung vào việc tạo nhạc nền AI cho các mục tiêu trạng thái đã chọn, sử dụng phản hồi đơn giản của người dùng để tinh chỉnh. Điều này giữ lại ý tưởng cốt lõi về âm nhạc cá nhân hóa để điều chỉnh tâm trạng nhưng loại bỏ các yếu tố không khả thi. MVP rõ ràng và có thể xây dựng. Tuy nhiên, tính độc đáo so với các ứng dụng nhạc thiền/tập trung hiện có cần được làm rõ.",
+      "strong_points_after_reframing": [
+        "Tập trung vào việc tạo nhạc nền AI cho các mục tiêu trạng thái đã chọn.",
+        "Loại bỏ các yếu tố phân tích sinh học phức tạp và thay thế bằng phản hồi người dùng đơn giản.",
+        "MVP rõ ràng, có thể xây dựng với các công cụ tạo nhạc AI hiện có.",
+        "Giải quyết nhu cầu sử dụng âm nhạc để cải thiện năng suất và tâm trạng."
+      ],
+      "weak_points_after_reframing": [
+        "Tính độc đáo có thể bị hạn chế so với các ứng dụng nhạc thiền, tập trung hoặc danh sách phát được tuyển chọn.",
+        "Cần làm rõ cách thức AI tạo nhạc sẽ vượt trội hơn các giải pháp hiện có.",
+        "Mô hình kinh doanh cần được phát triển thêm để cạnh tranh trong thị trường âm nhạc streaming."
+      ],
+      "validation_needed_later": [
+        "Mức độ hiệu quả của âm nhạc được tạo ra trong việc đạt được các mục tiêu trạng thái của người dùng.",
+        "Phản hồi về trải nghiệm nghe nhạc nền liên tục thay đổi.",
+        "So sánh với các ứng dụng nhạc thiền/tập trung hiện có trên thị trường."
+      ],
+      "final_recommendation": "Tập trung vào việc tạo ra chất lượng âm nhạc độc đáo và trải nghiệm người dùng hấp dẫn. Cân nhắc các tính năng như khả năng tùy chỉnh sâu hơn các yếu tố âm nhạc, hoặc tích hợp với các ứng dụng năng suất khác. Phát triển mô hình kinh doanh rõ ràng hơn, có thể là đăng ký cao cấp cho âm nhạc chất lượng cao và tùy biến."
+    }
+  ],
+  "ranked_summary": [
+    {
+      "rank": 1,
+      "idea_id": "I003",
+      "idea_name": "Kiến Trúc Sư Di Sản Số",
+      "overall_score": 73.75,
+      "decision": "Tiềm năng",
+      "hallucination_risk_after_reframing": 2.0
+    },
+    {
+      "rank": 2,
+      "idea_id": "I001",
+      "idea_name": "Mô Phỏng Giấc Mơ Tùy Chỉnh",
+      "overall_score": 67.5,
+      "decision": "Cần chỉnh",
+      "hallucination_risk_after_reframing": 2.5
+    },
+    {
+      "rank": 3,
+      "idea_id": "I002",
+      "idea_name": "Chuyên Gia Đồng Cảm Di Truyền",
+      "overall_score": 67.25,
+      "decision": "Cần chỉnh",
+      "hallucination_risk_after_reframing": 1.5
+    },
+    {
+      "rank": 4,
+      "idea_id": "I004",
+      "idea_name": "Nhạc Sư Trạng Thái Hành Vi",
+      "overall_score": 62.88,
+      "decision": "Cần chỉnh",
+      "hallucination_risk_after_reframing": 2.0
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0025",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.5,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng kết nối hàng xóm cho các giúp đỡ nhỏ là mới lạ và có tiềm năng giải quyết vấn đề cô lập. MVP rõ ràng, nhưng mô hình kinh doanh và rủi ro đạo đức cần xem xét thêm."
+    },
+    {
+      "candidate_id": "BLIND_0059",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.0
+      },
+      "short_rationale": "Trải nghiệm ẩm thực đa giác quan gợi lại ký ức là một ý tưởng độc đáo, nhưng tính khả thi kỹ thuật và MVP còn mơ hồ. Việc tái tạo ký ức cá nhân có thể gặp rủi ro về độ chính xác và chi phí."
+    },
+    {
+      "candidate_id": "BLIND_0030",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Sử dụng công nghệ đa giác quan để dạy khái niệm trừu tượng rất sáng tạo, nhưng MVP còn đơn giản và tính khả thi kỹ thuật của việc tích hợp nhiều thiết bị ngoại vi cần được làm rõ."
+    },
+    {
+      "candidate_id": "BLIND_0018",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.0
+      },
+      "short_rationale": "Biến cà phê thành tác phẩm kiến trúc ăn được là ý tưởng độc đáo, nhưng việc triển khai bằng in 3D thực phẩm còn nhiều thách thức kỹ thuật và MVP thủ công có thể không phản ánh hết tiềm năng."
+    },
+    {
+      "candidate_id": "BLIND_0047",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 2.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng AI cá nhân hóa cho máy pha cà phê giải quyết nhu cầu về sự tương tác và 'nhân văn' hóa công nghệ. MVP rõ ràng và có thể thử nghiệm, nhưng cần xem xét kỹ rủi ro về quyền riêng tư và sự phụ thuộc vào AI."
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "metadata": {
+    "pipeline": "CHVD",
+    "version": "v5.3",
+    "domain": "Game Mobile",
+    "language": "vi",
+    "mode": "prompt_only_no_corpus_no_weak_signals",
+    "temperature_role": "maximal_divergent_creativity",
+    "stage": "high_temperature_creative_hallucination_generator",
+    "saved_at": "2026-06-21T19:45:22",
+    "generator_model": "gemini-2.5-flash-lite",
+    "generator_temperature": 2.0,
+    "generator_top_p": 0.99,
+    "user_prompt": ""
+  },
+  "ideas": [
+    {
+      "idea_id": "I001",
+      "idea_name": "Lãng Du Thiền Định: Trò Chơi Tối Giản Du Lịch & Sáng Tạo Nội Dung Tự Lập Trình",
+      "domain": "Game Mobile",
+      "one_sentence_pitch": "Một tựa game casual nơi người chơi xây dựng và chia sẻ những 'phong cảnh nội tâm' bằng cách kết hợp các yếu tố thực tế (hình ảnh chuyến đi) và các quy tắc sáng tạo dựa trên triết học, để đạt đến trạng thái 'thiền định số'.",
+      "target_user": "Những người tìm kiếm sự thư giãn, sáng tạo nghệ thuật số, và người yêu thích du lịch tâm linh nhưng hạn chế về thời gian/không gian.",
+      "hidden_pain_or_desire": "Nhu cầu khám phá không gian tinh thần của bản thân một cách có chủ đích nhưng không thành kiến, tích hợp những trải nghiệm giác quan đời thực (du lịch, thiên nhiên) vào một không gian số để nâng tầm. Mong muốn tạo ra 'sản phẩm số' của riêng mình mang đậm dấu ấn cá nhân về sự bình an nội tâm.",
+      "creative_leap": "Đưa khái niệm thiền định và du lịch trải nghiệm (điểm đến vật lý) vào thành một công cụ sáng tạo trong game, nơi gameplay xoay quanh việc sắp đặt 'nguyên liệu cảm xúc' từ thế giới thực để dệt nên các không gian yên bình mang tính tự truy vấn.",
+      "non_obvious_connection": "Du lịch trải nghiệm (memento) + Khoa học kiến trúc zen gardens + Tư duy thiết kế procedual content + Self-reflection exercises + Game creation tools.",
+      "proposed_solution": "Game mô phỏng/xếp hình với kho tài nguyên (textures, âm thanh, cảm xúc placeholder) rút ra từ kho ảnh/video tự chụp của người chơi, hoặc từ kho \"thiên nhiên 3D\" được tạo sẵn, được quy đổi thành 'phân tử năng lượng tâm trạng'. Người chơi dùng các quy tắc 'họa sỹ' để sắp đặt các phân tử này, tự động hóa các đệ quy hình ảnh hoặc âm thanh phản ánh sự phát triển nội tâm của họ, có thể xuất bản tác phẩm. Gameplay dựa trên các nguyên lý dòng chảy (flow state) và chủ nghĩa khắc kỷ (stoicism).",
+      "core_experience": "Khám phá hành trình nội tâm qua lăng kính sáng tạo vật lý và tinh thần.",
+      "core_technology": [
+        "Procedural Generation for environment & ambience",
+        "Procedural Texture Manipulation based on real world input",
+        "Zen philosophy-guided algorithm design for creative flow",
+        "User-generated content integration (images/sound)"
+      ],
+      "why_it_feels_new": "Game là 'nền tảng nghệ thuật tâm hồn', nơi ranh giới giữa trải nghiệm thực (nhật ký du lịch bằng ảnh) và ảo (không gian thiền định tự chế) trở nên mờ nhạt. Việc tái tạo trạng thái cảm xúc qua thiết kế game cá nhân hóa rất khác biệt.",
+      "why_now_speculative": "Sự quan tâm ngày càng tăng đối với sức khỏe tinh thần và chánh niệm cá nhân. Công nghệ AI 'multimodal understanding' có tiềm năng cho phép avatar tương tác ngữ cảnh với trải nghiệm thực tế của người chơi (qua OCR, phân tích hình ảnh/âm thanh thô ban đầu). Xu hướng biến cuộc sống cá nhân thành nội dung sáng tạo.",
+      "mvp_seed": "Cho phép người chơi đưa 5 ảnh thực tế vào. Từ đó, game gợi ý 3 dạng texture ảnh, 2 âm thanh đi kèm, và 1 mẫu cảnh quan 3D cơ bản. Người chơi sắp xếp chúng dựa trên 3-4 nguyên tắc 'tương sinh/tương khắc tâm lý' có giải thích ngắn. Bảng trưng bày các cảnh quan hoàn chỉnh.",
+      "first_7_day_prototype": "Một sandbox 'họa sĩ tĩnh lặng'. Upload 1 ảnh, cho phép chọn 1 nhạc nền tự động hóa tiếng vang & màu sắc cơ bản của ảnh theo 3 trạng thái: tĩnh tại/lan tỏa/bão hòa. Giới hạn lưu 1 cảnh. Chức năng share cảnh qua link.",
+      "business_model_hypothesis": "Mô hình freemium: có DLC tài nguyên 'triết học' đặc biệt (tiền tệ premium); giao dịch nhỏ cho tính năng nâng cao (batch export video HD, private libraries), và có thể là 'họa trường nghệ thuật số có đăng ký'.",
+      "wildness_level": 4,
+      "main_assumptions": [
+        {
+          "claim": "Người dùng muốn biến kinh nghiệm sống (hình ảnh du lịch, cảnh quan) thành một trải nghiệm thiền định có thể 'cắt gọt' & tái cấu trúc.",
+          "type": "user_need"
+        },
+        {
+          "claim": "Có thể phát triển thuật toán phân tích và tự động hóa đồ họa/âm thanh dựa trên các 'triết lý' đơn giản, có ý nghĩa.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Thế hệ Z và Millennials sẵn sàng trả tiền cho các trải nghiệm nội tâm dưới dạng sản phẩm sáng tạo cá nhân.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Mức độ sáng tạo và ý nghĩa mà người chơi nhận được có thể quá 'từ khóa-based' thay vì 'sâu sắc cảm xúc' thật sự.",
+        "Thuật toán cần đủ mạnh để tạo ra cảm xúc mới lạ, không chỉ lặp lại mẫu ảnh ban đầu.",
+        "Khả năng bị bão hòa bởi tính thẩm mỹ cá nhân 'khó chịu'."
+      ],
+      "validation_needed_later": [
+        "Phân biệt trạng thái tinh thần người dùng dựa trên ảnh đưa vào.",
+        "Hiệu quả trong việc giảm stress/tăng an yên.",
+        "Ngữ pháp giao diện 'thiết kế tâm hồn' được người dùng hiểu và vận dụng."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Khả năng tạo ra \"nền văn hóa số tâm linh\" thực thụ, cho phép chia sẻ trải nghiệm thiền/cảnh quan tạo ra một cách cộng đồng.",
+          "Thuật toán có khả năng 'đo lường' và mô phỏng mức độ chánh niệm."
+        ],
+        "claims_not_yet_validated": [
+          "Hành vi ứng dụng triết học theo quy tắc game có phản ánh sự 'an yên' thật sự.",
+          "Mức độ sẵn sàng thanh toán cho 'không gian tự chữa lành kỹ thuật số' này."
+        ]
+      }
+    },
+    {
+      "idea_id": "I002",
+      "idea_name": "Chiếc Hộp Ký Ức: Phục Dựng Kỷ Niệm Cổ Xưa Qua Góc Nhìn Người Cháu",
+      "domain": "Game Mobile",
+      "one_sentence_pitch": "Một game giải đố/phiêu lưu bí ẩn, nơi người chơi sử dụng 'kính hiển vi thời gian số' (hệ thống gợi ý/sắp xếp/ghi nhớ) để xâu chuỗi các mẩu tin, tài liệu, ảnh chụp và âm thanh 'chắp vá' thu thập được, khám phá câu chuyện đời thường của một người thân đã khuất.",
+      "target_user": "Người dùng trung niên muốn tìm hiểu nguồn cội, thế hệ trẻ tò mò về lịch sử gia đình cá nhân một cách chủ động & giải trí, hoặc những người thích câu chuyện suy luận nhân văn.",
+      "hidden_pain_or_desire": "Sự mơ hồ hoặc thiếu sót thông tin về cuộc sống của thế hệ ông bà, cha mẹ; nỗi trống vắng về mặt lịch sử cá nhân/gia đình. Khao khát có một 'lối vào' trực quan, cảm xúc, không áp lực vào quá khứ của những người mình yêu thương.",
+      "creative_leap": "Biến những hiện vật vật lý cũ kỹ hoặc kỹ thuật số dạng tài liệu rời rạc thành cốt truyện nhập vai 'kiểu phim tài liệu tương tác'. Gameer không chỉ giải đố mà còn tham gia 'công tác điều tra cảm xúc' về một cá nhân bí ẩn.",
+      "non_obvious_connection": "Ngành lưu trữ và phục dựng phim/ảnh cũ (colorization, dé-noise) + Logic giải đố HOPA (Hidden Object Puzzle Adventure) + Hệ thống prompt và generative AI cho tường thuật lịch sử tự tạo + Empathy training for narrative.",
+      "proposed_solution": "Một studio game nhỏ: người chơi nhận nhiệm vụ từ 'Góc Sáng Chế Tác Tường Thuật'. Họ cung cấp ảnh, tài liệu PDF, file ghi âm (có thể là từ máy thành viên gia đình tự thu thập, hoặc kho dữ liệu của game thử nghiệm). Game sử dụng các công cụ phục dựng có hỗ trợ AI: tạo ảnh động từ ảnh tĩnh, tô màu cho ảnh đen trắng, làm rõ file âm thanh bị nhiễu, tự sinh thoại/tường thuật dựa trên mô tả 'hoàn cảnh' của văn bản.",
+      "core_experience": "Nhập vai nhà phục dựng ký ức, dệt nên bức chân dung lịch sử cá nhân rung động.",
+      "core_technology": [
+        "AI-powered audio cleanup and dialogue synthesis",
+        "AI Image restoration (colorization, denoising, detail enhancement)",
+        "Narrative scaffolding generation via LLMs",
+        "Contextual clue management system"
+      ],
+      "why_it_feels_new": "Hành động biến *dữ liệu hoài niệm chưa được số hóa hoặc đã kỹ thuật số nhưng rời rạc* thành *lịch sử nhân vật game sống động, cảm xúc* là một dạng game diệt lãng quên mới. Gameplay 'phục dựng - giải mã' phá vỡ quy tắc game cũ.",
+      "why_now_speculative": "Các công nghệ AI 'nhỏ giọt' đã đủ sức làm 'biến hình' dữ liệu cũ. Lợi ích kép: giải trí kết hợp với bảo tồn ký ức cá nhân - là nhu cầu mang tính 'nhân văn hiện đại' đang được nhấn mạnh.",
+      "mvp_seed": "Một thư mục chứa 10 cặp ảnh/mẩu thư có mối liên hệ logic mỏng. Game sẽ : 1) Tự động tô màu/làm nét sơ bộ cho 5 cặp ảnh có sẵn. 2) 2 mẩu thư với nội dung được AI (giả định prompt cũ) đọc và chuyển sang dạng đối thoại ngắn, *tương tác với nhau*. Lật mở 1 cặp thông tin, giải khóa đối thoại số 2, mở khóa text/ảnh kế tiếp.",
+      "first_7_day_prototype": "Giả lập một cuốn album ảnh gia đình ảo có 'ẩn mật'. Upload 3 ảnh offline. Từ đó, cho hiện 2 câu đố văn bản đơn giản & gợi ý mối liên hệ 'thời gian' của bức ảnh thứ hai. Nếu giải đúng, ảnh số 2 trở thành *active* và âm thanh mờ ảo hiện ra kèm dòng quote cảm xúc tự tạo (AI gen 1 dòng).",
+      "business_model_hypothesis": "Game giải đố bán theo gói cốt truyện (dlc mỗi nhân vật, mỗi nhánh). Bán 'gói phục dựng nâng cao' (màu chính xác hơn, âm thanh trong hơn, tự động hội thoại 1 min-1 ban ngày); có thể 'chiêm nghiệm di sản' (người chơi có thể trả tiền để thuê dịch vụ AI viết một bản truyện *nhất quán, hoàn chỉnh hơn* cho bộ nhớ tự tải lên, giống book on demand).",
+      "wildness_level": 5,
+      "main_assumptions": [
+        {
+          "claim": "Người dùng sở hữu những kí ức gia đình bị phân mảnh sẵn sàng tham gia tích cực vào quá trình 'làm sống lại' bằng các công cụ game.",
+          "type": "user_need"
+        },
+        {
+          "claim": "Các mô hình AI tân tiến có thể đủ hiệu quả để 'biến hóa' tư liệu xưa, giúp tạo cảm xúc bất ngờ.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Mô hình chi trả cho việc số hóa - diễn giải - bảo tồn ký ức là tiềm năng ngách hấp dẫn.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Cảm xúc tạo ra quá 'bảy màu' hoặc quá khô khan do chất lượng AI, thiếu hồn cốt lõi của tài liệu gốc.",
+        "Lồng ghép game play giải đố/suy luận không khiến game bị nhấn chìm bởi sự 'trị liệu gia đình'.",
+        "Nguy cơ bản quyền với nguồn dữ liệu lịch sử quá cũ (tính cho người dùng Upload).'Nghệ thuật quên lãng' có thể va vào."
+      ],
+      "validation_needed_later": [
+        "Sức nặng cảm xúc khi người dùng xem các 'tác phẩm' phục dựng",
+        "Mức độ \"hiểu ra nhân vật lịch sử/cảm thông với họ\", \"Giá trị gia đình/bảo tồn mang lại khi game này hóa giải.\", \"Khả năng cạnh tranh với các công cụ làm film/video personal đơn thuần (CapCut...)."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Một thuật toán 'chuyên gia' có khả năng mô phỏng hành vi của nhiếp ảnh gia, nhà báo thập niên trước cho ra sản phẩm gần nhất bản gốc về 'tinh thần thời đại'.",
+          "Chế độ 'thăm bảo tàng ký ức' tập thể, nơi người chơi có thể đóng góp các mảnh ghép của người dân khác để cùng nhau reconstitute các cột mốc lịch sử cấp độ cộng đồng."
+        ],
+        "claims_not_yet_validated": [
+          "Khả năng chuyển đổi trực giác cảm xúc cốt lõi từ tệp nguồn phi văn bản sang văn bản/hành động tương tác qua AI có sắc thái như con người.",
+          "Lợi nhuận bền vững từ việc bán các gói \"tượng đài ký ức ảo\""
+        ]
+      }
+    },
+    {
+      "idea_id": "I003",
+      "idea_name": "Vũ Trụ Từ Vựng Trộm Lửa: Kỹ Năng Ngôn Ngữ Giao thoa Sức Mạnh Ẩn Danh",
+      "domain": "Game Mobile",
+      "one_sentence_pitch": "Một tựa game hành động nhập vai (ARPG) với hệ thống phép thuật lấy cảm hứng từ sức mạnh của ngôn từ (ví dụ: tên vũ khí có thể *gợi lửa thật*) – chiến đấu với quái vật bằng cách gõ từ khóa ẩn dụ có độ khó tăng dần, qua đó xây dựng kho từ vựng mới và kiểm soát các dạng 'kiểm soát giấc mơ số'.",
+      "target_user": "Game thủ đam mê thử thách trí óc, người thích phát triển kỹ năng ngôn ngữ (học từ mới, hiểu biết sâu sắc), những ai từng vật lộn với khó khăn diễn đạt suy nghĩ và muốn sự chủ động.",
+      "hidden_pain_or_desire": "Sự bó buộc bởi từ vựng hạn chế làm cản trở khả năng sáng tạo, phân tích và ra quyết định, cả trong đời thực lẫn thế giới số. Nhu cầu 'giải phóng' tư duy bằng khả năng liên kết từ ngữ linh hoạt hơn; đặc biệt là ở những tình huống căng thẳng hoặc áp lực cao mà bình thường ít dám tự tin dùng lời lẽ của mình.",
+      "creative_leap": "Mỗi chữ cái/tổ hợp chữ cái không chỉ là vật liệu 'pha chế' ma thuật mà còn ảnh hưởng *trực tiếp* đến loại 'chiến linh' hay đòn đánh trong combat, lấy đó làm thang đo năng lực thực của người chơi trong các thế giới trừu tượng được lập trình theo nguyên tắc đó.",
+      "non_obvious_connection": "Mechanics game RPG & Spellcrafting + Cơn lốc từ điển mở (Thesaurus-like word expansion) + Language learning software gamified + Lucid Dreaming (hệ thống tạo/tương tác thực tại 'gần thật') + Cognitive behavioral therapy (for self-doubt communication).",
+      "proposed_solution": "Một thể loại game ARPG mà sức mạnh của phép thuật là (khả năng) biến tấu từ. Lấy ví dụ 'lửa' chỉ là gợi ý ban đầu. Sức mạnh thực tế cho bạn ví dụ một chuỗi từ *hoàn toàn phi liên quan rõ ràng nhưng lại cùng hệ thống logic ẩn: Hơi ấm + Bán Hỏa Long + Sao đỏ Rực 🔥*. Bạn sẽ tạo ra các lệnh - ký hiệu, đó là vũ khí chống lại mộng ảo trùm phản ứng bằng thuật ngữ kỹ thuật hay hiện thực đã 'cận tử'. Mỗi cấp độ tăng độ phức phước của các ‘công thức thuật ngữ’...",
+      "core_experience": "Thỏa mãn ảo giác 'chiến đấu bằng chính trí tuệ và trí tưởng tượng lời nói của mình' trên diện rộng, biến công cụ tư duy thành lợi thế siêu năng lực.",
+      "core_technology": [
+        "Linguistic database (colloquialism, allegory, neologism) with user input scoring",
+        "Procedural Spell generation based on semantic-distance metrics & 'emotional resonance'",
+        "AR/VR for immersive 'inner monologue' visualized combat",
+        "Game dynamics responsive to vocabulary richness score (user's 'fluency')"
+      ],
+      "why_it_feels_new": "Cú lộn về tư duy cho thấy sự kỳ diệu của ‘tiềm năng sử dụng tiếng mẹ đẻ với quy tắc hoàn toàn mới lạ’, khai phá cảm hứng và sức mạnh mỗi từ một phần và cả chùm từ của riêng ta làm 'kí hiệu phép thuật riêng' và đó không hề phụ thuộc ai.",
+      "why_now_speculative": "Công nghệ NLP giờ đây tinh vi, khả năng phân tách 'ẩn ý/gợi ý ngữ nghĩa', thậm chí là xu hướng người trẻ tạo ra/sử dụng từ ngữ mới trong một cách \"chơi\", xu hướng thế giới 'khinh' hoặc đề cao quá lại vai trò ngôn ngữ này cũng ngày càng rõ...",
+      "mvp_seed": "Một giao diện với 1 từ khoá cơ bản 'HƠI NÓNG' (+ môi trường game 'Thiên Thu Vụn' để chứng minh sự tác động mong manh), & 5 đòn (trừ, phép khống chế từ môi trường) cần combo từ + hệ ký tự phụ. Người dùng chỉ chọn 2 trong 20 ô (quán cafe 'chạng vạng' sáng tản mạn, cửa hàng sửa móng tay cóc nhái)..",
+      "first_7_day_prototype": "Khung cảnh phòng thiền với một đám sương mù mang \"ảo ảnh tư vấn\". Upload/chọn 3 khái niệm ngôn ngữ bạn coi là *nhiệt yếu nhất/ít thông dụng nhất của bạn (ví dụ: Bất Hoà, Khẽ Ran) và Gameer trả lời những mô tả chung: ví dụ 'lọc sạch những bợm đời trong đám tư duy ' (phần khó để đánh vào AI hiểu về prompt).",
+      "business_model_hypothesis": "Phát triển 'Ngôn từ-Tường Vây Rút Tự', với phí thu nhập đăng kí khi sở hữu game: 2.000 'kết quả kỳ diệu'. Có thể thuê (thường 20$, là 267.000vnđ / 5-7 'hiệu ứng thuật ngữ', mà 'tinh anh về khả năng thao túng con dân số chúng trên mạng). Hạn chế gói premium là giao dịch bán 'sĩ thuật ngữ': chỉ 5% những người thích sử dụng chúng.  (Giữ tỷ lệ bán cho mỗi nhóm trên <1 % vì những ai thuộc số nhỏ trong 'lỗ' nhỏ trong 'phần khó mở').'",
+      "wildness_level": 5,
+      "main_assumptions": [
+        {
+          "claim": "Người chơi tìm kiếm khả năng biểu đạt mạnh mẽ hơn sẽ coi việc phát triển vốn từ qua game là có giá trị.",
+          "type": "user_need"
+        },
+        {
+          "claim": "AI NLP hiện tại có đủ khả năng giải mã và áp dụng các logic ngữ nghĩa phức hoặc phức tạp từ người chơi vào cơ chế game.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Game 'trừu tượng hóa' năng lực diễn đạt và ban thưởng cho nó có tiềm năng kinh doanh niche.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Game Play cần phải cực kỳ thỏa mãn, nếu không người dùng sẽ quay lại tool học ngôn ngữ đơn giản.",
+        "Rủi ro là ý niệm 'phép thuật ngôn ngữ' sẽ được cho là quá trừu tượng hoặc 'sáo rỗng'.",
+        "Kiểm soát sự công bằng giữa những người chơi có nền tảng ngôn ngữ khác nhau hoặc có phương pháp học tập độc đáo."
+      ],
+      "validation_needed_later": [
+        "Tỷ lệ chuyển đổi người chơi tự khai thác các định nghĩa từ vựng mới & ứng dụng sau gameplay.",
+        "Tác động thực tế lên kỹ năng giao tiếp & biểu đạt của người chơi",
+        "Độ 'vui' và 'cuốn hút' của cơ chế sáng tạo câu thần chú."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Khả năng cho người chơi định hình các 'biểu tượng tinh thần' của riêng họ qua các combo ký tự đó; thậm chí dùng chúng để thay đổi \"giao diện ý nghĩ của người chơi khi chia sẻ game và nói chuyện với người xem trên các nền tảng xã hội của nhà cái (gamepublisher) trong lúc stream. Thậm chí được các bộ giải trí như netflix...",
+          "Hệ thống đề xuất từ ngữ độc đáo dựa trên ‘nhu cầu giao tiếp’ của người dùng. Ví dụ: người chơi sắp vào một trận 'stress test', AI gợi ý về từ để ứng phó."
+        ],
+        "claims_not_yet_validated": [
+          "Liệu người chơi có coi việc trau dồi kiến thức này ưng với những người có thiên hướng \"lười\" làm đi kèm 1 game này hay không và \"hiệu quả game game là sản phẩm.\".",
+          "Tìm thấy 1 phương thức định giá 'ý nghĩa tương tác' mang tính định lượng/biến thiên hay ko vì ý này cần 1 giải trình để ra tiền thực sự ko?"
+        ]
+      }
+    },
+    {
+      "idea_id": "I004",
+      "idea_name": "Chuyên Gia Biểu Cảm Da Người Tảo Sinh: Mô phỏng Khóa Học Phẫu Thuật Sắc Đẹp & Spa Cá Nhân Đạo'",
+      "domain": "Game Mobile",
+      "one_sentence_pitch": "Một mô phỏng thẩm mỹ (simulation game) mà người chơi vào vai 'bác sĩ da liễu biểu cảm', điều trị bệnh & phục hồi vẻ ngoài cho các bệnh nhân ảo có làn da đa dạng trạng thái biểu cảm cảm xúc (làn da loang lổ, sạm màu do 'bất an', sưng phù do 'tổn thương xã hội'). Game tập trung vào yếu tố chẩn đoán & trị liệu tâm-sinh lý qua tác động vật lý lên làn da.",
+      "target_user": "Những người quan tâm tới skincare, thẩm mỹ, vật lý trị liệu, cũng như fan của dòng game 'tycoon' quản lý/chi tiết hóa các dịch vụ chăm sóc mang lại. Độ tuổi chủ yếu là nữ giới 18-40.",
+      "hidden_pain_or_desire": "Nỗi băn khoăn hoặc 'tổn thương' vì tình trạng da hiện tại làm che mờ biểu cảm mong muốn, và nhận ra mối liên kết mật thiết giữa 'stress trong tim' - 'mâu thuẫn nội tâm' với ngoại hình, với mong muốn tìm 1 cách tự-chữa-lành ngoại hình một cách tự nhiên & chân thật. Kaso làm giàu kiến thức kĩ thuật cho bản thân cũng nhờ cơ sở game...",
+      "creative_leap": "Kết hợp chẩn đoán & trị liệu các vấn đề da người trực tiếp với *chi tiết hóa cường độ xúc động* tạo nên từng vết bệnh lý trên da ảo. Tức là game phản ánh cách *bệnh lý tình cảm* biến da người thành 'mặt giấy nhật ký cuộc sống', làm thay đổi nó đến cùng.",
+      "non_obvious_connection": "Simulator Tycoon/Management games + Dermatology and Aesthetic Procedures (real-world) + Principles of emotional-physical somatic medicine + Biofeedback visualization techniques + Behavioral psychology.",
+      "proposed_solution": "Trong game, mỗi nhân vật có một \"Thang biểu cảm xúc và phản ứng trên da\". Ví dụ, biểu tượng cảm xúc - mâu thuẫn của nhân vật như - buồn bã sâu kín hay căng thẳng/mạnh liệt. Qua các bài trắc nghiệm tương tác, bạn chẩn đoán ban đầu, sau đó quyết định dùng các phương pháp kỹ thuật: Tùy chỉnh 'hóa chất xoa dịu', kích thích nhiệt/lạnh chính xác lên từng điểm đau, hoặc đơn giản là mát xa nhẹ nhàng nhưng có tính quy luật tự tạo các phản xạ có lợi qua 4 vùng da (cổ/mắt, trán/mũi, cằm/miệng, v.v. tất cả vùng còn lại trên cơ thể). Độ chi tiết cao: với việc từng 'tính chất mụn' , từng 'cảm giác người khách'. Phức tạp dần trên *cả các cơ quan* . Game hướng tới thực tế 1 lần là: đưa vào 1 ca béo phì nặng về các tuyến mồ hôi, hoặc rối loạn tâm trạng để chứng nhận người chơi được việc học...nâng cấp skill: kĩ thuật, độ hiệu quả, giảm tác dụng phụ... cho đến cấp quản lý trung tâm spa hoặc thẩm mỹ viện lớn...",
+      "core_experience": "Trải nghiệm thực hành trị liệu 'thâm tâm làn da', kết nối lại các bộ phận chức năng thông qua phản hồi về xúc cảm con người và liệu pháp chính xác theo khoa học . Tạo sự cân bằng giữa vẻ ngoài đẹp đẽ và hạnh phúc cá nhân .",
+      "core_technology": [
+        "Complex facial/skin procedural generation with state-dependent texture mapping (stress, fatigue, joy)",
+        "Physically-based simulation of topical treatments and their skin absorption/reaction",
+        "Biofeedback analogy for 'emotional state input'",
+        "Progressive treatment protocol system for progressive skin restoration"
+      ],
+      "why_it_feels_new": "Là cách chơi duy nhất mang yếu tố \"chữa lành số phận mình trên cái gương làn da ảo tưởng một cách  chân thực và khoa học\". Phải học về sự thích hợp hóa lý sinh với chính bản chất tính cách người. Đặc biệt  nhiều cho khách quen từ giờ trở đi. Mầm móng cho cả những kiến thức trị bệnh đa phần được chi phí tốt...",
+      "why_now_speculative": "Sự quan tâm ngày càng tăng về 'self-care' kết hợp xu hướng công nghệ AI nhận diện sắc thái, phân tích biểu cảm, chúng tạo nền tảng cho tư liệu, kiến thức trong game có độ xác thực hơn, kết hợp khả năng tự do chia sẻ/truyền kinh nghiệm có tổ chức. Làm game hay mà con dân biết chút khoa học tự phục hồi mình  hoặc giúp đỡ.",
+      "mvp_seed": "Phòng khám tí hon : bạn tiếp 3 bệnh nhân với vấn đề da nhẹ kèm 1 cảm xúc -mâu thuẫn chung . Ví dụ, 1 trường hợp 'thiếu ngủ -mắt thâm quầng', 1 'căng thẳng mệt mỏi -da tái', 1 'dễ dị ứng vật chất & cảm xúc nhẹ '. Chỉ được chọn: làm sạch + (AI gợi ý cho 1 cái massage). 'Khám phá' là có thể học kỹ năng cho da khô & nhạy cảm về  tránh môi trường ẩm  khí khô mùa đông",
+      "first_7_day_prototype": "Trình diễn mô hình spa nhỏ: 1 bệnh nhân nữ ảo với 3 tình trạng da đơn giản.  Người chơi sử dụng 2 công cụ duy nhất : tinh chất hoa cúc/nghệ, hoặc kem dịu viêm. Mỗi lần tác động có 1 hình ảnh nhỏ bé về tiến triển. Có nút cho game tự hiện “bóng của trạng thái khách\" bên cạnh màn hình, nó mang chỉ số của skin, cho nó \"choàng vật chất trị bệnh có tác động\" và ra \"thảy những con số\" đã tác động.",
+      "business_model_hypothesis": "Mô hình Freemium/Học viện làm đẹp ảo: có thể kiếm tiền từ việc bán DLC máy móc/liệu pháp nâng cao, bộ kit trị liệu chuyên sâu. Đặc biệt cho phép khách thuê 1 'Chuyên gia đào tạo kỹ năng tư vấn sức khỏe làn da cá nhân' với gói Vàng (do công nghệ AI giả định nó có ý nghĩa) để làm hướng dẫn cho người dùng không thuộc lĩnh vực  trăm chăm sóc sắc đẹp (phát huy 1 khóa nhỏ học kĩ cho từng bước)",
+      "wildness_level": 4,
+      "main_assumptions": [
+        {
+          "claim": "Người dùng xem skin concern như một tín hiệu phản ánh các vấn đề cảm xúc và mong muốn được điều trị chúng một cách toàn diện.",
+          "type": "user_need"
+        },
+        {
+          "claim": "Kỹ thuật phục hồi da kỹ thuật số và khả năng mô phỏng phản ứng da tốt đã đủ sức để mang lại trải nghiệm 'chẩn trị' ý nghĩa.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Thế hệ trẻ yêu làm đẹp nhưng đang dịch chuyển xu hướng 'hiểu biết bản chất' có thể thu hút vào mô hình education/sim về da liễu.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Khả năng mô phỏng 'sắc thái' tâm lý qua trạng thái làn da quá phiến diện hoặc tệ hơn là mang tính định kiến về ngoại hình.",
+        "Cân bằng giữa tính giải trí của game mô phỏng và độ chân thực/cập nhật của kiến thức về da liễu.",
+        "Tiềm ẩn rủi ro thông tin không chính xác có thể ảnh hưởng tư tưởng sai lầm (game KHÔNG phải medical advice)."
+      ],
+      "validation_needed_later": [
+        "Mức độ phản hồi tích cực (an ủi, được hiểu...) mà người chơi nhận được sau mỗi 'ca' trị liệu thành công",
+        "Hiệu quả ghi nhớ và khả năng áp dụng (dù là cơ bản) kiến thức chăm sóc da trong cuộc sống thật.",
+        "Tỷ lệ game thủ tìm hiểu thêm sâu hơn về một vấn đề da liễu nhất định nào đó."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Khả năng AI có thể 'hướng dẫn cho từng người chơi' 1 con đường chăm da 'dự đoán' tình trạng da &  tâm lý từ nay tới 3 năm tới - 5 năm tới , từ đó đề xuất 'nhật ký đời sống-triệu chứng dự báo'",
+          "Tích hợp cơ chế đấu giá / giao thương 'thành phần hữu cơ độc đáo' được thu hoạch từ môi trường in-game và gửi ra môi trường thật thông qua 'eco-system chăm sóc da riêng biệt.'"
+        ],
+        "claims_not_yet_validated": [
+          "Liệu người dùng game di động (thiếu tính nhất quán cao trong trải nghiệm và nội dung mà nó đem lại). Khi có vấn đề bệnh ra liên tục có đủ hấp dẫn cho nhiều giai đoạn khó tin hay không? 'Giá 1 gói trị liệu (nếu trả tiên) có đắt 'hay chỉ tầm dt dd?"
+        ]
+      }
+    },
+    {
+      "idea_id": "I005",
+      "idea_name": "Biện Phép Thoát Hiểm Bản Năng Nguyên Thủy: Tĩnh tâm qua Sức mạnh Trí nhớ Chậm Phản Tư'",
+      "domain": "Game Mobile",
+      "one_sentence_pitch": "Một game idle/narrative kết hợp yếu tố ASMR, nơi người chơi dẫn dắt một nhân vật 'trôi nổi trong ký ức tiềm thức', từ từ vượt qua các rào cản tâm lý bằng cách thao tác với dòng thời gian (quay/lùi/tua) ở các mốc lịch sử cảm xúc, và thụ động 'thu hoạch' kiến thức sâu sắc ẩn trong những bài học chậm rãi, thiền tịnh.",
+      "target_user": "Những người tìm kiếm liệu pháp chậm, thực hành mindfulness sâu; người nghiện gamification ở mức độ thụ động & thích khám phá chiêm nghiệm, hoặc những người cảm thấy áp lực cuộc sống cần một nơi 'thả trôi cảm xúc và suy ngẫm trầm tĩnh.'",
+      "hidden_pain_or_desire": "Cuộc sống hiện đại quá nhanh, nông cạn, gây căng thẳng thần kinh; khiến con người mất đi kết nối sâu sắc với bản ngã. Khao khát tìm một không gian \"hiện sinh tỉnh thức\" mà không đòi hỏi quá nhiều công sức hay kỹ năng từ phía người chơi, cho phép thụ động \"cài đặt\" và 'vận hành sự bình an nội tại'.",
+      "creative_leap": "Biến các 'nguyên mẫu bản năng sơ khai' và dòng thời gian ký ức người thành  một 'ngành nông nghiệp cho tâm trí'. Tức là 'chăm sóc' ký ức để nó \"tự trổ sinh tri thức đạo đức/nguyên thủy\" nhờ thụ động mà sâu lắng.",
+      "non_obvious_connection": "Idle / Incremental Games + ASMR and Binaural Beats principles + Philosophical concepts of slow living/Mindfulness + Archaeological simulation / excavation analogy + Neuroplasticity research (veryloosely applied).",
+      "proposed_solution": "Game có thể coi là 1 mô hình 'hóa giải quá khứ' chậm & 'cấu trúc tiềm thức', không cốt truyện dẫn dắt phức tạp, mà bạn làm nhiệm vụ theo 'cánh đồng ký ức đã hiện ra'. Các mốc kí ức về một thứ mà giờ đây 'gặp'' là có cảm giác chung đó có hay ko. Nhất là đối tượng *luôn thấy thiếu mình trước đây*. Các công cụ của bạn là 'Chạm,' 'Thả Lỏng,' 'Du Hành Thời Gian' (mỗi cấp sẽ mở dần), với những nút làm như cũ để chơi từ cấp thấp. Cách của game có cả những mốc kí ức lặp đi lặp lại, bạn chỉ đơn giản nhìn  lấy chúng và đó cho bạn những điểm mạnh mẽ như 'hiện sinh sự bình an' hoặc 'hiểu rõ nỗi bất mãn - dần tự chữa bệnh.',..Game chỉ có thể passive - thu hoạch \"Đã hiễu.\" . Đi kèm sẽ là rất nhiều hiệu ứng AMSR nhẹ nhàng, âm thanh thiên nhiên . Các ‘yếu tố' tăng cấp là chính để chơi trong khi thực tập hít thở sâu & chánh niệm (khi đi trên 7 lần đều đặn vào đó sẽ bắt đầu tăng ).",
+      "core_experience": "Trải nghiệm sự bình yên lan tỏa dần và  sự hiểu biết mới về cuộc sống đến từ chính 'nội dung ngủ sâu'  của chính mình  trong 1 tương tác mềm mỏng (soft & gentle) với chính  bản thân .",
+      "core_technology": [
+        "Asynchronous time dilation mechanics for memory progression",
+        "AI-generated environmental audio landscapes (ASMR)",
+        "Procedural content generation for 'memory fragments' tied to emotional keywords",
+        "Idle/resource generation framework based on 'contemplative progress'"
+      ],
+      "why_it_feels_new": "Lật lại cách nghĩ chơi gameIdle từ 'tăng số' và 'nhấn nút'. Nó trở thành 1 hành động thực hành mindfulness có kết quả . Biến quãng thời gian 'tưởng đâu là không nên chi có thời lượng đó nó làm gì hết cả' được thu hoạch từ những hoạt động đó thành 1 sức mạnh sống  thầm kín 'sức mạnh hồi quy'.",
+      "why_now_speculative": "Tâm lý chán ghét cuộc sống xô bồ hiện tại - 'xu hướng về' sự đơn giản & \"tự kỷ ám thị mình\", cùng với nhu cầu ngày càng phổ biến về các ứng dụng ASMR, thiền, ứng dụng 'slow living'. Kết hợp những nhân tố tâm linh + kiến thức nhân duyne hiện đại đã 'khôn ngoan' đi xa hơn.",
+      "mvp_seed": "Trong một màn chơi 'Đám mây Trạng thái Kí ức', với một  kiểu ký tự 'Lá Úa'. Người chơi bấm nút 'Gợi nhớ', game diễn hoạt *dường như nó chầm chậm bay trong không trung mờ ảo .Sau thời gian nhất định nó xuất hiện 2 câu text triết lí đơn giản về mất mát: ví dụ 'Cuộc đời luôn để lại vết tích trên đó, quan trọng là ta tìm thấy gì sau khi dấu vết nó lui vào tăm tối?'. Nút để ‘thu hoạch’ câu nói, cho nó trơ vào mục lục thu thập 'Kính ngắm'. Khai thác không bị hạn chế: bạn cứ đắm chìm càng lâu càng nhận đc bài hoc nhiều mà thu gom về",
+      "first_7_day_prototype": "Kính Lúp Ký Ức 3D có 5 'mốc cảm xúc' nhỏ để xoay quanh (buồn man mác, mong manh, bồi hồi, bâng khuâng). Ứng vào mốc cảm xúc thứ 1,  quãng nhìn: xuất hiện 3 dòng hiển thị văn bản trừu tượng. Dòng đó lướt từ từ ngang mặt. Bạn chỉ có 'Chạm vào ký ức': nó hiện 2 dòng văn:  ‘Thấu cảm sự bình yên bạn mang là món qùa thực mà ít tiền bạc có khả năng ra đó'. Tuy nhiên game sẽ trả tiền theo thời điểm đó thôi đó...",
+      "business_model_hypothesis": "Bán 'vũ trụ thiền định cá nhân': có DLCs mở rộng các gói 'nhật ký sâu' (lịch sử vũ trụ nội tâm). Ai 'mua' 'chỉ số gia tăng vượt bật' để làm nhiệm vụ và lên cao (cho thấy hiệu quả ban đầu, có ích ban đầu). Đồng thời, 1 vài công ty ASMR cho nó ‘chèn 1 loại nội dung trải nghiệm’ chung.', Đàm phán có hợp đồng  độc quyền của 'kiếm tiền' và ra 'kí nhận 'sẽ có thêm tiền vì lý do không chỉ có thế",
+      "wildness_level": 3,
+      "main_assumptions": [
+        {
+          "claim": "Người dùng trong thế giới quay cuồng sẽ khao khát những trải nghiệm 'chậm', cho phép họ 'hấp thụ' cảm xúc & kiến thức một cách có ý thức mà không cần nhiều tương tác năng động.",
+          "type": "user_need"
+        },
+        {
+          "claim": "Có thể tạo ra cốt truyện phụ ảo tương tác với thời gian dựa trên sự thu hoạch 'tri thức tỉnh táo' hiệu quả trên ASMR mobile ",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Doanh nghiệp wellness và tech liên quan đều cần nền tảng ‘tiếp thị hành động thụ động’. Sản phẩm giá thấp 'mục tiêu cá nhân-sản phẩm tiềm tàng'.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Rủi ro tính tương tác quá thụ động sẽ làm game nhanh chán hoặc không cho cảm giác tiến bộ đủ.",
+        "Liệu các thông điệp về 'chậm' và 'chiêm nghiệm' có thực sự ngấm vào người chơi hay chỉ là màn hình mờ nhạt.",
+        "Sự ổn định và khả năng  mở rộng đa dạng hóa nội dung văn bản đạo lý. Sẽ bị cho lặp lại?"
+      ],
+      "validation_needed_later": [
+        "Chỉ số phản ứng đo lường mức độ người chơi thực hành 'hít thở sâu/nghỉ ngơi có chủ đích' và hiệu quả cho đời sống.",
+        "Cảm giác người chơi nhận được có thành công khi 'trôi đi' thay vì cảm thấy cô đơn và được nuôi dưỡng",
+        "Sự trưởng thành & phát triển của kho 'kiến thức từ hồi quy' mà người chơi thu thập."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Tích hợp thuật toán AI để sinh 'bản đồ giác quan - kí ức' cá nhân cho mỗi người chơi, thay đổi theo 'trạng thái cảm xúc hiện tại', hướng dẫn sâu hơn vào việc thấu hiểu cảm xúc ẩn .",
+          "Ra mắt một phiên bản tương tác ảo chung 'sân đình ký ức tập thể', nơi mọi người cùng thụ hoạch 'hạt giống bình an'. Họ 'gửi' đi những lời ru, tin nhắn ngắn, v.v... chia sẻ , nhận những bài học tập thể đó đã trải."
+        ],
+        "claims_not_yet_validated": [
+          "Sự sẵn sàng chi trả cho các gói 'đánh thức nội tâm bằng cách thả trôi', dù nội dung khá tĩnh và mang tính chất chiêm nghiệm.",
+          "Tính 'cohesion' của kĩ thuật nghe nhìn, khi chúng lấn sang  việc thực hành  mindfulness với hành động chủ yếu do game diễn tự và là điều mang ra công ty sản xuất game làm. Nếu kĩ thuật  game không 'liền một mạch'' và có thêm  công năng tương tác mới về cách game chơi.."
+        ]
+      }
+    }
+  ]
+}

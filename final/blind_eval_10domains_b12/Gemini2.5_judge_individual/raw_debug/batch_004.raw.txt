@@ -1,0 +1,196 @@
+{
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0053",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Ý tưởng kết hợp du lịch thực tế và sáng tạo nội dung số để tạo 'phong cảnh nội tâm' khá mới lạ. Tuy nhiên, việc quy đổi trải nghiệm giác quan thành 'phân tử năng lượng tâm trạng' và tự động hóa đệ quy hình ảnh/âm thanh có vẻ phức tạp để hiện thực hóa trong MVP."
+    },
+    {
+      "candidate_id": "BLIND_0027",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 3.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Khái niệm tương tác với các phiên bản tương lai của bản thân để ra quyết định rất hấp dẫn và có tiềm năng giải quyết nỗi sợ sai lầm. MVP rõ ràng, tập trung vào một góc nhìn duy nhất, giúp dễ dàng thử nghiệm."
+    },
+    {
+      "candidate_id": "BLIND_0083",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Kết hợp robot và nấu ăn là một hướng đi thú vị, giải quyết sự nhàm chán và nỗi sợ mắc lỗi. MVP tập trung vào một trạm demo với robot đơn giản và các khóa học cơ bản là hợp lý và khả thi."
+    },
+    {
+      "candidate_id": "BLIND_0005",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Ý tưởng về 'ký ức tương lai' rất ý nghĩa, giải quyết nhu cầu ghi lại sự phát triển cá nhân và để lại dấu ấn. MVP đơn giản chỉ với tin nhắn văn bản và gửi email là rất rõ ràng và dễ thử nghiệm."
+    },
+    {
+      "candidate_id": "BLIND_0111",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Tạo 'bản đồ cảm xúc' và 'liều thuốc cảm xúc' kỹ thuật số là một cách tiếp cận mới mẻ để quản lý cảm xúc. MVP với chatbot đơn giản và phản hồi hình ảnh/âm thanh cơ bản là khả thi và dễ kiểm chứng."
+    },
+    {
+      "candidate_id": "BLIND_0032",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Dịch vụ đầu bếp cá nhân theo tâm trạng giải quyết trực tiếp mong muốn được ăn ngon và chăm sóc. MVP tập trung vào một khu vực nhỏ, nhóm đầu bếp đa dạng và các tùy chọn cơ bản là hợp lý để bắt đầu."
+    },
+    {
+      "candidate_id": "BLIND_0073",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Ý tưởng về 'ký ức tương lai' rất ý nghĩa, giải quyết nhu cầu ghi lại sự phát triển cá nhân và để lại dấu ấn. MVP đơn giản chỉ với tin nhắn văn bản và gửi email là rất rõ ràng và dễ thử nghiệm."
+    },
+    {
+      "candidate_id": "BLIND_0100",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 2.5,
+        "mvp_clarity": 3.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 4.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.0,
+        "prototype_willingness": 3.0
+      },
+      "short_rationale": "Ý tưởng sử dụng giấc mơ để học tập rất độc đáo, nhưng tính khả thi kỹ thuật và cơ sở khoa học cho việc 'lập trình' giấc mơ còn nhiều nghi vấn. MVP chỉ tập trung vào âm thanh lặp lại để hỗ trợ ghi nhớ là khá hạn chế."
+    },
+    {
+      "candidate_id": "BLIND_0110",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Tái định nghĩa trải nghiệm cà phê qua giao thoa giác quan là một ý tưởng rất sáng tạo và khác biệt. Tuy nhiên, việc tạo ra các trải nghiệm liên giác quan thực sự và đo lường được hiệu quả có thể phức tạp."
+    },
+    {
+      "candidate_id": "BLIND_0008",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 2.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Kết nối mọi người qua 'giao điểm ký ức' giải quyết sự cô đơn và nhu cầu hoài niệm. MVP tập trung vào phân tích lịch sử địa điểm chung là một cách tiếp cận thực tế để bắt đầu."
+    },
+    {
+      "candidate_id": "BLIND_0087",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Nền tảng VR du hành thời gian để trải nghiệm lịch sử là một ý tưởng giáo dục đột phá. MVP tập trung vào một bối cảnh VR ngắn với tương tác cơ bản là khả thi để kiểm chứng sự hấp dẫn."
+    },
+    {
+      "candidate_id": "BLIND_0010",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Thiết kế và trải nghiệm giấc mơ cá nhân hóa là một ý tưởng mới lạ, giải quyết nhu cầu giải trí và thoát ly. MVP với các mẫu có sẵn và âm thanh/hình ảnh AI tạo ra là một bước khởi đầu hợp lý."
+    }
+  ]
+}

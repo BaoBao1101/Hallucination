@@ -1,0 +1,22 @@
+{
+  "stage": "blind_individual_metric_judge",
+  "judge_model": "gemini-2.5-flash-lite",
+  "temperature": 0.0,
+  "top_p": 0.1,
+  "metrics": [
+    "novelty",
+    "conceptual_coherence",
+    "user_pain_plausibility",
+    "technical_plausibility",
+    "mvp_clarity",
+    "business_model_plausibility",
+    "unsupported_claim_risk",
+    "ethical_privacy_risk",
+    "overall_mvp_usefulness",
+    "prototype_willingness"
+  ],
+  "num_batches": 12,
+  "num_evaluated_candidates": 60,
+  "created_at": "2026-06-21T19:24:26",
+  "combined_output": "blind_eval_pilot\\judge_individual\\blind_individual_judge_scores.jsonl"
+}

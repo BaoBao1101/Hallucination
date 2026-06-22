@@ -1,0 +1,27 @@
+{
+  "stage": "directional_pairwise_raw_to_chvd_judge",
+  "judge_model": "gemini-2.5-flash-lite",
+  "temperature": 0.0,
+  "top_p": 0.1,
+  "metrics": [
+    "creative_core_preservation",
+    "novelty_retention",
+    "practical_mvp_improvement",
+    "overclaim_removal_quality",
+    "semantic_drift_risk"
+  ],
+  "preference_values": [
+    "A",
+    "B",
+    "TIE"
+  ],
+  "num_pairs": 38,
+  "num_batches": 8,
+  "created_at": "2026-06-22T10:08:10",
+  "combined_output": "blind_eval_10domains_b12\\judge_pairwise\\pairwise_distillation_judge_scores.jsonl",
+  "notes": [
+    "The judge sees Source candidate = raw M1 and Practical revision = CHVD M3.",
+    "This is a directional source-to-revision assessment, not an order-randomized preference-only test.",
+    "Never share pairwise_key_private.csv with the judge."
+  ]
+}

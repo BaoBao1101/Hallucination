@@ -1,0 +1,180 @@
+{
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0066",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng về việc hồi sinh ký ức số cá nhân/gia đình là mới lạ và có tiềm năng. MVP rõ ràng nhưng tính khả thi kỹ thuật và mô hình kinh doanh cần được làm rõ hơn."
+    },
+    {
+      "candidate_id": "BLIND_0106",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Khái niệm AI tạo nhạc theo yêu cầu rất sáng tạo và giải quyết một nhu cầu độc đáo. MVP còn khá chung chung và tính khả thi kỹ thuật của AI tạo âm thanh liền mạch cần được chứng minh."
+    },
+    {
+      "candidate_id": "BLIND_0074",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng game giải đố tâm lý độc đáo, kết hợp gameplay và chủ đề sâu sắc. MVP rõ ràng và có thể thử nghiệm, nhưng mô hình kinh doanh chưa được đề cập."
+    },
+    {
+      "candidate_id": "BLIND_0011",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Giải quyết một vấn đề thực tế và có MVP rất rõ ràng, dễ thử nghiệm. Tính mới không quá cao nhưng tính ứng dụng và khả thi rất tốt."
+    },
+    {
+      "candidate_id": "BLIND_0042",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Ý tưởng về mô phỏng 'thực tế ảo song song' cho sự nghiệp rất sáng tạo. MVP còn khá trừu tượng và tính khả thi kỹ thuật của AI phân tích sâu cần được làm rõ."
+    },
+    {
+      "candidate_id": "BLIND_0098",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Công cụ tạo ngôn ngữ giả tưởng có tính mới cao và giải quyết nhu cầu của một nhóm đối tượng cụ thể. MVP rõ ràng và có thể thử nghiệm, nhưng mô hình kinh doanh cần được phát triển."
+    },
+    {
+      "candidate_id": "BLIND_0028",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ứng dụng AR cho pha chế cà phê giải quyết vấn đề thực tế và có tiềm năng học hỏi cao. MVP rõ ràng và có thể thử nghiệm, nhưng cần làm rõ hơn về phản hồi từ AI/cộng đồng."
+    },
+    {
+      "candidate_id": "BLIND_0019",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Ý tưởng nhà hàng theo chủ đề môi trường độc đáo, mang lại trải nghiệm ẩm thực đa chiều. MVP tập trung vào một khu vực nhỏ và set menu, có thể thử nghiệm nhưng cần làm rõ tác động thực tế của môi trường lên vị giác."
+    },
+    {
+      "candidate_id": "BLIND_0078",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.5,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Game mô phỏng chăm sóc da kết hợp tâm lý là một ý tưởng thú vị. MVP tập trung vào các vấn đề da nhẹ và 1-2 liệu pháp, có thể thử nghiệm nhưng cần làm rõ hơn về chức năng 'Khám phá' và kiến thức kỹ thuật."
+    },
+    {
+      "candidate_id": "BLIND_0113",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Ý tưởng học tập ngược, tập trung vào cảm giác và trực giác, rất mới lạ và giải quyết vấn đề truyền đạt kiến thức khó. MVP còn khá phức tạp để thử nghiệm và tính khả thi kỹ thuật cần được làm rõ."
+    },
+    {
+      "candidate_id": "BLIND_0092",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Game giải đố phân tích quảng cáo có tính mới và giải quyết nhu cầu tư duy phản biện. MVP rất rõ ràng, dễ thử nghiệm và có tính ứng dụng cao."
+    }
+  ]
+}

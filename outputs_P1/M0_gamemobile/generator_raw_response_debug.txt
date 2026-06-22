@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "prompt_regime": "P1_shared_neutral_creative_ideation",
+    "prompt_version": "P1_v1",
+    "domain": "Game Mobile",
+    "language": "en"
+  },
+  "ideas": [
+    {
+      "idea_id": "I001",
+      "domain": "Game Mobile",
+      "title": "Narrative Weaver",
+      "target_user": "Casual mobile gamers who enjoy story-driven experiences but have limited time for long play sessions.",
+      "problem_or_desire": "Desire for engaging, evolving narratives that can be experienced in short, meaningful bursts.",
+      "core_concept": "A mobile game where player choices in short, branching narrative segments dynamically alter future story paths and character relationships, creating a unique personal story for each player.",
+      "proposed_approach": "Develop a system for procedurally generating narrative branches based on player decisions, focusing on emotional impact and replayability. Utilize a simple, tap-based interaction model.",
+      "prototype_scope": "A single, self-contained story arc with 5-10 key decision points, demonstrating how choices affect immediate outcomes and setting up future narrative possibilities."
+    },
+    {
+      "idea_id": "I002",
+      "domain": "Game Mobile",
+      "title": "Rhythm Sculptor",
+      "target_user": "Music enthusiasts and rhythm game players seeking creative expression beyond traditional note-matching.",
+      "problem_or_desire": "Desire to create and manipulate music within a game context, not just react to it.",
+      "core_concept": "A rhythm game where players don't just hit notes, but actively 'sculpt' the music by altering tempo, adding/removing instruments, and applying effects in real-time to achieve a target sonic profile.",
+      "proposed_approach": "Implement a dynamic audio engine that allows for real-time manipulation of pre-composed musical tracks. Focus on intuitive gesture controls for sculpting.",
+      "prototype_scope": "A single song with a basic 'sculpting' mode where players can adjust tempo and toggle instrument layers, with a scoring system based on adherence to a target sonic description."
+    },
+    {
+      "idea_id": "I003",
+      "domain": "Game Mobile",
+      "title": "Geo-Quest Companion",
+      "target_user": "Outdoor enthusiasts and explorers who enjoy augmented reality (AR) and location-based games.",
+      "problem_or_desire": "Desire for AR games that seamlessly integrate with real-world exploration and encourage discovery of local points of interest.",
+      "core_concept": "An AR mobile game that overlays a persistent, player-influenced fantasy world onto the real world, with quests and challenges tied to actual geographic locations and landmarks.",
+      "proposed_approach": "Leverage device GPS and AR capabilities to anchor game elements to real-world coordinates. Focus on collaborative gameplay where players can contribute to the persistent world.",
+      "prototype_scope": "A small, localized area (e.g., a park or neighborhood) with a few AR 'nodes' that trigger simple collection or puzzle mini-games, demonstrating location-based interaction and persistent world elements."
+    },
+    {
+      "idea_id": "I004",
+      "domain": "Game Mobile",
+      "title": "Abstract Strategy Duel",
+      "target_user": "Players who enjoy deep, strategic board games and competitive mobile gaming.",
+      "problem_or_desire": "Desire for a highly strategic, turn-based mobile game with simple mechanics but profound depth, suitable for quick matches.",
+      "core_concept": "A minimalist, abstract strategy game where players place and move pieces on a grid, with each piece having a unique, context-dependent interaction rule that changes based on adjacent pieces.",
+      "proposed_approach": "Design a set of interlocking, emergent rules for a small set of abstract pieces. Focus on a clean UI and fast-paced AI for single-player testing.",
+      "prototype_scope": "A single game mode with two distinct piece types and a 5x5 grid, demonstrating the core interaction loop and win condition."
+    },
+    {
+      "idea_id": "I005",
+      "domain": "Game Mobile",
+      "title": "Ephemeral Art Canvas",
+      "target_user": "Creative individuals and casual gamers looking for a relaxing, non-competitive digital art experience.",
+      "problem_or_desire": "Desire for a mobile art tool that encourages spontaneous creation and embraces the beauty of temporary, evolving digital art.",
+      "core_concept": "A mobile game where players paint with 'living' brushes that have unique behaviors (e.g., spreading, fading, reacting to other strokes) on a canvas that slowly degrades or transforms over time.",
+      "proposed_approach": "Develop a physics-based or agent-based simulation for brush behaviors. Focus on a tactile, intuitive drawing interface and a visually appealing, evolving aesthetic.",
+      "prototype_scope": "A single canvas with 2-3 distinct 'living' brush types and a time-based decay mechanic, allowing users to create and observe a piece evolve for a limited duration."
+    }
+  ]
+}

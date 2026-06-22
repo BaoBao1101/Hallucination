@@ -1,0 +1,47 @@
+[
+  {
+    "candidate_id": "BLIND_0039",
+    "domain": "Web App For Community Services",
+    "title": "Người Kể Chuyện Di Sản",
+    "problem_or_desire": "Nhu cầu kết nối với cội nguồn, mong muốn truyền lại câu chuyện gia đình/cộng đồng cho thế hệ sau, sự lãng quên dần các địa điểm và câu chuyện lịch sử.",
+    "core_concept": "Một nền tảng web cho phép các gia đình hoặc cộng đồng nhỏ tạo ra các 'bản đồ di sản số' tương tác, ghi lại lịch sử, câu chuyện và các địa điểm quan trọng của họ.",
+    "proposed_approach": "Web app cho phép người dùng tạo một bản đồ số cá nhân hoặc nhóm. Họ có thể đánh dấu các địa điểm quan trọng (nhà cũ, trường học, nơi kỷ niệm) và đính kèm các nội dung đa phương tiện (ảnh cũ, video, ghi âm lời kể, văn bản). Các thành viên trong gia đình/cộng đồng có thể cùng nhau đóng góp và chỉnh sửa bản đồ. Có thể có tính năng 'du lịch ảo' theo các tuyến đường di sản đã tạo.",
+    "prototype_scope": "Cho phép người dùng tạo một bản đồ, đánh dấu 1-2 địa điểm, và đính kèm một bức ảnh hoặc một đoạn văn ngắn."
+  },
+  {
+    "candidate_id": "BLIND_0033",
+    "domain": "Web App For Community Services",
+    "title": "Resilience Bonds Registry",
+    "problem_or_desire": "Nhiều người dù vượt qua nỗi đau nhưng vẫn cô đơn hoặc sợ gieo rắc gánh nặng lên người thân. Có sự khát khao tìm được 'người cùng chí hướng' hoặc cách công nhận 'sức bật' nội tâm.",
+    "core_concept": "Sàn giao dịch các 'chứng khoán cảm xúc và tinh thần', nơi cộng đồng có thể ký gửi trải nghiệm vượt qua nghịch cảnh để đổi lấy sự nâng đỡ tinh thần (emotional support), kỹ năng đối phó khi họ chứng minh được sức phục hồi sau khó khăn cá nhân.",
+    "proposed_approach": "Người dùng gửi case study về bài học và dấu ấn phục hồi. Hội đồng người dùng ẩn danh duyệt các 'trái phiếu' này (kiểm tra tính chân thực dựa vào tính nhất quán của câu chuyện và mức độ tác động nhận thấy từ người đã thụ hưởng). Chủ sở hữu trái phiếu nhận 'khế ước nâng đỡ' sử dụng cho chính mình hoặc nhượng lại (một phần). Bên cho vay (người đỡ đầu cảm xúc) nhận huy hiệu 'Soul Shepherd' hoặc điểm tín dụng cảm xúc cho lịch sử hỗ trợ hiệu quả, từ đó tích lũy lợi tức an sinh cộn…",
+    "prototype_scope": "Thiết kế một hình thức 'Sổ Tay Phục Hồi Di Sản' đơn giản: Cho 10-15 câu chuyện vượt khó được chọn lọc (với sự đồng ý, ẩn danh). Cung cấp bản PDF cho phép các nhà bảo trợ tiềm năng ‘chia sẻ bài học'. Cho phép 'nhấp để chia sẻ'."
+  },
+  {
+    "candidate_id": "BLIND_0029",
+    "domain": "Coffee Services",
+    "title": "Symbiotic Coffee Farming Ecosystem (SYMFOS)",
+    "problem_or_desire": "Nhà sản xuất cà phê ngày càng đối mặt với rủi ro môi trường (khí hậu, sâu bệnh) và cần tìm các phương pháp sản xuất bền vững, năng suất ổn định hơn mà không ảnh hưởng đến hương vị. Người tiêu dùng tìm kiếm 'siêu thực phẩm', nguyên liệu thô từ tương lai vừa thân thiện với môi trường.",
+    "core_concept": "Mô hình nông nghiệp thông minh tập trung vào sợi nấm cộng sinh và cà phê, trong đó cây cà phê cung cấp đường, còn nấm cung cấp các chất dinh dưỡng và khả năng đề kháng vượt trội, có thể uống cả trà và cà phê.",
+    "proposed_approach": "Xây dựng quy trình canh tác 'Symbiotic Soil Enhancement Program' sử dụng rễ cây cà phê để bón trực tiếp, liên tục vào trong những vùng đất bạc màu mà đất của ta lại còn nhiều mặt trái vì các yếu tố tự nhiên như: độ phì nhiêu đất chỉ còn 45% và cây trồng còn cần nước 2-3 lần với tưới cây có năng suất 14kg/ngày do 1 tuần có tới 3 cơn bão tuyết nhỏ hay mưa dông liên tục. Trong đó, các chủng nấm mycorrhizal đã qua tuyển chọn sẽ cộng sinh với rễ cây cà phê, giúp cây hấp thụ dinh…",
+    "prototype_scope": "Một thử nghiệm quy mô nhỏ tại vườn ươm, sử dụng hai chậu cà phê: một chậu chỉ dùng đất thông thường, một chậu sử dụng hỗn hợp đất pha trộn với nấm men tiên phong (thích nghi với các loại độc chất). Chúng tôi so sánh mức độ phát triển của hai loại qua 3 tháng và báo cáo lại với nhiều tình nguyện viên."
+  },
+  {
+    "candidate_id": "BLIND_0021",
+    "domain": "Edtech",
+    "title": "Nhà Huấn Luyện Kỹ Năng Sống Tương Lai",
+    "problem_or_desire": "Sự lo lắng về tương lai bất định, thiếu kỹ năng đối phó với các vấn đề phức tạp, mơ hồ, và chưa từng xảy ra. Mong muốn được trang bị 'vũ khí' tinh thần để thành công.",
+    "core_concept": "Một nền tảng huấn luyện kỹ năng mềm và tư duy phản biện thông qua các tình huống giả lập 'siêu thực tế' được tạo ra bởi AI, chuẩn bị cho người học đối mặt với các thách thức chưa từng có trong tương lai.",
+    "proposed_approach": "Hệ thống AI tạo ra các kịch bản 'what-if' về tương lai (ví dụ: 'Bạn là người quản lý khủng hoảng khi một loại virus mới biến đổi gen xuất hiện và ảnh hưởng đến trí nhớ con người', 'Bạn phải đàm phán với một nền văn minh ngoài hành tinh về tài nguyên nước trên Trái Đất'). Người học đưa ra quyết định, và AI sẽ mô phỏng hậu quả dựa trên các mô hình phức tạp, đồng thời cung cấp phản hồi về tư duy và kỹ năng đã thể hiện.",
+    "prototype_scope": "Một công cụ web cho phép người dùng nhập một 'thảm họa tương lai' (ví dụ: 'thiếu hụt oxy toàn cầu') và AI sẽ tạo ra 3 câu hỏi tình huống để người dùng trả lời, sau đó đưa ra nhận xét ngắn gọn về logic của câu trả lời."
+  },
+  {
+    "candidate_id": "BLIND_0045",
+    "domain": "Coffee Services",
+    "title": "Adaptive Barista AI (ABAI)",
+    "problem_or_desire": "Cảm giác thiếu vắng sự tương tác ý nghĩa, khoảnh khắc 'quan tâm' cá nhân mà trước đây barista giỏi mang lại; mong muốn nâng cao 'nhân văn' và cảm xúc gắn kết với thiết bị công nghệ hóa như máy pha cà phê.",
+    "core_concept": "Tích hợp AI vào máy pha cà phê để tạo ra tương tác cá nhân hóa, gợi ý đồ uống và mang lại cảm giác 'quan tâm' giống như một barista giỏi.",
+    "proposed_approach": "Một trợ lý AI cho máy pha cà phê thông minh, có khả năng ghi nhớ sở thích của người dùng, đưa ra gợi ý đồ uống dựa trên lịch sử và thời gian trong ngày, và giao tiếp bằng giọng nói với một 'tính cách' thân thiện, lịch sự. Thay vì mô phỏng barista, tập trung vào việc cung cấp thông tin hữu ích và tương tác cá nhân hóa.",
+    "prototype_scope": "Một ứng dụng điện thoại hoặc module phần mềm cho máy pha cà phê có sẵn, cung cấp 2-3 'persona' AI với giọng điệu và phong cách giao tiếp khác nhau (ví dụ: 'thân thiện', 'tối giản', 'hài hước nhẹ'). AI sẽ chào hỏi người dùng, hỏi về sở thích cà phê trong ngày (nóng/lạnh, mạnh/nhẹ), và gợi ý một loại đồ uống dựa trên lịch sử pha chế hoặc sở thích đã lưu. Giao tiếp giới hạn ở 2-3 câu ngắn mỗi lần."
+  }
+]

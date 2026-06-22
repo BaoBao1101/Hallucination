@@ -1,0 +1,254 @@
+{
+  "metadata": {
+    "pipeline": "CHVD",
+    "version": "v5.3",
+    "domain": "Web App Services",
+    "language": "vi",
+    "mode": "prompt_only_no_corpus_no_weak_signals",
+    "temperature_role": "maximal_divergent_creativity",
+    "stage": "high_temperature_creative_hallucination_generator",
+    "saved_at": "2026-06-22T08:42:47",
+    "generator_model": "gemini-2.5-flash-lite",
+    "generator_temperature": 0.0,
+    "generator_top_p": 0.1,
+    "user_prompt": ""
+  },
+  "ideas": [
+    {
+      "idea_id": "I001",
+      "idea_name": "Thư Viện Giấc Mơ Tương Tác",
+      "domain": "Web App Services",
+      "one_sentence_pitch": "Một nền tảng web cho phép người dùng ghi lại, phân tích và 'chơi đùa' với giấc mơ của họ thông qua các công cụ AI sáng tạo và trải nghiệm nhập vai.",
+      "target_user": "Những người tò mò về tiềm thức, người sáng tạo nội dung, nhà trị liệu tâm lý, hoặc bất kỳ ai muốn khám phá thế giới nội tâm của mình.",
+      "hidden_pain_or_desire": "Mong muốn hiểu rõ hơn về những thông điệp ẩn giấu trong giấc mơ, tìm kiếm nguồn cảm hứng sáng tạo từ tiềm thức, hoặc đơn giản là muốn có một 'sân chơi' an toàn để khám phá những khía cạnh kỳ lạ của tâm trí.",
+      "creative_leap": "Biến giấc mơ từ trải nghiệm cá nhân, khó nắm bắt thành một 'tài sản' có thể tương tác, phân tích và thậm chí là 'sản xuất' nội dung dựa trên đó.",
+      "non_obvious_connection": "Kết hợp phân tích giấc mơ (tâm lý học, biểu tượng học) với công nghệ AI tạo sinh (text-to-image, text-to-story) và gamification.",
+      "proposed_solution": "Một web app cho phép người dùng nhập mô tả giấc mơ (văn bản, giọng nói). AI sẽ phân tích các yếu tố chính, biểu tượng, cảm xúc và tạo ra hình ảnh, âm thanh, hoặc thậm chí là một câu chuyện ngắn dựa trên giấc mơ đó. Người dùng có thể 'chỉnh sửa' giấc mơ, tạo ra các biến thể, hoặc chia sẻ (ẩn danh) với cộng đồng để nhận diễn giải.",
+      "core_experience": "Khám phá, sáng tạo, thấu hiểu bản thân thông qua lăng kính của giấc mơ được 'số hóa' và làm phong phú bởi AI.",
+      "core_technology": [
+        "Natural Language Processing (NLP) for dream analysis",
+        "Generative AI (Text-to-Image, Text-to-Story)",
+        "User-generated content platform",
+        "Data visualization for dream patterns"
+      ],
+      "why_it_feels_new": "Chuyển đổi việc ghi chép giấc mơ thụ động thành một quy trình sáng tạo và phân tích chủ động, sử dụng AI để 'hiện thực hóa' và mở rộng ý nghĩa của giấc mơ.",
+      "why_now_speculative": "Sự phát triển mạnh mẽ của AI tạo sinh và nhận thức ngày càng tăng về sức khỏe tinh thần và tiềm năng của tiềm thức.",
+      "mvp_seed": "Cho phép người dùng nhập mô tả giấc mơ bằng văn bản, AI tạo ra 1-2 hình ảnh minh họa và một vài từ khóa phân tích cảm xúc/biểu tượng chính.",
+      "first_7_day_prototype": "Một giao diện đơn giản để nhập văn bản giấc mơ, tích hợp API của một mô hình Text-to-Image để tạo hình ảnh, và hiển thị kết quả.",
+      "business_model_hypothesis": "Freemium: Miễn phí cho các tính năng cơ bản (ghi chép, phân tích đơn giản, 1-2 hình ảnh). Thu phí cho các tính năng nâng cao (phân tích sâu, tạo câu chuyện, tạo nhạc nền, lưu trữ không giới hạn, cộng đồng riêng tư).",
+      "wildness_level": 4,
+      "main_assumptions": [
+        {
+          "claim": "Người dùng sẵn sàng chia sẻ chi tiết giấc mơ của họ với một nền tảng số.",
+          "type": "user_need"
+        },
+        {
+          "claim": "AI có thể trích xuất ý nghĩa và tạo ra nội dung sáng tạo có giá trị từ mô tả giấc mơ.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Có một thị trường ngách đủ lớn cho các công cụ khám phá bản thân và sáng tạo dựa trên giấc mơ.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Vấn đề riêng tư và bảo mật dữ liệu giấc mơ.",
+        "Độ chính xác và chủ quan của AI trong việc diễn giải giấc mơ.",
+        "Khó khăn trong việc tạo ra trải nghiệm 'nhập vai' thực sự hấp dẫn.",
+        "Sự chấp nhận của người dùng đối với việc 'số hóa' một trải nghiệm cá nhân sâu sắc."
+      ],
+      "validation_needed_later": [
+        "Phỏng vấn người dùng tiềm năng về thói quen ghi chép giấc mơ và mong muốn khám phá.",
+        "Thử nghiệm MVP với các mô hình AI khác nhau để đánh giá chất lượng đầu ra.",
+        "Khảo sát về mức độ sẵn sàng chi trả cho các tính năng nâng cao."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Khả năng AI có thể 'hiểu' và tái tạo lại cảm xúc phức tạp của giấc mơ một cách tinh tế.",
+          "Tiềm năng tạo ra các 'giấc mơ cộng tác' hoặc 'giấc mơ được định hướng' bởi người dùng."
+        ],
+        "claims_not_yet_validated": [
+          "Mức độ sâu sắc của sự kết nối mà người dùng có thể cảm nhận với 'phiên bản số' của giấc mơ của họ.",
+          "Khả năng ứng dụng của nền tảng này trong các lĩnh vực trị liệu chuyên sâu."
+        ]
+      }
+    },
+    {
+      "idea_id": "I002",
+      "idea_name": "Người Quản Lý 'Nợ Kỹ Năng'",
+      "domain": "Web App Services",
+      "one_sentence_pitch": "Một web app giúp cá nhân theo dõi, ưu tiên và lên kế hoạch 'trả nợ' các kỹ năng mà họ cảm thấy mình nên học nhưng đã trì hoãn, biến việc học tập thành một hành trình có cấu trúc và phần thưởng.",
+      "target_user": "Những người cầu tiến, chuyên gia muốn nâng cấp bản thân, sinh viên, hoặc bất kỳ ai cảm thấy 'lạc hậu' về kỹ năng hoặc có danh sách dài các kỹ năng muốn học nhưng chưa bắt đầu.",
+      "hidden_pain_or_desire": "Cảm giác tội lỗi, lo lắng về việc bỏ lỡ cơ hội do thiếu kỹ năng, sự choáng ngợp trước khối lượng kiến thức cần học, và mong muốn có một hệ thống rõ ràng để quản lý sự phát triển cá nhân.",
+      "creative_leap": "Định nghĩa việc học kỹ năng như một 'khoản nợ' cần được 'thanh toán' có hệ thống, áp dụng các nguyên tắc quản lý tài chính cá nhân vào sự phát triển kỹ năng.",
+      "non_obvious_connection": "Kết hợp quản lý tài chính cá nhân (quản lý nợ, đầu tư, lãi kép) với lý thuyết học tập suốt đời và gamification.",
+      "proposed_solution": "Người dùng liệt kê các kỹ năng họ muốn học ('khoản nợ kỹ năng'). Ứng dụng giúp họ phân loại, ưu tiên dựa trên mục tiêu cá nhân/sự nghiệp, ước tính 'chi phí' (thời gian, tiền bạc) và 'lợi tức' (tiềm năng thu nhập, cơ hội). Ứng dụng đề xuất lộ trình học tập, chia nhỏ thành các 'khoản thanh toán' (bài học, dự án nhỏ), theo dõi tiến độ và thưởng cho việc 'hoàn thành khoản nợ'.",
+      "core_experience": "Cảm giác kiểm soát, tiến bộ rõ ràng và giảm bớt lo lắng về việc học tập, biến việc học thành một 'trò chơi' có chiến lược.",
+      "core_technology": [
+        "Personalized learning path generation",
+        "Goal setting and tracking",
+        "Gamification engine",
+        "Integration with online learning resources (optional)"
+      ],
+      "why_it_feels_new": "Áp dụng mô hình tư duy tài chính (quản lý nợ, đầu tư) vào việc phát triển kỹ năng cá nhân, một cách tiếp cận chưa từng có để giải quyết vấn đề trì hoãn học tập.",
+      "why_now_speculative": "Thị trường lao động thay đổi nhanh chóng đòi hỏi học tập liên tục, và sự gia tăng của các nền tảng học trực tuyến tạo ra nhiều 'nợ kỹ năng' hơn.",
+      "mvp_seed": "Cho phép người dùng tạo danh sách 'nợ kỹ năng', đặt mục tiêu học tập đơn giản, và theo dõi các 'khoản thanh toán' (ví dụ: hoàn thành 1 module khóa học).",
+      "first_7_day_prototype": "Một giao diện web đơn giản để nhập tên kỹ năng, mức độ ưu tiên, và đánh dấu các nhiệm vụ học tập nhỏ đã hoàn thành.",
+      "business_model_hypothesis": "Mô hình đăng ký theo cấp độ: Miễn phí cho số lượng 'nợ kỹ năng' giới hạn và tính năng cơ bản. Trả phí cho việc phân tích chuyên sâu, lộ trình học tập cá nhân hóa, tích hợp với các nền tảng học tập, và các tính năng gamification nâng cao.",
+      "wildness_level": 3,
+      "main_assumptions": [
+        {
+          "claim": "Người dùng coi việc thiếu kỹ năng như một 'gánh nặng' hoặc 'nợ' cần được giải quyết.",
+          "type": "user_need"
+        },
+        {
+          "claim": "Mô hình 'quản lý nợ' có thể tạo động lực học tập hiệu quả hơn các phương pháp truyền thống.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Có nhu cầu về một công cụ tập trung vào việc 'hoàn thành' các mục tiêu học tập đã đặt ra.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Người dùng có thể cảm thấy mô hình 'nợ' quá tiêu cực hoặc áp lực.",
+        "Khó khăn trong việc định lượng chính xác 'chi phí' và 'lợi tức' của kỹ năng.",
+        "Cạnh tranh với các nền tảng quản lý mục tiêu và học tập hiện có.",
+        "Đảm bảo tính linh hoạt để người dùng có thể thay đổi mục tiêu học tập."
+      ],
+      "validation_needed_later": [
+        "Khảo sát người dùng về cách họ nhìn nhận việc học kỹ năng và các rào cản.",
+        "Thử nghiệm A/B testing với các cách diễn đạt khác nhau (ví dụ: 'mục tiêu học tập' vs 'nợ kỹ năng').",
+        "Phỏng vấn các chuyên gia phát triển cá nhân về tính khả thi của mô hình."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Khả năng tạo ra một 'thị trường trao đổi kỹ năng' nội bộ dựa trên 'điểm tín dụng kỹ năng' mà người dùng tích lũy.",
+          "Việc áp dụng các thuật toán tài chính phức tạp để tối ưu hóa lộ trình học tập như một 'khoản đầu tư' dài hạn."
+        ],
+        "claims_not_yet_validated": [
+          "Liệu mô hình 'nợ' có thực sự tạo ra sự khác biệt lớn về động lực so với các hệ thống gamification khác.",
+          "Khả năng tích hợp sâu với các nền tảng học tập để tự động ghi nhận tiến độ."
+        ]
+      }
+    },
+    {
+      "idea_id": "I003",
+      "idea_name": "Nhà Tạo Lập 'Hương Vị Ký Ức'",
+      "domain": "Web App Services",
+      "one_sentence_pitch": "Một web app sử dụng AI để phân tích các mô tả về kỷ niệm hoặc địa điểm, sau đó gợi ý hoặc tạo ra các công thức nấu ăn, mùi hương, hoặc danh sách nhạc độc đáo để tái hiện lại 'hương vị' của ký ức đó.",
+      "target_user": "Những người hoài niệm, người yêu ẩm thực, nhà thiết kế trải nghiệm, người muốn tạo quà tặng cá nhân hóa độc đáo, hoặc các doanh nghiệp muốn tạo dấu ấn thương hiệu qua các giác quan.",
+      "hidden_pain_or_desire": "Mong muốn sống lại những khoảnh khắc quý giá, chia sẻ trải nghiệm cảm xúc với người khác, hoặc tìm kiếm những cách thức mới lạ để kết nối với quá khứ hoặc một địa điểm.",
+      "creative_leap": "Chuyển đổi các mô tả trừu tượng về ký ức và địa điểm thành các trải nghiệm đa giác quan có thể tái tạo được (ẩm thực, mùi hương, âm nhạc).",
+      "non_obvious_connection": "Kết hợp phân tích văn bản (NLP) với cơ sở dữ liệu công thức nấu ăn, kiến thức về mùi hương (olfactory science), và thư viện âm nhạc, được hỗ trợ bởi AI tạo sinh.",
+      "proposed_solution": "Người dùng nhập mô tả về một kỷ niệm (ví dụ: 'buổi chiều hè ở quê ngoại, có mùi rơm khô và tiếng ve sầu') hoặc một địa điểm ('chợ đêm Sài Gòn, mùi đồ ăn đường phố, tiếng rao'). AI sẽ phân tích các yếu tố cảm quan, địa lý, văn hóa và gợi ý: 1) Công thức nấu ăn liên quan (ví dụ: món ăn gia đình, nguyên liệu đặc trưng). 2) Gợi ý về các loại mùi hương (tinh dầu, nến thơm) có thể tái tạo không khí. 3) Danh sách nhạc gợi lên không khí của kỷ niệm/địa điểm đó. Có thể mở rộng để AI tạo ra các 'gói trải nghiệm' kết hợp cả ba.",
+      "core_experience": "Sống lại và chia sẻ những khoảnh khắc quý giá thông qua sự kết hợp tinh tế của ẩm thực, mùi hương và âm nhạc.",
+      "core_technology": [
+        "Natural Language Processing (NLP) for sensory analysis",
+        "AI-powered recommendation engine (recipes, scents, music)",
+        "Knowledge graph of ingredients, scents, and music genres",
+        "Generative AI for creating unique combinations (optional)"
+      ],
+      "why_it_feels_new": "Tập trung vào việc 'tái tạo' trải nghiệm cảm quan của ký ức, một cách tiếp cận độc đáo so với các ứng dụng ghi chép kỷ niệm thông thường.",
+      "why_now_speculative": "Sự quan tâm ngày càng tăng đối với trải nghiệm cá nhân hóa, 'slow living', và sự phát triển của AI có khả năng phân tích và kết hợp dữ liệu phức tạp.",
+      "mvp_seed": "Cho phép người dùng nhập mô tả kỷ niệm/địa điểm, AI gợi ý 1-2 công thức nấu ăn đơn giản và 1-2 bài hát gợi ý.",
+      "first_7_day_prototype": "Một giao diện nhập văn bản, tích hợp API gợi ý công thức nấu ăn và API gợi ý nhạc (ví dụ: Spotify API).",
+      "business_model_hypothesis": "Freemium: Gợi ý cơ bản miễn phí. Thu phí cho các gợi ý nâng cao (công thức phức tạp, mùi hương chuyên biệt, danh sách nhạc tùy chỉnh), khả năng tạo 'gói trải nghiệm' cá nhân hóa, hoặc tích hợp với các nhà cung cấp sản phẩm (nguyên liệu, nến thơm, dịch vụ nhạc).",
+      "wildness_level": 4,
+      "main_assumptions": [
+        {
+          "claim": "Người dùng tin rằng các yếu tố cảm quan (món ăn, mùi hương, âm nhạc) có thể khơi gợi mạnh mẽ ký ức.",
+          "type": "user_need"
+        },
+        {
+          "claim": "AI có thể phân tích mô tả văn bản để trích xuất các yếu tố cảm quan và kết hợp chúng một cách hợp lý.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Có thị trường cho các sản phẩm và dịch vụ cá nhân hóa dựa trên ký ức và trải nghiệm.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Tính chủ quan và độ chính xác của AI trong việc 'dịch' ký ức sang các yếu tố cảm quan.",
+        "Khó khăn trong việc tìm kiếm hoặc tạo ra các công thức/mùi hương/nhạc thực sự phù hợp và độc đáo.",
+        "Vấn đề bản quyền âm nhạc và nguồn gốc công thức.",
+        "Chi phí phát triển và duy trì cơ sở dữ liệu lớn về nguyên liệu, mùi hương, âm nhạc."
+      ],
+      "validation_needed_later": [
+        "Phỏng vấn người dùng về những kỷ niệm/địa điểm họ muốn tái hiện và cách họ hình dung.",
+        "Thử nghiệm các gợi ý với nhóm người dùng nhỏ và thu thập phản hồi về độ 'chính xác' cảm xúc.",
+        "Khảo sát về mức độ sẵn sàng chi trả cho các 'gói trải nghiệm ký ức'."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Khả năng AI có thể 'sáng tạo' ra các mùi hương hoàn toàn mới dựa trên phân tích ký ức.",
+          "Tiềm năng hợp tác với các nhà khoa học thần kinh để hiểu sâu hơn về mối liên hệ giữa giác quan và ký ức."
+        ],
+        "claims_not_yet_validated": [
+          "Mức độ 'thành công' trong việc tái hiện ký ức của người dùng.",
+          "Khả năng mở rộng mô hình này cho các loại trải nghiệm khác ngoài ký ức cá nhân (ví dụ: tái hiện không khí của một bộ phim, một cuốn sách)."
+        ]
+      }
+    },
+    {
+      "idea_id": "I004",
+      "idea_name": "Người Dịch 'Ngôn Ngữ Vật Thể'",
+      "domain": "Web App Services",
+      "one_sentence_pitch": "Một web app sử dụng AI để phân tích hình ảnh các đồ vật hàng ngày và giải mã 'câu chuyện' hoặc 'ý nghĩa tiềm ẩn' của chúng, từ lịch sử sản xuất, ý nghĩa văn hóa, đến các liên kết cảm xúc cá nhân.",
+      "target_user": "Những người yêu thích đồ cổ, nhà sưu tập, nhà thiết kế nội thất, người tòo mò về lịch sử vật dụng, hoặc bất kỳ ai muốn nhìn thế giới xung quanh với một góc nhìn mới.",
+      "hidden_pain_or_desire": "Cảm giác tò mò về nguồn gốc và câu chuyện đằng sau những đồ vật quen thuộc, mong muốn kết nối sâu sắc hơn với thế giới vật chất, hoặc tìm kiếm nguồn cảm hứng từ những chi tiết nhỏ bé.",
+      "creative_leap": "Biến những đồ vật tĩnh lặng, vô tri thành những 'nhân vật' có lịch sử, ý nghĩa và câu chuyện riêng, thông qua lăng kính của AI.",
+      "non_obvious_connection": "Kết hợp Computer Vision (nhận dạng vật thể) với cơ sở dữ liệu lịch sử, văn hóa, xã hội học, và các thuật toán suy luận dựa trên ngữ cảnh.",
+      "proposed_solution": "Người dùng tải lên hình ảnh một đồ vật (ví dụ: một chiếc ghế cũ, một chiếc cốc, một cuốn sách). AI sẽ cố gắng nhận dạng vật thể, tìm kiếm thông tin liên quan từ các nguồn dữ liệu khổng lồ (lịch sử thiết kế, các giai đoạn sản xuất, ý nghĩa biểu tượng trong các nền văn hóa khác nhau, các câu chuyện/bài viết liên quan đến loại đồ vật đó). Ứng dụng sẽ trình bày 'câu chuyện' của đồ vật dưới dạng văn bản hấp dẫn, có thể bao gồm cả các liên kết suy đoán về ý nghĩa cá nhân mà người dùng có thể gán cho nó.",
+      "core_experience": "Khám phá thế giới vật chất xung quanh với sự kinh ngạc và hiểu biết mới, nhìn thấy những câu chuyện ẩn giấu trong từng đồ vật.",
+      "core_technology": [
+        "Computer Vision for object recognition and feature extraction",
+        "AI-powered knowledge retrieval and synthesis",
+        "Natural Language Generation (NLG) for storytelling",
+        "Contextual reasoning engine"
+      ],
+      "why_it_feels_new": "Đi xa hơn việc chỉ nhận dạng đồ vật, ứng dụng này tập trung vào việc 'kể chuyện' và 'giải mã ý nghĩa' của chúng, tạo ra một lớp tương tác hoàn toàn mới với thế giới vật chất.",
+      "why_now_speculative": "Sự phát triển của AI nhận dạng hình ảnh và khả năng xử lý ngôn ngữ tự nhiên cho phép 'hiểu' và 'diễn giải' thông tin từ hình ảnh một cách tinh vi hơn.",
+      "mvp_seed": "Cho phép người dùng tải lên ảnh một đồ vật phổ biến (ví dụ: ghế, bàn, đèn). AI nhận dạng và cung cấp 1-2 sự thật thú vị về lịch sử hoặc ý nghĩa văn hóa của loại đồ vật đó.",
+      "first_7_day_prototype": "Một giao diện tải ảnh đơn giản, tích hợp API nhận dạng hình ảnh và API tìm kiếm thông tin cơ bản (ví dụ: Wikipedia API) để trích xuất các đoạn văn bản liên quan.",
+      "business_model_hypothesis": "Freemium: Nhận dạng cơ bản và 1-2 sự thật miễn phí. Thu phí cho việc phân tích sâu hơn, tạo câu chuyện chi tiết, khả năng lưu trữ 'bộ sưu tập đồ vật' cá nhân, hoặc các tính năng nâng cao cho nhà sưu tập/chuyên gia.",
+      "wildness_level": 4,
+      "main_assumptions": [
+        {
+          "claim": "Người dùng quan tâm đến 'câu chuyện' và 'ý nghĩa' đằng sau những đồ vật họ nhìn thấy hoặc sở hữu.",
+          "type": "user_need"
+        },
+        {
+          "claim": "AI có thể trích xuất và tổng hợp thông tin từ nhiều nguồn để tạo ra một 'câu chuyện' mạch lạc và hấp dẫn về một đồ vật.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Có một thị trường ngách cho những người muốn khám phá và hiểu sâu hơn về thế giới vật chất.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Độ chính xác của nhận dạng vật thể và chất lượng của thông tin lịch sử/văn hóa được tìm thấy.",
+        "Khả năng AI 'sáng tạo' ra những câu chuyện không có cơ sở hoặc gây hiểu lầm.",
+        "Vấn đề bản quyền đối với hình ảnh và thông tin được sử dụng.",
+        "Cạnh tranh với các ứng dụng nhận dạng hình ảnh và tra cứu thông tin chung."
+      ],
+      "validation_needed_later": [
+        "Phỏng vấn người dùng về những loại đồ vật họ muốn tìm hiểu và loại thông tin họ mong đợi.",
+        "Thử nghiệm MVP với các loại đồ vật khác nhau và đánh giá chất lượng 'câu chuyện' do AI tạo ra.",
+        "Khảo sát về mức độ sẵn sàng chi trả cho các tính năng phân tích chuyên sâu."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Khả năng AI có thể suy luận về 'lịch sử cá nhân' của một đồ vật dựa trên các dấu hiệu hao mòn hoặc sửa chữa.",
+          "Tiềm năng tạo ra các 'bảo tàng ảo' cá nhân dựa trên bộ sưu tập đồ vật được 'giải mã'."
+        ],
+        "claims_not_yet_validated": [
+          "Mức độ sâu sắc của sự kết nối cảm xúc mà người dùng có thể hình thành với 'câu chuyện' của đồ vật.",
+          "Khả năng ứng dụng của công nghệ này trong việc bảo tồn di sản văn hóa hoặc phục vụ ngành bảo tàng."
+        ]
+      }
+    }
+  ]
+}

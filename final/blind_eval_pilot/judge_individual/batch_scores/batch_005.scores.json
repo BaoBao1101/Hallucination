@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "stage": "blind_individual_metric_judge",
+    "judge_model": "gemini-2.5-flash-lite",
+    "temperature": 0.0,
+    "top_p": 0.1,
+    "batch_source": "blind_eval_pilot\\batches\\batch_005.json",
+    "created_at": "2026-06-21T19:23:06"
+  },
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0053",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Ý tưởng độc đáo về việc sử dụng AI để huấn luyện giao tiếp theo phong cách tự sự/bi kịch. Tuy nhiên, tính khả thi kỹ thuật và phạm vi MVP cần làm rõ hơn."
+    },
+    {
+      "candidate_id": "BLIND_0002",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng thú vị về việc tái hiện không gian lịch sử bằng âm thanh và hình ảnh. MVP rõ ràng và khả thi kỹ thuật."
+    },
+    {
+      "candidate_id": "BLIND_0032",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Khái niệm về việc cùng nhau xây dựng thế giới giấc mơ rất hấp dẫn. MVP rõ ràng và có thể thực hiện được."
+    },
+    {
+      "candidate_id": "BLIND_0015",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 2.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Ý tưởng trải nghiệm tương lai qua VR rất mới lạ. Tuy nhiên, tính khả thi kỹ thuật và rủi ro về đạo đức/quyền riêng tư cần được xem xét kỹ."
+    },
+    {
+      "candidate_id": "BLIND_0006",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Kết hợp nông nghiệp bền vững và công nghệ vi sinh vật cho cà phê là một ý tưởng tốt. MVP rõ ràng và có tính ứng dụng cao."
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0112",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng mới lạ, kết nối học tập với cảm xúc. MVP rõ ràng nhưng việc AI phân tích cảm xúc sâu sắc để cá nhân hóa bài học còn là thách thức kỹ thuật."
+    },
+    {
+      "candidate_id": "BLIND_0046",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 3.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Giải quyết vấn đề toxic comment một cách sáng tạo. MVP tập trung vào text-to-text là rõ ràng, nhưng việc AI 'hài hước hóa' hoặc 'giáo dục cực đoan' có thể khó đạt được chất lượng mong muốn."
+    },
+    {
+      "candidate_id": "BLIND_0037",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Kết hợp cafe với yếu tố cá nhân hóa đơn giản, dễ thực hiện. MVP rõ ràng và có thể triển khai nhanh chóng, mang lại trải nghiệm thú vị cho khách hàng."
+    },
+    {
+      "candidate_id": "BLIND_0054",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Ý tưởng game dựa trên âm thanh rất độc đáo và có tiềm năng. MVP tập trung vào cơ chế cốt lõi, dễ dàng thử nghiệm và đánh giá tính khả thi."
+    },
+    {
+      "candidate_id": "BLIND_0067",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Mang lại sự mới lạ và yếu tố khám phá cho dịch vụ giao đồ ăn. MVP tập trung vào việc đặt tên món ăn và cung cấp thông tin nguồn gốc là rõ ràng và khả thi."
+    },
+    {
+      "candidate_id": "BLIND_0017",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ứng dụng AI để điều hướng tâm trạng qua âm nhạc là ý tưởng thú vị. MVP với 3 mục tiêu và phản hồi đơn giản là rõ ràng, nhưng việc AI 'chỉnh sửa luồng nhạc tức thời' đòi hỏi công nghệ phức tạp."
+    },
+    {
+      "candidate_id": "BLIND_0009",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 1.5,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Khám phá giấc mơ theo cách tương tác là ý tưởng mới lạ. MVP với việc nhập mô tả và nhận hình ảnh điều chỉnh là rõ ràng, nhưng việc AI tạo kịch bản và hình ảnh chất lượng cao còn là thách thức."
+    },
+    {
+      "candidate_id": "BLIND_0004",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 3.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 2.0,
+        "mvp_clarity": 3.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 4.0,
+        "ethical_privacy_risk": 4.0,
+        "overall_mvp_usefulness": 2.5,
+        "prototype_willingness": 2.5
+      },
+      "short_rationale": "Ý tưởng dùng gen để giải thích cảm xúc có rủi ro cao về mặt khoa học và đạo đức. MVP chỉ phân tích một vài gen liên quan đến stress còn quá sơ sài và có thể gây hiểu lầm."
+    },
+    {
+      "candidate_id": "BLIND_0060",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Kết hợp âm nhạc và ẩm thực để thay đổi cảm nhận hương vị là ý tưởng độc đáo. MVP với pop-up cafe và 2 dải loa là rõ ràng, nhưng việc chứng minh sự thay đổi cảm nhận hương vị một cách khoa học là thách thức."
+    },
+    {
+      "candidate_id": "BLIND_0104",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Game 2D khám phá thế giới qua âm thanh là ý tưởng mới lạ và có tiềm năng. MVP với khu vực nhỏ, âm thanh đặc trưng và câu đố đơn giản là rất rõ ràng và dễ thử nghiệm."
+    },
+    {
+      "candidate_id": "BLIND_0033",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Game mô phỏng quản lý 'nhà máy thời gian' có ý tưởng hấp dẫn. MVP với vài loại nguyên liệu và dây chuyền sản xuất đơn giản là rõ ràng, nhưng việc quản lý 'sự ổn định thời gian' và nghịch lý là phức tạp."
+    }
+  ]
+}

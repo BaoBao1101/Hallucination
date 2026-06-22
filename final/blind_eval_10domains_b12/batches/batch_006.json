@@ -1,0 +1,101 @@
+[
+  {
+    "candidate_id": "BLIND_0077",
+    "domain": "Offline 2D Game",
+    "title": "Giai Điệu Thép Lắng Nghe Tim Tình Cờ",
+    "problem_or_desire": "Nỗi mong muốn kết nối với thế giới vật chất xung quanh theo một cách hữu cơ, cảm nhận và thấu hiểu những 'ngôn ngữ' ẩn mà ít ai nhận ra.",
+    "core_concept": "Một game giải đố 2D nơi người chơi phải lắng nghe và tái tạo các 'nhịp điệu lịch sử' dựa trên tín hiệu rung của môi trường vật lý ngẫu nhiên, phát triển kỹ năng thính giác tinh tế và kết nối với vật liệu.",
+    "proposed_approach": "Người chơi vào vai một 'Nhạc Công Vệ Khí Tượng' – họ đi qua các không gian tối thiểu với vật thể tĩnh (tượng gỗ, kim loại uốn cong, pha lê...). Chạm vào các vật thể đó để phát ra những tín hiệu rung động đặc trưng cho vật liệu và hình dáng. Game cung cấp 'tiếng vọng' gốc và người chơi phải tìm vật thể đúng hoặc điều chỉnh các tác động ban đầu (lực chạm, thời điểm chạm) để tái tạo lại chính xác chuỗi rung động đó. Mỗi level là một 'câu chuyện âm thanh' mật mã từ môi trường.",
+    "prototype_scope": "Một bộ sưu tập 5-7 'Vật Thể Cộng Hưởng Đơn Giản' (tảng đá, thanh kim loại ngắn) với các mẫu rung động cài đặt sẵn. Người chơi cần tái tạo các mẫu này thông qua 2-3 loại thao tác chạm khác nhau."
+  },
+  {
+    "candidate_id": "BLIND_0034",
+    "domain": "Restaurant Services",
+    "title": "Neko/Pu*py Latte + Cat & Canine Zen Zones",
+    "problem_or_desire": "Nỗi cô đơn về mặt cảm xúc và sự mệt mỏi thể chất với quá nhiều tác động quá tải hàng ngày từ môi trường sống vốn bị ảnh hưởng rất nhiều và việc thiếu một không gian \"hồi phục nhanh\" mà hoàn toàn yên tĩnh và chân thành trong một nịp sống ngày càng tấp nập của đa số người dùng. Nguyên tắc 'nuôi pets' an toàn với môi trường sinh thái đang gây áp lực nặng như con kiến đi chậm.",
+    "core_concept": "Kết hợp quán cà phê với \"không gian tỉnh lặng\" (zen zones) của chó/mèo đã được huấn luyện (therapeutic animals) để làm việc cùng với các liệu pháp không tiếp xúc (non-contact therapies), mang lại sự tĩnh tại, bình yên và trải nghiệm kết nối đầy nhân văn, đi kèm với món Latte mang hình/mẫu biểu tượng tương ứng của \"vật nuôi\".",
+    "proposed_approach": "Tổ hợp \"đầu đời vật nuôi\", các khu vực phục vụ thực khách được phân vùng riêng biệt. Khu A: Zone Vật Lý Thiêng Liêng: Cho phép ngồi đối diện và quan sát chó, mèo đã qua huấn luyện về y đức. Thực khách sẽ ngồi cách ly màn, kính / bàn kính 2 bên, qua đó cho thấy hành vi chó mèo (e.g. cách thở/nếp nhăn mặt để bình tĩnh, an thần...). Mỗi \"đơn 3d vật nuôi thiêng \" là 1 cái chạm/ 2 hành động \"vật lý trực tiếp\" đã cho phép bởi người trông trát cho nhân viên qua màn hình để vật nuôi…",
+    "prototype_scope": "Mô hình Pop-up pop-up trong khu vực trung tâm: Chia không gian nhỏ thành 2 phòng. Phòng 1: Có khu vực quan sát hình chữ L cho chó cảnh & mèo đã huấn luyện cho hành vi ổn định, yên tĩnh thông qua màn hình cảm ứng kích thước lớn. Cafe LATTE-ART kèm các topping gợi nhớ vật nuôi này (vd: lớp tạo bọt hình móng vuốt gấu trúc / mặt nhái…). Phòng 2: Không gian chỉ với ghế đệm L bentuk 'thở\", 2-3 chậu cây lá to, & nhạc \"healing ambient\" (tiếng gió reo, nước chảy róc rách). Cho 5 cặp…"
+  },
+  {
+    "candidate_id": "BLIND_0049",
+    "domain": "Artificial Intelligence App",
+    "title": "Kiến Trúc Sư Di Sản Số",
+    "problem_or_desire": "Cảm giác những ký ức và những mẩu chuyện vụn vặt của cuộc đời sắp phai nhạt và biến mất mãi mãi sau khi người đó ra đi. Khao khát có cách nào đó để các thế hệ sau có thể 'gặp gỡ' và hiểu được cha ông họ.",
+    "core_concept": "Sử dụng AI để 'số hóa và sống động hóa' toàn bộ quá khứ số (nhật ký, email, ảnh, video cũ) của một cá nhân/gia đình, tạo ra 'ngôi nhà ký ức' tương tác.",
+    "proposed_approach": "Một nền tảng cho phép người dùng tải lên các file lưu trữ cá nhân của họ. AI sẽ xử lý (làm sạch, phân loại, nhận dạng khuôn mặt, giọng nói, phong cách viết, chủ đề), sau đó cấu trúc dữ liệu này vào một môi trường ảo (visual & auditory). Người dùng có thể 'hỏi chuyện' với 'phiên bản số' của ông bà mình, yêu cầu xem lại một kỷ niệm nào đó, hoặc mô phỏng lời khuyên của họ trong một tình huống nhất định.",
+    "prototype_scope": "Người dùng cung cấp một loạt các email từ một người (qua đời hoặc đi xa). AI phân tích chủ đề và trả lời một số câu hỏi cơ bản theo phong cách của người gửi (dùng prompt cho các LLM, nhưng chưa phải a persona hoàn chỉnh)."
+  },
+  {
+    "candidate_id": "BLIND_0006",
+    "domain": "Online Business",
+    "title": "Thư Viện Giấc Mơ Tùy Chỉnh",
+    "problem_or_desire": "Mong muốn kiểm soát hoặc định hình trải nghiệm giấc mơ, sự tò mò về tiềm thức, nhu cầu về một hình thức giải trí hoàn toàn mới lạ và cá nhân hóa, hoặc mong muốn thoát ly khỏi thực tại một cách an toàn.",
+    "core_concept": "Một nền tảng trực tuyến cho phép người dùng thiết kế, ghi lại và trải nghiệm những giấc mơ được cá nhân hóa thông qua các yếu tố âm thanh, hình ảnh và kể chuyện được AI tạo ra.",
+    "proposed_approach": "Một ứng dụng web/di động nơi người dùng chọn chủ đề, cảm xúc, nhân vật, bối cảnh và các yếu tố khác. AI sẽ tạo ra một 'kịch bản giấc mơ' dưới dạng chuỗi âm thanh, hình ảnh động đơn giản và văn bản dẫn chuyện, được thiết kế để phát trong khi ngủ (có thể qua tai nghe đặc biệt hoặc loa phát âm thanh nhẹ nhàng).",
+    "prototype_scope": "Một công cụ tạo kịch bản giấc mơ đơn giản dựa trên các mẫu có sẵn (ví dụ: 'Giấc mơ phiêu lưu trong rừng', 'Giấc mơ thư giãn trên bãi biển') với âm thanh nền và hình ảnh tĩnh được AI tạo ra."
+  },
+  {
+    "candidate_id": "BLIND_0016",
+    "domain": "Game Mobile",
+    "title": "Chuyên Gia Biểu Cảm Da Người Tảo Sinh: Mô phỏng Khóa Học Phẫu Thuật Sắc Đẹp & Spa Cá Nhân Đạo'",
+    "problem_or_desire": "Nỗi băn khoăn hoặc 'tổn thương' vì tình trạng da hiện tại làm che mờ biểu cảm mong muốn, và nhận ra mối liên kết mật thiết giữa 'stress trong tim' - 'mâu thuẫn nội tâm' với ngoại hình, với mong muốn tìm 1 cách tự-chữa-lành ngoại hình một cách tự nhiên & chân thật. Kaso làm giàu kiến thức kĩ thuật cho bản thân cũng nhờ cơ sở game...",
+    "core_concept": "Một mô phỏng thẩm mỹ (simulation game) mà người chơi vào vai 'bác sĩ da liễu biểu cảm', điều trị bệnh & phục hồi vẻ ngoài cho các bệnh nhân ảo có làn da đa dạng trạng thái biểu cảm cảm xúc (làn da loang lổ, sạm màu do 'bất an', sưng phù do 'tổn thương xã hội'). Game tập trung vào yếu tố chẩn đoán & trị liệu tâm-sinh lý qua tác động vật lý lên làn da.",
+    "proposed_approach": "Trong game, mỗi nhân vật có một \"Thang biểu cảm xúc và phản ứng trên da\". Ví dụ, biểu tượng cảm xúc - mâu thuẫn của nhân vật như - buồn bã sâu kín hay căng thẳng/mạnh liệt. Qua các bài trắc nghiệm tương tác, bạn chẩn đoán ban đầu, sau đó quyết định dùng các phương pháp kỹ thuật: Tùy chỉnh 'hóa chất xoa dịu', kích thích nhiệt/lạnh chính xác lên từng điểm đau, hoặc đơn giản là mát xa nhẹ nhàng nhưng có tính quy luật tự tạo các phản xạ có lợi qua 4 vùng da (cổ/mắt, trán/mũi, cằ…",
+    "prototype_scope": "Phòng khám tí hon : bạn tiếp 3 bệnh nhân với vấn đề da nhẹ kèm 1 cảm xúc -mâu thuẫn chung . Ví dụ, 1 trường hợp 'thiếu ngủ -mắt thâm quầng', 1 'căng thẳng mệt mỏi -da tái', 1 'dễ dị ứng vật chất & cảm xúc nhẹ '. Chỉ được chọn: làm sạch + (AI gợi ý cho 1 cái massage). 'Khám phá' là có thể học kỹ năng cho da khô & nhạy cảm về tránh môi trường ẩm khí khô mùa đông"
+  },
+  {
+    "candidate_id": "BLIND_0035",
+    "domain": "Coffee Services",
+    "title": "Cafe Sinh Thái Ăn Được Theo Mùa (Edible Biophilic Coffee)",
+    "problem_or_desire": "Quan ngại về nguồn gốc thực phẩm trang trí món ăn, tìm kiếm một hương vị nguyên bản và trải nghiệm ẩm thực gắn liền với tự nhiên.",
+    "core_concept": "Nâng tầm trải nghiệm cafe xanh lên tầm quốc tế, cung cấp không chỉ thức uống cafe mà còn đồ ăn kèm 'sinh thái' có thể ăn được hoàn toàn (dùng hoa, lá cây từ trang trại có chứng nhận bio-eco) đi kèm.",
+    "proposed_approach": "Mỗi cửa hàng cafe là một \"nông trại thu nhỏ\" hoặc hợp tác độc quyền với các \"organic farms\" cho hoa, lá, mầm cây có hương vị tinh tế (lá mạo chồn, hoa giềng, lá tía tô ăn được...) để vừa là thức trang trí cho cafe, latte art độc đáo; vừa là nguyên liệu chính cho một menu đồ ăn nhẹ có thể thưởng thức (salads, soup), kết hợp cà phê \"hút\" vị cây cỏ từ bản địa mà thực khách ít khi biết đến.",
+    "prototype_scope": "Bắt đầu với việc thử nghiệm 5-7 loại rau lá và 5 loại hoa có mùi vị tiềm năng. Liên kết với một trang trại rau sạch hoặc xây dựng vườn mini, hợp tác cafe có tệp khách nhất định tập trung vào \"unique dining experience\"."
+  },
+  {
+    "candidate_id": "BLIND_0065",
+    "domain": "Artificial Intelligence App",
+    "title": "Chuyên Gia Đồng Cảm Di Truyền",
+    "problem_or_desire": "Cảm giác bối rối, hoặc thấy khó hiểu trước phản ứng cảm xúc mạnh mẽ đột ngột, hoặc hành vi đôi khi vô lý của bản thân hoặc người khác, và khao khát một 'lời giải thích khoa học' cá nhân cho nó.",
+    "core_concept": "Mong muốn hiểu sâu hơn về bản thân, đặc biệt là nguồn gốc của các phản ứng cảm xúc, và tìm kiếm lời giải thích khoa học cho hành vi cá nhân. Hạt nhân sáng tạo nằm ở việc khám phá mối liên hệ tiềm ẩn giữa yếu tố sinh học nội tại (gen) và biểu hiện cảm xúc bên ngoài, dù chỉ ở mức độ 'khuynh hướng'.",
+    "proposed_approach": "Một ứng dụng cung cấp thông tin giáo dục và phân tích dựa trên các nghiên cứu khoa học hiện có về mối liên hệ giữa các biến thể gen đã biết và các khuynh hướng tính cách/cảm xúc chung. Ứng dụng sẽ yêu cầu người dùng cung cấp dữ liệu gen (từ các dịch vụ bên thứ ba hoặc nhập thủ công các biến thể gen cụ thể đã biết) và sau đó trình bày các 'khuynh hướng có thể có' dựa trên các bằng chứng khoa học được công bố, kèm theo cảnh báo rõ ràng về tính phức tạp và hạn chế của mối liên…",
+    "prototype_scope": "Một ứng dụng web/di động cho phép người dùng nhập một số biến thể gen cụ thể (ví dụ: rsID) mà họ quan tâm hoặc đã có kết quả từ các dịch vụ giải mã gen. Ứng dụng sẽ tra cứu trong một cơ sở dữ liệu được xây dựng từ các nghiên cứu khoa học đã công bố (ví dụ: PubMed, các bài báo khoa học uy tín) để tìm các mối liên hệ đã được báo cáo giữa các biến thể gen đó và các đặc điểm tính cách/khuynh hướng cảm xúc chung (ví dụ: khuynh hướng lo âu, mức độ nhạy cảm với stress). Kết quả sẽ…"
+  },
+  {
+    "candidate_id": "BLIND_0099",
+    "domain": "Game Mobile",
+    "title": "Vũ Trụ Từ Vựng Trộm Lửa: Kỹ Năng Ngôn Ngữ Giao thoa Sức Mạnh Ẩn Danh",
+    "problem_or_desire": "Sự bó buộc bởi từ vựng hạn chế làm cản trở khả năng sáng tạo, phân tích và ra quyết định, cả trong đời thực lẫn thế giới số. Nhu cầu 'giải phóng' tư duy bằng khả năng liên kết từ ngữ linh hoạt hơn; đặc biệt là ở những tình huống căng thẳng hoặc áp lực cao mà bình thường ít dám tự tin dùng lời lẽ của mình.",
+    "core_concept": "Một tựa game hành động nhập vai (ARPG) với hệ thống phép thuật lấy cảm hứng từ sức mạnh của ngôn từ (ví dụ: tên vũ khí có thể *gợi lửa thật*) – chiến đấu với quái vật bằng cách gõ từ khóa ẩn dụ có độ khó tăng dần, qua đó xây dựng kho từ vựng mới và kiểm soát các dạng 'kiểm soát giấc mơ số'.",
+    "proposed_approach": "Một thể loại game ARPG mà sức mạnh của phép thuật là (khả năng) biến tấu từ. Lấy ví dụ 'lửa' chỉ là gợi ý ban đầu. Sức mạnh thực tế cho bạn ví dụ một chuỗi từ *hoàn toàn phi liên quan rõ ràng nhưng lại cùng hệ thống logic ẩn: Hơi ấm + Bán Hỏa Long + Sao đỏ Rực 🔥*. Bạn sẽ tạo ra các lệnh - ký hiệu, đó là vũ khí chống lại mộng ảo trùm phản ứng bằng thuật ngữ kỹ thuật hay hiện thực đã 'cận tử'. Mỗi cấp độ tăng độ phức phước của các ‘công thức thuật ngữ’...",
+    "prototype_scope": "Một giao diện với 1 từ khoá cơ bản 'HƠI NÓNG' (+ môi trường game 'Thiên Thu Vụn' để chứng minh sự tác động mong manh), & 5 đòn (trừ, phép khống chế từ môi trường) cần combo từ + hệ ký tự phụ. Người dùng chỉ chọn 2 trong 20 ô (quán cafe 'chạng vạng' sáng tản mạn, cửa hàng sửa móng tay cóc nhái).."
+  },
+  {
+    "candidate_id": "BLIND_0047",
+    "domain": "Youtube & Tiktok Video Content",
+    "title": "Khí Phách Chợ Nghệ: Chợ Ảo Của Người Sáng Tạo",
+    "problem_or_desire": "Người sáng tạo mong muốn có kênh bán hàng linh hoạt, tự chủ hơn cho 'tài sản tinh thần' của mình, tránh phụ thuộc quảng cáo hoặc các nền tảng quá khô khan. Họ cũng muốn công nhận và định giá xứng đáng hơn cho những ý tưởng/lao động đằng sau mỗi clip.",
+    "core_concept": "Một sàn giao dịch phiên bản ảo dành riêng cho người sáng tạo nội dung, nơi họ có thể trưng bày, 'vào ra' ý tưởng concept, vật phẩm 'behind-the-scenes' độc quyền và hợp đồng biểu diễn cá nhân, giao dịch bằng token nội bộ (non-KYC optional).",
+    "proposed_approach": "Nền tảng Web App nơi người sáng tạo đăng bán quyền truy cập sớm vào một ý tưởng MV, concept viral, bản sketch nhân vật, những đoạn B-roll 'chuốt giọt' chỉ dành cho fan cứng, hoặc thậm chí một buổi livestream tư vấn 1-on-1 \"trong vòng quay 30p\". Giao dịch bằng điểm 'Kinh Ký' token, có thể kiếm hoặc mua.",
+    "prototype_scope": "Một website đơn giản có chức năng 'người sáng tạo đăng bán Concept Clip Độc Quyền' và 'fan trả giá bid xem đầu tiên' (chỉ cần qua link Private Video private, có pass hoặc unfixed schedule)"
+  },
+  {
+    "candidate_id": "BLIND_0095",
+    "domain": "Web App Services",
+    "title": "Người Quản Lý 'Nợ Kỹ Năng'",
+    "problem_or_desire": "Cảm giác tội lỗi, lo lắng về việc bỏ lỡ cơ hội do thiếu kỹ năng, sự choáng ngợp trước khối lượng kiến thức cần học, và mong muốn có một hệ thống rõ ràng để quản lý sự phát triển cá nhân.",
+    "core_concept": "Một web app giúp cá nhân theo dõi, ưu tiên và lên kế hoạch 'trả nợ' các kỹ năng mà họ cảm thấy mình nên học nhưng đã trì hoãn, biến việc học tập thành một hành trình có cấu trúc và phần thưởng.",
+    "proposed_approach": "Người dùng liệt kê các kỹ năng họ muốn học ('khoản nợ kỹ năng'). Ứng dụng giúp họ phân loại, ưu tiên dựa trên mục tiêu cá nhân/sự nghiệp, ước tính 'chi phí' (thời gian, tiền bạc) và 'lợi tức' (tiềm năng thu nhập, cơ hội). Ứng dụng đề xuất lộ trình học tập, chia nhỏ thành các 'khoản thanh toán' (bài học, dự án nhỏ), theo dõi tiến độ và thưởng cho việc 'hoàn thành khoản nợ'.",
+    "prototype_scope": "Cho phép người dùng tạo danh sách 'nợ kỹ năng', đặt mục tiêu học tập đơn giản, và theo dõi các 'khoản thanh toán' (ví dụ: hoàn thành 1 module khóa học)."
+  },
+  {
+    "candidate_id": "BLIND_0021",
+    "domain": "Game Mobile",
+    "title": "Chiếc Hộp Ký Ức: Phục Dựng Kỷ Niệm Cổ Xưa Qua Góc Nhìn Người Cháu",
+    "problem_or_desire": "Sự mơ hồ hoặc thiếu sót thông tin về cuộc sống của thế hệ ông bà, cha mẹ; nỗi trống vắng về mặt lịch sử cá nhân/gia đình. Khao khát có một 'lối vào' trực quan, cảm xúc, không áp lực vào quá khứ của những người mình yêu thương.",
+    "core_concept": "Biến các tài liệu cũ (ảnh, thư, âm thanh) thành một câu chuyện nhập vai, nơi người chơi đóng vai người phục dựng ký ức gia đình, sử dụng công cụ AI để làm sống lại quá khứ.",
+    "proposed_approach": "Một game mobile giải đố/phiêu lưu nơi người chơi sử dụng các công cụ AI đơn giản để phục dựng và xâu chuỗi các tài liệu gia đình (ảnh, thư, ghi âm). Game tập trung vào việc tạo ra một trải nghiệm suy luận nhân văn, giúp người chơi khám phá câu chuyện của người thân đã khuất. Các công cụ AI sẽ hỗ trợ phục hồi ảnh (tô màu, làm nét), làm rõ âm thanh, và tạo lời thoại/tường thuật cơ bản dựa trên nội dung tài liệu.",
+    "prototype_scope": "Một thư mục chứa 10 cặp ảnh/mẩu thư có mối liên hệ logic. Game sẽ: 1) Tự động tô màu/làm nét sơ bộ cho 5 cặp ảnh có sẵn. 2) 2 mẩu thư với nội dung được AI (sử dụng mô hình LLM cơ bản) đọc và chuyển sang dạng đối thoại ngắn, tương tác với nhau. Người chơi lật mở 1 cặp thông tin để giải khóa đối thoại số 2, từ đó mở khóa text/ảnh kế tiếp."
+  }
+]

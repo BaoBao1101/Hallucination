@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "stage": "blind_individual_metric_judge",
+    "judge_model": "gemini-2.5-flash-lite",
+    "temperature": 0.0,
+    "top_p": 0.1,
+    "batch_source": "blind_eval_pilot\\batches\\batch_001.json",
+    "created_at": "2026-06-21T19:22:26"
+  },
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0034",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng độc đáo, giải quyết vấn đề giao tiếp nhạy cảm. MVP rõ ràng, nhưng tính chính xác của AI trong việc nhận diện và gợi ý cần được chứng minh."
+    },
+    {
+      "candidate_id": "BLIND_0007",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 3.0,
+        "user_pain_plausibility": 3.0,
+        "technical_plausibility": 2.5,
+        "mvp_clarity": 3.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 4.0,
+        "ethical_privacy_risk": 1.5,
+        "overall_mvp_usefulness": 2.5,
+        "prototype_willingness": 2.5
+      },
+      "short_rationale": "Khái niệm thú vị nhưng tính khả thi kỹ thuật và hiệu quả khoa học còn nhiều nghi vấn. MVP tập trung vào việc ghi nhớ từ vựng có vẻ khả thi hơn."
+    },
+    {
+      "candidate_id": "BLIND_0051",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Ý tưởng sáng tạo, khai thác tiềm năng AR/VR cho ký ức cá nhân. MVP demo có vẻ khả thi nhưng việc tái tạo cảm xúc và chi tiết ký ức là thách thức lớn."
+    },
+    {
+      "candidate_id": "BLIND_0005",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Giải pháp cá nhân hóa cao, giải quyết sự mệt mỏi khi lựa chọn. MVP rõ ràng, tập trung vào đề xuất công thức, nhưng việc tích hợp máy pha chế tự động là bước tiếp theo."
+    },
+    {
+      "candidate_id": "BLIND_0044",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng hữu ích cho việc ra quyết định sự nghiệp, MVP tập trung vào mô phỏng 1-2 quyết định là rõ ràng. Độ chính xác của mô phỏng AI là yếu tố cần kiểm chứng."
+    }
+  ]
+}

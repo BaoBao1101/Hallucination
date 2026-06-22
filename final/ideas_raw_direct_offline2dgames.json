@@ -1,0 +1,251 @@
+{
+  "metadata": {
+    "pipeline": "CHVD",
+    "version": "v5.3",
+    "domain": "Offline 2D Games",
+    "language": "vi",
+    "mode": "prompt_only_no_corpus_no_weak_signals",
+    "temperature_role": "maximal_divergent_creativity",
+    "stage": "high_temperature_creative_hallucination_generator",
+    "saved_at": "2026-06-22T08:41:19",
+    "generator_model": "gemini-2.5-flash-lite",
+    "generator_temperature": 0.0,
+    "generator_top_p": 0.1,
+    "user_prompt": ""
+  },
+  "ideas": [
+    {
+      "idea_id": "I001",
+      "idea_name": "Thư Viện Ký Ức Số: Trò Chơi Giải Mã Cảm Xúc",
+      "domain": "Offline 2D Games",
+      "one_sentence_pitch": "Một trò chơi giải đố 2D nơi người chơi sắp xếp lại các mảnh ký ức (hình ảnh, âm thanh, văn bản) để tái hiện và giải mã các trạng thái cảm xúc phức tạp của nhân vật.",
+      "target_user": "Người trưởng thành tìm kiếm trải nghiệm game sâu sắc, có tính chiêm nghiệm, hoặc các nhà trị liệu tâm lý muốn có công cụ hỗ trợ.",
+      "hidden_pain_or_desire": "Nhu cầu hiểu và xử lý cảm xúc của bản thân một cách tinh tế, hoặc mong muốn có một phương tiện giải trí mang tính nghệ thuật và suy ngẫm cao.",
+      "creative_leap": "Biến cảm xúc trừu tượng thành cơ chế gameplay cốt lõi, sử dụng các yếu tố đa phương tiện làm 'mảnh ghép' ký ức.",
+      "non_obvious_connection": "Trò chơi giải đố + Tâm lý học cảm xúc + Nghệ thuật sắp đặt (collage/montage).",
+      "proposed_solution": "Phát triển một game 2D với giao diện tối giản, tập trung vào việc người chơi kéo thả, xoay, ghép nối các 'mảnh ký ức' (ảnh tĩnh, đoạn âm thanh ngắn, câu chữ gợi ý) để hoàn thành một 'bức tranh cảm xúc' hoặc một chuỗi sự kiện dẫn đến một trạng thái cảm xúc nhất định.",
+      "core_experience": "Cảm giác 'aha!' khi sắp xếp đúng các mảnh ghép để khơi gợi lại một cảm xúc hoặc câu chuyện, sự đồng cảm với nhân vật, và sự thư thái khi hoàn thành một 'tác phẩm' cảm xúc.",
+      "core_technology": [
+        "Game Engine (Unity/Godot)",
+        "Asset Management System",
+        "Logic Puzzle Engine",
+        "Simple Audio/Visual Synthesis"
+      ],
+      "why_it_feels_new": "Chuyển hóa trải nghiệm tâm lý nội tại thành cơ chế tương tác trực tiếp, thay vì chỉ kể chuyện hoặc mô phỏng.",
+      "why_now_speculative": "Sự gia tăng nhận thức về sức khỏe tinh thần và nhu cầu về các hình thức giải trí mang tính cá nhân hóa, sâu sắc hơn.",
+      "mvp_seed": "Một vài màn chơi tập trung vào một cảm xúc cơ bản (ví dụ: nỗi buồn, niềm vui), với bộ mảnh ghép giới hạn và giao diện đơn giản.",
+      "first_7_day_prototype": "Tạo một màn chơi demo với 3-5 mảnh ghép (hình ảnh/văn bản) và một mục tiêu cảm xúc rõ ràng, cho phép người chơi kéo thả và xem kết quả.",
+      "business_model_hypothesis": "Bán game một lần (premium), hoặc mô hình freemium với các gói 'câu chuyện cảm xúc' bổ sung.",
+      "wildness_level": 4,
+      "main_assumptions": [
+        {
+          "claim": "Người dùng sẵn sàng bỏ tiền cho một trải nghiệm game giải đố mang tính chiêm nghiệm và cảm xúc.",
+          "type": "user_need"
+        },
+        {
+          "claim": "Việc tạo ra các 'mảnh ký ức' có ý nghĩa và logic đủ để giải đố là khả thi về mặt thiết kế.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Có một thị trường ngách cho các trò chơi không chỉ giải trí mà còn mang lại sự thấu hiểu bản thân.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Khó khăn trong việc cân bằng giữa tính giải trí và chiều sâu cảm xúc.",
+        "Nguy cơ ý tưởng bị coi là 'quá nặng' hoặc 'khó hiểu'.",
+        "Chi phí sản xuất nội dung (hình ảnh, âm thanh, văn bản) có thể cao."
+      ],
+      "validation_needed_later": [
+        "Phản hồi của người chơi về tính gợi cảm xúc và độ khó của câu đố.",
+        "Khả năng mở rộng bộ sưu tập 'mảnh ký ức' và chủ đề cảm xúc.",
+        "Hiệu quả của game như một công cụ hỗ trợ tâm lý (nếu nhắm đến thị trường này)."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Khả năng 'tái hiện cảm xúc' một cách hiệu quả thông qua gameplay.",
+          "Tiềm năng ứng dụng rộng rãi trong trị liệu tâm lý mà không cần kiểm chứng y khoa."
+        ],
+        "claims_not_yet_validated": [
+          "Mức độ sẵn sàng chi trả của người dùng cho thể loại game này.",
+          "Khả năng tạo ra các câu đố đủ thách thức nhưng không gây nản lòng."
+        ]
+      }
+    },
+    {
+      "idea_id": "I002",
+      "idea_name": "Thợ Săn Âm Thanh Lạc Loài: Game Khám Phá Thế Giới Qua Âm Thanh",
+      "domain": "Offline 2D Games",
+      "one_sentence_pitch": "Một game phiêu lưu 2D nơi người chơi điều khiển một 'thợ săn' sử dụng các thiết bị đặc biệt để thu thập, phân tích và tái tạo các âm thanh độc đáo của môi trường, từ đó mở khóa các khu vực mới và giải mã bí ẩn.",
+      "target_user": "Người chơi yêu thích khám phá, giải đố, và có sự tò mò về thế giới tự nhiên hoặc các môi trường giả tưởng độc đáo.",
+      "hidden_pain_or_desire": "Mong muốn trải nghiệm thế giới game theo một cách hoàn toàn mới, không chỉ bằng thị giác mà còn bằng thính giác; sự hứng thú với việc 'lắng nghe' và khám phá những chi tiết ẩn giấu.",
+      "creative_leap": "Biến âm thanh từ yếu tố nền thành cơ chế gameplay chính, yêu cầu người chơi chủ động 'săn lùng' và sử dụng chúng.",
+      "non_obvious_connection": "Game phiêu lưu/khám phá + Âm học/Âm thanh học + Thu thập (collection) + Giải đố dựa trên tần số/nhịp điệu.",
+      "proposed_solution": "Xây dựng một thế giới 2D với các khu vực có hệ sinh thái âm thanh đặc trưng. Người chơi sử dụng 'máy dò âm thanh' để xác định nguồn âm, 'bộ ghi âm' để thu thập, và 'bộ phát âm thanh' để mô phỏng lại âm thanh đó, từ đó tương tác với môi trường (ví dụ: làm cây nở hoa, đánh thức sinh vật ngủ quên, mở cổng bằng tần số phù hợp).",
+      "core_experience": "Sự thỏa mãn khi 'bắt' được một âm thanh hiếm, cảm giác khám phá thế giới qua đôi tai, và sự thông minh khi sử dụng âm thanh để giải quyết vấn đề.",
+      "core_technology": [
+        "2D Game Engine",
+        "Advanced Audio Engine (Spatial Audio, Sound Synthesis)",
+        "Procedural Audio Generation (optional)",
+        "Inventory/Tool System"
+      ],
+      "why_it_feels_new": "Đưa trải nghiệm thính giác lên vị trí trung tâm, biến việc 'nghe' thành hành động chính để tương tác và tiến bộ trong game.",
+      "why_now_speculative": "Sự phát triển của công nghệ âm thanh trong game và sự quan tâm ngày càng tăng đối với các trải nghiệm game độc đáo, ít phụ thuộc vào đồ họa siêu thực.",
+      "mvp_seed": "Một khu vực nhỏ với 3-4 loại âm thanh độc đáo, một vài câu đố đơn giản dựa trên việc thu thập và phát lại âm thanh để mở khóa một khu vực mới.",
+      "first_7_day_prototype": "Tạo một màn chơi demo với một loại âm thanh (ví dụ: tiếng chim hót đặc biệt), một công cụ thu âm đơn giản, và một cánh cửa chỉ mở khi phát lại đúng âm thanh đó.",
+      "business_model_hypothesis": "Bán game một lần, hoặc DLC mở rộng các hệ sinh thái âm thanh mới (rừng nhiệt đới, thành phố tương lai, thế giới dưới nước).",
+      "wildness_level": 4,
+      "main_assumptions": [
+        {
+          "claim": "Người chơi sẽ thấy hứng thú với việc khám phá thế giới chủ yếu qua âm thanh.",
+          "type": "user_need"
+        },
+        {
+          "claim": "Việc thiết kế các âm thanh độc đáo và cơ chế tương tác dựa trên chúng là khả thi và hấp dẫn.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Có một thị trường cho các game phiêu lưu/giải đố 'chậm' và tập trung vào khám phá chi tiết.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Thiết kế âm thanh có thể tốn kém và đòi hỏi chuyên môn cao.",
+        "Người chơi có thể cảm thấy khó khăn nếu không quen với việc tập trung vào âm thanh.",
+        "Rủi ro về mặt kỹ thuật khi xử lý và tái tạo âm thanh phức tạp."
+      ],
+      "validation_needed_later": [
+        "Phản hồi về sự hấp dẫn của cơ chế 'săn âm thanh'.",
+        "Độ hiệu quả của các câu đố dựa trên âm thanh.",
+        "Khả năng thu hút người chơi không chuyên về âm thanh."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Khả năng tạo ra một 'hệ sinh thái âm thanh' đủ phong phú và thú vị để duy trì sự hấp dẫn lâu dài.",
+          "Tiềm năng ứng dụng công nghệ âm thanh tiên tiến (như âm thanh không gian) để tăng cường trải nghiệm."
+        ],
+        "claims_not_yet_validated": [
+          "Mức độ quan tâm của thị trường game đại chúng đối với một game tập trung vào thính giác.",
+          "Khả năng cân bằng giữa tính nghệ thuật của âm thanh và tính giải trí của gameplay."
+        ]
+      }
+    },
+    {
+      "idea_id": "I003",
+      "idea_name": "Kiến Trúc Sư Giấc Mơ: Xây Dựng Thế Giới Nội Tâm",
+      "domain": "Offline 2D Games",
+      "one_sentence_pitch": "Một game xây dựng/mô phỏng 2D nơi người chơi thiết kế và xây dựng các 'cảnh quan giấc mơ' cho các nhân vật NPC, mỗi cảnh quan phản ánh trạng thái tâm lý và mong muốn tiềm ẩn của họ.",
+      "target_user": "Người chơi thích game xây dựng, mô phỏng, có yếu tố sáng tạo và kể chuyện, hoặc những người quan tâm đến tâm lý học và biểu tượng học.",
+      "hidden_pain_or_desire": "Mong muốn thể hiện sự sáng tạo một cách có ý nghĩa, khám phá tâm lý con người qua lăng kính trừu tượng, hoặc tìm kiếm một game xây dựng mang tính 'chữa lành' và chiêm nghiệm.",
+      "creative_leap": "Kết hợp cơ chế xây dựng sandbox với việc 'chẩn đoán' và 'thiết kế' không gian tâm lý cho nhân vật.",
+      "non_obvious_connection": "Game xây dựng sandbox + Tâm lý học chiều sâu (Jungian archetypes) + Thiết kế cảnh quan/kiến trúc biểu tượng.",
+      "proposed_solution": "Người chơi nhận 'yêu cầu' từ các NPC về một giấc mơ hoặc một trạng thái nội tâm cần được thể hiện. Dựa trên các gợi ý (màu sắc, hình dạng, vật thể biểu tượng), người chơi sử dụng các công cụ xây dựng 2D (tạo địa hình, đặt vật thể, vẽ đường nét) để tạo ra một 'khu vườn giấc mơ' hoặc 'cung điện nội tâm' cho NPC đó. Mỗi công trình sẽ có những 'chỉ số' tâm lý nhất định.",
+      "core_experience": "Niềm vui sáng tạo khi xây dựng, sự hài lòng khi 'hiểu' và thể hiện được thế giới nội tâm của người khác, cảm giác trở thành một 'kiến trúc sư tâm hồn'.",
+      "core_technology": [
+        "2D Game Engine",
+        "Tile-based or Freeform Building System",
+        "Asset Placement & Manipulation",
+        "Simple Narrative/Quest System",
+        "Symbolic Logic System (mapping elements to psychological states)"
+      ],
+      "why_it_feels_new": "Đưa yếu tố tâm lý học và biểu tượng học vào làm cốt lõi của cơ chế xây dựng, biến việc xây dựng thành một hình thức 'chẩn đoán' và 'thể hiện' nội tâm.",
+      "why_now_speculative": "Sự quan tâm ngày càng tăng đối với các game mang tính cá nhân hóa, sáng tạo và có chiều sâu tâm lý, cũng như sự phổ biến của các game sandbox.",
+      "mvp_seed": "Một vài loại địa hình cơ bản, một bộ sưu tập giới hạn các vật thể biểu tượng (ví dụ: cây cô đơn, dòng sông chảy ngược, ngọn núi lửa), và 2-3 NPC với các 'yêu cầu giấc mơ' đơn giản.",
+      "first_7_day_prototype": "Tạo một màn hình xây dựng đơn giản cho phép đặt 5-10 vật thể vào một không gian trống, với một NPC hiển thị một thông điệp đơn giản khi người chơi hoàn thành việc đặt vật thể.",
+      "business_model_hypothesis": "Bán game một lần, với các gói DLC mở rộng bộ vật thể biểu tượng, loại địa hình, hoặc các 'khuôn mẫu tâm lý' phức tạp hơn.",
+      "wildness_level": 5,
+      "main_assumptions": [
+        {
+          "claim": "Người chơi sẽ tìm thấy sự hấp dẫn trong việc xây dựng không gian mang tính biểu tượng và tâm lý.",
+          "type": "user_need"
+        },
+        {
+          "claim": "Việc thiết kế các vật thể và quy tắc liên kết chúng với trạng thái tâm lý là khả thi.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Có một thị trường cho các game xây dựng 'chậm', mang tính nghệ thuật và chiêm nghiệm.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Rủi ro ý tưởng quá trừu tượng, khó tiếp cận với đại đa số người chơi.",
+        "Khó khăn trong việc định lượng và cân bằng các yếu tố tâm lý trong gameplay.",
+        "Cần sự tham vấn hoặc nghiên cứu sâu về tâm lý học để đảm bảo tính hợp lý (dù là biểu tượng)."
+      ],
+      "validation_needed_later": [
+        "Phản hồi về tính sáng tạo và ý nghĩa của các công trình được xây dựng.",
+        "Mức độ hấp dẫn của cơ chế 'chẩn đoán' và 'thiết kế giấc mơ'.",
+        "Khả năng mở rộng hệ thống biểu tượng và tâm lý."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Khả năng 'mã hóa' các trạng thái tâm lý phức tạp thành các yếu tố gameplay xây dựng một cách hiệu quả và có ý nghĩa.",
+          "Tiềm năng trở thành một công cụ khám phá bản thân hoặc trị liệu gián tiếp."
+        ],
+        "claims_not_yet_validated": [
+          "Liệu người chơi có thực sự muốn 'chẩn đoán' và 'xây dựng' cho người khác hay không.",
+          "Khả năng tạo ra một hệ thống biểu tượng đủ phong phú và nhất quán."
+        ]
+      }
+    },
+    {
+      "idea_id": "I004",
+      "idea_name": "Vũ Điệu Của Vật Chất: Game Vật Lý Tương Tác Tối Giản",
+      "domain": "Offline 2D Games",
+      "one_sentence_pitch": "Một game giải đố vật lý 2D tối giản, nơi người chơi điều khiển các 'nguyên tố' cơ bản (nước, lửa, khí, đất) để tạo ra các phản ứng dây chuyền, giải quyết các thử thách môi trường và đạt được mục tiêu.",
+      "target_user": "Người chơi yêu thích các game giải đố dựa trên vật lý, có tư duy logic và thích thử nghiệm các tương tác sáng tạo.",
+      "hidden_pain_or_desire": "Mong muốn một trải nghiệm giải đố mới lạ, không chỉ dựa trên thao tác mà còn dựa trên sự hiểu biết và vận dụng các quy luật vật lý cơ bản một cách sáng tạo.",
+      "creative_leap": "Tập trung vào sự tương tác 'nguyên tố' và phản ứng dây chuyền như cơ chế giải đố chính, thay vì chỉ điều khiển vật thể.",
+      "non_obvious_connection": "Game giải đố vật lý + Lý thuyết 4 nguyên tố (cổ điển) + Thiết kế phản ứng dây chuyền (Rube Goldberg machine).",
+      "proposed_solution": "Mỗi màn chơi là một bối cảnh 2D với các chướng ngại vật và mục tiêu (ví dụ: đưa một hạt giống đến nơi có nước và ánh sáng). Người chơi có một lượng giới hạn các 'nguyên tố' hoặc 'hành động nguyên tố' (ví dụ: tạo ra một giọt nước, một tia lửa nhỏ, một luồng gió, một mẩu đất). Người chơi phải sắp xếp trình tự các hành động này để tạo ra một chuỗi phản ứng vật lý dẫn đến kết quả mong muốn (ví dụ: lửa làm bốc hơi nước tạo thành mây, gió thổi mây đến vị trí cần, nước rơi xuống làm cây phát triển).",
+      "core_experience": "Sự thích thú khi quan sát các phản ứng dây chuyền diễn ra theo ý muốn, cảm giác thông minh khi tìm ra giải pháp tối ưu bằng cách kết hợp các nguyên tố, và sự hài lòng khi 'chơi đùa' với các quy luật vật lý.",
+      "core_technology": [
+        "2D Physics Engine (Box2D, Matter.js)",
+        "Element Interaction Logic",
+        "Chain Reaction Simulation",
+        "Level Editor (for designing challenges)"
+      ],
+      "why_it_feels_new": "Sử dụng mô hình 4 nguyên tố cổ điển làm nền tảng cho cơ chế vật lý, tạo ra một cách tiếp cận độc đáo so với các game vật lý thông thường.",
+      "why_now_speculative": "Sự phổ biến của các game giải đố vật lý và nhu cầu về các thử thách mới lạ, đòi hỏi tư duy sáng tạo thay vì chỉ phản xạ nhanh.",
+      "mvp_seed": "Một vài màn chơi tập trung vào tương tác giữa nước và lửa, với mục tiêu đơn giản như dập tắt một đám cháy hoặc làm bốc hơi một lượng nước nhất định.",
+      "first_7_day_prototype": "Tạo một màn hình demo với hai nguyên tố (nước và lửa), cho phép người chơi tạo ra chúng và quan sát phản ứng vật lý cơ bản (nước dập lửa, lửa làm nước bốc hơi).",
+      "business_model_hypothesis": "Bán game một lần, hoặc mô hình freemium với các gói màn chơi bổ sung tập trung vào các cặp nguyên tố hoặc các phản ứng phức tạp hơn.",
+      "wildness_level": 3,
+      "main_assumptions": [
+        {
+          "claim": "Người chơi sẽ thấy hấp dẫn với việc khám phá và vận dụng các tương tác nguyên tố.",
+          "type": "user_need"
+        },
+        {
+          "claim": "Việc mô phỏng các tương tác nguyên tố và phản ứng dây chuyền là khả thi về mặt kỹ thuật.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Có một thị trường cho các game giải đố vật lý sáng tạo và có tính thử nghiệm cao.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Rủi ro các tương tác nguyên tố trở nên quá phức tạp hoặc khó đoán.",
+        "Khó khăn trong việc thiết kế các màn chơi cân bằng giữa thử thách và sự thú vị.",
+        "Cạnh tranh cao trong thị trường game giải đố vật lý."
+      ],
+      "validation_needed_later": [
+        "Phản hồi về tính hấp dẫn của cơ chế tương tác nguyên tố.",
+        "Độ hiệu quả và sự đa dạng của các câu đố.",
+        "Khả năng mở rộng hệ thống nguyên tố và tương tác."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Khả năng tạo ra một hệ thống 'nguyên tố' đủ sâu sắc để hỗ trợ hàng trăm màn chơi khác nhau.",
+          "Tiềm năng ứng dụng các mô hình vật lý phức tạp hơn (ví dụ: hóa học đơn giản) trong các bản mở rộng."
+        ],
+        "claims_not_yet_validated": [
+          "Mức độ quan tâm của người chơi đối với một game vật lý dựa trên mô hình 'nguyên tố' cổ điển.",
+          "Khả năng tạo ra các màn chơi thực sự độc đáo và không lặp lại."
+        ]
+      }
+    }
+  ]
+}

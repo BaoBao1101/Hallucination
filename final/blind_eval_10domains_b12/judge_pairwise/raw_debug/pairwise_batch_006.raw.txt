@@ -1,0 +1,64 @@
+{
+  "evaluations": [
+    {
+      "pair_id": "PAIRBLIND_0026",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "Practical revision clarifies the core mechanics and scope, making it more feasible for a prototype. It translates the abstract 'nano-cell gardens' into more concrete 'functional modules' typical of RTS games."
+    },
+    {
+      "pair_id": "PAIRBLIND_0027",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "The revision grounds the abstract 'AI editor' into a more concrete application with defined scenarios and feedback mechanisms. It shifts from a potentially complex AI to a more manageable, feature-focused tool for practice."
+    },
+    {
+      "pair_id": "PAIRBLIND_0028",
+      "scores": {
+        "creative_core_preservation": 3.0,
+        "novelty_retention": 3.0,
+        "practical_mvp_improvement": 3.0,
+        "overclaim_removal_quality": 3.0,
+        "semantic_drift_risk": 2.0
+      },
+      "preferred_for_prototype": "TIE",
+      "short_rationale": "The revision makes the approach more grounded by focusing on audio/visual stimuli rather than 'pre-programmed dreams', but it also slightly dilutes the core novelty of direct dream manipulation. Both prototypes are speculative but offer a clear MVP path."
+    },
+    {
+      "pair_id": "PAIRBLIND_0029",
+      "scores": {
+        "creative_core_preservation": 5.0,
+        "novelty_retention": 5.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 5.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "The revision simplifies the interaction from complex time manipulation to a more direct 'tap' mechanic, making the prototype scope much clearer and achievable. It retains the core meditative and memory-harvesting aspects."
+    },
+    {
+      "pair_id": "PAIRBLIND_0030",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "The revision clarifies the 'magic system' from abstract 'hidden logic' to a more concrete 'semantic or logical connection' between words, making it easier to prototype. It maintains the core idea of using language for power in an ARPG context."
+    }
+  ]
+}

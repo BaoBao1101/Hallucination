@@ -1,0 +1,47 @@
+[
+  {
+    "candidate_id": "BLIND_0022",
+    "domain": "Edtech",
+    "title": "Ngân Hàng Giấc Mơ Học Tập",
+    "problem_or_desire": "Cảm giác lãng phí thời gian tiềm năng trong giấc ngủ, mong muốn có được các bước đột phá sáng tạo hoặc thấu hiểu các chủ đề khó một cách 'tự nhiên' hơn.",
+    "core_concept": "Một dịch vụ AI cá nhân hóa cung cấp các trải nghiệm giấc mơ tiền lập trình như một công cụ học hỏi bí mật trong lúc ngủ, tập trung vào kỹ năng, công thức hay từ vựng phức tạp.",
+    "proposed_approach": "Người dùng thiết lập mục tiêu học (ví dụ: cấu trúc dữ liệu, cấu pháp ngữ pháp nâng cao, biểu diễn nhạc lý trừu tượng). AI sẽ tạo 'kịch bản' giấc mơ, 'chiếu phim' qua các luồng âm thanh lặp lại, âm điệu đặc trưng có khả năng tương tác với hệ thống cảm xúc và logic thụ động của não bộ người đang ngủ.",
+    "prototype_scope": "Một app đêm đơn giản thử nghiệm tạo tiếng động và tone giọng lặp lại từ từ tăng cường phức mắc, với hy vọng hỗ trợ ghi nhớ 10 từ mới vào ngày hôm sau."
+  },
+  {
+    "candidate_id": "BLIND_0058",
+    "domain": "Web App For Community Services",
+    "title": "Sensorium Echoes",
+    "problem_or_desire": "Sự mất mát và quên lãng các không gian văn hóa, di tích lịch sử quan trọng, khiến các thế hệ sau khó hình dung về ý nghĩa và kiến trúc của chúng.",
+    "core_concept": "Nền tảng web giúp tái hiện trải nghiệm không gian của các địa điểm cộng đồng đã lụi tàn hoặc bị thay đổi thông qua âm thanh và hình ảnh theo thời gian, sử dụng crowdsourcing dữ liệu cũ.",
+    "proposed_approach": "Một nền tảng web cho phép người dùng khám phá các địa điểm cộng đồng lịch sử đã thay đổi hoặc không còn tồn tại thông qua mô phỏng hình ảnh và âm thanh. Ban đầu, tập trung vào việc thu thập và số hóa các tư liệu (ảnh, ghi âm cũ, mô tả) từ cộng đồng để xây dựng các 'bản đồ âm thanh/hình ảnh' tương tác cho một vài địa điểm tiêu biểu.",
+    "prototype_scope": "Một ứng dụng web tập trung vào 1-2 địa điểm lịch sử cụ thể. Người dùng có thể xem ảnh cũ, nghe các đoạn âm thanh mô phỏng (ví dụ: tiếng chợ phiên, tiếng nhạc xưa, tiếng nói chuyện đặc trưng) được gắn với các vị trí địa lý tương ứng trên bản đồ 2D hoặc mô hình 3D đơn giản. Dữ liệu ban đầu được biên soạn thủ công hoặc thu thập có chọn lọc từ các nguồn công khai/cộng đồng."
+  },
+  {
+    "candidate_id": "BLIND_0057",
+    "domain": "Entertainment Services",
+    "title": "Vũ Điệu Ký Ức",
+    "problem_or_desire": "Nỗi buồn vì những ký ức phai mờ, mong muốn sống lại trọn vẹn những cảm xúc đặc biệt, khát khao chia sẻ câu chuyện cá nhân độc đáo không qua lời kể suông.",
+    "core_concept": "Ý tưởng cốt lõi về việc sử dụng công nghệ (AR/VR, AI) để giúp người dùng hồi tưởng và trải nghiệm lại ký ức cá nhân một cách sinh động hơn so với ảnh/video truyền thống. Khai thác nhu cầu sâu sắc của con người về việc kết nối với quá khứ và cảm xúc.",
+    "proposed_approach": "Một nền tảng cho phép người dùng nhập mô tả ký ức (văn bản, hình ảnh gợi ý). AI sẽ phân tích và tạo ra một 'bản phác thảo cảm xúc' dưới dạng không gian 3D đơn giản hoặc cảnh quan AR tĩnh, tập trung vào việc gợi lại không khí, màu sắc, âm thanh chủ đạo của ký ức đó. Trải nghiệm sẽ mang tính gợi nhớ, suy tưởng hơn là tái tạo hoàn chỉnh. Người dùng có thể tương tác nhẹ nhàng với các yếu tố trong không gian đó để khơi gợi thêm suy nghĩ.",
+    "prototype_scope": "Một ứng dụng web/di động đơn giản nơi người dùng nhập mô tả ký ức (ví dụ: 'buổi chiều mưa ở quê, mùi đất ẩm, tiếng gà'). AI sẽ tạo ra một hình ảnh tĩnh hoặc một đoạn GIF ngắn mang không khí đó, kèm theo một đoạn nhạc nền ngắn gợi cảm xúc tương ứng. Có thể thêm tính năng cho phép người dùng 'chọn' một vài yếu tố hình ảnh/âm thanh để tinh chỉnh nhẹ."
+  },
+  {
+    "candidate_id": "BLIND_0035",
+    "domain": "Web App For Community Services",
+    "title": "Thư Viện Cảm Xúc",
+    "problem_or_desire": "Khó khăn trong việc nhận diện, diễn đạt và quản lý cảm xúc của bản thân và người khác; mong muốn hiểu sâu sắc hơn về thế giới nội tâm.",
+    "core_concept": "Một nền tảng web cho phép người dùng 'mượn' và 'trả lại' các trạng thái cảm xúc được mô phỏng, giúp họ trải nghiệm và thấu hiểu các cung bậc cảm xúc khác nhau trong một môi trường an toàn.",
+    "proposed_approach": "Web app cung cấp các 'kịch bản cảm xúc' được thiết kế sẵn (ví dụ: 'Cảm giác hồi hộp trước kỳ thi', 'Nỗi buồn khi chia tay', 'Niềm vui bất ngờ'). Người dùng tương tác với các yếu tố trong kịch bản (câu hỏi, hình ảnh, âm thanh, câu chuyện ngắn) để dần dần 'cảm nhận' trạng thái cảm xúc đó. Có thể có các 'bài tập' đi kèm để giúp người dùng nhận diện và gọi tên cảm xúc của mình. Người dùng có thể 'đánh giá' mức độ chân thực của trải nghiệm cảm xúc.",
+    "prototype_scope": "Cung cấp 3-5 kịch bản cảm xúc cơ bản (vui, buồn, giận, sợ) dưới dạng câu hỏi trắc nghiệm và hình ảnh. Người dùng chọn câu trả lời và nhận phản hồi mô tả cảm xúc."
+  },
+  {
+    "candidate_id": "BLIND_0040",
+    "domain": "Web App For Community Services",
+    "title": "Symbiotic Skill Swap Network",
+    "problem_or_desire": "Sự lãng phí tài năng ẩn trong cộng đồng, mọi người có nhiều kỹ năng nhưng không biết trao đổi như thế nào khi tiền bạc là rào cản lớn.",
+    "core_concept": "Nền tảng web liên kết các chuyên gia kỹ năng sống còn độc đáo với các cộng đồng đô thị, tạo cơ hội cho sự trao đổi kỹ năng \"ăn/uống/ở/vận động/suy nghĩ\" không phụ thuộc tài chính, sử dụng hệ thống điểm phi tập trung.",
+    "proposed_approach": "Một nền tảng web kết nối người có kỹ năng thực tế (làm vườn, sửa chữa nhỏ, nấu ăn cơ bản) với người muốn học, thông qua việc trao đổi dịch vụ dựa trên một hệ thống điểm nội bộ (ví dụ: 'điểm đóng góp'). MVP tập trung vào một nhóm kỹ năng hẹp và một cộng đồng nhỏ, với việc kết nối ban đầu có thể cần sự hỗ trợ thủ công.",
+    "prototype_scope": "Một ứng dụng web đơn giản cho phép người dùng đăng ký các kỹ năng họ có thể dạy và các kỹ năng họ muốn học. Hệ thống sẽ ghi nhận các 'lượt trao đổi' (ví dụ: 1 giờ dạy = 1 điểm). Ban đầu, việc 'matching' người dạy và người học có thể được thực hiện thủ công hoặc bán tự động. Tập trung vào 1-2 nhóm kỹ năng (ví dụ: làm vườn ban công, nấu ăn cơ bản)."
+  }
+]

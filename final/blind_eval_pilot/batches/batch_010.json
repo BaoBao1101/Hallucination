@@ -1,0 +1,47 @@
+[
+  {
+    "candidate_id": "BLIND_0046",
+    "domain": "Web App For Community Services",
+    "title": "Resilience Bonds Registry",
+    "problem_or_desire": "Nhiều người dù vượt qua nỗi đau nhưng vẫn cô đơn hoặc sợ gieo rắc gánh nặng lên người thân. Có sự khát khao tìm được 'người cùng chí hướng' hoặc cách công nhận 'sức bật' nội tâm.",
+    "core_concept": "Sàn giao dịch các 'chứng khoán cảm xúc và tinh thần', nơi cộng đồng có thể ký gửi trải nghiệm vượt qua nghịch cảnh để đổi lấy sự nâng đỡ tinh thần (emotional support), kỹ năng đối phó khi họ chứng minh được sức phục hồi sau khó khăn cá nhân.",
+    "proposed_approach": "Một nền tảng cộng đồng nơi những người đã vượt qua khó khăn có thể chia sẻ câu chuyện và bài học của họ. Những người khác có thể 'ủng hộ' (không dùng tiền) bằng cách cam kết cung cấp sự hỗ trợ tinh thần (lời khuyên, lắng nghe) cho những người đang gặp khó khăn tương tự, dựa trên kinh nghiệm của chính họ. MVP tập trung vào việc xây dựng một cộng đồng chia sẻ và kết nối ban đầu.",
+    "prototype_scope": "Một diễn đàn hoặc nhóm cộng đồng trực tuyến (ví dụ: trên Facebook, Discord) nơi người dùng có thể chia sẻ câu chuyện phục hồi của họ. Một phần của nền tảng sẽ cho phép người dùng đăng ký làm 'người hỗ trợ tinh thần' (soul shepherd) cho các vấn đề cụ thể mà họ đã trải qua. Các thành viên khác có thể tìm kiếm và kết nối với những người hỗ trợ này để nhận lời khuyên hoặc sự đồng cảm. Ban đầu, việc 'duyệt' câu chuyện và 'người hỗ trợ' có thể dựa trên sự tín nhiệm của cộng đồng."
+  },
+  {
+    "candidate_id": "BLIND_0038",
+    "domain": "Coffee Services",
+    "title": "Cà Phê Ký Ức: Tái Tạo Hương Vị Của Những Khoảnh Khắc Đã Qua",
+    "problem_or_desire": "Nỗi nhớ về một ly cà phê đặc biệt từ quá khứ (ví dụ: ly cà phê đầu tiên uống cùng người yêu, ly cà phê trong chuyến du lịch đáng nhớ) mà không thể tìm lại được hương vị.",
+    "core_concept": "Một dịch vụ cá nhân hóa, sử dụng AI và phân tích hương vị để tái tạo lại hương vị ly cà phê gắn liền với những kỷ niệm đặc biệt của khách hàng.",
+    "proposed_approach": "Khách hàng cung cấp thông tin chi tiết về ly cà phê họ muốn tái tạo (thời gian, địa điểm, người đi cùng, các yếu tố môi trường, cảm xúc lúc đó). Hệ thống AI sẽ phân tích các yếu tố này, kết hợp với cơ sở dữ liệu về các loại cà phê, phương pháp pha chế, và các thành phần hương liệu có thể có. Sau đó, các chuyên gia pha chế sẽ sử dụng thông tin này để tạo ra một ly cà phê có hương vị gần nhất với ký ức của khách hàng.",
+    "prototype_scope": "Một dịch vụ tư vấn 'hương vị ký ức' nơi khách hàng mô tả kỷ niệm và nhận được một danh sách các loại cà phê và cách pha chế có khả năng gợi nhớ nhất, kèm theo một mẫu cà phê 'gợi ý'."
+  },
+  {
+    "candidate_id": "BLIND_0043",
+    "domain": "Entertainment Services",
+    "title": "Nhà Sáng Tác Cảm Xúc Tự Động",
+    "problem_or_desire": "Khó khăn trong việc diễn đạt cảm xúc phức tạp, cảm giác cô đơn trong trải nghiệm nội tâm, mong muốn được thấu hiểu và nhìn thấy cảm xúc của mình được 'hiện thực hóa'.",
+    "core_concept": "Một dịch vụ AI tạo ra các tác phẩm nghệ thuật (nhạc, thơ, tranh) hoàn toàn độc đáo dựa trên trạng thái cảm xúc phức tạp và tinh tế nhất của người dùng.",
+    "proposed_approach": "Người dùng cung cấp dữ liệu về cảm xúc của họ (qua nhật ký, ghi âm giọng nói, hoặc thậm chí là dữ liệu sinh trắc học nếu có). AI phân tích sâu sắc các sắc thái cảm xúc này và tạo ra một tác phẩm nghệ thuật độc nhất (bài hát, bức tranh, bài thơ) phản ánh chính xác trạng thái đó.",
+    "prototype_scope": "Một công cụ tạo tranh đơn giản dựa trên mô tả cảm xúc bằng văn bản, với các bảng màu và phong cách được AI gợi ý."
+  },
+  {
+    "candidate_id": "BLIND_0024",
+    "domain": "Web App For Community Services",
+    "title": "Symbiotic Skill Swap Network",
+    "problem_or_desire": "Sự lãng phí tài năng ẩn trong cộng đồng, mọi người có nhiều kỹ năng nhưng không biết trao đổi như thế nào khi tiền bạc là rào cản lớn.",
+    "core_concept": "Nền tảng web liên kết các chuyên gia kỹ năng sống còn độc đáo với các cộng đồng đô thị, tạo cơ hội cho sự trao đổi kỹ năng \"ăn/uống/ở/vận động/suy nghĩ\" không phụ thuộc tài chính.",
+    "proposed_approach": "Một ứng dụng web kết nối người cung cấp kỹ năng với người học qua các module đào tạo ngắn gọn (video tự quay, tài liệu ngắn) và các phiên thực hành theo nhóm (sân vườn chung, không gian workshop thuê/chia sẻ). 'Điểm hiện sinh' được trao đi/nhận lại khi hoàn thành một trao đổi học - dạy.",
+    "prototype_scope": "Ra mắt cho một nhóm kỹ năng hẹp (ví dụ: kỹ năng làm vườn ban công & nấu ăn cơ bản cho căn hộ) tại 1-2 khu dân cư thử nghiệm, sử dụng hệ thống chấm điểm tùy chỉnh và kết nối thủ công các nhu cầu/cung."
+  },
+  {
+    "candidate_id": "BLIND_0001",
+    "domain": "Web App For Community Services",
+    "title": "Whispering Walls AR Historian",
+    "problem_or_desire": "Cảm giác không được kết nối với dòng chảy lịch sử khi tham quan các địa điểm (đặc biệt là những nơi cũ đã qua trùng tu, thay đổi mục đích). Bỏ lỡ cơ hội khám phá sâu hơn ngoài những thông tin biển bảng chung chung.",
+    "core_concept": "Ứng dụng WebAR có khả năng nghe lại 'lời thì thầm' lịch sử của các tòa nhà và địa điểm công cộng qua âm thanh được kích hoạt vị trí theo quy trình phát triển kỹ thuật số không cảm biến.",
+    "proposed_approach": "Người dùng mở web app trên điện thoại khi ở gần địa điểm. Ứng dụng quét sơ bộ khu vực quanh đó, cố gắng nhận dạng các \"dấu hiệu kiến trúc\", đối chiếu với cơ sở dữ liệu được tạo thủ công (hoặc thu thập tự động dưới dạng comment hình ảnh, vị trí) về âm thanh/câu chuyện lịch sử đặc trưng của từng góc đó. Lắng nghe các đoạn ghi âm 2-5 phút như \"giọng nói lịch sử\" vang lên xung quanh. Có thể chạm để mở popup văn bản kèm ảnh lịch sử liên quan.",
+    "prototype_scope": "Chọn 2-3 địa danh lịch sử nhỏ lẻ với câu chuyện thú vị trong một thành phố, biên soạn âm thanh kể chuyện hấp dẫn cho 5 điểm tương tác cụ thể."
+  }
+]

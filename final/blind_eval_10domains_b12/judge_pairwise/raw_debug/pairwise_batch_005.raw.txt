@@ -1,0 +1,64 @@
+{
+  "evaluations": [
+    {
+      "pair_id": "PAIRBLIND_0021",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "Practical revision clarifies the approach and scope, making it more feasible for a prototype while retaining the core idea of optimizing social media bios. The AI prompt aspect is downplayed to a more realistic MVP."
+    },
+    {
+      "pair_id": "PAIRBLIND_0022",
+      "scores": {
+        "creative_core_preservation": 5.0,
+        "novelty_retention": 5.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 5.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "The revision successfully translates the AR concept into a more grounded mobile app prototype, focusing on core interactions and achievable scope. It retains the educational and interactive essence while making it practical."
+    },
+    {
+      "pair_id": "PAIRBLIND_0023",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "The revision makes the concept more concrete by focusing on NLP and image generation for analysis and reflection, rather than the more speculative 'changing the dream' aspect. This makes it more suitable for an MVP."
+    },
+    {
+      "pair_id": "PAIRBLIND_0024",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "The revision grounds the concept in a more traditional loyalty program structure with simpler verification methods, making it more practical for an MVP. It retains the core idea of rewarding eco-friendly actions with coffee benefits."
+    },
+    {
+      "pair_id": "PAIRBLIND_0025",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "The revision refines the AI's role to more achievable tasks like image restoration and basic dialogue generation, making the prototype scope more realistic. It preserves the core idea of uncovering family history through interactive storytelling."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "stage": "directional_pairwise_raw_to_chvd_judge",
+    "judge_model": "gemini-2.5-flash-lite",
+    "temperature": 0.0,
+    "top_p": 0.1,
+    "input_source": "blind_eval_10domains_b12\\pairwise_distillation_input.jsonl",
+    "batch_index": 4,
+    "created_at": "2026-06-22T10:07:46"
+  },
+  "evaluations": [
+    {
+      "pair_id": "PAIRBLIND_0016",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "Bản revision tập trung vào việc tạo công cụ sáng tạo ngôn ngữ thực tế hơn, giữ lại ý tưởng cốt lõi về việc khám phá ngôn ngữ giả định nhưng loại bỏ yếu tố 'tiến hóa ngôn ngữ' quá phức tạp. Nó rõ ràng hơn về phạm vi và cách tiếp cận cho MVP."
+    },
+    {
+      "pair_id": "PAIRBLIND_0017",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "Bản revision làm rõ hơn về cơ chế gameplay và phạm vi prototype, tập trung vào việc tái tạo mẫu rung động thay vì 'câu chuyện âm thanh mật mã'. Điều này làm cho nó dễ hình dung và phát triển hơn."
+    },
+    {
+      "pair_id": "PAIRBLIND_0018",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "Bản revision giữ lại ý tưởng cốt lõi về việc truyền đạt kỹ năng cảm nhận qua biểu đạt phi ngôn ngữ và AI, nhưng làm cho cách tiếp cận trở nên thực tế hơn bằng cách tập trung vào phân tích cử chỉ và từ khóa cảm giác vật lý thay vì 'transcodes âm thanh và cử chỉ'."
+    },
+    {
+      "pair_id": "PAIRBLIND_0019",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "Bản revision chuyển từ 'phòng thí nghiệm ảo' phức tạp sang nền tảng elearning gamified với infographic và mini-game, làm cho ý tưởng 'học ngược dòng thời gian' trở nên khả thi và dễ tiếp cận hơn cho MVP."
+    },
+    {
+      "pair_id": "PAIRBLIND_0020",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "Bản revision làm rõ ý tưởng 'mã hóa mưu mẹo cuộc sống' thành các mẫu câu có biến số tùy chỉnh, loại bỏ yếu tố AI phức tạp và 'Möbius Parameters' để tập trung vào chức năng cốt lõi là tạo và chia sẻ mẹo vặt."
+    }
+  ]
+}

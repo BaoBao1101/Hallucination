@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "stage": "blind_individual_metric_judge",
+    "judge_model": "gemini-2.5-flash-lite",
+    "temperature": 0.0,
+    "top_p": 0.1,
+    "batch_source": "blind_eval_pilot\\batches\\batch_008.json",
+    "created_at": "2026-06-21T19:23:37"
+  },
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0017",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 3.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Ý tưởng về việc tạo ra và tương tác với ngôn ngữ giả định rất mới lạ. Tuy nhiên, việc AI 'tiến hóa' ngôn ngữ và mô phỏng ngữ pháp phức tạp có thể khó khả thi ở mức độ sâu sắc."
+    },
+    {
+      "candidate_id": "BLIND_0052",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Nhu cầu luyện tập các cuộc hội thoại khó khăn là có thật và MVP được mô tả rõ ràng, khả thi. AI phản hồi về diễn đạt và hiệu quả tiềm năng có thể là một thách thức."
+    },
+    {
+      "candidate_id": "BLIND_0026",
+      "scores": {
+        "novelty": 5.0,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 3.0,
+        "technical_plausibility": 2.0,
+        "mvp_clarity": 2.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 4.0,
+        "ethical_privacy_risk": 2.0,
+        "overall_mvp_usefulness": 2.5,
+        "prototype_willingness": 2.0
+      },
+      "short_rationale": "Ý tưởng kết hợp cà phê với trải nghiệm đa giác quan là độc đáo, nhưng việc liên kết dữ liệu sinh trắc học và phân tích hương với hiệu ứng thị giác/âm thanh phức tạp là rất khó và chưa rõ ràng."
+    },
+    {
+      "candidate_id": "BLIND_0013",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 3.5,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Ý tưởng 'lập trình' kiến thức vào giấc ngủ rất sáng tạo, nhưng tính hiệu quả khoa học của việc này và khả năng đi vào tiềm thức mà không gây gián đoạn giấc ngủ là chưa được chứng minh."
+    },
+    {
+      "candidate_id": "BLIND_0054",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Kết hợp kiến thức lịch sử/sinh học với game hóa và tương tác là một cách tiếp cận hấp dẫn, và MVP được mô tả rất rõ ràng, khả thi."
+    }
+  ]
+}

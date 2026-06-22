@@ -1,0 +1,256 @@
+{
+  "metadata": {
+    "pipeline": "CHVD",
+    "version": "v5.3",
+    "domain": "Coffee Services",
+    "language": "vi",
+    "mode": "prompt_only_no_corpus_no_weak_signals",
+    "temperature_role": "maximal_divergent_creativity",
+    "stage": "high_temperature_creative_hallucination_generator",
+    "saved_at": "2026-06-22T08:39:54",
+    "generator_model": "gemini-2.5-flash-lite",
+    "generator_temperature": 0.0,
+    "generator_top_p": 0.1,
+    "user_prompt": ""
+  },
+  "ideas": [
+    {
+      "idea_id": "I001",
+      "idea_name": "Cà Phê Cảm Xúc: Tùy Chỉnh Hương Vị Theo Tâm Trạng",
+      "domain": "Coffee Services",
+      "one_sentence_pitch": "Một dịch vụ cà phê cá nhân hóa, sử dụng dữ liệu cảm xúc người dùng để pha chế thức uống tối ưu cho tâm trạng hiện tại.",
+      "target_user": "Những người yêu cà phê, quan tâm đến sức khỏe tinh thần, và tìm kiếm trải nghiệm cá nhân hóa sâu sắc.",
+      "hidden_pain_or_desire": "Nỗi đau: Cảm giác không tìm được đúng loại cà phê phù hợp với tâm trạng, dẫn đến sự thất vọng hoặc không đạt được hiệu quả mong muốn (tỉnh táo, thư giãn). Mong muốn: Một ly cà phê không chỉ ngon mà còn có tác động tích cực đến cảm xúc và tinh thần.",
+      "creative_leap": "Kết hợp khoa học cảm xúc, dữ liệu sinh trắc học (tùy chọn) và nghệ thuật pha chế cà phê.",
+      "non_obvious_connection": "Cà phê + Tâm lý học hành vi + AI phân tích cảm xúc + Dữ liệu sinh trắc học (tùy chọn).",
+      "proposed_solution": "Ứng dụng di động cho phép người dùng ghi lại tâm trạng (qua câu hỏi, biểu tượng cảm xúc, hoặc phân tích giọng nói/văn bản). AI sẽ phân tích dữ liệu này và đề xuất/pha chế một loại cà phê (hạt, phương pháp pha, phụ gia tự nhiên như thảo mộc, gia vị) được cho là phù hợp nhất với trạng thái cảm xúc đó. Có thể tích hợp với các thiết bị đeo để thu thập dữ liệu sinh trắc học (nhịp tim, mức độ căng thẳng) để tăng độ chính xác.",
+      "core_experience": "Nhận một ly cà phê 'đo ni đóng giày' cho tâm trạng của bạn, mang lại cảm giác được thấu hiểu và chăm sóc.",
+      "core_technology": [
+        "AI phân tích cảm xúc (NLP, nhận dạng giọng nói)",
+        "Hệ thống gợi ý cá nhân hóa",
+        "Quản lý cơ sở dữ liệu hương vị và thành phần cà phê",
+        "Giao diện ứng dụng di động"
+      ],
+      "why_it_feels_new": "Chuyển đổi cà phê từ một thức uống đơn thuần thành một công cụ hỗ trợ sức khỏe tinh thần cá nhân hóa, dựa trên dữ liệu cảm xúc thời gian thực.",
+      "why_now_speculative": "Sự gia tăng nhận thức về sức khỏe tinh thần và sự phát triển của AI phân tích cảm xúc tạo ra một cửa sổ cơ hội.",
+      "mvp_seed": "Một ứng dụng web đơn giản cho phép người dùng chọn tâm trạng và nhận gợi ý về loại cà phê và cách pha chế tại nhà, kèm theo mô tả về tác động cảm xúc dự kiến.",
+      "first_7_day_prototype": "Tạo một landing page giới thiệu ý tưởng, thu thập email đăng ký quan tâm, và chạy một chiến dịch quảng cáo nhỏ nhắm vào các nhóm người dùng quan tâm đến sức khỏe tinh thần và cà phê.",
+      "business_model_hypothesis": "Mô hình đăng ký thuê bao cho dịch vụ cá nhân hóa nâng cao, bán lẻ cà phê đặc sản theo gói 'tâm trạng', hợp tác với các chuyên gia sức khỏe tinh thần.",
+      "wildness_level": 4,
+      "main_assumptions": [
+        {
+          "claim": "Người dùng sẵn sàng chia sẻ dữ liệu cảm xúc để nhận được cà phê phù hợp.",
+          "type": "user_need"
+        },
+        {
+          "claim": "Có thể xây dựng một mô hình AI đủ chính xác để liên kết trạng thái cảm xúc với các thành phần và phương pháp pha chế cà phê.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Thị trường sẵn sàng chi trả cho trải nghiệm cà phê mang tính trị liệu/hỗ trợ tinh thần.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Vấn đề riêng tư dữ liệu cảm xúc.",
+        "Độ chính xác của AI trong việc 'đọc' cảm xúc và đề xuất cà phê.",
+        "Chi phí phát triển và duy trì hệ thống AI phức tạp.",
+        "Cạnh tranh từ các dịch vụ cà phê truyền thống và các ứng dụng sức khỏe tinh thần khác."
+      ],
+      "validation_needed_later": [
+        "Khảo sát người dùng về mức độ sẵn sàng chia sẻ dữ liệu cảm xúc.",
+        "Thử nghiệm A/B với các đề xuất cà phê khác nhau cho cùng một trạng thái cảm xúc.",
+        "Phỏng vấn sâu các chuyên gia tâm lý và barista về mối liên hệ giữa cà phê và tâm trạng."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Khả năng AI phân tích cảm xúc chính xác đến mức có thể 'kê đơn' cà phê.",
+          "Mức độ ảnh hưởng thực tế của các loại cà phê được đề xuất lên tâm trạng người dùng."
+        ],
+        "claims_not_yet_validated": [
+          "Sự tồn tại của một 'khoa học' đủ vững chắc để liên kết trực tiếp các thành phần cà phê với các trạng thái cảm xúc cụ thể.",
+          "Khả năng thu thập dữ liệu sinh trắc học một cách liền mạch và chính xác từ người dùng phổ thông."
+        ]
+      }
+    },
+    {
+      "idea_id": "I002",
+      "idea_name": "Cà Phê Ký Ức: Trải Nghiệm Hương Vị Theo Dòng Thời Gian",
+      "domain": "Coffee Services",
+      "one_sentence_pitch": "Một dịch vụ cà phê độc đáo tái tạo hương vị và trải nghiệm cà phê gắn liền với những cột mốc quan trọng trong cuộc đời khách hàng.",
+      "target_user": "Những người hoài niệm, yêu thích lịch sử cá nhân, và tìm kiếm những trải nghiệm cà phê mang tính kể chuyện.",
+      "hidden_pain_or_desire": "Nỗi đau: Cảm giác những kỷ niệm đẹp dần phai nhạt, khó có thể tái hiện lại trọn vẹn. Mong muốn: Tìm lại những cảm xúc và khoảnh khắc đã qua thông qua các giác quan, đặc biệt là vị giác và khứu giác.",
+      "creative_leap": "Kết hợp kỹ thuật pha chế cà phê với nghệ thuật kể chuyện cá nhân và nghiên cứu lịch sử văn hóa tiêu dùng.",
+      "non_obvious_connection": "Cà phê + Ký ức học (Mnemonic science) + Lịch sử cá nhân + Văn hóa ẩm thực.",
+      "proposed_solution": "Khách hàng cung cấp thông tin về một kỷ niệm hoặc giai đoạn quan trọng (ví dụ: lần đầu hẹn hò, kỳ nghỉ sinh viên, buổi họp quan trọng). Dựa trên thông tin này (địa điểm, thời gian, bối cảnh, các món ăn/thức uống đi kèm), đội ngũ 'nhà sử học hương vị' sẽ nghiên cứu và tái tạo một loại cà phê (hạt, cách rang, phương pháp pha, có thể thêm các hương liệu tự nhiên gợi nhớ) mang lại cảm giác tương đồng với ký ức đó. Dịch vụ có thể bao gồm cả việc kể lại câu chuyện gắn liền với ly cà phê.",
+      "core_experience": "Thưởng thức một ly cà phê không chỉ để uống mà còn để 'sống lại' một phần quá khứ quý giá.",
+      "core_technology": [
+        "Cơ sở dữ liệu về các loại hạt cà phê, hồ sơ hương vị, và kỹ thuật rang/pha chế.",
+        "AI hỗ trợ nghiên cứu lịch sử văn hóa và ẩm thực (để gợi ý các yếu tố liên quan).",
+        "Hệ thống quản lý yêu cầu và hồ sơ khách hàng.",
+        "Công cụ kể chuyện và trình bày trải nghiệm."
+      ],
+      "why_it_feels_new": "Biến cà phê thành một 'cỗ máy thời gian' cá nhân, kết nối trực tiếp hương vị với ký ức và cảm xúc.",
+      "why_now_speculative": "Xu hướng cá nhân hóa trải nghiệm và sự quan tâm ngày càng tăng đối với 'slow living' và các hoạt động mang tính hoài niệm.",
+      "mvp_seed": "Một dịch vụ tư vấn trực tuyến, nơi khách hàng mô tả kỷ niệm và nhận lại một 'hồ sơ hương vị' cà phê gợi ý, kèm theo câu chuyện minh họa. Có thể bán kèm các loại cà phê đặc sản có hương vị gợi nhớ.",
+      "first_7_day_prototype": "Tạo một trang web với các câu chuyện mẫu về cách cà phê có thể gợi lại ký ức, kèm theo form thu thập yêu cầu tư vấn 'hương vị ký ức' đầu tiên.",
+      "business_model_hypothesis": "Phí tư vấn và thiết kế 'hương vị ký ức', bán các gói cà phê đặc sản theo 'chủ đề ký ức', tổ chức workshop về 'kể chuyện qua hương vị'.",
+      "wildness_level": 5,
+      "main_assumptions": [
+        {
+          "claim": "Người dùng tin rằng hương vị có thể gợi lại ký ức một cách mạnh mẽ và sẵn sàng đầu tư vào trải nghiệm này.",
+          "type": "user_need"
+        },
+        {
+          "claim": "Có thể tái tạo hoặc mô phỏng các hương vị cà phê gắn liền với các bối cảnh lịch sử/cá nhân cụ thể bằng các kỹ thuật pha chế hiện có.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Có một thị trường ngách sẵn sàng chi trả cho các trải nghiệm cà phê độc đáo, mang tính cá nhân hóa sâu sắc và có yếu tố kể chuyện.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Tính chủ quan và khó đo lường của 'sự tương đồng ký ức'.",
+        "Chi phí nghiên cứu và phát triển hương vị cho từng yêu cầu cá nhân.",
+        "Khó khăn trong việc tìm kiếm và xác minh các yếu tố lịch sử/văn hóa liên quan đến cà phê.",
+        "Cạnh tranh từ các dịch vụ quà tặng cá nhân hóa khác."
+      ],
+      "validation_needed_later": [
+        "Thử nghiệm với các nhóm người dùng khác nhau để đánh giá mức độ gợi nhớ ký ức của các loại cà phê được thiết kế.",
+        "Phỏng vấn các nhà sử học ẩm thực và chuyên gia về giác quan.",
+        "Khảo sát về mức độ sẵn sàng chi trả cho dịch vụ 'tái hiện ký ức' qua cà phê."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Khả năng 'tái tạo' chính xác hương vị của một thời điểm lịch sử hoặc ký ức cá nhân chỉ bằng cà phê và các phụ gia.",
+          "Mức độ ảnh hưởng của câu chuyện đi kèm lên trải nghiệm hương vị."
+        ],
+        "claims_not_yet_validated": [
+          "Sự tồn tại của các 'hồ sơ hương vị' cà phê tiêu chuẩn cho các giai đoạn lịch sử hoặc bối cảnh văn hóa cụ thể.",
+          "Khả năng tìm thấy các loại hạt cà phê hoặc phương pháp pha chế đã từng phổ biến trong quá khứ mà không có ghi chép rõ ràng."
+        ]
+      }
+    },
+    {
+      "idea_id": "I003",
+      "idea_name": "Cà Phê Sinh Học Tương Lai: Nuôi Trồng Cà Phê Tại Gia Bằng Công Nghệ Sinh Học",
+      "domain": "Coffee Services",
+      "one_sentence_pitch": "Cung cấp bộ kit và nền tảng công nghệ cho phép người dùng tự nuôi trồng cây cà phê tại nhà, thu hoạch và chế biến hạt cà phê tươi.",
+      "target_user": "Những người yêu thích công nghệ, quan tâm đến bền vững, muốn trải nghiệm toàn bộ quy trình sản xuất thực phẩm, và có không gian sống phù hợp.",
+      "hidden_pain_or_desire": "Nỗi đau: Cảm giác xa rời nguồn gốc thực phẩm, thiếu kiểm soát về chất lượng và tính bền vững của cà phê tiêu thụ. Mong muốn: Trải nghiệm sự hài lòng khi tự tay tạo ra sản phẩm, hiểu rõ hơn về quy trình sản xuất, và giảm thiểu tác động môi trường.",
+      "creative_leap": "Ứng dụng công nghệ sinh học (nuôi cấy mô, kỹ thuật trồng trọt tiên tiến) vào mô hình 'nông nghiệp đô thị' cho cây cà phê.",
+      "non_obvious_connection": "Cà phê + Công nghệ sinh học (Biotechnology) + Nông nghiệp đô thị (Urban farming) + IoT (Internet of Things).",
+      "proposed_solution": "Bộ kit bao gồm cây cà phê con được nhân giống bằng công nghệ sinh học (có thể là giống lùn, năng suất cao, kháng bệnh tốt), đất trồng đặc biệt, hệ thống chiếu sáng thông minh, cảm biến IoT để theo dõi độ ẩm, ánh sáng, nhiệt độ, và một ứng dụng di động hướng dẫn chi tiết từng bước từ chăm sóc đến thu hoạch và chế biến sơ bộ (phơi, tách vỏ). Nền tảng trực tuyến kết nối cộng đồng người trồng, chia sẻ kinh nghiệm và có thể cung cấp dịch vụ thu mua hạt cà phê tươi để chế biến chuyên nghiệp.",
+      "core_experience": "Trở thành 'nhà nông' cà phê tại gia, chứng kiến và tham gia vào toàn bộ vòng đời của hạt cà phê, từ cây con đến ly cà phê tự tay pha.",
+      "core_technology": [
+        "Công nghệ nhân giống cây trồng (nuôi cấy mô)",
+        "Hệ thống chiếu sáng và điều hòa môi trường cho cây trồng trong nhà",
+        "Cảm biến IoT và nền tảng quản lý dữ liệu nông nghiệp",
+        "Ứng dụng di động hướng dẫn và cộng đồng trực tuyến",
+        "Kỹ thuật chế biến sơ bộ hạt cà phê tại nhà"
+      ],
+      "why_it_feels_new": "Dân chủ hóa quy trình sản xuất cà phê, biến nó thành một hoạt động trải nghiệm công nghệ cao tại nhà, thay vì chỉ là tiêu dùng.",
+      "why_now_speculative": "Sự phát triển của công nghệ sinh học, IoT, và xu hướng 'do-it-yourself' (DIY) cùng với nhu cầu về thực phẩm bền vững và minh bạch.",
+      "mvp_seed": "Bán bộ kit 'trồng cà phê mini' cho ban công/cửa sổ, bao gồm cây con, đất, chậu, và hướng dẫn cơ bản qua PDF. Tập trung vào trải nghiệm chăm sóc cây và thu hoạch vài quả.",
+      "first_7_day_prototype": "Tạo một video demo hấp dẫn về quy trình trồng cà phê tại nhà với bộ kit, chạy quảng cáo trên các kênh mạng xã hội nhắm vào đối tượng yêu công nghệ và lối sống xanh.",
+      "business_model_hypothesis": "Bán bộ kit ban đầu, bán vật tư tiêu hao định kỳ (đất, phân bón), phí đăng ký cho nền tảng cộng đồng và tính năng IoT nâng cao, dịch vụ thu mua và chế biến hạt cà phê tươi từ người dùng.",
+      "wildness_level": 4,
+      "main_assumptions": [
+        {
+          "claim": "Người dùng sẵn sàng đầu tư thời gian, công sức và tiền bạc để tự trồng cà phê tại nhà.",
+          "type": "user_need"
+        },
+        {
+          "claim": "Có thể phát triển các giống cà phê phù hợp để trồng trong môi trường nhà ở với năng suất chấp nhận được.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Thị trường cho các sản phẩm 'nông nghiệp đô thị' công nghệ cao và trải nghiệm tự sản xuất sẽ phát triển mạnh.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Khó khăn trong việc kiểm soát môi trường trồng trọt tại nhà (ánh sáng, nhiệt độ, sâu bệnh).",
+        "Năng suất và chất lượng hạt cà phê thu hoạch tại nhà có thể không cao.",
+        "Chi phí ban đầu cho bộ kit công nghệ cao có thể cao.",
+        "Yêu cầu về không gian và thời gian chăm sóc có thể là rào cản lớn."
+      ],
+      "validation_needed_later": [
+        "Thử nghiệm bộ kit với các điều kiện môi trường nhà ở khác nhau.",
+        "Đánh giá năng suất và chất lượng hạt cà phê thu hoạch bởi người dùng.",
+        "Khảo sát về mức độ sẵn sàng chi trả và cam kết thời gian chăm sóc của người dùng tiềm năng."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Khả năng người dùng phổ thông có thể tự chế biến hạt cà phê tươi thu hoạch tại nhà đạt chất lượng tốt.",
+          "Mức độ hấp dẫn lâu dài của việc tự trồng cà phê so với việc mua cà phê chất lượng cao."
+        ],
+        "claims_not_yet_validated": [
+          "Sự tồn tại của các giống cà phê được tối ưu hóa hoàn toàn cho việc trồng trong nhà với năng suất thương mại.",
+          "Khả năng tích hợp liền mạch các cảm biến IoT và ứng dụng điều khiển môi trường trồng trọt với chi phí hợp lý cho người tiêu dùng cuối."
+        ]
+      }
+    },
+    {
+      "idea_id": "I004",
+      "idea_name": "Cà Phê Tương Tác: Trải Nghiệm Pha Chế Thực Tế Tăng Cường (AR)",
+      "domain": "Coffee Services",
+      "one_sentence_pitch": "Mang đến trải nghiệm học và thực hành pha chế cà phê đỉnh cao ngay tại nhà thông qua lớp phủ thực tế tăng cường (AR) tương tác.",
+      "target_user": "Những người đam mê cà phê muốn nâng cao kỹ năng pha chế, các barista mới vào nghề, hoặc bất kỳ ai muốn khám phá nghệ thuật cà phê một cách thú vị và trực quan.",
+      "hidden_pain_or_desire": "Nỗi đau: Khó khăn trong việc hình dung và thực hiện chính xác các kỹ thuật pha chế phức tạp (ví dụ: latte art, pour-over). Mong muốn: Học hỏi từ các chuyên gia một cách sinh động, nhận phản hồi tức thì và tự tin thực hành mà không sợ sai.",
+      "creative_leap": "Kết hợp công nghệ AR với hướng dẫn pha chế cà phê chuyên nghiệp, biến màn hình điện thoại/máy tính bảng thành một 'lớp học ảo' tương tác.",
+      "non_obvious_connection": "Cà phê + Thực tế tăng cường (AR) + Trò chơi hóa (Gamification) + Giáo dục trực tuyến.",
+      "proposed_solution": "Ứng dụng AR cho phép người dùng nhìn thấy các chỉ dẫn ảo chồng lên dụng cụ pha chế thực tế của họ. Ví dụ: khi thực hiện pour-over, ứng dụng sẽ hiển thị đường rót nước ảo, tốc độ rót, và lượng nước cần dùng. Với latte art, ứng dụng có thể vẽ sẵn hình mẫu trên màn hình và hướng dẫn cách di chuyển bình sữa. Ứng dụng có thể tích hợp các bài học theo cấp độ, thử thách, bảng xếp hạng, và cho phép người dùng ghi lại quá trình thực hành để nhận phản hồi từ cộng đồng hoặc AI.",
+      "core_experience": "Học pha chế cà phê như đang chơi một trò chơi tương tác, với sự hướng dẫn trực quan và phản hồi tức thì từ công nghệ.",
+      "core_technology": [
+        "Công nghệ AR (ARKit/ARCore)",
+        "Nhận dạng hình ảnh và theo dõi đối tượng",
+        "AI phân tích kỹ thuật pha chế (tùy chọn)",
+        "Nền tảng học tập và cộng đồng trực tuyến",
+        "Thư viện các kỹ thuật pha chế và mẫu latte art"
+      ],
+      "why_it_feels_new": "Chuyển đổi việc học pha chế cà phê từ lý thuyết và thực hành mò mẫm sang một trải nghiệm học tập trực quan, tương tác và có tính giải trí cao.",
+      "why_now_speculative": "Sự phổ biến của smartphone có khả năng AR, nhu cầu học kỹ năng mới tại nhà, và sự phát triển của ngành cà phê specialty.",
+      "mvp_seed": "Một ứng dụng AR đơn giản tập trung vào một kỹ thuật pha chế cụ thể (ví dụ: rót sữa cơ bản cho latte art) với các chỉ dẫn ảo cơ bản.",
+      "first_7_day_prototype": "Tạo một video demo ngắn gọn, ấn tượng về cách ứng dụng AR hoạt động trong việc hướng dẫn latte art, chạy quảng cáo trên các nền tảng video ngắn nhắm vào cộng đồng yêu cà phê.",
+      "business_model_hypothesis": "Mô hình freemium (miễn phí các bài học cơ bản, thu phí cho các khóa học nâng cao, kỹ thuật chuyên sâu, hoặc nội dung độc quyền từ các barista nổi tiếng), bán các bộ dụng cụ pha chế 'tương thích AR', hợp tác với các trường dạy pha chế.",
+      "wildness_level": 3,
+      "main_assumptions": [
+        {
+          "claim": "Người dùng sẵn sàng sử dụng điện thoại/máy tính bảng của họ trong quá trình pha chế cà phê để học hỏi.",
+          "type": "user_need"
+        },
+        {
+          "claim": "Công nghệ AR đủ chính xác để theo dõi dụng cụ và cung cấp hướng dẫn ảo hữu ích trong môi trường bếp/quán cà phê.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Có một thị trường đủ lớn cho việc học pha chế cà phê một cách tương tác và có tính giải trí.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Sự bất tiện khi phải sử dụng thiết bị di động trong khi tay có thể bị ướt hoặc dính cà phê.",
+        "Độ chính xác và độ trễ của công nghệ AR có thể ảnh hưởng đến trải nghiệm.",
+        "Chi phí phát triển ứng dụng AR phức tạp và nội dung chất lượng cao.",
+        "Cạnh tranh từ các video hướng dẫn pha chế truyền thống và các khóa học online."
+      ],
+      "validation_needed_later": [
+        "Thử nghiệm người dùng với các kịch bản pha chế khác nhau để đánh giá tính hữu dụng và sự bất tiện của việc sử dụng AR.",
+        "Đánh giá độ chính xác và độ phản hồi của hệ thống AR trong các điều kiện ánh sáng khác nhau.",
+        "Khảo sát về mức độ sẵn sàng chi trả cho các tính năng AR nâng cao."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Khả năng AI có thể phân tích và đưa ra phản hồi chính xác về kỹ thuật pha chế của người dùng chỉ qua camera AR.",
+          "Mức độ hấp dẫn lâu dài của việc học qua AR so với các phương pháp học truyền thống hoặc video."
+        ],
+        "claims_not_yet_validated": [
+          "Sự tồn tại của các 'mẫu chuẩn' AR cho mọi kỹ thuật pha chế cà phê, từ cơ bản đến nâng cao.",
+          "Khả năng tích hợp liền mạch với các loại dụng cụ pha chế khác nhau mà không cần hiệu chỉnh phức tạp."
+        ]
+      }
+    }
+  ]
+}

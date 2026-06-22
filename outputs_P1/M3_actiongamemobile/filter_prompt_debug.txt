@@ -1,0 +1,364 @@
+You are STAGE 2 of the CHVD framework:
+ZERO-TEMPERATURE CREATIVE DISTILLER + REALISTIC MVP REFRAMER.
+
+You are not an independent idea generator.
+Do not invent a separate startup concept.
+Do not fabricate evidence, citations, market statistics, competitors, patents,
+companies, or claims of external validation.
+Work only from the supplied input ideas.
+
+Your role is not to delete creativity.
+Your role is to:
+1. Separate the creative core from speculative or unsupported claims.
+2. Preserve the distinctive creative mechanism that gives the idea its identity.
+3. Remove, narrow, or soften unsupported, unsafe, or implausible claims.
+4. Reframe the same idea as the most realistic testable MVP possible.
+5. Score the reframed candidate, not the raw speculative version.
+
+In other words:
+The high-temperature generator supplies creative raw material.
+You are a zero-temperature distiller that converts it into a testable MVP candidate.
+
+Execution mode:
+- prompt_only
+- no_corpus
+- no_RAG
+- no_external_evidence
+- internal_logic_only
+- temperature_expected_zero
+
+Input ideas:
+[
+  {
+    "idea_id": "I001",
+    "source_idea_id": "I001",
+    "domain": "Action Game Mobile",
+    "title": "Modular Combat Architect",
+    "target_user": "Core mobile gamers looking for deep strategic customization.",
+    "problem_or_desire": "Frustration with limited customization options in existing mobile action games and a desire to create unique combat playstyles.",
+    "core_concept": "A real-time action combat game where players can swap and combine hundreds of micro-modules (e.g., weapon attachments, cybernetic augments, projectile modifiers) during a match to dynamically adapt their build against opponents or environmental challenges.",
+    "proposed_approach": "Focus on developing an intuitive modular UI for pre-match building and an event-driven system for on-the-fly module integration during gameplay. Utilize procedural generation for visual module variations to expand aesthetic diversity.",
+    "prototype_scope": "A single-player PvE challenge mode where players must defeat waves of enemies by progressively swapping and testing five distinct purchasable module types on a base attack, demonstrating the dynamic customization and combat synergy.",
+    "idea_name": "Modular Combat Architect",
+    "one_sentence_pitch": "A real-time action combat game where players can swap and combine hundreds of micro-modules (e.g., weapon attachments, cybernetic augments, projectile modifiers) during a match to dynamically adapt their build against opponents or environmental challenges.",
+    "hidden_pain_or_desire": "Frustration with limited customization options in existing mobile action games and a desire to create unique combat playstyles.",
+    "creative_leap": "A real-time action combat game where players can swap and combine hundreds of micro-modules (e.g., weapon attachments, cybernetic augments, projectile modifiers) during a match to dynamically adapt their build against opponents or environmental challenges.",
+    "non_obvious_connection": "",
+    "proposed_solution": "Focus on developing an intuitive modular UI for pre-match building and an event-driven system for on-the-fly module integration during gameplay. Utilize procedural generation for visual module variations to expand aesthetic diversity.",
+    "core_experience": "A real-time action combat game where players can swap and combine hundreds of micro-modules (e.g., weapon attachments, cybernetic augments, projectile modifiers) during a match to dynamically adapt their build against opponents or environmental challenges.",
+    "core_technology": [],
+    "why_it_feels_new": "",
+    "why_now_speculative": "",
+    "mvp_seed": "A single-player PvE challenge mode where players must defeat waves of enemies by progressively swapping and testing five distinct purchasable module types on a base attack, demonstrating the dynamic customization and combat synergy.",
+    "first_7_day_prototype": "A single-player PvE challenge mode where players must defeat waves of enemies by progressively swapping and testing five distinct purchasable module types on a base attack, demonstrating the dynamic customization and combat synergy.",
+    "business_model_hypothesis": "",
+    "wildness_level": null,
+    "main_assumptions": [],
+    "main_risks": [],
+    "validation_needed_later": [],
+    "hallucination_notes": {
+      "intentionally_speculative_parts": [],
+      "claims_not_yet_validated": []
+    }
+  },
+  {
+    "idea_id": "I002",
+    "source_idea_id": "I002",
+    "domain": "Action Game Mobile",
+    "title": "Gravity Sling: Adaptive Platformer",
+    "target_user": "Casual mobile players who enjoy puzzle elements within fast-paced action.",
+    "problem_or_desire": "A lack of mobile action games that fluidly integrate physics puzzles into core combat and exploration loops, leading to predictable gameplay.",
+    "core_concept": "A 2D side-scrolling action game where the player character can alter gravity's direction and intensity within localized zones. This core mechanic is used for navigation, avoiding traps, and manipulating projectiles to defeat enemies.",
+    "proposed_approach": "Develop physics engine supporting real-time gravity field manipulation. Implement character movement that interacts intuitively with these changing forces. Design level layouts that explicitly leverage gravity shifts for both offense and defense.",
+    "prototype_scope": "A tutorial level and two short adventure stages demonstrating: 1) Using gravity shifts to reach platforms and clear debris, and 2) Using gravity bursts to launch enemies into traps or environmental hazards. No deep enemy AI required.",
+    "idea_name": "Gravity Sling: Adaptive Platformer",
+    "one_sentence_pitch": "A 2D side-scrolling action game where the player character can alter gravity's direction and intensity within localized zones. This core mechanic is used for navigation, avoiding traps, and manipulating projectiles to defeat enemies.",
+    "hidden_pain_or_desire": "A lack of mobile action games that fluidly integrate physics puzzles into core combat and exploration loops, leading to predictable gameplay.",
+    "creative_leap": "A 2D side-scrolling action game where the player character can alter gravity's direction and intensity within localized zones. This core mechanic is used for navigation, avoiding traps, and manipulating projectiles to defeat enemies.",
+    "non_obvious_connection": "",
+    "proposed_solution": "Develop physics engine supporting real-time gravity field manipulation. Implement character movement that interacts intuitively with these changing forces. Design level layouts that explicitly leverage gravity shifts for both offense and defense.",
+    "core_experience": "A 2D side-scrolling action game where the player character can alter gravity's direction and intensity within localized zones. This core mechanic is used for navigation, avoiding traps, and manipulating projectiles to defeat enemies.",
+    "core_technology": [],
+    "why_it_feels_new": "",
+    "why_now_speculative": "",
+    "mvp_seed": "A tutorial level and two short adventure stages demonstrating: 1) Using gravity shifts to reach platforms and clear debris, and 2) Using gravity bursts to launch enemies into traps or environmental hazards. No deep enemy AI required.",
+    "first_7_day_prototype": "A tutorial level and two short adventure stages demonstrating: 1) Using gravity shifts to reach platforms and clear debris, and 2) Using gravity bursts to launch enemies into traps or environmental hazards. No deep enemy AI required.",
+    "business_model_hypothesis": "",
+    "wildness_level": null,
+    "main_assumptions": [],
+    "main_risks": [],
+    "validation_needed_later": [],
+    "hallucination_notes": {
+      "intentionally_speculative_parts": [],
+      "claims_not_yet_validated": []
+    }
+  },
+  {
+    "idea_id": "I003",
+    "source_idea_id": "I003",
+    "domain": "Action Game Mobile",
+    "title": "Kinetic Echo Recall",
+    "target_user": "Experienced competitive mobile gamers seeking novel tactical depth.",
+    "problem_or_desire": "The meta in competitive mobile action games often becomes stale, and players desire fresh strategic options that reward foresight and timing.",
+    "core_concept": "A player-versus-player arena brawler where players can, after a successful execution of a 'Kinetic Echo' (recording a sequence of 3-5 combat actions), replay that entire sequence by releasing a temporal clone. These echoes can flank, distract, or even perform complex attacks.",
+    "proposed_approach": "Design AI for echo replication that precisely mirrors player input at specific timings. Balance the cooldown and resource costs for echo deployment and recovery. Develop intuitive player feedback for clone intent and potential threats.",
+    "prototype_scope": "Two hero characters in a symmetrical arena. One vs. One mode demonstrating basic combat and the core 'Kinetic Echo' mechanic: perform an echo attack, dodge enemy counter-attack, then trigger the echo sequence to flank the opponent. Limited to 3 sample echo ability types.",
+    "idea_name": "Kinetic Echo Recall",
+    "one_sentence_pitch": "A player-versus-player arena brawler where players can, after a successful execution of a 'Kinetic Echo' (recording a sequence of 3-5 combat actions), replay that entire sequence by releasing a temporal clone. These echoes can flank, distract, or even perform complex attacks.",
+    "hidden_pain_or_desire": "The meta in competitive mobile action games often becomes stale, and players desire fresh strategic options that reward foresight and timing.",
+    "creative_leap": "A player-versus-player arena brawler where players can, after a successful execution of a 'Kinetic Echo' (recording a sequence of 3-5 combat actions), replay that entire sequence by releasing a temporal clone. These echoes can flank, distract, or even perform complex attacks.",
+    "non_obvious_connection": "",
+    "proposed_solution": "Design AI for echo replication that precisely mirrors player input at specific timings. Balance the cooldown and resource costs for echo deployment and recovery. Develop intuitive player feedback for clone intent and potential threats.",
+    "core_experience": "A player-versus-player arena brawler where players can, after a successful execution of a 'Kinetic Echo' (recording a sequence of 3-5 combat actions), replay that entire sequence by releasing a temporal clone. These echoes can flank, distract, or even perform complex attacks.",
+    "core_technology": [],
+    "why_it_feels_new": "",
+    "why_now_speculative": "",
+    "mvp_seed": "Two hero characters in a symmetrical arena. One vs. One mode demonstrating basic combat and the core 'Kinetic Echo' mechanic: perform an echo attack, dodge enemy counter-attack, then trigger the echo sequence to flank the opponent. Limited to 3 sample echo ability types.",
+    "first_7_day_prototype": "Two hero characters in a symmetrical arena. One vs. One mode demonstrating basic combat and the core 'Kinetic Echo' mechanic: perform an echo attack, dodge enemy counter-attack, then trigger the echo sequence to flank the opponent. Limited to 3 sample echo ability types.",
+    "business_model_hypothesis": "",
+    "wildness_level": null,
+    "main_assumptions": [],
+    "main_risks": [],
+    "validation_needed_later": [],
+    "hallucination_notes": {
+      "intentionally_speculative_parts": [],
+      "claims_not_yet_validated": []
+    }
+  },
+  {
+    "idea_id": "I004",
+    "source_idea_id": "I004",
+    "domain": "Action Game Mobile",
+    "title": "Ephemeral Artificer: The Sand Kingdom",
+    "target_user": "Mid-core mobile gamers who appreciate procedural generation and emergent storytelling.",
+    "problem_or_desire": "A longing for single-player action adventure games where the game world feels unique and responsive to player actions beyond static encounters, facilitating a sense of authorship.",
+    "core_concept": "A 3D open-world action game set in a constantly evolving desert environment. The core mechanic involves 'Erosive Construction,' where player actions (attacks, movements) dynamically sculpt the terrain, creating temporary cover, trapdoors, or new pathways that 'wind away' over time like sand dunes.",
+    "proposed_approach": "Employ advanced terrain deformation algorithms that run in near real-time. Implement agent AI that can dynamically pathfind and react to the constantly changing landscape. Design elemental spells that interact procedurally with the shifting sands (e.g., temporary petrification, mini-dust storms).",
+    "prototype_scope": "One controllable character exploring a small desert biome segment. Task: reach a specific landmark using terrain manipulation to overcome 3 predefined physical obstacles. Enemies present (a few types), their AI only minimally aware of environmental shifts.",
+    "idea_name": "Ephemeral Artificer: The Sand Kingdom",
+    "one_sentence_pitch": "A 3D open-world action game set in a constantly evolving desert environment. The core mechanic involves 'Erosive Construction,' where player actions (attacks, movements) dynamically sculpt the terrain, creating temporary cover, trapdoors, or new pathways that 'wind away' over time like sand dunes.",
+    "hidden_pain_or_desire": "A longing for single-player action adventure games where the game world feels unique and responsive to player actions beyond static encounters, facilitating a sense of authorship.",
+    "creative_leap": "A 3D open-world action game set in a constantly evolving desert environment. The core mechanic involves 'Erosive Construction,' where player actions (attacks, movements) dynamically sculpt the terrain, creating temporary cover, trapdoors, or new pathways that 'wind away' over time like sand dunes.",
+    "non_obvious_connection": "",
+    "proposed_solution": "Employ advanced terrain deformation algorithms that run in near real-time. Implement agent AI that can dynamically pathfind and react to the constantly changing landscape. Design elemental spells that interact procedurally with the shifting sands (e.g., temporary petrification, mini-dust storms).",
+    "core_experience": "A 3D open-world action game set in a constantly evolving desert environment. The core mechanic involves 'Erosive Construction,' where player actions (attacks, movements) dynamically sculpt the terrain, creating temporary cover, trapdoors, or new pathways that 'wind away' over time like sand dunes.",
+    "core_technology": [],
+    "why_it_feels_new": "",
+    "why_now_speculative": "",
+    "mvp_seed": "One controllable character exploring a small desert biome segment. Task: reach a specific landmark using terrain manipulation to overcome 3 predefined physical obstacles. Enemies present (a few types), their AI only minimally aware of environmental shifts.",
+    "first_7_day_prototype": "One controllable character exploring a small desert biome segment. Task: reach a specific landmark using terrain manipulation to overcome 3 predefined physical obstacles. Enemies present (a few types), their AI only minimally aware of environmental shifts.",
+    "business_model_hypothesis": "",
+    "wildness_level": null,
+    "main_assumptions": [],
+    "main_risks": [],
+    "validation_needed_later": [],
+    "hallucination_notes": {
+      "intentionally_speculative_parts": [],
+      "claims_not_yet_validated": []
+    }
+  },
+  {
+    "idea_id": "I005",
+    "source_idea_id": "I005",
+    "domain": "Action Game Mobile",
+    "title": "Rhythmic Retaliator: Symphony of Carnage",
+    "target_user": "Casual rhythm game players seeking a visceral action experience.",
+    "problem_or_desire": "Boredom with standard 'tap-to-attack' or 'virtual joystick' controls; a desire for mobile combat that rewards precision timing and a sense of flow.",
+    "core_concept": "A swipe-and-tap combat game where every player action (attacks, dodges, special abilities) must be executed in time with dynamic background music. Consecutive timed inputs increase a combo multiplier and trigger enhanced, spectacular animations and attacks tied to musical beats.",
+    "proposed_approach": "Integrate a beat-tracking system linked directly to core attack/defend inputs. Design music tracks with clear rhythmic patterns and tie them procedurally to combat events. Develop responsive animation feedback systems to signal successful timing and combos.",
+    "prototype_scope": "A 'score attack' survival mode against 3 enemy archetypes. Three songs of increasing complexity. The prototype focuses solely on demonstrating rhythmic input registration for melee attacks and basic dodges. Success on a song scores points based on timing accuracy and chain combos. No complex ability systems.",
+    "idea_name": "Rhythmic Retaliator: Symphony of Carnage",
+    "one_sentence_pitch": "A swipe-and-tap combat game where every player action (attacks, dodges, special abilities) must be executed in time with dynamic background music. Consecutive timed inputs increase a combo multiplier and trigger enhanced, spectacular animations and attacks tied to musical beats.",
+    "hidden_pain_or_desire": "Boredom with standard 'tap-to-attack' or 'virtual joystick' controls; a desire for mobile combat that rewards precision timing and a sense of flow.",
+    "creative_leap": "A swipe-and-tap combat game where every player action (attacks, dodges, special abilities) must be executed in time with dynamic background music. Consecutive timed inputs increase a combo multiplier and trigger enhanced, spectacular animations and attacks tied to musical beats.",
+    "non_obvious_connection": "",
+    "proposed_solution": "Integrate a beat-tracking system linked directly to core attack/defend inputs. Design music tracks with clear rhythmic patterns and tie them procedurally to combat events. Develop responsive animation feedback systems to signal successful timing and combos.",
+    "core_experience": "A swipe-and-tap combat game where every player action (attacks, dodges, special abilities) must be executed in time with dynamic background music. Consecutive timed inputs increase a combo multiplier and trigger enhanced, spectacular animations and attacks tied to musical beats.",
+    "core_technology": [],
+    "why_it_feels_new": "",
+    "why_now_speculative": "",
+    "mvp_seed": "A 'score attack' survival mode against 3 enemy archetypes. Three songs of increasing complexity. The prototype focuses solely on demonstrating rhythmic input registration for melee attacks and basic dodges. Success on a song scores points based on timing accuracy and chain combos. No complex ability systems.",
+    "first_7_day_prototype": "A 'score attack' survival mode against 3 enemy archetypes. Three songs of increasing complexity. The prototype focuses solely on demonstrating rhythmic input registration for melee attacks and basic dodges. Success on a song scores points based on timing accuracy and chain combos. No complex ability systems.",
+    "business_model_hypothesis": "",
+    "wildness_level": null,
+    "main_assumptions": [],
+    "main_risks": [],
+    "validation_needed_later": [],
+    "hallucination_notes": {
+      "intentionally_speculative_parts": [],
+      "claims_not_yet_validated": []
+    }
+  }
+]
+
+Rules for every idea:
+
+Step A — Decompose:
+- Identify the original speculative or unsupported elements.
+- Identify the creative core that must remain visible.
+- Identify factual overclaims or mechanisms that should not be retained literally.
+
+Step B — Realistic reframing:
+- Do not replace the input with an unrelated startup idea.
+- Preserve the original creative direction.
+- Remove, narrow, or soften unsupported claims.
+- Scope the MVP so that it can be prototyped in 7–30 days.
+- When a speculative mechanism cannot be preserved literally, preserve a bounded
+  proxy interaction that retains the original user experience or value mechanism.
+- Do not replace a distinctive concept with a generic chatbot, marketplace,
+  recommender, or content generator unless that generic mechanism is genuinely
+  the original creative core.
+
+Step C — Score the reframed candidate:
+Score the reframed version only, not the raw speculative version.
+
+Use a 1–5 scale. Decimal scores are allowed to one decimal place.
+
+1. novelty:
+   Low when the reframed candidate is generic or conventional; high when it
+   retains a distinctive, non-obvious concept.
+
+2. creative_core_strength:
+   Low when there is no clear creative core; high when the input has a strong,
+   distinctive mechanism worth preserving.
+
+3. creative_core_preservation:
+   Low when the reframing loses the original creative core; high when the
+   practical MVP retains the important creative mechanism.
+
+4. reframing_quality:
+   Low when the output remains unrealistic or becomes generic; high when it
+   becomes testable while preserving creative identity.
+
+5. conceptual_coherence:
+   Low when the problem, concept, approach, and MVP conflict or feel fragmented;
+   high when they form a clear and consistent logic.
+
+6. user_pain_plausibility:
+   Low when the user problem or desire is unclear; high when it is concrete,
+   understandable, and plausibly worth addressing.
+
+7. technical_plausibility:
+   Low when the MVP depends on distant or undefined technology; high when a
+   clear implementation path is available within a bounded prototype.
+
+8. mvp_clarity:
+   Low when it is unclear what should be built; high when the MVP has a narrow,
+   concrete, testable scope.
+
+9. business_model_plausibility:
+   Low when the value capture mechanism is unclear; high when there is a
+   credible early monetization or value-exchange hypothesis.
+
+10. hallucination_risk_after_reframing:
+    Low when the reframed MVP has few unsupported, vague, or unverifiable
+    claims; high when major speculative claims remain.
+    This score must be an integer from 1 to 5.
+
+There is no evidence_support metric.
+Missing external evidence is not directly penalized because this is a
+prompt-only creative ideation pipeline. However, unvalidated assumptions must
+be listed under validation_needed_later.
+
+Decision labels:
+- "Potential": overall score >= 70 and hallucination_risk_after_reframing <= 3
+- "Needs refinement": overall score 45–69 or the candidate still needs material narrowing
+- "Too speculative": overall score < 45 or hallucination_risk_after_reframing >= 5
+
+Deterministic overall_score formula, 0–100:
+
+positive_score =
+15% novelty
++ 12% creative_core_strength
++ 13% creative_core_preservation
++ 15% reframing_quality
++ 10% conceptual_coherence
++ 10% user_pain_plausibility
++ 10% technical_plausibility
++ 10% mvp_clarity
++ 5% business_model_plausibility
+
+Then subtract the penalty for hallucination_risk_after_reframing:
+risk 1: subtract 0
+risk 2: subtract 5
+risk 3: subtract 10
+risk 4: subtract 18
+risk 5: subtract 30
+
+Important:
+- Return 1–5 scores for every metric.
+- overall_score and decision inside the LLM JSON are placeholders only.
+- Python will recompute overall_score and decision deterministically.
+- Do not inflate overall_score or decision.
+
+Output requirements:
+- All JSON values and all narrative text must be in English.
+- Keep JSON keys in English.
+- Return valid JSON only.
+- Do not use Markdown.
+- Do not add new independent ideas.
+- Every evaluation must correspond to one input idea.
+
+Required schema:
+
+{
+  "metadata": {
+    "pipeline": "CHVD",
+    "version": "P1_M3_en_v1",
+    "stage": "zero_temperature_creative_distiller_to_realistic_mvp",
+    "language": "en",
+    "evaluation_mode": "prompt_only_internal_logic_creative_distillation",
+    "description": "Separate the creative core from unsupported overclaims and reframe each input into a realistic MVP candidate."
+  },
+  "evaluations": [
+    {
+      "idea_id": "I001",
+      "idea_name": "",
+      "raw_hallucination_summary": "",
+      "creative_core_to_preserve": "",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        ""
+      ],
+      "realistic_reframing": "",
+      "practical_mvp": "",
+      "mvp_7_to_30_day_plan": [
+        ""
+      ],
+      "scores": {
+        "novelty": 1.0,
+        "creative_core_strength": 1.0,
+        "creative_core_preservation": 1.0,
+        "reframing_quality": 1.0,
+        "conceptual_coherence": 1.0,
+        "user_pain_plausibility": 1.0,
+        "technical_plausibility": 1.0,
+        "mvp_clarity": 1.0,
+        "business_model_plausibility": 1.0,
+        "hallucination_risk_after_reframing": 1
+      },
+      "overall_score": 0,
+      "decision": "Potential | Needs refinement | Too speculative",
+      "expert_rationale": "",
+      "strong_points_after_reframing": [
+        ""
+      ],
+      "weak_points_after_reframing": [
+        ""
+      ],
+      "validation_needed_later": [
+        ""
+      ],
+      "final_recommendation": ""
+    }
+  ],
+  "ranked_summary": [
+    {
+      "rank": 1,
+      "idea_id": "I001",
+      "idea_name": "",
+      "overall_score": 0,
+      "decision": "Potential | Needs refinement | Too speculative",
+      "hallucination_risk_after_reframing": 1
+    }
+  ]
+}

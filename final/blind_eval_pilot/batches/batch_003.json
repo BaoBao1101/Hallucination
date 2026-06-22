@@ -1,0 +1,47 @@
+[
+  {
+    "candidate_id": "BLIND_0025",
+    "domain": "Web App For Community Services",
+    "title": "Người Hàng Xóm Tí Hon",
+    "problem_or_desire": "Sự cô lập, cảm giác ngại làm phiền người khác, nhu cầu giúp đỡ nhỏ bé nhưng không có ai để nhờ, mong muốn xây dựng mối quan hệ hàng xóm thân thiện.",
+    "core_concept": "Một ứng dụng web kết nối những người có nhu cầu giúp đỡ nhỏ nhặt hàng ngày với những người hàng xóm sẵn lòng hỗ trợ, dựa trên sự tương tác 'vi mô' và 'tức thời'.",
+    "proposed_approach": "Web app cho phép người dùng đăng tải yêu cầu giúp đỡ rất cụ thể và ngắn hạn (ví dụ: 'Ai đang ở gần có thể giúp tôi mang túi đồ lên tầng 3 không?'). Người dùng khác trong bán kính gần có thể 'nhận việc'. Sau khi hoàn thành, người giúp sẽ nhận được 'điểm tích cực' hoặc 'huy hiệu hàng xóm tốt'. Có thể có tính năng 'báo động khẩn cấp nhỏ' cho các tình huống không nguy hiểm tính mạng nhưng cần hỗ trợ ngay.",
+    "prototype_scope": "Cho phép người dùng đăng yêu cầu giúp đỡ đơn giản (văn bản) và hiển thị trên bản đồ cho những người dùng khác trong bán kính 1km. Có nút 'Tôi giúp được' và ghi nhận số lần giúp đỡ."
+  },
+  {
+    "candidate_id": "BLIND_0059",
+    "domain": "Entertainment Services",
+    "title": "Nhà Hàng Ký Ức Vị Giác",
+    "problem_or_desire": "Nỗi nhớ về những hương vị đã mất, mong muốn được kết nối lại với quá khứ thông qua các giác quan, sự thiếu vắng các trải nghiệm ẩm thực thực sự 'chạm' đến tâm hồn.",
+    "core_concept": "Một trải nghiệm ẩm thực đa giác quan, nơi các món ăn được thiết kế để gợi lại và tái tạo những ký ức cá nhân hoặc tập thể thông qua hương vị, mùi hương, âm thanh và hình ảnh.",
+    "proposed_approach": "Khách hàng cung cấp thông tin về một ký ức cụ thể (ví dụ: bữa ăn thời thơ ấu, chuyến đi đáng nhớ). Dựa trên thông tin này, các đầu bếp và nhà khoa học mùi hương/âm thanh sẽ tạo ra một bữa ăn gồm nhiều món, mỗi món được thiết kế để kích hoạt các khía cạnh khác nhau của ký ức đó thông qua hương vị, mùi, âm thanh nền, và thậm chí là hình ảnh trang trí.",
+    "prototype_scope": "Một 'bữa ăn ký ức' đơn giản cho một vài ký ức phổ biến (ví dụ: 'mùi vị quê nhà', 'hương vị mùa hè')."
+  },
+  {
+    "candidate_id": "BLIND_0030",
+    "domain": "Edtech",
+    "title": "Hệ Thống Phản Hồi Kiến Thức Đa Giác Quan",
+    "problem_or_desire": "Khó khăn trong việc hình dung và cảm nhận các khái niệm trừu tượng (ví dụ: cấu trúc phân tử, sóng âm, dòng chảy năng lượng). Mong muốn học tập trở nên sống động và dễ cảm nhận hơn.",
+    "core_concept": "Một nền tảng học tập sử dụng các thiết bị ngoại vi (haptic feedback, mùi hương, ánh sáng) để tạo ra trải nghiệm học tập đa giác quan, giúp người học hiểu sâu sắc các khái niệm trừu tượng và thực tế.",
+    "proposed_approach": "Khi học về một chủ đề, người học có thể sử dụng các thiết bị đi kèm: găng tay haptic để 'cảm nhận' hình dạng phân tử, một thiết bị phát ra mùi hương đặc trưng của một loài thực vật khi học về sinh học, hoặc một hệ thống đèn thay đổi màu sắc và cường độ để mô phỏng các trạng thái năng lượng. AI sẽ điều phối các tín hiệu này dựa trên nội dung bài học.",
+    "prototype_scope": "Một mô phỏng phân tử nước trên máy tính, nơi người dùng có thể dùng chuột để 'kéo' các nguyên tử lại gần nhau và cảm nhận một lực cản nhẹ (haptic feedback) khi chúng ở gần nhau, kèm theo một âm thanh mô phỏng liên kết hydro."
+  },
+  {
+    "candidate_id": "BLIND_0018",
+    "domain": "Coffee Services",
+    "title": "Cà Phê Kiến Trúc: Ly Cà Phê Như Một Tác Phẩm Điêu Khắc Ăn Được",
+    "problem_or_desire": "Sự nhàm chán với hình thức cà phê truyền thống; mong muốn trải nghiệm cà phê không chỉ ngon mà còn đẹp mắt, mang tính thẩm mỹ cao và độc đáo.",
+    "core_concept": "Dịch vụ cà phê cao cấp biến mỗi ly cà phê thành một tác phẩm nghệ thuật kiến trúc độc đáo, có thể ăn được, được tạo ra bằng công nghệ in 3D thực phẩm và nguyên liệu tự nhiên.",
+    "proposed_approach": "Khách hàng có thể chọn từ một thư viện các thiết kế kiến trúc 3D (ví dụ: tháp Eiffel thu nhỏ, ngôi nhà La Mã cổ đại, các hình khối fractal) hoặc tùy chỉnh thiết kế của riêng họ. Máy in 3D thực phẩm sẽ sử dụng các loại cà phê đặc biệt, kem, sô cô la, hoặc các loại bột ăn được khác để 'in' ra cấu trúc cà phê này. Cấu trúc này có thể được đặt trên ly cà phê hoặc là một phần của món tráng miệng cà phê.",
+    "prototype_scope": "Một dịch vụ đặt hàng thiết kế cà phê 3D thủ công (không dùng máy in 3D) cho các sự kiện đặc biệt, sử dụng khuôn và kỹ thuật trang trí phức tạp."
+  },
+  {
+    "candidate_id": "BLIND_0047",
+    "domain": "Coffee Services",
+    "title": "Adaptive Barista AI (ABAI)",
+    "problem_or_desire": "Cảm giác thiếu vắng sự tương tác ý nghĩa, khoảnh khắc 'quan tâm' cá nhân mà trước đây barista giỏi mang lại; mong muốn nâng cao 'nhân văn' và cảm xúc gắn kết với thiết bị công nghệ hóa như máy pha cà phê.",
+    "core_concept": "Sở hữu một 'khuôn mẫu tính cách' AI tùy chỉnh cho máy pha cà phê thông minh của bạn, được thiết kế để mô phỏng nghệ thuật, thói quen giao tiếp và dịch vụ cá nhân hóa của các barista tuyệt vời nhất thế giới.",
+    "proposed_approach": "Một hệ thống AI module nâng cấp cho máy pha cà phê thông minh có kết nối Wi-Fi. Người dùng tải về, hoặc thậm chí 'huấn luyện', các AI persona được thiết kế theo mẫu 'chân dung barista': trầm tính, vui vẻ, hướng ngoại, người pha có duyên, người tâm tình. AI này sẽ tương tác thông qua giọng nói (với tông giọng/tiếng mẹ đẻ được chọn tùy biến), nhắc nhở về sở thích, kể chuyện tiếu lâm nhỏ, đưa ra gợi ý thức uống dựa trên tâm trạng hoặc thời tiết, và phản ứng khéo léo trước các l…",
+    "prototype_scope": "Một extension trên phần mềm của một máy pha cà phê hiện có. Sẽ có một vài AIpersona dựng sẵn (VD: cheerful barista, calm minimalist). Mỗi ngày nó sẽ gợi ý một ly cà phê và nói 2 câu. VD 'Buổi sáng tốt lành! Hôm nay, có vẻ mọi thứ khá lạ - hôm nay hãy thử mạnh chút chứ?' hoặc 'Buổi sáng anh bạn. Tôi có nghe thấy gì không ổn đúng không, thế ta hãy nhâm nhi ly capuchino này xem có cải thiện chút nào không nha.'"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "candidate_id": "BLIND_0060",
+    "domain": "Coffee Services",
+    "title": "Coffee Synesthesia Journey (CSVCS)",
+    "problem_or_desire": "Mong muốn bứt phá giới hạn nhận thức thông thường, khám phá tiềm năng nội tâm, hoặc tìm kiếm những trải nghiệm nghệ thuật đa giác quan mà hiện tại chưa được phục vụ.",
+    "core_concept": "Trải nghiệm đa giác quan độc đáo kết hợp cà phê với nghệ thuật thị giác và âm thanh, cá nhân hóa dựa trên phản ứng của người dùng.",
+    "proposed_approach": "Một không gian trải nghiệm cà phê tương tác, nơi hương vị cà phê đặc sản được kết hợp với ánh sáng và âm thanh được điều chỉnh theo tâm trạng chung của người uống (ví dụ: dựa trên nhịp tim hoặc phản hồi đơn giản). Thay vì ảo giác, tập trung vào việc tạo ra bầu không khí thư giãn, kích thích sáng tạo hoặc tập trung thông qua sự đồng bộ hóa tinh tế giữa cà phê và môi trường xung quanh.",
+    "prototype_scope": "Một khu vực trải nghiệm nhỏ trong quán cà phê, nơi khách hàng chọn một loại cà phê đặc sản. Dựa trên nhịp tim đo bằng thiết bị đeo đơn giản (như smartwatch), hệ thống sẽ điều chỉnh ánh sáng và âm nhạc nền trong khu vực đó để tạo ra bầu không khí phù hợp (ví dụ: nhịp tim chậm -> ánh sáng dịu, nhạc chậm; nhịp tim nhanh -> ánh sáng rực rỡ hơn, nhạc sôi động hơn)."
+  },
+  {
+    "candidate_id": "BLIND_0009",
+    "domain": "Entertainment Services",
+    "title": "Chân Linh Thế Kỷ",
+    "problem_or_desire": "Nỗi sợ lịch sử trở nên khô khan, nhàm chán; khát vọng thấu hiểu sâu sắc tư tưởng, con người đằng sau những sự kiện lịch sử; mong muốn kết nối phi vật chất với người thân yêu đã mất.",
+    "core_concept": "Ý tưởng về việc sử dụng AI để tạo ra các 'hiện thân số' của nhân vật lịch sử hoặc người thân đã khuất, cho phép người dùng tương tác để tìm hiểu, kết nối hoặc tưởng nhớ. Khai thác nhu cầu hiểu biết sâu sắc về quá khứ và mong muốn kết nối với những người đã mất.",
+    "proposed_approach": "Một nền tảng cung cấp các 'bản mô phỏng tương tác' của các nhân vật lịch sử dựa trên tài liệu công khai. Người dùng có thể đặt câu hỏi về cuộc đời, sự nghiệp, quan điểm của nhân vật đó. AI sẽ trả lời dựa trên kho dữ liệu đã được huấn luyện, cố gắng mô phỏng văn phong và kiến thức của nhân vật. Phiên bản MVP sẽ tập trung vào một vài nhân vật lịch sử nổi tiếng với lượng tài liệu dồi dào, cung cấp trải nghiệm hỏi đáp dạng chatbot có 'nhân cách hóa' nhẹ.",
+    "prototype_scope": "Một chatbot trên nền tảng web hoặc ứng dụng nhắn tin (như Zalo, Messenger) mô phỏng một nhân vật lịch sử Việt Nam nổi tiếng (ví dụ: Chủ tịch Hồ Chí Minh, Đại thi hào Nguyễn Du). Người dùng có thể đặt câu hỏi về cuộc đời, tác phẩm, quan điểm của nhân vật đó. AI sẽ trả lời dựa trên thông tin đã được biên soạn kỹ lưỡng từ các nguồn uy tín, cố gắng mô phỏng văn phong và giọng điệu phù hợp. Không có avatar 3D hay VR."
+  },
+  {
+    "candidate_id": "BLIND_0042",
+    "domain": "Entertainment Services",
+    "title": "Festival Tâm Thức Đám Đông",
+    "problem_or_desire": "Cảm giác đơn độc dù ở giữa đám đông ảo, thiếu khả năng thực sự tác động đến môi trường xung quanh trong game, mong muốn tham gia vào một thứ gì đó lớn lao và có tính kiến tạo chung.",
+    "core_concept": "Một trải nghiệm live entertainment metaverse thực tế ảo nơi hàng triệu người dùng cùng nhau định hình một vũ trụ cảnh quan ảo bằng cách hiến tặng những rung động, suy nghĩ và hình dung của mình trong thời gian thực.",
+    "proposed_approach": "Trong một không gian VR lớn, mỗi người dùng đóng góp dữ liệu (ví dụ: 'dùng' một tương tác cho điểm A để vẽ những dòng sáng mỏng, 'ý nghĩ về hòa bình' của họ sẽ hiện thân thành những đóa hoa ảo sẽ mọc lên trên bãi đất trống ảo, âm nhạc người dùng thấy hay sẽ khuếch tán xung quanh avatar). Càng nhiều người cùng có suy nghĩ/rung động chung, cảnh quan ảo càng trở nên sống động, chi tiết và \"nguy nga\" theo chủ đề của sự kiện festival đó.",
+    "prototype_scope": "Tạo một scene VR với các yếu tố đồ họa phản hồi chậm khi một nhóm nhỏ người dùng (10-20) dùng emoji/commandtext đơn giản về 'màu sắc yêu thích', 'âm thanh thanh bình' trên màn hình."
+  },
+  {
+    "candidate_id": "BLIND_0028",
+    "domain": "Entertainment Services",
+    "title": "Nhà Sản Xuất Mơ Mộng",
+    "problem_or_desire": "Mất ngủ ý tưởng do không đủ kỹ năng/nguồn lực làm phim; nỗi đau khi ý tưởng hay chỉ nằm trong đầu, không biến thành hình ảnh chân thực; mong muốn sáng tạo một cách nhanh chóng, dễ dàng và có thể chia sẻ rộng rãi.",
+    "core_concept": "Một ứng dụng sáng tạo độc đáo cho phép người dùng viết một vài câu thoại (dựa trên bối cảnh gợi ý), sau đó hệ thống AI sẽ tự động tạo ra một phim ngắn hoàn chỉnh (phim ngắn hành động, tình cảm, kinh dị...).",
+    "proposed_approach": "Giao diện đơn giản nơi người dùng điền vào một form có cấu trúc để tạo prompt (VD: địa điểm, 2 nhân vật chính, 1 mâu thuẫn, một chi tiết bất ngờ). Sau khi nhận prompt, AI tổng hợp nhiều mô hình nhỏ: mô hình tạo bối cảnh, mô hình tạo nhân vật & hành động, mô hình dựng theo ngữ cảnh, và có thể thêm nhạc nền. Kết quả: một phim ngắn độ dài 1-5 phút với logic tuyến tính cơ bản, đảm bảo yếu tố visual đẹp và narrative nhất quán.",
+    "prototype_scope": "Tạo 1 bộ 10 mẫu prompt dựng phim, cho phép sinh ra các hoạt ảnh ngắn (cinemagraphs lặp đi lặp lại) tập trung vào 'mood' thay vì narrative mạch lạc hoàn chỉnh."
+  },
+  {
+    "candidate_id": "BLIND_0048",
+    "domain": "Edtech",
+    "title": "Phản Tỉnh Nghịch Cảnh",
+    "problem_or_desire": "Nỗi sợ đưa ra quyết định sai lầm về sự nghiệp, mong muốn thử nghiệm các phương án mà không phải chịu hậu quả trong thực tế, cần thấy rõ những hệ quả lâu dài của một quyết định 'hơi hướng tà'",
+    "core_concept": "Nền tảng giáo dục sử dụng AI phân tích sâu các dữ liệu cá nhân (tự khai báo ban đầu - profile, các hoạt động 'hậu khai báo') để tạo ra 'hoàn cảnh' độc đáo, các phản ứng lại những hoán vị sai của lịch sử sự nghiệp và kiến thức cá nhân, để thúc đẩy nhận thức.",
+    "proposed_approach": "AI tạo ra một hệ thống \"thực tế ảo song song\" dựa trên khai báo mục tiêu sự nghiệp và quan hệ trong thế giới phẳng theo kiểu thế kỷ 21 của bạn. Bạn có thể đưa ra nhiều giả thuyết về thay đổi sự nghiệp, ngành nghề kinh doanh theo 'quy trình sai khác' rồi thấy chúng phân kỳ thế nào cho con đường. Từ đó cho người học thấy toàn cảnh ‘phá vỡ ‘tinh hoa’, làm ‘ý nghĩa’ cho ‘sống' qua nó với chính bạn theo như mong muốn từ đầu có khả thi tới mức nào và như đã làm 'tiến hóa mọi thời'…",
+    "prototype_scope": "Trình mô phỏng đơn giản 1 biến cố lớn (sa thải / sáp nhập) và xem liệu người dùng phản ứng với \"20 thứ tệ khác sẽ diễn ra như thế nào. Như thường lệ nếu họ sẽ đi cùng hướng đấy là một hệ quả được tạo nên từ trí tuệ nhỏ đang tham dự."
+  }
+]

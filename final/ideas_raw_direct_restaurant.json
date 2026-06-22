@@ -1,0 +1,248 @@
+{
+  "metadata": {
+    "pipeline": "CHVD",
+    "version": "v5.3",
+    "domain": "Restaurant Services",
+    "language": "vi",
+    "mode": "prompt_only_no_corpus_no_weak_signals",
+    "temperature_role": "maximal_divergent_creativity",
+    "stage": "high_temperature_creative_hallucination_generator",
+    "saved_at": "2026-06-22T08:44:05",
+    "generator_model": "gemini-2.5-flash-lite",
+    "generator_temperature": 0.0,
+    "generator_top_p": 0.1,
+    "user_prompt": ""
+  },
+  "ideas": [
+    {
+      "idea_id": "I001",
+      "idea_name": "Nhà Hàng Ký Ức Vị Giác",
+      "domain": "Restaurant Services",
+      "one_sentence_pitch": "Một nhà hàng tái hiện các món ăn gắn liền với ký ức cá nhân của khách hàng thông qua công nghệ AI và trải nghiệm nhập vai.",
+      "target_user": "Những người trưởng thành tìm kiếm trải nghiệm ẩm thực độc đáo, hoài niệm, hoặc muốn chia sẻ câu chuyện cá nhân qua món ăn.",
+      "hidden_pain_or_desire": "Nỗi nhớ về những món ăn 'cũ' không còn tìm thấy, mong muốn kết nối sâu sắc hơn với quá khứ và chia sẻ câu chuyện cá nhân một cách ý nghĩa.",
+      "creative_leap": "Biến ký ức cá nhân thành món ăn thực tế, tạo ra một không gian ẩm thực mang tính trị liệu và kể chuyện.",
+      "non_obvious_connection": "Ẩm thực + Trị liệu tâm lý + Công nghệ AI (nhận dạng giọng nói, phân tích cảm xúc) + Kể chuyện cá nhân.",
+      "proposed_solution": "Khách hàng chia sẻ câu chuyện và mô tả món ăn yêu thích từ quá khứ (ví dụ: món bà nấu, món ăn thời sinh viên) qua một ứng dụng. AI phân tích, gợi ý công thức và đầu bếp sẽ tái tạo món ăn đó. Không gian nhà hàng được thiết kế để gợi nhớ các giai đoạn ký ức khác nhau.",
+      "core_experience": "Ăn một món ăn không chỉ để no mà còn để sống lại một khoảnh khắc, một cảm xúc, một câu chuyện đã qua.",
+      "core_technology": [
+        "AI phân tích mô tả món ăn và cảm xúc",
+        "Công nghệ nhận dạng giọng nói",
+        "Hệ thống quản lý đơn hàng cá nhân hóa"
+      ],
+      "why_it_feels_new": "Chuyển đổi hoàn toàn trọng tâm từ 'món ăn ngon' sang 'món ăn có ý nghĩa cá nhân sâu sắc', kết hợp ẩm thực với trị liệu ký ức.",
+      "why_now_speculative": "Sự gia tăng của văn hóa chia sẻ cá nhân, nhu cầu tìm kiếm trải nghiệm độc đáo và sự phát triển của AI có thể hỗ trợ phân tích và cá nhân hóa.",
+      "mvp_seed": "Tập trung vào một loại ký ức cụ thể (ví dụ: món ăn tuổi thơ) và một vài món ăn mẫu có thể tái tạo. Khách hàng đặt lịch hẹn để chia sẻ câu chuyện và nhận món ăn.",
+      "first_7_day_prototype": "Tạo một landing page đơn giản để thu thập câu chuyện và mô tả món ăn. Tổ chức 1-2 buổi 'trải nghiệm ký ức' nhỏ tại một không gian thuê ngoài, nơi đầu bếp cố gắng tái tạo món ăn dựa trên mô tả trực tiếp.",
+      "business_model_hypothesis": "Phí trải nghiệm theo gói (bao gồm tư vấn, tái tạo món ăn, không gian), bán các sản phẩm liên quan đến ký ức (sổ tay, bộ sưu tập gia vị).",
+      "wildness_level": 5,
+      "main_assumptions": [
+        {
+          "claim": "Người dùng sẵn sàng chia sẻ ký ức cá nhân và trả tiền cho trải nghiệm ẩm thực mang tính cá nhân hóa cao.",
+          "type": "user_need"
+        },
+        {
+          "claim": "AI có thể hỗ trợ đáng kể trong việc phân tích mô tả món ăn và gợi ý công thức từ những mô tả không đầy đủ.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Có một thị trường ngách đủ lớn cho trải nghiệm ẩm thực mang tính trị liệu và hoài niệm.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Khó khăn trong việc tái tạo chính xác món ăn từ mô tả chủ quan.",
+        "Vấn đề bảo mật và riêng tư khi thu thập ký ức cá nhân.",
+        "Chi phí vận hành cao cho việc cá nhân hóa sâu."
+      ],
+      "validation_needed_later": [
+        "Khảo sát mức độ sẵn sàng chia sẻ ký ức và chi trả.",
+        "Thử nghiệm khả năng tái tạo món ăn với nhóm nhỏ.",
+        "Đánh giá hiệu quả của trải nghiệm đối với người dùng."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Khả năng AI phân tích và tái tạo món ăn chính xác từ mô tả cảm tính của con người.",
+          "Mức độ sâu sắc của 'trị liệu ký ức' thông qua ẩm thực."
+        ],
+        "claims_not_yet_validated": [
+          "Sự tồn tại của một thị trường đủ lớn cho 'nhà hàng ký ức'."
+        ]
+      }
+    },
+    {
+      "idea_id": "I002",
+      "idea_name": "Bếp Trưởng Tạm Thời: Ẩm Thực Theo Tâm Trạng",
+      "domain": "Restaurant Services",
+      "one_sentence_pitch": "Dịch vụ cung cấp đầu bếp cá nhân 'tạm thời' đến tận nhà, chuyên chế biến món ăn dựa trên tâm trạng và yêu cầu tức thời của khách hàng.",
+      "target_user": "Những người bận rộn, yêu thích ẩm thực chất lượng cao tại nhà nhưng không có thời gian hoặc kỹ năng nấu nướng, hoặc muốn có trải nghiệm ăn uống 'như nhà hàng' ngay tại nhà.",
+      "hidden_pain_or_desire": "Mong muốn được ăn ngon, được chăm sóc, được thưởng thức món ăn 'đúng ý' vào đúng thời điểm mà không cần phải tự tay làm hoặc ra ngoài.",
+      "creative_leap": "Biến dịch vụ đầu bếp riêng thành một mô hình 'on-demand' linh hoạt, tập trung vào sự thay đổi tâm trạng và yêu cầu tức thời.",
+      "non_obvious_connection": "Dịch vụ đầu bếp riêng + Mô hình 'gig economy' + Tâm lý học hành vi tiêu dùng + Ứng dụng đặt lịch linh hoạt.",
+      "proposed_solution": "Khách hàng đặt lịch qua ứng dụng, mô tả tâm trạng (ví dụ: 'thèm đồ cay ấm bụng', 'muốn ăn gì đó nhẹ nhàng, thanh đạm', 'cần một bữa ăn thịnh soạn để đãi khách đột xuất'). Ứng dụng ghép nối với đầu bếp có kỹ năng phù hợp và sẵn sàng. Đầu bếp đến nhà, mua nguyên liệu (hoặc khách chuẩn bị), và nấu ăn tại chỗ.",
+      "core_experience": "Trải nghiệm ẩm thực cá nhân hóa, tiện lợi và 'đúng gu' ngay tại không gian riêng tư của mình, được phục vụ bởi một đầu bếp chuyên nghiệp.",
+      "core_technology": [
+        "Thuật toán ghép nối đầu bếp và khách hàng thông minh",
+        "Hệ thống đánh giá và phản hồi đa chiều",
+        "Ứng dụng di động cho đặt lịch và giao tiếp"
+      ],
+      "why_it_feels_new": "Thay vì đặt món ăn làm sẵn, khách hàng 'đặt' trải nghiệm nấu nướng và phục vụ tại nhà theo yêu cầu tâm trạng, mang tính tương tác cao hơn.",
+      "why_now_speculative": "Xu hướng 'staycation', nhu cầu cá nhân hóa dịch vụ ngày càng cao, sự phát triển của các nền tảng gig economy.",
+      "mvp_seed": "Tập trung vào một khu vực địa lý nhỏ, tuyển chọn một nhóm đầu bếp có kỹ năng đa dạng. Cho phép đặt lịch trước ít nhất 24 giờ với các tùy chọn tâm trạng/món ăn cơ bản.",
+      "first_7_day_prototype": "Tạo một nhóm Zalo/Facebook kín, mời các đầu bếp tự do và những người quan tâm. Cho phép đặt lịch qua tin nhắn, đầu bếp tự thỏa thuận giá và thời gian. Tập trung vào việc thu thập phản hồi về quy trình và trải nghiệm.",
+      "business_model_hypothesis": "Phí dịch vụ theo giờ hoặc theo bữa ăn, cộng với phí nguyên liệu (nếu đầu bếp mua). Có thể có gói đăng ký theo tháng cho khách hàng thân thiết.",
+      "wildness_level": 4,
+      "main_assumptions": [
+        {
+          "claim": "Người dùng sẵn sàng chi trả một khoản phí đáng kể để có đầu bếp nấu ăn tại nhà theo yêu cầu tâm trạng.",
+          "type": "user_need"
+        },
+        {
+          "claim": "Có đủ đầu bếp tự do chất lượng cao, linh hoạt và có kỹ năng giao tiếp tốt để tham gia nền tảng.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Mô hình 'gig' cho đầu bếp có thể hoạt động hiệu quả và bền vững.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Đảm bảo chất lượng và sự nhất quán của dịch vụ từ các đầu bếp khác nhau.",
+        "Vấn đề về tin cậy, an ninh và bảo hiểm khi đầu bếp vào nhà khách hàng.",
+        "Cạnh tranh từ các dịch vụ giao đồ ăn cao cấp hoặc dịch vụ giúp việc gia đình."
+      ],
+      "validation_needed_later": [
+        "Khảo sát mức độ sẵn sàng chi trả và tần suất sử dụng.",
+        "Thử nghiệm quy trình ghép nối đầu bếp và khách hàng.",
+        "Đánh giá sự hài lòng của cả khách hàng và đầu bếp."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Khả năng 'đo lường' và đáp ứng chính xác 'tâm trạng' của khách hàng qua mô tả món ăn.",
+          "Tính bền vững của mô hình 'gig' cho đầu bếp trong dài hạn."
+        ],
+        "claims_not_yet_validated": [
+          "Mức độ chấp nhận của thị trường đối với việc cho người lạ vào nhà nấu ăn thường xuyên."
+        ]
+      }
+    },
+    {
+      "idea_id": "I003",
+      "idea_name": "Học Viện Ẩm Thực Tương Lai: Nấu Ăn Với Robot Đồng Hành",
+      "domain": "Restaurant Services",
+      "one_sentence_pitch": "Một học viện nấu ăn kết hợp giữa con người và robot, nơi người học được hướng dẫn bởi robot đầu bếp thông minh và thực hành trên các thiết bị nấu ăn tự động.",
+      "target_user": "Những người yêu thích công nghệ, muốn học nấu ăn một cách bài bản, hiệu quả và thú vị, hoặc các nhà hàng muốn đào tạo nhân viên mới nhanh chóng.",
+      "hidden_pain_or_desire": "Sự nhàm chán trong các lớp học nấu ăn truyền thống, nỗi sợ mắc lỗi khi nấu ăn, mong muốn tiếp cận công nghệ mới trong lĩnh vực ẩm thực.",
+      "creative_leap": "Tích hợp robot và AI vào trải nghiệm học nấu ăn, biến nó thành một 'trò chơi' giáo dục tương tác.",
+      "non_obvious_connection": "Ẩm thực + Robot học + Trí tuệ nhân tạo + Giáo dục trải nghiệm + Thiết kế game (gamification).",
+      "proposed_solution": "Học viện trang bị các trạm nấu ăn cá nhân với robot hỗ trợ (cắt, trộn, đo lường chính xác) và màn hình tương tác hiển thị hướng dẫn từng bước từ robot 'giáo viên'. Robot có thể điều chỉnh độ khó, đưa ra phản hồi tức thì và chấm điểm quá trình thực hành.",
+      "core_experience": "Học nấu ăn trở nên dễ dàng, chính xác, thú vị và mang tính tương tác cao như chơi một trò chơi điện tử.",
+      "core_technology": [
+        "Robot cộng tác (cobots) trong bếp",
+        "AI nhận dạng hình ảnh và phân tích hành động",
+        "Hệ thống quản lý học tập (LMS) tích hợp",
+        "Cảm biến đo lường và điều khiển nhiệt độ/thời gian"
+      ],
+      "why_it_feels_new": "Đưa robot vào vai trò 'giáo viên' và 'trợ lý' trực tiếp trong quá trình học nấu ăn, thay vì chỉ là công cụ tự động hóa.",
+      "why_now_speculative": "Sự phát triển nhanh chóng của robot cộng tác và AI, nhu cầu về các phương pháp giáo dục mới lạ và hiệu quả.",
+      "mvp_seed": "Thiết lập một trạm nấu ăn demo với một robot đơn giản (ví dụ: cánh tay robot hỗ trợ cắt thái) và một màn hình hướng dẫn. Tập trung vào một vài khóa học cơ bản (ví dụ: làm bánh quy, món Âu đơn giản).",
+      "first_7_day_prototype": "Tổ chức một buổi workshop 'trải nghiệm' ngắn hạn tại một không gian hợp tác. Sử dụng các thiết bị bếp có sẵn và một phần mềm mô phỏng robot để trình diễn quy trình hướng dẫn tương tác.",
+      "business_model_hypothesis": "Phí học theo khóa, phí thành viên hàng tháng cho quyền truy cập không giới hạn, bán các gói 'bộ nguyên liệu thông minh' đi kèm khóa học.",
+      "wildness_level": 4,
+      "main_assumptions": [
+        {
+          "claim": "Người dùng (cá nhân và doanh nghiệp) quan tâm đến việc học nấu ăn theo phương pháp mới lạ, công nghệ cao.",
+          "type": "user_need"
+        },
+        {
+          "claim": "Robot và AI có thể được lập trình để hướng dẫn nấu ăn một cách hiệu quả và an toàn.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Mô hình học viện kết hợp công nghệ có thể thu hút học viên và tạo ra lợi nhuận.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Chi phí đầu tư ban đầu cho robot và công nghệ cao.",
+        "Khả năng robot thực hiện các thao tác phức tạp và tinh tế của nấu ăn.",
+        "Sự chấp nhận của người dùng đối với việc học từ robot thay vì con người."
+      ],
+      "validation_needed_later": [
+        "Khảo sát mức độ quan tâm và sẵn sàng chi trả cho các khóa học.",
+        "Thử nghiệm khả năng của robot trong việc hỗ trợ các kỹ năng nấu ăn cụ thể.",
+        "Đánh giá hiệu quả học tập so với phương pháp truyền thống."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Khả năng robot 'giáo viên' có thể truyền đạt 'cảm nhận' và 'kinh nghiệm' nấu ăn mà không chỉ dựa trên công thức cứng nhắc.",
+          "Mức độ 'gamification' có thể đạt được để giữ chân người học."
+        ],
+        "claims_not_yet_validated": [
+          "Sự tồn tại của một thị trường đủ lớn cho 'học viện nấu ăn robot'."
+        ]
+      }
+    },
+    {
+      "idea_id": "I004",
+      "idea_name": "Nền Tảng 'Hương Vị Cộng Đồng': Chia Sẻ Công Thức & Đặt Hàng Từ Bếp Gia Đình",
+      "domain": "Restaurant Services",
+      "one_sentence_pitch": "Một nền tảng kết nối những người yêu thích nấu ăn tại nhà để chia sẻ công thức độc đáo và cho phép người dùng đặt món ăn 'chuẩn vị nhà làm' trực tiếp từ các đầu bếp gia đình.",
+      "target_user": "Những người muốn khám phá ẩm thực địa phương/gia đình đích thực, những người nội trợ/đầu bếp gia đình muốn kiếm thêm thu nhập từ tài năng nấu nướng của mình.",
+      "hidden_pain_or_desire": "Khó tìm được món ăn 'ngon như nhà làm' ngoài hàng, mong muốn ủng hộ các đầu bếp gia đình tài năng, mong muốn kiếm tiền từ việc nấu ăn yêu thích.",
+      "creative_leap": "Xây dựng một 'chợ ẩm thực' phi tập trung, nơi các công thức và món ăn gia đình được chia sẻ và giao dịch.",
+      "non_obvious_connection": "Mạng xã hội (chia sẻ công thức) + Nền tảng thương mại điện tử (đặt hàng) + Kinh tế chia sẻ (đầu bếp gia đình) + Ẩm thực địa phương/truyền thống.",
+      "proposed_solution": "Người dùng đăng tải công thức nấu ăn của gia đình mình (có thể kèm video). Người dùng khác có thể xem, lưu công thức, hoặc đặt món ăn được nấu bởi chính người chia sẻ công thức đó (nếu họ đăng ký làm 'đầu bếp cộng đồng'). Nền tảng xử lý thanh toán, logistics (giao hàng hoặc nhận tại chỗ).",
+      "core_experience": "Khám phá và thưởng thức những món ăn gia đình chân thực, độc đáo, được nấu bởi những người có đam mê, đồng thời có thể học hỏi và chia sẻ bí quyết nấu nướng.",
+      "core_technology": [
+        "Hệ thống quản lý nội dung (công thức, hình ảnh, video)",
+        "Nền tảng giao dịch và thanh toán",
+        "Hệ thống đánh giá và xếp hạng đầu bếp/công thức",
+        "Tích hợp dịch vụ giao hàng"
+      ],
+      "why_it_feels_new": "Kết hợp việc chia sẻ công thức (thường chỉ mang tính thông tin) với việc đặt hàng món ăn thực tế từ chính người chia sẻ, tạo ra một hệ sinh thái ẩm thực cộng đồng khép kín.",
+      "why_now_speculative": "Sự bùng nổ của nội dung ẩm thực trên mạng xã hội, nhu cầu về thực phẩm 'sạch', 'tự nhiên', 'nhà làm' ngày càng tăng, xu hướng ủng hộ các doanh nghiệp nhỏ và cá nhân.",
+      "mvp_seed": "Tập trung vào một khu vực địa lý nhỏ, tuyển chọn một nhóm nhỏ các đầu bếp gia đình có công thức đặc sắc. Cho phép người dùng xem công thức và đặt hàng trực tiếp từ các đầu bếp đã được xác minh.",
+      "first_7_day_prototype": "Tạo một nhóm Facebook/Zalo, mời các đầu bếp gia đình và những người yêu ẩm thực. Khuyến khích chia sẻ công thức và cho phép đặt hàng qua tin nhắn. Tập trung vào việc xây dựng cộng đồng ban đầu và thu thập phản hồi.",
+      "business_model_hypothesis": "Hoa hồng trên mỗi đơn hàng thành công, phí đăng ký cho đầu bếp để có các tính năng nâng cao (ví dụ: quảng bá công thức), bán các bộ nguyên liệu 'chuẩn công thức'.",
+      "wildness_level": 3,
+      "main_assumptions": [
+        {
+          "claim": "Nhiều người có công thức nấu ăn gia đình độc đáo và sẵn sàng chia sẻ/bán chúng.",
+          "type": "user_need"
+        },
+        {
+          "claim": "Người tiêu dùng tìm kiếm và sẵn sàng chi trả cho các món ăn 'nhà làm' đích thực.",
+          "type": "user_need"
+        },
+        {
+          "claim": "Nền tảng có thể quản lý chất lượng và độ tin cậy của các đầu bếp gia đình.",
+          "type": "technical_plausibility"
+        },
+        {
+          "claim": "Mô hình kinh tế chia sẻ trong lĩnh vực ẩm thực gia đình có tiềm năng phát triển.",
+          "type": "business_potential"
+        }
+      ],
+      "main_risks": [
+        "Đảm bảo vệ sinh an toàn thực phẩm và chất lượng món ăn từ các bếp gia đình.",
+        "Vấn đề pháp lý liên quan đến kinh doanh thực phẩm tại nhà.",
+        "Cạnh tranh từ các nền tảng giao đồ ăn hiện có và các nhóm chia sẻ công thức miễn phí."
+      ],
+      "validation_needed_later": [
+        "Khảo sát mức độ quan tâm của cả người chia sẻ công thức và người mua hàng.",
+        "Thử nghiệm quy trình xác minh đầu bếp và đảm bảo chất lượng.",
+        "Đánh giá hiệu quả của mô hình kinh doanh và logistics."
+      ],
+      "hallucination_notes": {
+        "intentionally_speculative_parts": [
+          "Khả năng xây dựng một cộng đồng đủ lớn và gắn kết để nền tảng hoạt động hiệu quả.",
+          "Mức độ sẵn sàng của người dùng trong việc 'thương mại hóa' các công thức gia đình."
+        ],
+        "claims_not_yet_validated": [
+          "Khả năng quản lý rủi ro về an toàn thực phẩm và pháp lý cho hàng ngàn bếp gia đình."
+        ]
+      }
+    }
+  ]
+}

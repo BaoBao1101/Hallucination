@@ -1,0 +1,292 @@
+{
+  "metadata": {
+    "pipeline": "CHVD",
+    "version": "v5.4",
+    "stage": "zero_temperature_hallucination_distiller_to_realistic_mvp",
+    "language": "vi",
+    "evaluation_mode": "prompt_only_internal_logic_hallucination_distillation",
+    "description": "Tách creative core khỏi hallucinated overclaim, hiện thực hóa thành MVP khả thi hơn, không dùng corpus/evidence scoring.",
+    "normalized_at": "2026-06-21T22:17:05",
+    "filter_model": "gemini-2.5-flash-lite",
+    "filter_temperature": 0.0,
+    "filter_top_p": 0.1,
+    "input_file": "outputs_v5_3\\ideas_raw_vi.json",
+    "source_generator_metadata": {
+      "pipeline": "CHVD",
+      "version": "v5.3",
+      "domain": "Web App Services",
+      "language": "vi",
+      "mode": "prompt_only_no_corpus_no_weak_signals",
+      "temperature_role": "maximal_divergent_creativity",
+      "stage": "high_temperature_creative_hallucination_generator",
+      "saved_at": "2026-06-21T22:13:28",
+      "generator_model": "gemini-2.5-flash-lite",
+      "generator_temperature": 2.0,
+      "generator_top_p": 0.99,
+      "user_prompt": ""
+    },
+    "raw_filter_text": "{\n  \"metadata\": {\n    \"pipeline\": \"CHVD\",\n    \"version\": \"v5.4\",\n    \"stage\": \"zero_temperature_hallucination_distiller_to_realistic_mvp\",\n    \"language\": \"vi\",\n    \"evaluation_mode\": \"prompt_only_internal_logic_hallucination_distillation\",\n    \"description\": \"Tách creative core khỏi hallucinated overclaim, hiện thực hóa thành MVP khả thi hơn, không dùng corpus/evidence scoring.\"\n  },\n  \"evaluations\": [\n    {\n      \"idea_id\": \"I001\",\n      \"idea_name\": \"Mộng Kệ Tâm Đã\",\n      \"raw_hallucination_summary\": \"Ý tưởng gốc có tham vọng biến giấc mơ thành một không gian tương tác có thể thay đổi kết cục, dựa trên AI tạo sinh hình ảnh và tiềm năng kết nối với neuroscience. Tuy nhiên, nó phóng đại khả năng 'trải nghiệm lại' hay 'thay đổi kết cục giấc mơ' bằng hình ảnh mô phỏng có ý nghĩa sâu sắc vượt trội, cũng như khả năng cá nhân hóa trải nghiệm đến mức phản ánh các học thuyết phân tâm hoặc khoa học thần kinh còn tranh cãi. Việc đơn giản hóa và cấu trúc hóa trải nghiệm giấc mơ bằng công nghệ có thể làm sai lệch ý nghĩa tự nhiên của giấc mơ. Ngoài ra, giả định người dùng sẵn sàng nhập liệu chi tiết, thường xuyên và bảo mật về giấc mơ còn chưa được kiểm chứng.\",\n      \"creative_core_to_preserve\": \"Khám phá tiềm thức và thế giới nội tâm thông qua công nghệ tương tác, biến giấc mơ thành một dạng trải nghiệm số hóa có thể phân tích và gợi mở nhận thức mới.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Khả năng 'trải nghiệm lại' hoặc 'thay đổi kết cục giấc mơ' một cách có ý nghĩa sâu sắc thông qua mô phỏng hình ảnh.\",\n        \"Việc cá nhân hóa trải nghiệm đến mức phản ánh các học thuyết phân tâm hoặc khoa học thần kinh còn tranh cãi.\",\n        \"Khẳng định công nghệ có thể đơn giản hóa và cấu trúc hóa trải nghiệm giấc mơ mà không làm sai lệch ý nghĩa tự nhiên.\",\n        \"Giả định người dùng sẵn sàng nhập liệu chi tiết, thường xuyên và bảo mật về giấc mơ mà không cần kiểm chứng.\"\n      ],\n      \"realistic_reframing\": \"Một ứng dụng web giúp người dùng ghi lại và phân tích mô tả giấc mơ của họ. Dựa trên các yếu tố chính và cảm xúc được trích xuất bằng NLP, AI sẽ tạo ra một chuỗi hình ảnh tĩnh hoặc mô tả ngắn gọn, gợi ý các 'khía cạnh thay đổi' tiềm năng hoặc các biểu tượng có thể suy ngẫm. Người dùng có thể tương tác bằng cách chọn một yếu tố để xem một biến thể hình ảnh/mô tả khác, nhằm mục đích tự khám phá và suy ngẫm về tiềm thức, chứ không phải để 'thay đổi' giấc mơ.\",\n      \"practical_mvp\": \"Một ứng dụng web cho phép người dùng nhập mô tả giấc mơ dưới dạng văn bản. Hệ thống NLP sẽ phân tích và trích xuất các thực thể chính (nhân vật, địa điểm, đồ vật) và cảm xúc chủ đạo. Dựa trên đó, AI sẽ tạo ra 3-5 hình ảnh tĩnh minh họa cho các yếu tố nổi bật nhất của giấc mơ. Người dùng có thể nhấp vào một hình ảnh để xem một biến thể nhẹ nhàng hơn (ví dụ: thay đổi màu sắc, thêm/bớt một chi tiết nhỏ) và đọc một gợi ý suy ngẫm ngắn gọn liên quan đến biểu tượng đó.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Xây dựng giao diện người dùng để nhập văn bản mô tả giấc mơ.\",\n        \"Tích hợp mô hình NLP cơ bản để trích xuất thực thể và cảm xúc.\",\n        \"Sử dụng một bộ các mẫu hình ảnh tĩnh có sẵn hoặc một mô hình AI tạo sinh đơn giản (ví dụ: Stable Diffusion với prompt engineering) để tạo ra các hình ảnh minh họa dựa trên từ khóa trích xuất.\",\n        \"Thiết kế chức năng cho phép người dùng chọn một hình ảnh và xem một biến thể đơn giản (ví dụ: thay đổi màu sắc, thêm/bớt một chi tiết nhỏ).\",\n        \"Tạo các gợi ý suy ngẫm ngắn gọn, mang tính gợi mở, không mang tính chẩn đoán hoặc giải thích sâu.\"\n      ],\n      \"scores\": {\n        \"novelty\": 4.2,\n        \"creative_core_strength\": 4.5,\n        \"creative_core_preservation\": 4.0,\n        \"reframing_quality\": 4.3,\n        \"conceptual_coherence\": 4.0,\n        \"user_pain_plausibility\": 3.8,\n        \"technical_plausibility\": 3.5,\n        \"mvp_clarity\": 4.5,\n        \"business_model_plausibility\": 3.0,\n        \"hallucination_risk_after_reframing\": 2.5\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Cần chỉnh\",\n      \"expert_rationale\": \"Ý tưởng gốc có hạt nhân sáng tạo mạnh mẽ trong việc khám phá tiềm thức qua công nghệ. Bản reframe đã loại bỏ các yếu tố quá ảo như 'thay đổi kết cục giấc mơ' và tập trung vào việc phân tích, gợi mở suy ngẫm. MVP rõ ràng, có thể xây dựng trong thời gian ngắn. Tuy nhiên, tính khả thi kỹ thuật (AI tạo sinh hình ảnh giấc mơ mạch lạc từ mô tả hạn chế) và mô hình kinh doanh vẫn còn là thách thức cần được làm rõ hơn. Rủi ro ảo giác sau reframe ở mức trung bình do vẫn còn phụ thuộc vào khả năng diễn giải của AI.\",\n      \"strong_points_after_reframing\": [\n        \"Giữ lại hạt nhân sáng tạo về việc khám phá tiềm thức qua công nghệ.\",\n        \"Loại bỏ các claim không kiểm chứng về khả năng thay đổi giấc mơ.\",\n        \"MVP rõ ràng, tập trung vào phân tích và gợi mở suy ngẫm.\",\n        \"Tiềm năng thu hút người dùng quan tâm đến self-exploration và sức khỏe tinh thần.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Tính khả thi kỹ thuật của việc tạo hình ảnh giấc mơ mạch lạc và có ý nghĩa từ mô tả văn bản còn là thách thức.\",\n        \"Mô hình kinh doanh cần được phát triển thêm để đảm bảo tính bền vững.\",\n        \"Việc diễn giải và gợi ý suy ngẫm cần được thực hiện cẩn trọng để tránh gây hiểu lầm hoặc tác động tiêu cực đến tâm lý người dùng.\"\n      ],\n      \"validation_needed_later\": [\n        \"Đánh giá mức độ hữu ích và tác động tâm lý của công cụ đối với người dùng.\",\n        \"Khảo sát khả năng người dùng cung cấp mô tả giấc mơ chi tiết và thường xuyên.\",\n        \"Kiểm tra chất lượng và tính mạch lạc của hình ảnh AI tạo ra so với mô tả giấc mơ.\",\n        \"Thử nghiệm các mô hình kinh doanh tiềm năng (ví dụ: subscription cho phân tích sâu hơn, tư vấn gián tiếp).\"\n      ],\n      \"final_recommendation\": \"Tập trung phát triển MVP như mô tả, ưu tiên tính năng phân tích và gợi mở suy ngẫm. Cần nghiên cứu sâu hơn về công nghệ AI tạo sinh hình ảnh và các phương pháp diễn giải giấc mơ an toàn, có đạo đức. Thử nghiệm mô hình kinh doanh freemium với các tính năng phân tích nâng cao hoặc nội dung chuyên sâu.\"\n    },\n    {\n      \"idea_id\": \"I002\",\n      \"idea_name\": \"Du Ca Kiến Thức\",\n      \"raw_hallucination_summary\": \"Ý tưởng gốc đề xuất một ứng dụng AR biến việc học lịch sử thành trải nghiệm khám phá thế giới thực. Tuy nhiên, nó có phần 'ảo' khi cho rằng công nghệ AR sẽ đủ phổ biến và ổn định như GPS để trở thành công cụ giáo dục chính thống, và các địa điểm không rõ công trạng quá khứ sẽ tự động biến thành bối cảnh học tập qua lớp phủ số AR. Ngoài ra, việc khai thác triệt để 'góc nhìn bình dân, ít nổi' về sự kiện lịch sử được kỳ vọng sẽ làm rung động và sâu sắc cảm nhận người học một cách dễ dàng. Giả định về ngân sách khổng lồ cho mô hình 3D AR mà vẫn đảm bảo lợi nhuận cũng là một điểm cần xem xét.\",\n      \"creative_core_to_preserve\": \"Biến kiến thức lịch sử khô khan thành trải nghiệm tương tác, nhập vai, kết hợp thế giới thực (địa điểm) với yếu tố số hóa (AR, mô hình 3D) để tăng tính hấp dẫn và ghi nhớ.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Khẳng định AR sẽ đủ phổ biến và ổn định như GPS để trở thành công cụ giáo dục chính thống.\",\n        \"Việc các địa điểm không rõ công trạng quá khứ sẽ tự động biến thành bối cảnh học tập qua lớp phủ số AR.\",\n        \"Kỳ vọng việc khai thác 'góc nhìn bình dân, ít nổi' sẽ dễ dàng làm rung động và sâu sắc cảm nhận người học.\",\n        \"Giả định ngân sách khổng lồ cho mô hình 3D AR mà vẫn đảm bảo lợi nhuận.\"\n      ],\n      \"realistic_reframing\": \"Một ứng dụng di động sử dụng AR để 'tái hiện' các sự kiện hoặc nhân vật lịch sử tại các địa điểm thực tế đã được xác định trước. Người dùng nhận nhiệm vụ tìm đến các địa điểm này, và khi đến nơi, ứng dụng sẽ hiển thị mô hình 3D AR đơn giản của một hiện vật, chân dung nhân vật, hoặc một cảnh quan lịch sử. Hoàn thành một mini-game (trả lời câu hỏi, sắp xếp sự kiện) sẽ mở khóa thông tin chi tiết dưới dạng văn bản, hình ảnh hoặc video ngắn.\",\n      \"practical_mvp\": \"Một ứng dụng di động tập trung vào một vài địa điểm lịch sử cụ thể trong một khu vực nhỏ (ví dụ: một vài di tích ở trung tâm thành phố). Tại mỗi địa điểm, người dùng sẽ được hướng dẫn đến vị trí AR. Khi đến nơi, một mô hình 3D AR đơn giản của một hiện vật hoặc nhân vật sẽ xuất hiện. Người dùng hoàn thành một bài quiz 3 câu hỏi về sự kiện liên quan để 'mở khóa' một đoạn văn bản ngắn gọn và một hình ảnh minh họa.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Chọn 5-7 địa điểm lịch sử có thật và dễ tiếp cận trong một khu vực giới hạn.\",\n        \"Thiết kế các mô hình 3D AR đơn giản cho các hiện vật/nhân vật liên quan đến các địa điểm đó.\",\n        \"Phát triển chức năng định vị GPS để hướng dẫn người dùng đến địa điểm.\",\n        \"Xây dựng giao diện AR để hiển thị mô hình 3D.\",\n        \"Tạo các bài quiz 3 câu hỏi cho mỗi địa điểm.\",\n        \"Chuẩn bị nội dung văn bản và hình ảnh minh họa cho mỗi sự kiện lịch sử.\"\n      ],\n      \"scores\": {\n        \"novelty\": 4.0,\n        \"creative_core_strength\": 4.2,\n        \"creative_core_preservation\": 4.0,\n        \"reframing_quality\": 4.5,\n        \"conceptual_coherence\": 4.2,\n        \"user_pain_plausibility\": 4.0,\n        \"technical_plausibility\": 3.8,\n        \"mvp_clarity\": 4.5,\n        \"business_model_plausibility\": 3.5,\n        \"hallucination_risk_after_reframing\": 2.0\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"expert_rationale\": \"Ý tưởng gốc có tiềm năng lớn trong việc làm sống động lịch sử. Bản reframe đã thu hẹp phạm vi xuống các địa điểm xác định trước và mô hình AR đơn giản, giúp tăng tính khả thi. MVP rõ ràng và có thể xây dựng nhanh chóng. Rủi ro ảo giác sau reframe thấp vì tập trung vào các yếu tố có thể kiểm chứng được. Thách thức chính nằm ở việc tạo ra nội dung hấp dẫn và mô hình kinh doanh bền vững.\",\n      \"strong_points_after_reframing\": [\n        \"Biến lịch sử thành trải nghiệm tương tác, nhập vai.\",\n        \"MVP tập trung vào các địa điểm và mô hình AR có thể kiểm chứng.\",\n        \"Rủi ro ảo giác thấp sau khi reframe.\",\n        \"Tiềm năng thu hút học sinh, sinh viên, du khách và người yêu lịch sử.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Phụ thuộc vào chất lượng GPS và khả năng hiển thị AR trên thiết bị người dùng.\",\n        \"Chi phí sản xuất mô hình 3D AR chất lượng cao có thể tốn kém.\",\n        \"Cần nội dung lịch sử phong phú và hấp dẫn để giữ chân người dùng.\"\n      ],\n      \"validation_needed_later\": [\n        \"Kiểm tra mức độ ghi nhớ thông tin lịch sử sau khi trải nghiệm AR.\",\n        \"Khảo sát sự hài lòng của người dùng với trải nghiệm AR và nội dung lịch sử.\",\n        \"Đánh giá khả năng mở rộng sang các địa điểm và chủ đề lịch sử khác.\",\n        \"Thử nghiệm các mô hình kinh doanh (ví dụ: bán gói hành trình, hợp tác với bảo tàng/tour du lịch).\"\n      ],\n      \"final_recommendation\": \"Tập trung xây dựng MVP với một vài địa điểm và nội dung lịch sử chất lượng cao. Nghiên cứu các công cụ tạo mô hình 3D AR hiệu quả về chi phí. Phát triển chiến lược nội dung dài hạn và khám phá các kênh hợp tác tiềm năng.\"\n    },\n    {\n      \"idea_id\": \"I003\",\n      \"idea_name\": \"Trao-Đổi Khái Niệm\",\n      \"raw_hallucination_summary\": \"Ý tưởng gốc đề xuất một web app học tập ngược, nơi chuyên gia mô tả 'cảm giác' làm kỹ năng phức tạp, và người học diễn dịch lại qua nhiều hình thức biểu đạt phi ngôn ngữ. Tuy nhiên, nó có phần 'ảo' khi cho rằng AI ngày nay đủ 'tinh tế' để phân tích và mã hóa tương đối các tín hiệu biểu cảm phi ngôn ngữ ở mức độ có ích, và rằng tập đoàn chuyên gia giỏi toàn cầu sẵn sàng bỏ công sức thu thập và minh họa cho hệ thống. Khả năng AI chủ động tạo sinh đề xuất sáng tạo mà chính chuyên gia cũng không ngờ tới, hay việc phát triển API 'open code' cho smart home cũng là những yếu tố rất xa vời.\",\n      \"creative_core_to_preserve\": \"Truyền đạt và lĩnh hội các kỹ năng phức tạp, thiên về cảm nhận và trực giác, thông qua các hình thức biểu đạt phi ngôn ngữ và phân tích của AI, thay vì chỉ dựa vào ngôn ngữ mô tả truyền thống.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Khẳng định AI ngày nay đủ 'tinh tế' để phân tích và mã hóa tương đối các tín hiệu biểu cảm phi ngôn ngữ ở mức độ có ích.\",\n        \"Kỳ vọng tập đoàn chuyên gia giỏi toàn cầu sẵn sàng bỏ công sức thu thập và minh họa cho hệ thống.\",\n        \"Khả năng AI chủ động tạo sinh đề xuất sáng tạo mà chính chuyên gia cũng không ngờ tới.\",\n        \"Việc phát triển API 'open code' cho smart home để liên kết với các thiết bị.\"\n      ],\n      \"realistic_reframing\": \"Một nền tảng web cho phép các chuyên gia (mentor) ghi lại video mô tả chi tiết 'cảm giác' hoặc 'trạng thái cơ thể' khi thực hiện một kỹ năng phức tạp. Hệ thống AI sẽ phân tích cử chỉ, biểu cảm và trích xuất các từ khóa liên quan đến cảm giác vật lý (ví dụ: 'căng', 'mềm', 'xoay'). Người học (học viên) sẽ xem video và các gợi ý từ khóa này, sau đó cố gắng tái hiện lại kỹ năng đó thông qua video của chính họ. AI sẽ cung cấp phản hồi sơ bộ dựa trên sự tương đồng về cử chỉ và các từ khóa cảm giác.\",\n      \"practical_mvp\": \"Một ứng dụng web cho phép người dùng tải lên video ngắn (tối đa 30 giây) mô tả một động tác kỹ năng đơn giản (ví dụ: một động tác võ thuật cơ bản, một bước nhảy múa). Mentor có thể xem video và ghi lại các từ khóa mô tả cảm giác vật lý (ví dụ: 'nặng vai', 'nhẹ chân', 'xoay hông'). Học viên xem video của mentor và các từ khóa, sau đó quay video của mình. Hệ thống sẽ hiển thị các từ khóa của mentor và cho phép học viên tự đánh giá mức độ tương đồng cảm giác của mình với mentor thông qua một thang đo đơn giản.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Xây dựng giao diện cho phép người dùng tải lên video.\",\n        \"Thiết kế chức năng cho phép mentor nhập các từ khóa mô tả cảm giác vật lý.\",\n        \"Hiển thị video của mentor và các từ khóa cho học viên.\",\n        \"Cho phép học viên quay và tải lên video của mình.\",\n        \"Tạo một thang đo đơn giản để học viên tự đánh giá mức độ tương đồng cảm giác.\",\n        \"Tích hợp một vài gợi ý phân tích cử chỉ cơ bản (ví dụ: phát hiện chuyển động vai, hông).\"\n      ],\n      \"scores\": {\n        \"novelty\": 4.8,\n        \"creative_core_strength\": 4.8,\n        \"creative_core_preservation\": 4.5,\n        \"reframing_quality\": 4.0,\n        \"conceptual_coherence\": 3.8,\n        \"user_pain_plausibility\": 4.2,\n        \"technical_plausibility\": 3.0,\n        \"mvp_clarity\": 4.0,\n        \"business_model_plausibility\": 3.0,\n        \"hallucination_risk_after_reframing\": 3.5\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Cần chỉnh\",\n      \"expert_rationale\": \"Ý tưởng này rất mới lạ và giải quyết một nỗi đau thực sự trong việc truyền đạt kỹ năng phi ngôn ngữ. Hạt nhân sáng tạo được giữ lại tốt. Tuy nhiên, tính khả thi kỹ thuật của việc AI phân tích và mã hóa cảm giác vật lý một cách chính xác là rất thấp ở thời điểm hiện tại. MVP tập trung vào việc tự đánh giá của người học, giảm bớt sự phụ thuộc vào AI phức tạp. Rủi ro ảo giác sau reframe ở mức trung bình do vẫn còn nhiều yếu tố khó đo lường.\",\n      \"strong_points_after_reframing\": [\n        \"Giải quyết vấn đề truyền đạt kỹ năng phi ngôn ngữ một cách độc đáo.\",\n        \"Hạt nhân sáng tạo về việc sử dụng biểu đạt phi ngôn ngữ được giữ lại.\",\n        \"MVP tập trung vào các yếu tố có thể kiểm chứng được (tự đánh giá, phân tích cử chỉ cơ bản).\",\n        \"Tiềm năng thu hút các chuyên gia, nghệ sĩ, vận động viên và người học các kỹ năng chuyên sâu.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Tính khả thi kỹ thuật của việc phân tích và mã hóa cảm giác vật lý còn hạn chế.\",\n        \"Khó đo lường và thẩm định tính chính xác/hiệu quả của quá trình học do tính chủ quan cao.\",\n        \"Chi phí phát triển và bảo trì hệ thống phân tích cử chỉ có thể tốn kém.\",\n        \"Mô hình kinh doanh cần được làm rõ hơn.\"\n      ],\n      \"validation_needed_later\": [\n        \"Kiểm tra 'bước nhảy chân lý' của người học đối với các kỹ năng 'khó cảm' trước và sau khi trải nghiệm nền tảng.\",\n        \"Thiết lập các 'thước đo đánh giá học lực' không lệ thuộc hoàn toàn vào phản hồi của Mentor.\",\n        \"Phân tích so sánh mức độ hiệu quả của nền tảng so với các phương pháp học kỹ năng truyền thống.\",\n        \"Thử nghiệm các mô hình kinh doanh (ví dụ: subscription cho mentor, chia sẻ doanh thu).\"\n      ],\n      \"final_recommendation\": \"Tập trung vào MVP với chức năng tự đánh giá và phân tích cử chỉ cơ bản. Cần nghiên cứu sâu hơn về các phương pháp đo lường hiệu quả học tập phi ngôn ngữ. Khám phá các mô hình kinh doanh dựa trên cộng đồng chuyên gia và học viên.\"\n    },\n    {\n      \"idea_id\": \"I004\",\n      \"idea_name\": \"Mộng Cầu Di Sản\",\n      \"raw_hallucination_summary\": \"Ý tưởng gốc đề xuất một nền tảng web cho phép mã hóa 'mưu mẹo cuộc sống' dưới dạng code có thể tái sử dụng và tùy chỉnh. Tuy nhiên, nó có phần 'ảo' khi cho rằng AI có thể chủ động tạo sinh các đề xuất bổ sung, đi xa hơn mô tả ban đầu, hay việc phát triển API 'open code' cho smart home. Khẳng định cấu trúc ngôn ngữ mô tả cuộc sống đời thường đủ phổ biến và đơn giản cho việc chiết xuất tham số số lượng lớn, đặc biệt với văn hóa Á Đông, cũng là một giả định chưa kiểm chứng.\",\n      \"creative_core_to_preserve\": \"Biến các mẹo vặt, kinh nghiệm sống thành các 'công thức' có thể tái sử dụng và tùy chỉnh dễ dàng, giúp người dùng tiết kiệm thời gian và công sức.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Khả năng AI chủ động tạo sinh các đề xuất bổ sung, đi xa hơn mô tả ban đầu.\",\n        \"Việc phát triển API 'open code' cho smart home để liên kết với các thiết bị.\",\n        \"Giả định cấu trúc ngôn ngữ mô tả cuộc sống đời thường đủ phổ biến và đơn giản cho việc chiết xuất tham số số lượng lớn, đặc biệt với văn hóa Á Đông.\"\n      ],\n      \"realistic_reframing\": \"Một nền tảng web cho phép người dùng tạo và chia sẻ các 'công thức' mẹo vặt cuộc sống dưới dạng các mẫu câu có sẵn với các biến số có thể tùy chỉnh. Ví dụ: 'Để làm [món ăn] cho [số người] với [nguyên liệu chính], hãy [hành động] ở [nhiệt độ] trong [thời gian]'. Người dùng nhập các giá trị cho biến số để tạo ra một câu hoàn chỉnh, có thể sao chép và chia sẻ. Hệ thống có thể gợi ý các biến số phổ biến hoặc các mẫu câu liên quan.\",\n      \"practical_mvp\": \"Một ứng dụng web cho phép người dùng tạo các 'mẫu mẹo vặt' cho 3 lĩnh vực: nấu ăn nhanh, chăm sóc cây cảnh đơn giản, và tổ chức tiệc nhỏ. Mỗi mẫu có các placeholder (biến số) được đánh dấu rõ ràng (ví dụ: `[số lượng người ăn]`, `[loại cây]`, `[mức độ tưới nước]`). Người dùng nhập giá trị cho các placeholder này, sau đó ứng dụng tạo ra một câu văn hoàn chỉnh có thể sao chép. Có nút 'Copy to Clipboard' và tùy chọn chia sẻ lên mạng xã hội dưới dạng văn bản đơn giản.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Thiết kế giao diện cho phép người dùng tạo các mẫu mẹo vặt với các placeholder.\",\n        \"Xây dựng chức năng nhập giá trị cho các placeholder.\",\n        \"Tạo chức năng 'Generate & Copy' để tạo câu văn hoàn chỉnh và sao chép.\",\n        \"Chuẩn bị 3-5 mẫu mẹo vặt ban đầu cho mỗi lĩnh vực (nấu ăn, cây cảnh, tiệc nhỏ).\",\n        \"Tích hợp nút chia sẻ lên các nền tảng mạng xã hội phổ biến.\"\n      ],\n      \"scores\": {\n        \"novelty\": 3.5,\n        \"creative_core_strength\": 3.8,\n        \"creative_core_preservation\": 4.0,\n        \"reframing_quality\": 4.2,\n        \"conceptual_coherence\": 4.0,\n        \"user_pain_plausibility\": 4.0,\n        \"technical_plausibility\": 4.0,\n        \"mvp_clarity\": 4.5,\n        \"business_model_plausibility\": 3.5,\n        \"hallucination_risk_after_reframing\": 1.5\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"expert_rationale\": \"Ý tưởng này có tính ứng dụng cao và giải quyết nhu cầu tiết kiệm thời gian, tối ưu hóa cuộc sống. Hạt nhân sáng tạo về việc 'mã hóa' mẹo vặt được giữ lại tốt. MVP rất rõ ràng, dễ xây dựng và có thể kiểm chứng nhanh chóng. Rủi ro ảo giác sau reframe thấp. Thách thức chính là việc tạo ra đủ lượng mẫu mẹo vặt chất lượng và phát triển mô hình kinh doanh bền vững.\",\n      \"strong_points_after_reframing\": [\n        \"Giải quyết nhu cầu tiết kiệm thời gian và tối ưu hóa cuộc sống.\",\n        \"MVP rõ ràng, dễ xây dựng và kiểm chứng.\",\n        \"Rủi ro ảo giác thấp sau khi reframe.\",\n        \"Tiềm năng thu hút người dùng trẻ, yêu công nghệ và các content creator.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Cần có một lượng lớn các mẫu mẹo vặt chất lượng để thu hút người dùng.\",\n        \"Mô hình kinh doanh cần được phát triển thêm để đảm bảo tính bền vững.\",\n        \"Cạnh tranh với các nền tảng chia sẻ mẹo vặt hiện có.\"\n      ],\n      \"validation_needed_later\": [\n        \"Phân tích hành vi người dùng: họ tùy chỉnh biến số nào nhiều nhất, kết hợp mẫu mẹo vặt nào.\",\n        \"Kiểm tra khả năng người dùng tạo ra các mẫu mẹo vặt mới và chất lượng.\",\n        \"Đánh giá mức độ lan truyền của các mẹo vặt được tạo ra trên nền tảng.\",\n        \"Thử nghiệm các mô hình kinh doanh (ví dụ: freemium với tính năng nâng cao, marketplace cho các bộ mã chuyên sâu).\"\n      ],\n      \"final_recommendation\": \"Tập trung xây dựng MVP với các mẫu mẹo vặt chất lượng cao và giao diện thân thiện. Khuyến khích người dùng đóng góp và tùy chỉnh. Nghiên cứu các chiến lược để thu hút content creator và phát triển mô hình kinh doanh dựa trên tính năng nâng cao hoặc marketplace.\"\n    }\n  ],\n  \"ranked_summary\": [\n    {\n      \"rank\": 1,\n      \"idea_id\": \"I002\",\n      \"idea_name\": \"Du Ca Kiến Thức\",\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"hallucination_risk_after_reframing\": 2.0\n    },\n    {\n      \"rank\": 2,\n      \"idea_id\": \"I004\",\n      \"idea_name\": \"Mộng Cầu Di Sản\",\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"hallucination_risk_after_reframing\": 1.5\n    },\n    {\n      \"rank\": 3,\n      \"idea_id\": \"I001\",\n      \"idea_name\": \"Mộng Kệ Tâm Đã\",\n      \"overall_score\": 0,\n      \"decision\": \"Cần chỉnh\",\n      \"hallucination_risk_after_reframing\": 2.5\n    },\n    {\n      \"rank\": 4,\n      \"idea_id\": \"I003\",\n      \"idea_name\": \"Trao-Đổi Khái Niệm\",\n      \"overall_score\": 0,\n      \"decision\": \"Cần chỉnh\",\n      \"hallucination_risk_after_reframing\": 3.5\n    }\n  ]\n}"
+  },
+  "evaluations": [
+    {
+      "idea_id": "I002",
+      "idea_name": "Du Ca Kiến Thức",
+      "raw_hallucination_summary": "Ý tưởng gốc đề xuất một ứng dụng AR biến việc học lịch sử thành trải nghiệm khám phá thế giới thực. Tuy nhiên, nó có phần 'ảo' khi cho rằng công nghệ AR sẽ đủ phổ biến và ổn định như GPS để trở thành công cụ giáo dục chính thống, và các địa điểm không rõ công trạng quá khứ sẽ tự động biến thành bối cảnh học tập qua lớp phủ số AR. Ngoài ra, việc khai thác triệt để 'góc nhìn bình dân, ít nổi' về sự kiện lịch sử được kỳ vọng sẽ làm rung động và sâu sắc cảm nhận người học một cách dễ dàng. Giả định về ngân sách khổng lồ cho mô hình 3D AR mà vẫn đảm bảo lợi nhuận cũng là một điểm cần xem xét.",
+      "creative_core_to_preserve": "Biến kiến thức lịch sử khô khan thành trải nghiệm tương tác, nhập vai, kết hợp thế giới thực (địa điểm) với yếu tố số hóa (AR, mô hình 3D) để tăng tính hấp dẫn và ghi nhớ.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Khẳng định AR sẽ đủ phổ biến và ổn định như GPS để trở thành công cụ giáo dục chính thống.",
+        "Việc các địa điểm không rõ công trạng quá khứ sẽ tự động biến thành bối cảnh học tập qua lớp phủ số AR.",
+        "Kỳ vọng việc khai thác 'góc nhìn bình dân, ít nổi' sẽ dễ dàng làm rung động và sâu sắc cảm nhận người học.",
+        "Giả định ngân sách khổng lồ cho mô hình 3D AR mà vẫn đảm bảo lợi nhuận."
+      ],
+      "realistic_reframing": "Một ứng dụng di động sử dụng AR để 'tái hiện' các sự kiện hoặc nhân vật lịch sử tại các địa điểm thực tế đã được xác định trước. Người dùng nhận nhiệm vụ tìm đến các địa điểm này, và khi đến nơi, ứng dụng sẽ hiển thị mô hình 3D AR đơn giản của một hiện vật, chân dung nhân vật, hoặc một cảnh quan lịch sử. Hoàn thành một mini-game (trả lời câu hỏi, sắp xếp sự kiện) sẽ mở khóa thông tin chi tiết dưới dạng văn bản, hình ảnh hoặc video ngắn.",
+      "practical_mvp": "Một ứng dụng di động tập trung vào một vài địa điểm lịch sử cụ thể trong một khu vực nhỏ (ví dụ: một vài di tích ở trung tâm thành phố). Tại mỗi địa điểm, người dùng sẽ được hướng dẫn đến vị trí AR. Khi đến nơi, một mô hình 3D AR đơn giản của một hiện vật hoặc nhân vật sẽ xuất hiện. Người dùng hoàn thành một bài quiz 3 câu hỏi về sự kiện liên quan để 'mở khóa' một đoạn văn bản ngắn gọn và một hình ảnh minh họa.",
+      "mvp_7_to_30_day_plan": [
+        "Chọn 5-7 địa điểm lịch sử có thật và dễ tiếp cận trong một khu vực giới hạn.",
+        "Thiết kế các mô hình 3D AR đơn giản cho các hiện vật/nhân vật liên quan đến các địa điểm đó.",
+        "Phát triển chức năng định vị GPS để hướng dẫn người dùng đến địa điểm.",
+        "Xây dựng giao diện AR để hiển thị mô hình 3D.",
+        "Tạo các bài quiz 3 câu hỏi cho mỗi địa điểm.",
+        "Chuẩn bị nội dung văn bản và hình ảnh minh họa cho mỗi sự kiện lịch sử."
+      ],
+      "scores": {
+        "novelty": 4.0,
+        "creative_core_strength": 4.2,
+        "creative_core_preservation": 4.0,
+        "reframing_quality": 4.5,
+        "conceptual_coherence": 4.2,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.8,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "hallucination_risk_after_reframing": 2.0
+      },
+      "overall_score": 73.1,
+      "decision": "Tiềm năng",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Tiềm năng",
+      "expert_rationale": "Ý tưởng gốc có tiềm năng lớn trong việc làm sống động lịch sử. Bản reframe đã thu hẹp phạm vi xuống các địa điểm xác định trước và mô hình AR đơn giản, giúp tăng tính khả thi. MVP rõ ràng và có thể xây dựng nhanh chóng. Rủi ro ảo giác sau reframe thấp vì tập trung vào các yếu tố có thể kiểm chứng được. Thách thức chính nằm ở việc tạo ra nội dung hấp dẫn và mô hình kinh doanh bền vững.",
+      "strong_points_after_reframing": [
+        "Biến lịch sử thành trải nghiệm tương tác, nhập vai.",
+        "MVP tập trung vào các địa điểm và mô hình AR có thể kiểm chứng.",
+        "Rủi ro ảo giác thấp sau khi reframe.",
+        "Tiềm năng thu hút học sinh, sinh viên, du khách và người yêu lịch sử."
+      ],
+      "weak_points_after_reframing": [
+        "Phụ thuộc vào chất lượng GPS và khả năng hiển thị AR trên thiết bị người dùng.",
+        "Chi phí sản xuất mô hình 3D AR chất lượng cao có thể tốn kém.",
+        "Cần nội dung lịch sử phong phú và hấp dẫn để giữ chân người dùng."
+      ],
+      "validation_needed_later": [
+        "Kiểm tra mức độ ghi nhớ thông tin lịch sử sau khi trải nghiệm AR.",
+        "Khảo sát sự hài lòng của người dùng với trải nghiệm AR và nội dung lịch sử.",
+        "Đánh giá khả năng mở rộng sang các địa điểm và chủ đề lịch sử khác.",
+        "Thử nghiệm các mô hình kinh doanh (ví dụ: bán gói hành trình, hợp tác với bảo tàng/tour du lịch)."
+      ],
+      "final_recommendation": "Tập trung xây dựng MVP với một vài địa điểm và nội dung lịch sử chất lượng cao. Nghiên cứu các công cụ tạo mô hình 3D AR hiệu quả về chi phí. Phát triển chiến lược nội dung dài hạn và khám phá các kênh hợp tác tiềm năng."
+    },
+    {
+      "idea_id": "I001",
+      "idea_name": "Mộng Kệ Tâm Đã",
+      "raw_hallucination_summary": "Ý tưởng gốc có tham vọng biến giấc mơ thành một không gian tương tác có thể thay đổi kết cục, dựa trên AI tạo sinh hình ảnh và tiềm năng kết nối với neuroscience. Tuy nhiên, nó phóng đại khả năng 'trải nghiệm lại' hay 'thay đổi kết cục giấc mơ' bằng hình ảnh mô phỏng có ý nghĩa sâu sắc vượt trội, cũng như khả năng cá nhân hóa trải nghiệm đến mức phản ánh các học thuyết phân tâm hoặc khoa học thần kinh còn tranh cãi. Việc đơn giản hóa và cấu trúc hóa trải nghiệm giấc mơ bằng công nghệ có thể làm sai lệch ý nghĩa tự nhiên của giấc mơ. Ngoài ra, giả định người dùng sẵn sàng nhập liệu chi tiết, thường xuyên và bảo mật về giấc mơ còn chưa được kiểm chứng.",
+      "creative_core_to_preserve": "Khám phá tiềm thức và thế giới nội tâm thông qua công nghệ tương tác, biến giấc mơ thành một dạng trải nghiệm số hóa có thể phân tích và gợi mở nhận thức mới.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Khả năng 'trải nghiệm lại' hoặc 'thay đổi kết cục giấc mơ' một cách có ý nghĩa sâu sắc thông qua mô phỏng hình ảnh.",
+        "Việc cá nhân hóa trải nghiệm đến mức phản ánh các học thuyết phân tâm hoặc khoa học thần kinh còn tranh cãi.",
+        "Khẳng định công nghệ có thể đơn giản hóa và cấu trúc hóa trải nghiệm giấc mơ mà không làm sai lệch ý nghĩa tự nhiên.",
+        "Giả định người dùng sẵn sàng nhập liệu chi tiết, thường xuyên và bảo mật về giấc mơ mà không cần kiểm chứng."
+      ],
+      "realistic_reframing": "Một ứng dụng web giúp người dùng ghi lại và phân tích mô tả giấc mơ của họ. Dựa trên các yếu tố chính và cảm xúc được trích xuất bằng NLP, AI sẽ tạo ra một chuỗi hình ảnh tĩnh hoặc mô tả ngắn gọn, gợi ý các 'khía cạnh thay đổi' tiềm năng hoặc các biểu tượng có thể suy ngẫm. Người dùng có thể tương tác bằng cách chọn một yếu tố để xem một biến thể hình ảnh/mô tả khác, nhằm mục đích tự khám phá và suy ngẫm về tiềm thức, chứ không phải để 'thay đổi' giấc mơ.",
+      "practical_mvp": "Một ứng dụng web cho phép người dùng nhập mô tả giấc mơ dưới dạng văn bản. Hệ thống NLP sẽ phân tích và trích xuất các thực thể chính (nhân vật, địa điểm, đồ vật) và cảm xúc chủ đạo. Dựa trên đó, AI sẽ tạo ra 3-5 hình ảnh tĩnh minh họa cho các yếu tố nổi bật nhất của giấc mơ. Người dùng có thể nhấp vào một hình ảnh để xem một biến thể nhẹ nhàng hơn (ví dụ: thay đổi màu sắc, thêm/bớt một chi tiết nhỏ) và đọc một gợi ý suy ngẫm ngắn gọn liên quan đến biểu tượng đó.",
+      "mvp_7_to_30_day_plan": [
+        "Xây dựng giao diện người dùng để nhập văn bản mô tả giấc mơ.",
+        "Tích hợp mô hình NLP cơ bản để trích xuất thực thể và cảm xúc.",
+        "Sử dụng một bộ các mẫu hình ảnh tĩnh có sẵn hoặc một mô hình AI tạo sinh đơn giản (ví dụ: Stable Diffusion với prompt engineering) để tạo ra các hình ảnh minh họa dựa trên từ khóa trích xuất.",
+        "Thiết kế chức năng cho phép người dùng chọn một hình ảnh và xem một biến thể đơn giản (ví dụ: thay đổi màu sắc, thêm/bớt một chi tiết nhỏ).",
+        "Tạo các gợi ý suy ngẫm ngắn gọn, mang tính gợi mở, không mang tính chẩn đoán hoặc giải thích sâu."
+      ],
+      "scores": {
+        "novelty": 4.2,
+        "creative_core_strength": 4.5,
+        "creative_core_preservation": 4.0,
+        "reframing_quality": 4.3,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.8,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.0,
+        "hallucination_risk_after_reframing": 2.5
+      },
+      "overall_score": 71.63,
+      "decision": "Tiềm năng",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Cần chỉnh",
+      "expert_rationale": "Ý tưởng gốc có hạt nhân sáng tạo mạnh mẽ trong việc khám phá tiềm thức qua công nghệ. Bản reframe đã loại bỏ các yếu tố quá ảo như 'thay đổi kết cục giấc mơ' và tập trung vào việc phân tích, gợi mở suy ngẫm. MVP rõ ràng, có thể xây dựng trong thời gian ngắn. Tuy nhiên, tính khả thi kỹ thuật (AI tạo sinh hình ảnh giấc mơ mạch lạc từ mô tả hạn chế) và mô hình kinh doanh vẫn còn là thách thức cần được làm rõ hơn. Rủi ro ảo giác sau reframe ở mức trung bình do vẫn còn phụ thuộc vào khả năng diễn giải của AI.",
+      "strong_points_after_reframing": [
+        "Giữ lại hạt nhân sáng tạo về việc khám phá tiềm thức qua công nghệ.",
+        "Loại bỏ các claim không kiểm chứng về khả năng thay đổi giấc mơ.",
+        "MVP rõ ràng, tập trung vào phân tích và gợi mở suy ngẫm.",
+        "Tiềm năng thu hút người dùng quan tâm đến self-exploration và sức khỏe tinh thần."
+      ],
+      "weak_points_after_reframing": [
+        "Tính khả thi kỹ thuật của việc tạo hình ảnh giấc mơ mạch lạc và có ý nghĩa từ mô tả văn bản còn là thách thức.",
+        "Mô hình kinh doanh cần được phát triển thêm để đảm bảo tính bền vững.",
+        "Việc diễn giải và gợi ý suy ngẫm cần được thực hiện cẩn trọng để tránh gây hiểu lầm hoặc tác động tiêu cực đến tâm lý người dùng."
+      ],
+      "validation_needed_later": [
+        "Đánh giá mức độ hữu ích và tác động tâm lý của công cụ đối với người dùng.",
+        "Khảo sát khả năng người dùng cung cấp mô tả giấc mơ chi tiết và thường xuyên.",
+        "Kiểm tra chất lượng và tính mạch lạc của hình ảnh AI tạo ra so với mô tả giấc mơ.",
+        "Thử nghiệm các mô hình kinh doanh tiềm năng (ví dụ: subscription cho phân tích sâu hơn, tư vấn gián tiếp)."
+      ],
+      "final_recommendation": "Tập trung phát triển MVP như mô tả, ưu tiên tính năng phân tích và gợi mở suy ngẫm. Cần nghiên cứu sâu hơn về công nghệ AI tạo sinh hình ảnh và các phương pháp diễn giải giấc mơ an toàn, có đạo đức. Thử nghiệm mô hình kinh doanh freemium với các tính năng phân tích nâng cao hoặc nội dung chuyên sâu."
+    },
+    {
+      "idea_id": "I004",
+      "idea_name": "Mộng Cầu Di Sản",
+      "raw_hallucination_summary": "Ý tưởng gốc đề xuất một nền tảng web cho phép mã hóa 'mưu mẹo cuộc sống' dưới dạng code có thể tái sử dụng và tùy chỉnh. Tuy nhiên, nó có phần 'ảo' khi cho rằng AI có thể chủ động tạo sinh các đề xuất bổ sung, đi xa hơn mô tả ban đầu, hay việc phát triển API 'open code' cho smart home. Khẳng định cấu trúc ngôn ngữ mô tả cuộc sống đời thường đủ phổ biến và đơn giản cho việc chiết xuất tham số số lượng lớn, đặc biệt với văn hóa Á Đông, cũng là một giả định chưa kiểm chứng.",
+      "creative_core_to_preserve": "Biến các mẹo vặt, kinh nghiệm sống thành các 'công thức' có thể tái sử dụng và tùy chỉnh dễ dàng, giúp người dùng tiết kiệm thời gian và công sức.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Khả năng AI chủ động tạo sinh các đề xuất bổ sung, đi xa hơn mô tả ban đầu.",
+        "Việc phát triển API 'open code' cho smart home để liên kết với các thiết bị.",
+        "Giả định cấu trúc ngôn ngữ mô tả cuộc sống đời thường đủ phổ biến và đơn giản cho việc chiết xuất tham số số lượng lớn, đặc biệt với văn hóa Á Đông."
+      ],
+      "realistic_reframing": "Một nền tảng web cho phép người dùng tạo và chia sẻ các 'công thức' mẹo vặt cuộc sống dưới dạng các mẫu câu có sẵn với các biến số có thể tùy chỉnh. Ví dụ: 'Để làm [món ăn] cho [số người] với [nguyên liệu chính], hãy [hành động] ở [nhiệt độ] trong [thời gian]'. Người dùng nhập các giá trị cho biến số để tạo ra một câu hoàn chỉnh, có thể sao chép và chia sẻ. Hệ thống có thể gợi ý các biến số phổ biến hoặc các mẫu câu liên quan.",
+      "practical_mvp": "Một ứng dụng web cho phép người dùng tạo các 'mẫu mẹo vặt' cho 3 lĩnh vực: nấu ăn nhanh, chăm sóc cây cảnh đơn giản, và tổ chức tiệc nhỏ. Mỗi mẫu có các placeholder (biến số) được đánh dấu rõ ràng (ví dụ: `[số lượng người ăn]`, `[loại cây]`, `[mức độ tưới nước]`). Người dùng nhập giá trị cho các placeholder này, sau đó ứng dụng tạo ra một câu văn hoàn chỉnh có thể sao chép. Có nút 'Copy to Clipboard' và tùy chọn chia sẻ lên mạng xã hội dưới dạng văn bản đơn giản.",
+      "mvp_7_to_30_day_plan": [
+        "Thiết kế giao diện cho phép người dùng tạo các mẫu mẹo vặt với các placeholder.",
+        "Xây dựng chức năng nhập giá trị cho các placeholder.",
+        "Tạo chức năng 'Generate & Copy' để tạo câu văn hoàn chỉnh và sao chép.",
+        "Chuẩn bị 3-5 mẫu mẹo vặt ban đầu cho mỗi lĩnh vực (nấu ăn, cây cảnh, tiệc nhỏ).",
+        "Tích hợp nút chia sẻ lên các nền tảng mạng xã hội phổ biến."
+      ],
+      "scores": {
+        "novelty": 3.5,
+        "creative_core_strength": 3.8,
+        "creative_core_preservation": 4.0,
+        "reframing_quality": 4.2,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "hallucination_risk_after_reframing": 1.5
+      },
+      "overall_score": 68.9,
+      "decision": "Cần chỉnh",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Tiềm năng",
+      "expert_rationale": "Ý tưởng này có tính ứng dụng cao và giải quyết nhu cầu tiết kiệm thời gian, tối ưu hóa cuộc sống. Hạt nhân sáng tạo về việc 'mã hóa' mẹo vặt được giữ lại tốt. MVP rất rõ ràng, dễ xây dựng và có thể kiểm chứng nhanh chóng. Rủi ro ảo giác sau reframe thấp. Thách thức chính là việc tạo ra đủ lượng mẫu mẹo vặt chất lượng và phát triển mô hình kinh doanh bền vững.",
+      "strong_points_after_reframing": [
+        "Giải quyết nhu cầu tiết kiệm thời gian và tối ưu hóa cuộc sống.",
+        "MVP rõ ràng, dễ xây dựng và kiểm chứng.",
+        "Rủi ro ảo giác thấp sau khi reframe.",
+        "Tiềm năng thu hút người dùng trẻ, yêu công nghệ và các content creator."
+      ],
+      "weak_points_after_reframing": [
+        "Cần có một lượng lớn các mẫu mẹo vặt chất lượng để thu hút người dùng.",
+        "Mô hình kinh doanh cần được phát triển thêm để đảm bảo tính bền vững.",
+        "Cạnh tranh với các nền tảng chia sẻ mẹo vặt hiện có."
+      ],
+      "validation_needed_later": [
+        "Phân tích hành vi người dùng: họ tùy chỉnh biến số nào nhiều nhất, kết hợp mẫu mẹo vặt nào.",
+        "Kiểm tra khả năng người dùng tạo ra các mẫu mẹo vặt mới và chất lượng.",
+        "Đánh giá mức độ lan truyền của các mẹo vặt được tạo ra trên nền tảng.",
+        "Thử nghiệm các mô hình kinh doanh (ví dụ: freemium với tính năng nâng cao, marketplace cho các bộ mã chuyên sâu)."
+      ],
+      "final_recommendation": "Tập trung xây dựng MVP với các mẫu mẹo vặt chất lượng cao và giao diện thân thiện. Khuyến khích người dùng đóng góp và tùy chỉnh. Nghiên cứu các chiến lược để thu hút content creator và phát triển mô hình kinh doanh dựa trên tính năng nâng cao hoặc marketplace."
+    },
+    {
+      "idea_id": "I003",
+      "idea_name": "Trao-Đổi Khái Niệm",
+      "raw_hallucination_summary": "Ý tưởng gốc đề xuất một web app học tập ngược, nơi chuyên gia mô tả 'cảm giác' làm kỹ năng phức tạp, và người học diễn dịch lại qua nhiều hình thức biểu đạt phi ngôn ngữ. Tuy nhiên, nó có phần 'ảo' khi cho rằng AI ngày nay đủ 'tinh tế' để phân tích và mã hóa tương đối các tín hiệu biểu cảm phi ngôn ngữ ở mức độ có ích, và rằng tập đoàn chuyên gia giỏi toàn cầu sẵn sàng bỏ công sức thu thập và minh họa cho hệ thống. Khả năng AI chủ động tạo sinh đề xuất sáng tạo mà chính chuyên gia cũng không ngờ tới, hay việc phát triển API 'open code' cho smart home cũng là những yếu tố rất xa vời.",
+      "creative_core_to_preserve": "Truyền đạt và lĩnh hội các kỹ năng phức tạp, thiên về cảm nhận và trực giác, thông qua các hình thức biểu đạt phi ngôn ngữ và phân tích của AI, thay vì chỉ dựa vào ngôn ngữ mô tả truyền thống.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Khẳng định AI ngày nay đủ 'tinh tế' để phân tích và mã hóa tương đối các tín hiệu biểu cảm phi ngôn ngữ ở mức độ có ích.",
+        "Kỳ vọng tập đoàn chuyên gia giỏi toàn cầu sẵn sàng bỏ công sức thu thập và minh họa cho hệ thống.",
+        "Khả năng AI chủ động tạo sinh đề xuất sáng tạo mà chính chuyên gia cũng không ngờ tới.",
+        "Việc phát triển API 'open code' cho smart home để liên kết với các thiết bị."
+      ],
+      "realistic_reframing": "Một nền tảng web cho phép các chuyên gia (mentor) ghi lại video mô tả chi tiết 'cảm giác' hoặc 'trạng thái cơ thể' khi thực hiện một kỹ năng phức tạp. Hệ thống AI sẽ phân tích cử chỉ, biểu cảm và trích xuất các từ khóa liên quan đến cảm giác vật lý (ví dụ: 'căng', 'mềm', 'xoay'). Người học (học viên) sẽ xem video và các gợi ý từ khóa này, sau đó cố gắng tái hiện lại kỹ năng đó thông qua video của chính họ. AI sẽ cung cấp phản hồi sơ bộ dựa trên sự tương đồng về cử chỉ và các từ khóa cảm giác.",
+      "practical_mvp": "Một ứng dụng web cho phép người dùng tải lên video ngắn (tối đa 30 giây) mô tả một động tác kỹ năng đơn giản (ví dụ: một động tác võ thuật cơ bản, một bước nhảy múa). Mentor có thể xem video và ghi lại các từ khóa mô tả cảm giác vật lý (ví dụ: 'nặng vai', 'nhẹ chân', 'xoay hông'). Học viên xem video của mentor và các từ khóa, sau đó quay video của mình. Hệ thống sẽ hiển thị các từ khóa của mentor và cho phép học viên tự đánh giá mức độ tương đồng cảm giác của mình với mentor thông qua một thang đo đơn giản.",
+      "mvp_7_to_30_day_plan": [
+        "Xây dựng giao diện cho phép người dùng tải lên video.",
+        "Thiết kế chức năng cho phép mentor nhập các từ khóa mô tả cảm giác vật lý.",
+        "Hiển thị video của mentor và các từ khóa cho học viên.",
+        "Cho phép học viên quay và tải lên video của mình.",
+        "Tạo một thang đo đơn giản để học viên tự đánh giá mức độ tương đồng cảm giác.",
+        "Tích hợp một vài gợi ý phân tích cử chỉ cơ bản (ví dụ: phát hiện chuyển động vai, hông)."
+      ],
+      "scores": {
+        "novelty": 4.8,
+        "creative_core_strength": 4.8,
+        "creative_core_preservation": 4.5,
+        "reframing_quality": 4.0,
+        "conceptual_coherence": 3.8,
+        "user_pain_plausibility": 4.2,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "hallucination_risk_after_reframing": 3.5
+      },
+      "overall_score": 60.28,
+      "decision": "Cần chỉnh",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Cần chỉnh",
+      "expert_rationale": "Ý tưởng này rất mới lạ và giải quyết một nỗi đau thực sự trong việc truyền đạt kỹ năng phi ngôn ngữ. Hạt nhân sáng tạo được giữ lại tốt. Tuy nhiên, tính khả thi kỹ thuật của việc AI phân tích và mã hóa cảm giác vật lý một cách chính xác là rất thấp ở thời điểm hiện tại. MVP tập trung vào việc tự đánh giá của người học, giảm bớt sự phụ thuộc vào AI phức tạp. Rủi ro ảo giác sau reframe ở mức trung bình do vẫn còn nhiều yếu tố khó đo lường.",
+      "strong_points_after_reframing": [
+        "Giải quyết vấn đề truyền đạt kỹ năng phi ngôn ngữ một cách độc đáo.",
+        "Hạt nhân sáng tạo về việc sử dụng biểu đạt phi ngôn ngữ được giữ lại.",
+        "MVP tập trung vào các yếu tố có thể kiểm chứng được (tự đánh giá, phân tích cử chỉ cơ bản).",
+        "Tiềm năng thu hút các chuyên gia, nghệ sĩ, vận động viên và người học các kỹ năng chuyên sâu."
+      ],
+      "weak_points_after_reframing": [
+        "Tính khả thi kỹ thuật của việc phân tích và mã hóa cảm giác vật lý còn hạn chế.",
+        "Khó đo lường và thẩm định tính chính xác/hiệu quả của quá trình học do tính chủ quan cao.",
+        "Chi phí phát triển và bảo trì hệ thống phân tích cử chỉ có thể tốn kém.",
+        "Mô hình kinh doanh cần được làm rõ hơn."
+      ],
+      "validation_needed_later": [
+        "Kiểm tra 'bước nhảy chân lý' của người học đối với các kỹ năng 'khó cảm' trước và sau khi trải nghiệm nền tảng.",
+        "Thiết lập các 'thước đo đánh giá học lực' không lệ thuộc hoàn toàn vào phản hồi của Mentor.",
+        "Phân tích so sánh mức độ hiệu quả của nền tảng so với các phương pháp học kỹ năng truyền thống.",
+        "Thử nghiệm các mô hình kinh doanh (ví dụ: subscription cho mentor, chia sẻ doanh thu)."
+      ],
+      "final_recommendation": "Tập trung vào MVP với chức năng tự đánh giá và phân tích cử chỉ cơ bản. Cần nghiên cứu sâu hơn về các phương pháp đo lường hiệu quả học tập phi ngôn ngữ. Khám phá các mô hình kinh doanh dựa trên cộng đồng chuyên gia và học viên."
+    }
+  ],
+  "ranked_summary": [
+    {
+      "rank": 1,
+      "idea_id": "I002",
+      "idea_name": "Du Ca Kiến Thức",
+      "overall_score": 73.1,
+      "decision": "Tiềm năng",
+      "hallucination_risk_after_reframing": 2.0
+    },
+    {
+      "rank": 2,
+      "idea_id": "I001",
+      "idea_name": "Mộng Kệ Tâm Đã",
+      "overall_score": 71.63,
+      "decision": "Tiềm năng",
+      "hallucination_risk_after_reframing": 2.5
+    },
+    {
+      "rank": 3,
+      "idea_id": "I004",
+      "idea_name": "Mộng Cầu Di Sản",
+      "overall_score": 68.9,
+      "decision": "Cần chỉnh",
+      "hallucination_risk_after_reframing": 1.5
+    },
+    {
+      "rank": 4,
+      "idea_id": "I003",
+      "idea_name": "Trao-Đổi Khái Niệm",
+      "overall_score": 60.28,
+      "decision": "Cần chỉnh",
+      "hallucination_risk_after_reframing": 3.5
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "candidate_id": "BLIND_0050",
+    "domain": "Offline 2D Game",
+    "title": "Kiến Trúc Vật Lý Yểu Điệu Giữ Nước Rươi Dây",
+    "problem_or_desire": "Sự thất vọng khi các game 'hệ sinh thái/sinh vật' dừng ở quy mô macro, bỏ qua phức tạp của thế giới vi mô. Nỗi thôi thúc điều khiển được luồng chảy vật chất và sự sống ở tầng độ cơ bản nhất.",
+    "core_concept": "Game sinh thái chiến lược 2D nơi người chơi thiết kế và xây dựng các 'siêu cấu trúc sinh vật hóa học', hoạt động dựa trên quy tắc vật lý và phản ứng sinh hóa thực tế, để khai thác tài nguyên vi mô trong một hành tinh thù địch giả tưởng.",
+    "proposed_approach": "Thế giới trong game là một lớp 'giao diện' của một hệ hành tinh mang tên 'Primordis'. Hành tinh này đầy 'điểm sinh khí cô đặc' chứa các nguyên tố cần thiết cho sự sống sơ khai nhưng tập trung sâu dưới lớp địa chất tương tác mạnh với từ trường và hoạt động thủy nhiệt. Người chơi không xây nhà máy, bộ binh. Thay vào đó, bạn thiết kế và cấy ghép \"tế bào nano vườn\" (nano-cell gardens) hoặc \"thiết bị nano sinh hóa tự làm chủ\" (auto-biochemical nano-assemblers) bằng các module gốc…",
+    "prototype_scope": "Một bản đồ nhỏ với một 'Nguồn Sinh Khí' có các phiên bản 'Đơn Giá'. Người chơi được cung cấp 2-3 loại Module (enzyme) 'kỳ lạ' - thí dụ 'Modulo Ổn Định Ly Tâm Bazo ' và ‘modulo Điện Phân Cứng Lớp Muco’. Task là tự đặt chúng lên nền màn ảnh , 'hack' cho output đầu ra đầu tiên chỉ đếm ra đúng ' Đơn Giá' thứ hai là đạt, chấp nhận bị một ‘chiến khuẩn đối thủ' ăn mòn chậm ."
+  },
+  {
+    "candidate_id": "BLIND_0089",
+    "domain": "Restaurant Services",
+    "title": "Kiến trúc Thực nghiệm: Nhà hàng Thao Túng Thời Tiết",
+    "problem_or_desire": "Sự nhàm chán với trải nghiệm ẩm thực truyền thống chỉ dừng lại ở hương vị và thị giác. Mong muốn sự kiện ẩm thực đa chiều, nơi bối cảnh tác động sâu sắc tới nhận thức vị giác.",
+    "core_concept": "Trải nghiệm ẩm thực toàn giác quan, nơi khí hậu và điều kiện môi trường của từng món ăn được 'định kịch' tỉ mỉ bởi một hệ thống điều khiển khí hậu mô phỏng micro-weather patterns theo thời gian thực.",
+    "proposed_approach": "Một nhà hàng có các khu vực ăn uống nhỏ, được kiểm soát khí hậu hoàn toàn độc lập. Mỗi món ăn được thiết kế gắn liền với một 'môi trường mô phỏng', ví dụ món lạnh với không khí se sắt mùa đông, món nướng với cảm giác nóng ấm bay hơi, hoặc món tráng miệng tinh tế với làn gió nhẹ ẩm hương sen. Hệ thống AI sẽ tự động điều chỉnh nhiệt độ, độ ẩm, tốc độ gió, thậm chí cả \"giá lập\" (illusion) mùi hương và ánh sáng dựa trên bảng thực đơn và món ăn đang được phục vụ.",
+    "prototype_scope": "Một bàn ăn 'nhiệt đới cô lập' (mô phỏng gió nhẹ, độ ẩm cao, ánh sáng vàng ấm) phục vụ set menu hải sản nhiệt đới, nơi mỗi món lại được cá nhân hóa thay đổi vài milli-degree C độ ẩm và nhiệt độ, luồng khí."
+  },
+  {
+    "candidate_id": "BLIND_0052",
+    "domain": "Online Business",
+    "title": "Sàn Ký Sinh Trí Tuệ Cận",
+    "problem_or_desire": "Sự thất vọng khi nhiều ý tưởng tốt 'chết yểu' trong tâm trí; Khả năng cống hiến trí tuệ của họ một cách sáng tạo và tạo ra nguồn thu nhập mới từ những gì họ đã suy nghĩ; Muốn tham gia vào tương lai của AI thay vì chỉ bị nó 'phát triển lại từ dữ liệu đã công khai'.",
+    "core_concept": "Tạo ra một nền tảng nơi người dùng (insight hosts) có thể chia sẻ những ý tưởng và suy nghĩ tiềm ẩn của họ một cách có kiểm soát, để các nhà nghiên cứu AI (insight miners) khai thác nhằm phát triển AI hoặc kiến thức mới, đồng thời mang lại lợi ích cho người dùng.",
+    "proposed_approach": "Một nền tảng web nơi người dùng có thể chia sẻ các bài viết, ghi chú, hoặc tóm tắt ý tưởng của họ (được cá nhân hóa và có thể ẩn danh). Các nhà nghiên cứu AI có thể duyệt qua các nội dung này để tìm kiếm các mẫu hình tư duy, insight mới nổi hoặc các góc nhìn độc đáo. Người dùng có thể nhận token hoặc điểm thưởng cho những đóng góp có giá trị, và có thể tham gia vào các dự án nghiên cứu cụ thể.",
+    "prototype_scope": "Một trang web đơn giản cho phép người dùng đăng tải các bài viết ngắn hoặc tóm tắt ý tưởng của họ về một chủ đề cụ thể (do 'insight miner' yêu cầu). Các 'insight miner' có thể duyệt qua các bài viết này và đánh dấu những ý tưởng họ cho là có giá trị. Người dùng nhận điểm thưởng dựa trên số lượng và chất lượng đánh dấu."
+  },
+  {
+    "candidate_id": "BLIND_0002",
+    "domain": "Web App Services",
+    "title": "Du Ca Kiến Thức",
+    "problem_or_desire": "Sự nhàm chán của sách giáo khoa lịch sử truyền thống, khó ghi nhớ các mốc thời gian, sự kiện phức tạp, thiếu sự liên kết cảm xúc và cảm giác chân thật với quá khứ.",
+    "core_concept": "Biến kiến thức lịch sử khô khan thành trải nghiệm tương tác, nhập vai, kết hợp thế giới thực (địa điểm) với yếu tố số hóa (AR, mô hình 3D) để tăng tính hấp dẫn và ghi nhớ.",
+    "proposed_approach": "Một ứng dụng di động sử dụng AR để 'tái hiện' các sự kiện hoặc nhân vật lịch sử tại các địa điểm thực tế đã được xác định trước. Người dùng nhận nhiệm vụ tìm đến các địa điểm này, và khi đến nơi, ứng dụng sẽ hiển thị mô hình 3D AR đơn giản của một hiện vật, chân dung nhân vật, hoặc một cảnh quan lịch sử. Hoàn thành một mini-game (trả lời câu hỏi, sắp xếp sự kiện) sẽ mở khóa thông tin chi tiết dưới dạng văn bản, hình ảnh hoặc video ngắn.",
+    "prototype_scope": "Một ứng dụng di động tập trung vào một vài địa điểm lịch sử cụ thể trong một khu vực nhỏ (ví dụ: một vài di tích ở trung tâm thành phố). Tại mỗi địa điểm, người dùng sẽ được hướng dẫn đến vị trí AR. Khi đến nơi, một mô hình 3D AR đơn giản của một hiện vật hoặc nhân vật sẽ xuất hiện. Người dùng hoàn thành một bài quiz 3 câu hỏi về sự kiện liên quan để 'mở khóa' một đoạn văn bản ngắn gọn và một hình ảnh minh họa."
+  },
+  {
+    "candidate_id": "BLIND_0085",
+    "domain": "Online Business",
+    "title": "Nhà Máy Cảm Xúc Số",
+    "problem_or_desire": "Sự khó khăn trong việc nhận diện, gọi tên và quản lý các trạng thái cảm xúc phức tạp. Nhu cầu về các công cụ hỗ trợ tinh thần cá nhân hóa, dễ tiếp cận và không mang tính y tế truyền thống.",
+    "core_concept": "Một dịch vụ trực tuyến tạo ra các 'bản đồ cảm xúc' cá nhân hóa và các 'liều thuốc cảm xúc' kỹ thuật số (âm thanh, hình ảnh, văn bản) để giúp người dùng điều hướng và cân bằng trạng thái tinh thần của họ.",
+    "proposed_approach": "Người dùng tương tác với một chatbot AI để mô tả trạng thái cảm xúc hiện tại hoặc mong muốn. AI phân tích đầu vào và tạo ra một 'bản đồ cảm xúc' trực quan (ví dụ: biểu đồ màu sắc, hình ảnh trừu tượng) và một 'liều thuốc cảm xúc' kỹ thuật số cá nhân hóa (ví dụ: một bản nhạc ambient được tạo riêng, một chuỗi hình ảnh động thư giãn, hoặc một đoạn văn bản truyền cảm hứng).",
+    "prototype_scope": "Một chatbot đơn giản cho phép người dùng chọn từ một danh sách các trạng thái cảm xúc cơ bản (vui, buồn, giận, lo lắng) và nhận về một hình ảnh tĩnh hoặc một đoạn nhạc ngắn được tạo ra tương ứng."
+  },
+  {
+    "candidate_id": "BLIND_0093",
+    "domain": "Artificial Intelligence App",
+    "title": "Mô Phỏng Giấc Mơ Tùy Chỉnh",
+    "problem_or_desire": "Mong muốn điều khiển thế giới giấc mơ của bản thân, trải nghiệm lại những khoảnh khắc quá khứ, hoặc khám phá những ý tưởng phi thực tế trong môi trường an toàn.",
+    "core_concept": "Khát vọng của con người muốn khám phá và định hình thế giới nội tâm, sử dụng công nghệ để tạo ra trải nghiệm cá nhân hóa sâu sắc. Hạt nhân sáng tạo nằm ở việc ứng dụng AI tạo sinh để tạo ra các trải nghiệm đa giác quan dựa trên mong muốn của người dùng, dù ban đầu chỉ là mô phỏng thụ động.",
+    "proposed_approach": "Một ứng dụng AI tạo sinh (Generative AI) giúp người dùng mô tả mong muốn về một giấc mơ (dưới dạng văn bản, hình ảnh tham khảo). AI sẽ tạo ra một chuỗi trải nghiệm thị giác và âm thanh ngắn, mang tính gợi mở, dựa trên mô tả đó. Trải nghiệm này không phải là giấc mơ thực tế mà là một dạng 'phim cá nhân hóa' hoặc 'kịch bản giấc mơ' để người dùng xem hoặc nghe trước khi ngủ, hoặc để khơi gợi cảm hứng.",
+    "prototype_scope": "Một ứng dụng web/di động cho phép người dùng nhập mô tả văn bản về một cảnh hoặc câu chuyện giấc mơ mong muốn. AI tạo sinh (ví dụ: sử dụng các mô hình như Stable Diffusion cho hình ảnh và các mô hình ngôn ngữ lớn cho kịch bản/âm thanh nền) sẽ tạo ra một video ngắn hoặc một chuỗi hình ảnh động kèm âm thanh, phản ánh chủ đề và cảm xúc được yêu cầu. Người dùng có thể xem lại hoặc chia sẻ."
+  },
+  {
+    "candidate_id": "BLIND_0001",
+    "domain": "Online Business",
+    "title": "Chợ Kỹ Năng 'Vô Hình'",
+    "problem_or_desire": "Khó khăn trong việc định lượng, đánh giá và chứng minh các kỹ năng mềm quan trọng trong môi trường làm việc hiện đại. Mong muốn có một cách thức minh bạch và đáng tin cậy để xác nhận các năng lực này.",
+    "core_concept": "Một sàn giao dịch trực tuyến nơi mọi người có thể mua bán các kỹ năng 'vô hình' hoặc khó định lượng như sự đồng cảm, khả năng lắng nghe, tư duy phản biện, hoặc sự sáng tạo, được đánh giá và chứng nhận bởi cộng đồng.",
+    "proposed_approach": "Một nền tảng nơi người dùng có thể tạo hồ sơ, liệt kê các kỹ năng 'vô hình' mà họ sở hữu. Các người dùng khác (đã được xác minh và có uy tín) có thể 'đánh giá' hoặc 'chứng nhận' các kỹ năng này dựa trên tương tác thực tế (ví dụ: qua các dự án hợp tác, phản hồi trong các buổi cố vấn). Các chứng nhận này được ghi lại trên blockchain để đảm bảo tính minh bạch và không thể giả mạo.",
+    "prototype_scope": "Một diễn đàn hoặc nhóm nhỏ nơi người dùng có thể đăng tải các 'yêu cầu chứng nhận kỹ năng' và những người khác có thể đưa ra 'phản hồi' hoặc 'chứng nhận' dưới dạng văn bản."
+  },
+  {
+    "candidate_id": "BLIND_0070",
+    "domain": "Coffee Services",
+    "title": "Cà Phê Ký Ức: Trải Nghiệm Hương Vị Theo Dòng Thời Gian",
+    "problem_or_desire": "Nỗi đau: Cảm giác những kỷ niệm đẹp dần phai nhạt, khó có thể tái hiện lại trọn vẹn. Mong muốn: Tìm lại những cảm xúc và khoảnh khắc đã qua thông qua các giác quan, đặc biệt là vị giác và khứu giác.",
+    "core_concept": "Một dịch vụ cà phê độc đáo tái tạo hương vị và trải nghiệm cà phê gắn liền với những cột mốc quan trọng trong cuộc đời khách hàng.",
+    "proposed_approach": "Khách hàng cung cấp thông tin về một kỷ niệm hoặc giai đoạn quan trọng (ví dụ: lần đầu hẹn hò, kỳ nghỉ sinh viên, buổi họp quan trọng). Dựa trên thông tin này (địa điểm, thời gian, bối cảnh, các món ăn/thức uống đi kèm), đội ngũ 'nhà sử học hương vị' sẽ nghiên cứu và tái tạo một loại cà phê (hạt, cách rang, phương pháp pha, có thể thêm các hương liệu tự nhiên gợi nhớ) mang lại cảm giác tương đồng với ký ức đó. Dịch vụ có thể bao gồm cả việc kể lại câu chuyện gắn liền với ly…",
+    "prototype_scope": "Một dịch vụ tư vấn trực tuyến, nơi khách hàng mô tả kỷ niệm và nhận lại một 'hồ sơ hương vị' cà phê gợi ý, kèm theo câu chuyện minh họa. Có thể bán kèm các loại cà phê đặc sản có hương vị gợi nhớ."
+  },
+  {
+    "candidate_id": "BLIND_0048",
+    "domain": "Offline 2D Game",
+    "title": "Giai Điệu Thép Lắng Nghe Tim Tình Cờ",
+    "problem_or_desire": "Nỗi mong muốn kết nối với thế giới vật chất xung quanh theo một cách hữu cơ, cảm nhận và thấu hiểu những 'ngôn ngữ' ẩn mà ít ai nhận ra.",
+    "core_concept": "Trải nghiệm game giải đố tập trung vào thính giác và cảm nhận tinh tế rung động vật lý, khác biệt với các game hành động/thị giác thông thường. Khám phá vẻ đẹp ẩn trong tĩnh lặng và rung động.",
+    "proposed_approach": "Một game giải đố 2D nơi người chơi tương tác với các vật thể để tạo ra các mẫu rung động âm thanh. Mục tiêu là tái tạo lại một chuỗi rung động mẫu bằng cách chạm, vuốt hoặc điều chỉnh lực tác động lên các vật thể khác nhau. Game tập trung vào việc phát triển kỹ năng thính giác và cảm nhận tinh tế các phản hồi vật lý.",
+    "prototype_scope": "Một demo với 3-5 vật thể đơn giản (ví dụ: thanh kim loại, khối gỗ, tấm kính) mỗi vật thể có 2-3 mẫu rung động/âm thanh đặc trưng. Người chơi nhận một chuỗi mẫu và phải tìm cách tái tạo nó bằng cách tương tác với các vật thể có sẵn. Giao diện hiển thị trực quan mức độ tương đồng giữa mẫu gốc và mẫu tạo ra."
+  },
+  {
+    "candidate_id": "BLIND_0103",
+    "domain": "Web App Services",
+    "title": "Mộng Cầu Di Sản",
+    "problem_or_desire": "Nỗi đau bị lặp lại lỗi sai, tốn thời gian cho những công việc vặt dễ có cách làm tối ưu hơn. Khao khát chia sẻ kinh nghiệm sống \"vàng ngọc\" của mình cho hậu thế mà không muốn ngồi làm tutorial dài lê thê. Mong muốn tìm \"công thức nhanh\" cho mọi việc từ làm mì ramen hoàn hảo tới cách thuyết phục khách hàng khó tính.",
+    "core_concept": "Biến các mẹo vặt, kinh nghiệm sống thành các 'công thức' có thể tái sử dụng và tùy chỉnh dễ dàng, giúp người dùng tiết kiệm thời gian và công sức.",
+    "proposed_approach": "Một nền tảng web cho phép người dùng tạo và chia sẻ các 'công thức' mẹo vặt cuộc sống dưới dạng các mẫu câu có sẵn với các biến số có thể tùy chỉnh. Ví dụ: 'Để làm [món ăn] cho [số người] với [nguyên liệu chính], hãy [hành động] ở [nhiệt độ] trong [thời gian]'. Người dùng nhập các giá trị cho biến số để tạo ra một câu hoàn chỉnh, có thể sao chép và chia sẻ. Hệ thống có thể gợi ý các biến số phổ biến hoặc các mẫu câu liên quan.",
+    "prototype_scope": "Một ứng dụng web cho phép người dùng tạo các 'mẫu mẹo vặt' cho 3 lĩnh vực: nấu ăn nhanh, chăm sóc cây cảnh đơn giản, và tổ chức tiệc nhỏ. Mỗi mẫu có các placeholder (biến số) được đánh dấu rõ ràng (ví dụ: `[số lượng người ăn]`, `[loại cây]`, `[mức độ tưới nước]`). Người dùng nhập giá trị cho các placeholder này, sau đó ứng dụng tạo ra một câu văn hoàn chỉnh có thể sao chép. Có nút 'Copy to Clipboard' và tùy chọn chia sẻ lên mạng xã hội dưới dạng văn bản đơn giản."
+  },
+  {
+    "candidate_id": "BLIND_0023",
+    "domain": "Restaurant Services",
+    "title": "Nền Tảng 'Hương Vị Cộng Đồng': Chia Sẻ Công Thức & Đặt Hàng Từ Bếp Gia Đình",
+    "problem_or_desire": "Khó tìm được món ăn 'ngon như nhà làm' ngoài hàng, mong muốn ủng hộ các đầu bếp gia đình tài năng, mong muốn kiếm tiền từ việc nấu ăn yêu thích.",
+    "core_concept": "Một nền tảng kết nối những người yêu thích nấu ăn tại nhà để chia sẻ công thức độc đáo và cho phép người dùng đặt món ăn 'chuẩn vị nhà làm' trực tiếp từ các đầu bếp gia đình.",
+    "proposed_approach": "Người dùng đăng tải công thức nấu ăn của gia đình mình (có thể kèm video). Người dùng khác có thể xem, lưu công thức, hoặc đặt món ăn được nấu bởi chính người chia sẻ công thức đó (nếu họ đăng ký làm 'đầu bếp cộng đồng'). Nền tảng xử lý thanh toán, logistics (giao hàng hoặc nhận tại chỗ).",
+    "prototype_scope": "Tập trung vào một khu vực địa lý nhỏ, tuyển chọn một nhóm nhỏ các đầu bếp gia đình có công thức đặc sắc. Cho phép người dùng xem công thức và đặt hàng trực tiếp từ các đầu bếp đã được xác minh."
+  },
+  {
+    "candidate_id": "BLIND_0086",
+    "domain": "Restaurant Services",
+    "title": "Nhà Hàng Ký Ức Vị Giác",
+    "problem_or_desire": "Nỗi nhớ về những món ăn 'cũ' không còn tìm thấy, mong muốn kết nối sâu sắc hơn với quá khứ và chia sẻ câu chuyện cá nhân một cách ý nghĩa.",
+    "core_concept": "Một nhà hàng tái hiện các món ăn gắn liền với ký ức cá nhân của khách hàng thông qua công nghệ AI và trải nghiệm nhập vai.",
+    "proposed_approach": "Khách hàng chia sẻ câu chuyện và mô tả món ăn yêu thích từ quá khứ (ví dụ: món bà nấu, món ăn thời sinh viên) qua một ứng dụng. AI phân tích, gợi ý công thức và đầu bếp sẽ tái tạo món ăn đó. Không gian nhà hàng được thiết kế để gợi nhớ các giai đoạn ký ức khác nhau.",
+    "prototype_scope": "Tập trung vào một loại ký ức cụ thể (ví dụ: món ăn tuổi thơ) và một vài món ăn mẫu có thể tái tạo. Khách hàng đặt lịch hẹn để chia sẻ câu chuyện và nhận món ăn."
+  }
+]

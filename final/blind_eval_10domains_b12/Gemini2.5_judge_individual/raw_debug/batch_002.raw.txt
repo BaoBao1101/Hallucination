@@ -1,0 +1,180 @@
+{
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0015",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng kết hợp hương vị cà phê với âm nhạc khá mới lạ và có thể tạo ra trải nghiệm độc đáo. MVP rõ ràng, tập trung vào việc thử nghiệm sự liên kết này."
+    },
+    {
+      "candidate_id": "BLIND_0025",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Giải quyết nỗi sợ đưa ra quyết định sai lầm trong sự nghiệp là một nhu cầu có thật. Mô phỏng kịch bản 'what-if' là một cách tiếp cận thú vị, tuy nhiên, tính chính xác của AI trong việc dự đoán hậu quả là một thách thức."
+    },
+    {
+      "candidate_id": "BLIND_0029",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Ý tưởng game giải đố nhập vai vào nội tâm nhân vật, dùng artwork trừu tượng để thể hiện cảm xúc là rất sáng tạo. MVP tập trung vào cơ chế ghép nối và hé lộ câu chuyện là hợp lý."
+    },
+    {
+      "candidate_id": "BLIND_0003",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Kết hợp hành vi bền vững với phần thưởng là cà phê là một ý tưởng có tính ứng dụng cao và giải quyết nhu cầu thực tế. MVP tập trung vào việc thử nghiệm cơ chế tích điểm đơn giản là rất rõ ràng."
+    },
+    {
+      "candidate_id": "BLIND_0094",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Ý tưởng dùng AI để giải mã câu chuyện đồ vật rất thú vị và khơi gợi sự tò mò. MVP tập trung vào việc cung cấp 1-2 sự thật về đồ vật phổ biến là khả thi."
+    },
+    {
+      "candidate_id": "BLIND_0036",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Giải quyết nỗi sợ thất bại trong các cuộc hội thoại quan trọng là một nhu cầu có thật. Huấn luyện qua kịch bản và phản hồi của AI là một cách tiếp cận hợp lý. MVP tập trung vào kịch bản mẫu và phản hồi đơn giản là rõ ràng."
+    },
+    {
+      "candidate_id": "BLIND_0059",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Kết hợp du lịch thực tế với sáng tạo không gian thiền định cá nhân là một ý tưởng độc đáo. MVP sandbox cho phép upload ảnh và sắp xếp yếu tố là rõ ràng và có thể thử nghiệm."
+    },
+    {
+      "candidate_id": "BLIND_0105",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Ý tưởng truyền đạt kỹ năng thiên về cảm nhận qua video và AI phân tích cử chỉ là rất mới lạ. MVP tập trung vào việc tải video, ghi từ khóa và tự đánh giá là khả thi."
+    },
+    {
+      "candidate_id": "BLIND_0068",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Giải quyết nhu cầu tìm nhạc phù hợp cho các trạng thái tinh thần khác nhau bằng AI tạo nhạc là một ý tưởng tốt. MVP cho phép chọn mục tiêu và AI tạo nhạc nền là rõ ràng."
+    },
+    {
+      "candidate_id": "BLIND_0076",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.0,
+        "prototype_willingness": 3.0
+      },
+      "short_rationale": "Ý tưởng về sàn giao dịch kỹ năng 'vô hình' được đánh giá bởi cộng đồng là mới lạ. Tuy nhiên, việc định lượng và chứng nhận các kỹ năng này một cách đáng tin cậy là một thách thức lớn."
+    },
+    {
+      "candidate_id": "BLIND_0082",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.0,
+        "prototype_willingness": 3.0
+      },
+      "short_rationale": "Ý tưởng xây dựng và thử nghiệm ngôn ngữ giả định là rất sáng tạo và mở rộng tư duy. MVP tập trung vào việc tạo từ đơn giản theo quy luật âm thanh là khả thi."
+    }
+  ]
+}

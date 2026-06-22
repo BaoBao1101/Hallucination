@@ -1,0 +1,47 @@
+[
+  {
+    "candidate_id": "BLIND_0034",
+    "domain": "Web App For Community Services",
+    "title": "Contextual Connotation Weaver",
+    "problem_or_desire": "Viết thông báo, bài đăng cộng đồng tưởng chừng đơn giản nhưng đôi khi lại dễ gây hiểu lầm sâu sắc vì không nhận ra ẩn ý nhạy cảm về giới, tuổi, văn hóa, hay tôn giáo mà người đọc sẽ cảm nhận.",
+    "core_concept": "Trình duyệt 'biên kịch con chữ', cho phép người dùng định hình sắc thái, hàm ý, và rung cảm của thông điệp cộng đồng trước khi công khai, dựa trên phân tích ngữ cảnh (contextual connotation) của văn bản.",
+    "proposed_approach": "Một công cụ phân tích văn bản dựa trên AI, giúp người dùng nhận diện các từ ngữ hoặc cấu trúc câu có thể gây hiểu lầm hoặc mang hàm ý tiêu cực không mong muốn trong ngữ cảnh giao tiếp cộng đồng. Công cụ sẽ đưa ra gợi ý chỉnh sửa để thông điệp trở nên rõ ràng và tôn trọng hơn. MVP tập trung vào ngôn ngữ Tiếng Việt và các chủ đề nhạy cảm phổ biến.",
+    "prototype_scope": "Một ứng dụng web đơn giản cho phép người dùng nhập một đoạn văn bản ngắn (ví dụ: dưới 300 ký tự). Công cụ AI sẽ phân tích các 'từ khóa cảm quan' và 'từ ngữ tiềm ẩn ngụ ý tiêu cực theo bối cảnh' (ví dụ: liên quan đến giới tính, tuổi tác, vùng miền). Công cụ sẽ đưa ra cảnh báo và gợi ý chỉnh sửa 1-2 từ hoặc cụm từ đơn giản để giảm thiểu nguy cơ hiểu lầm. Ban đầu, tập trung vào các chủ đề dễ 'cháy nổ' trong văn hóa Việt Nam."
+  },
+  {
+    "candidate_id": "BLIND_0007",
+    "domain": "Edtech",
+    "title": "Ngân Hàng Giấc Mơ Học Tập",
+    "problem_or_desire": "Cảm giác lãng phí thời gian tiềm năng trong giấc ngủ, mong muốn có được các bước đột phá sáng tạo hoặc thấu hiểu các chủ đề khó một cách 'tự nhiên' hơn.",
+    "core_concept": "Sử dụng giấc ngủ như một kênh tiềm năng để hỗ trợ học tập, bằng cách tác động nhẹ nhàng vào não bộ trong giai đoạn REM thông qua âm thanh/kích thích thị giác ẩn.",
+    "proposed_approach": "Một ứng dụng hỗ trợ giấc ngủ, sử dụng âm thanh và các kích thích thị giác nhẹ nhàng (ví dụ: ánh sáng nhấp nháy chậm) được thiết kế để tối ưu hóa môi trường ngủ và có thể hỗ trợ củng cố trí nhớ. Ứng dụng sẽ theo dõi chu kỳ giấc ngủ (qua cảm biến thiết bị đeo hoặc phân tích âm thanh) và phát các âm thanh/kích thích được thiết kế khoa học để hỗ trợ ghi nhớ thông tin đơn giản (ví dụ: từ vựng, công thức cơ bản) hoặc thúc đẩy trạng thái thư giãn, sáng tạo.",
+    "prototype_scope": "Một ứng dụng di động cung cấp các 'bản nhạc nền giấc ngủ' được thiết kế khoa học, có thể điều chỉnh theo giai đoạn giấc ngủ (nếu có tích hợp cảm biến). Ban đầu, tập trung vào việc hỗ trợ ghi nhớ 10-20 từ vựng mới mỗi đêm thông qua các chuỗi âm thanh lặp lại có tần số và nhịp điệu được tối ưu hóa."
+  },
+  {
+    "candidate_id": "BLIND_0051",
+    "domain": "Entertainment Services",
+    "title": "Vũ Điệu Ký Ức",
+    "problem_or_desire": "Nỗi buồn vì những ký ức phai mờ, mong muốn sống lại trọn vẹn những cảm xúc đặc biệt, khát khao chia sẻ câu chuyện cá nhân độc đáo không qua lời kể suông.",
+    "core_concept": "Một nền tảng AR/VR tái tạo 'kịch bản cảm xúc' từ ký ức có thật của người dùng, biến ký ức thành trải nghiệm giải trí nhập vai cá nhân hóa.",
+    "proposed_approach": "Người dùng cung cấp các mô tả chi tiết về ký ức (hình ảnh, âm thanh, mùi vị giả định, cảm xúc chủ đạo), AI sẽ diễn giải và tạo ra môi trường AR/VR gợi nhớ (hoặc cường điệu hóa một cách nghệ thuật) các yếu tố đó, cho phép người dùng 'bước vào' ký ức của mình.",
+    "prototype_scope": "Một mini-demo cho phép tạo một cảnh AR đơn giản với vài yếu tố xúc giác ảo dựa trên 3-5 ký ức chủ đề ngắn."
+  },
+  {
+    "candidate_id": "BLIND_0005",
+    "domain": "Coffee Services",
+    "title": "Cà Phê Tương Lai: Dịch Vụ Cà Phê Tùy Chỉnh Hoàn Toàn Bằng AI",
+    "problem_or_desire": "Sự mệt mỏi khi phải đưa ra quyết định về cà phê mỗi ngày; mong muốn có một 'trợ lý cà phê' thông minh có thể hiểu và đáp ứng mọi nhu cầu một cách liền mạch.",
+    "core_concept": "Một nền tảng cà phê siêu cá nhân hóa, nơi AI không chỉ đề xuất mà còn tự động thiết kế và pha chế ly cà phê hoàn hảo dựa trên hàng trăm yếu tố đầu vào, từ sở thích, lịch trình, đến các yếu tố môi trường và sức khỏe.",
+    "proposed_approach": "Người dùng thiết lập hồ sơ chi tiết ban đầu (sở thích hương vị, mức độ caffeine, dị ứng, mục tiêu sức khỏe). AI liên tục thu thập dữ liệu bổ sung (lịch trình, thời tiết, dữ liệu sức khỏe từ thiết bị đeo, phản hồi về các ly cà phê trước đó). Dựa trên tất cả dữ liệu này, AI sẽ tạo ra một công thức cà phê độc đáo cho từng lần uống, sau đó gửi lệnh đến một máy pha cà phê tự động thông minh (có thể tại nhà hoặc tại các điểm dịch vụ) để pha chế chính xác.",
+    "prototype_scope": "Một ứng dụng AI đề xuất công thức cà phê dựa trên mô tả chi tiết của người dùng, sau đó người dùng tự pha chế theo hướng dẫn hoặc đặt mua nguyên liệu pha chế đặc biệt."
+  },
+  {
+    "candidate_id": "BLIND_0044",
+    "domain": "Edtech",
+    "title": "Phản Tỉnh Nghịch Cảnh",
+    "problem_or_desire": "Nỗi sợ đưa ra quyết định sai lầm về sự nghiệp, mong muốn thử nghiệm các phương án mà không phải chịu hậu quả trong thực tế, cần thấy rõ những hệ quả lâu dài của một quyết định 'hơi hướng tà'",
+    "core_concept": "Khám phá các ngã rẽ sự nghiệp tiềm năng và hậu quả của các quyết định cá nhân thông qua mô phỏng, nhằm thúc đẩy nhận thức và tư duy chiến lược.",
+    "proposed_approach": "Một công cụ tư vấn nghề nghiệp dựa trên mô phỏng kịch bản. Người dùng nhập thông tin về mục tiêu nghề nghiệp, kỹ năng, và các quyết định quan trọng đã đưa ra. AI sẽ tạo ra các kịch bản 'nếu như' (what-if scenarios) dựa trên các yếu tố có thể thay đổi (ví dụ: 'Nếu bạn chọn ngành A thay vì B', 'Nếu bạn chấp nhận lời đề nghị làm việc đó'). Các kịch bản này sẽ mô tả các kết quả có thể xảy ra dựa trên các mô hình phát triển sự nghiệp và phân tích rủi ro cơ bản, giúp người dùng su…",
+    "prototype_scope": "Một ứng dụng web đơn giản, tập trung vào việc mô phỏng 1-2 quyết định nghề nghiệp quan trọng (ví dụ: chọn ngành học, chấp nhận/từ chối một lời mời làm việc). Người dùng nhập thông tin cơ bản, và AI sẽ tạo ra 2-3 kịch bản 'nếu như' với các kết quả mô tả ngắn gọn về tác động tiềm năng đến sự nghiệp."
+  }
+]

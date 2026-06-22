@@ -1,0 +1,64 @@
+{
+  "evaluations": [
+    {
+      "pair_id": "PAIRBLIND_0011",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "Practical revision successfully narrows the scope to a more achievable MVP by focusing on ambient soundscapes and removing the 'nonsense speech' element. It retains the core idea of personalized, AI-generated sound environments while making it more concrete for prototyping."
+    },
+    {
+      "pair_id": "PAIRBLIND_0012",
+      "scores": {
+        "creative_core_preservation": 5.0,
+        "novelty_retention": 5.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 5.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "The practical revision maintains the core concept of a simulation game linking skin issues to emotional states, while simplifying the prototype scope to focus on basic treatments and AI-suggested massages. This makes it more feasible to build and test."
+    },
+    {
+      "pair_id": "PAIRBLIND_0013",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "The revision refines the core idea by focusing on a QR code linking to information rather than a complex 'hidden catalog' or 'fake scientific names'. This makes the prototype more practical by simplifying the user interaction and information delivery."
+    },
+    {
+      "pair_id": "PAIRBLIND_0014",
+      "scores": {
+        "creative_core_preservation": 3.0,
+        "novelty_retention": 3.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 2.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "The practical revision shifts the focus from a fully interactive AI persona to a more manageable data organization and timeline generation tool. While this improves practicality, it slightly dilutes the original 'ask questions to a digital version of your ancestor' core concept."
+    },
+    {
+      "pair_id": "PAIRBLIND_0015",
+      "scores": {
+        "creative_core_preservation": 5.0,
+        "novelty_retention": 5.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 5.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "B",
+      "short_rationale": "The revision retains the core concept of a marketplace for creators' digital assets but replaces the internal token with standard currency for the MVP. This makes the prototype much more practical and easier to implement initially."
+    }
+  ]
+}

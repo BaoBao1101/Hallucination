@@ -1,0 +1,101 @@
+[
+  {
+    "candidate_id": "BLIND_0030",
+    "domain": "Edtech",
+    "title": "Hệ Thống Phản Hồi Kiến Thức Đa Giác Quan",
+    "problem_or_desire": "Khó khăn trong việc hình dung và cảm nhận các khái niệm trừu tượng (ví dụ: cấu trúc phân tử, sóng âm, dòng chảy năng lượng). Mong muốn học tập trở nên sống động và dễ cảm nhận hơn.",
+    "core_concept": "Một nền tảng học tập sử dụng các thiết bị ngoại vi (haptic feedback, mùi hương, ánh sáng) để tạo ra trải nghiệm học tập đa giác quan, giúp người học hiểu sâu sắc các khái niệm trừu tượng và thực tế.",
+    "proposed_approach": "Khi học về một chủ đề, người học có thể sử dụng các thiết bị đi kèm: găng tay haptic để 'cảm nhận' hình dạng phân tử, một thiết bị phát ra mùi hương đặc trưng của một loài thực vật khi học về sinh học, hoặc một hệ thống đèn thay đổi màu sắc và cường độ để mô phỏng các trạng thái năng lượng. AI sẽ điều phối các tín hiệu này dựa trên nội dung bài học.",
+    "prototype_scope": "Một mô phỏng phân tử nước trên máy tính, nơi người dùng có thể dùng chuột để 'kéo' các nguyên tử lại gần nhau và cảm nhận một lực cản nhẹ (haptic feedback) khi chúng ở gần nhau, kèm theo một âm thanh mô phỏng liên kết hydro."
+  },
+  {
+    "candidate_id": "BLIND_0051",
+    "domain": "Edtech",
+    "title": "Nhà Huấn Luyện Kỹ Năng Sống Tương Lai",
+    "problem_or_desire": "Sự lo lắng về tương lai bất định, thiếu kỹ năng đối phó với các vấn đề phức tạp, mơ hồ, và chưa từng xảy ra. Mong muốn được trang bị 'vũ khí' tinh thần để thành công.",
+    "core_concept": "Một nền tảng huấn luyện kỹ năng mềm và tư duy phản biện thông qua các tình huống giả lập 'siêu thực tế' được tạo ra bởi AI, chuẩn bị cho người học đối mặt với các thách thức chưa từng có trong tương lai.",
+    "proposed_approach": "Hệ thống AI tạo ra các kịch bản 'what-if' về tương lai (ví dụ: 'Bạn là người quản lý khủng hoảng khi một loại virus mới biến đổi gen xuất hiện và ảnh hưởng đến trí nhớ con người', 'Bạn phải đàm phán với một nền văn minh ngoài hành tinh về tài nguyên nước trên Trái Đất'). Người học đưa ra quyết định, và AI sẽ mô phỏng hậu quả dựa trên các mô hình phức tạp, đồng thời cung cấp phản hồi về tư duy và kỹ năng đã thể hiện.",
+    "prototype_scope": "Một công cụ web cho phép người dùng nhập một 'thảm họa tương lai' (ví dụ: 'thiếu hụt oxy toàn cầu') và AI sẽ tạo ra 3 câu hỏi tình huống để người dùng trả lời, sau đó đưa ra nhận xét ngắn gọn về logic của câu trả lời."
+  },
+  {
+    "candidate_id": "BLIND_0045",
+    "domain": "Offline 2D Game",
+    "title": "Kiến Trúc Vật Lý Yểu Điệu Giữ Nước Rươi Dây",
+    "problem_or_desire": "Sự thất vọng khi các game 'hệ sinh thái/sinh vật' dừng ở quy mô macro, bỏ qua phức tạp của thế giới vi mô. Nỗi thôi thúc điều khiển được luồng chảy vật chất và sự sống ở tầng độ cơ bản nhất.",
+    "core_concept": "Game chiến lược thời gian thực (RTS) tập trung vào việc thiết kế và xây dựng các cấu trúc phức tạp dựa trên các nguyên lý sinh hóa và vật lý mô phỏng ở cấp độ vi mô. Người chơi điều khiển luồng chảy vật chất và năng lượng thông qua việc kết hợp các 'module' chức năng.",
+    "proposed_approach": "Một game chiến lược 2D nơi người chơi thiết kế và triển khai các 'module chức năng' (tương tự các đơn vị hoặc công trình trong RTS) để thu thập tài nguyên, phòng thủ hoặc tấn công. Các module này tương tác với nhau và môi trường dựa trên các quy tắc mô phỏng (ví dụ: lan truyền chất, phản ứng hóa học đơn giản). Người chơi cần tối ưu hóa sự kết hợp và vị trí của các module để đạt được mục tiêu.",
+    "prototype_scope": "Một bản đồ nhỏ với một 'Nguồn Sinh Khí' duy nhất. Người chơi được cung cấp 3 loại 'Module Chức Năng' cơ bản (ví dụ: Module Thu Thập, Module Chuyển Hóa, Module Phòng Thủ). Nhiệm vụ là đặt các module này theo một trình tự nhất định để thu thập tài nguyên từ nguồn sinh khí và chống lại một mối đe dọa đơn giản (ví dụ: một loại 'sinh vật địch' di chuyển theo đường cố định)."
+  },
+  {
+    "candidate_id": "BLIND_0040",
+    "domain": "Artificial Intelligence App",
+    "title": "Mô Phỏng Giấc Mơ Tùy Chỉnh",
+    "problem_or_desire": "Mong muốn điều khiển thế giới giấc mơ của bản thân, trải nghiệm lại những khoảnh khắc quá khứ, hoặc khám phá những ý tưởng phi thực tế trong môi trường an toàn.",
+    "core_concept": "Tạo và truy cập những giấc mơ được tùy chỉnh theo cảm xúc, nguyện vọng và trí tưởng tượng của bạn một cách độc đáo.",
+    "proposed_approach": "Một ứng dụng AI cho phép người dùng đầu vào các thông số về cảm xúc mong muốn, hình ảnh, hoặc câu chuyện dẫn. AI sẽ tổng hợp dữ liệu đó để tạo ra một môi trường giấc mơ mô phỏng, có thể điều chỉnh thông qua phản hồi non-stop (tín hiệu sinh học cơ bản) khi người dùng theo dõi hoặc định hướng giấc mơ.",
+    "prototype_scope": "Người dùng mô tả mong muốn giấc mơ (văn bản), AI tạo ra chuỗi hình ảnh/video và âm thanh ngắn theo chủ đề."
+  },
+  {
+    "candidate_id": "BLIND_0079",
+    "domain": "Online Business",
+    "title": "Thư Viện Giấc Mơ Tùy Chỉnh",
+    "problem_or_desire": "Mong muốn kiểm soát hoặc định hình trải nghiệm giấc mơ, sự tò mò về tiềm thức, nhu cầu về một hình thức giải trí hoàn toàn mới lạ và cá nhân hóa, hoặc mong muốn thoát ly khỏi thực tại một cách an toàn.",
+    "core_concept": "Một nền tảng trực tuyến cho phép người dùng thiết kế, ghi lại và trải nghiệm những giấc mơ được cá nhân hóa thông qua các yếu tố âm thanh, hình ảnh và kể chuyện được AI tạo ra.",
+    "proposed_approach": "Một ứng dụng web/di động nơi người dùng chọn chủ đề, cảm xúc, nhân vật, bối cảnh và các yếu tố khác. AI sẽ tạo ra một 'kịch bản giấc mơ' dưới dạng chuỗi âm thanh, hình ảnh động đơn giản và văn bản dẫn chuyện, được thiết kế để phát trong khi ngủ (có thể qua tai nghe đặc biệt hoặc loa phát âm thanh nhẹ nhàng).",
+    "prototype_scope": "Một công cụ tạo kịch bản giấc mơ đơn giản dựa trên các mẫu có sẵn (ví dụ: 'Giấc mơ phiêu lưu trong rừng', 'Giấc mơ thư giãn trên bãi biển') với âm thanh nền và hình ảnh tĩnh được AI tạo ra."
+  },
+  {
+    "candidate_id": "BLIND_0109",
+    "domain": "Game Mobile",
+    "title": "Vũ Trụ Từ Vựng Trộm Lửa: Kỹ Năng Ngôn Ngữ Giao thoa Sức Mạnh Ẩn Danh",
+    "problem_or_desire": "Sự bó buộc bởi từ vựng hạn chế làm cản trở khả năng sáng tạo, phân tích và ra quyết định, cả trong đời thực lẫn thế giới số. Nhu cầu 'giải phóng' tư duy bằng khả năng liên kết từ ngữ linh hoạt hơn; đặc biệt là ở những tình huống căng thẳng hoặc áp lực cao mà bình thường ít dám tự tin dùng lời lẽ của mình.",
+    "core_concept": "Một game ARPG nơi sức mạnh phép thuật được tạo ra từ việc kết hợp từ ngữ, xây dựng vốn từ vựng và khả năng diễn đạt của người chơi.",
+    "proposed_approach": "Một game mobile ARPG tập trung vào cơ chế chiến đấu độc đáo, nơi người chơi tạo ra các 'câu thần chú' bằng cách kết hợp các từ khóa có liên quan ngữ nghĩa hoặc logic ẩn. Game sẽ có một hệ thống từ điển mở rộng, khuyến khích người chơi học từ mới và hiểu sâu hơn về cách sử dụng ngôn từ. Sức mạnh của phép thuật sẽ phụ thuộc vào sự phong phú và sáng tạo trong cách người chơi kết hợp từ ngữ.",
+    "prototype_scope": "Một giao diện chiến đấu đơn giản với một từ khóa cơ bản 'HƠI NÓNG' và môi trường game 'Thiên Thu Vụn'. Người chơi có 5 đòn đánh (trừ, phép khống chế) cần combo từ + hệ ký tự phụ. Người chơi chọn 2 trong 20 ô (ví dụ: các địa điểm trừu tượng như 'quán cafe chạng vạng', 'cửa hàng sửa móng tay cóc nhái') để kích hoạt các từ khóa liên quan, từ đó tạo ra hiệu ứng phép thuật."
+  },
+  {
+    "candidate_id": "BLIND_0039",
+    "domain": "Edtech",
+    "title": "Chợ Cổ Sinh Thái Nội Tại",
+    "problem_or_desire": "Sự trừu tượng hóa của kiến thức lịch sử/sinh học sâu sắc khiến nó khó hình dung và thiếu đi sự đồng cảm sâu sắc với các quá trình vận động hàng triệu năm.",
+    "core_concept": "Trải nghiệm học tập nhập vai, cho phép người học hóa thân và chủ động tương tác với các giai đoạn lịch sử tiến hóa của sinh vật/hiện tượng cổ đại để hiểu bài học. Kết nối giữa game mô phỏng và elearning gamified.",
+    "proposed_approach": "Một nền tảng elearning gamified, tập trung vào việc tái hiện lịch sử tiến hóa của một vài sinh vật/hiện tượng cổ đại tiêu biểu (ví dụ: Trilobite, Amonite). Thay vì mô phỏng 3D phức tạp, sử dụng các infographic tương tác, video hoạt hình ngắn, và các mini-game mô phỏng các giai đoạn sinh tồn quan trọng (ví dụ: tìm kiếm thức ăn, tránh kẻ săn mồi, thích nghi với môi trường thay đổi). AI sẽ hỗ trợ tạo ra các câu chuyện tương tác dựa trên dữ liệu khoa học, và cá nhân hóa lộ trình…",
+    "prototype_scope": "Một ứng dụng web/mobile đơn giản, tập trung vào một sinh vật cổ đại (ví dụ: Trilobite). Người dùng sẽ tương tác qua các câu hỏi trắc nghiệm, lựa chọn hành động trong các tình huống sinh tồn giả định, và xem các đoạn hoạt hình/infographic giải thích về quá trình tiến hóa và môi trường sống của Trilobite qua các kỷ."
+  },
+  {
+    "candidate_id": "BLIND_0080",
+    "domain": "Edtech",
+    "title": "Ngân Hàng Giấc Mơ Học Tập",
+    "problem_or_desire": "Cảm giác lãng phí thời gian tiềm năng trong giấc ngủ, mong muốn có được các bước đột phá sáng tạo hoặc thấu hiểu các chủ đề khó một cách 'tự nhiên' hơn.",
+    "core_concept": "Sử dụng giấc ngủ như một kênh tiềm năng để hỗ trợ học tập, bằng cách tác động nhẹ nhàng vào não bộ trong giai đoạn REM thông qua âm thanh/kích thích thị giác ẩn.",
+    "proposed_approach": "Một ứng dụng hỗ trợ giấc ngủ, sử dụng âm thanh và các kích thích thị giác nhẹ nhàng (ví dụ: ánh sáng nhấp nháy chậm) được thiết kế để tối ưu hóa môi trường ngủ và có thể hỗ trợ củng cố trí nhớ. Ứng dụng sẽ theo dõi chu kỳ giấc ngủ (qua cảm biến thiết bị đeo hoặc phân tích âm thanh) và phát các âm thanh/kích thích được thiết kế khoa học để hỗ trợ ghi nhớ thông tin đơn giản (ví dụ: từ vựng, công thức cơ bản) hoặc thúc đẩy trạng thái thư giãn, sáng tạo.",
+    "prototype_scope": "Một ứng dụng di động cung cấp các 'bản nhạc nền giấc ngủ' được thiết kế khoa học, có thể điều chỉnh theo giai đoạn giấc ngủ (nếu có tích hợp cảm biến). Ban đầu, tập trung vào việc hỗ trợ ghi nhớ 10-20 từ vựng mới mỗi đêm thông qua các chuỗi âm thanh lặp lại có tần số và nhịp điệu được tối ưu hóa."
+  },
+  {
+    "candidate_id": "BLIND_0064",
+    "domain": "Game Mobile",
+    "title": "Chiếc Hộp Ký Ức: Phục Dựng Kỷ Niệm Cổ Xưa Qua Góc Nhìn Người Cháu",
+    "problem_or_desire": "Sự mơ hồ hoặc thiếu sót thông tin về cuộc sống của thế hệ ông bà, cha mẹ; nỗi trống vắng về mặt lịch sử cá nhân/gia đình. Khao khát có một 'lối vào' trực quan, cảm xúc, không áp lực vào quá khứ của những người mình yêu thương.",
+    "core_concept": "Một game giải đố/phiêu lưu bí ẩn, nơi người chơi sử dụng 'kính hiển vi thời gian số' (hệ thống gợi ý/sắp xếp/ghi nhớ) để xâu chuỗi các mẩu tin, tài liệu, ảnh chụp và âm thanh 'chắp vá' thu thập được, khám phá câu chuyện đời thường của một người thân đã khuất.",
+    "proposed_approach": "Một studio game nhỏ: người chơi nhận nhiệm vụ từ 'Góc Sáng Chế Tác Tường Thuật'. Họ cung cấp ảnh, tài liệu PDF, file ghi âm (có thể là từ máy thành viên gia đình tự thu thập, hoặc kho dữ liệu của game thử nghiệm). Game sử dụng các công cụ phục dựng có hỗ trợ AI: tạo ảnh động từ ảnh tĩnh, tô màu cho ảnh đen trắng, làm rõ file âm thanh bị nhiễu, tự sinh thoại/tường thuật dựa trên mô tả 'hoàn cảnh' của văn bản.",
+    "prototype_scope": "Một thư mục chứa 10 cặp ảnh/mẩu thư có mối liên hệ logic mỏng. Game sẽ : 1) Tự động tô màu/làm nét sơ bộ cho 5 cặp ảnh có sẵn. 2) 2 mẩu thư với nội dung được AI (giả định prompt cũ) đọc và chuyển sang dạng đối thoại ngắn, *tương tác với nhau*. Lật mở 1 cặp thông tin, giải khóa đối thoại số 2, mở khóa text/ảnh kế tiếp."
+  },
+  {
+    "candidate_id": "BLIND_0007",
+    "domain": "Game Mobile",
+    "title": "Biện Phép Thoát Hiểm Bản Năng Nguyên Thủy: Tĩnh tâm qua Sức mạnh Trí nhớ Chậm Phản Tư'",
+    "problem_or_desire": "Cuộc sống hiện đại quá nhanh, nông cạn, gây căng thẳng thần kinh; khiến con người mất đi kết nối sâu sắc với bản ngã. Khao khát tìm một không gian \"hiện sinh tỉnh thức\" mà không đòi hỏi quá nhiều công sức hay kỹ năng từ phía người chơi, cho phép thụ động \"cài đặt\" và 'vận hành sự bình an nội tại'.",
+    "core_concept": "Một game idle/narrative kết hợp yếu tố ASMR, nơi người chơi dẫn dắt một nhân vật 'trôi nổi trong ký ức tiềm thức', từ từ vượt qua các rào cản tâm lý bằng cách thao tác với dòng thời gian (quay/lùi/tua) ở các mốc lịch sử cảm xúc, và thụ động 'thu hoạch' kiến thức sâu sắc ẩn trong những bài học chậm rãi, thiền tịnh.",
+    "proposed_approach": "Game có thể coi là 1 mô hình 'hóa giải quá khứ' chậm & 'cấu trúc tiềm thức', không cốt truyện dẫn dắt phức tạp, mà bạn làm nhiệm vụ theo 'cánh đồng ký ức đã hiện ra'. Các mốc kí ức về một thứ mà giờ đây 'gặp'' là có cảm giác chung đó có hay ko. Nhất là đối tượng *luôn thấy thiếu mình trước đây*. Các công cụ của bạn là 'Chạm,' 'Thả Lỏng,' 'Du Hành Thời Gian' (mỗi cấp sẽ mở dần), với những nút làm như cũ để chơi từ cấp thấp. Cách của game có cả những mốc kí ức lặp đi lặp lại,…",
+    "prototype_scope": "Trong một màn chơi 'Đám mây Trạng thái Kí ức', với một kiểu ký tự 'Lá Úa'. Người chơi bấm nút 'Gợi nhớ', game diễn hoạt *dường như nó chầm chậm bay trong không trung mờ ảo .Sau thời gian nhất định nó xuất hiện 2 câu text triết lí đơn giản về mất mát: ví dụ 'Cuộc đời luôn để lại vết tích trên đó, quan trọng là ta tìm thấy gì sau khi dấu vết nó lui vào tăm tối?'. Nút để ‘thu hoạch’ câu nói, cho nó trơ vào mục lục thu thập 'Kính ngắm'. Khai thác không bị hạn chế: bạn cứ đắm chì…"
+  },
+  {
+    "candidate_id": "BLIND_0012",
+    "domain": "Online Business",
+    "title": "AI Trợ Lý Vũ Trụ Đa Vị Lai",
+    "problem_or_desire": "Nỗi sợ đưa ra quyết định sai lầm và ân hận về sau; áp lực thành công cá nhân trong một thế giới quá nhanh; mong muốn có trí tuệ 'tinh lọc' từ kinh nghiệm của tương lai.",
+    "core_concept": "Cung cấp cho người dùng góc nhìn từ các 'phiên bản tương lai' giả định của chính họ để hỗ trợ việc ra quyết định trong hiện tại, mang lại sự suy tưởng phản biện và khôn ngoan thực tế.",
+    "proposed_approach": "Một ứng dụng web nơi người dùng mô tả một tình huống/lựa chọn hiện tại. AI, dựa trên các prompt được thiết kế cẩn thận, sẽ đưa ra 'quan điểm' hoặc 'lời khuyên' dưới dạng một hoặc hai 'nhân cách tương lai' giả định (ví dụ: 'bạn của 5 năm tới tập trung vào sự nghiệp', 'bạn của 5 năm tới tập trung vào cuộc sống cá nhân'). Các nhân cách này sẽ đưa ra lời khuyên dựa trên các kịch bản giả định về hành trình cuộc sống của họ, tập trung vào việc khám phá các khía cạnh khác nhau của…",
+    "prototype_scope": "Một trang web đơn giản cho phép người dùng nhập một câu hỏi về quyết định (ví dụ: 'Nên chuyển ngành hay không?'). AI sẽ trả lời dưới góc nhìn của một 'phiên bản tương lai' duy nhất được xác định trước (ví dụ: 'bạn của 10 năm tới, đã thành công trong lĩnh vực X'). Lời khuyên sẽ tập trung vào việc phân tích các yếu tố liên quan đến quyết định đó từ góc nhìn của 'phiên bản tương lai'."
+  }
+]

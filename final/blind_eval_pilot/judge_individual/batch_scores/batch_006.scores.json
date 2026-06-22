@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "stage": "blind_individual_metric_judge",
+    "judge_model": "gemini-2.5-flash-lite",
+    "temperature": 0.0,
+    "top_p": 0.1,
+    "batch_source": "blind_eval_pilot\\batches\\batch_006.json",
+    "created_at": "2026-06-21T19:23:16"
+  },
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0004",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng tạo 'vũ trụ âm thanh' cá nhân hóa rất mới lạ và hấp dẫn. MVP rõ ràng, nhưng việc AI liên tục tạo âm thanh theo thời gian thực dựa trên nhiều cảm biến có vẻ tham vọng về mặt kỹ thuật."
+    },
+    {
+      "candidate_id": "BLIND_0036",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Kết nối kiến thức với cảm xúc để tăng khả năng ghi nhớ là một concept mạnh mẽ và có tiềm năng. MVP module học từ vựng rất cụ thể và khả thi, nhưng việc 'tẩm ướp' cảm xúc một cách hiệu quả cần được chứng minh."
+    },
+    {
+      "candidate_id": "BLIND_0027",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Giải quyết nhu cầu tạo nhạc cá nhân hóa với chi phí thấp là rất thực tế. MVP tập trung vào việc tạo đoạn nhạc demo dựa trên các yếu tố đầu vào là rõ ràng, nhưng chất lượng và sự độc đáo của nhạc AI tạo ra cần được kiểm chứng."
+    },
+    {
+      "candidate_id": "BLIND_0041",
+      "scores": {
+        "novelty": 5.0,
+        "conceptual_coherence": 2.0,
+        "user_pain_plausibility": 2.5,
+        "technical_plausibility": 1.0,
+        "mvp_clarity": 1.0,
+        "business_model_plausibility": 1.0,
+        "unsupported_claim_risk": 4.0,
+        "ethical_privacy_risk": 3.0,
+        "overall_mvp_usefulness": 1.0,
+        "prototype_willingness": 1.0
+      },
+      "short_rationale": "Ý tưởng cà phê 'tương tác' với AI là cực kỳ độc đáo nhưng thiếu tính khả thi về mặt kỹ thuật và logic. MVP mô tả không rõ ràng và khó hình dung cách thực hiện, đồng thời có rủi ro cao về claim chưa được hỗ trợ."
+    },
+    {
+      "candidate_id": "BLIND_0055",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Trải nghiệm VR du hành thời gian để học lịch sử là một ý tưởng hấp dẫn và có tính sư phạm cao. MVP tham quan chợ La Mã với tương tác cơ bản là rất rõ ràng và khả thi để thử nghiệm."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "candidate_id": "BLIND_0023",
+    "domain": "Entertainment Services",
+    "title": "Festival Tâm Thức Đám Đông",
+    "problem_or_desire": "Cảm giác đơn độc dù ở giữa đám đông ảo, thiếu khả năng thực sự tác động đến môi trường xung quanh trong game, mong muốn tham gia vào một thứ gì đó lớn lao và có tính kiến tạo chung.",
+    "core_concept": "Ý tưởng về việc tạo ra một không gian metaverse nơi người dùng có thể cùng nhau kiến tạo và định hình môi trường ảo dựa trên suy nghĩ và cảm xúc tập thể. Khai thác nhu cầu kết nối xã hội, trải nghiệm sáng tạo chung và cảm giác thuộc về một thứ gì đó lớn lao.",
+    "proposed_approach": "Một nền tảng metaverse VR/web cho phép một nhóm người dùng (vài trăm đến vài nghìn) cùng nhau tương tác để định hình một không gian ảo theo chủ đề của một 'sự kiện' (ví dụ: 'khu vườn yên bình', 'thành phố tương lai'). Người dùng có thể đóng góp các yếu tố đơn giản (ví dụ: chọn màu sắc, âm thanh, hình dạng cơ bản) và AI sẽ tổng hợp chúng để tạo ra một cảnh quan ảo động, thay đổi dần theo sự đóng góp của cộng đồng. Trải nghiệm tập trung vào sự hợp tác và chứng kiến sự thay đổi…",
+    "prototype_scope": "Một ứng dụng web hoặc VR đơn giản cho phép một nhóm nhỏ người dùng (khoảng 50-100) cùng tham gia vào một 'sự kiện' định hình không gian ảo. Ví dụ: sự kiện 'Vườn Mơ' nơi người dùng có thể chọn 'loại hoa', 'màu sắc', 'âm thanh' yêu thích. AI sẽ tổng hợp các lựa chọn này để tạo ra một khu vườn ảo động, thay đổi theo thời gian thực. Giao diện hiển thị số lượng người tham gia và các yếu tố đang được đóng góp nhiều nhất."
+  },
+  {
+    "candidate_id": "BLIND_0019",
+    "domain": "Coffee Services",
+    "title": "Ancestral Coffee Timekeepers (ACT)",
+    "problem_or_desire": "Cảm giác đứt gãy kết nối với cội nguồn, mong muốn tưởng nhớ và gìn giữ di sản văn hóa/lịch sử gia đình theo một cách ý nghĩa và sống động.",
+    "core_concept": "Tạo ra những bộ kit 'bộ nhớ cà phê thời gian', cho phép người dùng pha cà phê nhớ về thế hệ trước qua những phong cách pha, âm nhạc, kể chuyện lịch sử địa phương, và nhật ký trực quan (viz-journals) liên quan đến dòng cà phê đó.",
+    "proposed_approach": "Mỗi bộ 'Ancestor's Brew Kit' sẽ có: Hạt cà phê nguồn gốc rõ ràng (ví dụ: vùng Cầu Đất Sapa ngàn năm trước, hay từ một dòng tộc cà phê huyền thoại của gia tộc) VÍ NỘI DUNG NHẬP LUÔN BAO GỒM; + Playlist 'Nhạc xưa': tuyển tập các bản nhạc, hơi có hướng sử hay là một trong số ít bản ‘hot hit’ đã từng vang lên đâu đó một khu vực, có cách nó càng hay hơn nữa để diễn ra. + 'Sổ kí ức visualised journal': bản thảo được viết bởi người bán theo lối cũ gồm mẩu chuyện thực, mẩu truyện \"c…",
+    "prototype_scope": "Tạo ra một gói 'di sản ảo'. Khi bạn nhập 5 thông tin (họ của mẹ bạn, một món ăn bạn thích hay gợi nhớ gì đến 'mẹ,' tên bố bạn, và một địa danh gắn liền vớilichsu). AI-chạy nó có cái gọi 'thôi miên,' bạn sẽ pha cho ly cà phê theo kiểu rất cổ mà trước ta mọi dân đi ‘bán buôn nước hai’ rất hay thường đi."
+  },
+  {
+    "candidate_id": "BLIND_0037",
+    "domain": "Entertainment Services",
+    "title": "Thế Giới Kịch Bản Sống",
+    "problem_or_desire": "Sự nhàm chán với cốt truyện tuyến tính, mong muốn được thực sự 'sống' trong một câu chuyện, khao khát có ảnh hưởng thực sự đến thế giới ảo.",
+    "core_concept": "Một nền tảng cho phép người dùng tham gia vào các câu chuyện tương tác theo thời gian thực, nơi hành động của họ định hình cốt truyện và nhân vật AI phản ứng một cách tự nhiên và phức tạp.",
+    "proposed_approach": "Xây dựng các 'thế giới kịch bản' ảo nơi người dùng có thể nhập vai vào một nhân vật hoặc tương tác với các nhân vật AI. Các nhân vật AI này được điều khiển bởi LLMs tiên tiến, có mục tiêu, ký ức, và khả năng phản ứng linh hoạt với mọi hành động của người dùng, dẫn đến các nhánh cốt truyện không lường trước.",
+    "prototype_scope": "Một kịch bản tương tác đơn giản với một vài nhân vật AI, nơi người dùng có thể đặt câu hỏi và đưa ra yêu cầu bằng văn bản."
+  },
+  {
+    "candidate_id": "BLIND_0049",
+    "domain": "Web App For Community Services",
+    "title": "Whispering Walls AR Historian",
+    "problem_or_desire": "Cảm giác không được kết nối với dòng chảy lịch sử khi tham quan các địa điểm (đặc biệt là những nơi cũ đã qua trùng tu, thay đổi mục đích). Bỏ lỡ cơ hội khám phá sâu hơn ngoài những thông tin biển bảng chung chung.",
+    "core_concept": "Ứng dụng WebAR có khả năng nghe lại 'lời thì thầm' lịch sử của các tòa nhà và địa điểm công cộng qua âm thanh được kích hoạt vị trí, không yêu cầu AR marker phức tạp.",
+    "proposed_approach": "Một ứng dụng web sử dụng định vị GPS và nhận dạng hình ảnh cơ bản để kích hoạt các đoạn âm thanh lịch sử hoặc thông tin văn bản/hình ảnh tại các địa điểm công cộng. Tập trung vào việc biên soạn nội dung âm thanh hấp dẫn và đảm bảo trải nghiệm người dùng mượt mà trên các thiết bị di động phổ thông.",
+    "prototype_scope": "Một ứng dụng web cho phép người dùng mở trên điện thoại khi ở gần một vài địa điểm lịch sử đã chọn. Ứng dụng sử dụng GPS để xác định vị trí tương đối và có thể yêu cầu người dùng hướng camera về một đặc điểm kiến trúc đơn giản (ví dụ: cửa chính, ban công) để kích hoạt một đoạn âm thanh kể chuyện lịch sử ngắn (2-3 phút) hoặc hiển thị ảnh cũ. Nội dung ban đầu được biên soạn thủ công."
+  },
+  {
+    "candidate_id": "BLIND_0003",
+    "domain": "Coffee Services",
+    "title": "Cà Phê Sinh Thái Tự Lắp Ráp: Grow-Your-Own-Coffee Kit Thế Hệ Mới",
+    "problem_or_desire": "Mong muốn có cà phê 'sạch', bền vững, và trải nghiệm thú vị khi tự tay làm ra sản phẩm, nhưng thiếu kiến thức, không gian, hoặc công cụ để trồng và chế biến cà phê.",
+    "core_concept": "Cung cấp bộ kit trồng cà phê tại nhà thông minh, tích hợp công nghệ IoT và AI để hướng dẫn người dùng chăm sóc cây cà phê từ hạt đến khi thu hoạch, biến việc trồng cà phê thành một trải nghiệm giáo dục và bền vững.",
+    "proposed_approach": "Bộ kit bao gồm hạt giống cà phê chất lượng cao, đất hữu cơ, chậu thông minh tích hợp cảm biến (độ ẩm, ánh sáng, nhiệt độ, dinh dưỡng). Một ứng dụng di động kết nối với các cảm biến này, sử dụng AI để phân tích dữ liệu và đưa ra hướng dẫn chi tiết, kịp thời cho người dùng (khi nào tưới, bón phân, đặt ở đâu). Ứng dụng cũng cung cấp thông tin về các giai đoạn phát triển của cây và hướng dẫn sơ chế hạt cà phê sau khi thu hoạch.",
+    "prototype_scope": "Một bộ kit trồng cây cà phê cơ bản với hướng dẫn chi tiết bằng hình ảnh và video, không có cảm biến IoT, nhưng có một cộng đồng online để người dùng chia sẻ kinh nghiệm."
+  }
+]

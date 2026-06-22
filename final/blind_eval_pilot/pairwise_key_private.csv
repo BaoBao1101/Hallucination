@@ -1,0 +1,21 @@
+﻿pair_id,pair_key,domain,raw_candidate_id,distilled_candidate_id
+PAIRBLIND_0001,PAIR::edtech::I004,Edtech,BLIND_0048,BLIND_0044
+PAIRBLIND_0002,PAIR::edtech::I003,Edtech,BLIND_0017,BLIND_0020
+PAIRBLIND_0003,PAIR::web_app_for_community_services::I003,Web App For Community Services,BLIND_0001,BLIND_0049
+PAIRBLIND_0004,PAIR::web_app_for_community_services::I005,Web App For Community Services,BLIND_0014,BLIND_0034
+PAIRBLIND_0005,PAIR::coffee_services::I002,Coffee Services,BLIND_0047,BLIND_0045
+PAIRBLIND_0006,PAIR::entertainment_services::I001,Entertainment Services,BLIND_0051,BLIND_0057
+PAIRBLIND_0007,PAIR::edtech::I001,Edtech,BLIND_0050,BLIND_0054
+PAIRBLIND_0008,PAIR::web_app_for_community_services::I004,Web App For Community Services,BLIND_0033,BLIND_0046
+PAIRBLIND_0009,PAIR::entertainment_services::I004,Entertainment Services,BLIND_0042,BLIND_0023
+PAIRBLIND_0010,PAIR::coffee_services::I005,Coffee Services,BLIND_0019,BLIND_0016
+PAIRBLIND_0011,PAIR::entertainment_services::I002,Entertainment Services,BLIND_0012,BLIND_0009
+PAIRBLIND_0012,PAIR::entertainment_services::I005,Entertainment Services,BLIND_0031,BLIND_0027
+PAIRBLIND_0013,PAIR::edtech::I005,Edtech,BLIND_0053,BLIND_0052
+PAIRBLIND_0014,PAIR::entertainment_services::I003,Entertainment Services,BLIND_0028,BLIND_0056
+PAIRBLIND_0015,PAIR::coffee_services::I003,Coffee Services,BLIND_0029,BLIND_0006
+PAIRBLIND_0016,PAIR::coffee_services::I004,Coffee Services,BLIND_0041,BLIND_0008
+PAIRBLIND_0017,PAIR::coffee_services::I001,Coffee Services,BLIND_0026,BLIND_0060
+PAIRBLIND_0018,PAIR::web_app_for_community_services::I002,Web App For Community Services,BLIND_0024,BLIND_0040
+PAIRBLIND_0019,PAIR::edtech::I002,Edtech,BLIND_0022,BLIND_0007
+PAIRBLIND_0020,PAIR::web_app_for_community_services::I001,Web App For Community Services,BLIND_0002,BLIND_0058

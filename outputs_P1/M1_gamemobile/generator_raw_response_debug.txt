@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "prompt_regime": "P1_shared_neutral_creative_ideation",
+    "prompt_version": "P1_v1",
+    "domain": "Game Mobile",
+    "language": "en"
+  },
+  "ideas": [
+    {
+      "idea_id": "I001",
+      "domain": "Game Mobile",
+      "title": "Augmented Reality Archaeology Puzzles",
+      "target_user": "Casual mobile gamers interested in history and puzzles, aged 25-45",
+      "problem_or_desire": "Desire for mentally stimulating casual games that blend digital and real-world experiences.",
+      "core_concept": "Use smartphone AR capabilities to scan real-world objects (e.g., books, walls, tables) and overlay puzzle elements that hint at historical artifacts or discoveries, requiring players to manipulate their environment to solve.",
+      "proposed_approach": "Develop a foundational AR engine to recognize basic surfaces. Create a small set of themed puzzle sets that utilize object recognition and AR overlay techniques. Offer a freemium model with core puzzles free and expanded historical epochs as in-app purchases.",
+      "prototype_scope": "Implement AR surface detection and a simple object placement/manipulation system for one themed historical discovery puzzle within a domestic living room environment."
+    },
+    {
+      "idea_id": "I002",
+      "domain": "Game Mobile",
+      "title": "Collaborative Storytelling Sandbox",
+      "target_user": "Creative adolescents and young adults (13-20) who enjoy narrative games and social interaction.",
+      "problem_or_desire": "Desire to co-create and collectively influence evolving fictional worlds and character arcs in a game format.",
+      "core_concept": "A turn-based game where each player contributes a narrative event or character action that sequentially shapes an ongoing, shared story. Players vote on critical story junctures. No strict win/loss condition, emphasis is on the unfolding narrative.",
+      "proposed_approach": "Design a robust backend to manage story states and player contributions. Develop an intuitive text-input and event-creation interface. Integrate a simple polling system for branching narrative points. Structure game sessions to encourage short bursts of creative input over days.",
+      "prototype_scope": "Create a simplified lobby system allowing 3-5 users to connect. Implement a basic text-based turn progression where each player adds one sentence; incorporate one player vote for a pre-defined story branch decision."
+    },
+    {
+      "idea_id": "I003",
+      "domain": "Game Mobile",
+      "title": "Kinetic Rhythm Training Tool",
+      "target_user": "Amateur musicians and dancers looking to improve their internal tempo and rhythmic precision.",
+      "problem_or_desire": "Need a more engaging and effective way to train their sense of rhythm beyond metronomes.",
+      "core_concept": "A game that visualizes complex rhythmic patterns as interactive mazes or paths in an abstract 3D space. Players control a tempo marker to stay 'on beat' or tap precisely on nodal points aligned with sub-beats, encouraging kinesthetic rhythmic learning.",
+      "proposed_approach": "Develop precise beat-detection algorithms. Design progressively complex rhythmic challenges incorporating polyrhythms and syncopation. Use dynamic visual feedback synchronized to audio cues to indicate accuracy. Implement progressive difficulty tiers unlocking new rhythmic patterns.",
+      "prototype_scope": "Build a core game loop where a user taps on their screen in time with audio pulses. Create five distinct difficulty levels featuring increasingly complex 4/4 rhythmic subdivisions, with visual feedback for accuracy."
+    },
+    {
+      "idea_id": "I004",
+      "domain": "Game Mobile",
+      "title": "Procedural Mystery Puzzle Generator",
+      "target_user": "Adult puzzle enthusiasts (30-60) who enjoy logic deduction and high replayability.",
+      "problem_or_desire": "Tired of finite puzzle sets; seeking a game that offers endless unique logic challenges.",
+      "core_concept": "Leveraging procedural generation to create distinct detective/logic puzzles with a unique set of clues, characters, and deduction trees for each playthrough. Focus on solving a specific anomaly or crime per generated puzzle.",
+      "proposed_approach": "Engineer a puzzle generation algorithm capable of creating varied narrative scenarios and interdependent clue structures. Design a grid/interface for clue intake and logical deduction, and character 'profiles' to manage evidence linkage. Offer replayability through near-infinite procedural generation variations.",
+      "prototype_scope": "Implement a procedural generation system for three discrete archetypal mystery elements (witness, evidence, location). Design a clean note-taking/deduction grid UI for a single, algorithmically generated, simple logical deduction puzzle based on these elements."
+    },
+    {
+      "idea_id": "I005",
+      "domain": "Game Mobile",
+      "title": "Ephemeral Real-World Social 'Quests'",
+      "target_user": "Urban young adults and college students (18-28) seeking fun, spontaneous group activities and location-based discovery.",
+      "problem_or_desire": "Desire for low-stakes, time-bound, socially interactive real-world 'missions' to add an element of surprise to daily routines or outings.",
+      "core_concept": "Users receive short, randomized scavenger-hunt-like quests tied to geolocated points in their vicinity. Quests have tight time windows, and successful completion (verified via photo-geo-tag) unlocks a small community leaderboard or digital reward for participating groups.",
+      "proposed_approach": "Utilize mapping APIs and GPS to define quest locations. Implement a secure geo-tagging and photo-upload system for task verification. Design a backend for queueing randomized, time-sensitive quests relevant to urban public spaces. Monetize by offering branded local business sponsorships for quests.",
+      "prototype_scope": "Create a user journey allowing two players within a defined walkable zone (e.g., university campus). Present one objective at a single GPS coordinate and require photo upload with GPS stamp within a 15-minute window to verify successful 'completion'."
+    }
+  ]
+}

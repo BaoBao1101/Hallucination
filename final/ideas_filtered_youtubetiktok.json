@@ -1,0 +1,296 @@
+{
+  "metadata": {
+    "pipeline": "CHVD",
+    "version": "v5.4",
+    "stage": "zero_temperature_hallucination_distiller_to_realistic_mvp",
+    "language": "vi",
+    "evaluation_mode": "prompt_only_internal_logic_hallucination_distillation",
+    "description": "Tách creative core khỏi hallucinated overclaim, hiện thực hóa thành MVP khả thi hơn, không dùng corpus/evidence scoring.",
+    "normalized_at": "2026-06-22T08:25:30",
+    "filter_model": "gemini-2.5-flash-lite",
+    "filter_temperature": 0.0,
+    "filter_top_p": 0.1,
+    "input_file": "outputs_v5_3\\ideas_raw_vi.json",
+    "source_generator_metadata": {
+      "pipeline": "CHVD",
+      "version": "v5.3",
+      "domain": "Youtube & Tiktok Video Content",
+      "language": "vi",
+      "mode": "prompt_only_no_corpus_no_weak_signals",
+      "temperature_role": "maximal_divergent_creativity",
+      "stage": "high_temperature_creative_hallucination_generator",
+      "saved_at": "2026-06-22T08:23:25",
+      "generator_model": "gemini-2.5-flash-lite",
+      "generator_temperature": 2.0,
+      "generator_top_p": 0.99,
+      "user_prompt": ""
+    },
+    "raw_filter_text": "{\n  \"metadata\": {\n    \"pipeline\": \"CHVD\",\n    \"version\": \"v5.4\",\n    \"stage\": \"zero_temperature_hallucination_distiller_to_realistic_mvp\",\n    \"language\": \"vi\",\n    \"evaluation_mode\": \"prompt_only_internal_logic_hallucination_distillation\",\n    \"description\": \"Tách creative core khỏi hallucinated overclaim, hiện thực hóa thành MVP khả thi hơn, không dùng corpus/evidence scoring.\"\n  },\n  \"evaluations\": [\n    {\n      \"idea_id\": \"I001\",\n      \"idea_name\": \"Khí Phách Chợ Nghệ: Chợ Ảo Của Người Sáng Tạo\",\n      \"raw_hallucination_summary\": \"Ý tưởng ban đầu đề xuất một sàn giao dịch ảo hoàn chỉnh với token nội bộ, giao dịch phi tập trung (blockchain optional), đấu giá ý tưởng/vật phẩm hậu trường, và khả năng 'vào ra' (chuyển nhượng) tài sản số. Các claim về 'định giá tự động theo cung cầu', 'khả năng viral marketing cực mạnh do tính mới lạ', và 'khối lượng giao dịch token đủ lớn mà không cần hỗ trợ bên ngoài' mang tính đầu cơ cao.\",\n      \"creative_core_to_preserve\": \"Ý tưởng cốt lõi về việc tạo ra một không gian chuyên biệt cho người sáng tạo nội dung để bán các 'tài sản tinh thần' độc đáo (ý tưởng, vật phẩm hậu trường, quyền truy cập sớm) cho người hâm mộ, kết hợp yếu tố sưu tầm và cộng đồng.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Việc áp dụng blockchain và token nội bộ phức tạp ngay từ đầu.\",\n        \"Khẳng định về khả năng tự lan truyền/viral marketing mạnh mẽ do tính mới lạ.\",\n        \"Khẳng định về khối lượng giao dịch token đủ lớn mà không cần hỗ trợ bên ngoài.\",\n        \"Mô hình đấu giá token trong 2h có thể thu hút thật mà không cần kiểm chứng.\",\n        \"Định giá tự động theo cung cầu hoặc thủ công theo phiên mà không có cơ chế kiểm soát ban đầu.\"\n      ],\n      \"realistic_reframing\": \"Một nền tảng web đơn giản cho phép người sáng tạo đăng bán các 'gói trải nghiệm độc quyền' hoặc 'sản phẩm số giới hạn' (ví dụ: quyền truy cập sớm vào concept video, bản phác thảo nhân vật, đoạn B-roll độc quyền chỉ dành cho fan cứng). Giao dịch ban đầu sử dụng tiền tệ thực (VND/USD) thông qua cổng thanh toán thông thường. Token nội bộ có thể được xem xét phát triển sau này khi nền tảng có đủ người dùng và giao dịch.\",\n      \"practical_mvp\": \"Một website đơn giản nơi người sáng tạo có thể tạo hồ sơ, đăng bán các 'sản phẩm số độc quyền' (ví dụ: 'Quyền xem trước concept MV X', 'Bản phác thảo nhân vật Y', 'Đoạn B-roll độc quyền Z'). Người dùng có thể mua trực tiếp hoặc đặt giá (bid) cho các sản phẩm đấu giá giới hạn thời gian. Thanh toán bằng VND/USD qua cổng thanh toán tích hợp.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Thiết kế giao diện người dùng (UI/UX) cho cả creator và fan.\",\n        \"Xây dựng chức năng đăng ký/đăng nhập cho creator và fan.\",\n        \"Phát triển module cho creator đăng tải và mô tả sản phẩm số độc quyền.\",\n        \"Tích hợp cổng thanh toán (ví dụ: Stripe, PayPal hoặc cổng nội địa) cho giao dịch mua bán.\",\n        \"Xây dựng chức năng đấu giá đơn giản với giới hạn thời gian cho các sản phẩm.\",\n        \"Triển khai trang hiển thị danh sách sản phẩm và chi tiết sản phẩm.\",\n        \"Thực hiện các chiến dịch marketing ban đầu để thu hút creator và fan đầu tiên.\"\n      ],\n      \"scores\": {\n        \"novelty\": 4.0,\n        \"creative_core_strength\": 4.5,\n        \"creative_core_preservation\": 4.0,\n        \"reframing_quality\": 4.0,\n        \"conceptual_coherence\": 4.0,\n        \"user_pain_plausibility\": 4.0,\n        \"technical_plausibility\": 3.5,\n        \"mvp_clarity\": 4.5,\n        \"business_model_plausibility\": 3.5,\n        \"hallucination_risk_after_reframing\": 2.0\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"expert_rationale\": \"Ý tưởng gốc có sự sáng tạo cao trong việc kết hợp mô hình chợ truyền thống với thế giới số cho người sáng tạo. Tuy nhiên, việc áp dụng blockchain và token ngay từ đầu là quá tham vọng và rủi ro. Bản reframing tập trung vào việc bán các sản phẩm số độc quyền bằng tiền tệ thực, giữ lại hạt nhân sáng tạo về việc trao đổi 'tài sản tinh thần' và trải nghiệm độc quyền. MVP rõ ràng, tập trung vào chức năng cốt lõi. Rủi ro về hallucination giảm đáng kể.\",\n      \"strong_points_after_reframing\": [\n        \"Giữ được tinh thần cốt lõi về việc trao đổi 'tài sản tinh thần' của người sáng tạo.\",\n        \"MVP tập trung vào chức năng mua bán sản phẩm số độc quyền bằng tiền tệ thực, dễ tiếp cận hơn.\",\n        \"Giảm thiểu rủi ro kỹ thuật và pháp lý ban đầu bằng cách loại bỏ blockchain và token.\",\n        \"Mô hình kinh doanh rõ ràng hơn với phí giao dịch và membership.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Tiềm năng thu hút người dùng ban đầu có thể chậm hơn nếu không có yếu tố 'mới lạ' của Web3.\",\n        \"Cần nỗ lực marketing để giáo dục cả creator và fan về giá trị của các 'sản phẩm số độc quyền'.\",\n        \"Việc định giá và quản lý các sản phẩm số độc quyền có thể là một thách thức.\"\n      ],\n      \"validation_needed_later\": [\n        \"Mức độ sẵn sàng chi trả của fan cho các 'sản phẩm số độc quyền' (concept, b-roll, quyền truy cập sớm).\",\n        \"Khả năng thu hút và giữ chân người sáng tạo nội dung trên nền tảng.\",\n        \"Hiệu quả của các chiến lược marketing để thu hút người dùng ban đầu.\",\n        \"Phản hồi về trải nghiệm người dùng khi mua/bán sản phẩm số.\"\n      ],\n      \"final_recommendation\": \"Tiếp tục phát triển MVP tập trung vào việc bán sản phẩm số độc quyền bằng tiền tệ thực. Xem xét tích hợp các yếu tố Web3 (token, NFT) ở giai đoạn sau khi nền tảng đã có traction.\"\n    },\n    {\n      \"idea_id\": \"I002\",\n      \"idea_name\": \"AI Sinner Translator (tạm dịch: Trình Dịch Tội Lỗi)\",\n      \"raw_hallucination_summary\": \"Ý tưởng ban đầu đề xuất một công cụ AI có khả năng biến đổi mọi loại phát ngôn toxic/gây tranh cãi thành các định dạng video meme ngắn, hài hước, triết lý hoặc giáo dục cực đoan. Các claim về 'AI có đủ sức biểu đạt và hài hước theo nhiều config profile creator', 'sản phẩm AI luôn là video dạng short-form có bản ngã/value mới', và 'chi phí cloud hosting cho AI khi user dùng tấp nập' là chưa được kiểm chứng và có thể là ảo tưởng.\",\n      \"creative_core_to_preserve\": \"Ý tưởng cốt lõi về việc sử dụng AI để phân tích và tái cấu trúc các bình luận tiêu cực, toxic thành nội dung sáng tạo, có giá trị (hài hước, giáo dục, hoặc giải trí) nhằm mục đích hóa giải hoặc biến 'vũ khí' của đối phương thành công cụ của chính mình.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Khẳng định AI có thể biến đổi 'mọi loại' phát ngôn toxic thành nội dung có giá trị một cách nhất quán.\",\n        \"Khẳng định sản phẩm AI 'luôn luôn' là video dạng short-form có bản ngã/value mới.\",\n        \"Khẳng định về khả năng AI đạt độ tinh tế, 'thông minh' và 'hài hước' theo nhiều cấu hình profile creator mà không cần kiểm chứng.\",\n        \"Chi phí cloud hosting cho AI khi user dùng tấp nập là bao nhiêu.\"\n      ],\n      \"realistic_reframing\": \"Một công cụ AI tập trung vào việc phân tích và đề xuất các cách diễn đạt lại (rewrite) các bình luận tiêu cực hoặc gây tranh cãi theo một vài phong cách định sẵn (ví dụ: Hài hước hóa, Triết lý hóa, hoặc Đơn giản hóa/Giải thích). Kết quả ban đầu chỉ là văn bản, cho phép người dùng copy-paste hoặc chỉnh sửa thêm. Việc tạo video meme sẽ là bước phát triển sau này.\",\n      \"practical_mvp\": \"Một ứng dụng web đơn giản cho phép người dùng dán (paste) một bình luận toxic hoặc gây tranh cãi vào. AI sẽ phân tích và đưa ra 2-3 gợi ý cách diễn đạt lại theo các phong cách: 'Hài hước hóa', 'Triết lý hóa', 'Giải thích đơn giản'. Kết quả chỉ là văn bản, người dùng có thể copy để sử dụng.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Thiết kế giao diện người dùng đơn giản cho việc nhập văn bản và hiển thị kết quả.\",\n        \"Xây dựng mô hình AI cơ bản để phân tích cảm xúc và phong cách văn bản.\",\n        \"Huấn luyện mô hình AI để có thể rewrite văn bản theo các phong cách định sẵn (Hài hước, Triết lý, Giải thích).\",\n        \"Tích hợp các mẫu câu và cấu trúc ngôn ngữ phù hợp cho từng phong cách.\",\n        \"Kiểm thử và tinh chỉnh mô hình AI dựa trên phản hồi ban đầu.\",\n        \"Triển khai phiên bản web demo cho người dùng thử nghiệm.\"\n      ],\n      \"scores\": {\n        \"novelty\": 4.5,\n        \"creative_core_strength\": 4.0,\n        \"creative_core_preservation\": 4.0,\n        \"reframing_quality\": 4.0,\n        \"conceptual_coherence\": 4.0,\n        \"user_pain_plausibility\": 4.5,\n        \"technical_plausibility\": 3.5,\n        \"mvp_clarity\": 4.0,\n        \"business_model_plausibility\": 3.0,\n        \"hallucination_risk_after_reframing\": 2.5\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"expert_rationale\": \"Ý tưởng này giải quyết một nỗi đau thực tế của người sáng tạo nội dung. Hạt nhân sáng tạo là việc biến đổi nội dung tiêu cực thành tích cực. Bản reframing tập trung vào việc rewrite văn bản trước, loại bỏ yêu cầu tạo video meme phức tạp ngay từ đầu. Rủi ro về AI không đạt độ tinh tế vẫn còn, nhưng MVP rõ ràng hơn.\",\n      \"strong_points_after_reframing\": [\n        \"Giải quyết trực tiếp nỗi đau của creator khi đối mặt với bình luận toxic.\",\n        \"Hạt nhân sáng tạo về việc 'biến độc thành lành' được giữ lại.\",\n        \"MVP tập trung vào chức năng rewrite văn bản, khả thi hơn.\",\n        \"Tiềm năng ứng dụng rộng rãi trong việc quản lý cộng đồng và nội dung.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Khả năng AI đạt được sự 'thông minh' và 'hài hước' như mong đợi vẫn là một thách thức.\",\n        \"Mô hình kinh doanh cần được làm rõ hơn (ví dụ: freemium, subscription).\",\n        \"Rủi ro bị coi là 'kích động' hoặc 'làm trầm trọng thêm' drama nếu kết quả AI không tinh tế.\"\n      ],\n      \"validation_needed_later\": [\n        \"Mức độ hiệu quả thực tế của AI trong việc rewrite văn bản toxic.\",\n        \"Sự chấp nhận của người dùng đối với các kết quả rewrite (có đủ 'thông minh' hay 'hài hước' không).\",\n        \"Nhu cầu thực tế về việc tạo video meme từ các bình luận đã rewrite.\",\n        \"Chi phí vận hành AI cho số lượng lớn người dùng.\"\n      ],\n      \"final_recommendation\": \"Phát triển MVP tập trung vào chức năng rewrite văn bản. Thu thập phản hồi về chất lượng và phong cách của AI. Xem xét tích hợp tạo video ở giai đoạn sau.\"\n    },\n    {\n      \"idea_id\": \"I003\",\n      \"idea_name\": \"Nguồn Năng Lượng Hết Giờ Cho Kênh Nhỏ & Trung Bình\",\n      \"raw_hallucination_summary\": \"Ý tưởng ban đầu đề xuất một 'trợ lý sáng tạo siêu nhân' gửi AI prompt và plugin nhỏ, thậm chí dùng tài nguyên nguồn, cho creators khi năng lượng và ngân sách eo hẹp. Các claim về 'AI đẻ ra ý tưởng nhàm chán, cũ rích, ko bắt trend là điều dễ xảy ra (phí phạm user credit)' và 'sự chịu đựng chi tiêu (hoặc là chưa hẳn, cái sự có ra được tỉ lệ bán thích 'doanh số chao đảo')' là quá mơ hồ và mang tính suy đoán cao.\",\n      \"creative_core_to_preserve\": \"Ý tưởng cốt lõi về việc cung cấp các công cụ hỗ trợ đơn giản, chi phí thấp, dựa trên AI để giúp các nhà sáng tạo nội dung nhỏ và vừa vượt qua giai đoạn cạn kiệt ý tưởng và năng lượng, đảm bảo sự liên tục trong sản xuất nội dung.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Khẳng định AI có thể 'trợ tá nhỏ' nhưng vẫn mang giá trị mà không cần kiểm chứng.\",\n        \"Khẳng định mô hình có người dùng nhỏ/vừa, tuy không mang lại HUGE money cho mỗi account, nhưng TÍCH LŨY từ số đông có thể bù lại vốn ban đầu.\",\n        \"Sự mơ hồ về 'sức chịu đựng chi tiêu' và 'tỉ lệ bán thích doanh số chao đảo'.\",\n        \"Việc AI 'đẻ ra' ý tưởng nhàm chán, cũ rích, không bắt trend là điều dễ xảy ra (phí phạm user credit).\"\n      ],\n      \"realistic_reframing\": \"Một extension trình duyệt hoặc dashboard đơn giản cung cấp các gợi ý ý tưởng nội dung ngắn gọn (ví dụ: poll, câu hỏi tương tác, chủ đề cho story) dựa trên từ khóa hoặc lĩnh vực của người sáng tạo. Đồng thời, cung cấp các template chỉnh sửa video đơn giản hoặc gợi ý sử dụng tài nguyên miễn phí (stock footage, AI sound effects) để lấp đầy các khoảng trống trong video.\",\n      \"practical_mvp\": \"Một extension Chrome đơn giản. Khi người dùng nhập 3-5 từ khóa về chủ đề nội dung, extension sẽ gợi ý 3 loại ý tưởng: 1) Ý tưởng cho bài đăng/story nhanh (ví dụ: câu hỏi thăm dò ý kiến). 2) Gợi ý B-roll template (link tới các video stock miễn phí hoặc các mẫu video đơn giản có thể tùy chỉnh). 3) Gợi ý tiêu đề/hook line ngắn gọn.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Phát triển extension Chrome cơ bản.\",\n        \"Xây dựng module AI để tạo gợi ý ý tưởng nội dung dựa trên từ khóa.\",\n        \"Tích hợp API để gợi ý các video stock miễn phí hoặc các template video đơn giản.\",\n        \"Thiết kế giao diện người dùng đơn giản cho extension.\",\n        \"Kiểm thử chức năng gợi ý ý tưởng và B-roll.\",\n        \"Thu thập phản hồi từ một nhóm nhỏ creator để cải thiện.\"\n      ],\n      \"scores\": {\n        \"novelty\": 3.5,\n        \"creative_core_strength\": 3.5,\n        \"creative_core_preservation\": 3.5,\n        \"reframing_quality\": 4.0,\n        \"conceptual_coherence\": 4.0,\n        \"user_pain_plausibility\": 4.0,\n        \"technical_plausibility\": 4.0,\n        \"mvp_clarity\": 4.5,\n        \"business_model_plausibility\": 3.0,\n        \"hallucination_risk_after_reframing\": 2.0\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"expert_rationale\": \"Ý tưởng này giải quyết một nỗi đau thực tế của các creator nhỏ và vừa: cạn kiệt ý tưởng và nguồn lực. Bản reframing tập trung vào việc cung cấp các gợi ý ý tưởng đơn giản và tài nguyên miễn phí, loại bỏ các claim quá lớn về 'trợ lý siêu nhân'. MVP rõ ràng và khả thi. Rủi ro về AI tạo ra nội dung nhàm chán vẫn còn nhưng có thể giảm thiểu bằng cách tập trung vào gợi ý và tài nguyên.\",\n      \"strong_points_after_reframing\": [\n        \"Giải quyết nỗi đau thực tế về cạn kiệt ý tưởng và nguồn lực cho creator nhỏ/vừa.\",\n        \"MVP tập trung vào gợi ý ý tưởng đơn giản và tài nguyên miễn phí, dễ triển khai.\",\n        \"Hạt nhân sáng tạo về việc hỗ trợ 'sản xuất nội dung theo chuỗi' được giữ lại.\",\n        \"Khả năng kỹ thuật để xây dựng MVP là khả thi.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Chất lượng gợi ý ý tưởng của AI cần được kiểm chứng kỹ lưỡng để tránh nhàm chán.\",\n        \"Mô hình kinh doanh freemium cần được thiết kế cẩn thận để đảm bảo doanh thu.\",\n        \"Cạnh tranh với các công cụ tạo ý tưởng miễn phí hoặc giá rẻ khác.\"\n      ],\n      \"validation_needed_later\": [\n        \"Tần suất creator thực sự gặp tình trạng 'cạn kiệt ý tưởng' và 'cạn kiệt năng lượng'.\",\n        \"Mức độ hữu ích của các gợi ý ý tưởng và tài nguyên miễn phí được cung cấp.\",\n        \"Sự sẵn lòng chi trả cho các tính năng nâng cao của mô hình freemium.\",\n        \"Phản hồi về chất lượng và tính mới lạ của các ý tưởng do AI tạo ra.\"\n      ],\n      \"final_recommendation\": \"Phát triển MVP dưới dạng extension Chrome cung cấp gợi ý ý tưởng và tài nguyên miễn phí. Tập trung vào việc thu thập phản hồi về chất lượng gợi ý và xây dựng mô hình freemium.\"\n    },\n    {\n      \"idea_id\": \"I004\",\n      \"idea_name\": \"Duyệt Bios của Cải\",\n      \"raw_hallucination_summary\": \"Ý tưởng ban đầu đề xuất một dịch vụ đánh giá và sáng tạo lại bios 'nghèo nàn' để tối ưu SEO, USP, và sức hút tương tác, biến nó thành 'AI Prompt' chuẩn chỉnh. Các claim về 'AI sinh ra phiên bản chuẩn', 'tỉ lệ chuyển đổi (click, subs, engagement) tốt hơn *sau* khi use tool', và 'AI có thực sự dễ dàng hiểu' persona creator' hay chỉ đưa mẫu cũ lại một khuôn có vẻ lấp lánh' là quá đầu cơ và khó kiểm chứng.\",\n      \"creative_core_to_preserve\": \"Ý tưởng cốt lõi về việc cung cấp các giải pháp tối ưu hóa bio/profile cho người sáng tạo nội dung, đặc biệt là những người mới bắt đầu hoặc có profile chưa chuyên nghiệp, nhằm tăng cường khả năng hiển thị và thu hút người xem/người theo dõi.\",\n      \"hallucinated_or_overclaim_parts_to_remove\": [\n        \"Khẳng định AI sinh ra 'phiên bản chuẩn' cho bio.\",\n        \"Khẳng định về tỉ lệ chuyển đổi (click, subs, engagement) tốt hơn *sau* khi sử dụng tool mà không có dữ liệu.\",\n        \"Khẳng định AI có thể dễ dàng hiểu 'persona creator' hoặc chỉ đưa mẫu cũ lại một khuôn có vẻ lấp lánh.\",\n        \"Việc coi bio như 'AI Prompt' chuẩn chỉnh ban đầu cho chân dung sản phẩm/người sáng tạo.\"\n      ],\n      \"realistic_reframing\": \"Một công cụ web đơn giản giúp người sáng tạo nội dung tạo ra các bio/mô tả ngắn gọn, hấp dẫn và tối ưu hóa cho SEO trên các nền tảng mạng xã hội (YouTube, TikTok, Instagram). Công cụ sẽ đưa ra các gợi ý dựa trên thông tin người dùng cung cấp (lĩnh vực, phong cách nội dung, đối tượng mục tiêu) và các mẫu bio đã được kiểm chứng là hiệu quả.\",\n      \"practical_mvp\": \"Một website đơn giản nơi người dùng điền một form ngắn gọn về lĩnh vực hoạt động, phong cách nội dung, và đối tượng mục tiêu. Công cụ sẽ trả về 3-5 gợi ý bio/tiêu đề ngắn (tối đa 80 ký tự) đã được tối ưu hóa cho SEO và sức hút ban đầu, dựa trên các mẫu template hiệu quả.\",\n      \"mvp_7_to_30_day_plan\": [\n        \"Thiết kế giao diện người dùng cho form nhập thông tin và hiển thị kết quả.\",\n        \"Xây dựng bộ sưu tập các mẫu bio/tiêu đề hiệu quả cho các lĩnh vực phổ biến.\",\n        \"Phát triển thuật toán đơn giản để kết hợp thông tin người dùng với các mẫu template.\",\n        \"Tích hợp công cụ phân tích từ khóa cơ bản cho các nền tảng chính.\",\n        \"Kiểm thử các gợi ý bio với một nhóm nhỏ người dùng.\",\n        \"Triển khai phiên bản web demo.\"\n      ],\n      \"scores\": {\n        \"novelty\": 3.0,\n        \"creative_core_strength\": 3.5,\n        \"creative_core_preservation\": 4.0,\n        \"reframing_quality\": 4.0,\n        \"conceptual_coherence\": 4.0,\n        \"user_pain_plausibility\": 4.0,\n        \"technical_plausibility\": 4.0,\n        \"mvp_clarity\": 4.5,\n        \"business_model_plausibility\": 3.5,\n        \"hallucination_risk_after_reframing\": 2.0\n      },\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"expert_rationale\": \"Ý tưởng này giải quyết một nhu cầu thực tế về việc tối ưu hóa profile cho người sáng tạo nội dung. Bản reframing tập trung vào việc cung cấp các gợi ý bio dựa trên mẫu và tối ưu hóa SEO cơ bản, loại bỏ các claim quá lớn về AI và hiệu quả chuyển đổi chưa được chứng minh. MVP rõ ràng và khả thi. Rủi ro về việc bio quá chung chung vẫn còn nhưng có thể giảm thiểu bằng cách cung cấp nhiều mẫu và tùy chỉnh.\",\n      \"strong_points_after_reframing\": [\n        \"Giải quyết nhu cầu thực tế về việc tối ưu hóa bio/profile cho creator.\",\n        \"MVP tập trung vào việc cung cấp gợi ý bio dựa trên mẫu và SEO cơ bản, dễ triển khai.\",\n        \"Hạt nhân sáng tạo về việc coi bio là 'hợp đồng mini' thu hút người xem được giữ lại.\",\n        \"Khả năng kỹ thuật để xây dựng MVP là khả thi.\"\n      ],\n      \"weak_points_after_reframing\": [\n        \"Chất lượng và sự độc đáo của các gợi ý bio cần được đảm bảo để tránh nhàm chán.\",\n        \"Hiệu quả SEO thực tế cần được kiểm chứng.\",\n        \"Mô hình kinh doanh bán quyền sử dụng dịch vụ cần được làm rõ hơn.\"\n      ],\n      \"validation_needed_later\": [\n        \"Tỷ lệ creator (đặc biệt là kênh nhỏ/vừa) thực sự gặp khó khăn trong việc viết bio hấp dẫn.\",\n        \"Mức độ hiệu quả của các gợi ý bio trong việc tăng tương tác và thu hút người theo dõi.\",\n        \"Khả năng công cụ SEO và tiêu chí của nó tạo ra sự khác biệt so với các công cụ khác.\",\n        \"Sự sẵn lòng chi trả cho dịch vụ tạo profile bios.\"\n      ],\n      \"final_recommendation\": \"Phát triển MVP dưới dạng web tool cung cấp gợi ý bio dựa trên mẫu và tối ưu hóa SEO cơ bản. Tập trung vào việc thu thập phản hồi về chất lượng gợi ý và hiệu quả SEO.\"\n    }\n  ],\n  \"ranked_summary\": [\n    {\n      \"rank\": 1,\n      \"idea_id\": \"I001\",\n      \"idea_name\": \"Khí Phách Chợ Nghệ: Chợ Ảo Của Người Sáng Tạo\",\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"hallucination_risk_after_reframing\": 2.0\n    },\n    {\n      \"rank\": 2,\n      \"idea_id\": \"I002\",\n      \"idea_name\": \"AI Sinner Translator (tạm dịch: Trình Dịch Tội Lỗi)\",\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"hallucination_risk_after_reframing\": 2.5\n    },\n    {\n      \"rank\": 3,\n      \"idea_id\": \"I003\",\n      \"idea_name\": \"Nguồn Năng Lượng Hết Giờ Cho Kênh Nhỏ & Trung Bình\",\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"hallucination_risk_after_reframing\": 2.0\n    },\n    {\n      \"rank\": 4,\n      \"idea_id\": \"I004\",\n      \"idea_name\": \"Duyệt Bios của Cải\",\n      \"overall_score\": 0,\n      \"decision\": \"Tiềm năng\",\n      \"hallucination_risk_after_reframing\": 2.0\n    }\n  ]\n}"
+  },
+  "evaluations": [
+    {
+      "idea_id": "I001",
+      "idea_name": "Khí Phách Chợ Nghệ: Chợ Ảo Của Người Sáng Tạo",
+      "raw_hallucination_summary": "Ý tưởng ban đầu đề xuất một sàn giao dịch ảo hoàn chỉnh với token nội bộ, giao dịch phi tập trung (blockchain optional), đấu giá ý tưởng/vật phẩm hậu trường, và khả năng 'vào ra' (chuyển nhượng) tài sản số. Các claim về 'định giá tự động theo cung cầu', 'khả năng viral marketing cực mạnh do tính mới lạ', và 'khối lượng giao dịch token đủ lớn mà không cần hỗ trợ bên ngoài' mang tính đầu cơ cao.",
+      "creative_core_to_preserve": "Ý tưởng cốt lõi về việc tạo ra một không gian chuyên biệt cho người sáng tạo nội dung để bán các 'tài sản tinh thần' độc đáo (ý tưởng, vật phẩm hậu trường, quyền truy cập sớm) cho người hâm mộ, kết hợp yếu tố sưu tầm và cộng đồng.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Việc áp dụng blockchain và token nội bộ phức tạp ngay từ đầu.",
+        "Khẳng định về khả năng tự lan truyền/viral marketing mạnh mẽ do tính mới lạ.",
+        "Khẳng định về khối lượng giao dịch token đủ lớn mà không cần hỗ trợ bên ngoài.",
+        "Mô hình đấu giá token trong 2h có thể thu hút thật mà không cần kiểm chứng.",
+        "Định giá tự động theo cung cầu hoặc thủ công theo phiên mà không có cơ chế kiểm soát ban đầu."
+      ],
+      "realistic_reframing": "Một nền tảng web đơn giản cho phép người sáng tạo đăng bán các 'gói trải nghiệm độc quyền' hoặc 'sản phẩm số giới hạn' (ví dụ: quyền truy cập sớm vào concept video, bản phác thảo nhân vật, đoạn B-roll độc quyền chỉ dành cho fan cứng). Giao dịch ban đầu sử dụng tiền tệ thực (VND/USD) thông qua cổng thanh toán thông thường. Token nội bộ có thể được xem xét phát triển sau này khi nền tảng có đủ người dùng và giao dịch.",
+      "practical_mvp": "Một website đơn giản nơi người sáng tạo có thể tạo hồ sơ, đăng bán các 'sản phẩm số độc quyền' (ví dụ: 'Quyền xem trước concept MV X', 'Bản phác thảo nhân vật Y', 'Đoạn B-roll độc quyền Z'). Người dùng có thể mua trực tiếp hoặc đặt giá (bid) cho các sản phẩm đấu giá giới hạn thời gian. Thanh toán bằng VND/USD qua cổng thanh toán tích hợp.",
+      "mvp_7_to_30_day_plan": [
+        "Thiết kế giao diện người dùng (UI/UX) cho cả creator và fan.",
+        "Xây dựng chức năng đăng ký/đăng nhập cho creator và fan.",
+        "Phát triển module cho creator đăng tải và mô tả sản phẩm số độc quyền.",
+        "Tích hợp cổng thanh toán (ví dụ: Stripe, PayPal hoặc cổng nội địa) cho giao dịch mua bán.",
+        "Xây dựng chức năng đấu giá đơn giản với giới hạn thời gian cho các sản phẩm.",
+        "Triển khai trang hiển thị danh sách sản phẩm và chi tiết sản phẩm.",
+        "Thực hiện các chiến dịch marketing ban đầu để thu hút creator và fan đầu tiên."
+      ],
+      "scores": {
+        "novelty": 4.0,
+        "creative_core_strength": 4.5,
+        "creative_core_preservation": 4.0,
+        "reframing_quality": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "hallucination_risk_after_reframing": 2.0
+      },
+      "overall_score": 70.88,
+      "decision": "Tiềm năng",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Tiềm năng",
+      "expert_rationale": "Ý tưởng gốc có sự sáng tạo cao trong việc kết hợp mô hình chợ truyền thống với thế giới số cho người sáng tạo. Tuy nhiên, việc áp dụng blockchain và token ngay từ đầu là quá tham vọng và rủi ro. Bản reframing tập trung vào việc bán các sản phẩm số độc quyền bằng tiền tệ thực, giữ lại hạt nhân sáng tạo về việc trao đổi 'tài sản tinh thần' và trải nghiệm độc quyền. MVP rõ ràng, tập trung vào chức năng cốt lõi. Rủi ro về hallucination giảm đáng kể.",
+      "strong_points_after_reframing": [
+        "Giữ được tinh thần cốt lõi về việc trao đổi 'tài sản tinh thần' của người sáng tạo.",
+        "MVP tập trung vào chức năng mua bán sản phẩm số độc quyền bằng tiền tệ thực, dễ tiếp cận hơn.",
+        "Giảm thiểu rủi ro kỹ thuật và pháp lý ban đầu bằng cách loại bỏ blockchain và token.",
+        "Mô hình kinh doanh rõ ràng hơn với phí giao dịch và membership."
+      ],
+      "weak_points_after_reframing": [
+        "Tiềm năng thu hút người dùng ban đầu có thể chậm hơn nếu không có yếu tố 'mới lạ' của Web3.",
+        "Cần nỗ lực marketing để giáo dục cả creator và fan về giá trị của các 'sản phẩm số độc quyền'.",
+        "Việc định giá và quản lý các sản phẩm số độc quyền có thể là một thách thức."
+      ],
+      "validation_needed_later": [
+        "Mức độ sẵn sàng chi trả của fan cho các 'sản phẩm số độc quyền' (concept, b-roll, quyền truy cập sớm).",
+        "Khả năng thu hút và giữ chân người sáng tạo nội dung trên nền tảng.",
+        "Hiệu quả của các chiến lược marketing để thu hút người dùng ban đầu.",
+        "Phản hồi về trải nghiệm người dùng khi mua/bán sản phẩm số."
+      ],
+      "final_recommendation": "Tiếp tục phát triển MVP tập trung vào việc bán sản phẩm số độc quyền bằng tiền tệ thực. Xem xét tích hợp các yếu tố Web3 (token, NFT) ở giai đoạn sau khi nền tảng đã có traction."
+    },
+    {
+      "idea_id": "I002",
+      "idea_name": "AI Sinner Translator (tạm dịch: Trình Dịch Tội Lỗi)",
+      "raw_hallucination_summary": "Ý tưởng ban đầu đề xuất một công cụ AI có khả năng biến đổi mọi loại phát ngôn toxic/gây tranh cãi thành các định dạng video meme ngắn, hài hước, triết lý hoặc giáo dục cực đoan. Các claim về 'AI có đủ sức biểu đạt và hài hước theo nhiều config profile creator', 'sản phẩm AI luôn là video dạng short-form có bản ngã/value mới', và 'chi phí cloud hosting cho AI khi user dùng tấp nập' là chưa được kiểm chứng và có thể là ảo tưởng.",
+      "creative_core_to_preserve": "Ý tưởng cốt lõi về việc sử dụng AI để phân tích và tái cấu trúc các bình luận tiêu cực, toxic thành nội dung sáng tạo, có giá trị (hài hước, giáo dục, hoặc giải trí) nhằm mục đích hóa giải hoặc biến 'vũ khí' của đối phương thành công cụ của chính mình.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Khẳng định AI có thể biến đổi 'mọi loại' phát ngôn toxic thành nội dung có giá trị một cách nhất quán.",
+        "Khẳng định sản phẩm AI 'luôn luôn' là video dạng short-form có bản ngã/value mới.",
+        "Khẳng định về khả năng AI đạt độ tinh tế, 'thông minh' và 'hài hước' theo nhiều cấu hình profile creator mà không cần kiểm chứng.",
+        "Chi phí cloud hosting cho AI khi user dùng tấp nập là bao nhiêu."
+      ],
+      "realistic_reframing": "Một công cụ AI tập trung vào việc phân tích và đề xuất các cách diễn đạt lại (rewrite) các bình luận tiêu cực hoặc gây tranh cãi theo một vài phong cách định sẵn (ví dụ: Hài hước hóa, Triết lý hóa, hoặc Đơn giản hóa/Giải thích). Kết quả ban đầu chỉ là văn bản, cho phép người dùng copy-paste hoặc chỉnh sửa thêm. Việc tạo video meme sẽ là bước phát triển sau này.",
+      "practical_mvp": "Một ứng dụng web đơn giản cho phép người dùng dán (paste) một bình luận toxic hoặc gây tranh cãi vào. AI sẽ phân tích và đưa ra 2-3 gợi ý cách diễn đạt lại theo các phong cách: 'Hài hước hóa', 'Triết lý hóa', 'Giải thích đơn giản'. Kết quả chỉ là văn bản, người dùng có thể copy để sử dụng.",
+      "mvp_7_to_30_day_plan": [
+        "Thiết kế giao diện người dùng đơn giản cho việc nhập văn bản và hiển thị kết quả.",
+        "Xây dựng mô hình AI cơ bản để phân tích cảm xúc và phong cách văn bản.",
+        "Huấn luyện mô hình AI để có thể rewrite văn bản theo các phong cách định sẵn (Hài hước, Triết lý, Giải thích).",
+        "Tích hợp các mẫu câu và cấu trúc ngôn ngữ phù hợp cho từng phong cách.",
+        "Kiểm thử và tinh chỉnh mô hình AI dựa trên phản hồi ban đầu.",
+        "Triển khai phiên bản web demo cho người dùng thử nghiệm."
+      ],
+      "scores": {
+        "novelty": 4.5,
+        "creative_core_strength": 4.0,
+        "creative_core_preservation": 4.0,
+        "reframing_quality": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "hallucination_risk_after_reframing": 2.5
+      },
+      "overall_score": 70.63,
+      "decision": "Tiềm năng",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Tiềm năng",
+      "expert_rationale": "Ý tưởng này giải quyết một nỗi đau thực tế của người sáng tạo nội dung. Hạt nhân sáng tạo là việc biến đổi nội dung tiêu cực thành tích cực. Bản reframing tập trung vào việc rewrite văn bản trước, loại bỏ yêu cầu tạo video meme phức tạp ngay từ đầu. Rủi ro về AI không đạt độ tinh tế vẫn còn, nhưng MVP rõ ràng hơn.",
+      "strong_points_after_reframing": [
+        "Giải quyết trực tiếp nỗi đau của creator khi đối mặt với bình luận toxic.",
+        "Hạt nhân sáng tạo về việc 'biến độc thành lành' được giữ lại.",
+        "MVP tập trung vào chức năng rewrite văn bản, khả thi hơn.",
+        "Tiềm năng ứng dụng rộng rãi trong việc quản lý cộng đồng và nội dung."
+      ],
+      "weak_points_after_reframing": [
+        "Khả năng AI đạt được sự 'thông minh' và 'hài hước' như mong đợi vẫn là một thách thức.",
+        "Mô hình kinh doanh cần được làm rõ hơn (ví dụ: freemium, subscription).",
+        "Rủi ro bị coi là 'kích động' hoặc 'làm trầm trọng thêm' drama nếu kết quả AI không tinh tế."
+      ],
+      "validation_needed_later": [
+        "Mức độ hiệu quả thực tế của AI trong việc rewrite văn bản toxic.",
+        "Sự chấp nhận của người dùng đối với các kết quả rewrite (có đủ 'thông minh' hay 'hài hước' không).",
+        "Nhu cầu thực tế về việc tạo video meme từ các bình luận đã rewrite.",
+        "Chi phí vận hành AI cho số lượng lớn người dùng."
+      ],
+      "final_recommendation": "Phát triển MVP tập trung vào chức năng rewrite văn bản. Thu thập phản hồi về chất lượng và phong cách của AI. Xem xét tích hợp tạo video ở giai đoạn sau."
+    },
+    {
+      "idea_id": "I004",
+      "idea_name": "Duyệt Bios của Cải",
+      "raw_hallucination_summary": "Ý tưởng ban đầu đề xuất một dịch vụ đánh giá và sáng tạo lại bios 'nghèo nàn' để tối ưu SEO, USP, và sức hút tương tác, biến nó thành 'AI Prompt' chuẩn chỉnh. Các claim về 'AI sinh ra phiên bản chuẩn', 'tỉ lệ chuyển đổi (click, subs, engagement) tốt hơn *sau* khi use tool', và 'AI có thực sự dễ dàng hiểu' persona creator' hay chỉ đưa mẫu cũ lại một khuôn có vẻ lấp lánh' là quá đầu cơ và khó kiểm chứng.",
+      "creative_core_to_preserve": "Ý tưởng cốt lõi về việc cung cấp các giải pháp tối ưu hóa bio/profile cho người sáng tạo nội dung, đặc biệt là những người mới bắt đầu hoặc có profile chưa chuyên nghiệp, nhằm tăng cường khả năng hiển thị và thu hút người xem/người theo dõi.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Khẳng định AI sinh ra 'phiên bản chuẩn' cho bio.",
+        "Khẳng định về tỉ lệ chuyển đổi (click, subs, engagement) tốt hơn *sau* khi sử dụng tool mà không có dữ liệu.",
+        "Khẳng định AI có thể dễ dàng hiểu 'persona creator' hoặc chỉ đưa mẫu cũ lại một khuôn có vẻ lấp lánh.",
+        "Việc coi bio như 'AI Prompt' chuẩn chỉnh ban đầu cho chân dung sản phẩm/người sáng tạo."
+      ],
+      "realistic_reframing": "Một công cụ web đơn giản giúp người sáng tạo nội dung tạo ra các bio/mô tả ngắn gọn, hấp dẫn và tối ưu hóa cho SEO trên các nền tảng mạng xã hội (YouTube, TikTok, Instagram). Công cụ sẽ đưa ra các gợi ý dựa trên thông tin người dùng cung cấp (lĩnh vực, phong cách nội dung, đối tượng mục tiêu) và các mẫu bio đã được kiểm chứng là hiệu quả.",
+      "practical_mvp": "Một website đơn giản nơi người dùng điền một form ngắn gọn về lĩnh vực hoạt động, phong cách nội dung, và đối tượng mục tiêu. Công cụ sẽ trả về 3-5 gợi ý bio/tiêu đề ngắn (tối đa 80 ký tự) đã được tối ưu hóa cho SEO và sức hút ban đầu, dựa trên các mẫu template hiệu quả.",
+      "mvp_7_to_30_day_plan": [
+        "Thiết kế giao diện người dùng cho form nhập thông tin và hiển thị kết quả.",
+        "Xây dựng bộ sưu tập các mẫu bio/tiêu đề hiệu quả cho các lĩnh vực phổ biến.",
+        "Phát triển thuật toán đơn giản để kết hợp thông tin người dùng với các mẫu template.",
+        "Tích hợp công cụ phân tích từ khóa cơ bản cho các nền tảng chính.",
+        "Kiểm thử các gợi ý bio với một nhóm nhỏ người dùng.",
+        "Triển khai phiên bản web demo."
+      ],
+      "scores": {
+        "novelty": 3.0,
+        "creative_core_strength": 3.5,
+        "creative_core_preservation": 4.0,
+        "reframing_quality": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "hallucination_risk_after_reframing": 2.0
+      },
+      "overall_score": 65.38,
+      "decision": "Cần chỉnh",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Tiềm năng",
+      "expert_rationale": "Ý tưởng này giải quyết một nhu cầu thực tế về việc tối ưu hóa profile cho người sáng tạo nội dung. Bản reframing tập trung vào việc cung cấp các gợi ý bio dựa trên mẫu và tối ưu hóa SEO cơ bản, loại bỏ các claim quá lớn về AI và hiệu quả chuyển đổi chưa được chứng minh. MVP rõ ràng và khả thi. Rủi ro về việc bio quá chung chung vẫn còn nhưng có thể giảm thiểu bằng cách cung cấp nhiều mẫu và tùy chỉnh.",
+      "strong_points_after_reframing": [
+        "Giải quyết nhu cầu thực tế về việc tối ưu hóa bio/profile cho creator.",
+        "MVP tập trung vào việc cung cấp gợi ý bio dựa trên mẫu và SEO cơ bản, dễ triển khai.",
+        "Hạt nhân sáng tạo về việc coi bio là 'hợp đồng mini' thu hút người xem được giữ lại.",
+        "Khả năng kỹ thuật để xây dựng MVP là khả thi."
+      ],
+      "weak_points_after_reframing": [
+        "Chất lượng và sự độc đáo của các gợi ý bio cần được đảm bảo để tránh nhàm chán.",
+        "Hiệu quả SEO thực tế cần được kiểm chứng.",
+        "Mô hình kinh doanh bán quyền sử dụng dịch vụ cần được làm rõ hơn."
+      ],
+      "validation_needed_later": [
+        "Tỷ lệ creator (đặc biệt là kênh nhỏ/vừa) thực sự gặp khó khăn trong việc viết bio hấp dẫn.",
+        "Mức độ hiệu quả của các gợi ý bio trong việc tăng tương tác và thu hút người theo dõi.",
+        "Khả năng công cụ SEO và tiêu chí của nó tạo ra sự khác biệt so với các công cụ khác.",
+        "Sự sẵn lòng chi trả cho dịch vụ tạo profile bios."
+      ],
+      "final_recommendation": "Phát triển MVP dưới dạng web tool cung cấp gợi ý bio dựa trên mẫu và tối ưu hóa SEO cơ bản. Tập trung vào việc thu thập phản hồi về chất lượng gợi ý và hiệu quả SEO."
+    },
+    {
+      "idea_id": "I003",
+      "idea_name": "Nguồn Năng Lượng Hết Giờ Cho Kênh Nhỏ & Trung Bình",
+      "raw_hallucination_summary": "Ý tưởng ban đầu đề xuất một 'trợ lý sáng tạo siêu nhân' gửi AI prompt và plugin nhỏ, thậm chí dùng tài nguyên nguồn, cho creators khi năng lượng và ngân sách eo hẹp. Các claim về 'AI đẻ ra ý tưởng nhàm chán, cũ rích, ko bắt trend là điều dễ xảy ra (phí phạm user credit)' và 'sự chịu đựng chi tiêu (hoặc là chưa hẳn, cái sự có ra được tỉ lệ bán thích 'doanh số chao đảo')' là quá mơ hồ và mang tính suy đoán cao.",
+      "creative_core_to_preserve": "Ý tưởng cốt lõi về việc cung cấp các công cụ hỗ trợ đơn giản, chi phí thấp, dựa trên AI để giúp các nhà sáng tạo nội dung nhỏ và vừa vượt qua giai đoạn cạn kiệt ý tưởng và năng lượng, đảm bảo sự liên tục trong sản xuất nội dung.",
+      "hallucinated_or_overclaim_parts_to_remove": [
+        "Khẳng định AI có thể 'trợ tá nhỏ' nhưng vẫn mang giá trị mà không cần kiểm chứng.",
+        "Khẳng định mô hình có người dùng nhỏ/vừa, tuy không mang lại HUGE money cho mỗi account, nhưng TÍCH LŨY từ số đông có thể bù lại vốn ban đầu.",
+        "Sự mơ hồ về 'sức chịu đựng chi tiêu' và 'tỉ lệ bán thích doanh số chao đảo'.",
+        "Việc AI 'đẻ ra' ý tưởng nhàm chán, cũ rích, không bắt trend là điều dễ xảy ra (phí phạm user credit)."
+      ],
+      "realistic_reframing": "Một extension trình duyệt hoặc dashboard đơn giản cung cấp các gợi ý ý tưởng nội dung ngắn gọn (ví dụ: poll, câu hỏi tương tác, chủ đề cho story) dựa trên từ khóa hoặc lĩnh vực của người sáng tạo. Đồng thời, cung cấp các template chỉnh sửa video đơn giản hoặc gợi ý sử dụng tài nguyên miễn phí (stock footage, AI sound effects) để lấp đầy các khoảng trống trong video.",
+      "practical_mvp": "Một extension Chrome đơn giản. Khi người dùng nhập 3-5 từ khóa về chủ đề nội dung, extension sẽ gợi ý 3 loại ý tưởng: 1) Ý tưởng cho bài đăng/story nhanh (ví dụ: câu hỏi thăm dò ý kiến). 2) Gợi ý B-roll template (link tới các video stock miễn phí hoặc các mẫu video đơn giản có thể tùy chỉnh). 3) Gợi ý tiêu đề/hook line ngắn gọn.",
+      "mvp_7_to_30_day_plan": [
+        "Phát triển extension Chrome cơ bản.",
+        "Xây dựng module AI để tạo gợi ý ý tưởng nội dung dựa trên từ khóa.",
+        "Tích hợp API để gợi ý các video stock miễn phí hoặc các template video đơn giản.",
+        "Thiết kế giao diện người dùng đơn giản cho extension.",
+        "Kiểm thử chức năng gợi ý ý tưởng và B-roll.",
+        "Thu thập phản hồi từ một nhóm nhỏ creator để cải thiện."
+      ],
+      "scores": {
+        "novelty": 3.5,
+        "creative_core_strength": 3.5,
+        "creative_core_preservation": 3.5,
+        "reframing_quality": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.0,
+        "hallucination_risk_after_reframing": 2.0
+      },
+      "overall_score": 65.0,
+      "decision": "Cần chỉnh",
+      "llm_reported_overall_score": 0,
+      "llm_reported_decision": "Tiềm năng",
+      "expert_rationale": "Ý tưởng này giải quyết một nỗi đau thực tế của các creator nhỏ và vừa: cạn kiệt ý tưởng và nguồn lực. Bản reframing tập trung vào việc cung cấp các gợi ý ý tưởng đơn giản và tài nguyên miễn phí, loại bỏ các claim quá lớn về 'trợ lý siêu nhân'. MVP rõ ràng và khả thi. Rủi ro về AI tạo ra nội dung nhàm chán vẫn còn nhưng có thể giảm thiểu bằng cách tập trung vào gợi ý và tài nguyên.",
+      "strong_points_after_reframing": [
+        "Giải quyết nỗi đau thực tế về cạn kiệt ý tưởng và nguồn lực cho creator nhỏ/vừa.",
+        "MVP tập trung vào gợi ý ý tưởng đơn giản và tài nguyên miễn phí, dễ triển khai.",
+        "Hạt nhân sáng tạo về việc hỗ trợ 'sản xuất nội dung theo chuỗi' được giữ lại.",
+        "Khả năng kỹ thuật để xây dựng MVP là khả thi."
+      ],
+      "weak_points_after_reframing": [
+        "Chất lượng gợi ý ý tưởng của AI cần được kiểm chứng kỹ lưỡng để tránh nhàm chán.",
+        "Mô hình kinh doanh freemium cần được thiết kế cẩn thận để đảm bảo doanh thu.",
+        "Cạnh tranh với các công cụ tạo ý tưởng miễn phí hoặc giá rẻ khác."
+      ],
+      "validation_needed_later": [
+        "Tần suất creator thực sự gặp tình trạng 'cạn kiệt ý tưởng' và 'cạn kiệt năng lượng'.",
+        "Mức độ hữu ích của các gợi ý ý tưởng và tài nguyên miễn phí được cung cấp.",
+        "Sự sẵn lòng chi trả cho các tính năng nâng cao của mô hình freemium.",
+        "Phản hồi về chất lượng và tính mới lạ của các ý tưởng do AI tạo ra."
+      ],
+      "final_recommendation": "Phát triển MVP dưới dạng extension Chrome cung cấp gợi ý ý tưởng và tài nguyên miễn phí. Tập trung vào việc thu thập phản hồi về chất lượng gợi ý và xây dựng mô hình freemium."
+    }
+  ],
+  "ranked_summary": [
+    {
+      "rank": 1,
+      "idea_id": "I001",
+      "idea_name": "Khí Phách Chợ Nghệ: Chợ Ảo Của Người Sáng Tạo",
+      "overall_score": 70.88,
+      "decision": "Tiềm năng",
+      "hallucination_risk_after_reframing": 2.0
+    },
+    {
+      "rank": 2,
+      "idea_id": "I002",
+      "idea_name": "AI Sinner Translator (tạm dịch: Trình Dịch Tội Lỗi)",
+      "overall_score": 70.63,
+      "decision": "Tiềm năng",
+      "hallucination_risk_after_reframing": 2.5
+    },
+    {
+      "rank": 3,
+      "idea_id": "I004",
+      "idea_name": "Duyệt Bios của Cải",
+      "overall_score": 65.38,
+      "decision": "Cần chỉnh",
+      "hallucination_risk_after_reframing": 2.0
+    },
+    {
+      "rank": 4,
+      "idea_id": "I003",
+      "idea_name": "Nguồn Năng Lượng Hết Giờ Cho Kênh Nhỏ & Trung Bình",
+      "overall_score": 65.0,
+      "decision": "Cần chỉnh",
+      "hallucination_risk_after_reframing": 2.0
+    }
+  ]
+}
