@@ -1,0 +1,1684 @@
+{
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0001",
+      "scores": {
+        "novelty": 2.8,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.4,
+        "technical_plausibility": 4.6,
+        "mvp_clarity": 4.8,
+        "business_model_plausibility": 3.7,
+        "unsupported_claim_risk": 1.4,
+        "ethical_privacy_risk": 1.2,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "Kit một khẩu phần nêu rõ nguyên liệu, công thức và tài liệu học nên liên kết tốt với nhu cầu khám phá hương vị. Mô hình đăng ký có hướng giá trị hợp lý, dù khác biệt của concept còn vừa phải."
+    },
+    {
+      "candidate_id": "BLIND_0002",
+      "scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.2,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.7,
+        "mvp_clarity": 4.2,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.4,
+        "ethical_privacy_risk": 2.4,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "Nhu cầu luyện nói riêng tư và ít áp lực được nêu rõ, còn MVP giới hạn vào một ngôn ngữ cùng vài tình huống cụ thể. Mô tả về phản hồi giàu cảm xúc và huấn luyện dữ liệu tinh vi vượt quá chi tiết triển khai của prototype."
+    },
+    {
+      "candidate_id": "BLIND_0003",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.4,
+        "user_pain_plausibility": 3.6,
+        "technical_plausibility": 4.1,
+        "mvp_clarity": 4.3,
+        "business_model_plausibility": 3.1,
+        "unsupported_claim_risk": 2.2,
+        "ethical_privacy_risk": 2.4,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "Luồng từ portfolio và câu hỏi hướng dẫn tới các bản nháp “About Me” nhất quán và có phạm vi gọn. Việc xử lý liên kết portfolio và dữ liệu nghề nghiệp cần được bảo vệ nhưng MVP dựa trên mẫu viết khá rõ."
+    },
+    {
+      "candidate_id": "BLIND_0004",
+      "scores": {
+        "novelty": 2.8,
+        "conceptual_coherence": 4.1,
+        "user_pain_plausibility": 3.4,
+        "technical_plausibility": 4.6,
+        "mvp_clarity": 4.4,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.7,
+        "ethical_privacy_risk": 1.2,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Prototype chuyển mục tiêu hướng dẫn pha cà phê thành nhập tham số thủ công và gợi ý điều chỉnh, nên khả thi hơn concept cảm biến ban đầu. Giá trị kiếm tiền chưa được xác định rõ trong mô tả MVP."
+    },
+    {
+      "candidate_id": "BLIND_0005",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.2,
+        "technical_plausibility": 3.7,
+        "mvp_clarity": 4.4,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.9,
+        "ethical_privacy_risk": 1.8,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Bữa ăn thử nghiệm cho 10 người gắn trực tiếp món ăn với mùi, âm thanh, ánh sáng và phản hồi trải nghiệm. Phạm vi vật lý tương đối rõ nhưng hiệu quả cảm xúc của đồng bộ giác quan vẫn là giả định cần kiểm chứng."
+    },
+    {
+      "candidate_id": "BLIND_0006",
+      "scores": {
+        "novelty": 3.1,
+        "conceptual_coherence": 4.2,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.7,
+        "mvp_clarity": 4.2,
+        "business_model_plausibility": 2.8,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "MVP thu hẹp thành hai thao tác mộc và dùng chồng lớp hướng dẫn đơn giản trên video, phù hợp với nỗi đau thiếu phản hồi khi tự luyện. Vì liên quan thao tác dụng cụ và video người học, cần chú ý an toàn thực hành và quyền riêng tư."
+    },
+    {
+      "candidate_id": "BLIND_0007",
+      "scores": {
+        "novelty": 3.6,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.1,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.6,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Cơ chế đổi năm mô-đun trong chế độ PvE được mô tả cụ thể và bám sát mong muốn tùy biến chiến đấu. Giá trị kinh doanh chưa được nêu ngoài trải nghiệm game, nhưng prototype đủ tập trung để kiểm thử cơ chế lõi."
+    },
+    {
+      "candidate_id": "BLIND_0008",
+      "scores": {
+        "novelty": 3.2,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.4,
+        "technical_plausibility": 4.3,
+        "mvp_clarity": 4.7,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.3,
+        "ethical_privacy_risk": 1.9,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "Giới hạn bốn người, canvas chung và thời hạn 30 phút tạo MVP rõ, phù hợp với mục tiêu brainstorming tạm thời. Xóa vĩnh viễn giảm lưu trữ dài hạn nhưng vẫn cần quản lý nội dung đồng bộ trong phiên."
+    },
+    {
+      "candidate_id": "BLIND_0009",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.6,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.4,
+        "mvp_clarity": 4.2,
+        "business_model_plausibility": 3.4,
+        "unsupported_claim_risk": 1.7,
+        "ethical_privacy_risk": 2.1,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Nhiệm vụ chuẩn bị món ăn đơn lẻ trong thực đơn nhỏ là cách kiểm tra trực tiếp trải nghiệm học nấu ăn tại chỗ. Vận hành không gian và an toàn khi khách tham gia khiến prototype đòi hỏi tổ chức hơn phần mềm thuần túy."
+    },
+    {
+      "candidate_id": "BLIND_0010",
+      "scores": {
+        "novelty": 3.7,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 2.9,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.4,
+        "business_model_plausibility": 2.4,
+        "unsupported_claim_risk": 1.4,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Hai nhân vật với sức mạnh thay đổi theo khoảng cách thể hiện rõ cơ chế cộng sinh và chiến lược vị trí. MVP có phạm vi chiến đấu gọn, còn hướng kiếm tiền không được mô tả."
+    },
+    {
+      "candidate_id": "BLIND_0011",
+      "scores": {
+        "novelty": 3.6,
+        "conceptual_coherence": 4.3,
+        "user_pain_plausibility": 3.0,
+        "technical_plausibility": 3.8,
+        "mvp_clarity": 4.1,
+        "business_model_plausibility": 2.3,
+        "unsupported_claim_risk": 2.2,
+        "ethical_privacy_risk": 2.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.4
+      },
+      "short_rationale": "Sandbox vật lý với ít loại đạn và ghi/phát lại kết nối trực tiếp hành động với sáng tạo hình ảnh. Kỳ vọng về nền tảng chia sẻ mạnh vượt xa phần scope được mô tả và nội dung người dùng cần được quản lý."
+    },
+    {
+      "candidate_id": "BLIND_0012",
+      "scores": {
+        "novelty": 3.2,
+        "conceptual_coherence": 4.3,
+        "user_pain_plausibility": 4.1,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.4,
+        "business_model_plausibility": 2.8,
+        "unsupported_claim_risk": 1.8,
+        "ethical_privacy_risk": 1.8,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "Canvas cho bài vật lý nhập môn và một kỹ thuật giải cụ thể giúp concept AI trở nên có thể kiểm thử. Nhu cầu chia nhỏ bài toán được mô tả thuyết phục, trong khi giá trị kinh doanh vẫn còn mở."
+    },
+    {
+      "candidate_id": "BLIND_0013",
+      "scores": {
+        "novelty": 2.9,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.4,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.6,
+        "business_model_plausibility": 3.7,
+        "unsupported_claim_risk": 1.4,
+        "ethical_privacy_risk": 1.2,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "Kit thử nghiệm giao một khẩu phần với nguyên liệu định lượng và phản hồi beta nên mục tiêu học hương vị rất rõ. Mô hình subscription phù hợp với cách đóng gói lặp lại, dù concept không quá khác biệt."
+    },
+    {
+      "candidate_id": "BLIND_0014",
+      "scores": {
+        "novelty": 4.2,
+        "conceptual_coherence": 4.4,
+        "user_pain_plausibility": 2.9,
+        "technical_plausibility": 2.4,
+        "mvp_clarity": 3.7,
+        "business_model_plausibility": 2.4,
+        "unsupported_claim_risk": 3.2,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.3,
+        "prototype_willingness": 2.9
+      },
+      "short_rationale": "Cơ chế địa hình bị điêu khắc rồi biến mất tạo khác biệt rõ và được gắn với chướng ngại cụ thể. Tuy nhiên biến dạng địa hình thời gian thực cùng phản ứng của AI làm đường MVP khó hơn mức mô tả hỗ trợ."
+    },
+    {
+      "candidate_id": "BLIND_0015",
+      "scores": {
+        "novelty": 2.7,
+        "conceptual_coherence": 4.4,
+        "user_pain_plausibility": 3.2,
+        "technical_plausibility": 3.9,
+        "mvp_clarity": 4.1,
+        "business_model_plausibility": 3.8,
+        "unsupported_claim_risk": 2.2,
+        "ethical_privacy_risk": 1.4,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Nền tảng giới thiệu năm nguồn hạt và thử 25 người giúp kiểm tra nhu cầu subscription một cách gọn. Các tuyên bố về quan hệ trực tiếp và tác động năng lượng tái tạo chưa được hiện thực hóa trong phạm vi pilot."
+    },
+    {
+      "candidate_id": "BLIND_0016",
+      "scores": {
+        "novelty": 3.3,
+        "conceptual_coherence": 4.3,
+        "user_pain_plausibility": 3.1,
+        "technical_plausibility": 3.1,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.2,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.6,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.4
+      },
+      "short_rationale": "Bữa pop-up một đêm với nguyên liệu trong bán kính cụ thể là thử nghiệm trực tiếp cho trải nghiệm hyper-local. Việc sử dụng nguyên liệu đô thị cần kiểm soát nguồn gốc và an toàn thực phẩm, dù concept đã giới hạn theo đối tác được biết."
+    },
+    {
+      "candidate_id": "BLIND_0017",
+      "scores": {
+        "novelty": 3.1,
+        "conceptual_coherence": 4.4,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.7,
+        "mvp_clarity": 4.6,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.7,
+        "ethical_privacy_risk": 1.3,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "Cảm biến ước lượng mức tồn và cảnh báo ngưỡng thấp bám sát nỗi đau hết hàng, với pilot 3–5 văn phòng rất cụ thể. Reorder trong MVP vẫn được xử lý thủ công nên không khẳng định quá mức về tự động hóa."
+    },
+    {
+      "candidate_id": "BLIND_0018",
+      "scores": {
+        "novelty": 2.8,
+        "conceptual_coherence": 4.6,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.6,
+        "mvp_clarity": 4.7,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.4,
+        "ethical_privacy_risk": 2.6,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "Một banner với ba điều kiện client-side tạo prototype rất rõ và kỹ thuật gọn. Việc phân loại khách truy cập vẫn liên quan dữ liệu hành vi, còn lợi ích chuyển đổi chỉ là giả thuyết cần kiểm thử."
+    },
+    {
+      "candidate_id": "BLIND_0019",
+      "scores": {
+        "novelty": 3.2,
+        "conceptual_coherence": 4.3,
+        "user_pain_plausibility": 3.1,
+        "technical_plausibility": 3.9,
+        "mvp_clarity": 4.1,
+        "business_model_plausibility": 2.4,
+        "unsupported_claim_risk": 2.1,
+        "ethical_privacy_risk": 1.1,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.4
+      },
+      "short_rationale": "Cung truyện đơn với 5–10 quyết định là cách khả thi để kiểm tra trải nghiệm kể chuyện ngắn. Tuyên bố về tạo nhánh thủ tục và khả năng phát triển lâu dài chưa được thể hiện đầy đủ trong MVP."
+    },
+    {
+      "candidate_id": "BLIND_0020",
+      "scores": {
+        "novelty": 3.3,
+        "conceptual_coherence": 4.6,
+        "user_pain_plausibility": 3.2,
+        "technical_plausibility": 4.1,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.4,
+        "unsupported_claim_risk": 1.3,
+        "ethical_privacy_risk": 1.1,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "Một bài nhạc, ba loại địch và vòng lặp combo cho phép đo trực tiếp việc đánh né theo nhịp. Concept gắn nhất quán giữa nỗi đau điều khiển và cơ chế gameplay, dù mô hình kinh doanh chưa có."
+    },
+    {
+      "candidate_id": "BLIND_0021",
+      "scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.2,
+        "user_pain_plausibility": 3.8,
+        "technical_plausibility": 3.6,
+        "mvp_clarity": 4.2,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.8,
+        "ethical_privacy_risk": 2.4,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Giới hạn 1.000 từ và ba tiêu chí phản hồi giúp MVP có điểm kiểm thử cụ thể cho người viết trẻ. Vai trò “biên tập phát triển” và độ chính xác của nhận xét là các tuyên bố cần được kiểm chứng từ chính đầu ra."
+    },
+    {
+      "candidate_id": "BLIND_0022",
+      "scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.2,
+        "user_pain_plausibility": 4.3,
+        "technical_plausibility": 3.1,
+        "mvp_clarity": 3.9,
+        "business_model_plausibility": 3.3,
+        "unsupported_claim_risk": 3.7,
+        "ethical_privacy_risk": 3.8,
+        "overall_mvp_usefulness": 3.4,
+        "prototype_willingness": 3.0
+      },
+      "short_rationale": "Nhu cầu được nêu rất mạnh và form nhập dị ứng cùng kế hoạch bảy ngày tạo một luồng MVP rõ. Vì đề bài nhấn mạnh an toàn với dị ứng nặng, độ đúng của gợi ý là rủi ro chưa được bảo đảm trong nội dung card."
+    },
+    {
+      "candidate_id": "BLIND_0023",
+      "scores": {
+        "novelty": 2.6,
+        "conceptual_coherence": 4.4,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.7,
+        "mvp_clarity": 4.2,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.4,
+        "ethical_privacy_risk": 1.8,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "Mục tiêu học, trình độ đầu vào và danh sách tài nguyên theo thứ tự tạo chuỗi logic dễ thử nghiệm. Chất lượng curation và tính cá nhân hóa được hứa hẹn nhưng chưa nêu cơ chế kiểm chứng."
+    },
+    {
+      "candidate_id": "BLIND_0024",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.6,
+        "user_pain_plausibility": 3.6,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.7,
+        "business_model_plausibility": 3.4,
+        "unsupported_claim_risk": 1.3,
+        "ethical_privacy_risk": 1.7,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "Một template với ba module, upload nội dung và quiz ba câu là MVP đặc biệt rõ và khả thi. Giá trị cung cấp cho người tạo micro-learning được liên kết trực tiếp với các tính năng cốt lõi."
+    },
+    {
+      "candidate_id": "BLIND_0025",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.3,
+        "user_pain_plausibility": 3.1,
+        "technical_plausibility": 3.8,
+        "mvp_clarity": 4.1,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.9,
+        "ethical_privacy_risk": 1.5,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "AR surface detection và một puzzle theo chủ đề tạo bản thử gọn cho ý tưởng kết hợp môi trường thật với giải đố. Mô hình freemium được nêu nhưng chưa được kiểm tra trong scope này."
+    },
+    {
+      "candidate_id": "BLIND_0026",
+      "scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.6,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.7,
+        "business_model_plausibility": 2.7,
+        "unsupported_claim_risk": 1.3,
+        "ethical_privacy_risk": 1.1,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "Năm cấp độ nhịp 4/4 cùng phản hồi sớm/đúng/muộn biến mục tiêu luyện tempo thành vòng lặp dễ đo. MVP rất tập trung và không đưa ra tuyên bố ngoài khả năng thể hiện của prototype."
+    },
+    {
+      "candidate_id": "BLIND_0027",
+      "scores": {
+        "novelty": 2.6,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.7,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.8,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 2.6,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "Bản đồ bán kính cố định, nhóm danh mục và RSVP thể hiện đúng nỗi đau tìm sự kiện ngách. Việc hiển thị sự kiện địa phương vẫn cần xử lý thông tin vị trí và độ tin cậy của nội dung đăng."
+    },
+    {
+      "candidate_id": "BLIND_0028",
+      "scores": {
+        "novelty": 3.2,
+        "conceptual_coherence": 4.6,
+        "user_pain_plausibility": 3.4,
+        "technical_plausibility": 4.4,
+        "mvp_clarity": 4.8,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.3,
+        "ethical_privacy_risk": 1.9,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "Canvas đồng bộ cho tối đa bốn người với timer xóa vĩnh viễn là phạm vi rất rõ cho thử nghiệm brainstorm ngắn. Concept nhất quán, dù hướng doanh thu không được mô tả."
+    },
+    {
+      "candidate_id": "BLIND_0029",
+      "scores": {
+        "novelty": 3.3,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.6,
+        "technical_plausibility": 3.4,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.4,
+        "unsupported_claim_risk": 1.9,
+        "ethical_privacy_risk": 2.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "Hai residency một tuần giúp kiểm tra cả tiện ích không gian lẫn phản hồi diner trong điều kiện thực. Vận hành nhà bếp và phục vụ làm MVP phức tạp hơn, nhưng các tiêu chí phản hồi đã rõ."
+    },
+    {
+      "candidate_id": "BLIND_0030",
+      "scores": {
+        "novelty": 3.4,
+        "conceptual_coherence": 4.3,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 2.8,
+        "mvp_clarity": 3.6,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.7,
+        "ethical_privacy_risk": 3.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.2
+      },
+      "short_rationale": "Thu gom một số phụ phẩm và tạo một loại broth concentrate cho phép thử giả thuyết giảm lãng phí. Trung tâm xử lý, logistics và việc biến phụ phẩm thành thực phẩm làm tăng rủi ro kỹ thuật lẫn an toàn chưa được giải quyết đầy đủ."
+    },
+    {
+      "candidate_id": "BLIND_0031",
+      "scores": {
+        "novelty": 3.1,
+        "conceptual_coherence": 4.4,
+        "user_pain_plausibility": 3.7,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.2,
+        "business_model_plausibility": 2.7,
+        "unsupported_claim_risk": 1.6,
+        "ethical_privacy_risk": 3.2,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Hai trẻ luân phiên viết và minh họa một truyện ngắn thể hiện rõ mục tiêu phát triển kể chuyện. Vì có người dùng nhỏ tuổi và nội dung chia sẻ, nhu cầu moderation nêu trong concept cần được hiện thực hóa."
+    },
+    {
+      "candidate_id": "BLIND_0032",
+      "scores": {
+        "novelty": 3.3,
+        "conceptual_coherence": 4.3,
+        "user_pain_plausibility": 3.4,
+        "technical_plausibility": 3.1,
+        "mvp_clarity": 4.1,
+        "business_model_plausibility": 2.7,
+        "unsupported_claim_risk": 2.6,
+        "ethical_privacy_risk": 1.3,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.3
+      },
+      "short_rationale": "Hai phương pháp pha với gợi ý AR tạo trải nghiệm minh họa rõ cho kỹ thuật brewing. Nhận diện thiết bị và phản hồi thời gian thực được nêu rộng hơn khả năng chứng minh của prototype."
+    },
+    {
+      "candidate_id": "BLIND_0033",
+      "scores": {
+        "novelty": 3.1,
+        "conceptual_coherence": 4.4,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.3,
+        "business_model_plausibility": 2.6,
+        "unsupported_claim_risk": 1.9,
+        "ethical_privacy_risk": 2.0,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Một sonnet, tag định sẵn và word frequency biến mục tiêu đa góc nhìn thành phạm vi có thể thử nghiệm. AI tổng hợp chủ đề chỉ được mô tả ở mức cơ bản, còn giá trị kinh doanh không rõ."
+    },
+    {
+      "candidate_id": "BLIND_0034",
+      "scores": {
+        "novelty": 3.4,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.4,
+        "business_model_plausibility": 3.6,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.6,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "Hộp cho hai người với món ăn, mùi hương, playlist và truyện ngắn bám chặt trải nghiệm đa giác quan. Mô hình subscription phù hợp với cách đóng gói, trong khi hấp dẫn cảm xúc cần được xác nhận bằng thử nghiệm."
+    },
+    {
+      "candidate_id": "BLIND_0035",
+      "scores": {
+        "novelty": 2.7,
+        "conceptual_coherence": 4.4,
+        "user_pain_plausibility": 3.9,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.4,
+        "business_model_plausibility": 2.9,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "Phiên bản MVP dùng skill tag và keyword matching thay vì suy luận ngầm, nên phù hợp với phạm vi kết nối ban đầu. Hồ sơ và liên hệ giữa freelancer cần được xử lý cẩn thận nhưng không có claim kỹ thuật quá mạnh."
+    },
+    {
+      "candidate_id": "BLIND_0036",
+      "scores": {
+        "novelty": 3.8,
+        "conceptual_coherence": 4.2,
+        "user_pain_plausibility": 3.0,
+        "technical_plausibility": 3.3,
+        "mvp_clarity": 3.7,
+        "business_model_plausibility": 2.3,
+        "unsupported_claim_risk": 2.6,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.3,
+        "prototype_willingness": 3.2
+      },
+      "short_rationale": "Cơ chế “echo” qua các trận tạo khác biệt và gắn với nhu cầu chiến thuật thay đổi. Tính bền vững của thế giới, generation và AI phản ứng vẫn rộng hơn phạm vi một map cùng hai role."
+    },
+    {
+      "candidate_id": "BLIND_0037",
+      "scores": {
+        "novelty": 3.3,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.6,
+        "mvp_clarity": 4.6,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.4,
+        "ethical_privacy_risk": 1.3,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "Câu hỏi có sẵn, phản hồi audio và tập thực vật nhỏ tạo mô phỏng suy luận có đường đi rõ. Kỹ thuật desktop và nội dung giới hạn đủ khả thi để kiểm tra cơ chế học."
+    },
+    {
+      "candidate_id": "BLIND_0038",
+      "scores": {
+        "novelty": 3.7,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.0,
+        "technical_plausibility": 3.9,
+        "mvp_clarity": 4.3,
+        "business_model_plausibility": 2.3,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "Thay đổi trọng lực được gắn cụ thể với di chuyển, bẫy và địch trong hai stage ngắn. Scope không phụ thuộc AI phức tạp nên phù hợp để kiểm tra cơ chế platformer."
+    },
+    {
+      "candidate_id": "BLIND_0039",
+      "scores": {
+        "novelty": 3.3,
+        "conceptual_coherence": 4.3,
+        "user_pain_plausibility": 3.1,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.4,
+        "business_model_plausibility": 2.7,
+        "unsupported_claim_risk": 1.7,
+        "ethical_privacy_risk": 3.3,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.4
+      },
+      "short_rationale": "Một khu nhỏ, một điểm GPS và ảnh có đóng dấu tạo luồng quest rất cụ thể. Thu thập ảnh và vị trí là rủi ro quyền riêng tư đáng kể dù nhiệm vụ có tính giải trí thấp."
+    },
+    {
+      "candidate_id": "BLIND_0040",
+      "scores": {
+        "novelty": 3.1,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.2,
+        "technical_plausibility": 3.6,
+        "mvp_clarity": 4.1,
+        "business_model_plausibility": 3.7,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.7,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Hộp phiên bản giới hạn với hạt, dụng cụ và nội dung nghi lễ kiểm tra trực tiếp trải nghiệm văn hóa tại nhà. Tính xác thực và hợp tác văn hóa được đề cập nhưng chưa có cơ chế bảo đảm trong prototype."
+    },
+    {
+      "candidate_id": "BLIND_0041",
+      "scores": {
+        "novelty": 3.1,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.2,
+        "technical_plausibility": 4.4,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.3,
+        "unsupported_claim_risk": 1.4,
+        "ethical_privacy_risk": 2.7,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Lobby 3–5 người, lượt viết một câu và một phiếu bầu là cách tối giản để thử đồng sáng tạo. Do phục vụ tuổi vị thành niên và nhận nội dung tự do, moderation là rủi ro cần lưu ý."
+    },
+    {
+      "candidate_id": "BLIND_0042",
+      "scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.3,
+        "user_pain_plausibility": 3.4,
+        "technical_plausibility": 3.7,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.4,
+        "ethical_privacy_risk": 2.6,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Năm blend và form hồ sơ tạo thử nghiệm rõ cho trải nghiệm cà phê caffeine thấp. Việc “phù hợp” theo độ nhạy cá nhân có yếu tố sức khỏe nhưng không có cách xác thực được mô tả."
+    },
+    {
+      "candidate_id": "BLIND_0043",
+      "scores": {
+        "novelty": 3.3,
+        "conceptual_coherence": 4.3,
+        "user_pain_plausibility": 3.1,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.3,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.8,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.4
+      },
+      "short_rationale": "Một bữa tối 20 khách với menu nguồn gần kiểm tra trực tiếp độ hấp dẫn của câu chuyện hyper-local. Nguồn nguyên liệu và an toàn thực phẩm cần được kiểm soát cẩn thận trong vận hành."
+    },
+    {
+      "candidate_id": "BLIND_0044",
+      "scores": {
+        "novelty": 3.1,
+        "conceptual_coherence": 4.2,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.4,
+        "mvp_clarity": 4.1,
+        "business_model_plausibility": 2.8,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 2.6,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "MVP nêu hai kỹ thuật mộc và phản hồi góc/điểm tác động rõ ràng, phù hợp với nhu cầu luyện thao tác. Thuật toán phân tích và chuẩn “expert pattern” được khẳng định nhưng chưa được chi tiết hóa."
+    },
+    {
+      "candidate_id": "BLIND_0045",
+      "scores": {
+        "novelty": 3.1,
+        "conceptual_coherence": 4.4,
+        "user_pain_plausibility": 3.2,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.2,
+        "business_model_plausibility": 2.3,
+        "unsupported_claim_risk": 1.7,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "Một level nhạc cố định với đánh, né và địch theo nhịp cho phép kiểm tra trực tiếp premise. Cơ chế nhất quán và không phụ thuộc các hệ thống lớn ngoài MVP."
+    },
+    {
+      "candidate_id": "BLIND_0046",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.0,
+        "technical_plausibility": 4.6,
+        "mvp_clarity": 4.6,
+        "business_model_plausibility": 2.4,
+        "unsupported_claim_risk": 1.3,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "Bàn 5x5 với hai loại quân và điều kiện thắng giúp kiểm chứng chiều sâu từ luật tương tác rất gọn. Giá trị kinh doanh không nêu rõ, nhưng scope kỹ thuật và gameplay rõ ràng."
+    },
+    {
+      "candidate_id": "BLIND_0047",
+      "scores": {
+        "novelty": 3.2,
+        "conceptual_coherence": 4.3,
+        "user_pain_plausibility": 3.1,
+        "technical_plausibility": 3.8,
+        "mvp_clarity": 4.2,
+        "business_model_plausibility": 3.2,
+        "unsupported_claim_risk": 1.6,
+        "ethical_privacy_risk": 1.5,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "MVP chuyển bioluminescence thành ánh sáng và décor sẵn có, giảm đáng kể độ khó kỹ thuật mà vẫn giữ trải nghiệm cốt lõi. Pop-up giới hạn menu phù hợp để thử phản hồi về bầu không khí."
+    },
+    {
+      "candidate_id": "BLIND_0048",
+      "scores": {
+        "novelty": 2.8,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.8,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.6,
+        "business_model_plausibility": 2.8,
+        "unsupported_claim_risk": 1.3,
+        "ethical_privacy_risk": 2.8,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "Bộ asset hữu hạn, canvas kéo thả và xuất PDF tạo workflow cụ thể cho phụ huynh và trẻ. Việc có người dùng nhỏ tuổi làm nội dung và xuất bản câu chuyện cần được bảo vệ phù hợp."
+    },
+    {
+      "candidate_id": "BLIND_0049",
+      "scores": {
+        "novelty": 2.6,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.4,
+        "technical_plausibility": 4.3,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.6,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.6,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "Landing page và waitlist là MVP đơn giản, đúng để kiểm tra sự quan tâm với pack asset độc quyền. Quyền phân phối và tính độc quyền của asset cần được quản lý, dù card chưa hứa hẹn quá mức."
+    },
+    {
+      "candidate_id": "BLIND_0050",
+      "scores": {
+        "novelty": 3.3,
+        "conceptual_coherence": 4.4,
+        "user_pain_plausibility": 3.1,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.8,
+        "ethical_privacy_risk": 3.4,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.4
+      },
+      "short_rationale": "Mục tiêu GPS duy nhất cùng ảnh xác thực và giới hạn 15 phút tạo trải nghiệm test được. Điểm thưởng và sponsorship tạo hướng giá trị, nhưng việc dùng ảnh-vị trí vẫn mang rủi ro riêng tư cao."
+    },
+    {
+      "candidate_id": "BLIND_0051",
+      "scores": {
+        "novelty": 3.8,
+        "conceptual_coherence": 4.1,
+        "user_pain_plausibility": 3.1,
+        "technical_plausibility": 2.6,
+        "mvp_clarity": 3.2,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 3.3,
+        "ethical_privacy_risk": 2.4,
+        "overall_mvp_usefulness": 3.2,
+        "prototype_willingness": 2.9
+      },
+      "short_rationale": "Không gian pop-up dùng culture phát sáng có tính khác biệt nhưng đòi hỏi vật liệu bền và an toàn không được chứng minh trong card. Quy mô vật lý cùng tuyên bố về culture làm MVP khó hơn các lựa chọn ánh sáng thông thường."
+    },
+    {
+      "candidate_id": "BLIND_0052",
+      "scores": {
+        "novelty": 3.3,
+        "conceptual_coherence": 4.4,
+        "user_pain_plausibility": 3.1,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.4,
+        "business_model_plausibility": 2.7,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.4,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "MVP dùng một marker và một puzzle chủ đề, nên giữ trải nghiệm AR trong phạm vi có thể triển khai. Cơ chế scan, overlay và giải đố liên kết nhất quán với mục tiêu khám phá."
+    },
+    {
+      "candidate_id": "BLIND_0053",
+      "scores": {
+        "novelty": 2.7,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.6,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.3,
+        "unsupported_claim_risk": 1.4,
+        "ethical_privacy_risk": 1.7,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "Danh sách 5–10 producer cùng inquiry/pre-order form là cách rõ ràng để kiểm tra việc khám phá nguyên liệu địa phương. Marketplace chưa bị mở rộng quá mức và hướng giá trị cho người mua lẫn producer tương đối hợp lý."
+    },
+    {
+      "candidate_id": "BLIND_0054",
+      "scores": {
+        "novelty": 2.8,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.8,
+        "unsupported_claim_risk": 2.6,
+        "ethical_privacy_risk": 2.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "Diagnostic algebra và ba module physics tạo target học tập cụ thể. Adaptive mapping của prerequisite và gợi ý OER là phần phức tạp hơn chi tiết prototype hiện có, đặc biệt với dữ liệu học sinh."
+    },
+    {
+      "candidate_id": "BLIND_0055",
+      "scores": {
+        "novelty": 4.1,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 2.9,
+        "technical_plausibility": 3.4,
+        "mvp_clarity": 4.2,
+        "business_model_plausibility": 2.3,
+        "unsupported_claim_risk": 1.9,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Bản giới hạn dùng một ability và ba chướng ngại giúp kiểm tra điêu khắc địa hình mà không cần AI pathfinding động. Cơ chế khác biệt và MVP đã giảm đáng kể các claim kỹ thuật rộng."
+    },
+    {
+      "candidate_id": "BLIND_0056",
+      "scores": {
+        "novelty": 2.9,
+        "conceptual_coherence": 4.3,
+        "user_pain_plausibility": 3.8,
+        "technical_plausibility": 3.8,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.1,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 2.2,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Báo cáo tháng dùng nội dung và số liệu người dùng cung cấp tạo đầu ra có giới hạn rõ. Các gợi ý đối tác và phân tích tăng trưởng vẫn cần được xác thực, đồng thời dữ liệu nội dung/engagement là dữ liệu nhạy cảm với creator."
+    },
+    {
+      "candidate_id": "BLIND_0057",
+      "scores": {
+        "novelty": 3.3,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.1,
+        "technical_plausibility": 3.4,
+        "mvp_clarity": 4.2,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.7,
+        "ethical_privacy_risk": 2.2,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "Tình huống ống nước vỡ với thao tác nhận diện, chọn dụng cụ và phản hồi hậu quả bám sát nhu cầu luyện quyết định an toàn. Môi trường 3D có độ phức tạp nhất định nhưng scope một tình huống là hợp lý."
+    },
+    {
+      "candidate_id": "BLIND_0058",
+      "scores": {
+        "novelty": 2.7,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.2,
+        "technical_plausibility": 3.9,
+        "mvp_clarity": 4.3,
+        "business_model_plausibility": 3.8,
+        "unsupported_claim_risk": 1.8,
+        "ethical_privacy_risk": 1.4,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "MVP tập trung vào 2–3 micro-lot, rang gần ngày giao và phản hồi về độ tươi, nên phù hợp kiểm tra subscription. Các thuộc tính sourcing được nêu nhưng không bị dùng để hứa hẹn tác động quá lớn."
+    },
+    {
+      "candidate_id": "BLIND_0059",
+      "scores": {
+        "novelty": 2.7,
+        "conceptual_coherence": 4.4,
+        "user_pain_plausibility": 3.7,
+        "technical_plausibility": 4.4,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 2.3,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "Hồ sơ kỹ năng và request swap là luồng tối giản, trực tiếp giải quyết mục tiêu học đổi kỹ năng không dùng tiền. Giá trị kinh doanh không rõ và việc ghép người cần xử lý thông tin hồ sơ cẩn thận."
+    },
+    {
+      "candidate_id": "BLIND_0060",
+      "scores": {
+        "novelty": 2.8,
+        "conceptual_coherence": 4.4,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.2,
+        "business_model_plausibility": 2.8,
+        "unsupported_claim_risk": 2.8,
+        "ethical_privacy_risk": 3.0,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.4
+      },
+      "short_rationale": "Nhập công thức và tạo 3–5 thay thế cho các loại món cụ thể là MVP rõ cho nhu cầu điều chỉnh nguyên liệu. Gợi ý cho dị ứng/chế độ ăn có thể mang rủi ro nếu độ chính xác của AI không được kiểm chứng."
+    },
+    {
+      "candidate_id": "BLIND_0061",
+      "scores": {
+        "novelty": 3.1,
+        "conceptual_coherence": 4.4,
+        "user_pain_plausibility": 3.4,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.3,
+        "business_model_plausibility": 2.6,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.3,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "AR được giới hạn thành overlay hướng dẫn và người dùng tự căn chỉnh, giúp giảm claim nhận diện hoặc đánh giá tự động. Hai phương pháp pha cùng thời lượng/góc rót là scope có thể test."
+    },
+    {
+      "candidate_id": "BLIND_0062",
+      "scores": {
+        "novelty": 3.8,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.0,
+        "technical_plausibility": 3.8,
+        "mvp_clarity": 4.3,
+        "business_model_plausibility": 2.4,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "Một level minh họa rewind projectile, pause platform và fast-forward trap đưa cơ chế thời gian vào tình huống cụ thể. Prototype đủ giới hạn để thử điều khiển và puzzle mà không yêu cầu hệ thống rộng."
+    },
+    {
+      "candidate_id": "BLIND_0063",
+      "scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.3,
+        "user_pain_plausibility": 3.6,
+        "technical_plausibility": 3.3,
+        "mvp_clarity": 4.1,
+        "business_model_plausibility": 3.1,
+        "unsupported_claim_risk": 2.3,
+        "ethical_privacy_risk": 2.4,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.4
+      },
+      "short_rationale": "Style profile bằng ảnh và feed daily bám sát nỗi đau bị quá tải khi tìm vintage. Phân tích ảnh, tổng hợp listing và tính sẵn có của item là các phần không được làm rõ trong cách triển khai."
+    },
+    {
+      "candidate_id": "BLIND_0064",
+      "scores": {
+        "novelty": 3.1,
+        "conceptual_coherence": 4.3,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.2,
+        "business_model_plausibility": 3.3,
+        "unsupported_claim_risk": 2.2,
+        "ethical_privacy_risk": 1.5,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "Cảm biến occupancy với thử nghiệm ở hai quy mô văn phòng và restock admin thủ công tạo phạm vi đo được. Predictive fulfillment và marketplace nhiều nhà cung cấp được nêu rộng hơn phần MVP chứng minh."
+    },
+    {
+      "candidate_id": "BLIND_0065",
+      "scores": {
+        "novelty": 2.9,
+        "conceptual_coherence": 4.1,
+        "user_pain_plausibility": 3.1,
+        "technical_plausibility": 3.8,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.3,
+        "unsupported_claim_risk": 2.6,
+        "ethical_privacy_risk": 3.2,
+        "overall_mvp_usefulness": 3.4,
+        "prototype_willingness": 3.1
+      },
+      "short_rationale": "Ba wellness blend và pilot một tháng tạo đề xuất thử nghiệm rõ cho dịch vụ văn phòng. Liên hệ giữa add-in và “focus/energy/calm” là claim về sức khỏe chưa được hỗ trợ và liên quan sản phẩm dùng để uống."
+    },
+    {
+      "candidate_id": "BLIND_0066",
+      "scores": {
+        "novelty": 2.6,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.6,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.6,
+        "business_model_plausibility": 3.4,
+        "unsupported_claim_risk": 1.4,
+        "ethical_privacy_risk": 1.6,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "Template duy nhất có upload nội dung và quiz cơ bản khớp trực tiếp với nhu cầu tạo micro-learning không lập trình. Scope ngắn gọn, khả thi, và không dựa vào claim kỹ thuật mạnh."
+    },
+    {
+      "candidate_id": "BLIND_0067",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.4,
+        "user_pain_plausibility": 3.0,
+        "technical_plausibility": 3.7,
+        "mvp_clarity": 4.3,
+        "business_model_plausibility": 2.3,
+        "unsupported_claim_risk": 1.8,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "Replay chính xác chuỗi 3–5 hành động bằng clone tạo cơ chế PvP khác biệt và có tình huống thử rõ. Độ chính xác timing và cân bằng chỉ mới là mục tiêu thiết kế, nhưng phạm vi arena 1v1 hợp lý."
+    },
+    {
+      "candidate_id": "BLIND_0068",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.8,
+        "technical_plausibility": 4.6,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.8,
+        "unsupported_claim_risk": 1.3,
+        "ethical_privacy_risk": 2.3,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "Một khu vực xác định với organizer được duyệt trước làm giảm độ mơ hồ của community calendar. Tính hữu ích và kỹ thuật MVP rõ, dù thông tin sự kiện địa phương vẫn cần quản trị."
+    },
+    {
+      "candidate_id": "BLIND_0069",
+      "scores": {
+        "novelty": 3.1,
+        "conceptual_coherence": 4.6,
+        "user_pain_plausibility": 3.9,
+        "technical_plausibility": 4.2,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.9,
+        "ethical_privacy_risk": 3.4,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "Tổ chức file local, ghi chú và export archive mã hóa là luồng nhất quán cho mục tiêu lưu giữ ngữ cảnh. Việc để khóa giải mã trong file không mã hóa tạo rủi ro riêng tư đáng kể dù scope kỹ thuật tương đối rõ."
+    },
+    {
+      "candidate_id": "BLIND_0070",
+      "scores": {
+        "novelty": 3.3,
+        "conceptual_coherence": 4.3,
+        "user_pain_plausibility": 3.1,
+        "technical_plausibility": 3.8,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.6,
+        "unsupported_claim_risk": 1.7,
+        "ethical_privacy_risk": 3.2,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.4
+      },
+      "short_rationale": "Một công viên/khu phố với vài node AR giúp kiểm tra tương tác location-based và persistence ở quy mô nhỏ. GPS và hoạt động ngoài đời thực tạo rủi ro về vị trí và an toàn mà card chưa xử lý."
+    },
+    {
+      "candidate_id": "BLIND_0071",
+      "scores": {
+        "novelty": 2.8,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.4,
+        "mvp_clarity": 4.3,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 2.9,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "Rule-based banner với first/returning/region là MVP cụ thể và phù hợp với personalization nhẹ. Target theo region và lịch sử truy cập làm tăng rủi ro dữ liệu hành vi, dù logic chạy client-side."
+    },
+    {
+      "candidate_id": "BLIND_0072",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.0,
+        "technical_plausibility": 4.1,
+        "mvp_clarity": 4.4,
+        "business_model_plausibility": 2.3,
+        "unsupported_claim_risk": 1.4,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "Tutorial cùng một stage dùng gravity zone để vượt chướng ngại tạo kiểm thử rõ cho cơ chế lõi. Scope đã tránh AI phức tạp và giữ gameplay trong phạm vi kỹ thuật hợp lý."
+    },
+    {
+      "candidate_id": "BLIND_0073",
+      "scores": {
+        "novelty": 3.7,
+        "conceptual_coherence": 4.3,
+        "user_pain_plausibility": 3.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.3,
+        "unsupported_claim_risk": 1.9,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.4
+      },
+      "short_rationale": "Khả năng thay tempo và layer trong một bài hát tạo hướng sáng tạo khác với note-matching. Audio engine thời gian thực và tiêu chí “target sonic description” cần được làm rõ hơn để đánh giá hiệu quả."
+    },
+    {
+      "candidate_id": "BLIND_0074",
+      "scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.2,
+        "user_pain_plausibility": 4.3,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.8,
+        "business_model_plausibility": 3.2,
+        "unsupported_claim_risk": 4.1,
+        "ethical_privacy_risk": 3.9,
+        "overall_mvp_usefulness": 3.3,
+        "prototype_willingness": 2.9
+      },
+      "short_rationale": "Nhu cầu dị ứng nghiêm trọng rõ và form plus shopping list tạo test khả dụng. Tuy nhiên cam kết tránh 100% allergen làm rủi ro claim và rủi ro sức khỏe rất cao khi chưa có cách xác minh an toàn."
+    },
+    {
+      "candidate_id": "BLIND_0075",
+      "scores": {
+        "novelty": 3.4,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.2,
+        "technical_plausibility": 4.1,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.3,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.9,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "Menu ba món cho 10 người cùng nhạc, đèn và mùi được nêu đủ cụ thể để kiểm tra tác động đa giác quan. Dùng công nghệ sẵn có giúp prototype khả thi, dù phản ứng với mùi cần được quản lý."
+    },
+    {
+      "candidate_id": "BLIND_0076",
+      "scores": {
+        "novelty": 3.2,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.2,
+        "technical_plausibility": 3.8,
+        "mvp_clarity": 4.4,
+        "business_model_plausibility": 3.7,
+        "unsupported_claim_risk": 1.7,
+        "ethical_privacy_risk": 1.6,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "Hộp giới hạn với hạt, dụng cụ thay thế và booklet tạo bản thử thực tế cho trải nghiệm văn hóa cà phê. Cách điều chỉnh dụng cụ giúp giảm độ khó nhưng tính đại diện văn hóa cần được kiểm chứng."
+    },
+    {
+      "candidate_id": "BLIND_0077",
+      "scores": {
+        "novelty": 3.1,
+        "conceptual_coherence": 4.6,
+        "user_pain_plausibility": 3.2,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.6,
+        "business_model_plausibility": 2.3,
+        "unsupported_claim_risk": 1.3,
+        "ethical_privacy_risk": 2.8,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Lượt viết một câu và vote định kỳ là cơ chế rất rõ, phù hợp để thử đồng sáng tạo theo nhóm nhỏ. Vì người dùng gồm tuổi 13–20 và đóng góp tự do, nội dung cần có quản trị phù hợp."
+    },
+    {
+      "candidate_id": "BLIND_0078",
+      "scores": {
+        "novelty": 3.6,
+        "conceptual_coherence": 4.3,
+        "user_pain_plausibility": 3.1,
+        "technical_plausibility": 3.7,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.3,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.3
+      },
+      "short_rationale": "Năm mô-đun trong PvE cho phép test ý tưởng custom build, nhưng concept nói hàng trăm micro-module và generation vượt xa prototype. Kết nối giữa gameplay và mong muốn tùy biến vẫn hợp lý."
+    },
+    {
+      "candidate_id": "BLIND_0079",
+      "scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.4,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.3,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.6,
+        "ethical_privacy_risk": 2.4,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "Chatbot Spanish với vài tình huống và feedback text đã giới hạn rõ loại hỗ trợ ngôn ngữ cần kiểm tra. Nhu cầu luyện kín đáo thuyết phục, còn dữ liệu hội thoại của học sinh vẫn cần bảo vệ."
+    },
+    {
+      "candidate_id": "BLIND_0080",
+      "scores": {
+        "novelty": 3.3,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.6,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.3,
+        "ethical_privacy_risk": 1.3,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "Botany scenario dùng audio, câu hỏi có sẵn và tập đáp án nhỏ tạo decision tree rất khả thi. Luồng hỏi–đáp gắn trực tiếp với mục tiêu tập suy luận dựa trên manh mối."
+    },
+    {
+      "candidate_id": "BLIND_0081",
+      "scores": {
+        "novelty": 3.3,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.4,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.4,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.7,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "Logic grid gồm ba suspect, item và location giúp giới hạn bài toán generation thành dạng có thể xác minh. Claim replayability vẫn cần được chứng minh bởi chất lượng các constraint được tạo."
+    },
+    {
+      "candidate_id": "BLIND_0082",
+      "scores": {
+        "novelty": 2.8,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.8,
+        "technical_plausibility": 4.4,
+        "mvp_clarity": 4.6,
+        "business_model_plausibility": 2.8,
+        "unsupported_claim_risk": 1.3,
+        "ethical_privacy_risk": 2.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "Upload video ngắn, chọn một frame và annotate tạo luồng MVP rất tập trung cho việc làm hướng dẫn. Xử lý video người dùng cần cân nhắc riêng tư, nhưng kỹ thuật được mô tả ở mức khả thi."
+    },
+    {
+      "candidate_id": "BLIND_0083",
+      "scores": {
+        "novelty": 2.6,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.1,
+        "unsupported_claim_risk": 1.4,
+        "ethical_privacy_risk": 1.7,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "Onboard 10–15 roaster trong một khu vực và dùng inquiry/order form là thử nghiệm marketplace rõ. Concept thông thường nhưng liên kết tốt với nỗi đau khám phá nguồn rang địa phương."
+    },
+    {
+      "candidate_id": "BLIND_0084",
+      "scores": {
+        "novelty": 3.2,
+        "conceptual_coherence": 4.4,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.3,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.3,
+        "unsupported_claim_risk": 2.4,
+        "ethical_privacy_risk": 2.3,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Một zip code, năm quán và một sản phẩm compost giúp thử mô hình thu gom ở phạm vi gọn. Các hướng sản phẩm giá trị cao hơn được nêu nhưng không có cách xử lý hay bảo đảm an toàn trong MVP."
+    },
+    {
+      "candidate_id": "BLIND_0085",
+      "scores": {
+        "novelty": 3.2,
+        "conceptual_coherence": 4.3,
+        "user_pain_plausibility": 4.1,
+        "technical_plausibility": 3.7,
+        "mvp_clarity": 4.2,
+        "business_model_plausibility": 2.7,
+        "unsupported_claim_risk": 2.2,
+        "ethical_privacy_risk": 1.8,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "Canvas cho physics và một kỹ thuật cụ thể tạo đường kiểm thử rõ cho hỗ trợ giải bài. Phần AI theo framework còn chung chung và có thể cần chăm sóc dữ liệu của người học."
+    },
+    {
+      "candidate_id": "BLIND_0086",
+      "scores": {
+        "novelty": 3.9,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.3,
+        "unsupported_claim_risk": 1.4,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "Brush “sống” với hành vi lan, mờ và decay tạo trải nghiệm tạo hình tạm thời khác biệt. Một canvas cùng 2–3 brush giữ MVP đủ gọn để kiểm tra hành vi và cảm giác thư giãn."
+    },
+    {
+      "candidate_id": "BLIND_0087",
+      "scores": {
+        "novelty": 3.3,
+        "conceptual_coherence": 4.1,
+        "user_pain_plausibility": 3.9,
+        "technical_plausibility": 2.8,
+        "mvp_clarity": 3.7,
+        "business_model_plausibility": 2.9,
+        "unsupported_claim_risk": 3.4,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.3,
+        "prototype_willingness": 3.0
+      },
+      "short_rationale": "Ghép cộng tác viên theo pattern từ commit public có hướng khác biệt nhưng việc suy luận cách giải vấn đề từ repository rất phức tạp. Việc dùng lịch sử code để đánh giá người dùng cũng tạo rủi ro quyền riêng tư và diễn giải không được hỗ trợ."
+    },
+    {
+      "candidate_id": "BLIND_0088",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.2,
+        "technical_plausibility": 4.1,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.3,
+        "unsupported_claim_risk": 1.4,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "Ba archetype địch và ba bài nhạc đưa cơ chế combat theo nhịp vào phạm vi có thể chơi thử. Điều kiện timing, combo và scoring liên kết chặt với mục tiêu flow."
+    },
+    {
+      "candidate_id": "BLIND_0089",
+      "scores": {
+        "novelty": 3.1,
+        "conceptual_coherence": 4.6,
+        "user_pain_plausibility": 3.9,
+        "technical_plausibility": 4.3,
+        "mvp_clarity": 4.6,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.6,
+        "ethical_privacy_risk": 3.6,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "Các “box”, ghi chú và encrypted export tạo trải nghiệm lưu trữ tài sản cá nhân cụ thể và có thể thử với file local. Xử lý archive, key chia sẻ và file nhạy cảm vẫn làm rủi ro riêng tư đáng lưu ý."
+    },
+    {
+      "candidate_id": "BLIND_0090",
+      "scores": {
+        "novelty": 2.9,
+        "conceptual_coherence": 4.4,
+        "user_pain_plausibility": 3.6,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.4,
+        "business_model_plausibility": 3.1,
+        "unsupported_claim_risk": 1.6,
+        "ethical_privacy_risk": 2.2,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "Profile aesthetic, ảnh cảm hứng và feed từ 2–3 marketplace là phạm vi thực tế cho khám phá vintage. MVP giảm bớt claim ML phức tạp, nhưng ảnh và liên kết seller vẫn là dữ liệu cần quản lý cẩn thận."
+    },
+    {
+      "candidate_id": "BLIND_0091",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.0,
+        "technical_plausibility": 3.8,
+        "mvp_clarity": 4.2,
+        "business_model_plausibility": 2.3,
+        "unsupported_claim_risk": 1.6,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "Clone replay chuỗi hành động là mechanic khác biệt và được minh họa rõ trong arena 1v1 với ba loại echo. MVP có quy mô hợp lý để test lựa chọn chiến thuật, dù cân bằng PvP cần được kiểm chứng."
+    },
+    {
+      "candidate_id": "BLIND_0092",
+      "scores": {
+        "novelty": 2.9,
+        "conceptual_coherence": 4.3,
+        "user_pain_plausibility": 4.3,
+        "technical_plausibility": 3.1,
+        "mvp_clarity": 4.1,
+        "business_model_plausibility": 3.1,
+        "unsupported_claim_risk": 3.5,
+        "ethical_privacy_risk": 3.8,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.1
+      },
+      "short_rationale": "Form restriction, menu giới hạn và compatibility score tạo một MVP có lộ trình rõ cho việc chọn món. Độ an toàn của gợi ý phụ thuộc vào ingredient/preparation data chưa được mô tả, đồng thời dữ liệu chế độ ăn có tính nhạy cảm."
+    },
+    {
+      "candidate_id": "BLIND_0093",
+      "scores": {
+        "novelty": 2.6,
+        "conceptual_coherence": 4.6,
+        "user_pain_plausibility": 3.9,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.7,
+        "business_model_plausibility": 3.2,
+        "unsupported_claim_risk": 1.4,
+        "ethical_privacy_risk": 1.5,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Một URL và 5–7 kiểm tra tự động cùng checklist remediation là MVP đặc biệt rõ và có thể dùng ngay. Scope tránh khẳng định sửa toàn bộ vấn đề accessibility, nên rủi ro claim thấp."
+    },
+    {
+      "candidate_id": "BLIND_0094",
+      "scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.3,
+        "user_pain_plausibility": 3.6,
+        "technical_plausibility": 3.7,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.8,
+        "unsupported_claim_risk": 1.7,
+        "ethical_privacy_risk": 3.2,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Board địa phương có address verification, offer/request và moderator tạo khung giao dịch cộng đồng khá cụ thể. Địa chỉ, vị trí và trao đổi dịch vụ cần bảo vệ cẩn thận dù thông tin công khai được obfuscate."
+    },
+    {
+      "candidate_id": "BLIND_0095",
+      "scores": {
+        "novelty": 2.8,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.8,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.6,
+        "business_model_plausibility": 2.8,
+        "unsupported_claim_risk": 1.3,
+        "ethical_privacy_risk": 2.8,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "Asset giới hạn, drag-drop và PDF export tạo workflow đơn giản cho việc đồng sáng tác của phụ huynh và trẻ. Nội dung của trẻ và thao tác xuất/ chia sẻ cần được bảo vệ phù hợp."
+    },
+    {
+      "candidate_id": "BLIND_0096",
+      "scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.6,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.6,
+        "business_model_plausibility": 2.7,
+        "unsupported_claim_risk": 1.3,
+        "ethical_privacy_risk": 1.1,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "Năm mức độ 4/4 và feedback accuracy cụ thể hóa rất tốt mục tiêu luyện nhịp. Prototype có thể đo trực tiếp hiệu năng timing mà không dựa vào claim kỹ thuật mạnh."
+    },
+    {
+      "candidate_id": "BLIND_0097",
+      "scores": {
+        "novelty": 2.7,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.6,
+        "technical_plausibility": 4.4,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.6,
+        "unsupported_claim_risk": 1.4,
+        "ethical_privacy_risk": 3.1,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "Email verification, listing và barter proposal bằng nhắn tin nội bộ là phạm vi web rõ và ít tham vọng. Giao dịch giữa cư dân cùng thông tin liên lạc vẫn cần cơ chế tin cậy và riêng tư."
+    },
+    {
+      "candidate_id": "BLIND_0098",
+      "scores": {
+        "novelty": 3.4,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.4,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.6,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "Ba archetype element và deduction grid giúp giới hạn procedural mystery thành bài toán logic kiểm thử được. Chất lượng và độ đa dạng puzzle được hứa hẹn nhưng cần được chứng minh từ generator."
+    },
+    {
+      "candidate_id": "BLIND_0099",
+      "scores": {
+        "novelty": 2.6,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.4,
+        "mvp_clarity": 4.6,
+        "business_model_plausibility": 2.8,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.6,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "Một kỹ năng duy nhất, đầu vào trình độ và roadmap 5–7 module giúp kiểm tra rõ giá trị giảm quá tải. Curation tài nguyên được giữ ở phạm vi nhỏ nên khả thi, dù nguồn lực ngoài hệ thống quyết định chất lượng thực tế."
+    },
+    {
+      "candidate_id": "BLIND_0100",
+      "scores": {
+        "novelty": 2.8,
+        "conceptual_coherence": 4.2,
+        "user_pain_plausibility": 3.8,
+        "technical_plausibility": 3.6,
+        "mvp_clarity": 3.9,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.7,
+        "ethical_privacy_risk": 2.2,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "PDF với niche partner và content ideas là đầu ra cụ thể cho người làm newsletter. Phần “manual research” và nhận diện newsletter bổ trợ chưa có phương pháp rõ, đồng thời đầu vào nội dung/audience cần được bảo mật."
+    },
+    {
+      "candidate_id": "BLIND_0101",
+      "scores": {
+        "novelty": 3.3,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.6,
+        "technical_plausibility": 3.2,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.4,
+        "unsupported_claim_risk": 1.9,
+        "ethical_privacy_risk": 2.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "Hai chef residency một tuần tạo thử nghiệm thực với feedback từ chef lẫn diner. Vận hành bếp và phục vụ làm kỹ thuật triển khai khó hơn phần mềm, nhưng scope và tín hiệu đánh giá vẫn rõ."
+    },
+    {
+      "candidate_id": "BLIND_0102",
+      "scores": {
+        "novelty": 2.8,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.8,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.7,
+        "business_model_plausibility": 2.8,
+        "unsupported_claim_risk": 1.3,
+        "ethical_privacy_risk": 2.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "Video 60 giây, chọn frame mỗi 5 giây và annotate cơ bản là flow rõ để tạo guide. Card tránh claim tự động phức tạp, dù nội dung video của người dùng cần được xử lý riêng tư."
+    },
+    {
+      "candidate_id": "BLIND_0103",
+      "scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.3,
+        "user_pain_plausibility": 3.6,
+        "technical_plausibility": 3.6,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.4,
+        "unsupported_claim_risk": 2.8,
+        "ethical_privacy_risk": 2.8,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Form cùng reviewer đánh giá 3–5 tiêu chí tạo dịch vụ MVP có đầu ra dễ hiểu. Khẳng định “ethical compliance” phụ thuộc vào chất lượng người review và khách hàng phải gửi nội dung có thể nhạy cảm."
+    },
+    {
+      "candidate_id": "BLIND_0104",
+      "scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.4,
+        "mvp_clarity": 4.6,
+        "business_model_plausibility": 2.6,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 2.1,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "Một sonnet, tag định sẵn và keyword extraction giúp giới hạn việc chia sẻ diễn giải thành prototype cụ thể. Dữ liệu bình luận của người học vẫn cần quản trị, nhưng phần AI không bị thổi phồng."
+    },
+    {
+      "candidate_id": "BLIND_0105",
+      "scores": {
+        "novelty": 3.1,
+        "conceptual_coherence": 4.4,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.3,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.8,
+        "unsupported_claim_risk": 1.4,
+        "ethical_privacy_risk": 2.1,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "Ngân sách ảo theo tháng với biến cố và tip ngắn tạo game loop rõ cho kỹ năng quản lý tiền. Nội dung vẫn ở mô phỏng nên phù hợp để test trải nghiệm, dù lời khuyên tài chính cần được trình bày cẩn trọng."
+    }
+  ]
+}

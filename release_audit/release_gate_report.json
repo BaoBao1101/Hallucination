@@ -1,0 +1,179 @@
+{
+  "tool": "CHVD Public Release Builder",
+  "generated_utc": "2026-06-26T02:05:05Z",
+  "source": "[LOCAL_PATH_REDACTED]",
+  "target": "[LOCAL_PATH_REDACTED]",
+  "profile": "pre-human-code-only",
+  "version": "v0.9.1-prehuman-g25",
+  "status": "NOT_READY",
+  "blockers": [
+    "pre_human_profile_cannot_be_final_v1"
+  ],
+  "warnings": [],
+  "validation": {
+    "returncode": 0,
+    "stdout": "schema=individual\nrecords=180\nunique_ids=180\nissues=0\nschema=individual\nrecords=180\nunique_ids=180\nissues=0\nschema=directional_traceability\nrecords=60\nunique_ids=60\nissues=0\nschema=directional_traceability\nrecords=60\nunique_ids=60\nissues=0\nschema=neutral_pairwise_score_first\nrecords=60\nunique_ids=60\nissues=0\n+ [LOCAL_PATH_REDACTED]\n+ [LOCAL_PATH_REDACTED]\n+ [LOCAL_PATH_REDACTED]\n+ [LOCAL_PATH_REDACTED]\n+ [LOCAL_PATH_REDACTED]\n",
+    "stderr": ""
+  },
+  "scan": {
+    "returncode": 0,
+    "stdout": "{\n  \"findings\": [],\n  \"blocker_count\": 0\n}\n",
+    "stderr": ""
+  },
+  "reproduction": {
+    "returncode": 0,
+    "stdout": "SKIP: analysis-ready data omitted in this profile\n",
+    "stderr": ""
+  },
+  "manifest_entries": 260,
+  "sanitization_changes": [
+    {
+      "path": "C:[LOCAL_PATH_REDACTED] BAO/Downloads/CHVD_PreHuman_CodeOnly_v1_1/code/01_build_p1_directional_traceability_blind_dataset.py",
+      "action": "redacted_absolute_path"
+    },
+    {
+      "path": "C:[LOCAL_PATH_REDACTED] BAO/Downloads/CHVD_PreHuman_CodeOnly_v1_1/code/01_build_p1_neutral_pairwise_blind.py",
+      "action": "redacted_absolute_path"
+    },
+    {
+      "path": "C:[LOCAL_PATH_REDACTED] BAO/Downloads/CHVD_PreHuman_CodeOnly_v1_1/code/01_generator_p1_shared_neutral.py",
+      "action": "redacted_absolute_path"
+    },
+    {
+      "path": "C:[LOCAL_PATH_REDACTED] BAO/Downloads/CHVD_PreHuman_CodeOnly_v1_1/code/01_prepare_p1_blind_individual_dataset.py",
+      "action": "redacted_absolute_path"
+    },
+    {
+      "path": "C:[LOCAL_PATH_REDACTED] BAO/Downloads/CHVD_PreHuman_CodeOnly_v1_1/code/02_filter_p1_shared_neutral_en.py",
+      "action": "redacted_absolute_path"
+    },
+    {
+      "path": "C:[LOCAL_PATH_REDACTED] BAO/Downloads/CHVD_PreHuman_CodeOnly_v1_1/code/02_run_p1_blind_individual_gemini_judge.py",
+      "action": "redacted_absolute_path"
+    },
+    {
+      "path": "C:[LOCAL_PATH_REDACTED] BAO/Downloads/CHVD_PreHuman_CodeOnly_v1_1/code/P0_filter_vi_M3_low_temp.py",
+      "action": "redacted_absolute_path"
+    },
+    {
+      "path": "C:[LOCAL_PATH_REDACTED] BAO/Downloads/CHVD_PreHuman_CodeOnly_v1_1/code/P0_generator_vi_M0_M1_temp.py",
+      "action": "redacted_absolute_path"
+    },
+    {
+      "path": "C:[LOCAL_PATH_REDACTED] BAO/Downloads/CHVD_PreHuman_CodeOnly_v1_1/code/analysis/analyze_human_evaluation.py",
+      "action": "redacted_absolute_path"
+    },
+    {
+      "path": "C:[LOCAL_PATH_REDACTED] BAO/Downloads/CHVD_PreHuman_CodeOnly_v1_1/Gemini2.5Flash-Lite/P1/InputJSON_Individual/input_file_manifest_sha256.csv",
+      "action": "redacted_absolute_path"
+    },
+    {
+      "path": "C:[LOCAL_PATH_REDACTED] BAO/Downloads/CHVD_PreHuman_CodeOnly_v1_1/Study_Gemini3.1Flash-Lite/P1/InputJSON_Individual/input_file_manifest_sha256.csv",
+      "action": "redacted_absolute_path"
+    },
+    {
+      "path": "C:[LOCAL_PATH_REDACTED] BAO/Downloads/CHVD_PreHuman_CodeOnly_v1_1/Study_Gemini3.1Flash-Lite/P1/Output_Paired_Wised_Score_Neutral/Excluded/Gemini3.1Pro_v2_preference_inconsistent/output_sha256.txt",
+      "action": "redacted_absolute_path"
+    }
+  ],
+  "build_log": [
+    {
+      "action": "copy_legacy_g25",
+      "source": "[LOCAL_PATH_REDACTED]",
+      "target": "[LOCAL_PATH_REDACTED]",
+      "mode": "safe_subset_pre_human"
+    },
+    {
+      "action": "copy_legacy_g25",
+      "source": "[LOCAL_PATH_REDACTED]",
+      "target": "[LOCAL_PATH_REDACTED]",
+      "mode": "safe_subset_pre_human"
+    },
+    {
+      "action": "copy",
+      "source": "[LOCAL_PATH_REDACTED]",
+      "target": "[LOCAL_PATH_REDACTED]"
+    },
+    {
+      "action": "copy",
+      "source": "[LOCAL_PATH_REDACTED]",
+      "target": "[LOCAL_PATH_REDACTED]"
+    },
+    {
+      "action": "copy",
+      "source": "[LOCAL_PATH_REDACTED]",
+      "target": "[LOCAL_PATH_REDACTED]"
+    },
+    {
+      "action": "copy",
+      "source": "[LOCAL_PATH_REDACTED]",
+      "target": "[LOCAL_PATH_REDACTED]"
+    },
+    {
+      "action": "copy",
+      "source": "[LOCAL_PATH_REDACTED]",
+      "target": "[LOCAL_PATH_REDACTED]"
+    },
+    {
+      "action": "copy",
+      "source": "[LOCAL_PATH_REDACTED]",
+      "target": "[LOCAL_PATH_REDACTED]"
+    },
+    {
+      "action": "copy",
+      "source": "[LOCAL_PATH_REDACTED]",
+      "target": "[LOCAL_PATH_REDACTED]"
+    },
+    {
+      "action": "copy",
+      "source": "[LOCAL_PATH_REDACTED]",
+      "target": "[LOCAL_PATH_REDACTED]"
+    },
+    {
+      "action": "copy",
+      "source": "[LOCAL_PATH_REDACTED]",
+      "target": "[LOCAL_PATH_REDACTED]"
+    },
+    {
+      "action": "copy",
+      "source": "[LOCAL_PATH_REDACTED]",
+      "target": "[LOCAL_PATH_REDACTED]"
+    },
+    {
+      "action": "copy",
+      "source": "[LOCAL_PATH_REDACTED]",
+      "target": "[LOCAL_PATH_REDACTED]"
+    },
+    {
+      "action": "copy",
+      "source": "[LOCAL_PATH_REDACTED]",
+      "target": "[LOCAL_PATH_REDACTED]"
+    },
+    {
+      "action": "copy",
+      "source": "[LOCAL_PATH_REDACTED]",
+      "target": "[LOCAL_PATH_REDACTED]"
+    },
+    {
+      "action": "copy",
+      "source": "[LOCAL_PATH_REDACTED]",
+      "target": "[LOCAL_PATH_REDACTED]"
+    },
+    {
+      "action": "copy",
+      "source": "[LOCAL_PATH_REDACTED]",
+      "target": "[LOCAL_PATH_REDACTED]"
+    },
+    {
+      "action": "copy",
+      "source": "[LOCAL_PATH_REDACTED]",
+      "target": "[LOCAL_PATH_REDACTED]"
+    },
+    {
+      "action": "copy",
+      "source": "[LOCAL_PATH_REDACTED]",
+      "target": "[LOCAL_PATH_REDACTED]"
+    }
+  ],
+  "runtime_note": "The original builder report was sanitized for public distribution. Runtime validation outputs are written under results/ and do not mutate frozen audit artifacts."
+}

@@ -1,0 +1,101 @@
+[
+  {
+    "candidate_id": "BLIND_0066",
+    "domain": "Artificial Intelligence App",
+    "title": "Kiến Trúc Sư Di Sản Số",
+    "problem_or_desire": "Cảm giác những ký ức và những mẩu chuyện vụn vặt của cuộc đời sắp phai nhạt và biến mất mãi mãi sau khi người đó ra đi. Khao khát có cách nào đó để các thế hệ sau có thể 'gặp gỡ' và hiểu được cha ông họ.",
+    "core_concept": "Nhu cầu lưu giữ và hồi sinh ký ức số cá nhân/gia đình, mong muốn kết nối với quá khứ và hiểu rõ hơn về tổ tiên. Hạt nhân sáng tạo nằm ở việc biến kho lưu trữ số tĩnh thành một không gian tương tác, nơi ký ức được 'sống lại' và có thể khám phá.",
+    "proposed_approach": "Một nền tảng lưu trữ và tổ chức dữ liệu số cá nhân/gia đình (ảnh, video, email, nhật ký, ghi âm). AI được sử dụng để phân loại, nhận dạng khuôn mặt/giọng nói, trích xuất chủ đề chính, và tạo ra các 'dòng thời gian ký ức' tương tác. Người dùng có thể tìm kiếm ký ức theo chủ đề, người, hoặc thời gian, và xem lại các kỷ niệm được trình bày một cách trực quan và có ngữ cảnh. Có thể có tính năng tạo 'trích dẫn nổi bật' hoặc 'tóm tắt câu chuyện' từ dữ liệu văn bản.",
+    "prototype_scope": "Một ứng dụng web cho phép người dùng tải lên các file ảnh, video, và văn bản (nhật ký, email). AI sẽ thực hiện: 1) Nhận dạng khuôn mặt và gắn thẻ người. 2) Phân loại nội dung theo chủ đề (ví dụ: du lịch, gia đình, công việc). 3) Tạo dòng thời gian trực quan của các kỷ niệm. 4) Cho phép tìm kiếm theo từ khóa, người, hoặc chủ đề. 5) Trích xuất các 'câu trích dẫn đáng nhớ' từ dữ liệu văn bản."
+  },
+  {
+    "candidate_id": "BLIND_0106",
+    "domain": "Online Business",
+    "title": "AI Sóng Radio Kếch",
+    "problem_or_desire": "Sự khó chịu của playlist âm nhạc 'cố định'; cần âm thanh đồng hành phù hợp từng khoảnh khắc cực kỳ cụ thể (thay vì chỉ 'pop', 'rock'); khám phá những rung động âm thanh mới không thể tìm thấy ở định dạng quen thuộc; bảo vệ trải nghiệm âm thanh khỏi áp lực lan tỏa đại chúng.",
+    "core_concept": "Nền tảng cung cấp các bản 'Radio Kếch', do AI sáng tác theo thời gian thực dựa trên tâm trạng, môi trường, và yêu cầu độc đáo của người nghe.",
+    "proposed_approach": "Ứng dụng di động cho phép người dùng bật và tùy chỉnh 'station' âm thanh của mình. Chọn chủ đề (vd: 'Mưa đêm ở Thường Châu', 'Tiệm sách cổ ven biển buổi chiều tà', 'Tàu vũ trụ 5000 năm tuổi'), mood (burr), và AI sẽ trình bày các track âm thanh, bài diễn văn 'vô nghĩa', âm thanh môi trường... một cách 'liền mạch' theo dòng.",
+    "prototype_scope": "AI chỉ tạo ra các mẫu âm thanh môi trường (nước chảy, gió lùa, tiếng động lạ) dựa trên 1-2 từ khóa mô tả, kết nối liên tục trong 5 phút."
+  },
+  {
+    "candidate_id": "BLIND_0074",
+    "domain": "Offline 2D Game",
+    "title": "Bản Đồ Tâm Đắc Tủi Thương Khốn Khổ",
+    "problem_or_desire": "Nỗi bất lực khi không thể 'sửa chữa' quá khứ hoặc trạng thái tinh thần của bản thân hoặc người khác. Khao khát tìm lại hoặc sắp xếp lại những mảng ký ức bị bỏ quên hay sai lệch để hiểu trọn vẹn hơn.",
+    "core_concept": "Một game phiêu lưu giải đố 2D, nơi người chơi du hành qua các 'map ngập nước cảm xúc' của những nhân vật không mấy hài lòng, và cần đặt lại các ký ức (chuyển động 2D pixel arts rời rạc) để 'lấp đầy' tâm trạng hỗn độn của họ.",
+    "proposed_approach": "Người chơi hóa thân thành một 'Thợ Vá Tâm Khảm'. Mỗi màn là một 'Hồ Lặng', một trạng thái tiêu cực cốt lõi của một nhân vật phụ trong cốt truyện chính. Hồ Lặng này được hình ảnh hóa như một bố cục cảnh quan 2D, chiếm một phần không gian ký ức nào đó. Trong Hồ Lặng, có 'Vết Chàm' (core traumatic event), và xung quanh là các 'Mảnh Vỡ Ngộ Nhận/Lãng Quên' – các cụm art pixel 2D tượng trưng cho cách nhân vật diễn giải hoặc né tránh sự kiện đó. Nhiệm vụ là di chuyển, xoay, ghép cá…",
+    "prototype_scope": "Một Hồ Lặng với 3-5 Mảnh Vỡ đơn giản liên quan đến việc 'sợ đi tìm', mà nhiệm vụ là ghép chúng để hình ảnh biến hóa thành một sự 'chấp nhận rụt rè'. Màn này mở khóa 1 gợi ý cốt truyện."
+  },
+  {
+    "candidate_id": "BLIND_0011",
+    "domain": "Youtube & Tiktok Video Content",
+    "title": "Duyệt Bios của Cải",
+    "problem_or_desire": "Mọi người đều biết 'màn đầu tiên' rất quan trọng nhưng bios/descriptions trên YouTube/TikTok hay bio trên INSTA chỉ là dăm ba câu đại ý kiểu \"mình là Vlogs cá nhân, bấm Sub đi nhé!\". Khán giả/thuật toán bị lãng phí 'ngôi nhà đầu tiên'. Tìm một 'lối tắt' hiệu quả cho sự thay đổi hình ảnh cá nhân mang tính chuyên nghiệp.",
+    "core_concept": "Ý tưởng cốt lõi về việc cung cấp các giải pháp tối ưu hóa bio/profile cho người sáng tạo nội dung, đặc biệt là những người mới bắt đầu hoặc có profile chưa chuyên nghiệp, nhằm tăng cường khả năng hiển thị và thu hút người xem/người theo dõi.",
+    "proposed_approach": "Một công cụ web đơn giản giúp người sáng tạo nội dung tạo ra các bio/mô tả ngắn gọn, hấp dẫn và tối ưu hóa cho SEO trên các nền tảng mạng xã hội (YouTube, TikTok, Instagram). Công cụ sẽ đưa ra các gợi ý dựa trên thông tin người dùng cung cấp (lĩnh vực, phong cách nội dung, đối tượng mục tiêu) và các mẫu bio đã được kiểm chứng là hiệu quả.",
+    "prototype_scope": "Một website đơn giản nơi người dùng điền một form ngắn gọn về lĩnh vực hoạt động, phong cách nội dung, và đối tượng mục tiêu. Công cụ sẽ trả về 3-5 gợi ý bio/tiêu đề ngắn (tối đa 80 ký tự) đã được tối ưu hóa cho SEO và sức hút ban đầu, dựa trên các mẫu template hiệu quả."
+  },
+  {
+    "candidate_id": "BLIND_0042",
+    "domain": "Edtech",
+    "title": "Phản Tỉnh Nghịch Cảnh",
+    "problem_or_desire": "Nỗi sợ đưa ra quyết định sai lầm về sự nghiệp, mong muốn thử nghiệm các phương án mà không phải chịu hậu quả trong thực tế, cần thấy rõ những hệ quả lâu dài của một quyết định 'hơi hướng tà'",
+    "core_concept": "Nền tảng giáo dục sử dụng AI phân tích sâu các dữ liệu cá nhân (tự khai báo ban đầu - profile, các hoạt động 'hậu khai báo') để tạo ra 'hoàn cảnh' độc đáo, các phản ứng lại những hoán vị sai của lịch sử sự nghiệp và kiến thức cá nhân, để thúc đẩy nhận thức.",
+    "proposed_approach": "AI tạo ra một hệ thống \"thực tế ảo song song\" dựa trên khai báo mục tiêu sự nghiệp và quan hệ trong thế giới phẳng theo kiểu thế kỷ 21 của bạn. Bạn có thể đưa ra nhiều giả thuyết về thay đổi sự nghiệp, ngành nghề kinh doanh theo 'quy trình sai khác' rồi thấy chúng phân kỳ thế nào cho con đường. Từ đó cho người học thấy toàn cảnh ‘phá vỡ ‘tinh hoa’, làm ‘ý nghĩa’ cho ‘sống' qua nó với chính bạn theo như mong muốn từ đầu có khả thi tới mức nào và như đã làm 'tiến hóa mọi thời'…",
+    "prototype_scope": "Trình mô phỏng đơn giản 1 biến cố lớn (sa thải / sáp nhập) và xem liệu người dùng phản ứng với \"20 thứ tệ khác sẽ diễn ra như thế nào. Như thường lệ nếu họ sẽ đi cùng hướng đấy là một hệ quả được tạo nên từ trí tuệ nhỏ đang tham dự."
+  },
+  {
+    "candidate_id": "BLIND_0098",
+    "domain": "Edtech",
+    "title": "Atlas Ngôn Ngữ Tiềm Năng",
+    "problem_or_desire": "Sự cứng nhắc trong hiểu biết về ngôn ngữ hiện tại, mong muốn phá vỡ giới hạn tư duy do ngôn ngữ giới hạn tạo ra, khả năng thiếu hiểu sâu về quá khứ hoặc tương lai xa lắc của ngữ âm.",
+    "core_concept": "Công cụ sáng tạo ngôn ngữ, cho phép người dùng xây dựng các hệ thống ngữ pháp và âm vị giả định, khám phá mối liên hệ giữa ngôn ngữ và tư duy.",
+    "proposed_approach": "Một công cụ sáng tạo ngôn ngữ (conlang tool) cho phép người dùng định nghĩa các âm vị, quy tắc ngữ pháp cơ bản và từ vựng ban đầu. AI sẽ hỗ trợ gợi ý các biến thể âm thanh, quy tắc ngữ pháp dựa trên các mô hình ngôn ngữ học đã biết, và giúp người dùng tổ chức, trực quan hóa cấu trúc ngôn ngữ của họ. Nền tảng này tập trung vào việc hỗ trợ nhà văn, nhà thiết kế game, hoặc những người yêu thích ngôn ngữ trong quá trình tạo ra ngôn ngữ giả tưởng.",
+    "prototype_scope": "Một ứng dụng web đơn giản cho phép người dùng định nghĩa bộ âm vị (IPA), các quy tắc ngữ pháp cơ bản (ví dụ: SVO, SOV), và tạo từ vựng ban đầu. AI sẽ gợi ý các biến thể âm thanh (ví dụ: các tổ hợp phụ âm/nguyên âm phổ biến) và các cấu trúc ngữ pháp đơn giản dựa trên input của người dùng. Giao diện trực quan hóa các quy tắc ngữ pháp và âm vị."
+  },
+  {
+    "candidate_id": "BLIND_0028",
+    "domain": "Coffee Services",
+    "title": "Cà Phê Tương Tác: Trải Nghiệm Pha Chế Thực Tế Tăng Cường (AR)",
+    "problem_or_desire": "Nỗi đau: Khó khăn trong việc hình dung và thực hiện chính xác các kỹ thuật pha chế phức tạp (ví dụ: latte art, pour-over). Mong muốn: Học hỏi từ các chuyên gia một cách sinh động, nhận phản hồi tức thì và tự tin thực hành mà không sợ sai.",
+    "core_concept": "Mang đến trải nghiệm học và thực hành pha chế cà phê đỉnh cao ngay tại nhà thông qua lớp phủ thực tế tăng cường (AR) tương tác.",
+    "proposed_approach": "Ứng dụng AR cho phép người dùng nhìn thấy các chỉ dẫn ảo chồng lên dụng cụ pha chế thực tế của họ. Ví dụ: khi thực hiện pour-over, ứng dụng sẽ hiển thị đường rót nước ảo, tốc độ rót, và lượng nước cần dùng. Với latte art, ứng dụng có thể vẽ sẵn hình mẫu trên màn hình và hướng dẫn cách di chuyển bình sữa. Ứng dụng có thể tích hợp các bài học theo cấp độ, thử thách, bảng xếp hạng, và cho phép người dùng ghi lại quá trình thực hành để nhận phản hồi từ cộng đồng hoặc AI.",
+    "prototype_scope": "Một ứng dụng AR đơn giản tập trung vào một kỹ thuật pha chế cụ thể (ví dụ: rót sữa cơ bản cho latte art) với các chỉ dẫn ảo cơ bản."
+  },
+  {
+    "candidate_id": "BLIND_0019",
+    "domain": "Restaurant Services",
+    "title": "Kiến trúc Thực nghiệm: Nhà hàng Thao Túng Thời Tiết",
+    "problem_or_desire": "Sự nhàm chán với trải nghiệm ẩm thực truyền thống chỉ dừng lại ở hương vị và thị giác. Mong muốn sự kiện ẩm thực đa chiều, nơi bối cảnh tác động sâu sắc tới nhận thức vị giác.",
+    "core_concept": "Ý tưởng cốt lõi về việc sử dụng môi trường xung quanh để nâng cao trải nghiệm ẩm thực, tạo ra sự kết nối giữa món ăn và bối cảnh cảm quan. Khả năng tạo ra một không gian ăn uống độc đáo, nơi các yếu tố môi trường được điều chỉnh để bổ trợ cho hương vị.",
+    "proposed_approach": "Một nhà hàng tập trung vào việc tạo ra các 'khu vực ăn uống theo chủ đề môi trường' (environmental-themed dining zones) thay vì điều khiển vi khí hậu cho từng món ăn. Mỗi khu vực sẽ mô phỏng một loại môi trường nhất định (ví dụ: 'Mùa Xuân Dịu Mát', 'Bờ Biển Nắng Ấm') bằng cách điều chỉnh nhiệt độ, độ ẩm, ánh sáng và âm thanh một cách tinh tế. Thực đơn sẽ được thiết kế để phù hợp với chủ đề của từng khu vực, mang lại trải nghiệm ẩm thực có bối cảnh rõ ràng và nhất quán.",
+    "prototype_scope": "Một khu vực ăn uống nhỏ (khoảng 4-6 chỗ ngồi) được trang bị hệ thống điều chỉnh nhiệt độ, độ ẩm và ánh sáng cơ bản. Khu vực này sẽ mô phỏng một chủ đề môi trường duy nhất (ví dụ: 'Mùa Thu Se Lạnh') và phục vụ một set menu 3 món được thiết kế riêng để phù hợp với chủ đề đó. Mục tiêu là để khách hàng cảm nhận sự khác biệt của môi trường và cách nó ảnh hưởng đến cảm nhận chung về món ăn, thay vì thay đổi vi khí hậu cho từng món."
+  },
+  {
+    "candidate_id": "BLIND_0078",
+    "domain": "Game Mobile",
+    "title": "Chuyên Gia Biểu Cảm Da Người Tảo Sinh: Mô phỏng Khóa Học Phẫu Thuật Sắc Đẹp & Spa Cá Nhân Đạo'",
+    "problem_or_desire": "Nỗi băn khoăn hoặc 'tổn thương' vì tình trạng da hiện tại làm che mờ biểu cảm mong muốn, và nhận ra mối liên kết mật thiết giữa 'stress trong tim' - 'mâu thuẫn nội tâm' với ngoại hình, với mong muốn tìm 1 cách tự-chữa-lành ngoại hình một cách tự nhiên & chân thật. Kaso làm giàu kiến thức kĩ thuật cho bản thân cũng nhờ cơ sở game...",
+    "core_concept": "Một game mô phỏng nơi người chơi vào vai 'bác sĩ da liễu biểu cảm', chẩn đoán và điều trị các vấn đề da ảo liên quan đến trạng thái cảm xúc của nhân vật, kết hợp kiến thức thẩm mỹ và tâm lý.",
+    "proposed_approach": "Một game mô phỏng thẩm mỹ (simulation game) nơi người chơi vào vai chuyên gia chăm sóc da. Game tập trung vào việc chẩn đoán các vấn đề da ảo dựa trên các 'chỉ số cảm xúc' của nhân vật (ví dụ: căng thẳng, thiếu ngủ). Người chơi sẽ áp dụng các liệu pháp chăm sóc da ảo (làm sạch, massage, sử dụng sản phẩm ảo) để cải thiện tình trạng da. Game nhấn mạnh vào quy trình chẩn đoán và trị liệu, cung cấp kiến thức cơ bản về skincare.",
+    "prototype_scope": "Một phòng khám nhỏ nơi người chơi tiếp 3 bệnh nhân ảo với các vấn đề da nhẹ kèm 1 cảm xúc - mâu thuẫn chung (ví dụ: 'thiếu ngủ - mắt thâm quầng', 'căng thẳng mệt mỏi - da tái'). Người chơi chỉ được chọn: làm sạch + (AI gợi ý 1 loại massage cơ bản). Game sẽ có chức năng 'Khám phá' cho phép học kỹ năng cho da khô & nhạy cảm."
+  },
+  {
+    "candidate_id": "BLIND_0113",
+    "domain": "Web App Services",
+    "title": "Trao-Đổi Khái Niệm",
+    "problem_or_desire": "Thất vọng vì không thể truyền đạt hoặc dạy được những kỹ năng thiên về cảm nhận, trực giác mà không có thuật ngữ chính xác. Mong muốn 'cảm được điều nó' hay 'sờ thấy sự vật mình đang học'. Tìm kiếm ngôn ngữ giao tiếp phi ngôn ngữ hiệu quả để lĩnh hội tri thức.",
+    "core_concept": "Một web app học tập ngược, nơi chuyên gia (hoặc người đã am tường) mô tả chi tiết *cảm giác* làm một kỹ năng phức tạp, còn 'học viên mới' cố gắng diễn dịch và vẽ/khiêu vũ/viết ngược lại, nhận về phản hồi mang tính trực giác từ hệ thống và con người.",
+    "proposed_approach": "Chuyên gia (mentor) quay video hoặc ghi âm giải thích lại một 'cảm giác then chốt' khi thực hiện kỹ năng (VD: cảm giác cánh tay khi bác sĩ phẫu thuật thực hiện một đường cắt nhất định). Hệ thống transcodes âm thanh và cử chỉ (gesture) để đề xuất vài 'gợi ý trừu tượng' về 'màu', 'nhịp điệu', 'áp lực' ... Những người học ('những chú lính chì hiểu ngôn ngữ thân thể của cơ bắp và giác quan') sẽ phải biểu đạt lại thông qua: vẽ, mô tả cảm giác vật lý (nếu bóp lại hay vuốt nhẹ?), m…",
+    "prototype_scope": "Chọn một động tác thể thao (đấm móc) và mời 2 vận động viên chuyên nghiệp miêu tả *cảm giác* tay, vai khi làm. Hệ thống thu nhận các mô tả *chỉ bằng từ khoá liên quan đến vật lý* (nặng, xoắn, bay lướt...). Chuyên gia chỉ lại động tác 1 lần bằng mo-cap đơn giản. 10 người chưa biết đấm tạo video quay cận cảnh tương tự dựa vào clip mo-cap rồi nhấp vào các biểu tượng 'hình ảnh gợi ý phản ứng cảm xúc cơ bản của mô tả (VD: hình lửa = căng, hình giọt nước = trơn tru)' để đánh giá l…"
+  },
+  {
+    "candidate_id": "BLIND_0092",
+    "domain": "Offline 2D Game",
+    "title": "Du Hành Nhân Ngữ Ảnh Nhãn & Lý Tưởng Số 0",
+    "problem_or_desire": "Nỗi thất vọng hoặc bất lực khi nhìn nhận sự 'vu vơ', 'hảo huyền', 'phi logic' của rất nhiều hình ảnh quảng cáo đánh lừa cảm quan và định hướng tiêu dùng thiếu lành mạnh. Mong muốn phá vỡ 'mật mã' ẩn sau những lời kêu gọi marketing hào nhoáng.",
+    "core_concept": "Game giải đố đồ họa 2D tập trung vào việc phân tích và thao tác các yếu tố hình ảnh trong quảng cáo thương mại. Người chơi sử dụng tư duy phản biện và kỹ năng quan sát để 'sửa chữa' hoặc thay đổi hình ảnh nhằm đạt được một trạng thái thẩm mỹ hoặc ý nghĩa mới.",
+    "proposed_approach": "Một game giải đố 2D nơi người chơi được cung cấp các hình ảnh quảng cáo đã bị thay đổi nhẹ (ví dụ: màu sắc sai lệch, chi tiết bị làm mờ, bố cục hơi khác). Nhiệm vụ là sử dụng các công cụ chỉnh sửa đơn giản (ví dụ: thanh trượt điều chỉnh màu sắc, độ tương phản, làm sắc nét) để đưa hình ảnh về trạng thái 'gần đúng' hoặc 'hợp lý' nhất theo một tiêu chí cho trước (ví dụ: màu sắc chân thực hơn, logo rõ ràng hơn).",
+    "prototype_scope": "Một demo với 3 hình ảnh quảng cáo quen thuộc đã bị thay đổi nhẹ về màu sắc hoặc độ tương phản. Người chơi có 2-3 công cụ chỉnh sửa cơ bản (ví dụ: thanh trượt điều chỉnh độ sáng/tối, thanh trượt điều chỉnh độ bão hòa màu). Mục tiêu là điều chỉnh hình ảnh để đạt được một 'trạng thái cân bằng' hoặc 'gần với bản gốc' nhất có thể, được đánh dấu bằng một chỉ số hoặc màu sắc thay đổi trên giao diện."
+  }
+]

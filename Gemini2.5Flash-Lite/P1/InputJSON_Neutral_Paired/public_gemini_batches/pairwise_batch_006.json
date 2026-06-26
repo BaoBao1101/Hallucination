@@ -1,0 +1,83 @@
+{
+  "batch_id": "P1_NEUTRAL_GEMINI_006",
+  "stage": "neutral_randomized_pairwise_m1_m3",
+  "prompt_regime": "P1_shared_neutral",
+  "pairs": [
+    {
+      "pair_id": "P1PAIR_0021",
+      "candidate_a": {
+        "title": "Augmented Reality Guided Coffee Brewing Guide",
+        "target_user": "Home coffee brewing hobbyists aged 25-45 who own sophisticated brewing equipment (e.g., pour-over kettles, espresso machines) and seek to improve their technique.",
+        "problem_or_desire": "Difficulty in mastering complex brewing techniques and consistency, leading to sub-optimal coffee taste and a desire for real-time, step-by-step interactive instruction.",
+        "core_concept": "A mobile application that uses augmented reality (AR) overlays to provide dynamic, visual guidance and real-time feedback on various coffee brewing methods directly on the user's brewing station.",
+        "proposed_approach": "Develop AR algorithms to recognize brewing equipment and key components. Integrate curated brewing guides from expert baristas with timing and temperature prompts. Enable users to share their AR-brewed results and receive personalized tips for recalibration.",
+        "prototype_scope": "Create an AR experience within a mobile app demonstrating two popular brewing methods (e.g., pour-over and AeroPress) with visual cues for water pouring angles, bloom times, and total brew duration. Pilot this with 10 participants using their own equipment at home, focusing on user interface intuitiveness and clarity of instructions."
+      },
+      "candidate_b": {
+        "title": "Augmented Reality Guided Coffee Brewing Guide",
+        "target_user": "Home coffee brewing hobbyists aged 25-45 who own sophisticated brewing equipment (e.g., pour-over kettles, espresso machines) and seek to improve their technique.",
+        "problem_or_desire": "Difficulty in mastering complex brewing techniques and consistency, leading to sub-optimal coffee taste and a desire for real-time, step-by-step interactive instruction.",
+        "core_concept": "Providing dynamic, visual, step-by-step guidance for coffee brewing methods using augmented reality.",
+        "proposed_approach": "A mobile application that uses augmented reality to overlay visual cues and instructions for specific coffee brewing methods, helping users improve their technique and consistency.",
+        "prototype_scope": "Develop a mobile app that guides users through two popular brewing methods (e.g., pour-over and AeroPress) using AR. The app will display visual overlays for key actions such as water pouring angles, target water levels, and timing prompts. It will not attempt complex equipment recognition or automated feedback; instead, it will rely on users aligning their actions with the visual guides. The MVP will be tested with 10-15 home brewing hobbyists to assess the clarity of instructions, the intuitiveness of the AR interface, and the perceived helpfulness in improving their brewing. | Select two common brewing methods (e.g., V60 pour-over, AeroPress).; Create 3D models or visual assets for the key steps and equipment involved in these methods.; Develop an AR mobile application (iOS or Android) that overlays these visual guides onto the user's view of their brewing setup.; Implement basic timers and visual cues for pouring, blooming, and brew duration.; Focus on clear, static visual guidance rather than dynamic equipment recognition.; Recruit 10-15 home coffee brewing enthusiasts for a beta test.; Provide the app and collect feedback on usability, clarity, and perceived effectiveness."
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0022",
+      "candidate_a": {
+        "title": "Bioluminescent Coffee Shop for Evening Ambiance",
+        "target_user": "Creative professionals, artists, and students (aged 18-30) looking for a unique, visually inspiring nocturnal workspace or social gathering spot.",
+        "problem_or_desire": "The lack of stimulating, visually distinct, and calm environments for late-night work, study, or quiet social interaction, beyond traditional dimly lit cafes.",
+        "core_concept": "A coffee shop utilizing safe, organic bioluminescent materials to create a soft, living light ambient environment for a novel and engaging customer experience after sunset.",
+        "proposed_approach": "Research and collaborate with material scientists to integrate safe, non-toxic bioluminescent cultures (e.g., from algae or fungi) into durable, reusable design elements within the cafe. Offer artisanal coffee beverages, teas, and light snacks tailored to a nocturnal patron base.",
+        "prototype_scope": "Construct a 150-square-foot pop-up demonstration space featuring tables and wall panels embedded with stabilized bioluminescent culture displays emitting a gentle glow. Serve a limited menu of 6 signature drinks using reusable glassware for a one-week test engagement. Gather direct customer feedback on lighting quality and overall atmosphere."
+      },
+      "candidate_b": {
+        "title": "Bioluminescent Coffee Shop for Evening Ambiance",
+        "target_user": "Creative professionals, artists, and students (aged 18-30) looking for a unique, visually inspiring nocturnal workspace or social gathering spot.",
+        "problem_or_desire": "The lack of stimulating, visually distinct, and calm environments for late-night work, study, or quiet social interaction, beyond traditional dimly lit cafes.",
+        "core_concept": "A unique, visually inspiring, and calm environment for late-night work or social interaction, using novel ambient lighting.",
+        "proposed_approach": "A coffee shop designed to offer a unique, visually stimulating, and calm atmosphere for evening patrons, focusing on creating a distinctive ambiance through creative lighting and decor. The 'bioluminescent' aspect is replaced with a more achievable, visually analogous aesthetic.",
+        "prototype_scope": "Create a temporary, themed pop-up coffee bar or a dedicated evening section within an existing cafe that focuses on a 'glowing' or 'ethereal' ambiance. This will be achieved using readily available, safe, and controllable lighting technologies (e.g., UV reactive paints, subtle LED installations, fiber optics, or even carefully curated phosphorescent elements for specific displays) combined with dark, calming decor. The MVP will serve a limited menu of artisanal beverages and light snacks for a one-week period, with a focus on testing customer reception to the unique atmosphere and its appeal for late-night work/study. | Secure a small, temporary space (e.g., 150-300 sq ft) or a designated area within an existing cafe for a one-week pop-up.; Design and implement a visually distinct ambiance using safe, controllable lighting effects (e.g., blacklights with fluorescent decor, subtle LED strips, or glow-in-the-dark elements).; Develop a limited menu of 4-6 signature evening drinks and snacks.; Promote the pop-up event through local social media and community boards targeting students and creative professionals.; Operate the pop-up for 5-7 evenings.; Gather direct customer feedback on the atmosphere, comfort, and overall experience.; Track sales and customer traffic during the limite…"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0023",
+      "candidate_a": {
+        "title": "Culturally Immersive Coffee Experience Boxes",
+        "target_user": "Individuals interested in cultural exploration and global flavors aged 40-65, seeking novel experiential learning activities they can do at home.",
+        "problem_or_desire": "A longing for accessible, engaging cultural experiences that go beyond typical travel, with a focus on understanding how different cultures prepare and savor coffee.",
+        "core_concept": "Curated subscription boxes that deliver authentic ingredients, regional brewing tools, background stories, and tasting notes for experiencing coffee traditions from different countries.",
+        "proposed_approach": "A curated subscription box service that introduces customers to coffee preparation and cultural traditions from a specific region or country each month, providing beans, simple tools, and educational content.",
+        "prototype_scope": "Design and assemble 50 limited-edition 'Ethiopian Coffee Ceremony' boxes. Each box will contain: a small bag of ethically sourced Ethiopian coffee beans (enough for 2-3 brewings), a simplified, modern interpretation of a traditional brewing tool (e.g., a small ceramic pour-over cone or a basic moka pot if Jebena is too complex/costly for MVP), a beautifully designed booklet explaining the cultural significance, history, and basic steps of the Ethiopian coffee ceremony, and tasting notes. These boxes will be sold directly to consumers within a defined geographic region via online advertising targeting individuals interested in cultural experiences and coffee. | Research and select one specific coffee cultural tradition for the MVP (e.g., Ethiopian coffee ceremony).; Source a high-quality, single-origin Ethiopian coffee bean from a reputable importer.; Source or commission a simplified, cost-effective brewing tool representative of the tradition (e.g., a small, basic Jebena or a suitable alternative).; Design and print an engaging booklet with cultural context, brewing instructions, and tasting notes.; Assemble 50 boxes.; Create a simple e-commerce landing page for direct sales.; Run targeted online ads (e.g., Facebook, Instagram) to reach potential customers interested in cultura…"
+      },
+      "candidate_b": {
+        "title": "Culturally Immersive Coffee Experience Boxes",
+        "target_user": "Individuals interested in cultural exploration and global flavors aged 40-65, seeking novel experiential learning activities they can do at home.",
+        "problem_or_desire": "A longing for accessible, engaging cultural experiences that go beyond typical travel, with a focus on understanding how different cultures prepare and savor coffee.",
+        "core_concept": "Curated subscription boxes that deliver authentic ingredients, regional brewing tools, background stories, and expert tasting notes for brewing coffee in the traditional style of a different country or region each month.",
+        "proposed_approach": "Partner with cultural attaches and coffee experts from diverse coffee-growing regions. Source small quantities of signature local roasts and traditional accessories. Develop engaging multimedia content explaining the cultural significance, history, and brewing rituals associated with each coffee tradition.",
+        "prototype_scope": "Design and assemble 50 limited edition 'Ethiopian Coffee Ceremony' boxes containing roasted beans (sufficient for two brewings), a traditional Jebena (miniature), ceremonial instructions booklet, and taste pairing suggestions. Deliver these within a defined region to interested customers responding to online interest-based advertising."
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0024",
+      "candidate_a": {
+        "title": "Digital Legacy Capsule for Personal Archives",
+        "target_user": "Individuals who have compiled extensive digital personal archives (photos, documents, writings) and wish to organize and 'prepare' them for their intended beneficiaries or future preservation.",
+        "problem_or_desire": "Desire to structure, tag, and add annotations or messages to a large collection of digital personal assets, ensuring context and intent are passed on, rather than just raw data.",
+        "core_concept": "A secure cloud platform that allows users to create themed 'capsules' of digital content, with customizable organization, rich metadata, and the ability to pre-write contextual notes for specific files or capsules.",
+        "proposed_approach": "Build an intuitive interface for uploading and organizing diverse digital file types, offering AI assistance for metadata tagging, and a protected sharing mechanism for pre-assigned recipients to access curated 'legacy capsules'.",
+        "prototype_scope": "A desktop application where users can upload collections of local files (up to a defined size limit). Users can then arrange these files into named 'boxes,' add simple text notes, and generate an encrypted export file that, when decrypted with a shared key, presents a navigable folder structure with notes."
+      },
+      "candidate_b": {
+        "title": "Digital Legacy Capsule for Personal Archives",
+        "target_user": "Individuals who have compiled extensive digital personal archives (photos, documents, writings) and wish to organize and 'prepare' them for their intended beneficiaries or future preservation.",
+        "problem_or_desire": "Desire to structure, tag, and add annotations or messages to a large collection of digital personal assets, ensuring context and intent are passed on, rather than just raw data.",
+        "core_concept": "Organizing and adding context (notes, messages) to personal digital archives for future access by intended beneficiaries.",
+        "proposed_approach": "A desktop application that allows users to organize local digital files into themed 'boxes' and add simple text notes, then export this structure as an encrypted archive.",
+        "prototype_scope": "A desktop application where users can select a folder of local files to import. Users can then create 'boxes' (folders) within the application, move imported files into these boxes, and add simple, plain text notes to individual files or boxes. The application will generate a single, encrypted archive file (e.g., using AES encryption) containing the organized files and notes. A separate, unencrypted text file will contain the decryption key and instructions for the recipient. The user is responsible for securely sharing the encrypted file and the key separately. | Develop a desktop application interface (e.g., using Electron, Python with Tkinter/PyQt).; Implement file import functionality from local directories.; Create a tree-like structure for organizing files into 'boxes' (folders).; Add a simple text editor for adding notes to files/boxes.; Implement file encryption and export functionality, generating a single archive file and a separate key file.; Focus on basic file types (documents, images) initially.; User education on secure key management and sharing."
+      }
+    }
+  ]
+}

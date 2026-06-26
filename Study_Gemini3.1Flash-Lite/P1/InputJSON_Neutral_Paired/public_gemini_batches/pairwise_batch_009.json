@@ -1,0 +1,102 @@
+{
+  "batch_id": "P1_NEUTRAL_GEMINI_009",
+  "stage": "neutral_randomized_pairwise_m1_m3",
+  "prompt_regime": "P1_shared_neutral",
+  "pairs": [
+    {
+      "pair_id": "P1PAIR_0041",
+      "candidate_a": {
+        "title": "Cloud Scribes",
+        "target_user": "Visual artists seeking cooperative abstract outlet",
+        "problem_or_desire": "Digital art being solitary by design",
+        "core_concept": "A painting tool that forces cooperative constraint, where one user can only define the line curvature while the other holds exclusive rights to color saturation selection.",
+        "proposed_approach": "Sync-based 'Duel Painting' rounds where a single artifact cannot progress unless both parties contribute concurrently over 60 seconds.",
+        "prototype_scope": "Two-user concurrent drawing interface demonstrating synchronization logic for one shared layer."
+      },
+      "candidate_b": {
+        "title": "Cloud Scribes",
+        "target_user": "Visual artists seeking cooperative abstract outlet",
+        "problem_or_desire": "Digital art being solitary by design",
+        "core_concept": "Cooperative drawing tool with forced constraints.",
+        "proposed_approach": "A drawing app where two users must coordinate to create a single image, with one controlling line and the other controlling color.",
+        "prototype_scope": "A two-user concurrent drawing interface demonstrating basic synchronization logic for one shared layer. | Implement basic drawing canvas; Build simple networking for two-user sync; Define line and color control roles"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0042",
+      "candidate_a": {
+        "title": "Remote Cultural Consultant Tooling",
+        "target_user": "Remote-only service startups",
+        "problem_or_desire": "Churn due to poor communication onboarding in distributed digital agencies",
+        "core_concept": "Interactive, asynchronous onboarding playbooks for remote teams.",
+        "proposed_approach": "A service providing modular, interactive PDF/Notion playbooks for remote team onboarding.",
+        "prototype_scope": "Three modular playbooks delivered as interactive documents. | Design 3 modular playbooks.; Format as interactive documents.; Test with 3 remote startups.; Gather feedback on usability."
+      },
+      "candidate_b": {
+        "title": "Remote Cultural Consultant Tooling",
+        "target_user": "Remote-only service startups",
+        "problem_or_desire": "Churn due to poor communication onboarding in distributed digital agencies",
+        "core_concept": "Pre-composed interactive playbooks that teams execute during onboarding asynchronously",
+        "proposed_approach": "Interactive documentation SaaS measuring engagement speed through team progress reports",
+        "prototype_scope": "Three modular asynchronous playbooks delivered in interactive documentation files"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0043",
+      "candidate_a": {
+        "title": "Vertical Hyper-Growth Greens Box",
+        "target_user": "Small households living without access to light",
+        "problem_or_desire": "Fresh, raw herbs losing structural viability within days of shop delivery",
+        "core_concept": "Live, harvestable herbs in the kitchen.",
+        "proposed_approach": "A subscription for pre-grown, potted herbs that are replaced weekly.",
+        "prototype_scope": "Deliver 20 potted herbs to 15 kitchens and replace them weekly for one month. | Source 20 potted herbs; Recruit 15 households; Execute weekly delivery/replacement; Measure herb survival and user satisfaction"
+      },
+      "candidate_b": {
+        "title": "Vertical Hyper-Growth Greens Box",
+        "target_user": "Small households living without access to light",
+        "problem_or_desire": "Fresh, raw herbs losing structural viability within days of shop delivery",
+        "core_concept": "Live subscription of micro-planters moved directly from industrial shelf to kitchen counter",
+        "proposed_approach": "Retail unit which features replaceable harvest substrate cassettes specifically designed for light-starved indoor kitchens",
+        "prototype_scope": "Installation of 20 live harvesting modules into resident fridges testing herb survival across fifteen separate kitchens"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0044",
+      "candidate_a": {
+        "title": "Coffee Rental & Skill Development Platform",
+        "target_user": "Entry-level specialty coffee enthusiasts",
+        "problem_or_desire": "High barrier to entry regarding technical manual pour-over hardware acquisition costs",
+        "core_concept": "Trial-based access to premium coffee brewing equipment with guided technique support.",
+        "proposed_approach": "A rental service for manual brewing equipment (e.g., V60, Chemex) paired with a digital guide or video tutorial for the user.",
+        "prototype_scope": "A 30-day rental program for 5 users using 2 types of manual brewing rigs. | Acquire 5 sets of manual brewing equipment.; Create a simple PDF/video guide for each rig.; Run a 30-day pilot with 5 local users."
+      },
+      "candidate_b": {
+        "title": "Coffee Rental & Skill Development Platform",
+        "target_user": "Entry-level specialty coffee enthusiasts",
+        "problem_or_desire": "High barrier to entry regarding technical manual pour-over hardware acquisition costs",
+        "core_concept": "Circularity economy platform for premium coffee equipment trial with integrated technique support",
+        "proposed_approach": "Temporary hardware consignment model featuring high-end devices like automatic pulse pour-over drippers",
+        "prototype_scope": "Testing a thirty-day rental loop with five local residential customers using two popular brewing rigs"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0045",
+      "candidate_a": {
+        "title": "Professional Field Brew Station Repair Service",
+        "target_user": "Small independent retail cafes",
+        "problem_or_desire": "Machine downtime disproportionately impacting revenue during slow maintenance call-outs from established vendors",
+        "core_concept": "Rapid-response modular machine heart swaps and standardized component library to reduce technical failure periods",
+        "proposed_approach": "Aggregator of independent master electricians trained in industry equipment, utilizing modular chassis exchange rather than deep in-store diagnostics",
+        "prototype_scope": "Testing speed-to-solution with five broken commercial devices by delivering serviced, reconditioned replacement module parts"
+      },
+      "candidate_b": {
+        "title": "Professional Field Brew Station Repair Service",
+        "target_user": "Small independent retail cafes",
+        "problem_or_desire": "Machine downtime disproportionately impacting revenue during slow maintenance call-outs from established vendors",
+        "core_concept": "Rapid-response repair service using modular swaps to minimize downtime.",
+        "proposed_approach": "A repair service that stocks common replacement parts for popular machines to offer faster turnaround times than traditional vendors.",
+        "prototype_scope": "A pilot repair service for 5 local cafes focusing on one common machine brand. | Identify 5 cafes using the same machine brand.; Stock common parts for that brand.; Offer a 24-hour repair guarantee for those cafes."
+      }
+    }
+  ]
+}

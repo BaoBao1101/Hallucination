@@ -1,0 +1,18 @@
+{
+  "purpose": "Records categories of path redaction applied during public-release preparation.",
+  "note": "Original local absolute paths are intentionally not retained in the public report.",
+  "changes": [
+    {
+      "scope": "source code and manifests",
+      "action": "absolute local paths replaced with [LOCAL_PATH_REDACTED]"
+    },
+    {
+      "scope": "legacy archived output metadata",
+      "action": "batch_source/input_source/combined_output local paths replaced with [LOCAL_PATH_REDACTED]"
+    },
+    {
+      "scope": "builder audit",
+      "action": "source and target local paths replaced with [LOCAL_PATH_REDACTED]"
+    }
+  ]
+}

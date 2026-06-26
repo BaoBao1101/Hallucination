@@ -1,0 +1,2884 @@
+{
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0001",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.3,
+        "prototype_willingness": 3.3
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty organizing and securing digital credentials and sentimental files for inheritance to a secure, encrypted digital vault with automated release triggers. The prototype—A secure form-based input system that generates a downloadable encrypted PDF manifest—is testable, but the stated claims or data sensitivity require caution."
+    },
+    {
+      "candidate_id": "BLIND_0002",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "The candidate connects the stated need for lack of calming mental stimulation during public transit commutes to slow-paced horticultural design where trees grow in real-time synchronization with sunlight exposure in the player's zip code. The prototype—Single desert garden biome where user can plant one cactus and observe sun-path light-tracking simulations over a 48-hour period—is testable, but the stated claims or data sensitivity require caution."
+    },
+    {
+      "candidate_id": "BLIND_0003",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for high overhead costs for restaurants during off-peak hours to a platform that matches daytime-only cafes with evening-only pop-up chefs. The defined prototype—One cafe hosting three different pop-up chefs over three consecutive weekends—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0004",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "The candidate connects the stated need for lack of structure and social pressure to complete daily tasks to a platform that pairs users for 90-minute silent, video-on co-working sessions. The defined prototype—A simple scheduling calendar that pairs two users for a Zoom session—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0005",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "The candidate connects the stated need for creators struggling to convert free subscribers into paid members to a structured 10-point audit framework specifically for substack pricing page conversion. The defined prototype—Perform 10 manual audits for free in exchange for testimonials and case studies | Define the 10-point audit criteria; Identify 20 potential Substack creators; Conduct 10 —provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0006",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for finding open-source creative examples for repetitive academic assignment prompts to searchable registry of verified academic supplemental material. The defined prototype—Directory of three dummy course modules where items can be liked, sorted, and suggested via form submission—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0007",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "The candidate connects the stated need for reconciling billing discrepancies with disparate cloud service vendors to automated cross-referencing of usage logs against invoice line items to identify discrepancies. The defined prototype—A Python script that parses three specific SaaS billing formats and generates a CSV report of flagged discrepancies | Define schema for three target SaaS billing formats;—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0008",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "The candidate connects the stated need for identifying stealth, passive candidate sentiment signals before they actively enter the job market to ranking candidates based on public technical content production. The prototype—A script that takes a GitHub/StackOverflow profile and outputs a score based on frequency and complexity of contributions | Define scoring rubric; Build scraper for one p—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0009",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for requirement to serve ethical, low-impact high-quality group catering to meals prepared exclusively from 'ugly' or near-expiry restaurant bulk raw materials. The defined prototype—Catering 5 lunches for one specific office office environment focusing on total reduction of carbon-spend data collection—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0010",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for losing existing traffic revenue to un-indexed updates in google search result pages to threshold alerts for seo rank fluctuations. The defined prototype—A simple script or manual check that emails users when rank drops below a threshold | Set up rank tracking for 5 sites; Define alert thresholds; Send manual alerts for 30—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0011",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for managing community quality during organic spikes of paid users joining chat rooms to threshold filtering allowing new user interactions after passing specific introductory checklist requirements. The defined prototype—Set of manual invite workflow gate protocols installed for three specific private Discord communities—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0012",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for identifying stealth, passive candidate sentiment signals before they actively enter the job market to autonomous social reading and contribution analysis, focused solely on long-form public content authored by candidates. The defined prototype—Limited to scraping and grading public contribution histories for one job description on one coding community forum—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0013",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.1,
+        "prototype_willingness": 4.2
+      },
+      "short_rationale": "The candidate connects the stated need for machine downtime disproportionately impacting revenue during slow maintenance call-outs from established vendors to rapid-response modular machine heart swaps and standardized component library to reduce technical failure periods. The defined prototype—Testing speed-to-solution with five broken commercial devices by delivering serviced, reconditioned replacement module parts—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0014",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "The candidate connects the stated need for wasted time on unqualified leads that do not fit the ideal customer profile to an agent that performs deep research on incoming leads by analyzing public digital footprints and company data. The defined prototype—A tool that takes a list of 20 LinkedIn profiles and returns a 'qualified' or 'unqualified' status with a one-sentence justification—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0015",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.4,
+        "prototype_willingness": 3.4
+      },
+      "short_rationale": "The candidate connects the stated need for inability to find or license high-quality, authentic smartphone unboxing footage to a direct procurement bridge for authentic consumer video assets. The prototype—A closed Slack group vetting 20 creators and 20 brands | Recruit 20 creators; Recruit 20 brands; Facilitate connections in Slack; Monitor quality of output—is testable, but the stated claims or data sensitivity require caution."
+    },
+    {
+      "candidate_id": "BLIND_0016",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for fresh, raw herbs losing structural viability within days of shop delivery to live, harvestable herbs in the kitchen. The defined prototype—Deliver 20 potted herbs to 15 kitchens and replace them weekly for one month | Source 20 potted herbs; Recruit 15 households; Execute weekly delivery/replacement; Measure—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0017",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 2.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.3,
+        "prototype_willingness": 3.3
+      },
+      "short_rationale": "The candidate connects the stated need for inconsistency in non-irritating, laboratory-tested gentle preparation methods in cafe environments to . The prototype—A pH-measuring toolkit distributed to participants to gather subjective reaction data vs objectively measured laboratory acidity—is testable, but the stated claims or data sensitivity require caution."
+    },
+    {
+      "candidate_id": "BLIND_0018",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.1
+      },
+      "short_rationale": "The candidate connects the stated need for balancing low inventory costs with delivery lead time requirements across geographic regions to self-modifying replenishment rules based on localized shipping cost fluctuations. The defined prototype—Agent capable of updating buffer stock values in one simulated cloud-based inventory system—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0019",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "The candidate connects the stated need for duplicate information creation where project context is scattered between messenger apps and whiteboard collaboration tools to summarizing chat discussions and linking them to project management tickets. The defined prototype—A Slack/Teams bot that lets users click a 'save to ticket' button on a message | Build chat bot integration; Implement ticket API connection; Create 'save' action; Test w—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0020",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 3.5,
+        "ethical_privacy_risk": 4.0,
+        "overall_mvp_usefulness": 3.4,
+        "prototype_willingness": 3.3
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty preparing balanced meals that meet specific medical dietary needs to a personalized meal delivery service managed by a registered dietitian. The defined prototype—A pilot with five seniors receiving customized meals for two weeks—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0021",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.4,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The candidate connects the stated need for drastic differences in health safety manual implementation when regulations shift locally to mapping new legislation changes to existing internal standard operating procedure documents using diff identification. The defined prototype—Dashboard tool for monitoring two specific municipality codes impacting packaging labeling—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0022",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.1,
+        "prototype_willingness": 4.2
+      },
+      "short_rationale": "The candidate connects the stated need for meal kits often contain excessive packaging and pre-processed sauces to a subscription service providing only the raw, hard-to-source specialty ingredients for a recipe. The defined prototype—A subscription box for one specific cuisine (eg, authentic Thai) delivered to 20 local households—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0023",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for high workplace organic waste volume with no benefit or impact reflection to closing the loop on office coffee waste by returning composted material to the office environment. The prototype—A pilot with 3 offices using a local community garden partner to process grounds and return finished compost | Identify 3 offices with plant maintenance needs; Partner wi—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0024",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for high cost and slow turnaround for adapting marketing copy for different cultural and linguistic markets to an agent that adapts brand voice and cultural nuances in marketing copy rather than performing literal translation. The defined prototype—A tool that takes one English blog post and generates three localized versions for different regions with distinct tone adjustments—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0025",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.4,
+        "prototype_willingness": 3.4
+      },
+      "short_rationale": "The candidate connects the stated need for ensuring digital assets are accessible to heirs after death to a secure, time-locked digital vault that releases access credentials to designated beneficiaries. The prototype—A basic web interface that allows users to store encrypted text and set a trigger date—is testable, but the stated claims or data sensitivity require caution."
+    },
+    {
+      "candidate_id": "BLIND_0026",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "The candidate connects the stated need for drastic differences in health safety manual implementation when regulations shift locally to mapping regulatory changes to internal sops using diff identification. The defined prototype—A web tool where users paste text from a regulation and an SOP, and the tool highlights keywords that appear in both | Define keyword mapping; Build text comparison engin—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0027",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for lack of storage space for infrequently used tools and appliances to a neighborhood-based lending platform for household items. The prototype—A simple list view of available items with a 'request to borrow' button—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0028",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "The candidate connects the stated need for inconsistency in non-irritating, laboratory-tested gentle preparation methods in cafe environments to personalized coffee selection based on individual sensitivity to acidity. The prototype—A 10-person pilot using existing low-acid bean varieties and a basic pH strip kit to gather subjective feedback | Source 3 known low-acid coffee varieties; Recruit 10 par—is testable, but the stated claims or data sensitivity require caution."
+    },
+    {
+      "candidate_id": "BLIND_0029",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "The candidate connects the stated need for reconciling billing discrepancies with disparate cloud service vendors to an agent that autonomously cross-references service usage logs against line-item invoices. The defined prototype—Support for exactly three major SaaS billing platforms processing synthetic email data—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0030",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for hard-to-track complex logical connections between project silos to isometric management simulation where project nodes propagate resources. The defined prototype—A visualization engine displaying connections between one parent and three child entities | Design isometric node system; Implement resource flow logic; Build simple UI f—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0031",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "The candidate connects the stated need for disconnected storytelling platforms for regional historical facts to location-based storytelling that overlays historical narratives onto modern landscapes. The defined prototype—A single city square map with one tethered narrative mission triggered by GPS proximity | Implement basic GPS geofencing; Record and integrate one audio narrative; Build —provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0032",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty calculating the correct time allowance for revisions vs design production to predictive duration simulator based on style complexity benchmarks. The defined prototype—An interactive form calculating an estimated project hour count based on toggle choices of design project type—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0033",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.1
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty getting honest, actionable feedback from early users to a platform that incentivizes community members to perform specific usability tests. The defined prototype—A Google Form-based system that connects testers with product links—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0034",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.4,
+        "prototype_willingness": 3.4
+      },
+      "short_rationale": "The candidate connects the stated need for anxiety around cross-contamination in communal food spaces to visual transparency of food preparation for allergy-sensitive users. The prototype—Prepare 3 allergen-free meals for 5 users, providing a recorded video of the assembly process for each | Define strict allergen-free protocols; Set up recording station; —is testable, but the stated claims or data sensitivity require caution."
+    },
+    {
+      "candidate_id": "BLIND_0035",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty tracking plant growth performance compared to recommended care to visualization-heavy comparison interface between 'optimal' vs 'attained' progress steps. The defined prototype—Form fields for recording plant dimensions weekly, displaying line graphs against ideal biological grow trajectories—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0036",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.1
+      },
+      "short_rationale": "The candidate connects the stated need for low retention rates caused by repetitive and dry grammar exercises to contextual language learning through inventory management and npc interaction. The defined prototype—A market vendor scene with one bartering minigame requiring translation of three specific phrases | Design three simple bartering scenarios; Implement basic text input an—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0037",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "The candidate connects the stated need for high mental fatigue during weekend learning periods to combat strategy built entirely on cleaning buggy snippets, represented as infected territory grids. The defined prototype—One combat grid that rewards valid syntax string repair of two predefined erroneous input segments—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0038",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for lack of a transparent marketplace for selling software projects earning under $500/month to a specialized brokerage service for very small digital assets. The defined prototype—A curated email newsletter featuring one project for sale per week—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0039",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.1
+      },
+      "short_rationale": "The candidate connects the stated need for stalled imagination due to lack of character stakes to reverse choose-your-own-adventure where the player creates obstacles for an ai. The defined prototype—Two scripted chapters with one 'conflict injection' scene that branches into two possible outcomes | Write two chapters and two outcomes; Implement basic branching logic;—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0040",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for lack of data on acoustic environments of candidate public coffee shops for focus time to crowd-sourced acoustic environment mapping. The defined prototype—A map interface with a simple 1-5 noise rating system | Build a map interface; Implement a rating form for users; Display average ratings on the map—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0041",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for managing community quality during organic spikes of paid users joining chat rooms to gated community entry based on checklist requirements. The defined prototype—Manual invite workflow gate protocols for 3 Discord communities | Define entry checklist; Implement manual gate protocols; Test with 3 communities; Gather feedback—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0042",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "The candidate connects the stated need for inability to predict which meals currently maximize palatability vs nausea to customized food delivery based on individual sensory feedback. The prototype—Deliver 3 snack boxes to 5 users, adjusting subsequent boxes based on their written feedback | Create a flavor preference survey; Source 5 snack varieties; Deliver and co—is testable, but the stated claims or data sensitivity require caution."
+    },
+    {
+      "candidate_id": "BLIND_0043",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The candidate connects the stated need for losing track of birthdays, anniversary-gift history, and social relationship nuances to categorized notification system organized strictly by social relationship tiers. The prototype—Personal profile vault holding name, key date, gift category tags, and past interaction dates for 5 dummy contacts—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0044",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for lack of accessible, low-pressure social learning environments to in-home coffee brewing workshops focusing on manual methods like pour-over and french press. The defined prototype—Three workshops for a group of 6 participants—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0045",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.1,
+        "prototype_willingness": 4.2
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty finding relevant sponsors for small, highly specific audiences to a curated matching platform connecting micro-newsletters with hyper-local advertisers. The defined prototype—A static directory site with contact forms for manual matching—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0046",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for traditional group events often focus too heavily on conversation distractants over menu intentionality to blind-dining optimized menus structured entirely on sequential textural mouth-feel gradients. The defined prototype—Catering session of six courses involving twenty participants aimed at qualitative social memory-mapping—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0047",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.1,
+        "prototype_willingness": 4.2
+      },
+      "short_rationale": "The candidate connects the stated need for balancing low inventory costs with delivery lead time requirements across geographic regions to dynamic adjustment of inventory buffer stocks based on external shipping cost signals. The defined prototype—A dashboard that calculates and displays recommended buffer stock changes based on user-provided CSV data | Model inventory buffer logic; Build CSV ingestion for throughp—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0048",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty understanding regional accents and slang to a mystery game where clues are hidden in audio clips of various regional dialects. The defined prototype—One mystery scene with three audio clips and a multiple-choice dialogue interface—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0049",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for fresh, raw herbs losing structural viability within days of shop delivery to live subscription of micro-planters moved directly from industrial shelf to kitchen counter. The defined prototype—Installation of 20 live harvesting modules into resident fridges testing herb survival across fifteen separate kitchens—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0050",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "The candidate connects the stated need for lack of data on acoustic environments of candidate public coffee shops for focus time to acoustic sentiment monitoring based on non-private noise profile crowd-sourcing. The prototype—Web mapping layer highlighting locations coded by assumed levels of background conversational traffic intensity—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0051",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 3.5,
+        "ethical_privacy_risk": 4.0,
+        "overall_mvp_usefulness": 3.4,
+        "prototype_willingness": 3.2
+      },
+      "short_rationale": "The candidate connects the stated need for inability to predict which meals currently maximize palatability vs nausea to correlative nutrient adjustment system based on specific neuro-sensory feedback loops. The prototype—Three day delivery set monitored by participant phone journals analyzing flavor preference patterns in one clinic community—is testable, but the stated claims or data sensitivity require caution."
+    },
+    {
+      "candidate_id": "BLIND_0052",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "The candidate connects the stated need for excessive manual effort preparing contracts and performance requirements for smaller-scale influencers to modular contract generator for barter/equity influencer deals. The prototype—A PDF contract engine with adjustable variables | Draft modular contract templates; Create a simple PDF generator; Test with 3 creators; Gather feedback—is testable, but the stated claims or data sensitivity require caution."
+    },
+    {
+      "candidate_id": "BLIND_0053",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for information silos occurring during parallel recipe preparations across multi-ingredient workflows to ingredient-centralized timeline visualization. The defined prototype—A web page with a simple timeline visualization for one recipe | Choose one complex recipe; Build a timeline visualization; Test with a user—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0054",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "The candidate connects the stated need for requirement to serve ethical, low-impact high-quality group catering to catering using 'ugly' or near-expiry bulk ingredients. The prototype—Prepare and serve 5 lunches using ingredients purchased at a discount from a local market at closing time | Identify local market surplus schedule; Design menu based on a—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0055",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty verifying the sustainability claims of consumer brands to a browser-integrated web app that displays sustainability scores while shopping. The prototype—A search bar that returns a pre-populated sustainability score for 50 common retail brands—is testable, but the stated claims or data sensitivity require caution."
+    },
+    {
+      "candidate_id": "BLIND_0056",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.1
+      },
+      "short_rationale": "The candidate connects the stated need for grocery store produce lacks flavor and freshness due to long supply chains to direct-to-consumer delivery of produce harvested within 24 hours of delivery. The defined prototype—A weekly delivery route for 15 households sourcing from one local vertical farm—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0057",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for hard-to-track complex logical connections between project silos to an isometric management simulation where project nodes propagate resources like fungal mycelium, forcing identification of 'thin' link areas through intuitive v. The defined prototype—Visualization engine displaying connections between one parent and three child entities—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0058",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.4,
+        "prototype_willingness": 3.4
+      },
+      "short_rationale": "The candidate connects the stated need for need to boost morale during remote workforce burnout via shared, multi-sensory team rituals to shared, multi-sensory team coffee rituals for remote workers. The prototype—Host 3 virtual tasting events for teams using physical kits sent by mail | Assemble 3 sets of tasting kits; Coordinate with 3 team leads for virtual events; Conduct the e—is testable, but the stated claims or data sensitivity require caution."
+    },
+    {
+      "candidate_id": "BLIND_0059",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "The candidate connects the stated need for lack of engaging, interactive culinary experiences at home to a kit containing pre-measured ingredients and a live, interactive video link to a professional chef. The defined prototype—A single event for 10 couples using a pre-recorded video and shipped ingredient boxes—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0060",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "The candidate connects the stated need for wanting to discover hidden local stories rather than tourist traps to a location-based game where players 'capture' local legends by visiting specific, non-commercial landmarks. The defined prototype—A map interface showing three 'legend' pins that unlock text stories when the user is within 50 meters—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0061",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "The candidate connects the stated need for overdose on caffeine causing unintended interference with evening sleep and focus patterns to optimizing caffeine intake based on individual sleep readiness. The defined prototype—A 10-person pilot where users report sleep data and receive a daily email recommendation | Recruit 10 users with wearables; Set up a manual email system for daily recomme—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0062",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "The candidate connects the stated need for inconsistency in ingredient pricing across multiple wholesalers to aggregated daily procurement ledger with alert system. The prototype—A tool that parses CSV or PDF invoices and displays a simplified price comparison table for flour, sugar, and dairy—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0063",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "The candidate connects the stated need for keeping up with rapidly changing regional financial regulations and updating internal policy documents to an agent that monitors regulatory news feeds and maps changes to internal policy documentation. The defined prototype—A dashboard that highlights three specific policy sections that need review based on a provided regulatory update text—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0064",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.1
+      },
+      "short_rationale": "The candidate connects the stated need for lack of shared physical experiences for distributed teams to a subscription service that ships identical, curated activity kits to team members globally. The defined prototype—A single-page order form for a pilot run of 10 kits to one company—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0065",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.1,
+        "prototype_willingness": 4.2
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty sourcing surplus fresh, unrefined local produce for complex meals to peer-to-peer exchange of surplus backyard produce. The defined prototype—A dedicated WhatsApp group for one street to post photos of surplus items for free pickup | Identify 10 households with gardens; Create WhatsApp group; Facilitate 5 succe—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0066",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "The candidate connects the stated need for balancing inventory levels to avoid stockouts without over-ordering and tying up cash to an agent that predicts demand based on historical sales and seasonality, then drafts purchase orders. The prototype—A script that analyzes 6 months of sales data and generates a draft purchase order for the top 5 low-stock items—is testable, but the stated claims or data sensitivity require caution."
+    },
+    {
+      "candidate_id": "BLIND_0067",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for inconsistent coffee quality leading to employee dissatisfaction to a recurring service that calibrates office brewing equipment and adjusts grind settings based on water chemistry analysis. The defined prototype—Calibration service for 5 office breakrooms in a single business park—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0068",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.5,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.3,
+        "prototype_willingness": 3.1
+      },
+      "short_rationale": "The candidate connects the stated need for lack of healthy, affordable, and sustainable late-night food options to automated kiosks dispensing hot, fresh meals in reusable, returnable containers. The prototype—One vending unit in a single dormitory lobby serving three types of hot bowls—is testable, but the stated claims or data sensitivity require caution."
+    },
+    {
+      "candidate_id": "BLIND_0069",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The candidate connects the stated need for managing individual goal priorities within restricted master organizational capacity plans to constraint-optimization based scheduler prioritizing stated goal achievement rather than empty availability. The prototype—Plugin interfacing with a public calendar API that suggests reshuffling times based on user-designated project milestones—is testable, but the stated claims or data sensitivity require caution."
+    },
+    {
+      "candidate_id": "BLIND_0070",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for lack of accessible high-fidelity puzzle games to a game played entirely through spatial audio cues. The defined prototype—A single level demonstrating navigation through a 3D audio environment using touch-to-move controls—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0071",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for no time to properly nutritious pre-prepped daily sustenance between rigid shift boundaries to automated kiosk network stocked by local morning-prep professional chef kitchens. The defined prototype—Deployment of three climate controlled modular locker cabinets dispensing pre-prepped heat-or-eat nutritious vegetable pods near a single bus hub—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0072",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.1
+      },
+      "short_rationale": "The candidate connects the stated need for underutilized 'seat licenses' contributing to phantom software spending to cross-referencing user access logs with license assignments to identify unused seats. The defined prototype—A script that takes two CSV files (user list and access logs) and outputs a list of potential license reclamation candidates | Define CSV schema for SSO/SaaS exports; Dev—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0073",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.1,
+        "prototype_willingness": 4.2
+      },
+      "short_rationale": "The candidate connects the stated need for lack of calming mental stimulation during public transit commutes to slow-paced, nature-focused horticultural design that evolves based on external environmental data. The defined prototype—A single-biome garden app where one cactus grows over 48 hours based on a static, simulated light-tracking algorithm | Develop basic 3D model of a cactus; Implement a 48-—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0074",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for managing security vulnerabilities in open-source dependencies across multiple microservices to an agent that scans dependency manifests, checks against vulnerability databases, and creates pull requests for patches. The defined prototype—A tool that identifies one outdated dependency in a repository and generates a pull request with the updated version—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0075",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for no time to properly nutritious pre-prepped daily sustenance between rigid shift boundaries to convenient pickup of pre-prepped meals for shift workers. The prototype—Coordinate 3 pickup points at a transit hub where users collect pre-ordered meals from a staff member | Partner with a local kitchen; Recruit 10 shift workers; Execute 3 —offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0076",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty in finding legitimate, non-spammy shipping and fulfillment partners to a verified private dashboard of filtered vendors based on store volume metrics. The prototype—Google Sheets landing page portal connecting 5 retailers to vetted 3PL vendors—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0077",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "The candidate connects the stated need for desire for social shared meals to overcome urban isolation to collaborative modular kit prep through synchronized smart hardware to connect solo kitchens. The prototype—One physical joint appliance prototype where users at separate physical desks coordinate timed cooking commands to finalize two collaborative bowls—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0078",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "The candidate connects the stated need for overdose on caffeine causing unintended interference with evening sleep and focus patterns to optimizing roast and amount delivered based on real-time sleep readiness tracker integration. The defined prototype—Beta software connecting current fitness sensor sleep summaries with a personalized daily intake delivery recommendation chart sent daily via manual email dispatch—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0079",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for inconsistency in ingredient pricing across multiple wholesalers to unified price comparison dashboard for specific high-volume ingredients. The defined prototype—A static web page with a form for manual entry and a table view for comparison | Define 3 core ingredients (flour, sugar, dairy); Build a simple HTML/JS form for manual p—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0080",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for overwhelmed by dense academic literature and jargon to a web-based tool that translates complex research papers into plain language summaries. The defined prototype—A text-input box that outputs a three-bullet-point summary and a glossary of terms—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0081",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "The candidate connects the stated need for forgetting routine maintenance tasks that lead to expensive repairs to a predictive maintenance schedule based on home appliance age and type. The defined prototype—A form to input home details and a generated 12-month maintenance checklist—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0082",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "The candidate connects the stated need for food waste due to unpredictable demand and menu pricing rigidity to software that adjusts menu prices in real-time based on inventory levels and time of day. The defined prototype—A software plugin for one local cafe to test price fluctuations on three high-waste items—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0083",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for churn due to poor communication onboarding in distributed digital agencies to pre-composed interactive playbooks that teams execute during onboarding asynchronously. The defined prototype—Three modular asynchronous playbooks delivered in interactive documentation files—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0084",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for digital art being solitary by design to a painting tool that forces cooperative constraint, where one user can only define the line curvature while the other holds exclusive rights to color saturation. The defined prototype—Two-user concurrent drawing interface demonstrating synchronization logic for one shared layer—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0085",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "The candidate connects the stated need for zero experience or manual friction in onboarding new affiliate partners to templatized onboarding workflows for saas affiliate programs. The prototype—Create a digital kit of templates and a 3-video training suite | Draft onboarding templates; Record 3 training videos; Package as a digital product; Test with 3 beta user—is testable, but the stated claims or data sensitivity require caution."
+    },
+    {
+      "candidate_id": "BLIND_0086",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for boredom during short, fragmented transit windows to asynchronous multiplayer world-building that advances only when players are in motion. The defined prototype—A basic map interface where users can contribute resources based on simulated movement speed—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0087",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.4,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The candidate connects the stated need for failure of traditional catering to capture regional specific 'feel' of comfort home-cooking to crowdsourced historical cook books localized into professional recipe standards by diaspora community cooks. The defined prototype—Test sessions where five experts use standardized remote interface pads to walk households through four heritage dumpling recipes—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0088",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty matching coffee profiles to specific dessert courses to a service that curates and delivers small-batch coffee beans specifically roasted to complement a user's planned menu. The defined prototype—A landing page for 10 test users to receive a pairing recommendation and sample pack—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0089",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "The candidate connects the stated need for desire to visualize historical urban changes to an ar game that overlays historical architectural blueprints onto current city streets. The defined prototype—A single AR view of one historical building model anchored to a specific GPS coordinate—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0090",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "The candidate connects the stated need for information silos occurring during parallel recipe preparations across multi-ingredient workflows to ingredient-centralized timeline visualization. The prototype—Horizontal scrolling chart mapping preparation stages from prep work to cook time by category—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0091",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for dissatisfaction with repetitive tap-to-attack mechanics to combat system requiring complex screen-drawing gestures to cast specific spells. The defined prototype—A combat arena with three distinct spells triggered by drawing specific shapes on the screen—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0092",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "The candidate connects the stated need for desire for social shared meals to overcome urban isolation to collaborative cooking experience between remote users. The defined prototype—Host 5 pairs of users in a guided 'cook-along' where they prepare different components of a shared meal simultaneously | Design a two-part recipe; Recruit 5 pairs of part—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0093",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "The candidate connects the stated need for high barrier to entry regarding technical manual pour-over hardware acquisition costs to trial-based access to premium coffee brewing equipment with guided technique support. The prototype—A 30-day rental program for 5 users using 2 types of manual brewing rigs | Acquire 5 sets of manual brewing equipment; Create a simple PDF/video guide for each rig; Run a—is testable, but the stated claims or data sensitivity require caution."
+    },
+    {
+      "candidate_id": "BLIND_0094",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.4,
+        "prototype_willingness": 3.4
+      },
+      "short_rationale": "The candidate connects the stated need for uncontrolled document version chaos across external law firms to automated enforcement of folder structures and naming conventions for shared documents. The prototype—A folder-watcher service that scans a specific directory and generates a report of non-compliant files | Define naming/structure rules; Implement file system watcher; Bui—is testable, but the stated claims or data sensitivity require caution."
+    },
+    {
+      "candidate_id": "BLIND_0095",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty tracking plant growth performance compared to recommended care to visualization of plant growth progress. The defined prototype—A form to log height and a line graph to visualize it | Build a log form; Implement a charting library; Display the user's own data—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0096",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.4,
+        "prototype_willingness": 3.4
+      },
+      "short_rationale": "The candidate connects the stated need for the information gap between high-level client conceptual needs and individual production brief quality to agents that 'shadow' planning calls to autonomously document technical requirements for contractors. The prototype—Template ingestion for graphic design asset requests derived from transcribed meetings—is testable, but the stated claims or data sensitivity require caution."
+    },
+    {
+      "candidate_id": "BLIND_0097",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty in tracking distinct flavor profiles from independent local roasters without shipping bloat to curated selection service focusing solely on roasting dates within 48 hours. The defined prototype—Testing logistical feasibility with three local roasters using a custom delivery route scheduler—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0098",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for lack of social cohesion and shared culture in fully remote environments to automated, low-friction asynchronous team bonding activities. The defined prototype—A single-question daily prompt interface with a shared wall for viewing team answers—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0099",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The candidate connects the stated need for failure of traditional catering to capture regional specific 'feel' of comfort home-cooking to remote coaching by heritage cooks. The prototype—Facilitate 5 live video cooking sessions between heritage cooks and home cooks | Recruit 2 heritage cooks; Recruit 5 home cooks; Facilitate 5 sessions; Gather feedback on—is testable, but the stated claims or data sensitivity require caution."
+    },
+    {
+      "candidate_id": "BLIND_0100",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty maintaining consistent pacing during endurance training to rhythm-action game where the user's running speed acts as the beat matcher for an procedurally generated audio experience. The defined prototype—A treadmill-focused build enabling one pre-selected electronic music track where speed matches track elements—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0101",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for spending too much time building products that lack market interest to a landing page generator specifically designed for a/b testing value propositions. The defined prototype—A template builder that creates two distinct landing pages and a basic analytics dashboard—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0102",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for isolation and lack of professional networking opportunities to curated morning coffee meetups where participants are matched based on professional interests. The defined prototype—Two events with 10 participants each to test matching logic—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0103",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty identifying overcharges and contract non-compliance in high-volume invoice processing to an autonomous agent that cross-references invoices against signed contracts and market price benchmarks. The defined prototype—A script that processes 50 sample PDF invoices against a single contract template to identify price variances—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0104",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for waste of fresh aromatics and stock perishables leading to lost inventory and cooking motivation to a distributed subscription for dehydration/freezing labor as an utility. The defined prototype—Ten bags processed for local home users over one pilot week including simple inventory storage tagging—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0105",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty finding high-quality, small-batch catering that isn't fast food to a marketplace connecting home-based professional chefs with small office teams. The defined prototype—A landing page for one neighborhood matching three chefs with five local businesses for a one-week trial—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0106",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 3.5,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.4,
+        "prototype_willingness": 3.3
+      },
+      "short_rationale": "The candidate connects the stated need for high barrier to entry for commercial kitchen space and licensing to a shared-use kitchen facility that handles all health department compliance and insurance for members. The defined prototype—A pilot program with three food entrepreneurs sharing one kitchen space for one month—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0107",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for inability to write effective prompts to get high-quality business outputs to a searchable database of verified, industry-specific prompt templates. The prototype—A Notion-based database shared via a paywall landing page—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0108",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.4,
+        "prototype_willingness": 3.4
+      },
+      "short_rationale": "The candidate connects the stated need for the information gap between high-level client conceptual needs and individual production brief quality to automated extraction of technical requirements from unstructured meeting transcripts into structured templates. The prototype—A web interface where users upload a transcript and receive a pre-filled brief based on a fixed template | Select target creative brief template; Develop prompt engineeri—is testable, but the stated claims or data sensitivity require caution."
+    },
+    {
+      "candidate_id": "BLIND_0109",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty finding affordable, small-batch sustainable packaging to a group-buying platform that aggregates orders to reach wholesale pricing for eco-friendly materials. The prototype—A landing page collecting interest for a specific type of compostable mailer—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0110",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "The candidate connects the stated need for vetting the legitimacy and relevancy of massive amounts of instructional media to annotation map on exploded parts-view images. The prototype—A web interface for uploading an image and adding clickable hotspots | Build image upload; Implement hotspot creation; Add text annotation to hotspots—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0111",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty finding high-quality, non-fiction books relevant to specific learning goals to a collaborative filtering engine for curated reading paths. The defined prototype—A goal-selection interface that outputs a static, curated list of five books—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0112",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty maintaining consistent pacing during endurance training to rhythm-action game mechanics applied to physical running cadence. The defined prototype—A treadmill-focused app that plays one pre-selected track and uses the accelerometer to track if the user's steps align with the beat | Integrate accelerometer data strea—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0113",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.1
+      },
+      "short_rationale": "The candidate connects the stated need for brand advertising displaying alongside unsuitable or scammy link farms to monthly reporting on ad placements on low-reputation sites. The defined prototype—Manual monthly report generation for 5 clients | Identify 5 clients; Perform manual placement audits; Deliver monthly reports; Gather feedback—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0114",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The candidate connects the stated need for zero experience or manual friction in onboarding new affiliate partners to templatized automated workflow setup for new creator partnerships. The prototype—Onboarding document templates plus a 3-video 'how to setup' training suite—is testable, but the stated claims or data sensitivity require caution."
+    },
+    {
+      "candidate_id": "BLIND_0115",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "The candidate connects the stated need for fragmented onboarding processes leading to poor new-hire experience and administrative bottlenecks to an agent that manages cross-platform provisioning, scheduling, and document collection across disparate saas tools. The prototype—A workflow that automatically creates a Slack channel, sends a welcome email, and assigns a task in a project management tool for one new hire—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0116",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "The candidate connects the stated need for high volume of repetitive 'where is my order' inquiries consuming human agent time to an agent that autonomously interacts with logistics apis to provide real-time status updates and initiate refunds if criteria are met. The defined prototype—A chatbot that successfully retrieves tracking data and processes a mock refund for a specific order ID—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0117",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.1,
+        "prototype_willingness": 4.1
+      },
+      "short_rationale": "The candidate connects the stated need for high barrier to entry regarding technical manual pour-over hardware acquisition costs to circularity economy platform for premium coffee equipment trial with integrated technique support. The prototype—Testing a thirty-day rental loop with five local residential customers using two popular brewing rigs—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0118",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.1
+      },
+      "short_rationale": "The candidate connects the stated need for churn due to poor communication onboarding in distributed digital agencies to interactive, asynchronous onboarding playbooks for remote teams. The defined prototype—Three modular playbooks delivered as interactive documents | Design 3 modular playbooks; Format as interactive documents; Test with 3 remote startups; Gather feedback on —provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0119",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "The candidate connects the stated need for creators struggling to convert free subscribers into paid members to a manual 10-point audit tool focused purely on the 'pricing page' conversion funnel. The defined prototype—Ten free experimental audits performed for beta users—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0120",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "The candidate connects the stated need for brand advertising displaying alongside unsuitable or scammy link farms to monitoring mechanism specific to detecting when client urls are appearing on bad reputation host platforms. The prototype—Report utility highlighting current placements to the store owner once per month—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0121",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "The candidate connects the stated need for excessive manual effort preparing contracts and performance requirements for smaller-scale influencers to modular snippet editor for legally compliant barter-based or equity influencer deals. The defined prototype—Simple PDF contract engine with adjustable performance tracking variables—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0122",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for action items from meetings are often forgotten or not tracked across different platforms to an agent that listens to meeting transcripts, extracts tasks, and assigns them to the correct project management board. The defined prototype—A tool that parses a meeting transcript and creates three tasks in a Trello board with correct assignees—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0123",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for stalled imagination due to lack of character stakes to a 'reverse choose-your-own-adventure' where the player constructs the obstacle/protagonist and then attempts to break the story outcome for a sidekick ai. The defined prototype—Two scripted chapters defining the protagonist and one 'conflict injection' scene test—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0124",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty calculating the correct time allowance for revisions vs design production to predictive duration simulator based on project parameters. The defined prototype—A web form that outputs a time estimate based on user-defined multipliers | Define 5-10 project variables; Build a form to collect these variables; Implement a simple cal—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0125",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.1,
+        "prototype_willingness": 4.2
+      },
+      "short_rationale": "The candidate connects the stated need for mismatching players, times, and learning difficulty levels to matchmaking based on game complexity and player expertise. The defined prototype—A simple match-making form | Build a game listing form; Implement a search/filter for players; Add a simple messaging feature—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0126",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "The candidate connects the stated need for managing quickly expiring ingredients that end up in the trash to an rpg fantasy loop where monsters representing hunger levels and potion recipes are dynamically generated based on manual pantry inventory scanning. The defined prototype—Inventory scanner integration processing ten basic produce items as offensive ability slots—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0127",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for desire for ultra-fresh coffee without the commute to specialty cafes to neighborhood-based roasting cycles delivered via bicycle courier within 24 hours of roasting. The defined prototype—A single neighborhood pilot with 20 subscribers and 2 local roasters—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0128",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty finding diverse, high-quality beans without buying large quantities to monthly delivery of 50g samples from 4 different global regions to allow for comparative tasting. The prototype—A 3-month subscription pilot for 50 users—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0129",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty maintaining consistent engagement with community members across multiple platforms to an agent that identifies high-value comments or questions and drafts personalized, on-brand responses for human review. The prototype—A tool that filters 50 social media comments and suggests responses for the 5 most urgent ones—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0130",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "The candidate connects the stated need for long transit waiting times leading to inconsistent coffee intake due to unpredictable cafe wait times to on-transit batch-chilled hydration stations replenished based on daily train scheduling metadata. The prototype—Deploying one prototype vending interface in a specific bus transition hub managed with dynamic inventory logic—is testable, but the stated claims or data sensitivity require caution."
+    },
+    {
+      "candidate_id": "BLIND_0131",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for low retention rates caused by repetitive and dry grammar exercises to massively parallel text adventure where inventory management items are earned exclusively through accurate contextual sentence translation. The defined prototype—A simple market vendor area with one 'Bartering' minigame that unlocks trade items—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0132",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "The candidate connects the stated need for late night fidgeting and phone reliance impacting transition to rem cycles to audio-only tactical adventure navigable through haptic and voice commands. The prototype—Calibration of gyroscope-to-rotation mapping for selecting directions within a simple 3x3 audio maze | Record audio cues for maze navigation; Implement voice command reco—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0133",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.1
+      },
+      "short_rationale": "The candidate connects the stated need for lack of granular detail connecting payment to specific farmer/crop outcomes in mainstream coffee service channels to connecting consumer spend directly to specific agricultural outcomes or beneficiaries. The defined prototype—A manual dashboard tracking customer points and corresponding donations to a partner agricultural project | Partner with one agricultural project; Set up a manual trackin—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0134",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for waste of fresh aromatics and stock perishables leading to lost inventory and cooking motivation to professional preservation of home-bought produce. The defined prototype—Process 10 bags of produce for 5 households over one week | Define preservation methods (blanching, chopping); Recruit 5 households; Execute pickup and processing; Gather—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0135",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The candidate connects the stated need for inability to find or license high-quality, authentic smartphone unboxing footage to peer-to-peer exchange for authentic consumer social media video assets. The prototype—Closed Slack group vetting 20 creators supplying 20 small brands—is testable, but the stated claims or data sensitivity require caution."
+    },
+    {
+      "candidate_id": "BLIND_0136",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty tracking and canceling unused software subscriptions to a manual audit service that identifies and cancels redundant digital tools. The defined prototype—A simple landing page with a secure file upload form and a manual email-based reporting system—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0137",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.1
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty finding affordable professional services for non-core business needs to a non-monetary barter marketplace for professional services. The defined prototype—A single-category dashboard allowing users to post one service and request one service—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0138",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty sourcing surplus fresh, unrefined local produce for complex meals to direct trade of backyard fruit/vegetable surplus with local households. The defined prototype—One neighborhood Slack/Telegram integration managing peer-to-peer pick-ups of three specified seasonal food items—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0139",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for mismatch between generic inventory bean selection and local customer latent flavour preference data to optimizing coffee inventory based on actual customer preference data. The defined prototype—A 1-month pilot in one co-working space using QR codes to survey coffee preferences | Set up QR codes at one coffee station; Collect survey data for 30 days; Analyze data—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0140",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for need to boost morale during remote workforce burnout via shared, multi-sensory team rituals to curated monthly discovery experience delivered at home, connecting employees virtually through live tasting calibration sessions. The defined prototype—Hosting three virtual events involving manual sensory tracking surveys provided at delivery via paper form—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0141",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for high cost of entry for professional-grade brewing equipment to a rental service for high-end espresso machines and grinders on a monthly basis. The prototype—A library of 5 machines available for rent to local users—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0142",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.4,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The candidate connects the stated need for anxiety around cross-contamination in communal food spaces to a transparent preparation window enabled through recorded 24-hour visual feed accessibility. The defined prototype—Testing pre-ordering on three specialized nutrient packs prepared under restricted 24/7 web camera documentation for five trial users—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0143",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for guilt over the volume of spent coffee grounds generated daily to a subscription service that collects spent grounds and provides pre-measured additives to convert them into garden fertilizer or exfoliating scrubs. The prototype—A 30-day pilot with 15 households to test collection logistics—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0144",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "The candidate connects the stated need for underutilized 'seat licenses' contributing to phantom software spending to continuous entitlement auditing via automated api connection to single sign-on access logs. The defined prototype—Script that performs a one-time automated scan of two disparate identity management SaaS platform usage records—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0145",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for lack of granular detail connecting payment to specific farmer/crop outcomes in mainstream coffee service channels to banking interface enabling customers to link their loyalty point spend directly to local agricultural school endowments. The defined prototype—Ten-person feedback session simulated via a manual dashboard mapping donations to localized, known agricultural beneficiaries—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0146",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "The candidate connects the stated need for rapid identification of recurring regional training lapses reported in informal channels to parsing and normalizing sentiment trends across messy yelp reviews, physical location comment cards, and sms responses. The defined prototype—Input normalization agent for two disparate survey feedback databases focused purely on categorization performance—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0147",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for high mental fatigue during weekend learning periods to combat strategy built on cleaning buggy code snippets. The defined prototype—One combat grid that rewards valid syntax string repair of two predefined erroneous input segments | Design two buggy code snippets; Implement basic grid combat logic; Bu—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0148",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.1
+      },
+      "short_rationale": "The candidate connects the stated need for maintaining social connection through shared physical activity to a cooperative platformer where two players must walk at the same pace to keep their characters moving. The defined prototype—A simple 2D platformer level where character movement is locked until both devices detect matching step cadences—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0149",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "The candidate connects the stated need for long transit waiting times leading to inconsistent coffee intake due to unpredictable cafe wait times to on-transit cold brew access optimized for commuter traffic patterns. The defined prototype—A single mobile cart at one transit hub for 1 week, tracking sales against train arrival times | Secure permit for one transit hub location; Operate a mobile cart for 5 d—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0150",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for rapid identification of recurring regional training lapses reported in informal channels to aggregating and categorizing feedback from disparate sources to identify training lapses. The defined prototype—A dashboard that ingests feedback from two sources and displays a categorized frequency chart | Define feedback categories; Build ingestion for two sources; Implement cat—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0151",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "The candidate connects the stated need for need for quick, calming mental breaks to a virtual garden that grows based on the user's heart rate variability. The defined prototype—A single plant model that changes color and size based on a simulated heart rate input—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0152",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.6
+      },
+      "short_rationale": "The candidate connects the stated need for managing individual goal priorities within restricted master organizational capacity plans to constraint-based scheduling that prioritizes project milestones over availability. The prototype—A calendar plugin that lets users tag meetings as 'milestone-critical' and suggests moving non-critical meetings if conflicts arise | Define milestone-critical tags; Buil—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0153",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty in contextualizing old digitized family photos with metadata to chronological storytelling grid for digital archives. The defined prototype—A web interface allowing 10 image uploads and manual chronological ordering | Build image upload functionality; Implement drag-and-drop sorting; Add text annotation field—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0154",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.1
+      },
+      "short_rationale": "The candidate connects the stated need for managing quickly expiring ingredients that end up in the trash to rpg fantasy loop where inventory management is tied to real-world pantry items. The defined prototype—An inventory screen where users select from ten basic produce items to assign offensive ability slots | Design ten produce items and their traits; Implement manual invent—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0155",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for understanding complex ecological cause-and-effect relationships to a simulation game where players manage a micro-ecosystem and must balance resource consumption against population growth. The defined prototype—A single simulation screen showing the population levels of three species and one resource slider—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0156",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for high workplace organic waste volume with no benefit or impact reflection to closing the loop on office grounds by returning enriched garden soil equivalents back to common spaces. The defined prototype—Ten offices sharing a municipal processing pipeline with branded bucket exchange infrastructure—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0157",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for digital art being solitary by design to cooperative drawing tool with forced constraints. The defined prototype—A two-user concurrent drawing interface demonstrating basic synchronization logic for one shared layer | Implement basic drawing canvas; Build simple networking for two-u—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0158",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "The candidate connects the stated need for late night fidgeting and phone reliance impacting transition to rem cycles to audio-only tactical adventure navigable through binary haptic pulses and voice commands while keeping the eyes fully closed (phone screen brightness reduced to . The prototype—Calibration of gyroscope-to-rotation mapping for selecting directions within a simple 3x3 audio maze—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0159",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The candidate connects the stated need for losing track of birthdays, anniversary-gift history, and social relationship nuances to categorized gift tracking by relationship tier. The prototype—A profile vault for contacts with gift history fields | Build a contact list; Add fields for gift history; Implement a simple search/filter—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0160",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for finding open-source creative examples for repetitive academic assignment prompts to searchable registry of verified academic supplemental material. The defined prototype—A simple directory site with search and submission forms | Create a database of 3 dummy course modules; Build a submission form for links; Implement a basic search/filter—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0161",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for long wait times at stationary coffee shops during morning rush hour to a high-speed, pre-order-only mobile cart positioned at transit entry points. The defined prototype—One mobile cart at a single train station for one week—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0162",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "The candidate connects the stated need for excessive caffeine consumption leading to afternoon crashes to a service that replaces high-caffeine office coffee with a rotating selection of low-caffeine, high-antioxidant coffee alternatives. The defined prototype—A one-month trial in one department of a mid-sized company—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0163",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for disconnected storytelling platforms for regional historical facts to gps-located audio logs left by 'ghosts' that require movement to a specific real-world coordinate to initiate narration. The defined prototype—Single city square map supporting one tethered narrative mission—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0164",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty remembering and organizing dream content to a dungeon crawler where the layout and enemies are procedurally generated from text input of dream journals. The defined prototype—A text input field that generates a simple 2D room layout based on three keywords—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0165",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty in contextualizing old digitized family photos with metadata to chronological storytelling grid for digital archives. The prototype—Web interface where 10 image uploads can be arranged chronologically with editable text annotations per slot—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0166",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.8
+      },
+      "short_rationale": "The candidate connects the stated need for mismatch between generic inventory bean selection and local customer latent flavour preference data to analyzing customer waste patterns via bin monitoring combined with qr-scan-based beverage survey inputs to optimize shelf supply. The defined prototype—Implementing one tablet kiosk feedback gatherer integrated with traditional POS output in a non-traditional coffee setting like a co-working shared area—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0167",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for mismatching players, times, and learning difficulty levels to profile matchmaking system optimized solely for complexity class requirements of game libraries. The defined prototype—Match creation form allowing search results filter based on complexity level and participant timezone matches—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0168",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty in finding legitimate, non-spammy shipping and fulfillment partners to a curated, private directory of vetted e-commerce fulfillment partners. The prototype—A Google Sheets portal connecting 5 retailers to 3 vetted vendors | Vet 3 reliable 3PL vendors; Create a landing page/portal; Onboard 5 retailers; Facilitate introduction—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0169",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.6,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "The candidate connects the stated need for traditional group events often focus too heavily on conversation distractants over menu intentionality to focus on taste and texture through sensory deprivation. The defined prototype—Host one 20-person event with a blindfolded tasting menu | Design a 6-course tasting menu; Recruit 20 participants; Host the event; Collect qualitative feedback—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0170",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for inefficiency in sourcing seasonal ingredients from multiple local farms to a centralized procurement dashboard for local farm inventory. The defined prototype—A static inventory view for three local farms and a simple email-based order submission button—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0171",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for duplicate information creation where project context is scattered between messenger apps and whiteboard collaboration tools to bi-directional linkage building between synchronous communications and asynchronous document stores through contextual tagging. The defined prototype—Connecting one real-time chat platform specifically to one project management ticketing system—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0172",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "The candidate connects the stated need for vetting the legitimacy and relevancy of massive amounts of instructional media to annotation map on procedural image slices identifying likely trouble spots within the manufacturer schematics. The prototype—Interaction of an exploded parts-view image enabling users to pin suspected common failure point warnings—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0173",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty in tracking distinct flavor profiles from independent local roasters without shipping bloat to curated coffee subscription focused strictly on 48-hour roast freshness. The defined prototype—A manual subscription list for 20 local users, with a single courier picking up and delivering on a set day | Secure commitment from 3 local roasters for specific roast d—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0174",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty hiring fractional experts to debug one-off legacy code patches to micro-scope project matchmaking tailored strictly for specific framework codebases. The defined prototype—Manual pilot job-matching board restricted to three niche PHP and React bug-fixes—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0175",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.7,
+        "prototype_willingness": 3.7
+      },
+      "short_rationale": "The candidate connects the stated need for losing existing traffic revenue to un-indexed updates in google search result pages to threshold alerts triggered by rank fluctuation, mapping back to specific page edit suggestions. The prototype—Plugin analyzing URLs via search metrics to provide alert-based revision suggestions—offers a concrete initial scope, with implementation details still needing validation."
+    },
+    {
+      "candidate_id": "BLIND_0176",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.4,
+        "prototype_willingness": 3.4
+      },
+      "short_rationale": "The candidate connects the stated need for uncontrolled document version chaos across external law firms to automated synchronization of shared folder structures managed by intelligent filing agents. The prototype—Automated folder sorting agent interfacing exclusively with shared enterprise cloud document repositories—is testable, but the stated claims or data sensitivity require caution."
+    },
+    {
+      "candidate_id": "BLIND_0177",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.9,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The candidate connects the stated need for machine downtime disproportionately impacting revenue during slow maintenance call-outs from established vendors to rapid-response repair service using modular swaps to minimize downtime. The defined prototype—A pilot repair service for 5 local cafes focusing on one common machine brand | Identify 5 cafes using the same machine brand; Stock common parts for that brand; Offer a —provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0178",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.9
+      },
+      "short_rationale": "The candidate connects the stated need for repetitive, time-consuming onboarding of new remote hires to a library of high-quality, customizable video templates for company policies and tools. The defined prototype—A set of three sample video templates hosted on a private video platform—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0179",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.1,
+        "prototype_willingness": 4.2
+      },
+      "short_rationale": "The candidate connects the stated need for difficulty hiring fractional experts to debug one-off legacy code patches to micro-scope project matchmaking for specific legacy codebases. The defined prototype—A manual job board/matching service for 3 specific niche bug-fix projects | Identify 3 niche legacy frameworks; Find 3 developers per framework; Match with 3 founders; Mo—provides a bounded first test."
+    },
+    {
+      "candidate_id": "BLIND_0180",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 3.5,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 3.1,
+        "prototype_willingness": 2.9
+      },
+      "short_rationale": "The candidate connects the stated need for employees struggle to find healthy snacks that align with their fitness goals to smart vending machines that sync with employee fitness trackers to suggest snacks based on activity levels. The prototype—One machine in a single office building with 50 opt-in users—is testable, but the stated claims or data sensitivity require caution."
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "candidate_id": "BLIND_0018",
+    "title": "Inventory Equilibrium Scout",
+    "target_user": "E-commerce warehouse lead operators",
+    "problem_or_desire": "Balancing low inventory costs with delivery lead time requirements across geographic regions.",
+    "core_concept": "Self-modifying replenishment rules based on localized shipping cost fluctuations.",
+    "proposed_approach": "Connecting historical fulfillment throughput with carrier pricing scrapers to update ERP buffer stocks automatically.",
+    "prototype_scope": "Agent capable of updating buffer stock values in one simulated cloud-based inventory system."
+  },
+  {
+    "candidate_id": "BLIND_0081",
+    "title": "Home Maintenance Tracker",
+    "target_user": "First-time homeowners",
+    "problem_or_desire": "Forgetting routine maintenance tasks that lead to expensive repairs.",
+    "core_concept": "A predictive maintenance schedule based on home appliance age and type.",
+    "proposed_approach": "A web app that generates a custom calendar of maintenance tasks based on a user-inputted home profile.",
+    "prototype_scope": "A form to input home details and a generated 12-month maintenance checklist."
+  },
+  {
+    "candidate_id": "BLIND_0126",
+    "title": "Pantry Potioneer",
+    "target_user": "Home cooks trying to minimize food waste",
+    "problem_or_desire": "Managing quickly expiring ingredients that end up in the trash",
+    "core_concept": "An RPG fantasy loop where monsters representing hunger levels and potion recipes are dynamically generated based on manual pantry inventory scanning.",
+    "proposed_approach": "Camera-vision OCR scanning that maps specific pantry items to equipment traits (e.g., milk is defensive, spice is offensive) to fend off pantry chaos creatures.",
+    "prototype_scope": "Inventory scanner integration processing ten basic produce items as offensive ability slots."
+  },
+  {
+    "candidate_id": "BLIND_0071",
+    "title": "High-Efficiency Batch Prep Lockers",
+    "target_user": "Early-career shift workers in transit corridors",
+    "problem_or_desire": "No time to properly nutritious pre-prepped daily sustenance between rigid shift boundaries",
+    "core_concept": "Automated kiosk network stocked by local morning-prep professional chef kitchens",
+    "proposed_approach": "Time-sensitive temperature kiosks near train hubs that enable rapid mobile code retrieval of bulk caloric daily prep portions",
+    "prototype_scope": "Deployment of three climate controlled modular locker cabinets dispensing pre-prepped heat-or-eat nutritious vegetable pods near a single bus hub"
+  },
+  {
+    "candidate_id": "BLIND_0072",
+    "title": "Tech Stacks Lifecycle Steward",
+    "target_user": "Information technology procurement specialists",
+    "problem_or_desire": "Underutilized 'seat licenses' contributing to phantom software spending.",
+    "core_concept": "Cross-referencing user access logs with license assignments to identify unused seats.",
+    "proposed_approach": "A tool that ingests exported CSVs from SSO and SaaS platforms to identify inactive users.",
+    "prototype_scope": "A script that takes two CSV files (user list and access logs) and outputs a list of potential license reclamation candidates. | Define CSV schema for SSO/SaaS exports; Develop matching logic; Build report generator; Test with synthetic data"
+  },
+  {
+    "candidate_id": "BLIND_0036",
+    "title": "Polyglot Plaza",
+    "target_user": "Casual language learners",
+    "problem_or_desire": "Low retention rates caused by repetitive and dry grammar exercises",
+    "core_concept": "Contextual language learning through inventory management and NPC interaction.",
+    "proposed_approach": "A single-player text-based adventure where players must translate simple phrases to trade items with static NPCs.",
+    "prototype_scope": "A market vendor scene with one bartering minigame requiring translation of three specific phrases. | Design three simple bartering scenarios; Implement basic text input and validation logic; Create static NPC dialogue trees"
+  },
+  {
+    "candidate_id": "BLIND_0118",
+    "title": "Remote Cultural Consultant Tooling",
+    "target_user": "Remote-only service startups",
+    "problem_or_desire": "Churn due to poor communication onboarding in distributed digital agencies",
+    "core_concept": "Interactive, asynchronous onboarding playbooks for remote teams.",
+    "proposed_approach": "A service providing modular, interactive PDF/Notion playbooks for remote team onboarding.",
+    "prototype_scope": "Three modular playbooks delivered as interactive documents. | Design 3 modular playbooks.; Format as interactive documents.; Test with 3 remote startups.; Gather feedback on usability."
+  },
+  {
+    "candidate_id": "BLIND_0100",
+    "title": "BeatRoute Runner",
+    "target_user": "Novice outdoor runners",
+    "problem_or_desire": "Difficulty maintaining consistent pacing during endurance training",
+    "core_concept": "Rhythm-action game where the user's running speed acts as the beat matcher for an procedurally generated audio experience.",
+    "proposed_approach": "Use the device accelerometer to sync game events to cadence, where reaching cadence milestones unlocks faster melodic overlays in a song soundtrack.",
+    "prototype_scope": "A treadmill-focused build enabling one pre-selected electronic music track where speed matches track elements."
+  },
+  {
+    "candidate_id": "BLIND_0063",
+    "title": "Regulatory Compliance Monitor",
+    "target_user": "Compliance officers in fintech",
+    "problem_or_desire": "Keeping up with rapidly changing regional financial regulations and updating internal policy documents.",
+    "core_concept": "An agent that monitors regulatory news feeds and maps changes to internal policy documentation.",
+    "proposed_approach": "Semantic analysis of regulatory updates compared against a vector database of company policies.",
+    "prototype_scope": "A dashboard that highlights three specific policy sections that need review based on a provided regulatory update text."
+  },
+  {
+    "candidate_id": "BLIND_0164",
+    "title": "Dream Journal Dungeon",
+    "target_user": "Creative writers and dreamers",
+    "problem_or_desire": "Difficulty remembering and organizing dream content",
+    "core_concept": "A dungeon crawler where the layout and enemies are procedurally generated from text input of dream journals",
+    "proposed_approach": "Use natural language processing to extract keywords from user-inputted text to determine dungeon themes and enemy types",
+    "prototype_scope": "A text input field that generates a simple 2D room layout based on three keywords"
+  }
+]

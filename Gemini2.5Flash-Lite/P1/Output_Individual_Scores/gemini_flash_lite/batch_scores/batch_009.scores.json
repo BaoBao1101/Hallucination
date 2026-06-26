@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "stage": "P1_blind_individual_metric_judge",
+    "judge_model": "gemini-2.5-flash-lite",
+    "temperature": 0.0,
+    "top_p": 0.1,
+    "score_scale": "continuous_numeric_1_to_5",
+    "batch_source": "[LOCAL_PATH_REDACTED]",
+    "batch_source_sha256": "fd916815d13ead9f654139f494bbad522d86974d31da1d3a117c3d24f23c0433",
+    "created_at_utc": "2026-06-22T07:37:42+00:00"
+  },
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0005",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Highly novel concept with a clear MVP focus on testing the experience. Technical feasibility of advanced scent diffusion and synchronization presents challenges."
+    },
+    {
+      "candidate_id": "BLIND_0020",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The core mechanic is interesting and the MVP is well-defined for testing gameplay. The business model is not elaborated."
+    },
+    {
+      "candidate_id": "BLIND_0050",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "This concept is novel and addresses a plausible desire for spontaneous activities with a well-defined MVP. The proposed monetization is plausible."
+    },
+    {
+      "candidate_id": "BLIND_0062",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Offers a novel gameplay mechanic with a clear MVP scope for testing core features. The technical implementation of time manipulation could be complex."
+    },
+    {
+      "candidate_id": "BLIND_0068",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The concept addresses a plausible user pain point for community engagement. The MVP scope is clear and testable, but the business model is not well-defined."
+    },
+    {
+      "candidate_id": "BLIND_0069",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 2.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "This concept offers a novel solution for digital archiving with a clear MVP. The ethical risk of key management needs careful consideration."
+    },
+    {
+      "candidate_id": "BLIND_0101",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Addresses a strong need for emerging chefs with a novel approach. The MVP is concrete, but the technical feasibility of securing a suitable space is a significant factor."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "candidate_id": "BLIND_0039",
+    "title": "Ephemeral Real-World Social 'Quests'",
+    "target_user": "Urban young adults and college students (18-28) seeking fun, spontaneous group activities and location-based discovery.",
+    "problem_or_desire": "Desire for low-stakes, time-bound, socially interactive real-world 'missions' to add an element of surprise to daily routines or outings.",
+    "core_concept": "Short, time-limited, location-based 'quests' or challenges that encourage spontaneous, social, real-world interaction and discovery, with a focus on group participation and quick verification.",
+    "proposed_approach": "A mobile application that presents users with simple, location-based tasks that must be completed within a short time frame. Completion is verified by a simple photo upload with GPS data. The focus is on testing the core loop of receiving a quest, navigating to a location, and verifying completion.",
+    "prototype_scope": "A mobile application for a defined, small geographic area (e.g., a single park or university campus). Users can initiate a 'quest' which directs them to a single GPS coordinate. Upon arrival, they must take a photo that includes a specific, pre-defined landmark or object at that location. The photo, along with its GPS stamp, is uploaded for manual or basic automated verification. Successful completion provides a simple confirmation message. The MVP focuse…"
+  },
+  {
+    "candidate_id": "BLIND_0100",
+    "title": "Hyper-Niche Newsletter Growth Co-Pilot",
+    "target_user": "Independent creators and small businesses running hyper-niche email newsletters who struggle with sustained audience growth.",
+    "problem_or_desire": "Need for actionable, content-specific strategies to attract and retain a highly targeted subscriber base.",
+    "core_concept": "Providing actionable, content-specific growth strategies for hyper-niche newsletters.",
+    "proposed_approach": "A tool that helps niche newsletter creators identify potential cross-promotion partners and content themes based on manual analysis of their content and audience description.",
+    "prototype_scope": "A web application where creators input their newsletter's topic, target audience description, and paste 3-5 recent newsletter content examples (or provide an RSS feed link). The platform then generates a PDF report containing: 1) A list of 5-10 potential complementary newsletter niches for cross-promotion, identified through keyword analysis and manual research of existing newsletters. 2) 3-5 content idea suggestions based on recurring themes identified i…"
+  },
+  {
+    "candidate_id": "BLIND_0034",
+    "title": "Sensory Dining Experience Subscription Box",
+    "target_user": "Individuals seeking unique, curated at-home dining experiences that engage multiple senses beyond just taste.",
+    "problem_or_desire": "A desire for novel and immersive entertainment that combines gourmet food with elements of storytelling, aroma, and ambiance.",
+    "core_concept": "A subscription box delivering pre-portioned gourmet meal kits paired with curated sensory elements (scents, music playlists, visual prompts) to create a themed dining event at home.",
+    "proposed_approach": "Develop themed monthly boxes, sourcing high-quality ingredients and collaborating with artists/designers for accompanying sensory components.",
+    "prototype_scope": "A single, themed monthly box featuring a meal for two, a custom scent sachet, and a QR code linking to a curated music playlist and a short narrative."
+  },
+  {
+    "candidate_id": "BLIND_0082",
+    "title": "Dynamic 'How-To' Visual Guide Generator",
+    "target_user": "Hobbyists and DIY enthusiasts sharing complex procedures.",
+    "problem_or_desire": "To easily create clear, step-by-step visual guides for demonstrating complex skills or procedures.",
+    "core_concept": "A web platform that simplifies the creation of annotated image sequences or animated GIFs from user-uploaded video clips for instructive content.",
+    "proposed_approach": "A web tool that allows users to upload short video clips and select key frames to add simple text annotations and drawing elements, generating a series of annotated images for a single-step guide.",
+    "prototype_scope": "A web application where users can upload a video (up to 60 seconds, MP4 format). The tool allows users to select one key frame from the video. On this selected frame, users can add text annotations and draw simple lines or shapes. The output is a single annotated image. | Develop a web interface for video upload (MP4, max 60s).; Implement video playback and frame scrubbing functionality.; Allow users to select a single frame.; Integrate basic annotation t…"
+  },
+  {
+    "candidate_id": "BLIND_0023",
+    "title": "AI-Powered Personalized Learning Path Generator",
+    "target_user": "Self-directed learners who feel overwhelmed by the sheer volume of online educational content.",
+    "problem_or_desire": "Feeling lost and unsure of the optimal sequence of resources (articles, videos, courses) to learn a complex subject effectively.",
+    "core_concept": "An AI that analyzes a user's learning goals and existing knowledge to create a customized, step-by-step learning roadmap.",
+    "proposed_approach": "Users input their desired learning outcome and current understanding. The AI suggests a curated sequence of free and paid online resources, adapting based on user feedback.",
+    "prototype_scope": "A web tool where users can input a learning goal (e.g., 'learn Python for data science') and select their current proficiency. The tool generates a list of 10-15 recommended resources in a logical order."
+  },
+  {
+    "candidate_id": "BLIND_0074",
+    "title": "AI-Powered Allergy-Aware Meal Planner & Grocery Service",
+    "target_user": "Individuals with multiple severe food allergies or dietary restrictions who struggle to find safe and enjoyable meal solutions.",
+    "problem_or_desire": "Difficulty in finding diverse, appealing, and consistently safe meal options and efficiently managing groceries while adhering to strict dietary needs.",
+    "core_concept": "A service that uses AI to generate personalized meal plans and curated grocery boxes that guarantee 100% avoidance of listed allergens/restrictions, tailored to individual taste preferences.",
+    "proposed_approach": "Customers input a detailed list of allergies, intolerances, and preferences. The AI algorithm selects from vetted recipes and ingredient suppliers to create weekly meal plans and shop for users.",
+    "prototype_scope": "Create a web-based form for users to input severe allergies (e.g., nut, dairy, gluten) and test recipes for a 7-day meal plan for 15 users. Provide a shopping list of pre-approved safe ingredients (no full grocery delivery in prototype)."
+  },
+  {
+    "candidate_id": "BLIND_0024",
+    "title": "Personalized Micro-Learning Website Template Service",
+    "target_user": "Small business trainers and subject matter experts.",
+    "problem_or_desire": "To create bite-sized, engaging online learning modules for their specific audiences without requiring advanced web development skills.",
+    "core_concept": "A service providing customizable, mobile-responsive website templates for micro-learning content, featuring integrated interactive quiz elements and basic progress tracking.",
+    "proposed_approach": "A service offering a limited selection of pre-designed, mobile-responsive website templates specifically structured for delivering short, focused learning modules. These templates include basic content embedding and a simple quiz feature.",
+    "prototype_scope": "A single, mobile-responsive website template designed for delivering micro-learning content. It allows users to upload text, images, and short videos for up to three distinct learning 'modules'. Each module includes a simple, non-graduated multiple-choice quiz (e.g., 3 questions). No advanced progress tracking is implemented beyond basic completion indication. | Design and develop one clean, mobile-responsive website template.; Implement content upload fu…"
+  }
+]

@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "stage": "P1_blind_individual_metric_judge",
+    "judge_model": "gemini-2.5-flash-lite",
+    "temperature": 0.0,
+    "top_p": 0.1,
+    "score_scale": "continuous_numeric_1_to_5",
+    "batch_source": "[LOCAL_PATH_REDACTED]",
+    "batch_source_sha256": "3bce7a57e1ceb9b10f6d4d01f2324664d4eb15d4e30a2a2362fe3f3e2c193290",
+    "created_at_utc": "2026-06-22T07:36:38+00:00"
+  },
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0001",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "This concept is novel and addresses a plausible desire for culinary exploration. The MVP is well-defined and tests the core value proposition effectively."
+    },
+    {
+      "candidate_id": "BLIND_0019",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Offers a novel approach to narrative gaming with a clear MVP scope. The technical feasibility of dynamic branching narratives in a limited scope is plausible."
+    },
+    {
+      "candidate_id": "BLIND_0025",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "This concept offers a novel blend of AR and puzzles with a clear user pain point. The MVP scope is concrete and tests the core AR interaction."
+    },
+    {
+      "candidate_id": "BLIND_0030",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Addresses a significant and plausible problem for restaurants with a novel solution. The MVP is well-defined and tests the core transformation process."
+    },
+    {
+      "candidate_id": "BLIND_0036",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The 'echo' mechanic is an interesting novelty for tactical games. The MVP scope is reasonable, but the technical complexity of persistent AI changes might be underestimated."
+    },
+    {
+      "candidate_id": "BLIND_0066",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The concept addresses a plausible need for trainers to create content easily. The MVP scope is clear and testable, focusing on core template functionality."
+    },
+    {
+      "candidate_id": "BLIND_0071",
+      "scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The concept is practical and addresses a clear need for e-commerce owners. The MVP is very clear and tests the core personalization logic."
+    }
+  ]
+}

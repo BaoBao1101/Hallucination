@@ -1,0 +1,13 @@
+name: chvd
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - pip
+  - pip:
+      - google-genai

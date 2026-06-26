@@ -1,0 +1,102 @@
+{
+  "batch_id": "P1_NEUTRAL_GEMINI_006",
+  "stage": "neutral_randomized_pairwise_m1_m3",
+  "prompt_regime": "P1_shared_neutral",
+  "pairs": [
+    {
+      "pair_id": "P1PAIR_0026",
+      "candidate_a": {
+        "title": "VendorOrbit",
+        "target_user": "Small bakery owners",
+        "problem_or_desire": "Inconsistency in ingredient pricing across multiple wholesalers",
+        "core_concept": "Unified price comparison dashboard for specific high-volume ingredients.",
+        "proposed_approach": "A simple web-based spreadsheet interface where users manually input prices from 2-3 vendors to see a side-by-side comparison.",
+        "prototype_scope": "A static web page with a form for manual entry and a table view for comparison. | Define 3 core ingredients (flour, sugar, dairy); Build a simple HTML/JS form for manual price entry; Implement a basic table view that highlights the lowest price per item"
+      },
+      "candidate_b": {
+        "title": "VendorOrbit",
+        "target_user": "Small bakery owners",
+        "problem_or_desire": "Inconsistency in ingredient pricing across multiple wholesalers",
+        "core_concept": "Aggregated daily procurement ledger with alert system",
+        "proposed_approach": "Manual import of vendor PDFs converted to a unified dashboard showing cost fluctuations",
+        "prototype_scope": "A tool that parses CSV or PDF invoices and displays a simplified price comparison table for flour, sugar, and dairy"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0027",
+      "candidate_a": {
+        "title": "Fresh-Roast Micro-batch Aggregator",
+        "target_user": "Remote professionals",
+        "problem_or_desire": "Difficulty in tracking distinct flavor profiles from independent local roasters without shipping bloat",
+        "core_concept": "Curated coffee subscription focused strictly on 48-hour roast freshness.",
+        "proposed_approach": "A hyper-local subscription service that partners with three roasters to deliver beans roasted within 48 hours via a manual, fixed-route courier model.",
+        "prototype_scope": "A manual subscription list for 20 local users, with a single courier picking up and delivering on a set day. | Secure commitment from 3 local roasters for specific roast days.; Recruit 20 local subscribers via email/social.; Execute 4 weekly delivery cycles using a manual spreadsheet for routing."
+      },
+      "candidate_b": {
+        "title": "Fresh-Roast Micro-batch Aggregator",
+        "target_user": "Remote professionals",
+        "problem_or_desire": "Difficulty in tracking distinct flavor profiles from independent local roasters without shipping bloat",
+        "core_concept": "Curated selection service focusing solely on roasting dates within 48 hours",
+        "proposed_approach": "Middleware logistics platform connecting regional small-scale roasters to single-cup subscribers",
+        "prototype_scope": "Testing logistical feasibility with three local roasters using a custom delivery route scheduler"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0028",
+      "candidate_a": {
+        "title": "Inter-App Knowledge Scavenger",
+        "target_user": "Customer-facing freelance consultants",
+        "problem_or_desire": "Duplicate information creation where project context is scattered between messenger apps and whiteboard collaboration tools.",
+        "core_concept": "Bi-directional linkage building between synchronous communications and asynchronous document stores through contextual tagging.",
+        "proposed_approach": "Running as an background process, the agent creates summary snippets of messenger discussions, placing them into current projects in management folders.",
+        "prototype_scope": "Connecting one real-time chat platform specifically to one project management ticketing system."
+      },
+      "candidate_b": {
+        "title": "Inter-App Knowledge Scavenger",
+        "target_user": "Customer-facing freelance consultants",
+        "problem_or_desire": "Duplicate information creation where project context is scattered between messenger apps and whiteboard collaboration tools.",
+        "core_concept": "Summarizing chat discussions and linking them to project management tickets.",
+        "proposed_approach": "A tool that allows users to select chat messages and push them as comments to a project management ticket.",
+        "prototype_scope": "A Slack/Teams bot that lets users click a 'save to ticket' button on a message. | Build chat bot integration; Implement ticket API connection; Create 'save' action; Test with one PM tool"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0029",
+      "candidate_a": {
+        "title": "Corporate Sensory Break Kits",
+        "target_user": "HR benefits departments",
+        "problem_or_desire": "Need to boost morale during remote workforce burnout via shared, multi-sensory team rituals",
+        "core_concept": "Shared, multi-sensory team coffee rituals for remote workers.",
+        "proposed_approach": "A kit containing curated coffee samples and a guided tasting card for remote teams to use during a video call.",
+        "prototype_scope": "Host 3 virtual tasting events for teams using physical kits sent by mail. | Assemble 3 sets of tasting kits.; Coordinate with 3 team leads for virtual events.; Conduct the events and collect feedback."
+      },
+      "candidate_b": {
+        "title": "Corporate Sensory Break Kits",
+        "target_user": "HR benefits departments",
+        "problem_or_desire": "Need to boost morale during remote workforce burnout via shared, multi-sensory team rituals",
+        "core_concept": "Curated monthly discovery experience delivered at home, connecting employees virtually through live tasting calibration sessions",
+        "proposed_approach": "Coordinating timed arrival of proprietary cupping samples so team units begin simultaneous tasting led by remote sensors or virtual coaching",
+        "prototype_scope": "Hosting three virtual events involving manual sensory tracking surveys provided at delivery via paper form"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0030",
+      "candidate_a": {
+        "title": "Recruitment Sourcing Filter",
+        "target_user": "Startups technical hiring managers",
+        "problem_or_desire": "Identifying stealth, passive candidate sentiment signals before they actively enter the job market.",
+        "core_concept": "Ranking candidates based on public technical content production.",
+        "proposed_approach": "A tool that scrapes public contribution histories and grades them based on a predefined rubric.",
+        "prototype_scope": "A script that takes a GitHub/StackOverflow profile and outputs a score based on frequency and complexity of contributions. | Define scoring rubric; Build scraper for one platform; Implement scoring logic; Create simple report"
+      },
+      "candidate_b": {
+        "title": "Recruitment Sourcing Filter",
+        "target_user": "Startups technical hiring managers",
+        "problem_or_desire": "Identifying stealth, passive candidate sentiment signals before they actively enter the job market.",
+        "core_concept": "Autonomous social reading and contribution analysis, focused solely on long-form public content authored by candidates.",
+        "proposed_approach": "Ranking candidate 'mindshare' via analysis of high-depth technical content production on community forums as opposed to resumes.",
+        "prototype_scope": "Limited to scraping and grading public contribution histories for one job description on one coding community forum."
+      }
+    }
+  ]
+}

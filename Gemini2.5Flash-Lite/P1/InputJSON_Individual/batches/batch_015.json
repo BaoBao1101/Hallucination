@@ -1,0 +1,65 @@
+[
+  {
+    "candidate_id": "BLIND_0081",
+    "title": "Procedural Mystery Puzzle Generator",
+    "target_user": "Adult puzzle enthusiasts (30-60) who enjoy logic deduction and high replayability.",
+    "problem_or_desire": "Tired of finite puzzle sets; seeking a game that offers endless unique logic challenges.",
+    "core_concept": "A logic puzzle game that uses procedural generation to create unique detective mysteries, offering high replayability by generating new sets of clues, characters, and deduction challenges for each playthrough.",
+    "proposed_approach": "A logic puzzle game where procedural generation creates simplified mystery scenarios. The generation focuses on creating a set of distinct entities (e.g., suspects, items, locations) and a limited set of logical relationships between them, which the player must deduce using a provided interface.",
+    "prototype_scope": "A web or mobile application that procedurally generates a simple logic grid puzzle. The generation system creates a small pool of archetypal elements (e.g., 3 suspects, 3 items, 3 locations) and a fixed set of logical constraints (e.g., 'Suspect A did not use Item X', 'Item Y was found at Location Z'). The player is presented with a deduction grid UI to solve these relationships. The MVP focuses on generating one type of simple logical puzzle. | Develop a…"
+  },
+  {
+    "candidate_id": "BLIND_0083",
+    "title": "Hyper-Local Roaster Discovery Platform",
+    "target_user": "Coffee enthusiasts who want to explore unique, small-batch roasters in their immediate geographic area.",
+    "problem_or_desire": "Difficulty in discovering and accessing high-quality, locally roasted coffee beans beyond mainstream options.",
+    "core_concept": "A mobile app and web platform that maps and showcases hyper-local coffee roasters, offering curated discovery, direct ordering, and local pickup coordination.",
+    "proposed_approach": "Build a database of small, independent roasters. Implement a user-friendly interface for browsing by location and roast profile. Facilitate direct communication and order placement between users and roasters.",
+    "prototype_scope": "Focus on a single city or large neighborhood. Onboard 10-15 local roasters. Develop a basic app/website showing roaster locations, profiles, and a simple inquiry/order form for each."
+  },
+  {
+    "candidate_id": "BLIND_0057",
+    "title": "Real-World Problem-Solving Simulations for Vocational Training",
+    "target_user": "Apprentices and trainees in skilled trades (e.g., plumbing, electrical, HVAC).",
+    "problem_or_desire": "Trainees lack safe, low-stakes environments to practice troubleshooting and decision-making in complex, real-world scenarios before encountering them on the job.",
+    "core_concept": "Interactive 3D simulations that present common vocational problems, requiring trainees to diagnose issues, select tools, and apply procedures, with immediate feedback on consequences.",
+    "proposed_approach": "Build a library of interactive 3D environments representing typical job sites. Develop a physics-based simulation engine for tool interaction and system responses.",
+    "prototype_scope": "A desktop application simulating a residential plumbing emergency (e.g., a burst pipe), allowing the trainee to identify the leak, select appropriate tools, and perform a repair sequence, with visual feedback on success or failure."
+  },
+  {
+    "candidate_id": "BLIND_0048",
+    "title": "Interactive Web-Story Builder for Children",
+    "target_user": "Parents of young children (ages 4-8)",
+    "problem_or_desire": "To engage their children in creative storytelling and early literacy in a personalized digital format.",
+    "core_concept": "A web application enabling collaborative creation of illustrated digital stories by parents and children, using pre-set interactive elements and drag-and-drop functionality.",
+    "proposed_approach": "A simplified web tool for parents and children to create short, illustrated digital stories. It focuses on a guided, collaborative experience with pre-defined assets and basic text input, culminating in a shareable digital output.",
+    "prototype_scope": "A web application where parents and children can select from a limited set of pre-designed characters and backgrounds, drag them onto a page, add simple text boxes for dialogue or narration, and then export the story as a multi-page PDF. | Develop a basic web interface with a canvas area.; Implement a library of 5-10 pre-designed character sprites and 5-10 background scenes.; Create drag-and-drop functionality for placing characters and backgrounds on the…"
+  },
+  {
+    "candidate_id": "BLIND_0092",
+    "title": "AI-Powered Personalized Meal Planning for Dietary Needs",
+    "target_user": "Individuals with specific, complex dietary restrictions (e.g., multiple allergies, medical diets) who struggle to find suitable restaurant options.",
+    "problem_or_desire": "The challenge of consistently finding restaurants that can safely and deliciously cater to intricate dietary needs, leading to frustration and limited dining choices.",
+    "core_concept": "An AI engine that analyzes user dietary profiles and restaurant menus to recommend safe and appealing dining experiences.",
+    "proposed_approach": "Build a platform that integrates with restaurant POS systems or menu data, using AI to cross-reference ingredients and preparation methods against user profiles.",
+    "prototype_scope": "A web application where users input detailed dietary restrictions and a limited set of restaurant menus are analyzed to provide a compatibility score and suggested dishes."
+  },
+  {
+    "candidate_id": "BLIND_0016",
+    "title": "Hyper-Local Urban Foraged Meals",
+    "target_user": "Environmentally conscious urban dwellers seeking unique, sustainable dining experiences.",
+    "problem_or_desire": "Desire for fresh, highly seasonal food and a deeper connection to the local urban environment through dining.",
+    "core_concept": "A dining experience that emphasizes hyper-local sourcing, connecting diners to their immediate urban environment through unique, seasonal ingredients.",
+    "proposed_approach": "A pop-up dining experience that highlights ingredients sourced exclusively from urban farms, community gardens, and potentially small-scale, permitted urban agriculture initiatives within a defined, very close proximity (e.g., neighborhood or district).",
+    "prototype_scope": "Host a single, one-night pop-up dinner for 20 guests in a chosen urban neighborhood. The menu will feature a 3-course meal composed entirely of ingredients sourced from known urban farms and community gardens within a 1-2 mile radius. The focus is on testing the appeal of the hyper-local concept, the quality and uniqueness of the sourced ingredients, and the narrative around urban agriculture. | Identify and partner with 2-3 local urban farms/community ga…"
+  },
+  {
+    "candidate_id": "BLIND_0026",
+    "title": "Kinetic Rhythm Training Tool",
+    "target_user": "Amateur musicians and dancers looking to improve their internal tempo and rhythmic precision.",
+    "problem_or_desire": "Need a more engaging and effective way to train their sense of rhythm beyond metronomes.",
+    "core_concept": "A game that helps users improve their sense of rhythm by providing engaging, visual, and kinesthetic feedback tied to precise timing and rhythmic patterns, moving beyond traditional metronomes.",
+    "proposed_approach": "A mobile rhythm game where players tap or hold on their screen in time with visual cues that are synchronized to a pre-defined audio track. The game focuses on accuracy of timing relative to the beat and subdivisions, providing immediate visual feedback on performance.",
+    "prototype_scope": "A mobile application featuring a core gameplay loop where users tap on the screen in time with a simple, repeating audio pulse (e.g., a 4/4 beat at 120 BPM). The MVP includes five distinct difficulty levels, each presenting a slightly more complex rhythmic pattern within the 4/4 time signature (e.g., eighth notes, sixteenth notes). Visual feedback (e.g., color change, score multiplier) indicates timing accuracy (early, on-time, late). | Set up a mobile de…"
+  }
+]

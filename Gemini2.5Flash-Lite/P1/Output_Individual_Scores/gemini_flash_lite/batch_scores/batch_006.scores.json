@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "stage": "P1_blind_individual_metric_judge",
+    "judge_model": "gemini-2.5-flash-lite",
+    "temperature": 0.0,
+    "top_p": 0.1,
+    "score_scale": "continuous_numeric_1_to_5",
+    "batch_source": "[LOCAL_PATH_REDACTED]",
+    "batch_source_sha256": "94688007fd018eb65c97b592ba102cda2ad68a66db8b00eeaea1fc976aa7272a",
+    "created_at_utc": "2026-06-22T07:37:14+00:00"
+  },
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0004",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The idea of an AI coach for coffee brewing is novel and targets a specific hobbyist desire. The technical feasibility of accurately sensing and interpreting brewing parameters for meaningful feedback is a significant challenge."
+    },
+    {
+      "candidate_id": "BLIND_0008",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "This concept directly addresses the need for temporary, focused brainstorming spaces, which is a plausible user pain. The technical approach is straightforward, and the MVP is clear and testable."
+    },
+    {
+      "candidate_id": "BLIND_0031",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "This concept addresses a clear need for engaging early literacy tools for young children. The gamified approach and collaborative storytelling are well-defined, and the MVP is concrete."
+    },
+    {
+      "candidate_id": "BLIND_0052",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The use of AR to overlay puzzles onto the real world for a historical discovery theme is an interesting and novel concept. The technical feasibility of robust AR marker detection and puzzle interaction is plausible for an MVP."
+    },
+    {
+      "candidate_id": "BLIND_0087",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 2.5,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 2.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The idea of using code commit patterns for matching freelancers is novel and addresses a real pain point for remote workers. However, the technical feasibility of accurately inferring problem-solving patterns from code commits and linking them to project needs is highly speculative."
+    },
+    {
+      "candidate_id": "BLIND_0088",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The concept of tying combat actions to music rhythm is engaging and has clear potential for a unique gameplay experience. The technical feasibility of beat tracking and input integration seems plausible, though complex animations might be challenging."
+    },
+    {
+      "candidate_id": "BLIND_0095",
+      "scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "This concept offers a practical solution for parents wanting to engage children in creative storytelling. The web application approach with drag-and-drop elements is technically feasible and the MVP is clearly defined."
+    }
+  ]
+}

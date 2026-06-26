@@ -1,0 +1,7 @@
+# Exact versions should be frozen after the final analysis environment is verified.
+google-genai
+numpy
+pandas
+scipy
+scikit-learn
+statsmodels

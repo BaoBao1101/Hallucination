@@ -1,0 +1,7 @@
+claim_id,evidence_class,claim_text,supporting_tables,boundary_condition,manuscript_status
+C1,Primary individual,"In Gemini 3.1 P1, M3 had higher evaluator-assessed technical plausibility than matched M1 under both LLM evaluators.",S01; Table_2,Both Holm-adjusted p-values significant; same direction.,Allowed
+C2,Primary directional,"In Gemini 3.1 P1, directional audits rated creative-core preservation near 4/5, practical MVP improvement >4.27/5, and overclaim removal >4/5.",S02; Table_3,Role-aware traceability protocol.,"Allowed, label as directional"
+C3,Primary directional,"Under role-aware directional audit, transformations were selected for prototyping more often than references.",S03; Table_4,Not a neutral A/B preference result.,"Allowed, label as directional"
+C4,Supporting legacy,Gemini 2.5 P0/P1 provide developmental/supplementary evidence of similar practicalization patterns.,S06–S13,Different corpora/regimes/sessions; no pooling.,Supporting only
+C5,Neutral,Neutral paired tables establish M3 efficacy/equivalence/preference.,S04–S05; S12–S13,G31 neutral quarantined; G25 P1 neutral non-confirmatory.,Prohibited
+C6,External validity,"CHVD improves market success, user adoption, real technical feasibility, or human preference.",None,No direct outcome measure.,Prohibited

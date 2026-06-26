@@ -1,0 +1,318 @@
+{
+  "batch_id": "P1_DIRECTIONAL_TRACE_003",
+  "stage": "directional_role_aware_method_blind_traceability",
+  "prompt_regime": "P1_shared_neutral",
+  "blindness_note": "Hidden method identity: the evaluator is not shown M1/M3, model, temperature, prompt, source filename, or generation pipeline. Visible directional role: Reference Concept versus Transformation Candidate.",
+  "pairs": [
+    {
+      "pair_id": "P1TRACE_0021",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Interactive Communal Meal Assembler",
+            "target_user": "First-year apartment dwellers with culinary novice skills",
+            "problem_or_desire": "Desire for social shared meals to overcome urban isolation",
+            "core_concept": "Collaborative modular kit prep through synchronized smart hardware to connect solo kitchens",
+            "proposed_approach": "Supplying meal sets that require coordination with someone else's smart stove to complete temperature thresholds for dishes to unite",
+            "prototype_scope": "One physical joint appliance prototype where users at separate physical desks coordinate timed cooking commands to finalize two collaborative bowls"
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Interactive Communal Meal Assembler",
+            "target_user": "First-year apartment dwellers with culinary novice skills",
+            "problem_or_desire": "Desire for social shared meals to overcome urban isolation",
+            "core_concept": "Collaborative cooking experience between remote users.",
+            "proposed_approach": "A guided, synchronous cooking session where two users prepare complementary parts of a meal via video call.",
+            "prototype_scope": "Host 5 pairs of users in a guided 'cook-along' where they prepare different components of a shared meal simultaneously. | Design a two-part recipe; Recruit 5 pairs of participants; Facilitate 5 live sessions; Measure social satisfaction"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0022",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "StudioPulse",
+            "target_user": "Freelance graphic designers",
+            "problem_or_desire": "Difficulty calculating the correct time allowance for revisions vs. design production",
+            "core_concept": "Predictive duration simulator based on project parameters.",
+            "proposed_approach": "A calculator that allows designers to input project variables and receive a rough estimate based on their own historical data.",
+            "prototype_scope": "A web form that outputs a time estimate based on user-defined multipliers. | Define 5-10 project variables; Build a form to collect these variables; Implement a simple calculation logic"
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "StudioPulse",
+            "target_user": "Freelance graphic designers",
+            "problem_or_desire": "Difficulty calculating the correct time allowance for revisions vs. design production",
+            "core_concept": "Predictive duration simulator based on style complexity benchmarks",
+            "proposed_approach": "Questionnaire interface that asks users to input dimensions, density of elements, and file type requirements",
+            "prototype_scope": "An interactive form calculating an estimated project hour count based on toggle choices of design project type"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0023",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Post-Coffee Circadian Monitoring",
+            "target_user": "Bio-tracking wellness early adopters",
+            "problem_or_desire": "Overdose on caffeine causing unintended interference with evening sleep and focus patterns",
+            "core_concept": "Optimizing caffeine intake based on individual sleep readiness.",
+            "proposed_approach": "A service where users manually input their sleep data from a wearable, and receive a daily recommendation for their coffee roast and amount.",
+            "prototype_scope": "A 10-person pilot where users report sleep data and receive a daily email recommendation. | Recruit 10 users with wearables.; Set up a manual email system for daily recommendations.; Run the pilot for 2 weeks."
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Post-Coffee Circadian Monitoring",
+            "target_user": "Bio-tracking wellness early adopters",
+            "problem_or_desire": "Overdose on caffeine causing unintended interference with evening sleep and focus patterns",
+            "core_concept": "Optimizing roast and amount delivered based on real-time sleep readiness tracker integration",
+            "proposed_approach": "Interface querying wearable physiological sensors (HEV or similar devices) to curate caffeine volume/roast lightened levels each day before purchase/dispensing",
+            "prototype_scope": "Beta software connecting current fitness sensor sleep summaries with a personalized daily intake delivery recommendation chart sent daily via manual email dispatch"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0024",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Shadow Script",
+            "target_user": "Aspiring creative writers",
+            "problem_or_desire": "Stalled imagination due to lack of character stakes",
+            "core_concept": "A 'reverse Choose-Your-Own-Adventure' where the player constructs the obstacle/protagonist and then attempts to break the story outcome for a sidekick AI.",
+            "proposed_approach": "Utilize prompt-input dynamics where user-led conflicts dictate probability curves that the machine tries to solve during session rounds.",
+            "prototype_scope": "Two scripted chapters defining the protagonist and one 'conflict injection' scene test."
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Shadow Script",
+            "target_user": "Aspiring creative writers",
+            "problem_or_desire": "Stalled imagination due to lack of character stakes",
+            "core_concept": "Reverse Choose-Your-Own-Adventure where the player creates obstacles for an AI.",
+            "proposed_approach": "A narrative game where the player chooses obstacles for a pre-scripted character, and the game displays the resulting outcome.",
+            "prototype_scope": "Two scripted chapters with one 'conflict injection' scene that branches into two possible outcomes. | Write two chapters and two outcomes; Implement basic branching logic; Build simple UI for choice selection"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0025",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Sensory-Blind Catering Experiences",
+            "target_user": "Office event organizers targeting high social engagement",
+            "problem_or_desire": "Traditional group events often focus too heavily on conversation distractants over menu intentionality",
+            "core_concept": "Focus on taste and texture through sensory deprivation.",
+            "proposed_approach": "A curated tasting event where participants are blindfolded to focus on flavor profiles.",
+            "prototype_scope": "Host one 20-person event with a blindfolded tasting menu. | Design a 6-course tasting menu; Recruit 20 participants; Host the event; Collect qualitative feedback"
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Sensory-Blind Catering Experiences",
+            "target_user": "Office event organizers targeting high social engagement",
+            "problem_or_desire": "Traditional group events often focus too heavily on conversation distractants over menu intentionality",
+            "core_concept": "Blind-dining optimized menus structured entirely on sequential textural mouth-feel gradients",
+            "proposed_approach": "Hosting managed catering that obscures visuals during the process to ensure 100% focus on tasting menus",
+            "prototype_scope": "Catering session of six courses involving twenty participants aimed at qualitative social memory-mapping"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0026",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "VendorOrbit",
+            "target_user": "Small bakery owners",
+            "problem_or_desire": "Inconsistency in ingredient pricing across multiple wholesalers",
+            "core_concept": "Unified price comparison dashboard for specific high-volume ingredients.",
+            "proposed_approach": "A simple web-based spreadsheet interface where users manually input prices from 2-3 vendors to see a side-by-side comparison.",
+            "prototype_scope": "A static web page with a form for manual entry and a table view for comparison. | Define 3 core ingredients (flour, sugar, dairy); Build a simple HTML/JS form for manual price entry; Implement a basic table view that highlights the lowest price per item"
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "VendorOrbit",
+            "target_user": "Small bakery owners",
+            "problem_or_desire": "Inconsistency in ingredient pricing across multiple wholesalers",
+            "core_concept": "Aggregated daily procurement ledger with alert system",
+            "proposed_approach": "Manual import of vendor PDFs converted to a unified dashboard showing cost fluctuations",
+            "prototype_scope": "A tool that parses CSV or PDF invoices and displays a simplified price comparison table for flour, sugar, and dairy"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0027",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Fresh-Roast Micro-batch Aggregator",
+            "target_user": "Remote professionals",
+            "problem_or_desire": "Difficulty in tracking distinct flavor profiles from independent local roasters without shipping bloat",
+            "core_concept": "Curated selection service focusing solely on roasting dates within 48 hours",
+            "proposed_approach": "Middleware logistics platform connecting regional small-scale roasters to single-cup subscribers",
+            "prototype_scope": "Testing logistical feasibility with three local roasters using a custom delivery route scheduler"
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Fresh-Roast Micro-batch Aggregator",
+            "target_user": "Remote professionals",
+            "problem_or_desire": "Difficulty in tracking distinct flavor profiles from independent local roasters without shipping bloat",
+            "core_concept": "Curated coffee subscription focused strictly on 48-hour roast freshness.",
+            "proposed_approach": "A hyper-local subscription service that partners with three roasters to deliver beans roasted within 48 hours via a manual, fixed-route courier model.",
+            "prototype_scope": "A manual subscription list for 20 local users, with a single courier picking up and delivering on a set day. | Secure commitment from 3 local roasters for specific roast days.; Recruit 20 local subscribers via email/social.; Execute 4 weekly delivery cycles using a manual spreadsheet for routing."
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0028",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Inter-App Knowledge Scavenger",
+            "target_user": "Customer-facing freelance consultants",
+            "problem_or_desire": "Duplicate information creation where project context is scattered between messenger apps and whiteboard collaboration tools.",
+            "core_concept": "Bi-directional linkage building between synchronous communications and asynchronous document stores through contextual tagging.",
+            "proposed_approach": "Running as an background process, the agent creates summary snippets of messenger discussions, placing them into current projects in management folders.",
+            "prototype_scope": "Connecting one real-time chat platform specifically to one project management ticketing system."
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Inter-App Knowledge Scavenger",
+            "target_user": "Customer-facing freelance consultants",
+            "problem_or_desire": "Duplicate information creation where project context is scattered between messenger apps and whiteboard collaboration tools.",
+            "core_concept": "Summarizing chat discussions and linking them to project management tickets.",
+            "proposed_approach": "A tool that allows users to select chat messages and push them as comments to a project management ticket.",
+            "prototype_scope": "A Slack/Teams bot that lets users click a 'save to ticket' button on a message. | Build chat bot integration; Implement ticket API connection; Create 'save' action; Test with one PM tool"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0029",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Corporate Sensory Break Kits",
+            "target_user": "HR benefits departments",
+            "problem_or_desire": "Need to boost morale during remote workforce burnout via shared, multi-sensory team rituals",
+            "core_concept": "Shared, multi-sensory team coffee rituals for remote workers.",
+            "proposed_approach": "A kit containing curated coffee samples and a guided tasting card for remote teams to use during a video call.",
+            "prototype_scope": "Host 3 virtual tasting events for teams using physical kits sent by mail. | Assemble 3 sets of tasting kits.; Coordinate with 3 team leads for virtual events.; Conduct the events and collect feedback."
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Corporate Sensory Break Kits",
+            "target_user": "HR benefits departments",
+            "problem_or_desire": "Need to boost morale during remote workforce burnout via shared, multi-sensory team rituals",
+            "core_concept": "Curated monthly discovery experience delivered at home, connecting employees virtually through live tasting calibration sessions",
+            "proposed_approach": "Coordinating timed arrival of proprietary cupping samples so team units begin simultaneous tasting led by remote sensors or virtual coaching",
+            "prototype_scope": "Hosting three virtual events involving manual sensory tracking surveys provided at delivery via paper form"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0030",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Recruitment Sourcing Filter",
+            "target_user": "Startups technical hiring managers",
+            "problem_or_desire": "Identifying stealth, passive candidate sentiment signals before they actively enter the job market.",
+            "core_concept": "Ranking candidates based on public technical content production.",
+            "proposed_approach": "A tool that scrapes public contribution histories and grades them based on a predefined rubric.",
+            "prototype_scope": "A script that takes a GitHub/StackOverflow profile and outputs a score based on frequency and complexity of contributions. | Define scoring rubric; Build scraper for one platform; Implement scoring logic; Create simple report"
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Recruitment Sourcing Filter",
+            "target_user": "Startups technical hiring managers",
+            "problem_or_desire": "Identifying stealth, passive candidate sentiment signals before they actively enter the job market.",
+            "core_concept": "Autonomous social reading and contribution analysis, focused solely on long-form public content authored by candidates.",
+            "proposed_approach": "Ranking candidate 'mindshare' via analysis of high-depth technical content production on community forums as opposed to resumes.",
+            "prototype_scope": "Limited to scraping and grading public contribution histories for one job description on one coding community forum."
+          }
+        }
+      ]
+    }
+  ]
+}

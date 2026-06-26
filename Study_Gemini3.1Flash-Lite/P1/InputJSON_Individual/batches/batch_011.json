@@ -1,0 +1,92 @@
+[
+  {
+    "candidate_id": "BLIND_0016",
+    "title": "Vertical Hyper-Growth Greens Box",
+    "target_user": "Small households living without access to light",
+    "problem_or_desire": "Fresh, raw herbs losing structural viability within days of shop delivery",
+    "core_concept": "Live, harvestable herbs in the kitchen.",
+    "proposed_approach": "A subscription for pre-grown, potted herbs that are replaced weekly.",
+    "prototype_scope": "Deliver 20 potted herbs to 15 kitchens and replace them weekly for one month. | Source 20 potted herbs; Recruit 15 households; Execute weekly delivery/replacement; Measure herb survival and user satisfaction"
+  },
+  {
+    "candidate_id": "BLIND_0090",
+    "title": "KitchenCodex",
+    "target_user": "Home hobby cooks attempting complex international cuisine",
+    "problem_or_desire": "Information silos occurring during parallel recipe preparations across multi-ingredient workflows",
+    "core_concept": "Ingredient-centralized timeline visualization",
+    "proposed_approach": "Instead of procedural text recipe formats, render active time steps chronologically per critical ingredient node",
+    "prototype_scope": "Horizontal scrolling chart mapping preparation stages from prep work to cook time by category"
+  },
+  {
+    "candidate_id": "BLIND_0168",
+    "title": "Vendor Selection Orchestrator",
+    "target_user": "First-time e-commerce brand owners",
+    "problem_or_desire": "Difficulty in finding legitimate, non-spammy shipping and fulfillment partners",
+    "core_concept": "A curated, private directory of vetted e-commerce fulfillment partners.",
+    "proposed_approach": "A curated directory of vetted 3PL vendors for small e-commerce brands, focusing on reliability and transparency.",
+    "prototype_scope": "A Google Sheets portal connecting 5 retailers to 3 vetted vendors. | Vet 3 reliable 3PL vendors.; Create a landing page/portal.; Onboard 5 retailers.; Facilitate introductions."
+  },
+  {
+    "candidate_id": "BLIND_0144",
+    "title": "Tech Stacks Lifecycle Steward",
+    "target_user": "Information technology procurement specialists",
+    "problem_or_desire": "Underutilized 'seat licenses' contributing to phantom software spending.",
+    "core_concept": "Continuous entitlement auditing via automated API connection to single sign-on access logs.",
+    "proposed_approach": "Periodic cross-comparison of user access timestamps against user seating assignment lists, highlighting license retirement recommendations.",
+    "prototype_scope": "Script that performs a one-time automated scan of two disparate identity management SaaS platform usage records."
+  },
+  {
+    "candidate_id": "BLIND_0015",
+    "title": "User-Generated Video Repository",
+    "target_user": "Direct-to-consumer physical goods brands",
+    "problem_or_desire": "Inability to find or license high-quality, authentic smartphone unboxing footage",
+    "core_concept": "A direct procurement bridge for authentic consumer video assets.",
+    "proposed_approach": "A curated community connecting D2C brands with creators for authentic unboxing and product usage videos.",
+    "prototype_scope": "A closed Slack group vetting 20 creators and 20 brands. | Recruit 20 creators.; Recruit 20 brands.; Facilitate connections in Slack.; Monitor quality of output."
+  },
+  {
+    "candidate_id": "BLIND_0112",
+    "title": "BeatRoute Runner",
+    "target_user": "Novice outdoor runners",
+    "problem_or_desire": "Difficulty maintaining consistent pacing during endurance training",
+    "core_concept": "Rhythm-action game mechanics applied to physical running cadence.",
+    "proposed_approach": "A rhythm-based running app where the user selects a pre-mixed track and the game provides haptic or audio cues to match their stride to the beat.",
+    "prototype_scope": "A treadmill-focused app that plays one pre-selected track and uses the accelerometer to track if the user's steps align with the beat. | Integrate accelerometer data stream; Implement beat-detection logic for one track; Build simple UI for feedback on stride alignment"
+  },
+  {
+    "candidate_id": "BLIND_0143",
+    "title": "Coffee Bean Upcycling Kit",
+    "target_user": "Environmentally conscious home brewers",
+    "problem_or_desire": "Guilt over the volume of spent coffee grounds generated daily",
+    "core_concept": "A subscription service that collects spent grounds and provides pre-measured additives to convert them into garden fertilizer or exfoliating scrubs",
+    "proposed_approach": "Provide compostable collection bins and monthly pickup/conversion kits",
+    "prototype_scope": "A 30-day pilot with 15 households to test collection logistics"
+  },
+  {
+    "candidate_id": "BLIND_0034",
+    "title": "Micro-batch Kitchens for Allergens",
+    "target_user": "Individuals with high-specificity celiac disease",
+    "problem_or_desire": "Anxiety around cross-contamination in communal food spaces",
+    "core_concept": "Visual transparency of food preparation for allergy-sensitive users.",
+    "proposed_approach": "A specialized meal prep service providing time-stamped video clips of the preparation process for specific orders.",
+    "prototype_scope": "Prepare 3 allergen-free meals for 5 users, providing a recorded video of the assembly process for each. | Define strict allergen-free protocols; Set up recording station; Prepare 15 meals with video proof; Gather feedback on trust levels"
+  },
+  {
+    "candidate_id": "BLIND_0162",
+    "title": "Corporate Coffee Wellness Program",
+    "target_user": "HR departments focused on employee health",
+    "problem_or_desire": "Excessive caffeine consumption leading to afternoon crashes",
+    "core_concept": "A service that replaces high-caffeine office coffee with a rotating selection of low-caffeine, high-antioxidant coffee alternatives",
+    "proposed_approach": "Supply management and educational signage about caffeine intake",
+    "prototype_scope": "A one-month trial in one department of a mid-sized company"
+  },
+  {
+    "candidate_id": "BLIND_0027",
+    "title": "Community Tool Library",
+    "target_user": "Urban apartment dwellers",
+    "problem_or_desire": "Lack of storage space for infrequently used tools and appliances.",
+    "core_concept": "A neighborhood-based lending platform for household items.",
+    "proposed_approach": "A web app that manages inventory, availability, and lending status for a closed group of neighbors.",
+    "prototype_scope": "A simple list view of available items with a 'request to borrow' button."
+  }
+]

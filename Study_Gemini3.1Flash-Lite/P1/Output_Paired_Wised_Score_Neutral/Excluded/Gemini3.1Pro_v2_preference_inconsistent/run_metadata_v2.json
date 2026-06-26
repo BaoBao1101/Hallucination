@@ -1,0 +1,14 @@
+{
+  "artifact_id": "Study_Gemini3.1Flash-Lite_P1_neutral_Gemini3.1Pro_v2",
+  "task": "strict-neutral blinded paired evaluation",
+  "judge_label": "Gemini 3.1 Pro",
+  "execution_channel": "Gemini Web",
+  "protocol_version": "neutral_v2_score_preference_consistency",
+  "run_timestamp_local": "2026-06-25T10:26:37.2046205+07:00",
+  "input_corpus": "Frozen Study_Gemini3.1Flash-Lite/P1 neutral paired input corpus",
+  "expected_pairs": 60,
+  "previous_version_status": "v1 excluded due to 9 score-preference inconsistencies",
+  "manual_repair_of_v1": false,
+  "manual_edit_of_v2_scores_or_preferences": false,
+  "inclusion_rule": "Include only if strict validator returns zero issues."
+}

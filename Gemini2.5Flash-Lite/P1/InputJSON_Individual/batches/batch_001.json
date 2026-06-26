@@ -1,0 +1,65 @@
+[
+  {
+    "candidate_id": "BLIND_0051",
+    "title": "Bioluminescent Coffee Shop for Evening Ambiance",
+    "target_user": "Creative professionals, artists, and students (aged 18-30) looking for a unique, visually inspiring nocturnal workspace or social gathering spot.",
+    "problem_or_desire": "The lack of stimulating, visually distinct, and calm environments for late-night work, study, or quiet social interaction, beyond traditional dimly lit cafes.",
+    "core_concept": "A coffee shop utilizing safe, organic bioluminescent materials to create a soft, living light ambient environment for a novel and engaging customer experience after sunset.",
+    "proposed_approach": "Research and collaborate with material scientists to integrate safe, non-toxic bioluminescent cultures (e.g., from algae or fungi) into durable, reusable design elements within the cafe. Offer artisanal coffee beverages, teas, and light snacks tailored to a nocturnal patron base.",
+    "prototype_scope": "Construct a 150-square-foot pop-up demonstration space featuring tables and wall panels embedded with stabilized bioluminescent culture displays emitting a gentle glow. Serve a limited menu of 6 signature drinks using reusable glassware for a one-week test engagement. Gather direct customer feedback on lighting quality and overall atmosphere."
+  },
+  {
+    "candidate_id": "BLIND_0018",
+    "title": "Automated Website Personalization Snippets",
+    "target_user": "E-commerce store owners aiming to increase conversion rates through minor dynamic content changes.",
+    "problem_or_desire": "To show personalized offers or product recommendations to visitors based on predefined simple user segments (e.g., first-time visitor, returning customer, location origin) without complex integrations.",
+    "core_concept": "A JavaScript-based service that injects small, customizable website content blocks dynamically based on simple, client-side detectable user visit characteristics.",
+    "proposed_approach": "A simple JavaScript snippet that allows e-commerce store owners to display a single, customizable banner message based on basic visitor segmentation (e.g., first-time visitor, returning visitor, or general location).",
+    "prototype_scope": "A JavaScript code snippet that website owners can embed. A minimal web interface allows owners to configure a single banner's text content for three conditions: 'first visit,' 'returning visit,' and 'default' (fallback). The JavaScript will display the appropriate banner text in a predefined banner area on the website based on client-side detection. Location-based targeting is omitted for MVP. | Develop a JavaScript snippet for dynamic content display.; C…"
+  },
+  {
+    "candidate_id": "BLIND_0058",
+    "title": "Micro-Batch Roastery Subscription for Enthusiasts",
+    "target_user": "Gourmet coffee enthusiasts aged 30-55 with disposable income seeking unique single-origin beans.",
+    "problem_or_desire": "Desire to explore rare, exceptionally fresh, and ethically sourced coffee varietals that are not widely available.",
+    "core_concept": "Offering subscribers surprise selections of limited-availability, single-origin coffee beans that are exceptionally fresh and ethically sourced, with a focus on unique varietals.",
+    "proposed_approach": "A subscription service that curates and delivers small-batch roasted, limited-availability single-origin coffee beans to enthusiasts. The focus is on sourcing unique, ethically produced beans and providing a fresh, high-quality coffee experience. Personalization will be based on broad preference categories rather than detailed cupping scores initially.",
+    "prototype_scope": "A curated subscription box service offering a single, rotating selection of ethically sourced, single-origin coffee beans, roasted in small batches. The MVP will focus on sourcing 2-3 unique micro-lot beans per month, roasting them just before shipping, and delivering them to a limited number of subscribers within a specific geographic region. Customer feedback will be collected on bean selection, roast quality, and freshness. | Secure partnerships with 1…"
+  },
+  {
+    "candidate_id": "BLIND_0056",
+    "title": "Hyper-Niche Newsletter Growth Co-Pilot",
+    "target_user": "Independent creators and small businesses running hyper-niche email newsletters who struggle with sustained audience growth.",
+    "problem_or_desire": "Need for actionable, content-specific strategies to attract and retain a highly targeted subscriber base.",
+    "core_concept": "An AI-driven service that analyzes a newsletter's content and audience engagement, generating personalized growth suggestions like cross-promotion targets and micro-campaign ideas.",
+    "proposed_approach": "Develop an analytics engine that scans newsletter content for recurring themes and linguistic patterns, combining this with user-provided engagement data to identify analogous or complementary content niches for potential collaborations or featured segments.",
+    "prototype_scope": "A web application where creators input their newsletter content source (e.g., RSS feed link) and basic subscriber numbers/engagement metrics. The platform generates a single, printable PDF report per month with tailored content recommendations and potential partnership ideas for audience sharing."
+  },
+  {
+    "candidate_id": "BLIND_0077",
+    "title": "Collaborative Storytelling Sandbox",
+    "target_user": "Creative adolescents and young adults (13-20) who enjoy narrative games and social interaction.",
+    "problem_or_desire": "Desire to co-create and collectively influence evolving fictional worlds and character arcs in a game format.",
+    "core_concept": "A turn-based game where multiple players collaboratively build a story by contributing narrative elements and voting on key plot points, emphasizing shared creation over competition.",
+    "proposed_approach": "A simple, text-based, turn-based game where a small group of players collaboratively write a story. Each player adds a short segment (e.g., a sentence or two) in sequence. At designated points, players vote on one of a few pre-defined narrative branches to guide the story's direction.",
+    "prototype_scope": "A web-based application where 3-5 users can join a 'story session'. The game progresses in turns, with each user submitting a single sentence to continue the narrative. After every 3-5 turns, a simple multiple-choice prompt appears, and the group votes on the next story direction. The MVP focuses on text input, turn progression, and a single voting mechanic. | Set up a basic backend for managing game sessions and player turns.; Implement user authenticati…"
+  },
+  {
+    "candidate_id": "BLIND_0046",
+    "title": "Abstract Strategy Duel",
+    "target_user": "Players who enjoy deep, strategic board games and competitive mobile gaming.",
+    "problem_or_desire": "Desire for a highly strategic, turn-based mobile game with simple mechanics but profound depth, suitable for quick matches.",
+    "core_concept": "A minimalist, abstract strategy game where players place and move pieces on a grid, with each piece having a unique, context-dependent interaction rule that changes based on adjacent pieces.",
+    "proposed_approach": "Design a set of interlocking, emergent rules for a small set of abstract pieces. Focus on a clean UI and fast-paced AI for single-player testing.",
+    "prototype_scope": "A single game mode with two distinct piece types and a 5x5 grid, demonstrating the core interaction loop and win condition."
+  },
+  {
+    "candidate_id": "BLIND_0059",
+    "title": "Curated Digital Nomad Skill Swap",
+    "target_user": "Remote workers seeking to learn new professional skills without monetary cost.",
+    "problem_or_desire": "Desire to acquire new professional skills (e.g., coding, design, marketing) but limited budget for courses or coaching.",
+    "core_concept": "A platform facilitating direct skill-for-skill exchanges between remote professionals.",
+    "proposed_approach": "Users list skills they can offer and skills they want to learn. The platform matches users based on complementary needs and facilitates initial connection and agreement.",
+    "prototype_scope": "A simple web application where users can create profiles, list skills, and send/receive swap requests to a limited group of beta users."
+  }
+]

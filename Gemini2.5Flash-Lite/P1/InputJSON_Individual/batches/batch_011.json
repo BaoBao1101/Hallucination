@@ -1,0 +1,65 @@
+[
+  {
+    "candidate_id": "BLIND_0012",
+    "title": "Visual Problem Deconstructor",
+    "target_user": "University students struggling with complex STEM problem-solving",
+    "problem_or_desire": "Difficulty breaking down complex problems into manageable steps and visualizing abstract concepts",
+    "core_concept": "A digital tool that helps users visually break down complex problems and receive AI-driven guidance on problem-solving strategies.",
+    "proposed_approach": "A single-user desktop application that provides a digital canvas for students to visually organize elements of a STEM problem and receive AI-generated suggestions for applying a specific, pre-defined problem-solving method.",
+    "prototype_scope": "A desktop application for introductory physics problems. Users can draw simple diagrams, input text labels, and connect elements on a canvas. The AI will offer context-aware suggestions for applying *one* specific problem-solving technique (e.g., identifying forces for a free-body diagram) based on user input and pre-programmed rules for that technique. | Develop a basic canvas interface for drawing, text input, and connecting nodes.; Focus on a single, w…"
+  },
+  {
+    "candidate_id": "BLIND_0009",
+    "title": "Interactive Culinary Skill-Building Restaurant",
+    "target_user": "Aspiring home chefs and food enthusiasts who want to learn cooking techniques in a hands-on, social environment.",
+    "problem_or_desire": "A desire to improve cooking skills and gain confidence in the kitchen through practical, guided experiences beyond traditional cooking classes.",
+    "core_concept": "A restaurant where diners actively participate in preparing elements of their meal under the guidance of chefs.",
+    "proposed_approach": "Design a restaurant layout with integrated cooking stations and a curriculum of dishes that allow for diner participation in specific preparation steps.",
+    "prototype_scope": "A single physical location offering a limited menu of 2-3 dishes, where diners perform one specific, guided preparation task (e.g., assembling a salad, shaping dumplings) before the chef completes the dish."
+  },
+  {
+    "candidate_id": "BLIND_0055",
+    "title": "Ephemeral Artificer: The Sand Kingdom",
+    "target_user": "Mid-core mobile gamers who appreciate procedural generation and emergent storytelling.",
+    "problem_or_desire": "A longing for single-player action adventure games where the game world feels unique and responsive to player actions beyond static encounters, facilitating a sense of authorship.",
+    "core_concept": "The core mechanic of player actions dynamically sculpting the terrain, creating temporary environmental changes that affect navigation and gameplay.",
+    "proposed_approach": "A 3D action game segment where player actions (e.g., specific attacks or abilities) cause localized, temporary changes to the terrain, creating new pathways or obstacles. The focus is on demonstrating the 'Erosive Construction' mechanic in a controlled environment.",
+    "prototype_scope": "One controllable character in a small, contained 3D desert biome segment. The player has a specific ability (e.g., a ground-pound or a sand-blasting attack) that can temporarily deform the terrain, creating small ramps, pits, or cover. The objective is to navigate a short path with 3 predefined environmental obstacles that require terrain manipulation to overcome. A few simple enemies are present, but their AI does not need to dynamically pathfind through…"
+  },
+  {
+    "candidate_id": "BLIND_0073",
+    "title": "Rhythm Sculptor",
+    "target_user": "Music enthusiasts and rhythm game players seeking creative expression beyond traditional note-matching.",
+    "problem_or_desire": "Desire to create and manipulate music within a game context, not just react to it.",
+    "core_concept": "A rhythm game where players don't just hit notes, but actively 'sculpt' the music by altering tempo, adding/removing instruments, and applying effects in real-time to achieve a target sonic profile.",
+    "proposed_approach": "Implement a dynamic audio engine that allows for real-time manipulation of pre-composed musical tracks. Focus on intuitive gesture controls for sculpting.",
+    "prototype_scope": "A single song with a basic 'sculpting' mode where players can adjust tempo and toggle instrument layers, with a scoring system based on adherence to a target sonic description."
+  },
+  {
+    "candidate_id": "BLIND_0047",
+    "title": "Bioluminescent Coffee Shop for Evening Ambiance",
+    "target_user": "Creative professionals, artists, and students (aged 18-30) looking for a unique, visually inspiring nocturnal workspace or social gathering spot.",
+    "problem_or_desire": "The lack of stimulating, visually distinct, and calm environments for late-night work, study, or quiet social interaction, beyond traditional dimly lit cafes.",
+    "core_concept": "A unique, visually inspiring, and calm environment for late-night work or social interaction, using novel ambient lighting.",
+    "proposed_approach": "A coffee shop designed to offer a unique, visually stimulating, and calm atmosphere for evening patrons, focusing on creating a distinctive ambiance through creative lighting and decor. The 'bioluminescent' aspect is replaced with a more achievable, visually analogous aesthetic.",
+    "prototype_scope": "Create a temporary, themed pop-up coffee bar or a dedicated evening section within an existing cafe that focuses on a 'glowing' or 'ethereal' ambiance. This will be achieved using readily available, safe, and controllable lighting technologies (e.g., UV reactive paints, subtle LED installations, fiber optics, or even carefully curated phosphorescent elements for specific displays) combined with dark, calming decor. The MVP will serve a limited menu of art…"
+  },
+  {
+    "candidate_id": "BLIND_0105",
+    "title": "Gamified Financial Literacy for College Students",
+    "target_user": "College students managing their first independent finances.",
+    "problem_or_desire": "Students often lack practical knowledge and confidence in managing budgets, understanding credit, and making informed financial decisions, leading to potential debt.",
+    "core_concept": "A mobile game that simulates real-life financial scenarios (rent, bills, student loans, part-time jobs) where players make choices that impact their in-game financial health and unlock educational modules.",
+    "proposed_approach": "Design a game loop centered around earning, spending, and saving. Integrate educational content that is unlocked through gameplay achievements and provides practical financial advice.",
+    "prototype_scope": "A mobile game where players manage a virtual monthly budget for one semester, facing simulated unexpected expenses and earning opportunities, with pop-up tips on budgeting and saving."
+  },
+  {
+    "candidate_id": "BLIND_0032",
+    "title": "Augmented Reality Guided Coffee Brewing Guide",
+    "target_user": "Home coffee brewing hobbyists aged 25-45 who own sophisticated brewing equipment (e.g., pour-over kettles, espresso machines) and seek to improve their technique.",
+    "problem_or_desire": "Difficulty in mastering complex brewing techniques and consistency, leading to sub-optimal coffee taste and a desire for real-time, step-by-step interactive instruction.",
+    "core_concept": "A mobile application that uses augmented reality (AR) overlays to provide dynamic, visual guidance and real-time feedback on various coffee brewing methods directly on the user's brewing station.",
+    "proposed_approach": "Develop AR algorithms to recognize brewing equipment and key components. Integrate curated brewing guides from expert baristas with timing and temperature prompts. Enable users to share their AR-brewed results and receive personalized tips for recalibration.",
+    "prototype_scope": "Create an AR experience within a mobile app demonstrating two popular brewing methods (e.g., pour-over and AeroPress) with visual cues for water pouring angles, bloom times, and total brew duration. Pilot this with 10 participants using their own equipment at home, focusing on user interface intuitiveness and clarity of instructions."
+  }
+]

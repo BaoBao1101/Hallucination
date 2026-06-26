@@ -1,0 +1,102 @@
+{
+  "batch_id": "P1_NEUTRAL_GEMINI_005",
+  "stage": "neutral_randomized_pairwise_m1_m3",
+  "prompt_regime": "P1_shared_neutral",
+  "pairs": [
+    {
+      "pair_id": "P1PAIR_0021",
+      "candidate_a": {
+        "title": "Interactive Communal Meal Assembler",
+        "target_user": "First-year apartment dwellers with culinary novice skills",
+        "problem_or_desire": "Desire for social shared meals to overcome urban isolation",
+        "core_concept": "Collaborative cooking experience between remote users.",
+        "proposed_approach": "A guided, synchronous cooking session where two users prepare complementary parts of a meal via video call.",
+        "prototype_scope": "Host 5 pairs of users in a guided 'cook-along' where they prepare different components of a shared meal simultaneously. | Design a two-part recipe; Recruit 5 pairs of participants; Facilitate 5 live sessions; Measure social satisfaction"
+      },
+      "candidate_b": {
+        "title": "Interactive Communal Meal Assembler",
+        "target_user": "First-year apartment dwellers with culinary novice skills",
+        "problem_or_desire": "Desire for social shared meals to overcome urban isolation",
+        "core_concept": "Collaborative modular kit prep through synchronized smart hardware to connect solo kitchens",
+        "proposed_approach": "Supplying meal sets that require coordination with someone else's smart stove to complete temperature thresholds for dishes to unite",
+        "prototype_scope": "One physical joint appliance prototype where users at separate physical desks coordinate timed cooking commands to finalize two collaborative bowls"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0022",
+      "candidate_a": {
+        "title": "StudioPulse",
+        "target_user": "Freelance graphic designers",
+        "problem_or_desire": "Difficulty calculating the correct time allowance for revisions vs. design production",
+        "core_concept": "Predictive duration simulator based on style complexity benchmarks",
+        "proposed_approach": "Questionnaire interface that asks users to input dimensions, density of elements, and file type requirements",
+        "prototype_scope": "An interactive form calculating an estimated project hour count based on toggle choices of design project type"
+      },
+      "candidate_b": {
+        "title": "StudioPulse",
+        "target_user": "Freelance graphic designers",
+        "problem_or_desire": "Difficulty calculating the correct time allowance for revisions vs. design production",
+        "core_concept": "Predictive duration simulator based on project parameters.",
+        "proposed_approach": "A calculator that allows designers to input project variables and receive a rough estimate based on their own historical data.",
+        "prototype_scope": "A web form that outputs a time estimate based on user-defined multipliers. | Define 5-10 project variables; Build a form to collect these variables; Implement a simple calculation logic"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0023",
+      "candidate_a": {
+        "title": "Post-Coffee Circadian Monitoring",
+        "target_user": "Bio-tracking wellness early adopters",
+        "problem_or_desire": "Overdose on caffeine causing unintended interference with evening sleep and focus patterns",
+        "core_concept": "Optimizing caffeine intake based on individual sleep readiness.",
+        "proposed_approach": "A service where users manually input their sleep data from a wearable, and receive a daily recommendation for their coffee roast and amount.",
+        "prototype_scope": "A 10-person pilot where users report sleep data and receive a daily email recommendation. | Recruit 10 users with wearables.; Set up a manual email system for daily recommendations.; Run the pilot for 2 weeks."
+      },
+      "candidate_b": {
+        "title": "Post-Coffee Circadian Monitoring",
+        "target_user": "Bio-tracking wellness early adopters",
+        "problem_or_desire": "Overdose on caffeine causing unintended interference with evening sleep and focus patterns",
+        "core_concept": "Optimizing roast and amount delivered based on real-time sleep readiness tracker integration",
+        "proposed_approach": "Interface querying wearable physiological sensors (HEV or similar devices) to curate caffeine volume/roast lightened levels each day before purchase/dispensing",
+        "prototype_scope": "Beta software connecting current fitness sensor sleep summaries with a personalized daily intake delivery recommendation chart sent daily via manual email dispatch"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0024",
+      "candidate_a": {
+        "title": "Shadow Script",
+        "target_user": "Aspiring creative writers",
+        "problem_or_desire": "Stalled imagination due to lack of character stakes",
+        "core_concept": "Reverse Choose-Your-Own-Adventure where the player creates obstacles for an AI.",
+        "proposed_approach": "A narrative game where the player chooses obstacles for a pre-scripted character, and the game displays the resulting outcome.",
+        "prototype_scope": "Two scripted chapters with one 'conflict injection' scene that branches into two possible outcomes. | Write two chapters and two outcomes; Implement basic branching logic; Build simple UI for choice selection"
+      },
+      "candidate_b": {
+        "title": "Shadow Script",
+        "target_user": "Aspiring creative writers",
+        "problem_or_desire": "Stalled imagination due to lack of character stakes",
+        "core_concept": "A 'reverse Choose-Your-Own-Adventure' where the player constructs the obstacle/protagonist and then attempts to break the story outcome for a sidekick AI.",
+        "proposed_approach": "Utilize prompt-input dynamics where user-led conflicts dictate probability curves that the machine tries to solve during session rounds.",
+        "prototype_scope": "Two scripted chapters defining the protagonist and one 'conflict injection' scene test."
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0025",
+      "candidate_a": {
+        "title": "Sensory-Blind Catering Experiences",
+        "target_user": "Office event organizers targeting high social engagement",
+        "problem_or_desire": "Traditional group events often focus too heavily on conversation distractants over menu intentionality",
+        "core_concept": "Blind-dining optimized menus structured entirely on sequential textural mouth-feel gradients",
+        "proposed_approach": "Hosting managed catering that obscures visuals during the process to ensure 100% focus on tasting menus",
+        "prototype_scope": "Catering session of six courses involving twenty participants aimed at qualitative social memory-mapping"
+      },
+      "candidate_b": {
+        "title": "Sensory-Blind Catering Experiences",
+        "target_user": "Office event organizers targeting high social engagement",
+        "problem_or_desire": "Traditional group events often focus too heavily on conversation distractants over menu intentionality",
+        "core_concept": "Focus on taste and texture through sensory deprivation.",
+        "proposed_approach": "A curated tasting event where participants are blindfolded to focus on flavor profiles.",
+        "prototype_scope": "Host one 20-person event with a blindfolded tasting menu. | Design a 6-course tasting menu; Recruit 20 participants; Host the event; Collect qualitative feedback"
+      }
+    }
+  ]
+}

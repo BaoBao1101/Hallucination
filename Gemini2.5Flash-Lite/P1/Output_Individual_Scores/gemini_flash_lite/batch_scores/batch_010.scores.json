@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "stage": "P1_blind_individual_metric_judge",
+    "judge_model": "gemini-2.5-flash-lite",
+    "temperature": 0.0,
+    "top_p": 0.1,
+    "score_scale": "continuous_numeric_1_to_5",
+    "batch_source": "[LOCAL_PATH_REDACTED]",
+    "batch_source_sha256": "82f49e0dd73329dadf62932fc86527e27c7d8ff1c65e57f8226202b831320ba3",
+    "created_at_utc": "2026-06-22T07:37:49+00:00"
+  },
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0022",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "This concept addresses a critical and plausible pain point for individuals with severe allergies. The MVP is concrete and tests the core value proposition of safety and convenience. The business model is plausible but could be more detailed."
+    },
+    {
+      "candidate_id": "BLIND_0027",
+      "scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "This concept targets a plausible pain point for niche hobbyists. The MVP is clear and tests core discovery and RSVP functionality. The business model is not explicitly stated, and the novelty is moderate."
+    },
+    {
+      "candidate_id": "BLIND_0038",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The adaptive platformer with gravity manipulation is a creative and coherent game concept. The MVP is clear and focuses on core mechanics. The user pain is a bit generic for the gaming market, and the business model is assumed."
+    },
+    {
+      "candidate_id": "BLIND_0042",
+      "scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The personalized micro-dose coffee subscription addresses a niche but plausible desire. The MVP is well-defined and tests the core offering. The proprietary blending system is a minor unsupported claim, and the business model is standard."
+    },
+    {
+      "candidate_id": "BLIND_0061",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "AR-guided coffee brewing is a novel and plausible concept for hobbyists. The MVP is well-defined and tests core functionality. The business model is not detailed, and the reliance on user alignment with visual guides is a minor unsupported claim."
+    },
+    {
+      "candidate_id": "BLIND_0078",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The modular combat architect offers a novel approach to customization in action games. The MVP is clear in demonstrating the core mechanic. The user pain is plausible, but the technical feasibility of seamless on-the-fly module integration is an unsupported claim."
+    },
+    {
+      "candidate_id": "BLIND_0085",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The concept of a visual problem deconstructor is interesting and addresses a plausible student pain point. The MVP scope is clear, but the business model is not defined, and the AI's effectiveness is an unsupported claim."
+    }
+  ]
+}

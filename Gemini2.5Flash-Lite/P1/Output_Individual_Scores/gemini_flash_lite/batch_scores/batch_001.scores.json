@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "stage": "P1_blind_individual_metric_judge",
+    "judge_model": "gemini-2.5-flash-lite",
+    "temperature": 0.0,
+    "top_p": 0.1,
+    "score_scale": "continuous_numeric_1_to_5",
+    "batch_source": "[LOCAL_PATH_REDACTED]",
+    "batch_source_sha256": "5ab07ccd3dea4c0e0b6bef5c6ceeb2d537188d9b0598251f8d6da0d3cdd2399d",
+    "created_at_utc": "2026-06-22T07:36:29+00:00"
+  },
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0018",
+      "scores": {
+        "novelty": 2.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "This offers a practical solution for a common e-commerce need, though the concept itself is not highly novel. The MVP is well-defined and technically feasible, directly addressing the stated problem."
+    },
+    {
+      "candidate_id": "BLIND_0046",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The core game mechanic is novel and intriguing, promising strategic depth. The MVP is very focused and achievable, though the business model is less defined."
+    },
+    {
+      "candidate_id": "BLIND_0051",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The concept of a bioluminescent coffee shop is novel and visually interesting. However, the technical feasibility and long-term viability of maintaining safe, effective bioluminescent displays in a public space are questionable. The MVP scope is clear for testing the ambiance."
+    },
+    {
+      "candidate_id": "BLIND_0056",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Addresses a specific pain point for newsletter creators with a potentially valuable AI-driven approach. The MVP is clear and testable, focusing on generating actionable reports."
+    },
+    {
+      "candidate_id": "BLIND_0058",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The concept taps into a clear desire for unique, high-quality coffee experiences. The MVP is concrete and focuses on core value proposition of curated, fresh, small-batch roasts."
+    },
+    {
+      "candidate_id": "BLIND_0059",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Addresses a real need for skill development without financial barriers, with a clear MVP. The platform's success hinges on effective matching and user engagement."
+    },
+    {
+      "candidate_id": "BLIND_0077",
+      "scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "This concept offers a fun, collaborative creative outlet with a clear MVP. The technical aspects are straightforward for a text-based game."
+    }
+  ]
+}

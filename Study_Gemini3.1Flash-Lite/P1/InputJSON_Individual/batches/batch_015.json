@@ -1,0 +1,92 @@
+[
+  {
+    "candidate_id": "BLIND_0107",
+    "title": "AI-Prompt Library for Non-Tech Founders",
+    "target_user": "Small business owners using AI tools",
+    "problem_or_desire": "Inability to write effective prompts to get high-quality business outputs",
+    "core_concept": "A searchable database of verified, industry-specific prompt templates",
+    "proposed_approach": "Categorized prompt templates that users can copy-paste into their existing AI tools",
+    "prototype_scope": "A Notion-based database shared via a paywall landing page"
+  },
+  {
+    "candidate_id": "BLIND_0142",
+    "title": "Micro-batch Kitchens for Allergens",
+    "target_user": "Individuals with high-specificity celiac disease",
+    "problem_or_desire": "Anxiety around cross-contamination in communal food spaces",
+    "core_concept": "A transparent preparation window enabled through recorded 24-hour visual feed accessibility",
+    "proposed_approach": "Operating exclusively single-allergy micro kitchens, providing authenticated 'visual documentation' of all food assembly phases",
+    "prototype_scope": "Testing pre-ordering on three specialized nutrient packs prepared under restricted 24/7 web camera documentation for five trial users"
+  },
+  {
+    "candidate_id": "BLIND_0156",
+    "title": "Institutional Compost Loyalty Loop",
+    "target_user": "Office administrators",
+    "problem_or_desire": "High workplace organic waste volume with no benefit or impact reflection",
+    "core_concept": "Closing the loop on office grounds by returning enriched garden soil equivalents back to common spaces",
+    "proposed_approach": "Pickup service providing reusable metal receptacles for spent coffee pucks; providing professional composting services and quarterly soil analytics",
+    "prototype_scope": "Ten offices sharing a municipal processing pipeline with branded bucket exchange infrastructure"
+  },
+  {
+    "candidate_id": "BLIND_0171",
+    "title": "Inter-App Knowledge Scavenger",
+    "target_user": "Customer-facing freelance consultants",
+    "problem_or_desire": "Duplicate information creation where project context is scattered between messenger apps and whiteboard collaboration tools.",
+    "core_concept": "Bi-directional linkage building between synchronous communications and asynchronous document stores through contextual tagging.",
+    "proposed_approach": "Running as an background process, the agent creates summary snippets of messenger discussions, placing them into current projects in management folders.",
+    "prototype_scope": "Connecting one real-time chat platform specifically to one project management ticketing system."
+  },
+  {
+    "candidate_id": "BLIND_0037",
+    "title": "Syntax Storm",
+    "target_user": "Developers working on clean code focus",
+    "problem_or_desire": "High mental fatigue during weekend learning periods",
+    "core_concept": "Combat strategy built entirely on cleaning buggy snippets, represented as infected territory grids.",
+    "proposed_approach": "Applying real regex principles as combat commands, effectively treating syntax repair as real-time defensive fortification building.",
+    "prototype_scope": "One combat grid that rewards valid syntax string repair of two predefined erroneous input segments."
+  },
+  {
+    "candidate_id": "BLIND_0087",
+    "title": "Remote Heritage Immersion Kitchen",
+    "target_user": "Expats seeking nostalgia and traditional cooking comfort",
+    "problem_or_desire": "Failure of traditional catering to capture regional specific 'feel' of comfort home-cooking",
+    "core_concept": "Crowdsourced historical cook books localized into professional recipe standards by diaspora community cooks",
+    "proposed_approach": "Pairing a certified older migrant cook to coach the home visitor remotely over real-time guidance tools as the customer actually prepares their own specialized regional dish",
+    "prototype_scope": "Test sessions where five experts use standardized remote interface pads to walk households through four heritage dumpling recipes"
+  },
+  {
+    "candidate_id": "BLIND_0038",
+    "title": "Micro-SaaS Acquisition Brokerage",
+    "target_user": "Developers looking to sell small, profitable web tools",
+    "problem_or_desire": "Lack of a transparent marketplace for selling software projects earning under $500/month",
+    "core_concept": "A specialized brokerage service for very small digital assets",
+    "proposed_approach": "Standardized due diligence reports and escrow services for micro-transactions",
+    "prototype_scope": "A curated email newsletter featuring one project for sale per week"
+  },
+  {
+    "candidate_id": "BLIND_0062",
+    "title": "VendorOrbit",
+    "target_user": "Small bakery owners",
+    "problem_or_desire": "Inconsistency in ingredient pricing across multiple wholesalers",
+    "core_concept": "Aggregated daily procurement ledger with alert system",
+    "proposed_approach": "Manual import of vendor PDFs converted to a unified dashboard showing cost fluctuations",
+    "prototype_scope": "A tool that parses CSV or PDF invoices and displays a simplified price comparison table for flour, sugar, and dairy"
+  },
+  {
+    "candidate_id": "BLIND_0075",
+    "title": "High-Efficiency Batch Prep Lockers",
+    "target_user": "Early-career shift workers in transit corridors",
+    "problem_or_desire": "No time to properly nutritious pre-prepped daily sustenance between rigid shift boundaries",
+    "core_concept": "Convenient pickup of pre-prepped meals for shift workers.",
+    "proposed_approach": "A scheduled pickup service for pre-prepped meals at transit hubs.",
+    "prototype_scope": "Coordinate 3 pickup points at a transit hub where users collect pre-ordered meals from a staff member. | Partner with a local kitchen; Recruit 10 shift workers; Execute 3 days of pickups; Gather feedback on convenience"
+  },
+  {
+    "candidate_id": "BLIND_0148",
+    "title": "Synchronized Stride",
+    "target_user": "Long-distance friends",
+    "problem_or_desire": "Maintaining social connection through shared physical activity",
+    "core_concept": "A cooperative platformer where two players must walk at the same pace to keep their characters moving",
+    "proposed_approach": "Use accelerometer data to sync movement speed between two remote devices",
+    "prototype_scope": "A simple 2D platformer level where character movement is locked until both devices detect matching step cadences"
+  }
+]

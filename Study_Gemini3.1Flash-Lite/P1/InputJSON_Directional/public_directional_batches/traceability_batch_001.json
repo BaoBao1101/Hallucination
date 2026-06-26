@@ -1,0 +1,318 @@
+{
+  "batch_id": "P1_DIRECTIONAL_TRACE_001",
+  "stage": "directional_role_aware_method_blind_traceability",
+  "prompt_regime": "P1_shared_neutral",
+  "blindness_note": "Hidden method identity: the evaluator is not shown M1/M3, model, temperature, prompt, source filename, or generation pipeline. Visible directional role: Reference Concept versus Transformation Candidate.",
+  "pairs": [
+    {
+      "pair_id": "P1TRACE_0001",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Substack Monetization Audits",
+            "target_user": "Newsletter creators",
+            "problem_or_desire": "Creators struggling to convert free subscribers into paid members",
+            "core_concept": "A manual 10-point audit tool focused purely on the 'pricing page' conversion funnel",
+            "proposed_approach": "Audit reports delivered via Loom video analyzing email sign-up landing page effectiveness",
+            "prototype_scope": "Ten free experimental audits performed for beta users"
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Substack Monetization Audits",
+            "target_user": "Newsletter creators",
+            "problem_or_desire": "Creators struggling to convert free subscribers into paid members",
+            "core_concept": "A structured 10-point audit framework specifically for Substack pricing page conversion.",
+            "proposed_approach": "A specialized consulting service providing a standardized 10-point audit of Substack landing pages to improve conversion rates.",
+            "prototype_scope": "Perform 10 manual audits for free in exchange for testimonials and case studies. | Define the 10-point audit criteria.; Identify 20 potential Substack creators.; Conduct 10 audits via Loom video.; Collect feedback and conversion data."
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0002",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Remote Heritage Immersion Kitchen",
+            "target_user": "Expats seeking nostalgia and traditional cooking comfort",
+            "problem_or_desire": "Failure of traditional catering to capture regional specific 'feel' of comfort home-cooking",
+            "core_concept": "Crowdsourced historical cook books localized into professional recipe standards by diaspora community cooks",
+            "proposed_approach": "Pairing a certified older migrant cook to coach the home visitor remotely over real-time guidance tools as the customer actually prepares their own specialized regional dish",
+            "prototype_scope": "Test sessions where five experts use standardized remote interface pads to walk households through four heritage dumpling recipes"
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Remote Heritage Immersion Kitchen",
+            "target_user": "Expats seeking nostalgia and traditional cooking comfort",
+            "problem_or_desire": "Failure of traditional catering to capture regional specific 'feel' of comfort home-cooking",
+            "core_concept": "Remote coaching by heritage cooks.",
+            "proposed_approach": "A platform connecting heritage cooks with home cooks for live, remote cooking sessions.",
+            "prototype_scope": "Facilitate 5 live video cooking sessions between heritage cooks and home cooks. | Recruit 2 heritage cooks; Recruit 5 home cooks; Facilitate 5 sessions; Gather feedback on the 'heritage' experience"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0003",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Tech Stacks Lifecycle Steward",
+            "target_user": "Information technology procurement specialists",
+            "problem_or_desire": "Underutilized 'seat licenses' contributing to phantom software spending.",
+            "core_concept": "Continuous entitlement auditing via automated API connection to single sign-on access logs.",
+            "proposed_approach": "Periodic cross-comparison of user access timestamps against user seating assignment lists, highlighting license retirement recommendations.",
+            "prototype_scope": "Script that performs a one-time automated scan of two disparate identity management SaaS platform usage records."
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Tech Stacks Lifecycle Steward",
+            "target_user": "Information technology procurement specialists",
+            "problem_or_desire": "Underutilized 'seat licenses' contributing to phantom software spending.",
+            "core_concept": "Cross-referencing user access logs with license assignments to identify unused seats.",
+            "proposed_approach": "A tool that ingests exported CSVs from SSO and SaaS platforms to identify inactive users.",
+            "prototype_scope": "A script that takes two CSV files (user list and access logs) and outputs a list of potential license reclamation candidates. | Define CSV schema for SSO/SaaS exports; Develop matching logic; Build report generator; Test with synthetic data"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0004",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Brand Integrity Monitoring",
+            "target_user": "Service providers with paid media ads",
+            "problem_or_desire": "Brand advertising displaying alongside unsuitable or scammy link farms",
+            "core_concept": "Monthly reporting on ad placements on low-reputation sites.",
+            "proposed_approach": "A service providing monthly reports to store owners identifying where their ads are appearing on low-reputation sites.",
+            "prototype_scope": "Manual monthly report generation for 5 clients. | Identify 5 clients.; Perform manual placement audits.; Deliver monthly reports.; Gather feedback."
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Brand Integrity Monitoring",
+            "target_user": "Service providers with paid media ads",
+            "problem_or_desire": "Brand advertising displaying alongside unsuitable or scammy link farms",
+            "core_concept": "Monitoring mechanism specific to detecting when client URLs are appearing on bad reputation host platforms",
+            "proposed_approach": "Exclusion list sync protocol keeping ad-network blocks consistent across platforms",
+            "prototype_scope": "Report utility highlighting current placements to the store owner once per month"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0005",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Micro-Influencer Agreement Gen",
+            "target_user": "Product creators targeting tiny markets",
+            "problem_or_desire": "Excessive manual effort preparing contracts and performance requirements for smaller-scale influencers",
+            "core_concept": "Modular snippet editor for legally compliant barter-based or equity influencer deals",
+            "proposed_approach": "Logic-based document generator for specific project types in the creative domain",
+            "prototype_scope": "Simple PDF contract engine with adjustable performance tracking variables"
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Micro-Influencer Agreement Gen",
+            "target_user": "Product creators targeting tiny markets",
+            "problem_or_desire": "Excessive manual effort preparing contracts and performance requirements for smaller-scale influencers",
+            "core_concept": "Modular contract generator for barter/equity influencer deals.",
+            "proposed_approach": "A tool providing modular contract templates for small-scale influencer partnerships, focusing on barter and equity terms.",
+            "prototype_scope": "A PDF contract engine with adjustable variables. | Draft modular contract templates.; Create a simple PDF generator.; Test with 3 creators.; Gather feedback."
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0006",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "QuietQuest",
+            "target_user": "Remote professionals who work in shared urban noise environments",
+            "problem_or_desire": "Lack of data on acoustic environments of candidate public coffee shops for focus time",
+            "core_concept": "Crowd-sourced acoustic environment mapping.",
+            "proposed_approach": "A map where users manually rate the noise level of coffee shops.",
+            "prototype_scope": "A map interface with a simple 1-5 noise rating system. | Build a map interface; Implement a rating form for users; Display average ratings on the map"
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "QuietQuest",
+            "target_user": "Remote professionals who work in shared urban noise environments",
+            "problem_or_desire": "Lack of data on acoustic environments of candidate public coffee shops for focus time",
+            "core_concept": "Acoustic sentiment monitoring based on non-private noise profile crowd-sourcing",
+            "proposed_approach": "Visualization dashboard identifying specific coffee shops through public metadata metrics about business hours",
+            "prototype_scope": "Web mapping layer highlighting locations coded by assumed levels of background conversational traffic intensity"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0007",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "SyllabusSwap",
+            "target_user": "College graduate teaching assistants",
+            "problem_or_desire": "Finding open-source creative examples for repetitive academic assignment prompts",
+            "core_concept": "Searchable registry of verified academic supplemental material.",
+            "proposed_approach": "A curated directory where users can submit and view links to supplemental materials for specific course modules.",
+            "prototype_scope": "A simple directory site with search and submission forms. | Create a database of 3 dummy course modules; Build a submission form for links; Implement a basic search/filter interface"
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "SyllabusSwap",
+            "target_user": "College graduate teaching assistants",
+            "problem_or_desire": "Finding open-source creative examples for repetitive academic assignment prompts",
+            "core_concept": "Searchable registry of verified academic supplemental material",
+            "proposed_approach": "Gamified metadata tagging for faculty members to recommend specific outside readings for specific syllabus modules",
+            "prototype_scope": "Directory of three dummy course modules where items can be liked, sorted, and suggested via form submission"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0008",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Polyglot Plaza",
+            "target_user": "Casual language learners",
+            "problem_or_desire": "Low retention rates caused by repetitive and dry grammar exercises",
+            "core_concept": "Massively parallel text adventure where inventory management items are earned exclusively through accurate contextual sentence translation.",
+            "proposed_approach": "A shared hub city map where dialogue between automated shopkeepers and NPCs prompts players to input simple phrases in their target language.",
+            "prototype_scope": "A simple market vendor area with one 'Bartering' minigame that unlocks trade items."
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Polyglot Plaza",
+            "target_user": "Casual language learners",
+            "problem_or_desire": "Low retention rates caused by repetitive and dry grammar exercises",
+            "core_concept": "Contextual language learning through inventory management and NPC interaction.",
+            "proposed_approach": "A single-player text-based adventure where players must translate simple phrases to trade items with static NPCs.",
+            "prototype_scope": "A market vendor scene with one bartering minigame requiring translation of three specific phrases. | Design three simple bartering scenarios; Implement basic text input and validation logic; Create static NPC dialogue trees"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0009",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Multi-Channel Feedback Resolver",
+            "target_user": "Restaurant group field trainers",
+            "problem_or_desire": "Rapid identification of recurring regional training lapses reported in informal channels.",
+            "core_concept": "Parsing and normalizing sentiment trends across messy Yelp reviews, physical location comment cards, and SMS responses.",
+            "proposed_approach": "An aggregation engine detects semantic trends indicating training issues and issues digest reports specifically for site managers.",
+            "prototype_scope": "Input normalization agent for two disparate survey feedback databases focused purely on categorization performance."
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Multi-Channel Feedback Resolver",
+            "target_user": "Restaurant group field trainers",
+            "problem_or_desire": "Rapid identification of recurring regional training lapses reported in informal channels.",
+            "core_concept": "Aggregating and categorizing feedback from disparate sources to identify training lapses.",
+            "proposed_approach": "A tool that categorizes feedback into predefined buckets to help managers spot trends.",
+            "prototype_scope": "A dashboard that ingests feedback from two sources and displays a categorized frequency chart. | Define feedback categories; Build ingestion for two sources; Implement categorization logic; Create dashboard"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0010",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "LegacyLeaf",
+            "target_user": "Older adults digital preservation enthusiasts",
+            "problem_or_desire": "Difficulty in contextualizing old digitized family photos with metadata",
+            "core_concept": "Chronological storytelling grid for digital archives.",
+            "proposed_approach": "A simple drag-and-drop interface for arranging photos on a timeline with user-defined text labels.",
+            "prototype_scope": "A web interface allowing 10 image uploads and manual chronological ordering. | Build image upload functionality; Implement drag-and-drop sorting; Add text annotation fields for each image"
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "LegacyLeaf",
+            "target_user": "Older adults digital preservation enthusiasts",
+            "problem_or_desire": "Difficulty in contextualizing old digitized family photos with metadata",
+            "core_concept": "Chronological storytelling grid for digital archives",
+            "proposed_approach": "Users pin photos to a virtual timeline populated with external major historical dates as anchor points",
+            "prototype_scope": "Web interface where 10 image uploads can be arranged chronologically with editable text annotations per slot"
+          }
+        }
+      ]
+    }
+  ]
+}

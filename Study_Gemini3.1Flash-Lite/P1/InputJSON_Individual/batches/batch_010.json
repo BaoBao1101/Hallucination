@@ -1,0 +1,92 @@
+[
+  {
+    "candidate_id": "BLIND_0079",
+    "title": "VendorOrbit",
+    "target_user": "Small bakery owners",
+    "problem_or_desire": "Inconsistency in ingredient pricing across multiple wholesalers",
+    "core_concept": "Unified price comparison dashboard for specific high-volume ingredients.",
+    "proposed_approach": "A simple web-based spreadsheet interface where users manually input prices from 2-3 vendors to see a side-by-side comparison.",
+    "prototype_scope": "A static web page with a form for manual entry and a table view for comparison. | Define 3 core ingredients (flour, sugar, dairy); Build a simple HTML/JS form for manual price entry; Implement a basic table view that highlights the lowest price per item"
+  },
+  {
+    "candidate_id": "BLIND_0047",
+    "title": "Inventory Equilibrium Scout",
+    "target_user": "E-commerce warehouse lead operators",
+    "problem_or_desire": "Balancing low inventory costs with delivery lead time requirements across geographic regions.",
+    "core_concept": "Dynamic adjustment of inventory buffer stocks based on external shipping cost signals.",
+    "proposed_approach": "A decision-support tool that suggests buffer stock adjustments based on static carrier rate tables and historical throughput.",
+    "prototype_scope": "A dashboard that calculates and displays recommended buffer stock changes based on user-provided CSV data. | Model inventory buffer logic; Build CSV ingestion for throughput and rates; Develop recommendation engine; Create UI for manual approval of changes"
+  },
+  {
+    "candidate_id": "BLIND_0133",
+    "title": "Personalized Traceability Identity (TI)",
+    "target_user": "High-transparency supply chain consumers",
+    "problem_or_desire": "Lack of granular detail connecting payment to specific farmer/crop outcomes in mainstream coffee service channels",
+    "core_concept": "Connecting consumer spend directly to specific agricultural outcomes or beneficiaries.",
+    "proposed_approach": "A loyalty program where points can be redeemed as direct donations to a specific agricultural school or project associated with the coffee origin.",
+    "prototype_scope": "A manual dashboard tracking customer points and corresponding donations to a partner agricultural project. | Partner with one agricultural project.; Set up a manual tracking system for 10 customers.; Execute one donation cycle."
+  },
+  {
+    "candidate_id": "BLIND_0049",
+    "title": "Vertical Hyper-Growth Greens Box",
+    "target_user": "Small households living without access to light",
+    "problem_or_desire": "Fresh, raw herbs losing structural viability within days of shop delivery",
+    "core_concept": "Live subscription of micro-planters moved directly from industrial shelf to kitchen counter",
+    "proposed_approach": "Retail unit which features replaceable harvest substrate cassettes specifically designed for light-starved indoor kitchens",
+    "prototype_scope": "Installation of 20 live harvesting modules into resident fridges testing herb survival across fifteen separate kitchens"
+  },
+  {
+    "candidate_id": "BLIND_0117",
+    "title": "Coffee Rental & Skill Development Platform",
+    "target_user": "Entry-level specialty coffee enthusiasts",
+    "problem_or_desire": "High barrier to entry regarding technical manual pour-over hardware acquisition costs",
+    "core_concept": "Circularity economy platform for premium coffee equipment trial with integrated technique support",
+    "proposed_approach": "Temporary hardware consignment model featuring high-end devices like automatic pulse pour-over drippers",
+    "prototype_scope": "Testing a thirty-day rental loop with five local residential customers using two popular brewing rigs"
+  },
+  {
+    "candidate_id": "BLIND_0001",
+    "title": "Legacy Archive Planner",
+    "target_user": "Adults managing aging parents' digital assets",
+    "problem_or_desire": "Difficulty organizing and securing digital credentials and sentimental files for inheritance.",
+    "core_concept": "A secure, encrypted digital vault with automated release triggers.",
+    "proposed_approach": "A web interface that guides users through a checklist of digital assets and sets up multi-factor verification for designated heirs.",
+    "prototype_scope": "A secure form-based input system that generates a downloadable encrypted PDF manifest."
+  },
+  {
+    "candidate_id": "BLIND_0155",
+    "title": "Eco-System Balancer",
+    "target_user": "Environmental science students",
+    "problem_or_desire": "Understanding complex ecological cause-and-effect relationships",
+    "core_concept": "A simulation game where players manage a micro-ecosystem and must balance resource consumption against population growth",
+    "proposed_approach": "System dynamics modeling where every action has a delayed, cascading impact on the virtual environment",
+    "prototype_scope": "A single simulation screen showing the population levels of three species and one resource slider"
+  },
+  {
+    "candidate_id": "BLIND_0137",
+    "title": "SkillSwap Ledger",
+    "target_user": "Freelance creatives",
+    "problem_or_desire": "Difficulty finding affordable professional services for non-core business needs.",
+    "core_concept": "A non-monetary barter marketplace for professional services.",
+    "proposed_approach": "A web-based credit system where users earn tokens by performing tasks and spend them on services they need.",
+    "prototype_scope": "A single-category dashboard allowing users to post one service and request one service."
+  },
+  {
+    "candidate_id": "BLIND_0005",
+    "title": "Substack Monetization Audits",
+    "target_user": "Newsletter creators",
+    "problem_or_desire": "Creators struggling to convert free subscribers into paid members",
+    "core_concept": "A structured 10-point audit framework specifically for Substack pricing page conversion.",
+    "proposed_approach": "A specialized consulting service providing a standardized 10-point audit of Substack landing pages to improve conversion rates.",
+    "prototype_scope": "Perform 10 manual audits for free in exchange for testimonials and case studies. | Define the 10-point audit criteria.; Identify 20 potential Substack creators.; Conduct 10 audits via Loom video.; Collect feedback and conversion data."
+  },
+  {
+    "candidate_id": "BLIND_0078",
+    "title": "Post-Coffee Circadian Monitoring",
+    "target_user": "Bio-tracking wellness early adopters",
+    "problem_or_desire": "Overdose on caffeine causing unintended interference with evening sleep and focus patterns",
+    "core_concept": "Optimizing roast and amount delivered based on real-time sleep readiness tracker integration",
+    "proposed_approach": "Interface querying wearable physiological sensors (HEV or similar devices) to curate caffeine volume/roast lightened levels each day before purchase/dispensing",
+    "prototype_scope": "Beta software connecting current fitness sensor sleep summaries with a personalized daily intake delivery recommendation chart sent daily via manual email dispatch"
+  }
+]

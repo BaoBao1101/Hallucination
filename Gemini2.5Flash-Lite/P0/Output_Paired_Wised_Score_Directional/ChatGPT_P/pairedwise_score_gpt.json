@@ -1,0 +1,916 @@
+{
+"evaluations": [
+{
+"pairblind_id": "PAIRBLIND_0001",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.1,
+"conceptual_coherence": 1.9,
+"technical_plausibility": 2.2,
+"mvp_clarity": 1.7,
+"business_model_plausibility": 1.8,
+"unsupported_claim_risk": 4.1,
+"ethical_privacy_risk": 3.0
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.0,
+"conceptual_coherence": 4.2,
+"technical_plausibility": 4.4,
+"mvp_clarity": 4.3,
+"business_model_plausibility": 2.1,
+"unsupported_claim_risk": 2.1,
+"ethical_privacy_risk": 2.0
+},
+"prototype_preference": "B",
+"preference_confidence": 4.5,
+"pairwise_rationale": "B defines a concrete puzzle loop and small demo, while A's goal state and image logic remain substantially unclear."
+},
+{
+"pairblind_id": "PAIRBLIND_0002",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.2,
+"conceptual_coherence": 3.3,
+"technical_plausibility": 3.9,
+"mvp_clarity": 3.6,
+"business_model_plausibility": 2.1,
+"unsupported_claim_risk": 2.9,
+"ethical_privacy_risk": 3.6
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.2,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.3,
+"business_model_plausibility": 2.3,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 3.0
+},
+"prototype_preference": "B",
+"preference_confidence": 4.1,
+"pairwise_rationale": "A has a more distinctive emotional framing, but B presents the same puzzle premise with a clearer and more bounded initial build."
+},
+{
+"pairblind_id": "PAIRBLIND_0003",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.1,
+"conceptual_coherence": 3.1,
+"technical_plausibility": 2.6,
+"mvp_clarity": 2.8,
+"business_model_plausibility": 2.4,
+"unsupported_claim_risk": 4.0,
+"ethical_privacy_risk": 4.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.6,
+"conceptual_coherence": 4.3,
+"technical_plausibility": 3.8,
+"mvp_clarity": 4.1,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 2.6,
+"ethical_privacy_risk": 3.8
+},
+"prototype_preference": "B",
+"preference_confidence": 4.4,
+"pairwise_rationale": "B narrows data use and consent conditions more clearly; A relies on broader and more sensitive cross-user memory matching."
+},
+{
+"pairblind_id": "PAIRBLIND_0004",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.6,
+"conceptual_coherence": 3.1,
+"technical_plausibility": 2.5,
+"mvp_clarity": 2.0,
+"business_model_plausibility": 2.4,
+"unsupported_claim_risk": 3.8,
+"ethical_privacy_risk": 2.1
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.7,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.3,
+"business_model_plausibility": 3.1,
+"unsupported_claim_risk": 2.1,
+"ethical_privacy_risk": 1.8
+},
+"prototype_preference": "B",
+"preference_confidence": 4.6,
+"pairwise_rationale": "B retains a distinctive environmental dining experience while using one themed zone rather than per-dish microclimate control."
+},
+{
+"pairblind_id": "PAIRBLIND_0005",
+"candidate_a_scores": {
+"creative_distinctiveness": 3.6,
+"conceptual_coherence": 3.4,
+"technical_plausibility": 3.8,
+"mvp_clarity": 3.8,
+"business_model_plausibility": 2.3,
+"unsupported_claim_risk": 3.1,
+"ethical_privacy_risk": 2.3
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.0,
+"conceptual_coherence": 4.6,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.7,
+"business_model_plausibility": 2.6,
+"unsupported_claim_risk": 1.9,
+"ethical_privacy_risk": 1.8
+},
+"prototype_preference": "B",
+"preference_confidence": 4.3,
+"pairwise_rationale": "B has a sharply defined input-to-output workflow and a bounded extension MVP; A includes more loosely specified tools and dependencies."
+},
+{
+"pairblind_id": "PAIRBLIND_0006",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.4,
+"conceptual_coherence": 3.0,
+"technical_plausibility": 2.4,
+"mvp_clarity": 3.2,
+"business_model_plausibility": 2.1,
+"unsupported_claim_risk": 4.6,
+"ethical_privacy_risk": 4.8
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.8,
+"conceptual_coherence": 4.3,
+"technical_plausibility": 3.5,
+"mvp_clarity": 3.8,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 3.2,
+"ethical_privacy_risk": 4.0
+},
+"prototype_preference": "B",
+"preference_confidence": 4.7,
+"pairwise_rationale": "B limits the output to educational associations and explicitly notes limitations, whereas A makes more direct predictive claims from highly sensitive data."
+},
+{
+"pairblind_id": "PAIRBLIND_0007",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.3,
+"conceptual_coherence": 3.4,
+"technical_plausibility": 3.3,
+"mvp_clarity": 3.6,
+"business_model_plausibility": 2.1,
+"unsupported_claim_risk": 3.0,
+"ethical_privacy_risk": 2.7
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.4,
+"technical_plausibility": 4.3,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.3,
+"unsupported_claim_risk": 1.8,
+"ethical_privacy_risk": 2.0
+},
+"prototype_preference": "B",
+"preference_confidence": 4.2,
+"pairwise_rationale": "B preserves the personal creative experience in a smaller, clearer interaction loop and avoids stronger implied mindfulness outcomes."
+},
+{
+"pairblind_id": "PAIRBLIND_0008",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.0,
+"conceptual_coherence": 3.3,
+"technical_plausibility": 3.8,
+"mvp_clarity": 3.6,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 2.8,
+"ethical_privacy_risk": 4.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.4,
+"conceptual_coherence": 4.6,
+"technical_plausibility": 4.7,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 2.2,
+"unsupported_claim_risk": 1.6,
+"ethical_privacy_risk": 3.2
+},
+"prototype_preference": "B",
+"preference_confidence": 4.7,
+"pairwise_rationale": "B limits the first version to text reframing, while A adds retaliatory framing and voice/video elements that raise misuse and scope concerns."
+},
+{
+"pairblind_id": "PAIRBLIND_0009",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.0,
+"conceptual_coherence": 2.8,
+"technical_plausibility": 3.3,
+"mvp_clarity": 2.8,
+"business_model_plausibility": 2.6,
+"unsupported_claim_risk": 3.6,
+"ethical_privacy_risk": 4.0
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.4,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.3,
+"mvp_clarity": 4.4,
+"business_model_plausibility": 2.8,
+"unsupported_claim_risk": 1.9,
+"ethical_privacy_risk": 2.5
+},
+"prototype_preference": "B",
+"preference_confidence": 4.5,
+"pairwise_rationale": "B offers a coherent passive-observation concept with a compact pop-up format; A's animal-therapy framing is more operationally and ethically loaded."
+},
+{
+"pairblind_id": "PAIRBLIND_0010",
+"candidate_a_scores": {
+"creative_distinctiveness": 3.7,
+"conceptual_coherence": 3.3,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 3.8,
+"ethical_privacy_risk": 3.4
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.1,
+"conceptual_coherence": 4.4,
+"technical_plausibility": 4.6,
+"mvp_clarity": 4.6,
+"business_model_plausibility": 3.2,
+"unsupported_claim_risk": 2.1,
+"ethical_privacy_risk": 2.3
+},
+"prototype_preference": "B",
+"preference_confidence": 4.2,
+"pairwise_rationale": "B presents the experience as a light personalization ritual with a concrete menu flow, while A makes stronger therapeutic and analytic implications."
+},
+{
+"pairblind_id": "PAIRBLIND_0011",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.4,
+"conceptual_coherence": 3.3,
+"technical_plausibility": 3.3,
+"mvp_clarity": 3.7,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 3.2,
+"ethical_privacy_risk": 2.1
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.4,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.4,
+"mvp_clarity": 4.6,
+"business_model_plausibility": 2.2,
+"unsupported_claim_risk": 1.8,
+"ethical_privacy_risk": 1.7
+},
+"prototype_preference": "B",
+"preference_confidence": 4.1,
+"pairwise_rationale": "B clearly bounds the product as themed ambient audio; A's broader continuous station and generated spoken content are less defined."
+},
+{
+"pairblind_id": "PAIRBLIND_0012",
+"candidate_a_scores": {
+"creative_distinctiveness": 3.7,
+"conceptual_coherence": 2.9,
+"technical_plausibility": 4.0,
+"mvp_clarity": 3.6,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 3.8,
+"ethical_privacy_risk": 3.6
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.1,
+"conceptual_coherence": 4.3,
+"technical_plausibility": 4.7,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.6,
+"unsupported_claim_risk": 2.2,
+"ethical_privacy_risk": 2.9
+},
+"prototype_preference": "B",
+"preference_confidence": 4.4,
+"pairwise_rationale": "B provides a more coherent simulation loop and keeps the treatment language less forceful than A's emotion-to-skin causal framing."
+},
+{
+"pairblind_id": "PAIRBLIND_0013",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.0,
+"conceptual_coherence": 3.4,
+"technical_plausibility": 4.5,
+"mvp_clarity": 3.8,
+"business_model_plausibility": 3.2,
+"unsupported_claim_risk": 2.7,
+"ethical_privacy_risk": 3.2
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.7,
+"mvp_clarity": 4.6,
+"business_model_plausibility": 3.4,
+"unsupported_claim_risk": 1.7,
+"ethical_privacy_risk": 1.9
+},
+"prototype_preference": "B",
+"preference_confidence": 4.2,
+"pairwise_rationale": "B retains discovery and storytelling while giving diners clearer disclosure; A's fabricated scientific naming creates more avoidable ambiguity."
+},
+{
+"pairblind_id": "PAIRBLIND_0014",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.3,
+"conceptual_coherence": 3.4,
+"technical_plausibility": 3.1,
+"mvp_clarity": 3.4,
+"business_model_plausibility": 2.4,
+"unsupported_claim_risk": 3.7,
+"ethical_privacy_risk": 4.6
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.6,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.3,
+"business_model_plausibility": 2.6,
+"unsupported_claim_risk": 2.2,
+"ethical_privacy_risk": 3.9
+},
+"prototype_preference": "B",
+"preference_confidence": 4.5,
+"pairwise_rationale": "B focuses on organizing and exploring archives, while A's simulated conversations in a person's style introduce substantially greater consent and representation concerns."
+},
+{
+"pairblind_id": "PAIRBLIND_0015",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.1,
+"conceptual_coherence": 3.2,
+"technical_plausibility": 3.7,
+"mvp_clarity": 3.6,
+"business_model_plausibility": 2.6,
+"unsupported_claim_risk": 3.4,
+"ethical_privacy_risk": 3.4
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.4,
+"technical_plausibility": 4.4,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.8,
+"ethical_privacy_risk": 2.4
+},
+"prototype_preference": "B",
+"preference_confidence": 4.5,
+"pairwise_rationale": "B has a clearer early exchange mechanism using ordinary payments; A adds an internal token layer without resolving its role or safeguards."
+},
+{
+"pairblind_id": "PAIRBLIND_0016",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.3,
+"conceptual_coherence": 2.9,
+"technical_plausibility": 3.0,
+"mvp_clarity": 3.4,
+"business_model_plausibility": 2.1,
+"unsupported_claim_risk": 3.7,
+"ethical_privacy_risk": 1.3
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.8,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.3,
+"mvp_clarity": 4.6,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 1.8,
+"ethical_privacy_risk": 1.2
+},
+"prototype_preference": "B",
+"preference_confidence": 4.4,
+"pairwise_rationale": "B defines user inputs, AI assistance, and a visualized output; A's promised language evolution is much less operationally specified."
+},
+{
+"pairblind_id": "PAIRBLIND_0017",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.2,
+"conceptual_coherence": 3.4,
+"technical_plausibility": 4.1,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 2.8,
+"ethical_privacy_risk": 1.4
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.6,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.6,
+"business_model_plausibility": 2.2,
+"unsupported_claim_risk": 1.7,
+"ethical_privacy_risk": 1.2
+},
+"prototype_preference": "B",
+"preference_confidence": 4.0,
+"pairwise_rationale": "Both support a feasible sound-puzzle prototype, but B states the interaction and success feedback more directly."
+},
+{
+"pairblind_id": "PAIRBLIND_0018",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.2,
+"conceptual_coherence": 2.8,
+"technical_plausibility": 2.9,
+"mvp_clarity": 2.7,
+"business_model_plausibility": 2.2,
+"unsupported_claim_risk": 3.8,
+"ethical_privacy_risk": 3.8
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.2,
+"technical_plausibility": 3.8,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 2.4,
+"unsupported_claim_risk": 2.3,
+"ethical_privacy_risk": 3.0
+},
+"prototype_preference": "B",
+"preference_confidence": 4.4,
+"pairwise_rationale": "B limits the exchange to simple video, keywords, and self-assessment; A expands to a more complex and potentially risky physical-skill setting."
+},
+{
+"pairblind_id": "PAIRBLIND_0019",
+"candidate_a_scores": {
+"creative_distinctiveness": 3.8,
+"conceptual_coherence": 3.1,
+"technical_plausibility": 3.4,
+"mvp_clarity": 2.9,
+"business_model_plausibility": 2.2,
+"unsupported_claim_risk": 3.2,
+"ethical_privacy_risk": 1.6
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.6,
+"mvp_clarity": 4.6,
+"business_model_plausibility": 2.4,
+"unsupported_claim_risk": 1.8,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "B",
+"preference_confidence": 4.5,
+"pairwise_rationale": "B converts the learning objective into a focused interactive lesson, whereas A leaves the kiosk experience and learning loop less specific."
+},
+{
+"pairblind_id": "PAIRBLIND_0020",
+"candidate_a_scores": {
+"creative_distinctiveness": 3.7,
+"conceptual_coherence": 3.4,
+"technical_plausibility": 4.4,
+"mvp_clarity": 4.1,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 2.4,
+"ethical_privacy_risk": 1.7
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 2.9,
+"conceptual_coherence": 4.6,
+"technical_plausibility": 4.8,
+"mvp_clarity": 4.7,
+"business_model_plausibility": 2.1,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.3
+},
+"prototype_preference": "TIE",
+"preference_confidence": 3.0,
+"pairwise_rationale": "A offers a somewhat more distinctive remix-oriented framing, while B is clearer and simpler to build; neither has a decisive overall advantage."
+},
+{
+"pairblind_id": "PAIRBLIND_0021",
+"candidate_a_scores": {
+"creative_distinctiveness": 3.2,
+"conceptual_coherence": 3.8,
+"technical_plausibility": 4.4,
+"mvp_clarity": 4.2,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 2.8,
+"ethical_privacy_risk": 1.4
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 2.8,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.7,
+"mvp_clarity": 4.6,
+"business_model_plausibility": 2.6,
+"unsupported_claim_risk": 2.1,
+"ethical_privacy_risk": 1.3
+},
+"prototype_preference": "B",
+"preference_confidence": 3.9,
+"pairwise_rationale": "B is more explicit about the user form and bounded output; A remains feasible but contains stronger unsubstantiated optimization language."
+},
+{
+"pairblind_id": "PAIRBLIND_0022",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.0,
+"conceptual_coherence": 3.8,
+"technical_plausibility": 3.6,
+"mvp_clarity": 3.4,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 2.8,
+"ethical_privacy_risk": 1.9
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.2,
+"mvp_clarity": 4.3,
+"business_model_plausibility": 2.2,
+"unsupported_claim_risk": 1.8,
+"ethical_privacy_risk": 1.6
+},
+"prototype_preference": "B",
+"preference_confidence": 4.0,
+"pairwise_rationale": "B keeps the location scope smaller and the AR-plus-quiz loop more concrete, while A expands the initial content and geographic scope."
+},
+{
+"pairblind_id": "PAIRBLIND_0023",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.2,
+"conceptual_coherence": 3.5,
+"technical_plausibility": 3.8,
+"mvp_clarity": 4.2,
+"business_model_plausibility": 2.1,
+"unsupported_claim_risk": 3.2,
+"ethical_privacy_risk": 3.1
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.2,
+"unsupported_claim_risk": 1.8,
+"ethical_privacy_risk": 2.4
+},
+"prototype_preference": "B",
+"preference_confidence": 4.2,
+"pairwise_rationale": "B frames the product as reflective exploration with a clear image-variation loop; A makes broader claims about altering dream outcomes."
+},
+{
+"pairblind_id": "PAIRBLIND_0024",
+"candidate_a_scores": {
+"creative_distinctiveness": 3.6,
+"conceptual_coherence": 3.8,
+"technical_plausibility": 4.3,
+"mvp_clarity": 4.1,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 3.0,
+"ethical_privacy_risk": 2.0
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.0,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.7,
+"mvp_clarity": 4.6,
+"business_model_plausibility": 3.4,
+"unsupported_claim_risk": 1.8,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "B",
+"preference_confidence": 4.2,
+"pairwise_rationale": "B is a clearer loyalty prototype with straightforward earning and redemption rules; A adds broader reporting and community functions before validating the core loop."
+},
+{
+"pairblind_id": "PAIRBLIND_0025",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.1,
+"conceptual_coherence": 3.5,
+"technical_plausibility": 3.2,
+"mvp_clarity": 3.7,
+"business_model_plausibility": 2.2,
+"unsupported_claim_risk": 3.3,
+"ethical_privacy_risk": 3.8
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.8,
+"conceptual_coherence": 4.3,
+"technical_plausibility": 3.7,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 2.3,
+"unsupported_claim_risk": 2.2,
+"ethical_privacy_risk": 3.4
+},
+"prototype_preference": "B",
+"preference_confidence": 4.0,
+"pairwise_rationale": "B gives the restoration-and-unlocking loop more directly, while A introduces more ambiguous AI reconstruction and dialogue behavior around personal materials."
+},
+{
+"pairblind_id": "PAIRBLIND_0026",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.4,
+"conceptual_coherence": 1.9,
+"technical_plausibility": 1.7,
+"mvp_clarity": 1.8,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 4.5,
+"ethical_privacy_risk": 1.8
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.6,
+"conceptual_coherence": 4.2,
+"technical_plausibility": 4.2,
+"mvp_clarity": 4.3,
+"business_model_plausibility": 2.2,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "B",
+"preference_confidence": 4.8,
+"pairwise_rationale": "B describes a playable module-placement system and a bounded objective; A depends on undefined mechanisms and highly opaque game rules."
+},
+{
+"pairblind_id": "PAIRBLIND_0027",
+"candidate_a_scores": {
+"creative_distinctiveness": 3.8,
+"conceptual_coherence": 3.1,
+"technical_plausibility": 4.3,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 2.1,
+"unsupported_claim_risk": 3.0,
+"ethical_privacy_risk": 2.8
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.2,
+"conceptual_coherence": 4.6,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.4,
+"unsupported_claim_risk": 1.8,
+"ethical_privacy_risk": 2.0
+},
+"prototype_preference": "B",
+"preference_confidence": 4.1,
+"pairwise_rationale": "B clearly defines scenario selection, response analysis, and feedback, while A's narrative framing is more diffuse without a stronger MVP advantage."
+},
+{
+"pairblind_id": "PAIRBLIND_0028",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.1,
+"conceptual_coherence": 2.9,
+"technical_plausibility": 3.4,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 2.1,
+"unsupported_claim_risk": 4.1,
+"ethical_privacy_risk": 3.6
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 3.6,
+"technical_plausibility": 2.9,
+"mvp_clarity": 3.2,
+"business_model_plausibility": 2.2,
+"unsupported_claim_risk": 4.5,
+"ethical_privacy_risk": 4.0
+},
+"prototype_preference": "A",
+"preference_confidence": 3.4,
+"pairwise_rationale": "Both rely on strong unsupported learning effects, but A proposes a less technically demanding first build and a more limited intervention."
+},
+{
+"pairblind_id": "PAIRBLIND_0029",
+"candidate_a_scores": {
+"creative_distinctiveness": 3.9,
+"conceptual_coherence": 2.9,
+"technical_plausibility": 4.1,
+"mvp_clarity": 3.6,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 3.4,
+"ethical_privacy_risk": 3.4
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.2,
+"conceptual_coherence": 4.2,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.4,
+"business_model_plausibility": 2.2,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 2.5
+},
+"prototype_preference": "B",
+"preference_confidence": 4.3,
+"pairwise_rationale": "B preserves the contemplative interaction while offering a clearer loop and fewer implied claims about repairing psychological history."
+},
+{
+"pairblind_id": "PAIRBLIND_0030",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.4,
+"conceptual_coherence": 2.4,
+"technical_plausibility": 3.2,
+"mvp_clarity": 2.8,
+"business_model_plausibility": 2.1,
+"unsupported_claim_risk": 3.7,
+"ethical_privacy_risk": 1.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.8,
+"conceptual_coherence": 4.2,
+"technical_plausibility": 4.3,
+"mvp_clarity": 3.8,
+"business_model_plausibility": 2.3,
+"unsupported_claim_risk": 2.2,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "B",
+"preference_confidence": 4.2,
+"pairwise_rationale": "B retains the word-combination combat premise but defines its game mechanics more coherently; A's associative rules and prototype goal are unclear."
+},
+{
+"pairblind_id": "PAIRBLIND_0031",
+"candidate_a_scores": {
+"creative_distinctiveness": 3.8,
+"conceptual_coherence": 3.8,
+"technical_plausibility": 3.8,
+"mvp_clarity": 3.8,
+"business_model_plausibility": 3.1,
+"unsupported_claim_risk": 2.6,
+"ethical_privacy_risk": 2.7
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.3,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.4,
+"mvp_clarity": 4.6,
+"business_model_plausibility": 3.3,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 2.3
+},
+"prototype_preference": "B",
+"preference_confidence": 4.0,
+"pairwise_rationale": "B starts with fewer ingredients, dishes, and supply dependencies while retaining the central seasonal edible-plant experience."
+},
+{
+"pairblind_id": "PAIRBLIND_0032",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.5,
+"conceptual_coherence": 2.8,
+"technical_plausibility": 2.6,
+"mvp_clarity": 2.8,
+"business_model_plausibility": 2.6,
+"unsupported_claim_risk": 4.0,
+"ethical_privacy_risk": 5.0
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.7,
+"conceptual_coherence": 4.2,
+"technical_plausibility": 4.4,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.8,
+"unsupported_claim_risk": 2.3,
+"ethical_privacy_risk": 3.8
+},
+"prototype_preference": "B",
+"preference_confidence": 4.7,
+"pairwise_rationale": "B uses voluntary written contributions and a simple request-and-reward flow; A centers sensitive journals, recorded questions, and poorly bounded compensation structures."
+},
+{
+"pairblind_id": "PAIRBLIND_0033",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.3,
+"conceptual_coherence": 3.5,
+"technical_plausibility": 3.2,
+"mvp_clarity": 3.7,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 3.5,
+"ethical_privacy_risk": 1.9
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.7,
+"conceptual_coherence": 4.6,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.7,
+"unsupported_claim_risk": 1.7,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "B",
+"preference_confidence": 4.4,
+"pairwise_rationale": "B offers the same multisensory premise as a manageable playlist-and-feedback trial, while A makes stronger causal claims and requires more specialized setup."
+},
+{
+"pairblind_id": "PAIRBLIND_0034",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.1,
+"conceptual_coherence": 2.5,
+"technical_plausibility": 2.6,
+"mvp_clarity": 2.6,
+"business_model_plausibility": 2.1,
+"unsupported_claim_risk": 4.4,
+"ethical_privacy_risk": 4.3
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.4,
+"conceptual_coherence": 4.3,
+"technical_plausibility": 4.1,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.3,
+"unsupported_claim_risk": 2.7,
+"ethical_privacy_risk": 3.2
+},
+"prototype_preference": "B",
+"preference_confidence": 4.5,
+"pairwise_rationale": "B bounds the product to short scenario exploration; A relies on extensive personal profiling and broad, highly speculative consequence simulation."
+},
+{
+"pairblind_id": "PAIRBLIND_0035",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.2,
+"conceptual_coherence": 3.3,
+"technical_plausibility": 3.9,
+"mvp_clarity": 3.8,
+"business_model_plausibility": 2.7,
+"unsupported_claim_risk": 3.4,
+"ethical_privacy_risk": 1.8
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.7,
+"mvp_clarity": 4.6,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.7,
+"ethical_privacy_risk": 1.3
+},
+"prototype_preference": "B",
+"preference_confidence": 4.3,
+"pairwise_rationale": "B presents the sensory pairing as an experiential menu and can be tested directly, while A relies on stronger science-based resonance implications."
+},
+{
+"pairblind_id": "PAIRBLIND_0036",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.2,
+"conceptual_coherence": 3.3,
+"technical_plausibility": 3.4,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 2.2,
+"unsupported_claim_risk": 3.3,
+"ethical_privacy_risk": 3.0
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.7,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.3,
+"business_model_plausibility": 2.3,
+"unsupported_claim_risk": 1.8,
+"ethical_privacy_risk": 2.2
+},
+"prototype_preference": "B",
+"preference_confidence": 4.2,
+"pairwise_rationale": "B explicitly describes a passive personalized media experience and its output, while A leaves the claimed dream-direction mechanism less consistent with its MVP."
+},
+{
+"pairblind_id": "PAIRBLIND_0037",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.1,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 4.6,
+"mvp_clarity": 4.3,
+"business_model_plausibility": 2.2,
+"unsupported_claim_risk": 2.7,
+"ethical_privacy_risk": 2.9
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.7,
+"mvp_clarity": 4.6,
+"business_model_plausibility": 2.3,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 2.4
+},
+"prototype_preference": "A",
+"preference_confidence": 3.4,
+"pairwise_rationale": "A retains the more distinctive multiple-future perspective while its stated first build is still limited to one persona and remains feasible."
+},
+{
+"pairblind_id": "PAIRBLIND_0038",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.0,
+"conceptual_coherence": 3.3,
+"technical_plausibility": 3.4,
+"mvp_clarity": 4.2,
+"business_model_plausibility": 2.3,
+"unsupported_claim_risk": 3.4,
+"ethical_privacy_risk": 3.6
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.7,
+"conceptual_coherence": 4.4,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.4,
+"unsupported_claim_risk": 2.3,
+"ethical_privacy_risk": 2.5
+},
+"prototype_preference": "B",
+"preference_confidence": 4.2,
+"pairwise_rationale": "B specifies a manageable generative-audio loop with simple feedback, while A adds realtime behavioral sensing and stronger mood-control implications."
+}
+]
+}

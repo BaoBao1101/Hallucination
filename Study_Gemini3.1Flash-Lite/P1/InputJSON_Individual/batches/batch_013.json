@@ -1,0 +1,92 @@
+[
+  {
+    "candidate_id": "BLIND_0115",
+    "title": "Onboarding Orchestrator",
+    "target_user": "HR departments in high-growth startups",
+    "problem_or_desire": "Fragmented onboarding processes leading to poor new-hire experience and administrative bottlenecks.",
+    "core_concept": "An agent that manages cross-platform provisioning, scheduling, and document collection across disparate SaaS tools.",
+    "proposed_approach": "Use API-based automation to trigger workflows in Slack, email, and HRIS systems based on hire status.",
+    "prototype_scope": "A workflow that automatically creates a Slack channel, sends a welcome email, and assigns a task in a project management tool for one new hire."
+  },
+  {
+    "candidate_id": "BLIND_0159",
+    "title": "GiftGuard",
+    "target_user": "Frequent gift purchasers",
+    "problem_or_desire": "Losing track of birthdays, anniversary-gift history, and social relationship nuances",
+    "core_concept": "Categorized gift tracking by relationship tier.",
+    "proposed_approach": "A simple CRM for personal relationships to track gift history.",
+    "prototype_scope": "A profile vault for contacts with gift history fields. | Build a contact list; Add fields for gift history; Implement a simple search/filter"
+  },
+  {
+    "candidate_id": "BLIND_0147",
+    "title": "Syntax Storm",
+    "target_user": "Developers working on clean code focus",
+    "problem_or_desire": "High mental fatigue during weekend learning periods",
+    "core_concept": "Combat strategy built on cleaning buggy code snippets.",
+    "proposed_approach": "A puzzle game where players fix buggy code snippets to defeat enemies in a grid-based combat system.",
+    "prototype_scope": "One combat grid that rewards valid syntax string repair of two predefined erroneous input segments. | Design two buggy code snippets; Implement basic grid combat logic; Build simple UI for code repair"
+  },
+  {
+    "candidate_id": "BLIND_0105",
+    "title": "Hyper-Local Micro-Catering",
+    "target_user": "Remote office teams of 5-10 people",
+    "problem_or_desire": "Difficulty finding high-quality, small-batch catering that isn't fast food.",
+    "core_concept": "A marketplace connecting home-based professional chefs with small office teams.",
+    "proposed_approach": "Curate a platform for local chefs to offer 'office-sized' lunch platters delivered via bike courier.",
+    "prototype_scope": "A landing page for one neighborhood matching three chefs with five local businesses for a one-week trial."
+  },
+  {
+    "candidate_id": "BLIND_0154",
+    "title": "Pantry Potioneer",
+    "target_user": "Home cooks trying to minimize food waste",
+    "problem_or_desire": "Managing quickly expiring ingredients that end up in the trash",
+    "core_concept": "RPG fantasy loop where inventory management is tied to real-world pantry items.",
+    "proposed_approach": "An RPG where players manually input their pantry items to gain equipment traits for a fantasy battle.",
+    "prototype_scope": "An inventory screen where users select from ten basic produce items to assign offensive ability slots. | Design ten produce items and their traits; Implement manual inventory selection UI; Build simple battle loop"
+  },
+  {
+    "candidate_id": "BLIND_0031",
+    "title": "Echo Archive",
+    "target_user": "History buffs and collaborative world builders",
+    "problem_or_desire": "Disconnected storytelling platforms for regional historical facts",
+    "core_concept": "Location-based storytelling that overlays historical narratives onto modern landscapes.",
+    "proposed_approach": "A location-based app that triggers audio clips when a user reaches specific, pre-defined coordinates in a city.",
+    "prototype_scope": "A single city square map with one tethered narrative mission triggered by GPS proximity. | Implement basic GPS geofencing; Record and integrate one audio narrative; Build simple map interface"
+  },
+  {
+    "candidate_id": "BLIND_0146",
+    "title": "Multi-Channel Feedback Resolver",
+    "target_user": "Restaurant group field trainers",
+    "problem_or_desire": "Rapid identification of recurring regional training lapses reported in informal channels.",
+    "core_concept": "Parsing and normalizing sentiment trends across messy Yelp reviews, physical location comment cards, and SMS responses.",
+    "proposed_approach": "An aggregation engine detects semantic trends indicating training issues and issues digest reports specifically for site managers.",
+    "prototype_scope": "Input normalization agent for two disparate survey feedback databases focused purely on categorization performance."
+  },
+  {
+    "candidate_id": "BLIND_0140",
+    "title": "Corporate Sensory Break Kits",
+    "target_user": "HR benefits departments",
+    "problem_or_desire": "Need to boost morale during remote workforce burnout via shared, multi-sensory team rituals",
+    "core_concept": "Curated monthly discovery experience delivered at home, connecting employees virtually through live tasting calibration sessions",
+    "proposed_approach": "Coordinating timed arrival of proprietary cupping samples so team units begin simultaneous tasting led by remote sensors or virtual coaching",
+    "prototype_scope": "Hosting three virtual events involving manual sensory tracking surveys provided at delivery via paper form"
+  },
+  {
+    "candidate_id": "BLIND_0109",
+    "title": "Sustainable E-commerce Packaging Sourcing",
+    "target_user": "Small e-commerce shop owners",
+    "problem_or_desire": "Difficulty finding affordable, small-batch sustainable packaging",
+    "core_concept": "A group-buying platform that aggregates orders to reach wholesale pricing for eco-friendly materials",
+    "proposed_approach": "A platform that pools orders from multiple shops to negotiate bulk rates with manufacturers",
+    "prototype_scope": "A landing page collecting interest for a specific type of compostable mailer"
+  },
+  {
+    "candidate_id": "BLIND_0003",
+    "title": "Pop-up Restaurant Exchange",
+    "target_user": "Underutilized restaurant spaces",
+    "problem_or_desire": "High overhead costs for restaurants during off-peak hours.",
+    "core_concept": "A platform that matches daytime-only cafes with evening-only pop-up chefs.",
+    "proposed_approach": "Facilitate short-term lease agreements and insurance coverage for evening kitchen usage.",
+    "prototype_scope": "One cafe hosting three different pop-up chefs over three consecutive weekends."
+  }
+]

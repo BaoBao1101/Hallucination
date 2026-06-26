@@ -1,0 +1,691 @@
+\documentclass[10pt]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{pdflscape}
+\usepackage{array}
+\usepackage[hidelinks]{hyperref}
+\title{Supplementary Results: Controlled Distillation of Speculative LLM Venture Concepts}
+\author{Anonymous author(s) for review}
+\date{}
+\begin{document}
+\maketitle
+\section*{Reading guide}
+This supplement reports the full aggregated metric tables behind the main manuscript.
+It excludes private mappings and candidate-level unblinding data. The Gemini 3.1 Flash
+Lite P1 study is primary. Gemini 2.5 Flash Lite P0 and P1 are retained as supporting
+developmental studies and are not pooled with the primary study. Negative M3--M1
+deltas favor M3 only for risk metrics; for all other individual metrics, positive
+deltas favor M3.
+
+\section*{S1. Primary-study individual-card metrics}
+\begin{landscape}
+\small
+\setlength{\LTcapwidth}{\textwidth}
+\begin{longtable}{llrrrrrrrr}
+\caption{Gemini 3.1 Flash Lite P1: all individual-card paired statistics ($n=60$ pairs per evaluator).}\label{tab:s1-ind31}\\
+\toprule
+Judge & Metric & $n$ & M1 & M3 & $\Delta$ & 95\% CI for $\Delta$ & M3$>$M1 & M1$>$M3 & $p_{\mathrm{Holm}}$ \\
+\midrule\endfirsthead
+\multicolumn{10}{l}{\small\itshape Continued}\\
+\toprule Judge & Metric & $n$ & M1 & M3 & $\Delta$ & 95\% CI for $\Delta$ & M3$>$M1 & M1$>$M3 & $p_{\mathrm{Holm}}$ \\ \midrule\endhead
+\bottomrule\endfoot
+ChatGPT Plus 5.5 Web & Novelty & 60 & 2.850 & 2.783 & -0.067 & [-0.167, 0.033] & 3 & 7 & 1.000 \\
+ChatGPT Plus 5.5 Web & Conceptual Coherence & 60 & 3.950 & 3.992 & 0.042 & [0.000, 0.117] & 2 & 0 & 1.000 \\
+ChatGPT Plus 5.5 Web & User Pain Plausibility & 60 & 3.708 & 3.708 & 0.000 & [0.000, 0.000] & 0 & 0 & — \\
+ChatGPT Plus 5.5 Web & Technical Plausibility & 60 & 4.092 & 4.242 & 0.150 & [0.067, 0.250] & 14 & 2 & .025 \\
+ChatGPT Plus 5.5 Web & MVP Clarity & 60 & 4.367 & 4.342 & -0.025 & [-0.092, 0.033] & 6 & 9 & 1.000 \\
+ChatGPT Plus 5.5 Web & Business Model Plausibility & 60 & 2.900 & 3.033 & 0.133 & [0.017, 0.250] & 11 & 3 & .163 \\
+ChatGPT Plus 5.5 Web & Unsupported Claim Risk & 60 & 2.183 & 1.992 & -0.192 & [-0.333, -0.058] & 5 & 19 & .110 \\
+ChatGPT Plus 5.5 Web & Ethical Privacy Risk & 60 & 1.967 & 1.933 & -0.033 & [-0.258, 0.192] & 8 & 10 & 1.000 \\
+ChatGPT Plus 5.5 Web & Overall MVP Usefulness & 60 & 3.725 & 3.775 & 0.050 & [0.007, 0.090] & 29 & 10 & .089 \\
+ChatGPT Plus 5.5 Web & Prototype Willingness & 60 & 3.787 & 3.842 & 0.055 & [0.007, 0.102] & 27 & 13 & .110 \\
+Gemini 3.1 Pro Web & Novelty & 60 & 3.667 & 3.450 & -0.217 & [-0.333, -0.100] & 2 & 15 & .010 \\
+Gemini 3.1 Pro Web & Conceptual Coherence & 60 & 4.133 & 4.200 & 0.067 & [0.000, 0.150] & 5 & 1 & .656 \\
+Gemini 3.1 Pro Web & User Pain Plausibility & 60 & 3.800 & 3.833 & 0.033 & [-0.067, 0.133] & 6 & 4 & 1.000 \\
+Gemini 3.1 Pro Web & Technical Plausibility & 60 & 3.767 & 4.200 & 0.433 & [0.267, 0.600] & 22 & 1 & $<.001$ \\
+Gemini 3.1 Pro Web & MVP Clarity & 60 & 4.100 & 4.683 & 0.583 & [0.433, 0.733] & 33 & 1 & $<.001$ \\
+Gemini 3.1 Pro Web & Business Model Plausibility & 60 & 2.900 & 2.867 & -0.033 & [-0.117, 0.050] & 2 & 4 & 1.000 \\
+Gemini 3.1 Pro Web & Unsupported Claim Risk & 60 & 1.500 & 1.167 & -0.333 & [-0.483, -0.200] & 0 & 17 & $<.001$ \\
+Gemini 3.1 Pro Web & Ethical Privacy Risk & 60 & 1.350 & 1.233 & -0.117 & [-0.200, -0.050] & 0 & 7 & .062 \\
+Gemini 3.1 Pro Web & Overall MVP Usefulness & 60 & 3.750 & 3.983 & 0.233 & [0.100, 0.383] & 16 & 3 & .014 \\
+Gemini 3.1 Pro Web & Prototype Willingness & 60 & 3.533 & 3.900 & 0.367 & [0.233, 0.517] & 20 & 0 & $<.001$ \\
+\end{longtable}
+\end{landscape}
+\section*{S2. Primary-study directional metrics}
+\begin{landscape}
+\small
+\begin{longtable}{llrrrrrrr}
+\caption{Gemini 3.1 Flash Lite P1: role-aware directional traceability metrics ($n=60$ pairs per evaluator).}\label{tab:s2-dir31}\\
+\toprule
+Judge & Metric & $n$ & Mean & SD & Median & 95\% bootstrap CI & $\geq4$ & $\leq2$ \\
+\midrule\endfirsthead
+\multicolumn{9}{l}{\small\itshape Continued}\\
+\toprule Judge & Metric & $n$ & Mean & SD & Median & 95\% bootstrap CI & $\geq4$ & $\leq2$ \\ \midrule\endhead
+\bottomrule\endfoot
+ChatGPT Plus 5.5 Web & Creative Core Preservation & 60 & 3.998 & 0.426 & 4.000 & [3.893, 4.105] & 31 & 0 \\
+ChatGPT Plus 5.5 Web & Novelty Retention & 60 & 3.803 & 0.458 & 3.750 & [3.692, 3.917] & 18 & 0 \\
+ChatGPT Plus 5.5 Web & Practical MVP Improvement & 60 & 4.370 & 0.181 & 4.400 & [4.325, 4.415] & 60 & 0 \\
+ChatGPT Plus 5.5 Web & Overclaim Removal Quality & 60 & 4.100 & 0.274 & 4.100 & [4.032, 4.168] & 40 & 0 \\
+ChatGPT Plus 5.5 Web & Semantic Drift Risk & 60 & 2.428 & 0.623 & 2.500 & [2.273, 2.580] & 0 & 15 \\
+Gemini 3.1 Pro Web & Creative Core Preservation & 60 & 4.030 & 0.630 & 4.200 & [3.868, 4.182] & 41 & 0 \\
+Gemini 3.1 Pro Web & Novelty Retention & 60 & 3.408 & 0.701 & 3.500 & [3.230, 3.582] & 17 & 4 \\
+Gemini 3.1 Pro Web & Practical MVP Improvement & 60 & 4.277 & 0.372 & 4.200 & [4.182, 4.370] & 50 & 0 \\
+Gemini 3.1 Pro Web & Overclaim Removal Quality & 60 & 4.077 & 0.454 & 4.000 & [3.962, 4.188] & 41 & 0 \\
+Gemini 3.1 Pro Web & Semantic Drift Risk & 60 & 2.013 & 0.678 & 1.800 & [1.850, 2.187] & 0 & 41 \\
+\end{longtable}
+\end{landscape}
+\section*{S3. Primary-study directional prototype choice}
+\small
+\begin{longtable}{lrrrrrr}
+\caption{Gemini 3.1 Flash Lite P1: directional prototype choice. This is not neutral preference.}\label{tab:s3-pref31}\\
+\toprule Judge & $n$ & Transformation & Reference & Tie & Transformation share excl. ties & $p$ \\ \midrule\endfirsthead
+\toprule Judge & $n$ & Transformation & Reference & Tie & Transformation share excl. ties & $p$ \\ \midrule\endhead
+\bottomrule\endfoot
+ChatGPT Plus 5.5 Web & 60 & 48 & 12 & 0 & 0.800 & $<.001$ \\
+Gemini 3.1 Pro Web & 60 & 37 & 5 & 18 & 0.881 & $<.001$ \\
+\end{longtable}
+\section*{S4. Primary-study neutral archive (quarantined)}
+The following tables are retained for auditability only. They are not used for
+efficacy, equivalence, or global-preference claims due to neutral-protocol position
+diagnostics. 
+\begin{landscape}
+\small
+\setlength{\LTcapwidth}{\textwidth}
+\begin{longtable}{llrrrrrrrr}
+\caption{Gemini 3.1 Flash Lite P1: archived ChatGPT neutral scores (QUARANTINED; not inferential).}\label{tab:s4-neu31}\\
+\toprule
+Judge & Metric & $n$ & M1 & M3 & $\Delta$ & 95\% CI for $\Delta$ & M3$>$M1 & M1$>$M3 & $p_{\mathrm{Holm}}$ \\
+\midrule\endfirsthead
+\multicolumn{10}{l}{\small\itshape Continued}\\
+\toprule Judge & Metric & $n$ & M1 & M3 & $\Delta$ & 95\% CI for $\Delta$ & M3$>$M1 & M1$>$M3 & $p_{\mathrm{Holm}}$ \\ \midrule\endhead
+\bottomrule\endfoot
+ChatGPT Plus 5.5 Web & Novelty & 60 & 3.282 & 2.797 & -0.485 & [-0.555, -0.415] & 2 & 56 & $<.001$ \\
+ChatGPT Plus 5.5 Web & Conceptual Coherence & 60 & 3.575 & 4.213 & 0.638 & [0.557, 0.715] & 58 & 2 & $<.001$ \\
+ChatGPT Plus 5.5 Web & User Pain Plausibility & 60 & 3.688 & 3.688 & 0.000 & [0.000, 0.000] & 0 & 0 & — \\
+ChatGPT Plus 5.5 Web & Technical Plausibility & 60 & 3.603 & 4.310 & 0.707 & [0.607, 0.810] & 58 & 1 & $<.001$ \\
+ChatGPT Plus 5.5 Web & MVP Clarity & 60 & 3.600 & 4.465 & 0.865 & [0.797, 0.935] & 60 & 0 & $<.001$ \\
+ChatGPT Plus 5.5 Web & Business Model Plausibility & 60 & 2.697 & 2.740 & 0.043 & [0.023, 0.065] & 21 & 3 & $<.001$ \\
+ChatGPT Plus 5.5 Web & Unsupported Claim Risk & 60 & 2.260 & 1.548 & -0.712 & [-0.810, -0.615] & 1 & 59 & $<.001$ \\
+ChatGPT Plus 5.5 Web & Ethical Privacy Risk & 60 & 2.033 & 1.887 & -0.147 & [-0.198, -0.102] & 2 & 40 & $<.001$ \\
+ChatGPT Plus 5.5 Web & Overall MVP Usefulness & 60 & 3.498 & 4.028 & 0.530 & [0.473, 0.587] & 59 & 1 & $<.001$ \\
+ChatGPT Plus 5.5 Web & Prototype Willingness & 60 & 3.423 & 4.090 & 0.667 & [0.600, 0.735] & 59 & 1 & $<.001$ \\
+\end{longtable}
+\end{landscape}
+\small
+\begin{longtable}{lrrrrrr}
+\caption{Gemini 3.1 Flash Lite P1: archived ChatGPT neutral preferences (QUARANTINED; not inferential).}\label{tab:s5-neupref31}\\
+\toprule Judge & $n$ & Transformation & Reference & Tie & Transformation share excl. ties & $p$ \\ \midrule\endfirsthead
+\toprule Judge & $n$ & Transformation & Reference & Tie & Transformation share excl. ties & $p$ \\ \midrule\endhead
+\bottomrule\endfoot
+ChatGPT Plus 5.5 Web & 60 & 1 & 52 & 7 & 0.019 & $<.001$ \\
+ChatGPT Plus 5.5 Web & 60 & 56 & 1 & 3 & 0.982 & $<.001$ \\
+ChatGPT Plus 5.5 Web & 60 & 0 & 0 & 60 & nan & — \\
+ChatGPT Plus 5.5 Web & 60 & 57 & 0 & 3 & 1.000 & $<.001$ \\
+ChatGPT Plus 5.5 Web & 60 & 60 & 0 & 0 & 1.000 & $<.001$ \\
+ChatGPT Plus 5.5 Web & 60 & 6 & 0 & 54 & 1.000 & .031 \\
+ChatGPT Plus 5.5 Web & 60 & 55 & 0 & 5 & 1.000 & $<.001$ \\
+ChatGPT Plus 5.5 Web & 60 & 19 & 0 & 41 & 1.000 & $<.001$ \\
+ChatGPT Plus 5.5 Web & 60 & 59 & 1 & 0 & 0.983 & $<.001$ \\
+ChatGPT Plus 5.5 Web & 60 & 59 & 0 & 1 & 1.000 & $<.001$ \\
+\end{longtable}
+\section*{S5. Gemini 2.5 Flash Lite P0 supporting evidence}
+\begin{landscape}
+\small
+\setlength{\LTcapwidth}{\textwidth}
+\begin{longtable}{llrrrrrrrr}
+\caption{Gemini 2.5 Flash Lite P0: individual-card paired statistics ($n=38$ pairs per evaluator; supporting only).}\label{tab:s6-ind25p0}\\
+\toprule
+Judge & Metric & $n$ & M1 & M3 & $\Delta$ & 95\% CI for $\Delta$ & M3$>$M1 & M1$>$M3 & $p_{\mathrm{Holm}}$ \\
+\midrule\endfirsthead
+\multicolumn{10}{l}{\small\itshape Continued}\\
+\toprule Judge & Metric & $n$ & M1 & M3 & $\Delta$ & 95\% CI for $\Delta$ & M3$>$M1 & M1$>$M3 & $p_{\mathrm{Holm}}$ \\ \midrule\endhead
+\bottomrule\endfoot
+ChatGPT Plus 5.5 Web & Novelty & 38 & 3.784 & 3.518 & -0.266 & [-0.316, -0.216] & 1 & 36 & $<.001$ \\
+ChatGPT Plus 5.5 Web & Conceptual Coherence & 38 & 3.766 & 4.289 & 0.524 & [0.405, 0.653] & 36 & 0 & $<.001$ \\
+ChatGPT Plus 5.5 Web & User Pain Plausibility & 38 & 3.553 & 3.587 & 0.034 & [0.011, 0.061] & 9 & 1 & .016 \\
+ChatGPT Plus 5.5 Web & Technical Plausibility & 38 & 3.892 & 4.329 & 0.437 & [0.329, 0.553] & 35 & 0 & $<.001$ \\
+ChatGPT Plus 5.5 Web & MVP Clarity & 38 & 3.955 & 4.466 & 0.511 & [0.376, 0.663] & 35 & 0 & $<.001$ \\
+ChatGPT Plus 5.5 Web & Business Model Plausibility & 38 & 3.037 & 3.150 & 0.113 & [0.071, 0.163] & 22 & 1 & $<.001$ \\
+ChatGPT Plus 5.5 Web & Unsupported Claim Risk & 38 & 3.024 & 2.361 & -0.663 & [-0.845, -0.489] & 1 & 34 & $<.001$ \\
+ChatGPT Plus 5.5 Web & Ethical Privacy Risk & 38 & 2.450 & 2.163 & -0.287 & [-0.432, -0.158] & 3 & 28 & $<.001$ \\
+ChatGPT Plus 5.5 Web & Overall MVP Usefulness & 38 & 3.524 & 3.861 & 0.337 & [0.258, 0.421] & 34 & 1 & $<.001$ \\
+ChatGPT Plus 5.5 Web & Prototype Willingness & 38 & 3.503 & 3.974 & 0.471 & [0.358, 0.589] & 37 & 0 & $<.001$ \\
+Gemini 3.1 Pro Web & Novelty & 38 & 4.197 & 4.053 & -0.145 & [-0.237, -0.066] & 1 & 11 & .035 \\
+Gemini 3.1 Pro Web & Conceptual Coherence & 38 & 4.342 & 4.408 & 0.066 & [-0.013, 0.158] & 6 & 2 & .469 \\
+Gemini 3.1 Pro Web & User Pain Plausibility & 38 & 4.132 & 4.158 & 0.026 & [-0.039, 0.092] & 4 & 2 & .688 \\
+Gemini 3.1 Pro Web & Technical Plausibility & 38 & 4.158 & 4.434 & 0.276 & [0.118, 0.461] & 16 & 4 & .032 \\
+Gemini 3.1 Pro Web & MVP Clarity & 38 & 4.671 & 4.855 & 0.184 & [0.079, 0.303] & 13 & 2 & .032 \\
+Gemini 3.1 Pro Web & Business Model Plausibility & 38 & 3.303 & 3.461 & 0.158 & [0.066, 0.250] & 12 & 1 & .032 \\
+Gemini 3.1 Pro Web & Unsupported Claim Risk & 38 & 1.750 & 1.382 & -0.368 & [-0.592, -0.158] & 3 & 15 & .032 \\
+Gemini 3.1 Pro Web & Ethical Privacy Risk & 38 & 1.566 & 1.395 & -0.171 & [-0.316, -0.053] & 0 & 8 & .039 \\
+Gemini 3.1 Pro Web & Overall MVP Usefulness & 38 & 4.237 & 4.355 & 0.118 & [0.013, 0.237] & 9 & 3 & .195 \\
+Gemini 3.1 Pro Web & Prototype Willingness & 38 & 4.118 & 4.263 & 0.145 & [0.013, 0.276] & 11 & 4 & .160 \\
+\end{longtable}
+\end{landscape}
+\begin{landscape}
+\small
+\begin{longtable}{llrrrrrrr}
+\caption{Gemini 2.5 Flash Lite P0: role-aware directional paired statistics. Mean column is M3--M1 delta; supporting only.}\label{tab:s7-dir25p0}\\
+\toprule
+Judge & Metric & $n$ & Mean & SD & Median & 95\% bootstrap CI & $\geq4$ & $\leq2$ \\
+\midrule\endfirsthead
+\multicolumn{9}{l}{\small\itshape Continued}\\
+\toprule Judge & Metric & $n$ & Mean & SD & Median & 95\% bootstrap CI & $\geq4$ & $\leq2$ \\ \midrule\endhead
+\bottomrule\endfoot
+ChatGPT Plus 5.5 Web & Business Model Plausibility & 38 & 0.218 & — & 0.200 & [0.171, 0.276] & 37 & 1 \\
+ChatGPT Plus 5.5 Web & Conceptual Coherence & 38 & 1.229 & — & 1.200 & [1.105, 1.358] & 38 & 0 \\
+ChatGPT Plus 5.5 Web & Creative Distinctiveness & 38 & -0.629 & — & -0.600 & [-0.682, -0.576] & 0 & 38 \\
+ChatGPT Plus 5.5 Web & Ethical Privacy Risk & 38 & -0.626 & — & -0.650 & [-0.755, -0.497] & 1 & 36 \\
+ChatGPT Plus 5.5 Web & MVP Clarity & 38 & 0.942 & — & 0.850 & [0.737, 1.153] & 37 & 1 \\
+ChatGPT Plus 5.5 Web & Technical Plausibility & 38 & 0.832 & — & 0.700 & [0.653, 1.016] & 37 & 1 \\
+ChatGPT Plus 5.5 Web & Unsupported Claim Risk & 38 & -1.347 & — & -1.400 & [-1.489, -1.195] & 1 & 37 \\
+Gemini 3.1 Pro Web & Business Model Plausibility & 38 & 0.039 & — & 0.000 & [0.000, 0.092] & 3 & 0 \\
+Gemini 3.1 Pro Web & Conceptual Coherence & 38 & 0.395 & — & 0.500 & [0.224, 0.566] & 23 & 5 \\
+Gemini 3.1 Pro Web & Creative Distinctiveness & 38 & -1.013 & — & -1.000 & [-1.118, -0.908] & 0 & 38 \\
+Gemini 3.1 Pro Web & Ethical Privacy Risk & 38 & -0.284 & — & 0.000 & [-0.442, -0.153] & 1 & 16 \\
+Gemini 3.1 Pro Web & MVP Clarity & 38 & 0.489 & — & 0.500 & [0.324, 0.666] & 27 & 3 \\
+Gemini 3.1 Pro Web & Technical Plausibility & 38 & 0.763 & — & 0.500 & [0.566, 0.974] & 31 & 1 \\
+Gemini 3.1 Pro Web & Unsupported Claim Risk & 38 & -0.921 & — & -0.500 & [-1.118, -0.737] & 1 & 36 \\
+\end{longtable}
+\end{landscape}
+\small
+\begin{longtable}{lrrrrrr}
+\caption{Gemini 2.5 Flash Lite P0: directional prototype choice; supporting only.}\label{tab:s8-pref25p0}\\
+\toprule Judge & $n$ & Transformation & Reference & Tie & Transformation share excl. ties & $p$ \\ \midrule\endfirsthead
+\toprule Judge & $n$ & Transformation & Reference & Tie & Transformation share excl. ties & $p$ \\ \midrule\endhead
+\bottomrule\endfoot
+ChatGPT Plus 5.5 Web & 38 & 35 & 2 & 1 & 0.946 & $<.001$ \\
+Gemini 3.1 Pro Web & 38 & 19 & 17 & 2 & 0.528 & .868 \\
+\end{longtable}
+\section*{S6. Gemini 2.5 Flash Lite P1 supporting evidence}
+\begin{landscape}
+\small
+\setlength{\LTcapwidth}{\textwidth}
+\begin{longtable}{llrrrrrrrr}
+\caption{Gemini 2.5 Flash Lite P1: individual-card paired statistics ($n=35$ pairs per evaluator; supporting only).}\label{tab:s9-ind25p1}\\
+\toprule
+Judge & Metric & $n$ & M1 & M3 & $\Delta$ & 95\% CI for $\Delta$ & M3$>$M1 & M1$>$M3 & $p_{\mathrm{Holm}}$ \\
+\midrule\endfirsthead
+\multicolumn{10}{l}{\small\itshape Continued}\\
+\toprule Judge & Metric & $n$ & M1 & M3 & $\Delta$ & 95\% CI for $\Delta$ & M3$>$M1 & M1$>$M3 & $p_{\mathrm{Holm}}$ \\ \midrule\endhead
+\bottomrule\endfoot
+ChatGPT Plus 5.5 Web & Novelty & 35 & 3.214 & 3.129 & -0.086 & [-0.140, -0.040] & 1 & 15 & .003 \\
+ChatGPT Plus 5.5 Web & Conceptual Coherence & 35 & 4.389 & 4.451 & 0.063 & [0.034, 0.091] & 18 & 2 & .003 \\
+ChatGPT Plus 5.5 Web & User Pain Plausibility & 35 & 3.489 & 3.489 & 0.000 & [0.000, 0.000] & 0 & 0 & — \\
+ChatGPT Plus 5.5 Web & Technical Plausibility & 35 & 3.780 & 4.051 & 0.271 & [0.146, 0.414] & 23 & 4 & $<.001$ \\
+ChatGPT Plus 5.5 Web & MVP Clarity & 35 & 4.231 & 4.420 & 0.189 & [0.111, 0.274] & 25 & 6 & $<.001$ \\
+ChatGPT Plus 5.5 Web & Business Model Plausibility & 35 & 2.891 & 2.894 & 0.003 & [-0.037, 0.046] & 7 & 7 & .900 \\
+ChatGPT Plus 5.5 Web & Unsupported Claim Risk & 35 & 2.017 & 1.657 & -0.360 & [-0.537, -0.203] & 4 & 24 & $<.001$ \\
+ChatGPT Plus 5.5 Web & Ethical Privacy Risk & 35 & 2.026 & 1.937 & -0.089 & [-0.174, -0.020] & 5 & 13 & .012 \\
+ChatGPT Plus 5.5 Web & Overall MVP Usefulness & 35 & 3.671 & 3.763 & 0.091 & [0.051, 0.134] & 21 & 3 & .003 \\
+ChatGPT Plus 5.5 Web & Prototype Willingness & 35 & 3.520 & 3.654 & 0.134 & [0.077, 0.197] & 20 & 1 & $<.001$ \\
+Gemini 3.1 Pro Web & Novelty & 35 & 3.286 & 3.200 & -0.086 & [-0.200, 0.000] & 0 & 3 & .500 \\
+Gemini 3.1 Pro Web & Conceptual Coherence & 35 & 4.086 & 4.486 & 0.400 & [0.229, 0.571] & 14 & 0 & .001 \\
+Gemini 3.1 Pro Web & User Pain Plausibility & 35 & 4.029 & 4.029 & 0.000 & [0.000, 0.000] & 0 & 0 & — \\
+Gemini 3.1 Pro Web & Technical Plausibility & 35 & 3.686 & 4.143 & 0.457 & [0.286, 0.629] & 16 & 0 & $<.001$ \\
+Gemini 3.1 Pro Web & MVP Clarity & 35 & 4.171 & 4.914 & 0.743 & [0.600, 0.886] & 26 & 0 & $<.001$ \\
+Gemini 3.1 Pro Web & Business Model Plausibility & 35 & 3.114 & 3.229 & 0.114 & [0.029, 0.229] & 4 & 0 & .375 \\
+Gemini 3.1 Pro Web & Unsupported Claim Risk & 35 & 1.314 & 1.057 & -0.257 & [-0.400, -0.114] & 0 & 9 & .017 \\
+Gemini 3.1 Pro Web & Ethical Privacy Risk & 35 & 1.286 & 1.200 & -0.086 & [-0.171, 0.000] & 0 & 3 & .500 \\
+Gemini 3.1 Pro Web & Overall MVP Usefulness & 35 & 4.000 & 4.000 & 0.000 & [0.000, 0.000] & 0 & 0 & — \\
+Gemini 3.1 Pro Web & Prototype Willingness & 35 & 3.600 & 3.914 & 0.314 & [0.143, 0.486] & 12 & 1 & .017 \\
+\end{longtable}
+\end{landscape}
+\begin{landscape}
+\small
+\begin{longtable}{llrrrrrrr}
+\caption{Gemini 2.5 Flash Lite P1: role-aware directional traceability metrics ($n=35$ pairs per evaluator; supporting only).}\label{tab:s10-dir25p1}\\
+\toprule
+Judge & Metric & $n$ & Mean & SD & Median & 95\% bootstrap CI & $\geq4$ & $\leq2$ \\
+\midrule\endfirsthead
+\multicolumn{9}{l}{\small\itshape Continued}\\
+\toprule Judge & Metric & $n$ & Mean & SD & Median & 95\% bootstrap CI & $\geq4$ & $\leq2$ \\ \midrule\endhead
+\bottomrule\endfoot
+ChatGPT Plus 5.5 Web & Creative Core Preservation & 35 & 3.926 & 0.692 & 4.000 & [3.694, 4.149] & 19 & 0 \\
+ChatGPT Plus 5.5 Web & Novelty Retention & 35 & 3.749 & 0.717 & 3.800 & [3.509, 3.980] & 14 & 2 \\
+ChatGPT Plus 5.5 Web & Practical MVP Improvement & 35 & 4.420 & 0.123 & 4.400 & [4.380, 4.460] & 35 & 0 \\
+ChatGPT Plus 5.5 Web & Overclaim Removal Quality & 35 & 4.234 & 0.304 & 4.200 & [4.137, 4.334] & 30 & 0 \\
+ChatGPT Plus 5.5 Web & Semantic Drift Risk & 35 & 2.543 & 0.849 & 2.600 & [2.263, 2.820] & 2 & 11 \\
+Gemini 3.1 Pro Web & Creative Core Preservation & 35 & 4.014 & 0.636 & 4.000 & [3.800, 4.214] & 26 & 1 \\
+Gemini 3.1 Pro Web & Novelty Retention & 35 & 3.700 & 0.778 & 4.000 & [3.443, 3.943] & 18 & 2 \\
+Gemini 3.1 Pro Web & Practical MVP Improvement & 35 & 4.429 & 0.178 & 4.500 & [4.371, 4.486] & 35 & 0 \\
+Gemini 3.1 Pro Web & Overclaim Removal Quality & 35 & 4.043 & 0.491 & 4.000 & [3.886, 4.200] & 26 & 0 \\
+Gemini 3.1 Pro Web & Semantic Drift Risk & 35 & 1.971 & 0.874 & 2.000 & [1.700, 2.271] & 2 & 25 \\
+\end{longtable}
+\end{landscape}
+\small
+\begin{longtable}{lrrrrrr}
+\caption{Gemini 2.5 Flash Lite P1: directional prototype choice; supporting only.}\label{tab:s11-pref25p1}\\
+\toprule Judge & $n$ & Transformation & Reference & Tie & Transformation share excl. ties & $p$ \\ \midrule\endfirsthead
+\toprule Judge & $n$ & Transformation & Reference & Tie & Transformation share excl. ties & $p$ \\ \midrule\endhead
+\bottomrule\endfoot
+ChatGPT Plus 5.5 Web & 35 & 31 & 4 & 0 & 0.886 & $<.001$ \\
+Gemini 3.1 Pro Web & 35 & 33 & 2 & 0 & 0.943 & $<.001$ \\
+\end{longtable}
+\section*{S7. Gemini 2.5 Flash Lite P1 neutral results (non-confirmatory)}
+No neutral score or preference effect survived the pre-specified Holm correction.
+These tables are reported for completeness and are not used to establish M3 superiority.
+\begin{landscape}
+\small
+\setlength{\LTcapwidth}{\textwidth}
+\begin{longtable}{llrrrrrrrr}
+\caption{Gemini 2.5 Flash Lite P1: neutral paired scores (NON-CONFIRMATORY).}\label{tab:s12-neu25p1}\\
+\toprule
+Judge & Metric & $n$ & M1 & M3 & $\Delta$ & 95\% CI for $\Delta$ & M3$>$M1 & M1$>$M3 & $p_{\mathrm{Holm}}$ \\
+\midrule\endfirsthead
+\multicolumn{10}{l}{\small\itshape Continued}\\
+\toprule Judge & Metric & $n$ & M1 & M3 & $\Delta$ & 95\% CI for $\Delta$ & M3$>$M1 & M1$>$M3 & $p_{\mathrm{Holm}}$ \\ \midrule\endhead
+\bottomrule\endfoot
+ChatGPT Plus 5.5 Web & Novelty & 35 & 3.280 & 3.220 & -0.060 & [-0.160, 0.043] & 14 & 21 & 1.000 \\
+ChatGPT Plus 5.5 Web & Conceptual Coherence & 35 & 4.069 & 4.146 & 0.077 & [-0.111, 0.254] & 21 & 14 & 1.000 \\
+ChatGPT Plus 5.5 Web & User Pain Plausibility & 35 & 3.803 & 3.803 & 0.000 & [0.000, 0.000] & 0 & 0 & — \\
+ChatGPT Plus 5.5 Web & Technical Plausibility & 35 & 3.643 & 3.834 & 0.191 & [-0.071, 0.451] & 21 & 14 & 1.000 \\
+ChatGPT Plus 5.5 Web & MVP Clarity & 35 & 4.049 & 4.240 & 0.191 & [-0.060, 0.437] & 21 & 14 & 1.000 \\
+ChatGPT Plus 5.5 Web & Business Model Plausibility & 35 & 2.369 & 2.429 & 0.060 & [-0.011, 0.154] & 3 & 1 & 1.000 \\
+ChatGPT Plus 5.5 Web & Unsupported Claim Risk & 35 & 2.323 & 2.066 & -0.257 & [-0.546, 0.034] & 14 & 21 & .912 \\
+ChatGPT Plus 5.5 Web & Ethical Privacy Risk & 35 & 2.471 & 2.409 & -0.063 & [-0.203, 0.054] & 10 & 8 & 1.000 \\
+ChatGPT Plus 5.5 Web & Overall MVP Usefulness & 35 & 3.851 & 4.000 & 0.149 & [-0.043, 0.334] & 21 & 14 & 1.000 \\
+ChatGPT Plus 5.5 Web & Prototype Willingness & 35 & 3.811 & 3.980 & 0.169 & [-0.051, 0.386] & 21 & 14 & 1.000 \\
+Gemini 3.1 Pro Web & Novelty & 35 & 2.914 & 2.700 & -0.214 & [-0.471, 0.043] & 11 & 18 & .551 \\
+Gemini 3.1 Pro Web & Conceptual Coherence & 35 & 3.971 & 4.191 & 0.220 & [-0.066, 0.500] & 20 & 14 & .551 \\
+Gemini 3.1 Pro Web & User Pain Plausibility & 35 & 4.066 & 4.066 & 0.000 & [0.000, 0.000] & 0 & 0 & — \\
+Gemini 3.1 Pro Web & Technical Plausibility & 35 & 3.540 & 3.986 & 0.446 & [-0.083, 0.974] & 20 & 14 & .551 \\
+Gemini 3.1 Pro Web & MVP Clarity & 35 & 3.909 & 4.249 & 0.340 & [-0.103, 0.774] & 21 & 14 & .551 \\
+Gemini 3.1 Pro Web & Business Model Plausibility & 35 & 1.700 & 1.786 & 0.086 & [0.000, 0.214] & 2 & 0 & .836 \\
+Gemini 3.1 Pro Web & Unsupported Claim Risk & 35 & 2.486 & 2.014 & -0.471 & [-0.957, 0.014] & 14 & 21 & .551 \\
+Gemini 3.1 Pro Web & Ethical Privacy Risk & 35 & 1.757 & 1.671 & -0.086 & [-0.257, 0.071] & 4 & 7 & .836 \\
+Gemini 3.1 Pro Web & Overall MVP Usefulness & 35 & 3.743 & 4.097 & 0.354 & [-0.017, 0.726] & 20 & 14 & .551 \\
+Gemini 3.1 Pro Web & Prototype Willingness & 35 & 3.634 & 4.063 & 0.429 & [-0.009, 0.866] & 20 & 14 & .551 \\
+\end{longtable}
+\end{landscape}
+\small
+\begin{longtable}{lrrrrrr}
+\caption{Gemini 2.5 Flash Lite P1: neutral preference summary (NON-CONFIRMATORY).}\label{tab:s13-neupref25p1}\\
+\toprule Judge & $n$ & Transformation & Reference & Tie & Transformation share excl. ties & $p$ \\ \midrule\endfirsthead
+\toprule Judge & $n$ & Transformation & Reference & Tie & Transformation share excl. ties & $p$ \\ \midrule\endhead
+\bottomrule\endfoot
+ChatGPT Plus 5.5 Web & 35 & 11 & 18 & 6 & 0.379 & 1.000 \\
+ChatGPT Plus 5.5 Web & 35 & 21 & 14 & 0 & 0.600 & 1.000 \\
+ChatGPT Plus 5.5 Web & 35 & 0 & 0 & 35 & nan & — \\
+ChatGPT Plus 5.5 Web & 35 & 21 & 14 & 0 & 0.600 & 1.000 \\
+ChatGPT Plus 5.5 Web & 35 & 21 & 14 & 0 & 0.600 & 1.000 \\
+ChatGPT Plus 5.5 Web & 35 & 3 & 1 & 31 & 0.750 & 1.000 \\
+ChatGPT Plus 5.5 Web & 35 & 21 & 14 & 0 & 0.600 & 1.000 \\
+ChatGPT Plus 5.5 Web & 35 & 8 & 3 & 24 & 0.727 & 1.000 \\
+ChatGPT Plus 5.5 Web & 35 & 21 & 14 & 0 & 0.600 & 1.000 \\
+ChatGPT Plus 5.5 Web & 35 & 21 & 14 & 0 & 0.600 & 1.000 \\
+Gemini 3.1 Pro Web & 35 & 11 & 18 & 6 & 0.379 & 1.000 \\
+Gemini 3.1 Pro Web & 35 & 20 & 14 & 1 & 0.588 & 1.000 \\
+Gemini 3.1 Pro Web & 35 & 0 & 0 & 35 & nan & — \\
+Gemini 3.1 Pro Web & 35 & 20 & 14 & 1 & 0.588 & 1.000 \\
+Gemini 3.1 Pro Web & 35 & 20 & 14 & 1 & 0.588 & 1.000 \\
+Gemini 3.1 Pro Web & 35 & 2 & 0 & 33 & 1.000 & 1.000 \\
+Gemini 3.1 Pro Web & 35 & 21 & 14 & 0 & 0.600 & 1.000 \\
+Gemini 3.1 Pro Web & 35 & 7 & 4 & 24 & 0.636 & 1.000 \\
+Gemini 3.1 Pro Web & 35 & 20 & 14 & 1 & 0.588 & 1.000 \\
+Gemini 3.1 Pro Web & 35 & 20 & 14 & 1 & 0.588 & 1.000 \\
+\end{longtable}
+
+\section*{S8. Descriptive all-condition tables and exploratory M0 contrasts}
+M0 is not matched at the idea level to M1/M3. The following tables are provided for
+completeness only. They are descriptive or exploratory, and are not used as
+confirmatory evidence in the manuscript.
+\begin{landscape}
+\small
+\begin{longtable}{lllrrrr}
+\caption{Gemini 3.1 Flash Lite P1: descriptive M0/M1/M3 method-metric means.}\label{tab:s14-method31}\\
+\toprule Judge & Method & Metric & $n$ & Mean & SD & Median \\ \midrule\endfirsthead
+\toprule Judge & Method & Metric & $n$ & Mean & SD & Median \\ \midrule\endhead
+\bottomrule\endfoot
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & Business Model Plausibility & 60 & 3.017 & 0.504 & 3.500 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & Conceptual Coherence & 60 & 4.000 & 0.000 & 4.000 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & Ethical Privacy Risk & 60 & 1.958 & 1.094 & 1.000 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & MVP Clarity & 60 & 4.417 & 0.188 & 4.500 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & Novelty & 60 & 2.767 & 0.446 & 2.500 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & Overall MVP Usefulness & 60 & 3.765 & 0.206 & 3.800 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & Prototype Willingness & 60 & 3.828 & 0.252 & 3.900 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & Technical Plausibility & 60 & 4.150 & 0.372 & 4.000 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & Unsupported Claim Risk & 60 & 2.183 & 0.582 & 2.000 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & User Pain Plausibility & 60 & 3.808 & 0.245 & 4.000 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & Business Model Plausibility & 60 & 2.900 & 0.494 & 2.500 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & Conceptual Coherence & 60 & 3.950 & 0.272 & 4.000 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & Ethical Privacy Risk & 60 & 1.967 & 1.073 & 1.000 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & MVP Clarity & 60 & 4.367 & 0.223 & 4.500 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & Novelty & 60 & 2.850 & 0.481 & 2.500 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & Overall MVP Usefulness & 60 & 3.725 & 0.182 & 3.800 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & Prototype Willingness & 60 & 3.787 & 0.211 & 3.800 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & Technical Plausibility & 60 & 4.092 & 0.362 & 4.000 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & Unsupported Claim Risk & 60 & 2.183 & 0.529 & 2.000 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & User Pain Plausibility & 60 & 3.708 & 0.249 & 3.500 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & Business Model Plausibility & 60 & 3.033 & 0.503 & 3.500 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & Conceptual Coherence & 60 & 3.992 & 0.065 & 4.000 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & Ethical Privacy Risk & 60 & 1.933 & 1.064 & 1.000 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & MVP Clarity & 60 & 4.342 & 0.235 & 4.500 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & Novelty & 60 & 2.783 & 0.454 & 2.500 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & Overall MVP Usefulness & 60 & 3.775 & 0.205 & 3.800 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & Prototype Willingness & 60 & 3.842 & 0.234 & 3.900 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & Technical Plausibility & 60 & 4.242 & 0.268 & 4.250 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & Unsupported Claim Risk & 60 & 1.992 & 0.491 & 2.000 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & User Pain Plausibility & 60 & 3.708 & 0.249 & 3.500 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & Business Model Plausibility & 60 & 3.017 & 0.725 & 3.000 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & Conceptual Coherence & 60 & 4.233 & 0.427 & 4.000 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & Ethical Privacy Risk & 60 & 1.383 & 0.739 & 1.000 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & MVP Clarity & 60 & 4.300 & 0.530 & 4.000 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & Novelty & 60 & 3.233 & 0.621 & 3.000 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & Overall MVP Usefulness & 60 & 3.933 & 0.660 & 4.000 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & Prototype Willingness & 60 & 3.683 & 0.651 & 4.000 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & Technical Plausibility & 60 & 4.033 & 0.712 & 4.000 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & Unsupported Claim Risk & 60 & 1.250 & 0.474 & 1.000 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & User Pain Plausibility & 60 & 3.933 & 0.660 & 4.000 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & Business Model Plausibility & 60 & 2.900 & 0.775 & 3.000 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & Conceptual Coherence & 60 & 4.133 & 0.566 & 4.000 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & Ethical Privacy Risk & 60 & 1.350 & 0.606 & 1.000 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & MVP Clarity & 60 & 4.100 & 0.602 & 4.000 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & Novelty & 60 & 3.667 & 0.729 & 4.000 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & Overall MVP Usefulness & 60 & 3.750 & 0.704 & 4.000 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & Prototype Willingness & 60 & 3.533 & 0.724 & 4.000 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & Technical Plausibility & 60 & 3.767 & 0.909 & 4.000 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & Unsupported Claim Risk & 60 & 1.500 & 0.651 & 1.000 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & User Pain Plausibility & 60 & 3.800 & 0.684 & 4.000 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & Business Model Plausibility & 60 & 2.867 & 0.769 & 3.000 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & Conceptual Coherence & 60 & 4.200 & 0.443 & 4.000 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & Ethical Privacy Risk & 60 & 1.233 & 0.465 & 1.000 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & MVP Clarity & 60 & 4.683 & 0.469 & 5.000 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & Novelty & 60 & 3.450 & 0.675 & 3.000 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & Overall MVP Usefulness & 60 & 3.983 & 0.596 & 4.000 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & Prototype Willingness & 60 & 3.900 & 0.573 & 4.000 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & Technical Plausibility & 60 & 4.200 & 0.632 & 4.000 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & Unsupported Claim Risk & 60 & 1.167 & 0.376 & 1.000 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & User Pain Plausibility & 60 & 3.833 & 0.615 & 4.000 \\
+\end{longtable}
+\end{landscape}
+\begin{landscape}
+\small
+\begin{longtable}{lllrrrrrr}
+\caption{Gemini 3.1 Flash Lite P1: exploratory unpaired M0 contrasts.}\label{tab:s15-m031}\\
+\toprule Judge & Metric & Comparison & Left mean & Right mean & $\Delta$ & $U$ & $p_H$ & Exploratory \\ \midrule\endfirsthead
+\toprule Judge & Metric & Comparison & Left mean & Right mean & $\Delta$ & $U$ & $p_H$ & Exploratory \\ \midrule\endhead
+\bottomrule\endfoot
+ChatGPT Plus 5.5 Web & Novelty & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 2.767 & 2.850 & 0.083 & 1650.0 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Novelty & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 2.767 & 2.783 & 0.017 & 1770.0 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Conceptual Coherence & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 4.000 & 3.950 & -0.050 & 1890.0 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Conceptual Coherence & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 4.000 & 3.992 & -0.008 & 1830.0 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & User Pain Plausibility & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.808 & 3.708 & -0.100 & 2160.0 & .585 & Yes \\
+ChatGPT Plus 5.5 Web & User Pain Plausibility & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.808 & 3.708 & -0.100 & 2160.0 & .585 & Yes \\
+ChatGPT Plus 5.5 Web & Technical Plausibility & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 4.150 & 4.092 & -0.058 & 1984.0 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Technical Plausibility & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 4.150 & 4.242 & 0.092 & 1606.0 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & MVP Clarity & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 4.417 & 4.367 & -0.050 & 1980.0 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & MVP Clarity & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 4.417 & 4.342 & -0.075 & 2070.0 & .959 & Yes \\
+ChatGPT Plus 5.5 Web & Business Model Plausibility & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.017 & 2.900 & -0.117 & 2010.0 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Business Model Plausibility & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.017 & 3.033 & 0.017 & 1770.0 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Unsupported Claim Risk & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 2.183 & 2.183 & 0.000 & 1763.5 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Unsupported Claim Risk & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 2.183 & 1.992 & -0.192 & 2145.5 & .837 & Yes \\
+ChatGPT Plus 5.5 Web & Ethical Privacy Risk & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 1.958 & 1.967 & 0.008 & 1791.0 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Ethical Privacy Risk & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 1.958 & 1.933 & -0.025 & 1821.0 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Overall MVP Usefulness & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.765 & 3.725 & -0.040 & 2108.5 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Overall MVP Usefulness & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.765 & 3.775 & 0.010 & 1759.5 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Prototype Willingness & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.828 & 3.787 & -0.042 & 2098.0 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Prototype Willingness & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.828 & 3.842 & 0.013 & 1783.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Novelty & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.233 & 3.667 & 0.433 & 1227.0 & .015 & Yes \\
+Gemini 3.1 Pro Web & Novelty & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.233 & 3.450 & 0.217 & 1497.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Conceptual Coherence & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 4.233 & 4.133 & -0.100 & 1938.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Conceptual Coherence & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 4.233 & 4.200 & -0.033 & 1853.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & User Pain Plausibility & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.933 & 3.800 & -0.133 & 1992.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & User Pain Plausibility & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.933 & 3.833 & -0.100 & 1939.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Technical Plausibility & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 4.033 & 3.767 & -0.267 & 2090.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Technical Plausibility & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 4.033 & 4.200 & 0.167 & 1588.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & MVP Clarity & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 4.300 & 4.100 & -0.200 & 2094.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & MVP Clarity & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 4.300 & 4.683 & 0.383 & 1151.0 & .002 & Yes \\
+Gemini 3.1 Pro Web & Business Model Plausibility & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.017 & 2.900 & -0.117 & 1940.5 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Business Model Plausibility & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.017 & 2.867 & -0.150 & 1985.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Unsupported Claim Risk & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 1.250 & 1.500 & 0.250 & 1447.5 & .435 & Yes \\
+Gemini 3.1 Pro Web & Unsupported Claim Risk & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 1.250 & 1.167 & -0.083 & 1925.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Ethical Privacy Risk & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 1.383 & 1.350 & -0.033 & 1784.5 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Ethical Privacy Risk & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 1.383 & 1.233 & -0.150 & 1915.5 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Overall MVP Usefulness & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.933 & 3.750 & -0.183 & 2027.5 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Overall MVP Usefulness & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.933 & 3.983 & 0.050 & 1724.5 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Prototype Willingness & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.683 & 3.533 & -0.150 & 1988.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Prototype Willingness & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.683 & 3.900 & 0.217 & 1481.5 & .940 & Yes \\
+\end{longtable}
+\end{landscape}
+\begin{landscape}
+\small
+\begin{longtable}{lllrrrr}
+\caption{Gemini 2.5 Flash Lite P0: descriptive M0/M1/M3 method-metric means.}\label{tab:s16-method25p0}\\
+\toprule Judge & Method & Metric & $n$ & Mean & SD & Median \\ \midrule\endfirsthead
+\toprule Judge & Method & Metric & $n$ & Mean & SD & Median \\ \midrule\endhead
+\bottomrule\endfoot
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & Business Model Plausibility & 37 & 3.100 & 0.203 & 3.000 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & Conceptual Coherence & 37 & 4.192 & 0.271 & 4.100 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & Ethical Privacy Risk & 37 & 2.162 & 0.656 & 2.200 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & MVP Clarity & 37 & 4.338 & 0.307 & 4.400 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & Novelty & 37 & 3.608 & 0.427 & 3.700 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & Overall MVP Usefulness & 37 & 3.824 & 0.281 & 3.800 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & Prototype Willingness & 37 & 3.900 & 0.389 & 3.900 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & Technical Plausibility & 37 & 4.095 & 0.488 & 4.200 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & Unsupported Claim Risk & 37 & 2.492 & 0.832 & 2.600 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & User Pain Plausibility & 37 & 3.697 & 0.282 & 3.700 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & Business Model Plausibility & 38 & 3.037 & 0.334 & 3.000 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & Conceptual Coherence & 38 & 3.766 & 0.439 & 3.800 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & Ethical Privacy Risk & 38 & 2.450 & 1.112 & 2.150 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & MVP Clarity & 38 & 3.955 & 0.532 & 4.100 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & Novelty & 38 & 3.784 & 0.378 & 3.800 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & Overall MVP Usefulness & 38 & 3.524 & 0.416 & 3.550 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & Prototype Willingness & 38 & 3.503 & 0.566 & 3.550 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & Technical Plausibility & 38 & 3.892 & 0.547 & 3.950 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & Unsupported Claim Risk & 38 & 3.024 & 0.792 & 2.800 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & User Pain Plausibility & 38 & 3.553 & 0.416 & 3.550 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & Business Model Plausibility & 38 & 3.150 & 0.345 & 3.100 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & Conceptual Coherence & 38 & 4.289 & 0.292 & 4.400 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & Ethical Privacy Risk & 38 & 2.163 & 0.997 & 2.000 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & MVP Clarity & 38 & 4.466 & 0.332 & 4.550 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & Novelty & 38 & 3.518 & 0.365 & 3.500 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & Overall MVP Usefulness & 38 & 3.861 & 0.269 & 3.900 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & Prototype Willingness & 38 & 3.974 & 0.342 & 4.000 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & Technical Plausibility & 38 & 4.329 & 0.431 & 4.400 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & Unsupported Claim Risk & 38 & 2.361 & 0.684 & 2.200 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & User Pain Plausibility & 38 & 3.587 & 0.413 & 3.650 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & Business Model Plausibility & 37 & 3.297 & 0.322 & 3.500 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & Conceptual Coherence & 37 & 4.351 & 0.260 & 4.500 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & Ethical Privacy Risk & 37 & 1.257 & 0.279 & 1.000 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & MVP Clarity & 37 & 4.743 & 0.279 & 5.000 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & Novelty & 37 & 3.919 & 0.417 & 4.000 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & Overall MVP Usefulness & 37 & 4.162 & 0.374 & 4.000 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & Prototype Willingness & 37 & 4.095 & 0.350 & 4.000 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & Technical Plausibility & 37 & 4.135 & 0.585 & 4.000 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & Unsupported Claim Risk & 37 & 1.649 & 0.696 & 1.500 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & User Pain Plausibility & 37 & 4.027 & 0.332 & 4.000 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & Business Model Plausibility & 38 & 3.303 & 0.473 & 3.500 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & Conceptual Coherence & 38 & 4.342 & 0.370 & 4.500 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & Ethical Privacy Risk & 38 & 1.566 & 1.073 & 1.000 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & MVP Clarity & 38 & 4.671 & 0.454 & 5.000 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & Novelty & 38 & 4.197 & 0.340 & 4.250 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & Overall MVP Usefulness & 38 & 4.237 & 0.542 & 4.500 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & Prototype Willingness & 38 & 4.118 & 0.598 & 4.500 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & Technical Plausibility & 38 & 4.158 & 0.798 & 4.500 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & Unsupported Claim Risk & 38 & 1.750 & 1.045 & 1.500 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & User Pain Plausibility & 38 & 4.132 & 0.516 & 4.000 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & Business Model Plausibility & 38 & 3.461 & 0.392 & 3.500 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & Conceptual Coherence & 38 & 4.408 & 0.256 & 4.500 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & Ethical Privacy Risk & 38 & 1.395 & 0.840 & 1.000 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & MVP Clarity & 38 & 4.855 & 0.283 & 5.000 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & Novelty & 38 & 4.053 & 0.345 & 4.000 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & Overall MVP Usefulness & 38 & 4.355 & 0.384 & 4.500 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & Prototype Willingness & 38 & 4.263 & 0.398 & 4.500 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & Technical Plausibility & 38 & 4.434 & 0.535 & 4.500 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & Unsupported Claim Risk & 38 & 1.382 & 0.682 & 1.000 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & User Pain Plausibility & 38 & 4.158 & 0.481 & 4.000 \\
+\end{longtable}
+\end{landscape}
+\begin{landscape}
+\small
+\begin{longtable}{lllrrrrrr}
+\caption{Gemini 2.5 Flash Lite P0: exploratory unpaired M0 contrasts.}\label{tab:s17-m025p0}\\
+\toprule Judge & Metric & Comparison & Left mean & Right mean & $\Delta$ & $U$ & $p_H$ & Exploratory \\ \midrule\endfirsthead
+\toprule Judge & Metric & Comparison & Left mean & Right mean & $\Delta$ & $U$ & $p_H$ & Exploratory \\ \midrule\endhead
+\bottomrule\endfoot
+ChatGPT Plus 5.5 Web & Novelty & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.608 & 3.784 & 0.176 & 537.0 & .921 & Yes \\
+ChatGPT Plus 5.5 Web & Novelty & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.608 & 3.518 & -0.090 & 820.0 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Conceptual Coherence & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 4.192 & 3.766 & -0.426 & 1113.0 & $<.001$ & Yes \\
+ChatGPT Plus 5.5 Web & Conceptual Coherence & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 4.192 & 4.289 & 0.098 & 531.0 & .854 & Yes \\
+ChatGPT Plus 5.5 Web & User Pain Plausibility & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.697 & 3.553 & -0.145 & 823.0 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & User Pain Plausibility & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.697 & 3.587 & -0.110 & 785.0 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Technical Plausibility & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 4.095 & 3.892 & -0.202 & 861.0 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Technical Plausibility & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 4.095 & 4.329 & 0.234 & 505.0 & .538 & Yes \\
+ChatGPT Plus 5.5 Web & MVP Clarity & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 4.338 & 3.955 & -0.383 & 1004.5 & .025 & Yes \\
+ChatGPT Plus 5.5 Web & MVP Clarity & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 4.338 & 4.466 & 0.128 & 511.0 & .575 & Yes \\
+ChatGPT Plus 5.5 Web & Business Model Plausibility & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.100 & 3.037 & -0.063 & 815.5 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Business Model Plausibility & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.100 & 3.150 & 0.050 & 678.0 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Unsupported Claim Risk & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 2.492 & 3.024 & 0.532 & 463.0 & .176 & Yes \\
+ChatGPT Plus 5.5 Web & Unsupported Claim Risk & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 2.492 & 2.361 & -0.131 & 760.5 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Ethical Privacy Risk & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 2.162 & 2.450 & 0.288 & 646.5 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Ethical Privacy Risk & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 2.162 & 2.163 & 0.001 & 776.0 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Overall MVP Usefulness & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.824 & 3.524 & -0.301 & 1004.5 & .025 & Yes \\
+ChatGPT Plus 5.5 Web & Overall MVP Usefulness & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.824 & 3.861 & 0.036 & 632.5 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Prototype Willingness & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.900 & 3.503 & -0.397 & 1004.5 & .025 & Yes \\
+ChatGPT Plus 5.5 Web & Prototype Willingness & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.900 & 3.974 & 0.074 & 624.5 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Novelty & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.919 & 4.197 & 0.278 & 443.5 & .059 & Yes \\
+Gemini 3.1 Pro Web & Novelty & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.919 & 4.053 & 0.134 & 592.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Conceptual Coherence & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 4.351 & 4.342 & -0.009 & 677.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Conceptual Coherence & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 4.351 & 4.408 & 0.057 & 630.5 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & User Pain Plausibility & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 4.027 & 4.132 & 0.105 & 623.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & User Pain Plausibility & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 4.027 & 4.158 & 0.131 & 605.5 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Technical Plausibility & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 4.135 & 4.158 & 0.023 & 637.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Technical Plausibility & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 4.135 & 4.434 & 0.299 & 490.0 & .336 & Yes \\
+Gemini 3.1 Pro Web & MVP Clarity & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 4.743 & 4.671 & -0.072 & 713.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & MVP Clarity & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 4.743 & 4.855 & 0.112 & 541.0 & .623 & Yes \\
+Gemini 3.1 Pro Web & Business Model Plausibility & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.297 & 3.303 & 0.005 & 713.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Business Model Plausibility & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.297 & 3.461 & 0.163 & 555.5 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Unsupported Claim Risk & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 1.649 & 1.750 & 0.101 & 757.5 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Unsupported Claim Risk & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 1.649 & 1.382 & -0.267 & 922.5 & .242 & Yes \\
+Gemini 3.1 Pro Web & Ethical Privacy Risk & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 1.257 & 1.566 & 0.309 & 701.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Ethical Privacy Risk & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 1.257 & 1.395 & 0.138 & 773.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Overall MVP Usefulness & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 4.162 & 4.237 & 0.075 & 589.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Overall MVP Usefulness & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 4.162 & 4.355 & 0.193 & 508.0 & .351 & Yes \\
+Gemini 3.1 Pro Web & Prototype Willingness & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 4.095 & 4.118 & 0.024 & 600.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Prototype Willingness & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 4.095 & 4.263 & 0.169 & 508.5 & .392 & Yes \\
+\end{longtable}
+\end{landscape}
+\begin{landscape}
+\small
+\begin{longtable}{lllrrrr}
+\caption{Gemini 2.5 Flash Lite P1: descriptive M0/M1/M3 method-metric means.}\label{tab:s18-method25p1}\\
+\toprule Judge & Method & Metric & $n$ & Mean & SD & Median \\ \midrule\endfirsthead
+\toprule Judge & Method & Metric & $n$ & Mean & SD & Median \\ \midrule\endhead
+\bottomrule\endfoot
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & Business Model Plausibility & 35 & 2.889 & 0.423 & 2.800 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & Conceptual Coherence & 35 & 4.397 & 0.127 & 4.400 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & Ethical Privacy Risk & 35 & 2.009 & 0.785 & 2.000 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & MVP Clarity & 35 & 4.249 & 0.258 & 4.200 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & Novelty & 35 & 3.080 & 0.423 & 3.000 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & Overall MVP Usefulness & 35 & 3.689 & 0.175 & 3.700 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & Prototype Willingness & 35 & 3.560 & 0.212 & 3.600 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & Technical Plausibility & 35 & 3.909 & 0.475 & 3.900 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & Unsupported Claim Risk & 35 & 1.946 & 0.581 & 1.700 \\
+ChatGPT Plus 5.5 Web & M0\_DIRECT\_LOW\_TEMP & User Pain Plausibility & 35 & 3.511 & 0.409 & 3.500 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & Business Model Plausibility & 35 & 2.891 & 0.418 & 2.900 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & Conceptual Coherence & 35 & 4.389 & 0.130 & 4.400 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & Ethical Privacy Risk & 35 & 2.026 & 0.856 & 1.900 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & MVP Clarity & 35 & 4.231 & 0.331 & 4.200 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & Novelty & 35 & 3.214 & 0.356 & 3.100 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & Overall MVP Usefulness & 35 & 3.671 & 0.192 & 3.700 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & Prototype Willingness & 35 & 3.520 & 0.263 & 3.500 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & Technical Plausibility & 35 & 3.780 & 0.580 & 3.800 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & Unsupported Claim Risk & 35 & 2.017 & 0.684 & 1.900 \\
+ChatGPT Plus 5.5 Web & M1\_RAW\_HIGH\_TEMP & User Pain Plausibility & 35 & 3.489 & 0.365 & 3.500 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & Business Model Plausibility & 35 & 2.894 & 0.428 & 2.800 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & Conceptual Coherence & 35 & 4.451 & 0.117 & 4.500 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & Ethical Privacy Risk & 35 & 1.937 & 0.781 & 1.900 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & MVP Clarity & 35 & 4.420 & 0.235 & 4.400 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & Novelty & 35 & 3.129 & 0.342 & 3.100 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & Overall MVP Usefulness & 35 & 3.763 & 0.148 & 3.800 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & Prototype Willingness & 35 & 3.654 & 0.179 & 3.700 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & Technical Plausibility & 35 & 4.051 & 0.425 & 4.000 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & Unsupported Claim Risk & 35 & 1.657 & 0.457 & 1.500 \\
+ChatGPT Plus 5.5 Web & M3\_CHVD\_DISTILLED & User Pain Plausibility & 35 & 3.489 & 0.365 & 3.500 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & Business Model Plausibility & 35 & 3.057 & 0.236 & 3.000 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & Conceptual Coherence & 35 & 4.029 & 0.169 & 4.000 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & Ethical Privacy Risk & 35 & 1.200 & 0.531 & 1.000 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & MVP Clarity & 35 & 4.057 & 0.236 & 4.000 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & Novelty & 35 & 3.114 & 0.471 & 3.000 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & Overall MVP Usefulness & 35 & 4.000 & 0.000 & 4.000 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & Prototype Willingness & 35 & 3.657 & 0.482 & 4.000 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & Technical Plausibility & 35 & 3.857 & 0.733 & 4.000 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & Unsupported Claim Risk & 35 & 1.229 & 0.426 & 1.000 \\
+Gemini 3.1 Pro Web & M0\_DIRECT\_LOW\_TEMP & User Pain Plausibility & 35 & 3.971 & 0.169 & 4.000 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & Business Model Plausibility & 35 & 3.114 & 0.323 & 3.000 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & Conceptual Coherence & 35 & 4.086 & 0.284 & 4.000 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & Ethical Privacy Risk & 35 & 1.286 & 0.667 & 1.000 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & MVP Clarity & 35 & 4.171 & 0.382 & 4.000 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & Novelty & 35 & 3.286 & 0.572 & 3.000 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & Overall MVP Usefulness & 35 & 4.000 & 0.000 & 4.000 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & Prototype Willingness & 35 & 3.600 & 0.497 & 4.000 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & Technical Plausibility & 35 & 3.686 & 0.718 & 4.000 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & Unsupported Claim Risk & 35 & 1.314 & 0.471 & 1.000 \\
+Gemini 3.1 Pro Web & M1\_RAW\_HIGH\_TEMP & User Pain Plausibility & 35 & 4.029 & 0.169 & 4.000 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & Business Model Plausibility & 35 & 3.229 & 0.426 & 3.000 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & Conceptual Coherence & 35 & 4.486 & 0.507 & 4.000 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & Ethical Privacy Risk & 35 & 1.200 & 0.632 & 1.000 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & MVP Clarity & 35 & 4.914 & 0.284 & 5.000 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & Novelty & 35 & 3.200 & 0.531 & 3.000 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & Overall MVP Usefulness & 35 & 4.000 & 0.000 & 4.000 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & Prototype Willingness & 35 & 3.914 & 0.284 & 4.000 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & Technical Plausibility & 35 & 4.143 & 0.601 & 4.000 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & Unsupported Claim Risk & 35 & 1.057 & 0.236 & 1.000 \\
+Gemini 3.1 Pro Web & M3\_CHVD\_DISTILLED & User Pain Plausibility & 35 & 4.029 & 0.169 & 4.000 \\
+\end{longtable}
+\end{landscape}
+\begin{landscape}
+\small
+\begin{longtable}{lllrrrrrr}
+\caption{Gemini 2.5 Flash Lite P1: exploratory unpaired M0 contrasts.}\label{tab:s19-m025p1}\\
+\toprule Judge & Metric & Comparison & Left mean & Right mean & $\Delta$ & $U$ & $p_H$ & Exploratory \\ \midrule\endfirsthead
+\toprule Judge & Metric & Comparison & Left mean & Right mean & $\Delta$ & $U$ & $p_H$ & Exploratory \\ \midrule\endhead
+\bottomrule\endfoot
+ChatGPT Plus 5.5 Web & Novelty & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.080 & 3.214 & 0.134 & 487.5 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Novelty & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.080 & 3.129 & 0.049 & 552.5 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Conceptual Coherence & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 4.397 & 4.389 & -0.009 & 630.5 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Conceptual Coherence & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 4.397 & 4.451 & 0.054 & 460.0 & .990 & Yes \\
+ChatGPT Plus 5.5 Web & User Pain Plausibility & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.511 & 3.489 & -0.023 & 623.5 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & User Pain Plausibility & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.511 & 3.489 & -0.023 & 623.5 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Technical Plausibility & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.909 & 3.780 & -0.129 & 681.0 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Technical Plausibility & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.909 & 4.051 & 0.143 & 497.0 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & MVP Clarity & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 4.249 & 4.231 & -0.017 & 606.5 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & MVP Clarity & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 4.249 & 4.420 & 0.171 & 388.5 & .160 & Yes \\
+ChatGPT Plus 5.5 Web & Business Model Plausibility & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 2.889 & 2.891 & 0.003 & 621.5 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Business Model Plausibility & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 2.889 & 2.894 & 0.006 & 618.5 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Unsupported Claim Risk & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 1.946 & 2.017 & 0.071 & 602.5 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Unsupported Claim Risk & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 1.946 & 1.657 & -0.289 & 790.0 & .671 & Yes \\
+ChatGPT Plus 5.5 Web & Ethical Privacy Risk & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 2.009 & 2.026 & 0.017 & 612.5 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Ethical Privacy Risk & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 2.009 & 1.937 & -0.071 & 641.0 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Overall MVP Usefulness & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.689 & 3.671 & -0.017 & 612.0 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Overall MVP Usefulness & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.689 & 3.763 & 0.074 & 449.0 & .863 & Yes \\
+ChatGPT Plus 5.5 Web & Prototype Willingness & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.560 & 3.520 & -0.040 & 635.5 & 1.000 & Yes \\
+ChatGPT Plus 5.5 Web & Prototype Willingness & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.560 & 3.654 & 0.094 & 435.5 & .671 & Yes \\
+Gemini 3.1 Pro Web & Novelty & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.114 & 3.286 & 0.171 & 513.5 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Novelty & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.114 & 3.200 & 0.086 & 563.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Conceptual Coherence & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 4.029 & 4.086 & 0.057 & 577.5 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Conceptual Coherence & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 4.029 & 4.486 & 0.457 & 332.5 & $<.001$ & Yes \\
+Gemini 3.1 Pro Web & User Pain Plausibility & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.971 & 4.029 & 0.057 & 578.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & User Pain Plausibility & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.971 & 4.029 & 0.057 & 578.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Technical Plausibility & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.857 & 3.686 & -0.171 & 691.5 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Technical Plausibility & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.857 & 4.143 & 0.286 & 477.5 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & MVP Clarity & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 4.057 & 4.171 & 0.114 & 542.5 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & MVP Clarity & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 4.057 & 4.914 & 0.857 & 87.5 & $<.001$ & Yes \\
+Gemini 3.1 Pro Web & Business Model Plausibility & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.057 & 3.114 & 0.057 & 577.5 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Business Model Plausibility & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.057 & 3.229 & 0.171 & 507.5 & .729 & Yes \\
+Gemini 3.1 Pro Web & Unsupported Claim Risk & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 1.229 & 1.314 & 0.086 & 560.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Unsupported Claim Risk & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 1.229 & 1.057 & -0.171 & 717.5 & .729 & Yes \\
+Gemini 3.1 Pro Web & Ethical Privacy Risk & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 1.200 & 1.286 & 0.086 & 578.5 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Ethical Privacy Risk & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 1.200 & 1.200 & 0.000 & 628.0 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Overall MVP Usefulness & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 4.000 & 4.000 & 0.000 & 612.5 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Overall MVP Usefulness & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 4.000 & 4.000 & 0.000 & 612.5 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Prototype Willingness & M1 RAW HIGH TEMP - M0 DIRECT LOW TEMP & 3.657 & 3.600 & -0.057 & 647.5 & 1.000 & Yes \\
+Gemini 3.1 Pro Web & Prototype Willingness & M3 CHVD DISTILLED - M0 DIRECT LOW TEMP & 3.657 & 3.914 & 0.257 & 455.0 & .170 & Yes \\
+\end{longtable}
+\end{landscape}
+\end{document}

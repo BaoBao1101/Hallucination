@@ -1,0 +1,916 @@
+{
+"evaluations": [
+{
+"pairblind_id": "PAIRBLIND_0001",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.5,
+"conceptual_coherence": 3.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 3.0,
+"ethical_privacy_risk": 1.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 2.5,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 5.0,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "B",
+"preference_confidence": 4.0,
+"pairwise_rationale": "Candidate B is much more testable in 30 days while retaining the anti-marketing puzzle vibe. Candidate A relies on slightly more abstract and chaotic concepts."
+},
+{
+"pairblind_id": "PAIRBLIND_0002",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.5,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.0,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "A",
+"preference_confidence": 4.5,
+"pairwise_rationale": "Candidate A has a much stronger narrative coherence, highly distinctive nomenclature, and a very actionable, specific MVP scope compared to B's generic description."
+},
+{
+"pairblind_id": "PAIRBLIND_0003",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.0,
+"conceptual_coherence": 3.5,
+"technical_plausibility": 3.0,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 3.5,
+"ethical_privacy_risk": 4.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 3.5,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 3.0,
+"ethical_privacy_risk": 4.5
+},
+"prototype_preference": "B",
+"preference_confidence": 4.0,
+"pairwise_rationale": "Both have high privacy risks tracking location/history. Candidate B offers a safer and more practical MVP scope focusing on public/permitted check-ins rather than background audio/location pairing."
+},
+{
+"pairblind_id": "PAIRBLIND_0004",
+"candidate_a_scores": {
+"creative_distinctiveness": 5.0,
+"conceptual_coherence": 3.5,
+"technical_plausibility": 1.5,
+"mvp_clarity": 2.5,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 4.5,
+"ethical_privacy_risk": 2.0
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "B",
+"preference_confidence": 5.0,
+"pairwise_rationale": "Candidate A's concept of micro-weather manipulation per dish is physically implausible for a fast prototype. Candidate B adapts the idea into a highly executable themed dining zone."
+},
+{
+"pairblind_id": "PAIRBLIND_0005",
+"candidate_a_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 3.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 1.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.0,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "B",
+"preference_confidence": 4.5,
+"pairwise_rationale": "Candidate B is clearer, more coherent, and avoids the somewhat disjointed phrasing of Candidate A, making the MVP much easier to build."
+},
+{
+"pairblind_id": "PAIRBLIND_0006",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.5,
+"conceptual_coherence": 3.0,
+"technical_plausibility": 2.0,
+"mvp_clarity": 2.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 4.5,
+"ethical_privacy_risk": 4.8
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 3.0,
+"ethical_privacy_risk": 4.0
+},
+"prototype_preference": "B",
+"preference_confidence": 4.5,
+"pairwise_rationale": "Candidate A ventures heavily into genetic determinism pseudoscience. Candidate B correctly scopes the idea down to an educational tool linking known literature to genetic markers, which is technically feasible."
+},
+{
+"pairblind_id": "PAIRBLIND_0007",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.5,
+"conceptual_coherence": 3.5,
+"technical_plausibility": 3.5,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 3.0,
+"ethical_privacy_risk": 2.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 2.0
+},
+"prototype_preference": "B",
+"preference_confidence": 4.0,
+"pairwise_rationale": "Candidate B provides a much clearer, actionable MVP that strips away some of the overly complex philosophical rules of A, making it highly testable."
+},
+{
+"pairblind_id": "PAIRBLIND_0008",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.5,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 3.0
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 2.5
+},
+"prototype_preference": "A",
+"preference_confidence": 3.5,
+"pairwise_rationale": "Candidate A brings more distinctive flavor and stylistic nuance to the MVP (like the humorous philosophical dubbing text) while remaining a feasible text-only prototype."
+},
+{
+"pairblind_id": "PAIRBLIND_0009",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.0,
+"conceptual_coherence": 3.5,
+"technical_plausibility": 3.0,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 3.5,
+"ethical_privacy_risk": 2.0
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.0,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "B",
+"preference_confidence": 4.0,
+"pairwise_rationale": "Candidate B simplifies the complex physical partition requirements of A into a highly plausible, screen-based passive therapy pop-up cafe."
+},
+{
+"pairblind_id": "PAIRBLIND_0010",
+"candidate_a_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 3.0,
+"ethical_privacy_risk": 2.0
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 2.5,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 5.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "B",
+"preference_confidence": 4.5,
+"pairwise_rationale": "Candidate B is an extremely straightforward, low-tech concept that could be launched in a single weekend at an existing cafe."
+},
+{
+"pairblind_id": "PAIRBLIND_0011",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.0,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 3.5,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 1.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.0,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "B",
+"preference_confidence": 3.5,
+"pairwise_rationale": "Candidate B removes the more complex real-time generative elements in favor of predefined themes, making it much more feasible for a 30-day MVP while testing the same core value."
+},
+{
+"pairblind_id": "PAIRBLIND_0012",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.5,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 3.5,
+"ethical_privacy_risk": 2.0
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "A",
+"preference_confidence": 3.5,
+"pairwise_rationale": "Candidate A retains a more distinct, emotionally engaging hook linking physical massage inputs to emotional outputs without sacrificing technical MVP feasibility."
+},
+{
+"pairblind_id": "PAIRBLIND_0013",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.5,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 5.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "A",
+"preference_confidence": 4.0,
+"pairwise_rationale": "Candidate A presents a highly imaginative and playful ghost kitchen concept (faux scientific names) that is just as easy to prototype as B, but much more memorable."
+},
+{
+"pairblind_id": "PAIRBLIND_0014",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.5,
+"conceptual_coherence": 3.5,
+"technical_plausibility": 3.0,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 4.0,
+"ethical_privacy_risk": 4.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.0,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 4.0
+},
+"prototype_preference": "B",
+"preference_confidence": 4.5,
+"pairwise_rationale": "Candidate A proposes an ethically fraught 'chat with the dead' AI persona. Candidate B limits it to timeline creation and summarization, which is much safer and highly feasible."
+},
+{
+"pairblind_id": "PAIRBLIND_0015",
+"candidate_a_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 4.5,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 2.0
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.0,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 4.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 2.0
+},
+"prototype_preference": "A",
+"preference_confidence": 3.5,
+"pairwise_rationale": "Candidate A's use of bidding and private unlisted videos gives it a slightly more unique edge as a creator marketplace while maintaining high feasibility."
+},
+{
+"pairblind_id": "PAIRBLIND_0016",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.5,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 3.0,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 3.5,
+"ethical_privacy_risk": 1.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "B",
+"preference_confidence": 4.0,
+"pairwise_rationale": "Candidate B defines a more realistic conlang generation tool based on established linguistics patterns, whereas A promises a vague 'evolution' mechanic."
+},
+{
+"pairblind_id": "PAIRBLIND_0017",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.5,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 1.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "A",
+"preference_confidence": 4.0,
+"pairwise_rationale": "Candidate A provides a very poetic and clear gameplay hook (historical rhythms from vibration patterns) with a well-defined interaction mechanic."
+},
+{
+"pairblind_id": "PAIRBLIND_0018",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.5,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 3.0,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 3.5,
+"ethical_privacy_risk": 2.0
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 2.5,
+"mvp_clarity": 3.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 4.0,
+"ethical_privacy_risk": 2.5
+},
+"prototype_preference": "A",
+"preference_confidence": 3.5,
+"pairwise_rationale": "Candidate A uses human-driven, symbolic evaluations (emoji mapping) for kinesthetic feelings, which is much more achievable than Candidate B's reliance on AI analyzing abstract physical feelings via video."
+},
+{
+"pairblind_id": "PAIRBLIND_0019",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.0,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.0,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "B",
+"preference_confidence": 3.5,
+"pairwise_rationale": "Candidate B proposes a more standard web/mobile approach rather than A's physical kiosk, which lowers the barrier to an MVP."
+},
+{
+"pairblind_id": "PAIRBLIND_0020",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.0,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.0,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 5.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "A",
+"preference_confidence": 4.0,
+"pairwise_rationale": "Candidate A frames the concept wonderfully as 'survival codes' rather than generic life hack templates. It is equally executable but much more distinctive."
+},
+{
+"pairblind_id": "PAIRBLIND_0021",
+"candidate_a_scores": {
+"creative_distinctiveness": 3.0,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 5.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 1.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 2.5,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 5.0,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "TIE",
+"preference_confidence": 3.0,
+"pairwise_rationale": "Both offer an identical web-based form-to-bio MVP using AI. Neither offers a strong advantage over the other."
+},
+{
+"pairblind_id": "PAIRBLIND_0022",
+"candidate_a_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 2.0
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.0,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 2.0
+},
+"prototype_preference": "A",
+"preference_confidence": 3.5,
+"pairwise_rationale": "Candidate A provides a stronger thematic focus on finding 'history fragments' while sharing the exact same level of technical feasibility."
+},
+{
+"pairblind_id": "PAIRBLIND_0023",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.5,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 2.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 2.0
+},
+"prototype_preference": "A",
+"preference_confidence": 4.0,
+"pairwise_rationale": "Candidate A provides a stronger agency component ('changing the outcome') which is straightforward to prototype with generative AI and makes the experience more engaging."
+},
+{
+"pairblind_id": "PAIRBLIND_0024",
+"candidate_a_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 2.0
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.0,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 5.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "B",
+"preference_confidence": 3.5,
+"pairwise_rationale": "Candidate B is slightly more flexible (allowing physical cards) and scales down the MVP to the absolute minimum needed to test the behavior."
+},
+{
+"pairblind_id": "PAIRBLIND_0025",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.5,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 3.0,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 3.5,
+"ethical_privacy_risk": 4.0
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 2.0
+},
+"prototype_preference": "B",
+"preference_confidence": 4.5,
+"pairwise_rationale": "Candidate B limits the MVP to pre-made historical documents, which avoids the massive privacy and technical hurdles of feeding user family data into raw LLMs on day one."
+},
+{
+"pairblind_id": "PAIRBLIND_0026",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.5,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 3.5,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 1.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "A",
+"preference_confidence": 4.0,
+"pairwise_rationale": "Candidate A provides highly flavorful mechanics (nano-cells, enzymes) that give the bio-RTS genre a unique spin, while maintaining a perfectly viable prototype."
+},
+{
+"pairblind_id": "PAIRBLIND_0027",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.0,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 2.0
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.0,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 2.0
+},
+"prototype_preference": "A",
+"preference_confidence": 3.5,
+"pairwise_rationale": "Candidate A scopes the MVP smartly as a 'tone variation tool' rather than full roleplay, which is highly testable and distinctive."
+},
+{
+"pairblind_id": "PAIRBLIND_0028",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.0,
+"conceptual_coherence": 3.5,
+"technical_plausibility": 2.0,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 5.0,
+"ethical_privacy_risk": 2.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.0,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 2.0,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 5.0,
+"ethical_privacy_risk": 2.5
+},
+"prototype_preference": "TIE",
+"preference_confidence": 4.0,
+"pairwise_rationale": "Both candidates rely on scientifically unsupported claims of direct sleep-learning (memorizing words via audio while sleeping) which limits near-term technical viability equally."
+},
+{
+"pairblind_id": "PAIRBLIND_0029",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.0,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.0,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "B",
+"preference_confidence": 4.0,
+"pairwise_rationale": "Candidate B reduces unnecessary complex mechanics (time manipulation) and focuses cleanly on the ASMR idle quote-gathering mechanic."
+},
+{
+"pairblind_id": "PAIRBLIND_0030",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.5,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 3.5,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 1.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "A",
+"preference_confidence": 4.0,
+"pairwise_rationale": "Candidate A provides a brilliantly distinctive mechanic (combining seemingly unrelated abstract nouns to cast specific spells) which makes the game much more compelling than B's standard approach."
+},
+{
+"pairblind_id": "PAIRBLIND_0031",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.0,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.0,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 5.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "A",
+"preference_confidence": 4.0,
+"pairwise_rationale": "Candidate A presents a slightly more unified aesthetic ('Biophilic Coffee' using specific herbs affecting flavor profiles) while remaining highly testable via pop-ups."
+},
+{
+"pairblind_id": "PAIRBLIND_0032",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.5,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 3.0,
+"ethical_privacy_risk": 3.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.0,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 2.5
+},
+"prototype_preference": "B",
+"preference_confidence": 4.0,
+"pairwise_rationale": "Candidate B provides a much clearer, safer, and highly testable implementation. Candidate A's 'sucking' and brain protocol language is overly complicated and privacy-risky."
+},
+{
+"pairblind_id": "PAIRBLIND_0033",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.5,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 3.5,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 4.0,
+"ethical_privacy_risk": 2.0
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.0,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 5.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "A",
+"preference_confidence": 4.5,
+"pairwise_rationale": "Candidate A structures the MVP perfectly as a quantified 40-person pop-up experiment testing frequency impact on taste, making it an excellent venture hypothesis test."
+},
+{
+"pairblind_id": "PAIRBLIND_0034",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.0,
+"conceptual_coherence": 3.5,
+"technical_plausibility": 3.0,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 4.0,
+"ethical_privacy_risk": 2.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.0,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 2.0
+},
+"prototype_preference": "B",
+"preference_confidence": 4.5,
+"pairwise_rationale": "Candidate B scales down the grand 'parallel universe' claims of A into a very practical, text-based AI simulator that can be built and tested rapidly."
+},
+{
+"pairblind_id": "PAIRBLIND_0035",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.5,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 3.5,
+"ethical_privacy_risk": 1.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.0,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 5.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5
+},
+"prototype_preference": "A",
+"preference_confidence": 4.0,
+"pairwise_rationale": "Candidate A attempts actual pseudo-synesthesia mapping (specific notes matched to specific coffee origins), which is a much stronger value prop than B's generic mood pairing, and easily tested via a tasting menu."
+},
+{
+"pairblind_id": "PAIRBLIND_0036",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.0,
+"conceptual_coherence": 3.0,
+"technical_plausibility": 2.5,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 4.5,
+"ethical_privacy_risk": 3.0
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.0,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 2.5
+},
+"prototype_preference": "B",
+"preference_confidence": 4.0,
+"pairwise_rationale": "Candidate B removes the highly improbable 'real-time biofeedback dream adjustment' and focuses cleanly on generative AI 'pre-dream' videos, which is entirely viable right now."
+},
+{
+"pairblind_id": "PAIRBLIND_0037",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.0,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 2.0
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.5,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 2.0
+},
+"prototype_preference": "A",
+"preference_confidence": 4.5,
+"pairwise_rationale": "Candidate A utilizes the LLM's multi-persona capability much better (getting conflicting advice from 3 different future trajectories), offering a significantly richer UX with the same engineering effort."
+},
+{
+"pairblind_id": "PAIRBLIND_0038",
+"candidate_a_scores": {
+"creative_distinctiveness": 4.0,
+"conceptual_coherence": 4.0,
+"technical_plausibility": 3.0,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 4.0,
+"ethical_privacy_risk": 3.5
+},
+"candidate_b_scores": {
+"creative_distinctiveness": 3.0,
+"conceptual_coherence": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 2.0
+},
+"prototype_preference": "B",
+"preference_confidence": 4.5,
+"pairwise_rationale": "Candidate B strips out complex real-time biometric tracking for micro-tempo shifts and relies on a clean, buildable generative music + manual feedback loop."
+}
+]
+}

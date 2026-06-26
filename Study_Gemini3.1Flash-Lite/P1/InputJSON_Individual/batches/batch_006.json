@@ -1,0 +1,92 @@
+[
+  {
+    "candidate_id": "BLIND_0083",
+    "title": "Remote Cultural Consultant Tooling",
+    "target_user": "Remote-only service startups",
+    "problem_or_desire": "Churn due to poor communication onboarding in distributed digital agencies",
+    "core_concept": "Pre-composed interactive playbooks that teams execute during onboarding asynchronously",
+    "proposed_approach": "Interactive documentation SaaS measuring engagement speed through team progress reports",
+    "prototype_scope": "Three modular asynchronous playbooks delivered in interactive documentation files"
+  },
+  {
+    "candidate_id": "BLIND_0179",
+    "title": "Technical Debt Resolution Tasking",
+    "target_user": "Solo founders with technical debt",
+    "problem_or_desire": "Difficulty hiring fractional experts to debug one-off legacy code patches",
+    "core_concept": "Micro-scope project matchmaking for specific legacy codebases.",
+    "proposed_approach": "A manual matchmaking service connecting solo founders with developers specialized in specific legacy frameworks for small bug fixes.",
+    "prototype_scope": "A manual job board/matching service for 3 specific niche bug-fix projects. | Identify 3 niche legacy frameworks.; Find 3 developers per framework.; Match with 3 founders.; Monitor resolution success."
+  },
+  {
+    "candidate_id": "BLIND_0103",
+    "title": "Procurement Auditor Agent",
+    "target_user": "Small business procurement managers",
+    "problem_or_desire": "Difficulty identifying overcharges and contract non-compliance in high-volume invoice processing.",
+    "core_concept": "An autonomous agent that cross-references invoices against signed contracts and market price benchmarks.",
+    "proposed_approach": "Integrate with accounting software to flag discrepancies and draft dispute emails for human approval.",
+    "prototype_scope": "A script that processes 50 sample PDF invoices against a single contract template to identify price variances."
+  },
+  {
+    "candidate_id": "BLIND_0017",
+    "title": "Low-Acid Caffeine Concierge",
+    "target_user": "Individuals with caffeine sensitivities",
+    "problem_or_desire": "Inconsistency in non-irritating, laboratory-tested gentle preparation methods in cafe environments",
+    "core_concept": "",
+    "proposed_approach": "Sub-sampling subscription offering batch-certified low-acid coffee beans screened for standardized PH levels",
+    "prototype_scope": "A pH-measuring toolkit distributed to participants to gather subjective reaction data vs objectively measured laboratory acidity"
+  },
+  {
+    "candidate_id": "BLIND_0021",
+    "title": "Regulatory Change Response Architect",
+    "target_user": "Food and beverage quality assurance heads",
+    "problem_or_desire": "Drastic differences in health safety manual implementation when regulations shift locally.",
+    "core_concept": "Mapping new legislation changes to existing internal standard operating procedure documents using diff identification.",
+    "proposed_approach": "Monitoring governmental regulatory feeds for trigger keywords and automatically highlighting modified procedure steps for policy-drafter human rewrite.",
+    "prototype_scope": "Dashboard tool for monitoring two specific municipality codes impacting packaging labeling."
+  },
+  {
+    "candidate_id": "BLIND_0178",
+    "title": "Remote Onboarding Video Library",
+    "target_user": "HR managers at scaling startups",
+    "problem_or_desire": "Repetitive, time-consuming onboarding of new remote hires",
+    "core_concept": "A library of high-quality, customizable video templates for company policies and tools",
+    "proposed_approach": "Professional video production templates that companies can brand and host internally",
+    "prototype_scope": "A set of three sample video templates hosted on a private video platform"
+  },
+  {
+    "candidate_id": "BLIND_0124",
+    "title": "StudioPulse",
+    "target_user": "Freelance graphic designers",
+    "problem_or_desire": "Difficulty calculating the correct time allowance for revisions vs. design production",
+    "core_concept": "Predictive duration simulator based on project parameters.",
+    "proposed_approach": "A calculator that allows designers to input project variables and receive a rough estimate based on their own historical data.",
+    "prototype_scope": "A web form that outputs a time estimate based on user-defined multipliers. | Define 5-10 project variables; Build a form to collect these variables; Implement a simple calculation logic"
+  },
+  {
+    "candidate_id": "BLIND_0127",
+    "title": "Hyper-Local Micro-Roast Subscription",
+    "target_user": "Remote workers living in suburban neighborhoods",
+    "problem_or_desire": "Desire for ultra-fresh coffee without the commute to specialty cafes",
+    "core_concept": "Neighborhood-based roasting cycles delivered via bicycle courier within 24 hours of roasting",
+    "proposed_approach": "Partner with local home-roasters to fulfill orders within a 3-mile radius",
+    "prototype_scope": "A single neighborhood pilot with 20 subscribers and 2 local roasters"
+  },
+  {
+    "candidate_id": "BLIND_0161",
+    "title": "Mobile Espresso Cart for Commuter Hubs",
+    "target_user": "Public transit commuters",
+    "problem_or_desire": "Long wait times at stationary coffee shops during morning rush hour",
+    "core_concept": "A high-speed, pre-order-only mobile cart positioned at transit entry points",
+    "proposed_approach": "App-based ordering with a 30-second pickup window at a designated transit stop",
+    "prototype_scope": "One mobile cart at a single train station for one week"
+  },
+  {
+    "candidate_id": "BLIND_0065",
+    "title": "Hyper-local Seasonal Gleaner App",
+    "target_user": "Urban residential cooks",
+    "problem_or_desire": "Difficulty sourcing surplus fresh, unrefined local produce for complex meals",
+    "core_concept": "Peer-to-peer exchange of surplus backyard produce.",
+    "proposed_approach": "A manual, community-moderated bulletin board for neighborhood produce sharing.",
+    "prototype_scope": "A dedicated WhatsApp group for one street to post photos of surplus items for free pickup. | Identify 10 households with gardens; Create WhatsApp group; Facilitate 5 successful exchanges; Document pickup friction points"
+  }
+]

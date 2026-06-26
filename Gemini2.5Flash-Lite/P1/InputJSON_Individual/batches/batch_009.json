@@ -1,0 +1,65 @@
+[
+  {
+    "candidate_id": "BLIND_0068",
+    "title": "Hyperlocal Community Event Aggregator",
+    "target_user": "Residents of small towns or specific neighborhoods seeking local activities.",
+    "problem_or_desire": "Missing out on local events, workshops, and gatherings due to fragmented information sources and lack of a central community hub.",
+    "core_concept": "A community-driven website that aggregates all types of local events, from official town announcements to informal meetups, with user-submitted event listings and a simple calendar view.",
+    "proposed_approach": "Create a platform where verified local organizers and community members can easily submit event details. The website features a searchable and filterable event calendar.",
+    "prototype_scope": "A website for a single, defined geographic area (e.g., a specific zip code or small town) that allows users to view events submitted by a small group of pre-approved local organizers, with basic search and filtering by date and category."
+  },
+  {
+    "candidate_id": "BLIND_0069",
+    "title": "Digital Legacy Capsule for Personal Archives",
+    "target_user": "Individuals who have compiled extensive digital personal archives (photos, documents, writings) and wish to organize and 'prepare' them for their intended beneficiaries or future preservation.",
+    "problem_or_desire": "Desire to structure, tag, and add annotations or messages to a large collection of digital personal assets, ensuring context and intent are passed on, rather than just raw data.",
+    "core_concept": "Organizing and adding context (notes, messages) to personal digital archives for future access by intended beneficiaries.",
+    "proposed_approach": "A desktop application that allows users to organize local digital files into themed 'boxes' and add simple text notes, then export this structure as an encrypted archive.",
+    "prototype_scope": "A desktop application where users can select a folder of local files to import. Users can then create 'boxes' (folders) within the application, move imported files into these boxes, and add simple, plain text notes to individual files or boxes. The application will generate a single, encrypted archive file (e.g., using AES encryption) containing the organized files and notes. A separate, unencrypted text file will contain the decryption key and instructio…"
+  },
+  {
+    "candidate_id": "BLIND_0101",
+    "title": "Collaborative Chef Residency Hub",
+    "target_user": "Emerging chefs seeking to experiment with innovative concepts and build their brand without the risk of opening their own full-scale restaurant.",
+    "problem_or_desire": "Need for affordable, low-overhead platforms for culinary experimentation and professional development, allowing chefs to test unique concepts with real customers.",
+    "core_concept": "A shared kitchen and dining space that provides a platform for emerging chefs to operate temporary, experimental 'studiocuisine' concepts, offering them operational support.",
+    "proposed_approach": "A shared culinary space that hosts rotating emerging chefs for short-term residencies, allowing them to test unique restaurant concepts with real customers.",
+    "prototype_scope": "Invite two aspiring chefs to each 'reside' for one week, operating dinner service Tuesday-Saturday in a provided, fully equipped small kitchen and dining area. The MVP will focus on testing the usability of the facilities for the chefs and gathering feedback from both chefs (on support and operations) and diners (on food and service novelty). Basic booking and payment processing will be handled manually or via simple tools. | Secure a small, equipped kitc…"
+  },
+  {
+    "candidate_id": "BLIND_0005",
+    "title": "Sensory Dining Experience Room",
+    "target_user": "Special occasion diners and couples looking for immersive and interactive entertainment.",
+    "problem_or_desire": "Desire for dining experiences that engage all senses, transforming a meal into a multi-dimensional event.",
+    "core_concept": "A small, appointment-only dining room that synchronizes courses with curated scents, ambient soundscapes, custom lighting, and tactile elements.",
+    "proposed_approach": "Design themed 'sensory menus' (e.g., 'Forest Floor Feast', 'Ocean Whisper'). Use advanced scent diffusion technology, spatial audio, and controlled lighting to enhance specific food attributes. Prepare minimal, high-quality dishes focusing on texture and flavor purity.",
+    "prototype_scope": "Develop and test one 'sensory menu' for 10 participants, assessing the synergy between sensory stimuli and food, and the overall emotional impact of the experience."
+  },
+  {
+    "candidate_id": "BLIND_0020",
+    "title": "Rhythmic Retaliator: Symphony of Carnage",
+    "target_user": "Casual rhythm game players seeking a visceral action experience.",
+    "problem_or_desire": "Boredom with standard 'tap-to-attack' or 'virtual joystick' controls; a desire for mobile combat that rewards precision timing and a sense of flow.",
+    "core_concept": "The core mechanic of executing combat actions (attacks, dodges) in time with music to increase combos and trigger enhanced effects.",
+    "proposed_approach": "A swipe-and-tap combat game where player actions are rewarded for timing with a fixed background music track. Successful rhythmic inputs build a combo multiplier, leading to more impactful attacks and visual flair.",
+    "prototype_scope": "A 'score attack' survival mode against 3 simple enemy archetypes. The MVP features one song with a clear, consistent beat. The player can perform melee attacks and dodges. Inputs must be timed to the beat for them to register as successful and contribute to a combo multiplier. Consecutive successful timed inputs increase the multiplier, leading to slightly more damaging attacks and more visually impressive animations (e.g., a flourish or a brief particle…"
+  },
+  {
+    "candidate_id": "BLIND_0062",
+    "title": "Chrono-Chaser",
+    "target_user": "Mobile gamers who enjoy puzzle-solving integrated with action sequences.",
+    "problem_or_desire": "The desire for action gameplay that incorporates time manipulation mechanics to solve environmental puzzles and overcome combat challenges.",
+    "core_concept": "A third-person action game where players can locally rewind, fast-forward, or pause time for specific objects or enemies, enabling unique combat and puzzle-solving opportunities.",
+    "proposed_approach": "Develop intuitive controls for time manipulation. Design levels that require creative use of these mechanics to progress through combat and environmental puzzles.",
+    "prototype_scope": "A single, self-contained level with a few basic enemies and a simple environmental puzzle. The prototype will showcase the ability to rewind a projectile, pause a moving platform, and fast-forward a trap mechanism to solve the puzzle and defeat enemies."
+  },
+  {
+    "candidate_id": "BLIND_0050",
+    "title": "Ephemeral Real-World Social 'Quests'",
+    "target_user": "Urban young adults and college students (18-28) seeking fun, spontaneous group activities and location-based discovery.",
+    "problem_or_desire": "Desire for low-stakes, time-bound, socially interactive real-world 'missions' to add an element of surprise to daily routines or outings.",
+    "core_concept": "Users receive short, randomized scavenger-hunt-like quests tied to geolocated points in their vicinity. Quests have tight time windows, and successful completion (verified via photo-geo-tag) unlocks a small community leaderboard or digital reward for participating groups.",
+    "proposed_approach": "Utilize mapping APIs and GPS to define quest locations. Implement a secure geo-tagging and photo-upload system for task verification. Design a backend for queueing randomized, time-sensitive quests relevant to urban public spaces. Monetize by offering branded local business sponsorships for quests.",
+    "prototype_scope": "Create a user journey allowing two players within a defined walkable zone (e.g., university campus). Present one objective at a single GPS coordinate and require photo upload with GPS stamp within a 15-minute window to verify successful 'completion'."
+  }
+]

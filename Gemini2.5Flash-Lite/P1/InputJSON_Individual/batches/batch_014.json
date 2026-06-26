@@ -1,0 +1,65 @@
+[
+  {
+    "candidate_id": "BLIND_0060",
+    "title": "Collaborative Recipe Adaptation Tool",
+    "target_user": "Home cooks with dietary restrictions or ingredient limitations.",
+    "problem_or_desire": "Struggling to adapt existing recipes to fit specific dietary needs (e.g., vegan, gluten-free) or to use ingredients they have on hand.",
+    "core_concept": "A website where users can input a recipe and receive AI-assisted suggestions for ingredient substitutions and modifications, with a community feature for sharing successful adaptations.",
+    "proposed_approach": "Develop a web interface where users paste or type recipe ingredients and instructions. The system provides substitution options and allows users to save and share their modified recipes.",
+    "prototype_scope": "A web application that takes a recipe text input and provides 3-5 AI-generated ingredient substitution suggestions for common dietary needs (e.g., dairy-free, nut-free) for a limited set of recipe types (e.g., cookies, pasta sauces)."
+  },
+  {
+    "candidate_id": "BLIND_0090",
+    "title": "Curated Vintage Fashion Recommendation Engine",
+    "target_user": "Gen Z consumers interested in unique, sustainable fashion but overwhelmed by the abundance of online vintage marketplaces.",
+    "problem_or_desire": "Desire to discover authentic vintage clothing items that fit specific personal aesthetics without endlessly scrolling through diverse platforms.",
+    "core_concept": "Helping users discover unique vintage fashion items that match their personal aesthetic by learning their style preferences, aggregating finds from multiple sources.",
+    "proposed_approach": "A curated discovery feed for vintage fashion, where users define their style through a limited set of inputs, and the platform presents items from a manually selected, small set of online vintage marketplaces.",
+    "prototype_scope": "A mobile app where users can create a style profile by selecting from predefined aesthetic categories (e.g., '90s grunge', 'bohemian', 'minimalist'), uploading 1-3 inspiration photos, and choosing preferred item types (e.g., 'dresses', 'jackets'). The app then presents a daily feed of vintage items sourced from a manually curated list of 2-3 specific online vintage marketplaces (e.g., Etsy vintage, Depop sellers). Items are linked directly to their seller…"
+  },
+  {
+    "candidate_id": "BLIND_0076",
+    "title": "Culturally Immersive Coffee Experience Boxes",
+    "target_user": "Individuals interested in cultural exploration and global flavors aged 40-65, seeking novel experiential learning activities they can do at home.",
+    "problem_or_desire": "A longing for accessible, engaging cultural experiences that go beyond typical travel, with a focus on understanding how different cultures prepare and savor coffee.",
+    "core_concept": "Curated subscription boxes that deliver authentic ingredients, regional brewing tools, background stories, and tasting notes for experiencing coffee traditions from different countries.",
+    "proposed_approach": "A curated subscription box service that introduces customers to coffee preparation and cultural traditions from a specific region or country each month, providing beans, simple tools, and educational content.",
+    "prototype_scope": "Design and assemble 50 limited-edition 'Ethiopian Coffee Ceremony' boxes. Each box will contain: a small bag of ethically sourced Ethiopian coffee beans (enough for 2-3 brewings), a simplified, modern interpretation of a traditional brewing tool (e.g., a small ceramic pour-over cone or a basic moka pot if Jebena is too complex/costly for MVP), a beautifully designed booklet explaining the cultural significance, history, and basic steps of the Ethiopian co…"
+  },
+  {
+    "candidate_id": "BLIND_0041",
+    "title": "Collaborative Storytelling Sandbox",
+    "target_user": "Creative adolescents and young adults (13-20) who enjoy narrative games and social interaction.",
+    "problem_or_desire": "Desire to co-create and collectively influence evolving fictional worlds and character arcs in a game format.",
+    "core_concept": "A turn-based game where each player contributes a narrative event or character action that sequentially shapes an ongoing, shared story. Players vote on critical story junctures. No strict win/loss condition, emphasis is on the unfolding narrative.",
+    "proposed_approach": "Design a robust backend to manage story states and player contributions. Develop an intuitive text-input and event-creation interface. Integrate a simple polling system for branching narrative points. Structure game sessions to encourage short bursts of creative input over days.",
+    "prototype_scope": "Create a simplified lobby system allowing 3-5 users to connect. Implement a basic text-based turn progression where each player adds one sentence; incorporate one player vote for a pre-defined story branch decision."
+  },
+  {
+    "candidate_id": "BLIND_0064",
+    "title": "Automated Office Coffee Pod Replenishment System",
+    "target_user": "Small to medium-sized business office managers (10-50 employees) burdened by running out of essential office supplies, including coffee pods.",
+    "problem_or_desire": "The recurring frustration and lost productivity caused by the office coffee pod supply consistently running dry and procurement delays.",
+    "core_concept": "An IoT-enabled system that monitors office coffee pod levels and triggers automatic reorders from a curated marketplace of sustainable and ethically produced coffee pod brands.",
+    "proposed_approach": "Design and implement smart sensing devices for prevalent coffee pod packaging and bases. Integrate with a streamlined e-commerce backend that aggregates supply from multiple compatible, vetted pod manufacturers. Focus on predictive order fulfillment leveraging usage data.",
+    "prototype_scope": "Develop a visual, battery-powered occupancy sensor for coffee storage bins capable of approximating pod quantity, connected via Wi-Fi. Pilot the system with 3 pre-selected office coffee providers for two distinct office sizes in a single city, requiring manual restocking initiation by admin until detection is optimized."
+  },
+  {
+    "candidate_id": "BLIND_0044",
+    "title": "Craft Skills Micro-Apprenticeship",
+    "target_user": "Vocational trainees learning practical craft skills (e.g., carpentry, welding)",
+    "problem_or_desire": "Lack of immediate, objective feedback on fine motor skill execution and tool usage technique outside formal workshop hours",
+    "core_concept": "A mobile application using smartphone sensors and computer vision to provide real-time, motion-based feedback on user technique during practiced skill tasks.",
+    "proposed_approach": "Develop proprietary algorithms for analyzing recorded video or accelerometer data during physical tasks. Generate simple metrics and visual overlays indicating deviation from expert patterns for common beginner mistakes.",
+    "prototype_scope": "A mobile app focused on teaching two specific foundational carpentry techniques (e.g., hand saw straight cut, hammer strike). The user records a short video, and the app provides visual feedback on saw angle or hammer impact deviation."
+  },
+  {
+    "candidate_id": "BLIND_0099",
+    "title": "Interactive Skill-Based Learning Path Generator",
+    "target_user": "Individuals looking to acquire new technical skills for career advancement.",
+    "problem_or_desire": "Overwhelm and uncertainty about the best sequence of online courses and resources to learn a complex skill effectively.",
+    "core_concept": "A website that generates personalized, step-by-step learning paths by curating and sequencing free and paid online resources based on a user's current knowledge and learning goals.",
+    "proposed_approach": "Build a platform where users select a target skill (e.g., Python for data science), indicate their current proficiency, and the system recommends a curated list of tutorials, courses, and projects in a logical order.",
+    "prototype_scope": "A web tool focused on one specific skill (e.g., 'Introduction to Web Development') that allows users to input their experience level and outputs a visual roadmap of 5-7 recommended learning modules, linking to external resources."
+  }
+]

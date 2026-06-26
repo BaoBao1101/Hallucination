@@ -1,0 +1,65 @@
+[
+  {
+    "candidate_id": "BLIND_0021",
+    "title": "AI-Driven Feedback for Creative Writing Improvement",
+    "target_user": "Young adult fiction writers (ages 16-22).",
+    "problem_or_desire": "Aspiring writers often struggle to receive constructive, specific feedback on elements like pacing, character development, and dialogue beyond generic grammar checks.",
+    "core_concept": "An AI tool that analyzes submitted creative writing passages and provides targeted, actionable feedback on narrative structure, character consistency, and stylistic choices, mimicking a developmental editor's insights.",
+    "proposed_approach": "Train natural language processing models on a corpus of literary analysis and critique. Develop algorithms to identify common narrative weaknesses and suggest improvements.",
+    "prototype_scope": "A web-based tool where users can submit up to 1000 words of fiction. The AI provides feedback on three specific areas: dialogue naturalness, character motivation clarity, and sentence variety."
+  },
+  {
+    "candidate_id": "BLIND_0070",
+    "title": "Geo-Quest Companion",
+    "target_user": "Outdoor enthusiasts and explorers who enjoy augmented reality (AR) and location-based games.",
+    "problem_or_desire": "Desire for AR games that seamlessly integrate with real-world exploration and encourage discovery of local points of interest.",
+    "core_concept": "An AR mobile game that overlays a persistent, player-influenced fantasy world onto the real world, with quests and challenges tied to actual geographic locations and landmarks.",
+    "proposed_approach": "Leverage device GPS and AR capabilities to anchor game elements to real-world coordinates. Focus on collaborative gameplay where players can contribute to the persistent world.",
+    "prototype_scope": "A small, localized area (e.g., a park or neighborhood) with a few AR 'nodes' that trigger simple collection or puzzle mini-games, demonstrating location-based interaction and persistent world elements."
+  },
+  {
+    "candidate_id": "BLIND_0028",
+    "title": "Ephemeral Collaborative Idea Boards",
+    "target_user": "Project teams in early brainstorm or discovery phases.",
+    "problem_or_desire": "To have temporary, focused spaces for rapid idea generation and annotation without long-term clutter or project overhead.",
+    "core_concept": "A real-time web whiteboard designed for temporary, focused brainstorming sessions where all content is automatically cleared after a set time limit or manual reset.",
+    "proposed_approach": "A real-time web-based whiteboard application designed for short, collaborative brainstorming sessions. It features basic drawing and text input tools, with a prominent timer that automatically clears all content upon session expiry.",
+    "prototype_scope": "A web application supporting up to 4 concurrent users. Users can add text notes and draw simple lines/shapes on a shared canvas. A fixed 30-minute countdown timer is displayed. At the end of the 30 minutes, or when a 'reset' button is clicked, all content on the board is permanently cleared. No user accounts or data persistence. | Develop a web application with a shared canvas.; Implement real-time synchronization for text notes and drawing actions for up…"
+  },
+  {
+    "candidate_id": "BLIND_0079",
+    "title": "Empathetic Roleplay Tutor",
+    "target_user": "High school students learning foreign languages",
+    "problem_or_desire": "Fear of making mistakes when speaking in front of others and lack of engaging practice partners",
+    "core_concept": "An AI-powered conversational partner for language practice that simulates social scenarios and provides feedback, aiming to reduce user anxiety about making mistakes.",
+    "proposed_approach": "A language practice tool that uses AI to simulate basic social interactions, offering a non-judgmental space for users to practice speaking a foreign language and receive simple, constructive feedback.",
+    "prototype_scope": "A web-based chatbot for practicing basic Spanish conversations. It will offer a limited set of pre-defined, common social scenarios (e.g., ordering food, asking for directions). The AI will provide immediate, text-based feedback on grammar and vocabulary, focusing on clarity and correctness rather than emotional nuance. | Develop a basic chatbot interface using a readily available NLP framework (e.g., Rasa, Dialogflow).; Define and script 2-3 common conve…"
+  },
+  {
+    "candidate_id": "BLIND_0089",
+    "title": "Digital Legacy Capsule for Personal Archives",
+    "target_user": "Individuals who have compiled extensive digital personal archives (photos, documents, writings) and wish to organize and 'prepare' them for their intended beneficiaries or future preservation.",
+    "problem_or_desire": "Desire to structure, tag, and add annotations or messages to a large collection of digital personal assets, ensuring context and intent are passed on, rather than just raw data.",
+    "core_concept": "A secure cloud platform that allows users to create themed 'capsules' of digital content, with customizable organization, rich metadata, and the ability to pre-write contextual notes for specific files or capsules.",
+    "proposed_approach": "Build an intuitive interface for uploading and organizing diverse digital file types, offering AI assistance for metadata tagging, and a protected sharing mechanism for pre-assigned recipients to access curated 'legacy capsules'.",
+    "prototype_scope": "A desktop application where users can upload collections of local files (up to a defined size limit). Users can then arrange these files into named 'boxes,' add simple text notes, and generate an encrypted export file that, when decrypted with a shared key, presents a navigable folder structure with notes."
+  },
+  {
+    "candidate_id": "BLIND_0080",
+    "title": "Auditory Decision Tree Simulator",
+    "target_user": "Students learning diagnostic skills in applied fields (e.g., nursing, field biology)",
+    "problem_or_desire": "Developing effective diagnostic reasoning from limited, qualitative information (verbal descriptions, situational clues).",
+    "core_concept": "An interactive audio-based game that simulates a real-world scenario, forcing players to ask specific, sequential questions to identify a subject (e.g., disease, species) through a constrained information flow.",
+    "proposed_approach": "Design a scenario branching narrative triggered by user question inputs. Utilize a rule-based system or a simplified decision tree algorithm to manage information availability and guide the player through a deductive process.",
+    "prototype_scope": "A desktop application presenting scenarios for basic botany identification. The user hears a brief initial description of a plant. They can select from a limited list of Yes/No questions ('Does it have leaves?', 'Are the edges serrated?') to identify it, presented as short audio clips."
+  },
+  {
+    "candidate_id": "BLIND_0091",
+    "title": "Kinetic Echo Recall",
+    "target_user": "Experienced competitive mobile gamers seeking novel tactical depth.",
+    "problem_or_desire": "The meta in competitive mobile action games often becomes stale, and players desire fresh strategic options that reward foresight and timing.",
+    "core_concept": "The core mechanic of recording a sequence of player actions and replaying it via a temporal clone to flank, distract, or attack.",
+    "proposed_approach": "A 1v1 arena combat game where players can record a short sequence of actions and then replay it as a temporal clone. The focus is on demonstrating the tactical use of the clone for creating openings, feints, or flanking maneuvers.",
+    "prototype_scope": "Two hero characters in a symmetrical arena. One-on-one combat. The core mechanic demonstrated is: Player A performs a sequence of 3-5 actions (e.g., attack, dodge, attack). Player A then triggers the 'Kinetic Echo', creating a clone that replays those exact actions. Player A can then use this echo to distract Player B, create a pincer attack, or set up a combo. The MVP includes 3 distinct echo 'types' (e.g., offensive echo, defensive echo, movement echo)…"
+  }
+]

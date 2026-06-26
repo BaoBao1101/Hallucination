@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "stage": "neutral_randomized_pairwise_m1_m3_judge",
+    "judge_model": "gemini-2.5-flash-lite",
+    "temperature": 0.0,
+    "top_p": 0.1,
+    "batch_id": "P1_NEUTRAL_GEMINI_003",
+    "input_source": "[LOCAL_PATH_REDACTED]",
+    "created_at": "2026-06-23T13:05:33",
+    "blindness_note": "The judge received randomized Candidate A/B cards without method or source/revision labels."
+  },
+  "evaluations": [
+    {
+      "pair_id": "P1PAIR_0009",
+      "preferences": {
+        "novelty_preference": "TIE",
+        "conceptual_coherence_preference": "A",
+        "user_pain_plausibility_preference": "TIE",
+        "technical_plausibility_preference": "A",
+        "mvp_clarity_preference": "A",
+        "business_model_plausibility_preference": "TIE",
+        "lower_unsupported_claim_risk": "TIE",
+        "lower_ethical_privacy_risk": "TIE",
+        "overall_mvp_usefulness_preference": "A",
+        "prototype_preference": "A"
+      },
+      "short_rationale": "Candidate A provides a more detailed and structured prototype scope, outlining specific features and implementation steps. Candidate B's approach is less detailed in its technical execution and MVP scope."
+    },
+    {
+      "pair_id": "P1PAIR_0010",
+      "preferences": {
+        "novelty_preference": "TIE",
+        "conceptual_coherence_preference": "TIE",
+        "user_pain_plausibility_preference": "TIE",
+        "technical_plausibility_preference": "TIE",
+        "mvp_clarity_preference": "A",
+        "business_model_plausibility_preference": "TIE",
+        "lower_unsupported_claim_risk": "TIE",
+        "lower_ethical_privacy_risk": "TIE",
+        "overall_mvp_usefulness_preference": "A",
+        "prototype_preference": "A"
+      },
+      "short_rationale": "Candidate A offers a more granular and actionable prototype scope, detailing specific steps for recruitment, operations, and feedback collection. Candidate B's scope is more concise and less descriptive of the implementation process."
+    },
+    {
+      "pair_id": "P1PAIR_0011",
+      "preferences": {
+        "novelty_preference": "TIE",
+        "conceptual_coherence_preference": "TIE",
+        "user_pain_plausibility_preference": "TIE",
+        "technical_plausibility_preference": "TIE",
+        "mvp_clarity_preference": "B",
+        "business_model_plausibility_preference": "TIE",
+        "lower_unsupported_claim_risk": "TIE",
+        "lower_ethical_privacy_risk": "TIE",
+        "overall_mvp_usefulness_preference": "B",
+        "prototype_preference": "B"
+      },
+      "short_rationale": "Candidate B provides a more detailed and specific prototype scope, including explicit steps for AI implementation and visualization. Candidate A's scope is less detailed regarding the AI's specific functions and the MVP's technical implementation."
+    },
+    {
+      "pair_id": "P1PAIR_0012",
+      "preferences": {
+        "novelty_preference": "TIE",
+        "conceptual_coherence_preference": "TIE",
+        "user_pain_plausibility_preference": "TIE",
+        "technical_plausibility_preference": "TIE",
+        "mvp_clarity_preference": "A",
+        "business_model_plausibility_preference": "TIE",
+        "lower_unsupported_claim_risk": "TIE",
+        "lower_ethical_privacy_risk": "TIE",
+        "overall_mvp_usefulness_preference": "A",
+        "prototype_preference": "A"
+      },
+      "short_rationale": "Candidate A offers a more detailed and structured prototype scope, including specific steps for sourcing, menu development, and feedback collection. Candidate B's scope is more concise and less descriptive of the implementation process."
+    }
+  ]
+}

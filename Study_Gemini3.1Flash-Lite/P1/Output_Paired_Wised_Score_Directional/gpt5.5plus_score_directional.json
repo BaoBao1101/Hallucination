@@ -1,0 +1,724 @@
+{
+"evaluations": [
+{
+"pair_id": "P1TRACE_0001",
+"scores": {
+"creative_core_preservation": 5.0,
+"novelty_retention": 4.9,
+"practical_mvp_improvement": 4.1,
+"overclaim_removal_quality": 3.8,
+"semantic_drift_risk": 1.0
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "It retains the same manual 10-point pricing-page audit and Loom delivery while adding explicit criteria, recruitment, feedback, and conversion-data collection. The feasibility gain is real, though the claim of improving conversion rates remains only broadly framed."
+},
+{
+"pair_id": "P1TRACE_0002",
+"scores": {
+"creative_core_preservation": 3.8,
+"novelty_retention": 3.5,
+"practical_mvp_improvement": 4.2,
+"overclaim_removal_quality": 3.6,
+"semantic_drift_risk": 2.8
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Live remote heritage cooking remains, but the transformation omits the historical cookbook localization and older-cook specificity that made the experience distinctive. It provides a clearer five-session test, trading part of the cultural mechanism for a simpler live-service pilot."
+},
+{
+"pair_id": "P1TRACE_0003",
+"scores": {
+"creative_core_preservation": 4.4,
+"novelty_retention": 4.2,
+"practical_mvp_improvement": 4.6,
+"overclaim_removal_quality": 4.5,
+"semantic_drift_risk": 2.2
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The cross-reference of access activity against license assignments is retained. Replacing continuous API connections with exported CSVs sharply bounds the build and test plan, while preserving the unused-seat identification mechanism."
+},
+{
+"pair_id": "P1TRACE_0004",
+"scores": {
+"creative_core_preservation": 3.3,
+"novelty_retention": 3.3,
+"practical_mvp_improvement": 4.0,
+"overclaim_removal_quality": 3.8,
+"semantic_drift_risk": 3.3
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The transformation retains detection and reporting of low-reputation placements but drops the cross-platform exclusion-list synchronization mechanism. A five-client manual audit is more concrete, yet it tests monitoring rather than the reference's consistent blocking protocol."
+},
+{
+"pair_id": "P1TRACE_0005",
+"scores": {
+"creative_core_preservation": 4.7,
+"novelty_retention": 4.6,
+"practical_mvp_improvement": 4.2,
+"overclaim_removal_quality": 4.4,
+"semantic_drift_risk": 1.6
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Modular barter/equity agreement generation and adjustable PDF variables remain central. Recasting legal-compliance language as templates narrows a stronger claim, while the three-creator test adds a direct validation step without materially changing the concept."
+},
+{
+"pair_id": "P1TRACE_0006",
+"scores": {
+"creative_core_preservation": 4.0,
+"novelty_retention": 3.8,
+"practical_mvp_improvement": 4.2,
+"overclaim_removal_quality": 4.2,
+"semantic_drift_risk": 2.4
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Crowdsourced coffee-shop acoustic mapping remains, but manual ratings replace the reference's non-private noise-profile and metadata framing. The simple rating map is easier to test and removes inferred traffic levels, at the cost of a less distinctive sensing concept."
+},
+{
+"pair_id": "P1TRACE_0007",
+"scores": {
+"creative_core_preservation": 4.1,
+"novelty_retention": 3.9,
+"practical_mvp_improvement": 4.2,
+"overclaim_removal_quality": 3.8,
+"semantic_drift_risk": 2.2
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The searchable supplemental-material registry is preserved, while faculty-oriented gamified tagging is reduced to community submission and viewing. The directory, forms, and dummy modules provide a clearer MVP, though the verification and recommendation mechanism is less developed."
+},
+{
+"pair_id": "P1TRACE_0008",
+"scores": {
+"creative_core_preservation": 3.7,
+"novelty_retention": 3.6,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.4,
+"semantic_drift_risk": 3.0
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Translation-driven trading remains, but the shared parallel city and dynamic shopkeepers become a single-player scene with static NPCs. The restricted three-phrase barter test is highly bounded, yet it loses much of the original's social and systemic imaginative scale."
+},
+{
+"pair_id": "P1TRACE_0009",
+"scores": {
+"creative_core_preservation": 4.0,
+"novelty_retention": 3.7,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.2,
+"semantic_drift_risk": 2.5
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "It retains multi-source feedback aggregation and categorization for identifying training issues. Predefined buckets and a two-source chart make the prototype concrete, while reducing the reference's broader normalization and semantic-trend interpretation."
+},
+{
+"pair_id": "P1TRACE_0010",
+"scores": {
+"creative_core_preservation": 4.1,
+"novelty_retention": 3.8,
+"practical_mvp_improvement": 4.1,
+"overclaim_removal_quality": 3.7,
+"semantic_drift_risk": 2.4
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The photo-based chronological storytelling grid remains, but historical-date anchors are replaced by fully user-defined ordering. The transformation supplies a build sequence for a small interface, sacrificing the reference's contextual anchoring mechanism."
+},
+{
+"pair_id": "P1TRACE_0011",
+"scores": {
+"creative_core_preservation": 3.8,
+"novelty_retention": 3.5,
+"practical_mvp_improvement": 4.4,
+"overclaim_removal_quality": 4.1,
+"semantic_drift_risk": 2.5
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The transformation keeps low-acidity coffee selection and participant testing with pH strips, but replaces batch certification and standardized screening with a looser personalized curation framing. Its ten-person pilot is clearer and avoids the reference's stronger laboratory-style language."
+},
+{
+"pair_id": "P1TRACE_0012",
+"scores": {
+"creative_core_preservation": 3.2,
+"novelty_retention": 3.0,
+"practical_mvp_improvement": 4.6,
+"overclaim_removal_quality": 4.5,
+"semantic_drift_risk": 3.4
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Prepared-meal pickup near transit remains, but automated climate-controlled lockers and mobile-code retrieval are replaced by staffed collection points. The short, local pilot is substantially more bounded, although it no longer tests the distinctive self-service locker mechanism."
+},
+{
+"pair_id": "P1TRACE_0013",
+"scores": {
+"creative_core_preservation": 3.8,
+"novelty_retention": 3.6,
+"practical_mvp_improvement": 4.4,
+"overclaim_removal_quality": 4.1,
+"semantic_drift_risk": 2.8
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The slow garden still responds to a sunlight pattern, but real-time zip-code sunlight and environmental integrations become a static simulated schedule. One cactus over 48 hours is clearly testable, while the localized real-world synchronization is materially reduced."
+},
+{
+"pair_id": "P1TRACE_0014",
+"scores": {
+"creative_core_preservation": 3.1,
+"novelty_retention": 2.9,
+"practical_mvp_improvement": 4.1,
+"overclaim_removal_quality": 4.2,
+"semantic_drift_risk": 3.5
+},
+"preferred_for_prototype": "REFERENCE",
+"short_rationale": "The transformation creates a simple personal height log, but removes the reference's central optimal-versus-attained comparison. Its build is easier, yet the reference already has a bounded weekly graph prototype and better addresses comparison against recommended care."
+},
+{
+"pair_id": "P1TRACE_0015",
+"scores": {
+"creative_core_preservation": 4.4,
+"novelty_retention": 4.2,
+"practical_mvp_improvement": 4.3,
+"overclaim_removal_quality": 4.0,
+"semantic_drift_risk": 1.9
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Checklist-gated entry remains the operative mechanism. Manual protocols replace automatic room clearing and verification, making the three-community test more controllable while preserving the essential gate before participation."
+},
+{
+"pair_id": "P1TRACE_0016",
+"scores": {
+"creative_core_preservation": 4.2,
+"novelty_retention": 4.0,
+"practical_mvp_improvement": 4.6,
+"overclaim_removal_quality": 4.2,
+"semantic_drift_risk": 2.1
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Peer-to-peer sharing of backyard surplus remains intact, while the geolocated exchange map becomes a one-street moderated group. The WhatsApp pilot sharply reduces implementation scope yet still tests posting, pickup, and exchange friction."
+},
+{
+"pair_id": "P1TRACE_0017",
+"scores": {
+"creative_core_preservation": 3.8,
+"novelty_retention": 3.7,
+"practical_mvp_improvement": 4.4,
+"overclaim_removal_quality": 4.2,
+"semantic_drift_risk": 2.8
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The pantry-to-RPG equipment loop remains, but OCR scanning, hunger-linked monsters, and dynamic generation become manual selection and a basic battle loop. This is much easier to test, though it reduces the reference's responsive fantasy mechanism."
+},
+{
+"pair_id": "P1TRACE_0018",
+"scores": {
+"creative_core_preservation": 4.4,
+"novelty_retention": 4.3,
+"practical_mvp_improvement": 4.2,
+"overclaim_removal_quality": 3.8,
+"semantic_drift_risk": 1.8
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Cleaning buggy snippets within grid combat remains central, including the same limited combat-grid scope. The transformation makes the game loop explicit, but softens the reference's regex-as-fortification framing rather than replacing it."
+},
+{
+"pair_id": "P1TRACE_0019",
+"scores": {
+"creative_core_preservation": 3.8,
+"novelty_retention": 3.8,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.1,
+"semantic_drift_risk": 2.8
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Catering from ugly or near-expiry ingredients remains, but distributor-sourced industrial excess becomes local end-of-day market surplus. The five-lunch plan is easier to execute and observe, while altering the original supply-side partnership mechanism."
+},
+{
+"pair_id": "P1TRACE_0020",
+"scores": {
+"creative_core_preservation": 4.7,
+"novelty_retention": 4.6,
+"practical_mvp_improvement": 4.1,
+"overclaim_removal_quality": 3.7,
+"semantic_drift_risk": 1.4
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Ingredient-centered chronological viewing remains explicit, and the single-recipe visualization is a credible small test. Adding a procedural-view toggle improves usability, with only minor dilution of the reference's ingredient-first interaction."
+},
+{
+"pair_id": "P1TRACE_0021",
+"scores": {
+"creative_core_preservation": 3.3,
+"novelty_retention": 3.1,
+"practical_mvp_improvement": 4.7,
+"overclaim_removal_quality": 4.5,
+"semantic_drift_risk": 3.5
+},
+"preferred_for_prototype": "REFERENCE",
+"short_rationale": "Remote co-cooking remains, but the synchronized smart-hardware dependency and coordinated temperature thresholds are replaced by an ordinary video cook-along. The transformation is much easier to run, yet the reference's already narrow appliance prototype better tests the distinctive interdependent cooking mechanism."
+},
+{
+"pair_id": "P1TRACE_0022",
+"scores": {
+"creative_core_preservation": 3.9,
+"novelty_retention": 3.8,
+"practical_mvp_improvement": 4.2,
+"overclaim_removal_quality": 3.7,
+"semantic_drift_risk": 2.6
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Project-duration estimation from inputs remains, but style-complexity benchmarks are recast as user variables and personal historical multipliers. The form is still a bounded prototype and more explicit about inputs, though its benchmark basis is less distinctive."
+},
+{
+"pair_id": "P1TRACE_0023",
+"scores": {
+"creative_core_preservation": 4.3,
+"novelty_retention": 4.1,
+"practical_mvp_improvement": 4.6,
+"overclaim_removal_quality": 4.5,
+"semantic_drift_risk": 1.9
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Sleep-readiness-based recommendations for roast and amount remain central. Manual entry and email delivery replace real-time sensor integration, creating a clear two-week pilot while preserving the personalized recommendation loop."
+},
+{
+"pair_id": "P1TRACE_0024",
+"scores": {
+"creative_core_preservation": 3.7,
+"novelty_retention": 3.6,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.2,
+"semantic_drift_risk": 2.9
+},
+"preferred_for_prototype": "REFERENCE",
+"short_rationale": "Obstacle injection remains, but a pre-scripted character and two fixed outcomes replace the reference's player-built protagonist and sidekick-AI problem-solving loop. The transformation is easy to build, yet it converts the distinctive reverse interaction into a more conventional branch."
+},
+{
+"pair_id": "P1TRACE_0025",
+"scores": {
+"creative_core_preservation": 3.8,
+"novelty_retention": 3.5,
+"practical_mvp_improvement": 4.2,
+"overclaim_removal_quality": 3.8,
+"semantic_drift_risk": 2.8
+},
+"preferred_for_prototype": "REFERENCE",
+"short_rationale": "Blindfolded tasting remains, but the reference's defining sequential texture-gradient menu design is reduced to a general flavor-focused event. Both cards specify a six-course, twenty-person session; the reference therefore preserves a more distinctive testable experience."
+},
+{
+"pair_id": "P1TRACE_0026",
+"scores": {
+"creative_core_preservation": 3.6,
+"novelty_retention": 3.3,
+"practical_mvp_improvement": 4.4,
+"overclaim_removal_quality": 4.3,
+"semantic_drift_risk": 3.1
+},
+"preferred_for_prototype": "REFERENCE",
+"short_rationale": "Price comparison for core ingredients remains, but invoice import, daily ledgering, and alerts become manual entry in a static table. The transformation is easier to build, yet it no longer tests the reference's differentiated procurement-monitoring mechanism."
+},
+{
+"pair_id": "P1TRACE_0027",
+"scores": {
+"creative_core_preservation": 4.8,
+"novelty_retention": 4.7,
+"practical_mvp_improvement": 4.7,
+"overclaim_removal_quality": 4.2,
+"semantic_drift_risk": 1.2
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The strict 48-hour roast-freshness subscription remains almost unchanged. A manual fixed-route courier and weekly delivery cycles replace broader middleware logistics, yielding a highly concrete validation plan with very little conceptual loss."
+},
+{
+"pair_id": "P1TRACE_0028",
+"scores": {
+"creative_core_preservation": 3.5,
+"novelty_retention": 3.3,
+"practical_mvp_improvement": 4.6,
+"overclaim_removal_quality": 4.4,
+"semantic_drift_risk": 3.2
+},
+"preferred_for_prototype": "REFERENCE",
+"short_rationale": "Linking communications to project records remains, but background summarization and bi-directional contextual linkage become a user-triggered save-to-ticket action. The transformation is highly feasible, yet it tests a generic capture feature rather than the reference's central knowledge-linking mechanism."
+},
+{
+"pair_id": "P1TRACE_0029",
+"scores": {
+"creative_core_preservation": 4.0,
+"novelty_retention": 3.8,
+"practical_mvp_improvement": 4.3,
+"overclaim_removal_quality": 4.1,
+"semantic_drift_risk": 2.4
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Shared remote tasting rituals and mailed samples remain, while synchronized arrival and live calibration are simplified into kits and guided cards. The three-event plan is easier to operate, though it less directly tests the reference's coordinated sensory calibration."
+},
+{
+"pair_id": "P1TRACE_0030",
+"scores": {
+"creative_core_preservation": 4.0,
+"novelty_retention": 3.8,
+"practical_mvp_improvement": 4.4,
+"overclaim_removal_quality": 4.1,
+"semantic_drift_risk": 2.4
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Public technical-content assessment remains, but autonomous social reading and qualitative mindshare analysis become a predefined frequency-and-complexity rubric. The one-platform script is more testable, while the depth of the original contribution analysis is reduced."
+},
+{
+"pair_id": "P1TRACE_0031",
+"scores": {
+"creative_core_preservation": 4.0,
+"novelty_retention": 3.7,
+"practical_mvp_improvement": 4.2,
+"overclaim_removal_quality": 3.7,
+"semantic_drift_risk": 2.3
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Audio-only navigation through haptic and voice interaction remains, including the same small maze calibration. The transformation omits the binary-pulse, fully eyes-closed, and spatial-audio details, trading some experiential specificity for a direct build plan."
+},
+{
+"pair_id": "P1TRACE_0032",
+"scores": {
+"creative_core_preservation": 4.0,
+"novelty_retention": 3.8,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.3,
+"semantic_drift_risk": 2.5
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Transcript-to-brief extraction remains, but shadowing calls and reading whiteboards are narrowed to uploaded transcripts and a fixed template. This creates a bounded upload-and-export MVP while reducing the reference's broader meeting-capture mechanism."
+},
+{
+"pair_id": "P1TRACE_0033",
+"scores": {
+"creative_core_preservation": 3.6,
+"novelty_retention": 3.4,
+"practical_mvp_improvement": 4.1,
+"overclaim_removal_quality": 3.8,
+"semantic_drift_risk": 3.0
+},
+"preferred_for_prototype": "REFERENCE",
+"short_rationale": "Resource flow in an isometric simulation remains, but the fungal metaphor, visual obstruction, and wilting feedback that reveal weak links are largely removed. The transformation is simpler, yet the reference's one-parent, three-child scope can test the distinctive diagnostic visualization."
+},
+{
+"pair_id": "P1TRACE_0034",
+"scores": {
+"creative_core_preservation": 3.9,
+"novelty_retention": 3.7,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.4,
+"semantic_drift_risk": 2.5
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Mapping regulatory text to internal procedures remains, but monitored feeds and modified-step highlighting become pasted-text keyword overlap. The transformation is much easier to trial and bounds automation claims, although it reduces the depth of the original diff mechanism."
+},
+{
+"pair_id": "P1TRACE_0035",
+"scores": {
+"creative_core_preservation": 3.9,
+"novelty_retention": 3.7,
+"practical_mvp_improvement": 4.1,
+"overclaim_removal_quality": 3.9,
+"semantic_drift_risk": 2.6
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "A private curated vendor directory remains, but store-volume filtering and pre-negotiated tiers are replaced by broad reliability and transparency curation. The five-retailer, three-vendor portal is concrete, with some loss of the reference's targeted matching logic."
+},
+{
+"pair_id": "P1TRACE_0036",
+"scores": {
+"creative_core_preservation": 3.8,
+"novelty_retention": 3.6,
+"practical_mvp_improvement": 4.3,
+"overclaim_removal_quality": 4.1,
+"semantic_drift_risk": 2.7
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Visual evidence of food preparation remains, but continuous 24-hour access and all-phase authenticated documentation become time-stamped clips. The smaller meal pilot is more practical, while providing a weaker version of the reference's continuous-transparency mechanism."
+},
+{
+"pair_id": "P1TRACE_0037",
+"scores": {
+"creative_core_preservation": 4.0,
+"novelty_retention": 3.8,
+"practical_mvp_improvement": 4.6,
+"overclaim_removal_quality": 4.3,
+"semantic_drift_risk": 2.4
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Commuter-timed cold-brew availability remains, but a dynamic kiosk and scheduling metadata become a mobile cart with manual train-schedule observation. The one-week hub trial is strongly bounded, while the automated replenishment mechanism is reduced."
+},
+{
+"pair_id": "P1TRACE_0038",
+"scores": {
+"creative_core_preservation": 3.7,
+"novelty_retention": 3.5,
+"practical_mvp_improvement": 4.2,
+"overclaim_removal_quality": 3.8,
+"semantic_drift_risk": 2.9
+},
+"preferred_for_prototype": "REFERENCE",
+"short_rationale": "Relationship-tier categorization and gift history remain, but the reminder sequences filtered by proximity thresholds disappear. The transformation offers a straightforward CRM, yet the reference's small contact vault more directly tests the notification mechanism that differentiates the concept."
+},
+{
+"pair_id": "P1TRACE_0039",
+"scores": {
+"creative_core_preservation": 4.5,
+"novelty_retention": 4.3,
+"practical_mvp_improvement": 4.6,
+"overclaim_removal_quality": 4.0,
+"semantic_drift_risk": 1.6
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The office coffee-waste-to-compost loop remains clearly intact. Partner processing and a three-office pilot replace the larger municipal pipeline, proprietary receptacles, and soil analytics, producing a more feasible test with minimal loss of the central return loop."
+},
+{
+"pair_id": "P1TRACE_0040",
+"scores": {
+"creative_core_preservation": 3.5,
+"novelty_retention": 3.3,
+"practical_mvp_improvement": 4.2,
+"overclaim_removal_quality": 3.8,
+"semantic_drift_risk": 3.0
+},
+"preferred_for_prototype": "REFERENCE",
+"short_rationale": "Game matching remains, but complexity-class constraints and timezone matching become generic game listings, experience levels, and messaging. The transformation is more conventional; the reference's existing form and filters better preserve the specific matching mechanism."
+},
+{
+"pair_id": "P1TRACE_0041",
+"scores": {
+"creative_core_preservation": 4.5,
+"novelty_retention": 4.4,
+"practical_mvp_improvement": 4.3,
+"overclaim_removal_quality": 3.8,
+"semantic_drift_risk": 1.5
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The exclusive line-versus-color roles and synchronized shared canvas remain. The transformation makes implementation tasks explicit, although it does not retain the reference's fixed 60-second round rule."
+},
+{
+"pair_id": "P1TRACE_0042",
+"scores": {
+"creative_core_preservation": 4.2,
+"novelty_retention": 4.0,
+"practical_mvp_improvement": 4.3,
+"overclaim_removal_quality": 4.0,
+"semantic_drift_risk": 2.1
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Asynchronous interactive onboarding playbooks remain the core. The transformation swaps engagement-speed reporting SaaS for PDF/Notion delivery and a small startup test, making the offer more feasible while losing the measurement component."
+},
+{
+"pair_id": "P1TRACE_0043",
+"scores": {
+"creative_core_preservation": 3.8,
+"novelty_retention": 3.6,
+"practical_mvp_improvement": 4.4,
+"overclaim_removal_quality": 4.2,
+"semantic_drift_risk": 2.8
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Live harvestable herbs delivered to kitchens remain, but replaceable substrate cassettes and the light-starved kitchen system become weekly potted-herb replacement. The delivery trial is concrete, while the reference's specialized growing mechanism is reduced."
+},
+{
+"pair_id": "P1TRACE_0044",
+"scores": {
+"creative_core_preservation": 4.5,
+"novelty_retention": 4.3,
+"practical_mvp_improvement": 4.4,
+"overclaim_removal_quality": 3.9,
+"semantic_drift_risk": 1.7
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Trial access to coffee equipment with technique support remains intact. The transformation narrows high-end consignment to two manual rigs with digital guides, yielding a more explicit rental pilot without materially changing the learning-and-trial premise."
+},
+{
+"pair_id": "P1TRACE_0045",
+"scores": {
+"creative_core_preservation": 3.9,
+"novelty_retention": 3.6,
+"practical_mvp_improvement": 4.2,
+"overclaim_removal_quality": 3.7,
+"semantic_drift_risk": 2.6
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Rapid repair through replacement parts remains, but modular machine-heart swaps and a standardized reconditioned-module system become stocked common parts for one brand. The pilot is narrower and practical, though its 24-hour guarantee adds a strong promise without further grounding."
+},
+{
+"pair_id": "P1TRACE_0046",
+"scores": {
+"creative_core_preservation": 3.9,
+"novelty_retention": 3.6,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.5,
+"semantic_drift_risk": 2.7
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Loyalty points linked to a named agricultural beneficiary remain, but blockchain routing and individual-harvester distribution are removed. The manual dashboard and one donation cycle create a credible test while simplifying the reference's more elaborate traceability structure."
+},
+{
+"pair_id": "P1TRACE_0047",
+"scores": {
+"creative_core_preservation": 3.7,
+"novelty_retention": 3.5,
+"practical_mvp_improvement": 4.2,
+"overclaim_removal_quality": 4.0,
+"semantic_drift_risk": 2.9
+},
+"preferred_for_prototype": "REFERENCE",
+"short_rationale": "Clickable annotation on parts imagery remains, but suspected-failure warnings over manufacturer schematics become general image hotspots. The transformation makes a simple UI feasible, yet the reference's limited exploded-view prototype better retains the repair-diagnosis purpose."
+},
+{
+"pair_id": "P1TRACE_0048",
+"scores": {
+"creative_core_preservation": 4.0,
+"novelty_retention": 3.7,
+"practical_mvp_improvement": 4.4,
+"overclaim_removal_quality": 4.3,
+"semantic_drift_risk": 2.3
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Rank-drop threshold alerts remain, but pinpointed revision suggestions are replaced by prompting manual review. The small monitored-site trial is concrete and removes the more assertive recommendation layer, though it preserves less of the corrective mechanism."
+},
+{
+"pair_id": "P1TRACE_0049",
+"scores": {
+"creative_core_preservation": 4.5,
+"novelty_retention": 4.4,
+"practical_mvp_improvement": 4.4,
+"overclaim_removal_quality": 3.8,
+"semantic_drift_risk": 1.7
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "GPS-triggered audio storytelling along a single mission remains. The transformation simplifies ghost and local-history framing into pre-defined clips, but preserves movement-to-location activation and provides a clear geofenced prototype."
+},
+{
+"pair_id": "P1TRACE_0050",
+"scores": {
+"creative_core_preservation": 4.1,
+"novelty_retention": 3.9,
+"practical_mvp_improvement": 4.4,
+"overclaim_removal_quality": 4.2,
+"semantic_drift_risk": 2.2
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Scheduling around milestone-critical work remains, while historical-habit impact prediction is replaced by tagged conflicts and suggestions to move non-critical meetings. The plugin plan is more bounded but loses some of the reference's predictive consequence analysis."
+},
+{
+"pair_id": "P1TRACE_0051",
+"scores": {
+"creative_core_preservation": 3.5,
+"novelty_retention": 3.1,
+"practical_mvp_improvement": 4.4,
+"overclaim_removal_quality": 4.2,
+"semantic_drift_risk": 3.3
+},
+"preferred_for_prototype": "REFERENCE",
+"short_rationale": "Running cadence and rhythm interaction remain, but user speed driving a procedurally changing soundtrack becomes following a fixed track with cues. The transformation is easier to build, yet the reference's one-track prototype better tests the distinctive speed-as-beat-matcher interaction."
+},
+{
+"pair_id": "P1TRACE_0052",
+"scores": {
+"creative_core_preservation": 4.8,
+"novelty_retention": 4.7,
+"practical_mvp_improvement": 4.2,
+"overclaim_removal_quality": 3.7,
+"semantic_drift_risk": 1.2
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The creator-to-brand procurement bridge, authentic video focus, and closed Slack-group scope remain nearly unchanged. The transformation adds explicit recruitment and quality monitoring, strengthening execution detail with little conceptual change."
+},
+{
+"pair_id": "P1TRACE_0053",
+"scores": {
+"creative_core_preservation": 3.7,
+"novelty_retention": 3.5,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.4,
+"semantic_drift_risk": 2.9
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Shared-document structure enforcement remains, but metadata-based automated filing becomes a watcher that flags non-compliant files. The transformation creates a much clearer rule-and-report MVP, while dropping the reference's active synchronization and relocation mechanism."
+},
+{
+"pair_id": "P1TRACE_0054",
+"scores": {
+"creative_core_preservation": 4.3,
+"novelty_retention": 4.1,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.4,
+"semantic_drift_risk": 2.0
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Micro-scope matching for framework-specific fixes remains. Manual specialist matching replaces AI-mediated verification, and the three-project plan makes the first service test concrete without losing the narrowly targeted job-matching premise."
+},
+{
+"pair_id": "P1TRACE_0055",
+"scores": {
+"creative_core_preservation": 3.3,
+"novelty_retention": 3.0,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.5,
+"semantic_drift_risk": 3.5
+},
+"preferred_for_prototype": "REFERENCE",
+"short_rationale": "Adaptive snack selection from participant feedback remains, but nutrient adjustment and biometric-plus-linguistic feedback loops become a conventional preference survey. The transformation is much easier to run, yet the reference's phone-journal pilot better retains the distinctive modeled-feedback mechanism."
+},
+{
+"pair_id": "P1TRACE_0056",
+"scores": {
+"creative_core_preservation": 4.4,
+"novelty_retention": 4.2,
+"practical_mvp_improvement": 4.7,
+"overclaim_removal_quality": 4.5,
+"semantic_drift_risk": 1.8
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Usage-versus-invoice cross-checking and human review remain central. Replacing email extraction and live usage access with PDFs and CSVs produces a tightly bounded three-format script while retaining the discrepancy-detection mechanism."
+},
+{
+"pair_id": "P1TRACE_0057",
+"scores": {
+"creative_core_preservation": 4.0,
+"novelty_retention": 3.8,
+"practical_mvp_improvement": 4.4,
+"overclaim_removal_quality": 4.1,
+"semantic_drift_risk": 2.5
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Pickup and return of home produce in preserved freezer-ready form remain. The transformation drops the subscription and flavor-concentrate framing, but its five-household, ten-bag pilot makes the service operation easier to test."
+},
+{
+"pair_id": "P1TRACE_0058",
+"scores": {
+"creative_core_preservation": 4.1,
+"novelty_retention": 3.9,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.4,
+"semantic_drift_risk": 2.2
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Shipping-cost-informed buffer-stock adjustment remains, but automatic ERP updates and live rate scraping become CSV-based recommendations requiring approval. The dashboard is a credible MVP and narrows automation while preserving the core decision logic."
+},
+{
+"pair_id": "P1TRACE_0059",
+"scores": {
+"creative_core_preservation": 4.8,
+"novelty_retention": 4.7,
+"practical_mvp_improvement": 4.3,
+"overclaim_removal_quality": 3.8,
+"semantic_drift_risk": 1.2
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Templated affiliate onboarding documents, CRM materials, and a three-video kit remain essentially intact. The transformation adds packaging and beta-user testing, improving validation detail with negligible loss of the original workflow-setup concept."
+},
+{
+"pair_id": "P1TRACE_0060",
+"scores": {
+"creative_core_preservation": 3.8,
+"novelty_retention": 3.5,
+"practical_mvp_improvement": 4.6,
+"overclaim_removal_quality": 4.4,
+"semantic_drift_risk": 2.7
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Preference-informed coffee inventory adjustment remains through QR surveys, but bin monitoring, POS integration, and heat-map analysis are omitted. The one-location month-long pilot is highly testable, while the reference's combined waste-and-preference evidence mechanism is reduced."
+}
+]
+}

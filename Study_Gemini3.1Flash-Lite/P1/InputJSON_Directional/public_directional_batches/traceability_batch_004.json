@@ -1,0 +1,318 @@
+{
+  "batch_id": "P1_DIRECTIONAL_TRACE_004",
+  "stage": "directional_role_aware_method_blind_traceability",
+  "prompt_regime": "P1_shared_neutral",
+  "blindness_note": "Hidden method identity: the evaluator is not shown M1/M3, model, temperature, prompt, source filename, or generation pipeline. Visible directional role: Reference Concept versus Transformation Candidate.",
+  "pairs": [
+    {
+      "pair_id": "P1TRACE_0031",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Sleep Sentinel",
+            "target_user": "Light sleepers suffering from screen light overstimulation",
+            "problem_or_desire": "Late night fidgeting and phone reliance impacting transition to REM cycles",
+            "core_concept": "Audio-only tactical adventure navigable through binary haptic pulses and voice commands while keeping the eyes fully closed (phone screen brightness reduced to black).",
+            "proposed_approach": "Binaural storytelling using spatial audio to indicate direction; user must verbally command left, right, or push maneuvers to solve escape puzzles while lying in darkness.",
+            "prototype_scope": "Calibration of gyroscope-to-rotation mapping for selecting directions within a simple 3x3 audio maze."
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Sleep Sentinel",
+            "target_user": "Light sleepers suffering from screen light overstimulation",
+            "problem_or_desire": "Late night fidgeting and phone reliance impacting transition to REM cycles",
+            "core_concept": "Audio-only tactical adventure navigable through haptic and voice commands.",
+            "proposed_approach": "An audio-only adventure game where players navigate a simple maze using voice commands.",
+            "prototype_scope": "Calibration of gyroscope-to-rotation mapping for selecting directions within a simple 3x3 audio maze. | Record audio cues for maze navigation; Implement voice command recognition; Build simple 3x3 maze logic"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0032",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Creative Brief Translator",
+            "target_user": "Mid-sized marketing agency project leads",
+            "problem_or_desire": "The information gap between high-level client conceptual needs and individual production brief quality.",
+            "core_concept": "Agents that 'shadow' planning calls to autonomously document technical requirements for contractors.",
+            "proposed_approach": "Agent analyzes collaborative whiteboard output and transcript data to fill structured standardized agency brief templates.",
+            "prototype_scope": "Template ingestion for graphic design asset requests derived from transcribed meetings."
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Creative Brief Translator",
+            "target_user": "Mid-sized marketing agency project leads",
+            "problem_or_desire": "The information gap between high-level client conceptual needs and individual production brief quality.",
+            "core_concept": "Automated extraction of technical requirements from unstructured meeting transcripts into structured templates.",
+            "proposed_approach": "A tool that processes uploaded meeting transcripts to populate a standardized creative brief template.",
+            "prototype_scope": "A web interface where users upload a transcript and receive a pre-filled brief based on a fixed template. | Select target creative brief template; Develop prompt engineering for transcript extraction; Build simple file upload UI; Implement template export (e.g., PDF/Docx)"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0033",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Mind Mapping Mycology",
+            "target_user": "Project managers needing mental organizational structure",
+            "problem_or_desire": "Hard-to-track complex logical connections between project silos",
+            "core_concept": "An isometric management simulation where project nodes propagate resources like fungal mycelium, forcing identification of 'thin' link areas through intuitive visual obstruction.",
+            "proposed_approach": "Mapping abstract work dependencies to subterranean connections; broken/weak linkages result in wilting the surface network of crops.",
+            "prototype_scope": "Visualization engine displaying connections between one parent and three child entities."
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Mind Mapping Mycology",
+            "target_user": "Project managers needing mental organizational structure",
+            "problem_or_desire": "Hard-to-track complex logical connections between project silos",
+            "core_concept": "Isometric management simulation where project nodes propagate resources.",
+            "proposed_approach": "An isometric management game where project nodes are connected, and players must manage resource flow between them.",
+            "prototype_scope": "A visualization engine displaying connections between one parent and three child entities. | Design isometric node system; Implement resource flow logic; Build simple UI for node management"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0034",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Regulatory Change Response Architect",
+            "target_user": "Food and beverage quality assurance heads",
+            "problem_or_desire": "Drastic differences in health safety manual implementation when regulations shift locally.",
+            "core_concept": "Mapping new legislation changes to existing internal standard operating procedure documents using diff identification.",
+            "proposed_approach": "Monitoring governmental regulatory feeds for trigger keywords and automatically highlighting modified procedure steps for policy-drafter human rewrite.",
+            "prototype_scope": "Dashboard tool for monitoring two specific municipality codes impacting packaging labeling."
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Regulatory Change Response Architect",
+            "target_user": "Food and beverage quality assurance heads",
+            "problem_or_desire": "Drastic differences in health safety manual implementation when regulations shift locally.",
+            "core_concept": "Mapping regulatory changes to internal SOPs using diff identification.",
+            "proposed_approach": "A tool that allows users to upload new regulations and existing SOPs, then highlights potential areas of conflict.",
+            "prototype_scope": "A web tool where users paste text from a regulation and an SOP, and the tool highlights keywords that appear in both. | Define keyword mapping; Build text comparison engine; Create simple UI; Test with sample regulations"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0035",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Vendor Selection Orchestrator",
+            "target_user": "First-time e-commerce brand owners",
+            "problem_or_desire": "Difficulty in finding legitimate, non-spammy shipping and fulfillment partners",
+            "core_concept": "A verified private dashboard of filtered vendors based on store volume metrics",
+            "proposed_approach": "Manual white-glove curation of pre-negotiated volume tiers",
+            "prototype_scope": "Google Sheets landing page portal connecting 5 retailers to vetted 3PL vendors"
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Vendor Selection Orchestrator",
+            "target_user": "First-time e-commerce brand owners",
+            "problem_or_desire": "Difficulty in finding legitimate, non-spammy shipping and fulfillment partners",
+            "core_concept": "A curated, private directory of vetted e-commerce fulfillment partners.",
+            "proposed_approach": "A curated directory of vetted 3PL vendors for small e-commerce brands, focusing on reliability and transparency.",
+            "prototype_scope": "A Google Sheets portal connecting 5 retailers to 3 vetted vendors. | Vet 3 reliable 3PL vendors.; Create a landing page/portal.; Onboard 5 retailers.; Facilitate introductions."
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0036",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Micro-batch Kitchens for Allergens",
+            "target_user": "Individuals with high-specificity celiac disease",
+            "problem_or_desire": "Anxiety around cross-contamination in communal food spaces",
+            "core_concept": "Visual transparency of food preparation for allergy-sensitive users.",
+            "proposed_approach": "A specialized meal prep service providing time-stamped video clips of the preparation process for specific orders.",
+            "prototype_scope": "Prepare 3 allergen-free meals for 5 users, providing a recorded video of the assembly process for each. | Define strict allergen-free protocols; Set up recording station; Prepare 15 meals with video proof; Gather feedback on trust levels"
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Micro-batch Kitchens for Allergens",
+            "target_user": "Individuals with high-specificity celiac disease",
+            "problem_or_desire": "Anxiety around cross-contamination in communal food spaces",
+            "core_concept": "A transparent preparation window enabled through recorded 24-hour visual feed accessibility",
+            "proposed_approach": "Operating exclusively single-allergy micro kitchens, providing authenticated 'visual documentation' of all food assembly phases",
+            "prototype_scope": "Testing pre-ordering on three specialized nutrient packs prepared under restricted 24/7 web camera documentation for five trial users"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0037",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Collaborative Cold-Brew Barista Collective",
+            "target_user": "Commuter rail users",
+            "problem_or_desire": "Long transit waiting times leading to inconsistent coffee intake due to unpredictable cafe wait times",
+            "core_concept": "On-transit cold brew access optimized for commuter traffic patterns.",
+            "proposed_approach": "A mobile cold-brew cart stationed at a high-traffic commuter location, with inventory adjusted based on manual observation of train schedules.",
+            "prototype_scope": "A single mobile cart at one transit hub for 1 week, tracking sales against train arrival times. | Secure permit for one transit hub location.; Operate a mobile cart for 5 days.; Record sales volume vs train arrival times."
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Collaborative Cold-Brew Barista Collective",
+            "target_user": "Commuter rail users",
+            "problem_or_desire": "Long transit waiting times leading to inconsistent coffee intake due to unpredictable cafe wait times",
+            "core_concept": "On-transit batch-chilled hydration stations replenished based on daily train scheduling metadata",
+            "proposed_approach": "Deploying self-contained cold press kiosks that receive daily batch fills tuned to anticipated traffic on train lines",
+            "prototype_scope": "Deploying one prototype vending interface in a specific bus transition hub managed with dynamic inventory logic"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0038",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "GiftGuard",
+            "target_user": "Frequent gift purchasers",
+            "problem_or_desire": "Losing track of birthdays, anniversary-gift history, and social relationship nuances",
+            "core_concept": "Categorized gift tracking by relationship tier.",
+            "proposed_approach": "A simple CRM for personal relationships to track gift history.",
+            "prototype_scope": "A profile vault for contacts with gift history fields. | Build a contact list; Add fields for gift history; Implement a simple search/filter"
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "GiftGuard",
+            "target_user": "Frequent gift purchasers",
+            "problem_or_desire": "Losing track of birthdays, anniversary-gift history, and social relationship nuances",
+            "core_concept": "Categorized notification system organized strictly by social relationship tiers",
+            "proposed_approach": "Systemic reminder sequences filtered by proximity thresholds",
+            "prototype_scope": "Personal profile vault holding name, key date, gift category tags, and past interaction dates for 5 dummy contacts"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0039",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Institutional Compost Loyalty Loop",
+            "target_user": "Office administrators",
+            "problem_or_desire": "High workplace organic waste volume with no benefit or impact reflection",
+            "core_concept": "Closing the loop on office coffee waste by returning composted material to the office environment.",
+            "proposed_approach": "A closed-loop service that collects office coffee grounds and delivers finished compost from a local partner to the office's indoor/outdoor plants.",
+            "prototype_scope": "A pilot with 3 offices using a local community garden partner to process grounds and return finished compost. | Identify 3 offices with plant maintenance needs.; Partner with a local community garden for composting.; Establish a weekly bucket exchange schedule."
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Institutional Compost Loyalty Loop",
+            "target_user": "Office administrators",
+            "problem_or_desire": "High workplace organic waste volume with no benefit or impact reflection",
+            "core_concept": "Closing the loop on office grounds by returning enriched garden soil equivalents back to common spaces",
+            "proposed_approach": "Pickup service providing reusable metal receptacles for spent coffee pucks; providing professional composting services and quarterly soil analytics",
+            "prototype_scope": "Ten offices sharing a municipal processing pipeline with branded bucket exchange infrastructure"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0040",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "SyncMyBoard",
+            "target_user": "Amateur board game hobbyists",
+            "problem_or_desire": "Mismatching players, times, and learning difficulty levels",
+            "core_concept": "Profile matchmaking system optimized solely for complexity class requirements of game libraries",
+            "proposed_approach": "Constraint matching where hosting users define acceptable game type metrics versus guest expertise filters",
+            "prototype_scope": "Match creation form allowing search results filter based on complexity level and participant timezone matches"
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "SyncMyBoard",
+            "target_user": "Amateur board game hobbyists",
+            "problem_or_desire": "Mismatching players, times, and learning difficulty levels",
+            "core_concept": "Matchmaking based on game complexity and player expertise.",
+            "proposed_approach": "A platform where users list games they want to play and their own experience level.",
+            "prototype_scope": "A simple match-making form. | Build a game listing form; Implement a search/filter for players; Add a simple messaging feature"
+          }
+        }
+      ]
+    }
+  ]
+}

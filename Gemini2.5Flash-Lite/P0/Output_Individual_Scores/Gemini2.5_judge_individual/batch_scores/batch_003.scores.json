@@ -1,0 +1,188 @@
+{
+  "metadata": {
+    "stage": "blind_individual_metric_judge",
+    "judge_model": "gemini-2.5-flash-lite",
+    "temperature": 0.0,
+    "top_p": 0.1,
+    "batch_source": "blind_eval_10domains_b12\\batches\\batch_003.json",
+    "created_at": "2026-06-22T09:58:07"
+  },
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0062",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng game giải đố vật lý với nguyên tố khá mới lạ và có tiềm năng. MVP tập trung vào tương tác nước-lửa là cụ thể, nhưng mô hình kinh doanh chưa rõ ràng."
+    },
+    {
+      "candidate_id": "BLIND_0063",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 2.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Khái niệm chợ kỹ năng mềm độc đáo, giải quyết vấn đề khó định lượng. Tuy nhiên, việc đánh giá và chứng nhận kỹ năng mềm bởi cộng đồng tiềm ẩn rủi ro về tính khách quan và đạo đức, MVP còn khá chung chung."
+    },
+    {
+      "candidate_id": "BLIND_0058",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Kết hợp cafe và chiêm tinh/AI là ý tưởng thú vị, MVP tập trung vào 12 cung hoàng đạo và 5 loại cafe là cụ thể. Tuy nhiên, tính 'tiên tri' của AI cần được làm rõ hơn về mặt kỹ thuật."
+    },
+    {
+      "candidate_id": "BLIND_0072",
+      "scores": {
+        "novelty": 5.0,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 2.5,
+        "mvp_clarity": 2.5,
+        "business_model_plausibility": 2.0,
+        "unsupported_claim_risk": 4.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 2.5,
+        "prototype_willingness": 2.5
+      },
+      "short_rationale": "Ý tưởng 'ký sinh trí tuệ' rất mới lạ và táo bạo, giải quyết vấn đề tiềm năng của AI. Tuy nhiên, tính khả thi kỹ thuật, MVP và mô hình kinh doanh còn rất mơ hồ, tiềm ẩn rủi ro lớn về đạo đức và quyền riêng tư."
+    },
+    {
+      "candidate_id": "BLIND_0057",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Nền tảng bán 'tài sản tinh thần' cho người sáng tạo nội dung có ý tưởng tốt và MVP rất rõ ràng. Mô hình kinh doanh ban đầu bằng tiền tệ thực tế là hợp lý để thử nghiệm."
+    },
+    {
+      "candidate_id": "BLIND_0081",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ứng dụng AI gợi ý công thức nấu ăn/mùi hương/nhạc từ kỷ niệm là ý tưởng độc đáo và có tính gợi cảm xúc cao. MVP tập trung vào công thức và bài hát là cụ thể, nhưng mô hình kinh doanh cần làm rõ hơn."
+    },
+    {
+      "candidate_id": "BLIND_0061",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Dịch vụ tạo bản đồ và liều thuốc cảm xúc số cá nhân hóa là ý tưởng mới lạ, giải quyết nhu cầu hỗ trợ tinh thần. MVP với chatbot và hình ảnh/nhạc đơn giản là rõ ràng."
+    },
+    {
+      "candidate_id": "BLIND_0097",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng nuôi trồng cà phê tại nhà bằng công nghệ sinh học rất độc đáo và giải quyết nỗi đau về sự xa rời thực phẩm. MVP bộ kit mini với hướng dẫn PDF là cụ thể, nhưng tính khả thi của việc chế biến tại nhà cần xem xét."
+    },
+    {
+      "candidate_id": "BLIND_0090",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Dịch vụ giao đồ ăn với tên gọi bí ẩn và thẻ thông tin QR là ý tưởng thú vị, MVP rất rõ ràng và dễ thử nghiệm. Nó tạo ra sự tò mò và trải nghiệm khám phá cho khách hàng."
+    },
+    {
+      "candidate_id": "BLIND_0013",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.0,
+        "prototype_willingness": 3.0
+      },
+      "short_rationale": "Trải nghiệm học lịch sử/sinh học 'ngược dòng thời gian' là ý tưởng mới lạ, nhưng MVP kiosk mô phỏng sự sống/cái chết còn khá chung chung và khó hình dung về mặt kỹ thuật."
+    },
+    {
+      "candidate_id": "BLIND_0014",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "Extension trình duyệt cung cấp gợi ý ý tưởng nội dung và tài nguyên miễn phí là MVP rất rõ ràng, giải quyết trực tiếp vấn đề của người sáng tạo nội dung nhỏ. Tính hữu ích và khả năng thử nghiệm cao."
+    }
+  ]
+}

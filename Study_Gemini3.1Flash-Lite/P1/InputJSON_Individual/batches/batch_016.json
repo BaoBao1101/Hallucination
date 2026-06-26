@@ -1,0 +1,92 @@
+[
+  {
+    "candidate_id": "BLIND_0096",
+    "title": "Creative Brief Translator",
+    "target_user": "Mid-sized marketing agency project leads",
+    "problem_or_desire": "The information gap between high-level client conceptual needs and individual production brief quality.",
+    "core_concept": "Agents that 'shadow' planning calls to autonomously document technical requirements for contractors.",
+    "proposed_approach": "Agent analyzes collaborative whiteboard output and transcript data to fill structured standardized agency brief templates.",
+    "prototype_scope": "Template ingestion for graphic design asset requests derived from transcribed meetings."
+  },
+  {
+    "candidate_id": "BLIND_0095",
+    "title": "BotanicTrack",
+    "target_user": "Casual urban gardener",
+    "problem_or_desire": "Difficulty tracking plant growth performance compared to recommended care",
+    "core_concept": "Visualization of plant growth progress.",
+    "proposed_approach": "A simple tracker where users log plant height and see their own progress over time.",
+    "prototype_scope": "A form to log height and a line graph to visualize it. | Build a log form; Implement a charting library; Display the user's own data"
+  },
+  {
+    "candidate_id": "BLIND_0134",
+    "title": "The Community Preservative Co-op",
+    "target_user": "Time-poor vegetable-heavy cooking households",
+    "problem_or_desire": "Waste of fresh aromatics and stock perishables leading to lost inventory and cooking motivation",
+    "core_concept": "Professional preservation of home-bought produce.",
+    "proposed_approach": "A local service that picks up bulk produce and returns it prepped for the freezer.",
+    "prototype_scope": "Process 10 bags of produce for 5 households over one week. | Define preservation methods (blanching, chopping); Recruit 5 households; Execute pickup and processing; Gather feedback on convenience"
+  },
+  {
+    "candidate_id": "BLIND_0098",
+    "title": "Remote Team Ritualizer",
+    "target_user": "Distributed engineering teams",
+    "problem_or_desire": "Lack of social cohesion and shared culture in fully remote environments.",
+    "core_concept": "Automated, low-friction asynchronous team bonding activities.",
+    "proposed_approach": "A web app that prompts team members with daily non-work questions and visualizes the collective responses.",
+    "prototype_scope": "A single-question daily prompt interface with a shared wall for viewing team answers."
+  },
+  {
+    "candidate_id": "BLIND_0039",
+    "title": "Shadow Script",
+    "target_user": "Aspiring creative writers",
+    "problem_or_desire": "Stalled imagination due to lack of character stakes",
+    "core_concept": "Reverse Choose-Your-Own-Adventure where the player creates obstacles for an AI.",
+    "proposed_approach": "A narrative game where the player chooses obstacles for a pre-scripted character, and the game displays the resulting outcome.",
+    "prototype_scope": "Two scripted chapters with one 'conflict injection' scene that branches into two possible outcomes. | Write two chapters and two outcomes; Implement basic branching logic; Build simple UI for choice selection"
+  },
+  {
+    "candidate_id": "BLIND_0046",
+    "title": "Sensory-Blind Catering Experiences",
+    "target_user": "Office event organizers targeting high social engagement",
+    "problem_or_desire": "Traditional group events often focus too heavily on conversation distractants over menu intentionality",
+    "core_concept": "Blind-dining optimized menus structured entirely on sequential textural mouth-feel gradients",
+    "proposed_approach": "Hosting managed catering that obscures visuals during the process to ensure 100% focus on tasting menus",
+    "prototype_scope": "Catering session of six courses involving twenty participants aimed at qualitative social memory-mapping"
+  },
+  {
+    "candidate_id": "BLIND_0177",
+    "title": "Professional Field Brew Station Repair Service",
+    "target_user": "Small independent retail cafes",
+    "problem_or_desire": "Machine downtime disproportionately impacting revenue during slow maintenance call-outs from established vendors",
+    "core_concept": "Rapid-response repair service using modular swaps to minimize downtime.",
+    "proposed_approach": "A repair service that stocks common replacement parts for popular machines to offer faster turnaround times than traditional vendors.",
+    "prototype_scope": "A pilot repair service for 5 local cafes focusing on one common machine brand. | Identify 5 cafes using the same machine brand.; Stock common parts for that brand.; Offer a 24-hour repair guarantee for those cafes."
+  },
+  {
+    "candidate_id": "BLIND_0111",
+    "title": "Personalized Reading List Curator",
+    "target_user": "Lifelong learners",
+    "problem_or_desire": "Difficulty finding high-quality, non-fiction books relevant to specific learning goals.",
+    "core_concept": "A collaborative filtering engine for curated reading paths.",
+    "proposed_approach": "A web app where users define a learning goal and receive a sequenced list of books recommended by experts.",
+    "prototype_scope": "A goal-selection interface that outputs a static, curated list of five books."
+  },
+  {
+    "candidate_id": "BLIND_0129",
+    "title": "Social Media Engagement Agent",
+    "target_user": "Community managers",
+    "problem_or_desire": "Difficulty maintaining consistent engagement with community members across multiple platforms.",
+    "core_concept": "An agent that identifies high-value comments or questions and drafts personalized, on-brand responses for human review.",
+    "proposed_approach": "Sentiment analysis and intent classification to prioritize interactions that require human attention.",
+    "prototype_scope": "A tool that filters 50 social media comments and suggests responses for the 5 most urgent ones."
+  },
+  {
+    "candidate_id": "BLIND_0158",
+    "title": "Sleep Sentinel",
+    "target_user": "Light sleepers suffering from screen light overstimulation",
+    "problem_or_desire": "Late night fidgeting and phone reliance impacting transition to REM cycles",
+    "core_concept": "Audio-only tactical adventure navigable through binary haptic pulses and voice commands while keeping the eyes fully closed (phone screen brightness reduced to black).",
+    "proposed_approach": "Binaural storytelling using spatial audio to indicate direction; user must verbally command left, right, or push maneuvers to solve escape puzzles while lying in darkness.",
+    "prototype_scope": "Calibration of gyroscope-to-rotation mapping for selecting directions within a simple 3x3 audio maze."
+  }
+]

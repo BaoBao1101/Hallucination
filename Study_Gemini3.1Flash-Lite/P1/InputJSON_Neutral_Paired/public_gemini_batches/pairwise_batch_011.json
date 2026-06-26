@@ -1,0 +1,102 @@
+{
+  "batch_id": "P1_NEUTRAL_GEMINI_011",
+  "stage": "neutral_randomized_pairwise_m1_m3",
+  "prompt_regime": "P1_shared_neutral",
+  "pairs": [
+    {
+      "pair_id": "P1PAIR_0051",
+      "candidate_a": {
+        "title": "BeatRoute Runner",
+        "target_user": "Novice outdoor runners",
+        "problem_or_desire": "Difficulty maintaining consistent pacing during endurance training",
+        "core_concept": "Rhythm-action game mechanics applied to physical running cadence.",
+        "proposed_approach": "A rhythm-based running app where the user selects a pre-mixed track and the game provides haptic or audio cues to match their stride to the beat.",
+        "prototype_scope": "A treadmill-focused app that plays one pre-selected track and uses the accelerometer to track if the user's steps align with the beat. | Integrate accelerometer data stream; Implement beat-detection logic for one track; Build simple UI for feedback on stride alignment"
+      },
+      "candidate_b": {
+        "title": "BeatRoute Runner",
+        "target_user": "Novice outdoor runners",
+        "problem_or_desire": "Difficulty maintaining consistent pacing during endurance training",
+        "core_concept": "Rhythm-action game where the user's running speed acts as the beat matcher for an procedurally generated audio experience.",
+        "proposed_approach": "Use the device accelerometer to sync game events to cadence, where reaching cadence milestones unlocks faster melodic overlays in a song soundtrack.",
+        "prototype_scope": "A treadmill-focused build enabling one pre-selected electronic music track where speed matches track elements."
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0052",
+      "candidate_a": {
+        "title": "User-Generated Video Repository",
+        "target_user": "Direct-to-consumer physical goods brands",
+        "problem_or_desire": "Inability to find or license high-quality, authentic smartphone unboxing footage",
+        "core_concept": "A direct procurement bridge for authentic consumer video assets.",
+        "proposed_approach": "A curated community connecting D2C brands with creators for authentic unboxing and product usage videos.",
+        "prototype_scope": "A closed Slack group vetting 20 creators and 20 brands. | Recruit 20 creators.; Recruit 20 brands.; Facilitate connections in Slack.; Monitor quality of output."
+      },
+      "candidate_b": {
+        "title": "User-Generated Video Repository",
+        "target_user": "Direct-to-consumer physical goods brands",
+        "problem_or_desire": "Inability to find or license high-quality, authentic smartphone unboxing footage",
+        "core_concept": "Peer-to-peer exchange for authentic consumer social media video assets",
+        "proposed_approach": "Direct procurement bridge linking video creators with brand social managers",
+        "prototype_scope": "Closed Slack group vetting 20 creators supplying 20 small brands"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0053",
+      "candidate_a": {
+        "title": "Legal Workflow Traffic Controller",
+        "target_user": "Corporate paralegals",
+        "problem_or_desire": "Uncontrolled document version chaos across external law firms.",
+        "core_concept": "Automated synchronization of shared folder structures managed by intelligent filing agents.",
+        "proposed_approach": "The agent moves incoming files into designated folders based on metadata patterns and alerts if structural changes don't adhere to house style.",
+        "prototype_scope": "Automated folder sorting agent interfacing exclusively with shared enterprise cloud document repositories."
+      },
+      "candidate_b": {
+        "title": "Legal Workflow Traffic Controller",
+        "target_user": "Corporate paralegals",
+        "problem_or_desire": "Uncontrolled document version chaos across external law firms.",
+        "core_concept": "Automated enforcement of folder structures and naming conventions for shared documents.",
+        "proposed_approach": "A script that monitors a local or cloud-synced folder and alerts users when files violate naming or structural conventions.",
+        "prototype_scope": "A folder-watcher service that scans a specific directory and generates a report of non-compliant files. | Define naming/structure rules; Implement file system watcher; Build compliance checker; Create alert/reporting mechanism"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0054",
+      "candidate_a": {
+        "title": "Technical Debt Resolution Tasking",
+        "target_user": "Solo founders with technical debt",
+        "problem_or_desire": "Difficulty hiring fractional experts to debug one-off legacy code patches",
+        "core_concept": "Micro-scope project matchmaking tailored strictly for specific framework codebases",
+        "proposed_approach": "AI-moderated skill verification for legacy system languages to find precise specialist coders",
+        "prototype_scope": "Manual pilot job-matching board restricted to three niche PHP and React bug-fixes"
+      },
+      "candidate_b": {
+        "title": "Technical Debt Resolution Tasking",
+        "target_user": "Solo founders with technical debt",
+        "problem_or_desire": "Difficulty hiring fractional experts to debug one-off legacy code patches",
+        "core_concept": "Micro-scope project matchmaking for specific legacy codebases.",
+        "proposed_approach": "A manual matchmaking service connecting solo founders with developers specialized in specific legacy frameworks for small bug fixes.",
+        "prototype_scope": "A manual job board/matching service for 3 specific niche bug-fix projects. | Identify 3 niche legacy frameworks.; Find 3 developers per framework.; Match with 3 founders.; Monitor resolution success."
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0055",
+      "candidate_a": {
+        "title": "Personal Flavor Genome Modeler",
+        "target_user": "Post-medical patients recovering flavor receptors",
+        "problem_or_desire": "Inability to predict which meals currently maximize palatability vs nausea",
+        "core_concept": "Correlative nutrient adjustment system based on specific neuro-sensory feedback loops",
+        "proposed_approach": "Delivering custom savory snacks modeled off tracked daily biometric and linguistic sentiment ratings of food quality",
+        "prototype_scope": "Three day delivery set monitored by participant phone journals analyzing flavor preference patterns in one clinic community"
+      },
+      "candidate_b": {
+        "title": "Personal Flavor Genome Modeler",
+        "target_user": "Post-medical patients recovering flavor receptors",
+        "problem_or_desire": "Inability to predict which meals currently maximize palatability vs nausea",
+        "core_concept": "Customized food delivery based on individual sensory feedback.",
+        "proposed_approach": "A personalized snack subscription service based on user-reported flavor preferences and feedback.",
+        "prototype_scope": "Deliver 3 snack boxes to 5 users, adjusting subsequent boxes based on their written feedback. | Create a flavor preference survey; Source 5 snack varieties; Deliver and collect feedback; Iterate on box contents"
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "candidate_id": "BLIND_0063",
+    "title": "Curated Vintage Fashion Recommendation Engine",
+    "target_user": "Gen Z consumers interested in unique, sustainable fashion but overwhelmed by the abundance of online vintage marketplaces.",
+    "problem_or_desire": "Desire to discover authentic vintage clothing items that fit specific personal aesthetics without endlessly scrolling through diverse platforms.",
+    "core_concept": "A recommendation service that learns a user's style preferences (via visual cues, mood boards, and descriptive keywords) and aggregates curated vintage finds from various online sellers.",
+    "proposed_approach": "Utilize machine learning to analyze user-uploaded inspiration images and stylistic inputs, cross-referencing them with metadata from aggregated vintage listings to personalize recommendations.",
+    "prototype_scope": "A mobile app where users can create style profiles using visual uploads and preferences. The app then presents a daily 'discovery feed' of vintage clothing items linked directly to their seller pages, sourced from an initial, limited set of online marketplaces."
+  },
+  {
+    "candidate_id": "BLIND_0049",
+    "title": "Subscription Box for Artisanal Digital Assets",
+    "target_user": "Independent game developers, web designers, and digital artists looking for unique, high-quality digital assets.",
+    "problem_or_desire": "Struggle to find distinctive and professionally crafted digital assets (e.g., 3D models, UI kits, sound effects) that stand out from generic marketplaces.",
+    "core_concept": "A curated monthly subscription service delivering exclusive, high-quality digital assets created by independent artists.",
+    "proposed_approach": "A platform partners with digital artists to offer unique asset packs on a rotating monthly basis, accessible only to subscribers.",
+    "prototype_scope": "A landing page showcasing examples of exclusive digital asset packs. A sign-up form for a waitlist to receive the first month's curated pack of 5-10 assets."
+  },
+  {
+    "candidate_id": "BLIND_0067",
+    "title": "Kinetic Echo Recall",
+    "target_user": "Experienced competitive mobile gamers seeking novel tactical depth.",
+    "problem_or_desire": "The meta in competitive mobile action games often becomes stale, and players desire fresh strategic options that reward foresight and timing.",
+    "core_concept": "A player-versus-player arena brawler where players can, after a successful execution of a 'Kinetic Echo' (recording a sequence of 3-5 combat actions), replay that entire sequence by releasing a temporal clone. These echoes can flank, distract, or even perform complex attacks.",
+    "proposed_approach": "Design AI for echo replication that precisely mirrors player input at specific timings. Balance the cooldown and resource costs for echo deployment and recovery. Develop intuitive player feedback for clone intent and potential threats.",
+    "prototype_scope": "Two hero characters in a symmetrical arena. One vs. One mode demonstrating basic combat and the core 'Kinetic Echo' mechanic: perform an echo attack, dodge enemy counter-attack, then trigger the echo sequence to flank the opponent. Limited to 3 sample echo ability types."
+  },
+  {
+    "candidate_id": "BLIND_0084",
+    "title": "Sustainable Coffee Grounds Upcycling Service",
+    "target_user": "Environmentally conscious coffee drinkers and small cafes looking for sustainable disposal solutions.",
+    "problem_or_desire": "Concern over the environmental impact of coffee grounds waste and a desire for practical, eco-friendly disposal or reuse methods.",
+    "core_concept": "A service that collects used coffee grounds from homes and small businesses and transforms them into valuable products like compost, artisanal soaps, or biofuel pellets.",
+    "proposed_approach": "Establish a local collection network using reusable containers. Partner with composting facilities or develop in-house processing for value-added products. Offer a subscription-based collection service.",
+    "prototype_scope": "Operate within a single zip code. Partner with 5 local cafes for collection. Produce one pilot product (e.g., small bags of compost). Offer a weekly pickup service for participating cafes."
+  },
+  {
+    "candidate_id": "BLIND_0037",
+    "title": "Auditory Decision Tree Simulator",
+    "target_user": "Students learning diagnostic skills in applied fields (e.g., nursing, field biology)",
+    "problem_or_desire": "Developing effective diagnostic reasoning from limited, qualitative information (verbal descriptions, situational clues).",
+    "core_concept": "An interactive audio-based game that simulates diagnostic scenarios, requiring users to ask specific questions to gather information and deduce an outcome.",
+    "proposed_approach": "A desktop application presenting a limited set of diagnostic scenarios where users select from pre-defined questions to gather audio clues and identify a subject.",
+    "prototype_scope": "A desktop application for basic botany identification. The user hears a brief audio description of a plant. They can select from a limited list of pre-written Yes/No questions (e.g., 'Does it have leaves?', 'Are the edges serrated?'). Each question triggers a short, pre-recorded audio response providing a specific clue. The goal is to identify the plant from a small set of possibilities. | Develop a desktop application interface.; Create 3-5 distinct plan…"
+  },
+  {
+    "candidate_id": "BLIND_0033",
+    "title": "Personalized Literary Interpretation Network",
+    "target_user": "Late secondary and early university students in literature humanities",
+    "problem_or_desire": "To engage in deeper, multi-faceted analysis of literary texts beyond surface-level understanding and to connect with diverse analytical viewpoints.",
+    "core_concept": "A peer-to-peer learning platform where users 'annotate' and share their unique interpretations of literary passages, with an AI that synthesizes thematic trends and identifies divergent readings across the community.",
+    "proposed_approach": "Create a secure platform with rich annotation tools that allow for text markup, conceptual tagging, and short analytical entries. Implement NLP to categorize and visualize submitted interpretations for discoverability and synthesis.",
+    "prototype_scope": "A web platform for analyzing a single Shakespearean sonnet. Users can highlight words or phrases, tag them with predefined conceptual categories (e.g., 'love', 'time', 'loss'), and write short comments. An AI will provide basic categorization of the comments and display word frequency related to these themes."
+  },
+  {
+    "candidate_id": "BLIND_0002",
+    "title": "Empathetic Roleplay Tutor",
+    "target_user": "High school students learning foreign languages",
+    "problem_or_desire": "Fear of making mistakes when speaking in front of others and lack of engaging practice partners",
+    "core_concept": "An AI-powered conversational partner designed to simulate diverse social scenarios for language practice with constructive, empathetic feedback.",
+    "proposed_approach": "Develop a sophisticated AI language model trained on nuanced conversational data, focusing on emotional intelligence for response generation and scenario adaptation. Offer immediate, private, and non-judgmental conversation practice.",
+    "prototype_scope": "A web-based chatbot accessible via common browsers, capable of holding basic conversations in a single chosen language (e.g., Spanish), with a limited set of pre-defined relatable social scenarios (e.g., ordering food, asking for directions)."
+  }
+]

@@ -1,0 +1,65 @@
+[
+  {
+    "candidate_id": "BLIND_0017",
+    "title": "Automated Office Coffee Pod Replenishment System",
+    "target_user": "Small to medium-sized business office managers (10-50 employees) burdened by running out of essential office supplies, including coffee pods.",
+    "problem_or_desire": "The recurring frustration and lost productivity caused by the office coffee pod supply consistently running dry and procurement delays.",
+    "core_concept": "An automated system that monitors office coffee pod levels and triggers reorders to prevent stockouts.",
+    "proposed_approach": "A simple, sensor-based system that monitors coffee pod inventory in an office and alerts a designated administrator or triggers a pre-configured reorder from a single, chosen supplier when levels are low. The focus is on preventing stockouts through basic automation.",
+    "prototype_scope": "Develop a basic, battery-powered visual sensor that can be placed in a coffee pod storage bin to estimate the number of pods remaining (e.g., by detecting fill level). This sensor will connect via Wi-Fi and send a low-stock alert (e.g., email or SMS) to a pre-defined office manager contact when the estimated quantity falls below a set threshold. The MVP will pilot with 3-5 small offices, using a single, pre-selected coffee pod supplier for manual reorderi…"
+  },
+  {
+    "candidate_id": "BLIND_0102",
+    "title": "Dynamic 'How-To' Visual Guide Generator",
+    "target_user": "Hobbyists and DIY enthusiasts sharing complex procedures.",
+    "problem_or_desire": "To easily create clear, step-by-step visual guides for demonstrating complex skills or procedures.",
+    "core_concept": "A web platform that simplifies the creation of annotated image sequences and animated GIFs from uploaded video clips for instructive content.",
+    "proposed_approach": "Users upload short video clips demonstrating a task. The platform automatically extracts key frames and allows users to add text annotations and draw pointers. Generated output can be embedded as responsive web modules.",
+    "prototype_scope": "Develop a web tool that accepts MP4 uploads up to 60 seconds, allows frame selection at 5-second intervals, permits basic text annotations, and outputs a set of annotated images for a single-step guide."
+  },
+  {
+    "candidate_id": "BLIND_0103",
+    "title": "Ethical AI-Generated Content Review Service",
+    "target_user": "Small businesses and content creators concerned about the ethical implications and potential biases in AI-generated marketing copy.",
+    "problem_or_desire": "Desire to leverage AI for content creation but anxiety about potential ethical missteps, factual inaccuracies, or unintended biases in the output.",
+    "core_concept": "A service that uses a combination of AI and human oversight to review and refine AI-generated content for ethical compliance and brand alignment.",
+    "proposed_approach": "Users submit AI-generated text. The service uses AI tools to flag potential issues and then employs human reviewers to provide final edits and ethical assessments.",
+    "prototype_scope": "A web form where users can submit text for review. A small team of reviewers provides feedback on 3-5 key ethical considerations (e.g., bias, clarity, factual basis) for submitted content."
+  },
+  {
+    "candidate_id": "BLIND_0013",
+    "title": "Flavor Profile Discovery Meal Kit",
+    "target_user": "Home cooks interested in expanding their culinary palate and understanding flavor.",
+    "problem_or_desire": "Desire to learn about complex flavor pairings beyond basic recipes and replicate professional-level taste experiences at home.",
+    "core_concept": "Subscription meal kits focused on specific flavor profiles (e.g., umami, sweet & sour balancing, herbaceousness) with small, curated ingredients and educational notes from culinary experts.",
+    "proposed_approach": "Offer monthly kits containing unusual but accessible ingredients, precisely measured spice blends, and easy-to-follow recipes designed to highlight specific flavor principles. Include fact sheets on ingredient sourcing and history.",
+    "prototype_scope": "Create a single, single-serving meal kit for a 'Savoring Umami' theme, delivered to 10 beta users for feedback on recipe clarity, ingredient quality, and educational value."
+  },
+  {
+    "candidate_id": "BLIND_0006",
+    "title": "Craft Skills Micro-Apprenticeship",
+    "target_user": "Vocational trainees learning practical craft skills (e.g., carpentry, welding)",
+    "problem_or_desire": "Lack of immediate, objective feedback on fine motor skill execution and tool usage technique outside formal workshop hours",
+    "core_concept": "A mobile application that provides real-time feedback on user technique for practical craft skills using smartphone sensors and computer vision.",
+    "proposed_approach": "A mobile app that provides visual feedback on basic craft techniques by comparing user-submitted video recordings against pre-defined ideal motion paths or static reference images.",
+    "prototype_scope": "A mobile app focused on teaching two specific foundational carpentry techniques (e.g., a straight hand saw cut, a basic hammer strike). Users record a short video of themselves performing the technique. The app then overlays a simplified visual guide (e.g., a target line for saw angle, a target impact zone for hammer) onto their video, highlighting gross deviations. No complex sensor analysis or AI pattern matching is used; it's a visual comparison agains…"
+  },
+  {
+    "candidate_id": "BLIND_0053",
+    "title": "Hyperlocal Ingredient Discovery Platform",
+    "target_user": "Home cooks interested in sourcing unique, seasonal ingredients from local farms and producers.",
+    "problem_or_desire": "Difficulty in discovering and accessing hyper-local, artisanal food ingredients that aren't typically found in mainstream grocery stores.",
+    "core_concept": "A curated digital marketplace connecting consumers directly with small-scale local food producers for unique ingredient purchases.",
+    "proposed_approach": "Develop a mobile app and web platform featuring producer profiles, ingredient availability, and direct ordering/pickup coordination.",
+    "prototype_scope": "A web-based MVP showcasing 5-10 local producers in a single geographic region, with basic product listings and an inquiry/pre-order form."
+  },
+  {
+    "candidate_id": "BLIND_0097",
+    "title": "Localized Community Skill Exchange Bartering",
+    "target_user": "Residents within a defined geographic neighborhood seeking to trade goods or services without monetary exchange.",
+    "problem_or_desire": "Need a simple, trustworthy platform to offer skills or goods (e.g., tutoring, gardening help, baked goods) and find others within their immediate community with complementary needs and offers.",
+    "core_concept": "Facilitating skill and goods bartering within a defined local community, emphasizing trust and non-monetary exchange.",
+    "proposed_approach": "A moderated online board for a specific neighborhood where residents can list skills/goods they offer and needs they have, facilitating direct, manual bartering proposals.",
+    "prototype_scope": "A single-city, web-based platform requiring email verification for user accounts. Users can create profiles listing skills/goods they offer and items/services they need within their neighborhood. A moderated 'Offer/Request Board' displays these listings. Users can browse listings and submit a 'Barter Proposal' to another user via a simple internal messaging system. The platform does not enforce a point system or automated matching; all exchanges are propo…"
+  }
+]

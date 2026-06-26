@@ -1,0 +1,65 @@
+[
+  {
+    "candidate_id": "BLIND_0066",
+    "title": "Personalized Micro-Learning Website Template Service",
+    "target_user": "Small business trainers and subject matter experts.",
+    "problem_or_desire": "To create bite-sized, engaging online learning modules for their specific audiences without requiring advanced web development skills.",
+    "core_concept": "A service that provides highly customizable, mobile-responsive website templates pre-integrated with interactive quiz elements, progress tracking, and simple multimedia embedding, specifically for micro-learning content.",
+    "proposed_approach": "Offer a curated selection of visually clean templates that are easy to brand. Content can be structured into short 'lessons' with integrated multiple-choice quizzes, flashcards, and short video playback. Data is managed with simple internal tracking.",
+    "prototype_scope": "Create one responsive template for course delivery, featuring drag-and-drop text/image/video upload and a simple, non-graduated quiz module, suitable for up to three distinct learning 'modules'."
+  },
+  {
+    "candidate_id": "BLIND_0019",
+    "title": "Narrative Weaver",
+    "target_user": "Casual mobile gamers who enjoy story-driven experiences but have limited time for long play sessions.",
+    "problem_or_desire": "Desire for engaging, evolving narratives that can be experienced in short, meaningful bursts.",
+    "core_concept": "A mobile game where player choices in short, branching narrative segments dynamically alter future story paths and character relationships, creating a unique personal story for each player.",
+    "proposed_approach": "Develop a system for procedurally generating narrative branches based on player decisions, focusing on emotional impact and replayability. Utilize a simple, tap-based interaction model.",
+    "prototype_scope": "A single, self-contained story arc with 5-10 key decision points, demonstrating how choices affect immediate outcomes and setting up future narrative possibilities."
+  },
+  {
+    "candidate_id": "BLIND_0001",
+    "title": "Flavor Profile Discovery Meal Kit",
+    "target_user": "Home cooks interested in expanding their culinary palate and understanding flavor.",
+    "problem_or_desire": "Desire to learn about complex flavor pairings beyond basic recipes and replicate professional-level taste experiences at home.",
+    "core_concept": "Subscription meal kits focused on specific flavor profiles, with curated ingredients and educational content to help home cooks understand and replicate complex tastes.",
+    "proposed_approach": "A subscription service offering meal kits designed to teach home cooks about specific flavor principles (e.g., umami, balancing sweet and sour) through curated ingredients and educational content.",
+    "prototype_scope": "A single, single-serving meal kit focused on a specific flavor profile (e.g., 'Mastering Umami'). This kit will include precisely measured ingredients for one meal, a recipe card, and a concise educational insert explaining the flavor principles involved and the role of key ingredients. The focus is on testing recipe clarity, ingredient quality, and the educational value of the accompanying material. | Source ingredients for a single 'Mastering Umami' mea…"
+  },
+  {
+    "candidate_id": "BLIND_0036",
+    "title": "Echo Combat",
+    "target_user": "Competitive mobile gamers seeking deep tactical gameplay.",
+    "problem_or_desire": "Frustration with the lack of persistent, evolving combat scenarios and team strategies in current mobile action games.",
+    "core_concept": "A squad-based tactical shooter where player actions in one match directly influence the environment and enemy AI behavior in subsequent matches within a persistent, procedurally generated combat zone.",
+    "proposed_approach": "Develop a core loop focused on strategic planning, precise execution, and adapting to dynamic battlefield changes. Implement a system where successful tactics leave 'echoes' that alter future encounters.",
+    "prototype_scope": "A single, small procedurally generated map with two distinct squad roles (e.g., Assault, Recon) and a limited set of objective types, demonstrating the 'echo' mechanic where clearing an area of enemies makes it harder or easier in the next round based on player performance."
+  },
+  {
+    "candidate_id": "BLIND_0025",
+    "title": "Augmented Reality Archaeology Puzzles",
+    "target_user": "Casual mobile gamers interested in history and puzzles, aged 25-45",
+    "problem_or_desire": "Desire for mentally stimulating casual games that blend digital and real-world experiences.",
+    "core_concept": "Use smartphone AR capabilities to scan real-world objects (e.g., books, walls, tables) and overlay puzzle elements that hint at historical artifacts or discoveries, requiring players to manipulate their environment to solve.",
+    "proposed_approach": "Develop a foundational AR engine to recognize basic surfaces. Create a small set of themed puzzle sets that utilize object recognition and AR overlay techniques. Offer a freemium model with core puzzles free and expanded historical epochs as in-app purchases.",
+    "prototype_scope": "Implement AR surface detection and a simple object placement/manipulation system for one themed historical discovery puzzle within a domestic living room environment."
+  },
+  {
+    "candidate_id": "BLIND_0030",
+    "title": "Zero-Waste Ingredient Transformation Service",
+    "target_user": "Restaurants seeking to minimize food waste and create value from byproducts and surplus ingredients.",
+    "problem_or_desire": "The significant cost and environmental impact of food waste, coupled with a lack of efficient methods to repurpose kitchen scraps and surplus items.",
+    "core_concept": "A B2B service that collects restaurant byproducts and transforms them into new, marketable food products (e.g., stocks, sauces, ferments).",
+    "proposed_approach": "Establish a central processing facility and logistics network to collect, process, and package transformed ingredients for resale to restaurants or other food businesses.",
+    "prototype_scope": "Partner with 3-5 local restaurants to collect specific byproducts (e.g., vegetable peels, bread ends) and produce a single new product (e.g., vegetable broth concentrate) for internal use or limited sale."
+  },
+  {
+    "candidate_id": "BLIND_0071",
+    "title": "Automated Website Personalization Snippets",
+    "target_user": "E-commerce store owners aiming to increase conversion rates through minor dynamic content changes.",
+    "problem_or_desire": "To show personalized offers or product recommendations to visitors based on predefined simple user segments (e.g., first-time visitor, returning customer, location origin) without complex integrations.",
+    "core_concept": "A JavaScript-based service that injects small, customizable website content blocks (like banners or testimonial snippets) dynamically based on user visit characteristics, detectable via client-side logic.",
+    "proposed_approach": "Provide users with a code snippet to embed on their website. In a simple web-based dashboard, they configure conditional messages or content blocks targeting specific visitor traits. The JavaScript interprets these rules in the user's browser.",
+    "prototype_scope": "Offer a single banner placement with rule-based text display for three simple conditions: 'first visit,' 'returning visit,' and 'specific region (e.g., 'CA').' Admin setup in a minimal web interface."
+  }
+]

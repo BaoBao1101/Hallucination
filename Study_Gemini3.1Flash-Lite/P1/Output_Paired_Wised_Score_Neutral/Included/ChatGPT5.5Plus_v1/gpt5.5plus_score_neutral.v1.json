@@ -1,0 +1,2404 @@
+{
+"evaluations": [
+{
+"pair_id": "P1PAIR_0001",
+"candidate_a_scores": {
+"novelty": 2.5,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 3.7,
+"technical_plausibility": 4.8,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 2.7,
+"unsupported_claim_risk": 1.7,
+"ethical_privacy_risk": 1.1,
+"overall_mvp_usefulness": 3.7,
+"prototype_willingness": 3.8
+},
+"candidate_b_scores": {
+"novelty": 2.5,
+"conceptual_coherence": 4.2,
+"user_pain_plausibility": 3.7,
+"technical_plausibility": 4.8,
+"mvp_clarity": 4.7,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.1,
+"overall_mvp_usefulness": 4.3,
+"prototype_willingness": 4.4
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "TIE",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "B",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Both describe the same focused audit. B makes the audit criteria, recruitment, feedback collection, and intended evidence more explicit, while A’s landing-page wording is slightly less aligned with its pricing-page focus."
+},
+{
+"pair_id": "P1PAIR_0002",
+"candidate_a_scores": {
+"novelty": 3.1,
+"conceptual_coherence": 4.2,
+"user_pain_plausibility": 3.7,
+"technical_plausibility": 4.3,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.6,
+"unsupported_claim_risk": 1.7,
+"ethical_privacy_risk": 1.4,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.1
+},
+"candidate_b_scores": {
+"novelty": 3.8,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 3.7,
+"technical_plausibility": 3.6,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.4
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "B adds a more distinctive heritage mechanism, but its cookbook, certification, interface-pad, and recipe elements are less tightly bounded. A directly tests the remote-coaching experience with a small, clearly described set of sessions."
+},
+{
+"pair_id": "P1PAIR_0003",
+"candidate_a_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 3.7,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.5,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 2.8,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.6,
+"prototype_willingness": 3.5
+},
+"candidate_b_scores": {
+"novelty": 2.7,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.6,
+"mvp_clarity": 4.6,
+"business_model_plausibility": 2.9,
+"unsupported_claim_risk": 1.4,
+"ethical_privacy_risk": 1.4,
+"overall_mvp_usefulness": 4.4,
+"prototype_willingness": 4.5
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A proposes a broader automated entitlement workflow but tests only a one-time scan. B narrows the mechanism to defined CSV inputs, matching logic, and a report, making the stated prototype more concrete and bounded."
+},
+{
+"pair_id": "P1PAIR_0004",
+"candidate_a_scores": {
+"novelty": 3.3,
+"conceptual_coherence": 3.4,
+"user_pain_plausibility": 3.8,
+"technical_plausibility": 3.6,
+"mvp_clarity": 3.2,
+"business_model_plausibility": 2.9,
+"unsupported_claim_risk": 2.2,
+"ethical_privacy_risk": 1.7,
+"overall_mvp_usefulness": 3.3,
+"prototype_willingness": 3.3
+},
+"candidate_b_scores": {
+"novelty": 2.4,
+"conceptual_coherence": 4.4,
+"user_pain_plausibility": 3.8,
+"technical_plausibility": 4.7,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.6,
+"overall_mvp_usefulness": 4.2,
+"prototype_willingness": 4.3
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A includes cross-platform exclusion-list synchronization, but its monthly report prototype does not test that mechanism. B consistently frames a manual placement-audit service and specifies clients, reporting, and feedback."
+},
+{
+"pair_id": "P1PAIR_0005",
+"candidate_a_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.3,
+"user_pain_plausibility": 3.8,
+"technical_plausibility": 4.4,
+"mvp_clarity": 4.3,
+"business_model_plausibility": 3.3,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.1,
+"prototype_willingness": 4.1
+},
+"candidate_b_scores": {
+"novelty": 3.1,
+"conceptual_coherence": 3.7,
+"user_pain_plausibility": 3.8,
+"technical_plausibility": 4.2,
+"mvp_clarity": 3.9,
+"business_model_plausibility": 3.1,
+"unsupported_claim_risk": 2.1,
+"ethical_privacy_risk": 1.6,
+"overall_mvp_usefulness": 3.7,
+"prototype_willingness": 3.7
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "A",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Both center on adjustable barter or equity contract templates. A links its template concept, PDF engine, and small user test more clearly; B’s assertion of legal compliance is not supported by a visible validation step."
+},
+{
+"pair_id": "P1PAIR_0006",
+"candidate_a_scores": {
+"novelty": 3.2,
+"conceptual_coherence": 2.9,
+"user_pain_plausibility": 3.7,
+"technical_plausibility": 3.0,
+"mvp_clarity": 2.9,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 2.8,
+"ethical_privacy_risk": 1.8,
+"overall_mvp_usefulness": 2.9,
+"prototype_willingness": 2.8
+},
+"candidate_b_scores": {
+"novelty": 2.6,
+"conceptual_coherence": 4.2,
+"user_pain_plausibility": 3.7,
+"technical_plausibility": 4.6,
+"mvp_clarity": 4.3,
+"business_model_plausibility": 2.6,
+"unsupported_claim_risk": 1.6,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.1,
+"prototype_willingness": 4.2
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "B",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A’s acoustic-monitoring concept is more distinctive, but its dashboard relies on business-hours metadata and assumed traffic intensity rather than the stated acoustic signal. B’s manual ratings, average display, and map directly test the stated information gap."
+},
+{
+"pair_id": "P1PAIR_0007",
+"candidate_a_scores": {
+"novelty": 2.8,
+"conceptual_coherence": 3.6,
+"user_pain_plausibility": 3.6,
+"technical_plausibility": 4.1,
+"mvp_clarity": 3.6,
+"business_model_plausibility": 2.2,
+"unsupported_claim_risk": 1.8,
+"ethical_privacy_risk": 1.3,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.5
+},
+"candidate_b_scores": {
+"novelty": 2.3,
+"conceptual_coherence": 4.3,
+"user_pain_plausibility": 3.6,
+"technical_plausibility": 4.6,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.4,
+"unsupported_claim_risk": 1.4,
+"ethical_privacy_risk": 1.3,
+"overall_mvp_usefulness": 4.1,
+"prototype_willingness": 4.2
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "B",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A adds gamified faculty tagging, but the relationship between that mechanism and verification is less explicit. B gives a direct submission, viewing, search, and filtering workflow for the small course-module directory."
+},
+{
+"pair_id": "P1PAIR_0008",
+"candidate_a_scores": {
+"novelty": 4.0,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 3.6,
+"technical_plausibility": 3.5,
+"mvp_clarity": 3.3,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.4,
+"overall_mvp_usefulness": 3.4,
+"prototype_willingness": 3.4
+},
+"candidate_b_scores": {
+"novelty": 3.2,
+"conceptual_coherence": 4.3,
+"user_pain_plausibility": 3.6,
+"technical_plausibility": 4.4,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.2,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.3,
+"overall_mvp_usefulness": 4.1,
+"prototype_willingness": 4.2
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "B",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A’s shared city and earned-inventory concept is more distinctive, but it introduces a much broader experience than the one-minigame prototype. B directly bounds the concept to three phrases, static dialogue, and one market scene."
+},
+{
+"pair_id": "P1PAIR_0009",
+"candidate_a_scores": {
+"novelty": 2.7,
+"conceptual_coherence": 4.3,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.2,
+"mvp_clarity": 4.4,
+"business_model_plausibility": 2.8,
+"unsupported_claim_risk": 1.4,
+"ethical_privacy_risk": 1.7,
+"overall_mvp_usefulness": 4.1,
+"prototype_willingness": 4.1
+},
+"candidate_b_scores": {
+"novelty": 3.4,
+"conceptual_coherence": 3.7,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.2,
+"mvp_clarity": 3.4,
+"business_model_plausibility": 2.7,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 1.8,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.4
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "B proposes richer normalization across several messy channels, but its two-database categorization prototype does not fully support that breadth. A consistently limits the work to two inputs, predefined categories, and a frequency chart."
+},
+{
+"pair_id": "P1PAIR_0010",
+"candidate_a_scores": {
+"novelty": 2.7,
+"conceptual_coherence": 4.4,
+"user_pain_plausibility": 3.8,
+"technical_plausibility": 4.6,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.3,
+"unsupported_claim_risk": 1.3,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 4.1,
+"prototype_willingness": 4.2
+},
+"candidate_b_scores": {
+"novelty": 3.1,
+"conceptual_coherence": 3.9,
+"user_pain_plausibility": 3.8,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.1,
+"business_model_plausibility": 2.3,
+"unsupported_claim_risk": 1.7,
+"ethical_privacy_risk": 2.1,
+"overall_mvp_usefulness": 3.8,
+"prototype_willingness": 3.9
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "B adds historical-date anchors, making the timeline concept slightly more distinctive, but it does not explain how they resolve the user’s metadata need. A stays focused on manual ordering and annotations within a clearly limited image set."
+},
+{
+"pair_id": "P1PAIR_0011",
+"candidate_a_scores": {
+"novelty": 2.8,
+"conceptual_coherence": 4.1,
+"user_pain_plausibility": 3.9,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.4,
+"business_model_plausibility": 3.1,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 2.5,
+"overall_mvp_usefulness": 3.9,
+"prototype_willingness": 3.9
+},
+"candidate_b_scores": {
+"novelty": 2.5,
+"conceptual_coherence": 2.8,
+"user_pain_plausibility": 3.9,
+"technical_plausibility": 3.7,
+"mvp_clarity": 3.4,
+"business_model_plausibility": 2.8,
+"unsupported_claim_risk": 3.1,
+"ethical_privacy_risk": 2.6,
+"overall_mvp_usefulness": 3.1,
+"prototype_willingness": 3.0
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "A",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "A states a selection mechanism and an explicitly limited participant trial. B lacks a core-concept statement and invokes batch certification and laboratory-standardized acidity without showing how those claims are supported in the pilot."
+},
+{
+"pair_id": "P1PAIR_0012",
+"candidate_a_scores": {
+"novelty": 3.2,
+"conceptual_coherence": 3.6,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 2.9,
+"mvp_clarity": 3.2,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.2,
+"ethical_privacy_risk": 2.2,
+"overall_mvp_usefulness": 3.3,
+"prototype_willingness": 3.1
+},
+"candidate_b_scores": {
+"novelty": 2.3,
+"conceptual_coherence": 4.4,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.3,
+"mvp_clarity": 4.6,
+"business_model_plausibility": 3.1,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 4.2,
+"prototype_willingness": 4.3
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "B",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A’s refrigerated locker network is more differentiated, but its three-cabinet deployment carries more operational breadth. B tests the underlying convenience hypothesis through a small kitchen partnership, staff pickup, and feedback over three days."
+},
+{
+"pair_id": "P1PAIR_0013",
+"candidate_a_scores": {
+"novelty": 3.7,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 3.2,
+"technical_plausibility": 3.8,
+"mvp_clarity": 3.9,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 1.7,
+"ethical_privacy_risk": 1.4,
+"overall_mvp_usefulness": 3.7,
+"prototype_willingness": 3.7
+},
+"candidate_b_scores": {
+"novelty": 3.1,
+"conceptual_coherence": 4.2,
+"user_pain_plausibility": 3.2,
+"technical_plausibility": 4.4,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 1.4,
+"ethical_privacy_risk": 1.3,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.1
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A uses live local environmental inputs, which makes the mechanism more distinctive. B substitutes a static simulated schedule and specifies a cactus model, growth state machine, and time display, producing a clearer and lower-complexity prototype."
+},
+{
+"pair_id": "P1PAIR_0014",
+"candidate_a_scores": {
+"novelty": 2.8,
+"conceptual_coherence": 3.3,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 2.4,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.3,
+"prototype_willingness": 3.2
+},
+"candidate_b_scores": {
+"novelty": 2.2,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.7,
+"mvp_clarity": 4.4,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 1.4,
+"ethical_privacy_risk": 1.4,
+"overall_mvp_usefulness": 3.9,
+"prototype_willingness": 4.0
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A’s optimal-versus-attained comparison is richer, but the ideal biological trajectory is not grounded in the stated scope. B makes a narrower self-tracking tool that directly matches its height-log and graph prototype."
+},
+{
+"pair_id": "P1PAIR_0015",
+"candidate_a_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 3.6,
+"user_pain_plausibility": 3.8,
+"technical_plausibility": 3.5,
+"mvp_clarity": 3.3,
+"business_model_plausibility": 2.8,
+"unsupported_claim_risk": 2.2,
+"ethical_privacy_risk": 2.5,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.3
+},
+"candidate_b_scores": {
+"novelty": 2.5,
+"conceptual_coherence": 4.3,
+"user_pain_plausibility": 3.8,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.9,
+"unsupported_claim_risk": 1.4,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 4.1,
+"prototype_willingness": 4.2
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "B",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A describes automated clearance and identity verification but prototypes manual invite gates, creating a scope mismatch. B consistently presents manual moderation, a checklist, and a small three-community test."
+},
+{
+"pair_id": "P1PAIR_0016",
+"candidate_a_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 3.6,
+"user_pain_plausibility": 3.8,
+"technical_plausibility": 3.6,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 1.7,
+"ethical_privacy_risk": 2.1,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.4
+},
+"candidate_b_scores": {
+"novelty": 2.4,
+"conceptual_coherence": 4.4,
+"user_pain_plausibility": 3.8,
+"technical_plausibility": 4.8,
+"mvp_clarity": 4.6,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 1.4,
+"ethical_privacy_risk": 1.9,
+"overall_mvp_usefulness": 4.2,
+"prototype_willingness": 4.3
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "B",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A introduces a geolocated matching map but tests a chat integration instead. B uses a single street group, photos, a defined household pool, and successful exchanges to test the same neighborhood-sharing premise."
+},
+{
+"pair_id": "P1PAIR_0017",
+"candidate_a_scores": {
+"novelty": 4.0,
+"conceptual_coherence": 3.6,
+"user_pain_plausibility": 3.8,
+"technical_plausibility": 3.2,
+"mvp_clarity": 3.3,
+"business_model_plausibility": 2.1,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.8,
+"overall_mvp_usefulness": 3.4,
+"prototype_willingness": 3.4
+},
+"candidate_b_scores": {
+"novelty": 3.2,
+"conceptual_coherence": 4.2,
+"user_pain_plausibility": 3.8,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.4,
+"business_model_plausibility": 2.2,
+"unsupported_claim_risk": 1.4,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.1
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "B",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A’s OCR-driven pantry fantasy loop is more distinctive, but it adds a vision layer without a corresponding validation plan. B preserves the pantry-to-game connection through manual selection, defined items, and a simple battle loop."
+},
+{
+"pair_id": "P1PAIR_0018",
+"candidate_a_scores": {
+"novelty": 3.4,
+"conceptual_coherence": 4.1,
+"user_pain_plausibility": 2.9,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 1.4,
+"ethical_privacy_risk": 1.3,
+"overall_mvp_usefulness": 3.8,
+"prototype_willingness": 3.8
+},
+"candidate_b_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 2.9,
+"technical_plausibility": 3.9,
+"mvp_clarity": 3.7,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 2.1,
+"ethical_privacy_risk": 1.4,
+"overall_mvp_usefulness": 3.4,
+"prototype_willingness": 3.3
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "B adds infected grids and real-time regex fortification, but these additions are not reflected in the two-snippet prototype. A directly connects syntax repair, combat rewards, and its explicitly scoped implementation steps."
+},
+{
+"pair_id": "P1PAIR_0019",
+"candidate_a_scores": {
+"novelty": 3.1,
+"conceptual_coherence": 4.2,
+"user_pain_plausibility": 3.6,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.1,
+"unsupported_claim_risk": 1.6,
+"ethical_privacy_risk": 2.1,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"candidate_b_scores": {
+"novelty": 3.2,
+"conceptual_coherence": 3.4,
+"user_pain_plausibility": 3.6,
+"technical_plausibility": 3.4,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 2.2,
+"overall_mvp_usefulness": 3.4,
+"prototype_willingness": 3.3
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Both use surplus ingredients. A specifies a sourcing moment, five lunches, menu adaptation, and recipient feedback; B adds distributor partnerships and carbon-spend collection without clearly connecting that extra objective to the pilot."
+},
+{
+"pair_id": "P1PAIR_0020",
+"candidate_a_scores": {
+"novelty": 3.1,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.4,
+"mvp_clarity": 3.7,
+"business_model_plausibility": 2.1,
+"unsupported_claim_risk": 1.4,
+"ethical_privacy_risk": 1.2,
+"overall_mvp_usefulness": 3.8,
+"prototype_willingness": 3.7
+},
+"candidate_b_scores": {
+"novelty": 2.8,
+"conceptual_coherence": 4.4,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.1,
+"unsupported_claim_risk": 1.3,
+"ethical_privacy_risk": 1.2,
+"overall_mvp_usefulness": 4.1,
+"prototype_willingness": 4.2
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "TIE",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "TIE",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A clearly states an ingredient-centered timeline but leaves its test boundary broad. B specifies one complex recipe and a single timeline page, while retaining the core alternative-view mechanism."
+},
+{
+"pair_id": "P1PAIR_0021",
+"candidate_a_scores": {
+"novelty": 3.1,
+"conceptual_coherence": 4.3,
+"user_pain_plausibility": 3.8,
+"technical_plausibility": 4.4,
+"mvp_clarity": 4.6,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 2.2,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.1
+},
+"candidate_b_scores": {
+"novelty": 4.0,
+"conceptual_coherence": 3.1,
+"user_pain_plausibility": 3.8,
+"technical_plausibility": 2.5,
+"mvp_clarity": 3.0,
+"business_model_plausibility": 2.4,
+"unsupported_claim_risk": 2.8,
+"ethical_privacy_risk": 2.3,
+"overall_mvp_usefulness": 3.1,
+"prototype_willingness": 2.9
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "B offers a more unusual synchronized-hardware mechanism, yet its smart-stove and joint-appliance requirements make the first test substantially broader. A can test social cooking directly with guided video sessions and a small number of pairs."
+},
+{
+"pair_id": "P1PAIR_0022",
+"candidate_a_scores": {
+"novelty": 2.4,
+"conceptual_coherence": 3.4,
+"user_pain_plausibility": 3.7,
+"technical_plausibility": 4.0,
+"mvp_clarity": 3.9,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 1.4,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.4
+},
+"candidate_b_scores": {
+"novelty": 2.3,
+"conceptual_coherence": 4.3,
+"user_pain_plausibility": 3.7,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.6,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.4,
+"overall_mvp_usefulness": 4.1,
+"prototype_willingness": 4.2
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A calls its estimate predictive from style benchmarks without showing a source for those benchmarks. B frames the output as rough, ties it to user history and multipliers, and defines the form variables."
+},
+{
+"pair_id": "P1PAIR_0023",
+"candidate_a_scores": {
+"novelty": 2.8,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 3.8,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.4,
+"business_model_plausibility": 2.7,
+"unsupported_claim_risk": 2.4,
+"ethical_privacy_risk": 3.2,
+"overall_mvp_usefulness": 3.8,
+"prototype_willingness": 3.7
+},
+"candidate_b_scores": {
+"novelty": 3.4,
+"conceptual_coherence": 3.3,
+"user_pain_plausibility": 3.8,
+"technical_plausibility": 3.2,
+"mvp_clarity": 3.4,
+"business_model_plausibility": 2.7,
+"unsupported_claim_risk": 3.1,
+"ethical_privacy_risk": 3.4,
+"overall_mvp_usefulness": 3.2,
+"prototype_willingness": 3.0
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "A",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "B has a more elaborate sensor-integration concept, but it relies on real-time physiological interpretation and daily delivery tailoring. A bounds the test to manually reported sleep data, email recommendations, and a ten-person pilot."
+},
+{
+"pair_id": "P1PAIR_0024",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.2,
+"user_pain_plausibility": 3.2,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.4,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 1.6,
+"ethical_privacy_risk": 1.4,
+"overall_mvp_usefulness": 3.9,
+"prototype_willingness": 4.0
+},
+"candidate_b_scores": {
+"novelty": 4.0,
+"conceptual_coherence": 3.2,
+"user_pain_plausibility": 3.2,
+"technical_plausibility": 3.4,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 2.7,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.3,
+"prototype_willingness": 3.2
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "B’s prompt-driven probability curves make the premise more elaborate but are not demonstrated by its scripted prototype. A keeps the reverse-choice mechanism testable through a single conflict injection with two specified outcomes."
+},
+{
+"pair_id": "P1PAIR_0025",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 3.6,
+"user_pain_plausibility": 3.0,
+"technical_plausibility": 3.8,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.7,
+"ethical_privacy_risk": 2.6,
+"overall_mvp_usefulness": 3.4,
+"prototype_willingness": 3.3
+},
+"candidate_b_scores": {
+"novelty": 2.9,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 3.0,
+"technical_plausibility": 4.1,
+"mvp_clarity": 4.3,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.6,
+"ethical_privacy_risk": 2.7,
+"overall_mvp_usefulness": 3.8,
+"prototype_willingness": 3.9
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A provides a more distinctive texture-gradient framing, but its promise of complete focus and memory-mapping aim are less bounded. B gives a concrete six-course event, participant count, and feedback collection plan."
+},
+{
+"pair_id": "P1PAIR_0026",
+"candidate_a_scores": {
+"novelty": 2.3,
+"conceptual_coherence": 4.3,
+"user_pain_plausibility": 3.7,
+"technical_plausibility": 4.6,
+"mvp_clarity": 4.7,
+"business_model_plausibility": 2.7,
+"unsupported_claim_risk": 1.4,
+"ethical_privacy_risk": 1.3,
+"overall_mvp_usefulness": 4.1,
+"prototype_willingness": 4.2
+},
+"candidate_b_scores": {
+"novelty": 2.7,
+"conceptual_coherence": 3.7,
+"user_pain_plausibility": 3.7,
+"technical_plausibility": 3.6,
+"mvp_clarity": 3.8,
+"business_model_plausibility": 2.7,
+"unsupported_claim_risk": 1.9,
+"ethical_privacy_risk": 1.4,
+"overall_mvp_usefulness": 3.6,
+"prototype_willingness": 3.5
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "B adds invoice parsing and fluctuation tracking, but PDF and CSV ingestion make the prototype less defined. A confines the comparison to three ingredients, manual vendor inputs, and a straightforward lowest-price table."
+},
+{
+"pair_id": "P1PAIR_0027",
+"candidate_a_scores": {
+"novelty": 3.1,
+"conceptual_coherence": 4.4,
+"user_pain_plausibility": 3.3,
+"technical_plausibility": 3.9,
+"mvp_clarity": 4.6,
+"business_model_plausibility": 3.4,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"candidate_b_scores": {
+"novelty": 3.3,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 3.3,
+"technical_plausibility": 3.4,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.2,
+"unsupported_claim_risk": 2.1,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.4,
+"prototype_willingness": 3.3
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "A",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "B has a broader middleware-platform framing, while A provides concrete roaster commitments, subscriber count, courier process, and four weekly cycles. A’s manual route test more directly supports the stated freshness service."
+},
+{
+"pair_id": "P1PAIR_0028",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 3.4,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.4,
+"mvp_clarity": 3.4,
+"business_model_plausibility": 2.8,
+"unsupported_claim_risk": 2.9,
+"ethical_privacy_risk": 2.8,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.3
+},
+"candidate_b_scores": {
+"novelty": 2.7,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.2,
+"mvp_clarity": 4.6,
+"business_model_plausibility": 2.9,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 2.3,
+"overall_mvp_usefulness": 4.3,
+"prototype_willingness": 4.4
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "B",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A’s autonomous contextual summarization is more ambitious but leaves its tagging, placement, and access boundaries unclear. B limits the interaction to a user-selected message, one ticket action, and one connected project-management tool."
+},
+{
+"pair_id": "P1PAIR_0029",
+"candidate_a_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.2,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.4,
+"business_model_plausibility": 3.1,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.8,
+"overall_mvp_usefulness": 3.9,
+"prototype_willingness": 4.0
+},
+"candidate_b_scores": {
+"novelty": 3.3,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 3.6,
+"mvp_clarity": 3.8,
+"business_model_plausibility": 3.1,
+"unsupported_claim_risk": 2.2,
+"ethical_privacy_risk": 1.8,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.5
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Both test virtual tasting rituals. A makes the physical kit, team coordination, event count, and feedback sequence explicit, whereas B introduces proprietary samples and remote sensing without a clear role for either in the prototype."
+},
+{
+"pair_id": "P1PAIR_0030",
+"candidate_a_scores": {
+"novelty": 2.9,
+"conceptual_coherence": 3.7,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 3.8,
+"mvp_clarity": 4.1,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.2,
+"ethical_privacy_risk": 2.9,
+"overall_mvp_usefulness": 3.6,
+"prototype_willingness": 3.6
+},
+"candidate_b_scores": {
+"novelty": 3.4,
+"conceptual_coherence": 3.3,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 3.2,
+"mvp_clarity": 3.7,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 3.0,
+"ethical_privacy_risk": 3.1,
+"overall_mvp_usefulness": 3.2,
+"prototype_willingness": 3.1
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "A",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "B’s content-based mindshare framing is more distinctive, but it adds autonomous social reading and broader interpretation. A names a single profile input, a predefined rubric, and an output score, although neither fully resolves the stated sentiment focus."
+},
+{
+"pair_id": "P1PAIR_0031",
+"candidate_a_scores": {
+"novelty": 3.7,
+"conceptual_coherence": 3.3,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 3.5,
+"mvp_clarity": 3.4,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 2.1,
+"ethical_privacy_risk": 2.1,
+"overall_mvp_usefulness": 3.3,
+"prototype_willingness": 3.1
+},
+"candidate_b_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 3.8,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.2,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 1.6,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 3.8,
+"prototype_willingness": 3.8
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A gives a richer eyes-closed spatial-audio experience, but it is less clearly aligned with its gyroscope calibration prototype. B spells out audio cues, voice recognition, and maze logic for the same bounded interaction."
+},
+{
+"pair_id": "P1PAIR_0032",
+"candidate_a_scores": {
+"novelty": 2.8,
+"conceptual_coherence": 4.4,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.7,
+"ethical_privacy_risk": 2.4,
+"overall_mvp_usefulness": 4.1,
+"prototype_willingness": 4.2
+},
+"candidate_b_scores": {
+"novelty": 3.2,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.3,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.6,
+"ethical_privacy_risk": 3.0,
+"overall_mvp_usefulness": 3.4,
+"prototype_willingness": 3.3
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "A",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "B’s call-shadowing and whiteboard interpretation are more expansive, but its prototype is only template ingestion from a transcript. A consistently scopes the workflow to an uploaded transcript, fixed brief template, and export."
+},
+{
+"pair_id": "P1PAIR_0033",
+"candidate_a_scores": {
+"novelty": 4.0,
+"conceptual_coherence": 3.8,
+"user_pain_plausibility": 3.4,
+"technical_plausibility": 4.0,
+"mvp_clarity": 3.4,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 1.8,
+"ethical_privacy_risk": 1.2,
+"overall_mvp_usefulness": 3.6,
+"prototype_willingness": 3.6
+},
+"candidate_b_scores": {
+"novelty": 3.1,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 3.4,
+"technical_plausibility": 4.2,
+"mvp_clarity": 4.3,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 1.4,
+"ethical_privacy_risk": 1.2,
+"overall_mvp_usefulness": 3.9,
+"prototype_willingness": 4.0
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A’s mycelium and wilting-network metaphor is more distinctive, but its small parent-child visualization does not yet test the full simulation. B more explicitly defines node, resource-flow, and interface work for that limited visualization."
+},
+{
+"pair_id": "P1PAIR_0034",
+"candidate_a_scores": {
+"novelty": 3.1,
+"conceptual_coherence": 3.9,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.4,
+"mvp_clarity": 3.8,
+"business_model_plausibility": 3.1,
+"unsupported_claim_risk": 2.4,
+"ethical_privacy_risk": 2.2,
+"overall_mvp_usefulness": 3.7,
+"prototype_willingness": 3.6
+},
+"candidate_b_scores": {
+"novelty": 2.7,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.4,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.1,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "TIE",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "B",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A has a broader feed-monitoring and automatic-highlighting mechanism, but its dashboard scope does not specify the comparison workflow. B reduces the task to pasted texts and keyword overlap, making its first implementation more bounded."
+},
+{
+"pair_id": "P1PAIR_0035",
+"candidate_a_scores": {
+"novelty": 2.8,
+"conceptual_coherence": 3.9,
+"user_pain_plausibility": 3.9,
+"technical_plausibility": 4.4,
+"mvp_clarity": 3.9,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.7,
+"ethical_privacy_risk": 1.4,
+"overall_mvp_usefulness": 3.8,
+"prototype_willingness": 3.8
+},
+"candidate_b_scores": {
+"novelty": 2.4,
+"conceptual_coherence": 4.4,
+"user_pain_plausibility": 3.9,
+"technical_plausibility": 4.7,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.1,
+"unsupported_claim_risk": 1.4,
+"ethical_privacy_risk": 1.4,
+"overall_mvp_usefulness": 4.2,
+"prototype_willingness": 4.3
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Both center on a curated vendor directory. B provides an explicit vendor-vetting, retailer-onboarding, and introduction sequence; A’s pre-negotiated tiers add detail but are not tested within its small Sheets portal."
+},
+{
+"pair_id": "P1PAIR_0036",
+"candidate_a_scores": {
+"novelty": 3.2,
+"conceptual_coherence": 4.2,
+"user_pain_plausibility": 4.2,
+"technical_plausibility": 3.6,
+"mvp_clarity": 4.3,
+"business_model_plausibility": 3.1,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 3.4,
+"overall_mvp_usefulness": 3.9,
+"prototype_willingness": 3.8
+},
+"candidate_b_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 4.2,
+"technical_plausibility": 2.9,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.1,
+"unsupported_claim_risk": 2.7,
+"ethical_privacy_risk": 3.9,
+"overall_mvp_usefulness": 3.3,
+"prototype_willingness": 3.1
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "A",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "B adds a stronger transparency vision, but continuous visual documentation and specialized micro-kitchens expand the operational and privacy burden. A specifies a smaller meal set, time-stamped clips, defined protocols, and feedback on trust."
+},
+{
+"pair_id": "P1PAIR_0037",
+"candidate_a_scores": {
+"novelty": 2.8,
+"conceptual_coherence": 4.3,
+"user_pain_plausibility": 3.7,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.1,
+"unsupported_claim_risk": 1.4,
+"ethical_privacy_risk": 1.7,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.1
+},
+"candidate_b_scores": {
+"novelty": 3.1,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 3.7,
+"technical_plausibility": 3.2,
+"mvp_clarity": 3.4,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.1,
+"ethical_privacy_risk": 1.7,
+"overall_mvp_usefulness": 3.4,
+"prototype_willingness": 3.3
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "B proposes a more automated kiosk concept but includes dynamic inventory logic without demonstrating it. A directly tests one manually managed cart, observed train arrivals, sales tracking, and a short operating period."
+},
+{
+"pair_id": "P1PAIR_0038",
+"candidate_a_scores": {
+"novelty": 2.8,
+"conceptual_coherence": 3.7,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.2,
+"mvp_clarity": 3.8,
+"business_model_plausibility": 2.3,
+"unsupported_claim_risk": 1.7,
+"ethical_privacy_risk": 2.6,
+"overall_mvp_usefulness": 3.6,
+"prototype_willingness": 3.7
+},
+"candidate_b_scores": {
+"novelty": 2.3,
+"conceptual_coherence": 4.2,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.6,
+"mvp_clarity": 4.3,
+"business_model_plausibility": 2.2,
+"unsupported_claim_risk": 1.4,
+"ethical_privacy_risk": 2.4,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.1
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "B",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A’s relationship-tier reminders add differentiation but rely on unspecified proximity thresholds. B presents a simple contact and gift-history record with a concrete search and filtering scope, though both handle personal relationship data."
+},
+{
+"pair_id": "P1PAIR_0039",
+"candidate_a_scores": {
+"novelty": 3.1,
+"conceptual_coherence": 4.4,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.1,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.4,
+"ethical_privacy_risk": 1.8,
+"overall_mvp_usefulness": 4.1,
+"prototype_willingness": 4.2
+},
+"candidate_b_scores": {
+"novelty": 3.1,
+"conceptual_coherence": 3.7,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 3.6,
+"mvp_clarity": 3.6,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.8,
+"overall_mvp_usefulness": 3.6,
+"prototype_willingness": 3.5
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Both close the office-grounds loop. A specifies three offices, a local partner, plant needs, and a weekly exchange; B expands to ten offices, municipal processing, and analytics without a similarly bounded pilot path."
+},
+{
+"pair_id": "P1PAIR_0040",
+"candidate_a_scores": {
+"novelty": 2.9,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 3.8,
+"technical_plausibility": 4.1,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 2.4,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.7,
+"overall_mvp_usefulness": 3.9,
+"prototype_willingness": 3.9
+},
+"candidate_b_scores": {
+"novelty": 2.4,
+"conceptual_coherence": 4.3,
+"user_pain_plausibility": 3.8,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.3,
+"business_model_plausibility": 2.4,
+"unsupported_claim_risk": 1.4,
+"ethical_privacy_risk": 1.8,
+"overall_mvp_usefulness": 4.1,
+"prototype_willingness": 4.2
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "TIE",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A gives a more specialized complexity-class matching rule, while B offers a clearer end-to-end user flow with listings, filters, and messaging. Both remain limited in monetization detail."
+},
+{
+"pair_id": "P1PAIR_0041",
+"candidate_a_scores": {
+"novelty": 3.8,
+"conceptual_coherence": 4.2,
+"user_pain_plausibility": 3.1,
+"technical_plausibility": 3.8,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 2.2,
+"unsupported_claim_risk": 1.4,
+"ethical_privacy_risk": 1.7,
+"overall_mvp_usefulness": 3.8,
+"prototype_willingness": 3.8
+},
+"candidate_b_scores": {
+"novelty": 3.2,
+"conceptual_coherence": 4.3,
+"user_pain_plausibility": 3.1,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.2,
+"unsupported_claim_risk": 1.3,
+"ethical_privacy_risk": 1.7,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "TIE",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "TIE",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A specifies unusually clear complementary creative constraints and a timed joint round. B turns the same concept into a more explicit implementation plan, especially for the shared canvas, synchronization, and role assignment."
+},
+{
+"pair_id": "P1PAIR_0042",
+"candidate_a_scores": {
+"novelty": 2.7,
+"conceptual_coherence": 4.2,
+"user_pain_plausibility": 3.6,
+"technical_plausibility": 4.7,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.4,
+"ethical_privacy_risk": 1.6,
+"overall_mvp_usefulness": 4.1,
+"prototype_willingness": 4.2
+},
+"candidate_b_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 3.7,
+"user_pain_plausibility": 3.6,
+"technical_plausibility": 4.0,
+"mvp_clarity": 3.8,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.7,
+"overall_mvp_usefulness": 3.7,
+"prototype_willingness": 3.7
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "B adds engagement-speed reporting, but its prototype remains a set of documentation files and does not show how the SaaS measurement works. A coherently limits the offering to three interactive playbooks and a small usability test."
+},
+{
+"pair_id": "P1PAIR_0043",
+"candidate_a_scores": {
+"novelty": 2.8,
+"conceptual_coherence": 3.4,
+"user_pain_plausibility": 3.8,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.3,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.3,
+"overall_mvp_usefulness": 3.6,
+"prototype_willingness": 3.6
+},
+"candidate_b_scores": {
+"novelty": 3.4,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 3.8,
+"technical_plausibility": 3.0,
+"mvp_clarity": 3.4,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.3,
+"ethical_privacy_risk": 1.4,
+"overall_mvp_usefulness": 3.4,
+"prototype_willingness": 3.3
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "TIE",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "B’s replaceable micro-planter concept is more distinctive, but its light-starved and refrigerator installation details are less technically bounded. A describes a straightforward replacement subscription and a defined household test, despite less detail on the no-light condition."
+},
+{
+"pair_id": "P1PAIR_0044",
+"candidate_a_scores": {
+"novelty": 2.7,
+"conceptual_coherence": 4.3,
+"user_pain_plausibility": 3.8,
+"technical_plausibility": 4.2,
+"mvp_clarity": 4.6,
+"business_model_plausibility": 3.2,
+"unsupported_claim_risk": 1.4,
+"ethical_privacy_risk": 1.6,
+"overall_mvp_usefulness": 4.1,
+"prototype_willingness": 4.2
+},
+"candidate_b_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 3.6,
+"user_pain_plausibility": 3.8,
+"technical_plausibility": 3.9,
+"mvp_clarity": 3.8,
+"business_model_plausibility": 3.2,
+"unsupported_claim_risk": 1.9,
+"ethical_privacy_risk": 1.7,
+"overall_mvp_usefulness": 3.6,
+"prototype_willingness": 3.5
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "B has a more differentiated circularity framing, yet it does not define its consignment process or support experience. A names the rental items, user count, duration, guidance format, and pilot steps."
+},
+{
+"pair_id": "P1PAIR_0045",
+"candidate_a_scores": {
+"novelty": 3.7,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 4.2,
+"technical_plausibility": 3.0,
+"mvp_clarity": 3.6,
+"business_model_plausibility": 3.3,
+"unsupported_claim_risk": 2.3,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.4
+},
+"candidate_b_scores": {
+"novelty": 2.8,
+"conceptual_coherence": 4.4,
+"user_pain_plausibility": 4.2,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.2,
+"unsupported_claim_risk": 2.4,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 4.1,
+"prototype_willingness": 4.1
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "TIE",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A presents a more unusual modular-swap architecture but leaves the component scope and technician process broad. B limits its service to one machine brand, common parts, and five cafes, though its 24-hour guarantee raises its claim risk."
+},
+{
+"pair_id": "P1PAIR_0046",
+"candidate_a_scores": {
+"novelty": 3.1,
+"conceptual_coherence": 4.2,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.4,
+"mvp_clarity": 4.4,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 2.1,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"candidate_b_scores": {
+"novelty": 3.6,
+"conceptual_coherence": 3.3,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 3.2,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.8,
+"ethical_privacy_risk": 2.2,
+"overall_mvp_usefulness": 3.3,
+"prototype_willingness": 3.2
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "B introduces a more novel blockchain-routing story, but its manual dashboard pilot does not test that mechanism. A directly matches point tracking, one partner project, and one donation cycle to its stated idea."
+},
+{
+"pair_id": "P1PAIR_0047",
+"candidate_a_scores": {
+"novelty": 2.7,
+"conceptual_coherence": 3.3,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.4,
+"business_model_plausibility": 2.1,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.4,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.5
+},
+"candidate_b_scores": {
+"novelty": 3.3,
+"conceptual_coherence": 3.8,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.2,
+"mvp_clarity": 3.8,
+"business_model_plausibility": 2.1,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.4,
+"overall_mvp_usefulness": 3.7,
+"prototype_willingness": 3.6
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "TIE"
+},
+"short_rationale": "B makes the annotations more repair-oriented by tying hotspots to likely failure points. A provides the more concrete upload-and-hotspot build plan, but neither card clearly demonstrates how annotation solves the stated media-vetting problem."
+},
+{
+"pair_id": "P1PAIR_0048",
+"candidate_a_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 3.9,
+"technical_plausibility": 3.5,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.8,
+"ethical_privacy_risk": 1.4,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.4
+},
+"candidate_b_scores": {
+"novelty": 2.5,
+"conceptual_coherence": 4.2,
+"user_pain_plausibility": 3.9,
+"technical_plausibility": 4.3,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.4,
+"overall_mvp_usefulness": 4.1,
+"prototype_willingness": 4.2
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A promises to identify exactly which snippet needs revision without showing that analysis path. B limits the MVP to rank thresholds, manual alerts, five sites, and a defined 30-day feedback window."
+},
+{
+"pair_id": "P1PAIR_0049",
+"candidate_a_scores": {
+"novelty": 3.8,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 3.1,
+"technical_plausibility": 4.0,
+"mvp_clarity": 3.8,
+"business_model_plausibility": 2.3,
+"unsupported_claim_risk": 1.7,
+"ethical_privacy_risk": 2.6,
+"overall_mvp_usefulness": 3.7,
+"prototype_willingness": 3.7
+},
+"candidate_b_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.3,
+"user_pain_plausibility": 3.1,
+"technical_plausibility": 4.4,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.3,
+"unsupported_claim_risk": 1.4,
+"ethical_privacy_risk": 2.6,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A’s ghost-log framing is more distinctive, while B specifies the geofence, audio recording, and map implementation for the same one-mission setting. Both require location-triggered participation and carry similar location-data exposure."
+},
+{
+"pair_id": "P1PAIR_0050",
+"candidate_a_scores": {
+"novelty": 2.9,
+"conceptual_coherence": 4.1,
+"user_pain_plausibility": 3.8,
+"technical_plausibility": 3.8,
+"mvp_clarity": 4.3,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.8,
+"ethical_privacy_risk": 2.4,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"candidate_b_scores": {
+"novelty": 3.6,
+"conceptual_coherence": 3.3,
+"user_pain_plausibility": 3.8,
+"technical_plausibility": 3.2,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 3.0,
+"ethical_privacy_risk": 2.6,
+"overall_mvp_usefulness": 3.3,
+"prototype_willingness": 3.2
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "A",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "B’s historical-behavior impact analysis is more distinctive but introduces vague predictions of schedule collapse. A keeps the logic to user tags, conflict detection, and suggestions for non-critical meetings."
+},
+{
+"pair_id": "P1PAIR_0051",
+"candidate_a_scores": {
+"novelty": 3.2,
+"conceptual_coherence": 4.2,
+"user_pain_plausibility": 3.6,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.4,
+"business_model_plausibility": 2.2,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 2.1,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"candidate_b_scores": {
+"novelty": 3.8,
+"conceptual_coherence": 3.6,
+"user_pain_plausibility": 3.6,
+"technical_plausibility": 3.6,
+"mvp_clarity": 3.7,
+"business_model_plausibility": 2.2,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 2.2,
+"overall_mvp_usefulness": 3.6,
+"prototype_willingness": 3.6
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "B offers a more creative procedural-audio response to cadence, but its prototype does not fully define that generation. A specifies one track, accelerometer alignment, beat logic, and direct feedback for a treadmill test."
+},
+{
+"pair_id": "P1PAIR_0052",
+"candidate_a_scores": {
+"novelty": 2.9,
+"conceptual_coherence": 4.3,
+"user_pain_plausibility": 3.9,
+"technical_plausibility": 4.4,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 2.2,
+"overall_mvp_usefulness": 4.1,
+"prototype_willingness": 4.2
+},
+"candidate_b_scores": {
+"novelty": 2.8,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 3.9,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.6,
+"ethical_privacy_risk": 2.2,
+"overall_mvp_usefulness": 3.9,
+"prototype_willingness": 3.9
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "TIE",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "TIE",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Both propose a vetted Slack-based bridge between creators and brands. A more clearly lists recruitment, facilitation, and output monitoring, while B has a similarly bounded but less operationally specified exchange."
+},
+{
+"pair_id": "P1PAIR_0053",
+"candidate_a_scores": {
+"novelty": 3.1,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.4,
+"mvp_clarity": 3.6,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.6,
+"ethical_privacy_risk": 3.1,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.4
+},
+"candidate_b_scores": {
+"novelty": 2.6,
+"conceptual_coherence": 4.3,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.3,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 2.8,
+"overall_mvp_usefulness": 4.1,
+"prototype_willingness": 4.2
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "B",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A’s intelligent filing agents promise automated placement from metadata within sensitive shared repositories, but their decision boundary is unclear. B narrows the work to visible naming and structure checks in one monitored directory."
+},
+{
+"pair_id": "P1PAIR_0054",
+"candidate_a_scores": {
+"novelty": 3.1,
+"conceptual_coherence": 3.4,
+"user_pain_plausibility": 3.9,
+"technical_plausibility": 3.6,
+"mvp_clarity": 3.8,
+"business_model_plausibility": 3.1,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 2.2,
+"overall_mvp_usefulness": 3.6,
+"prototype_willingness": 3.5
+},
+"candidate_b_scores": {
+"novelty": 2.5,
+"conceptual_coherence": 4.4,
+"user_pain_plausibility": 3.9,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.1,
+"unsupported_claim_risk": 1.4,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 4.2,
+"prototype_willingness": 4.3
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "B",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A adds AI-mediated skill verification, but the prototype is a manual board and does not test that mechanism. B directly describes a manual, framework-specific matching service and the participants needed to evaluate it."
+},
+{
+"pair_id": "P1PAIR_0055",
+"candidate_a_scores": {
+"novelty": 3.8,
+"conceptual_coherence": 3.3,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 2.8,
+"mvp_clarity": 3.1,
+"business_model_plausibility": 2.8,
+"unsupported_claim_risk": 3.6,
+"ethical_privacy_risk": 4.3,
+"overall_mvp_usefulness": 3.0,
+"prototype_willingness": 2.8
+},
+"candidate_b_scores": {
+"novelty": 2.8,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.2,
+"mvp_clarity": 4.4,
+"business_model_plausibility": 2.9,
+"unsupported_claim_risk": 1.7,
+"ethical_privacy_risk": 3.5,
+"overall_mvp_usefulness": 3.9,
+"prototype_willingness": 3.9
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "B",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A has a more distinctive neuro-sensory and biometric framing, but it makes substantial personalization claims for post-medical users. B confines adaptation to written feedback and three snack boxes, although the target context still involves sensitive health-related needs."
+},
+{
+"pair_id": "P1PAIR_0056",
+"candidate_a_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.4,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.6,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.7,
+"ethical_privacy_risk": 2.2,
+"overall_mvp_usefulness": 4.2,
+"prototype_willingness": 4.2
+},
+"candidate_b_scores": {
+"novelty": 3.3,
+"conceptual_coherence": 3.9,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.5,
+"mvp_clarity": 3.9,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 2.6,
+"overall_mvp_usefulness": 3.8,
+"prototype_willingness": 3.7
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "A",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "B adds autonomous email extraction and API access, but its prototype uses synthetic email data and leaves those integrations less specified. A names three formats, parsing, comparison logic, and a concrete flagged-discrepancy report."
+},
+{
+"pair_id": "P1PAIR_0057",
+"candidate_a_scores": {
+"novelty": 2.8,
+"conceptual_coherence": 4.3,
+"user_pain_plausibility": 3.7,
+"technical_plausibility": 4.1,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.1
+},
+"candidate_b_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 3.7,
+"user_pain_plausibility": 3.7,
+"technical_plausibility": 3.7,
+"mvp_clarity": 3.8,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.1,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 3.6,
+"prototype_willingness": 3.6
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "B’s distributed utility framing is slightly more distinctive, but its flavor-concentrate outcome is less defined. A identifies simple preservation methods, household count, bag volume, pickup work, and convenience feedback."
+},
+{
+"pair_id": "P1PAIR_0058",
+"candidate_a_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.4,
+"user_pain_plausibility": 4.1,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.1,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 4.2,
+"prototype_willingness": 4.3
+},
+"candidate_b_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 3.7,
+"user_pain_plausibility": 4.1,
+"technical_plausibility": 3.3,
+"mvp_clarity": 3.8,
+"business_model_plausibility": 3.1,
+"unsupported_claim_risk": 2.7,
+"ethical_privacy_risk": 2.3,
+"overall_mvp_usefulness": 3.6,
+"prototype_willingness": 3.5
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "A",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "B proposes automatic replenishment updates, carrier scraping, and ERP changes, but its simulated-system pilot does not establish those integrations. A keeps recommendations based on supplied CSVs and preserves human approval of any changes."
+},
+{
+"pair_id": "P1PAIR_0059",
+"candidate_a_scores": {
+"novelty": 2.6,
+"conceptual_coherence": 4.3,
+"user_pain_plausibility": 3.6,
+"technical_plausibility": 4.6,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.1,
+"unsupported_claim_risk": 1.4,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.1,
+"prototype_willingness": 4.2
+},
+"candidate_b_scores": {
+"novelty": 2.8,
+"conceptual_coherence": 3.8,
+"user_pain_plausibility": 3.6,
+"technical_plausibility": 4.2,
+"mvp_clarity": 3.9,
+"business_model_plausibility": 3.2,
+"unsupported_claim_risk": 1.9,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.7,
+"prototype_willingness": 3.7
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "B adds service-as-software and recurring CRM language, but its prototype remains the same documents and video suite without implementation detail. A specifies the digital kit, three beta users, and steps for testing it."
+},
+{
+"pair_id": "P1PAIR_0060",
+"candidate_a_scores": {
+"novelty": 3.6,
+"conceptual_coherence": 3.6,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 3.2,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.8,
+"ethical_privacy_risk": 2.8,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.4
+},
+"candidate_b_scores": {
+"novelty": 2.6,
+"conceptual_coherence": 4.2,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 4.1,
+"prototype_willingness": 4.2
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "B",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "A offers a more elaborate waste-and-survey mechanism but introduces latent-preference heat maps and footfall metadata without a clear validation boundary. B limits the test to QR surveys, one location, 30 days, and inventory recommendations."
+}
+]
+}

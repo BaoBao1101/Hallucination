@@ -1,0 +1,65 @@
+[
+  {
+    "candidate_id": "BLIND_0088",
+    "title": "Rhythmic Retaliator: Symphony of Carnage",
+    "target_user": "Casual rhythm game players seeking a visceral action experience.",
+    "problem_or_desire": "Boredom with standard 'tap-to-attack' or 'virtual joystick' controls; a desire for mobile combat that rewards precision timing and a sense of flow.",
+    "core_concept": "A swipe-and-tap combat game where every player action (attacks, dodges, special abilities) must be executed in time with dynamic background music. Consecutive timed inputs increase a combo multiplier and trigger enhanced, spectacular animations and attacks tied to musical beats.",
+    "proposed_approach": "Integrate a beat-tracking system linked directly to core attack/defend inputs. Design music tracks with clear rhythmic patterns and tie them procedurally to combat events. Develop responsive animation feedback systems to signal successful timing and combos.",
+    "prototype_scope": "A 'score attack' survival mode against 3 enemy archetypes. Three songs of increasing complexity. The prototype focuses solely on demonstrating rhythmic input registration for melee attacks and basic dodges. Success on a song scores points based on timing accuracy and chain combos. No complex ability systems."
+  },
+  {
+    "candidate_id": "BLIND_0087",
+    "title": "Contextual Skill Pairing for Remote Project Teams",
+    "target_user": "Independent freelance software developers working remotely.",
+    "problem_or_desire": "Need to quickly find other freelancers for short-term, specialized project collaborations without lengthy vetting processes.",
+    "core_concept": "An AI-powered platform that matches developers based on real-time project need descriptions and their demonstrated (though implicit) problem-solving patterns in code repositories.",
+    "proposed_approach": "Develop a matching algorithm that analyzes public code commit histories for common error patterns and solution strategies, linking them to short descriptions of problems posted by other users.",
+    "prototype_scope": "A web-based platform where users can paste a snippet of code/description of a programming challenge and receive AI-suggested peer collaborators whose publicly available code shows relevant solution approaches or architectural styles."
+  },
+  {
+    "candidate_id": "BLIND_0008",
+    "title": "Ephemeral Collaborative Idea Boards",
+    "target_user": "Project teams in early brainstorm or discovery phases.",
+    "problem_or_desire": "To have temporary, focused spaces for rapid idea generation and annotation without long-term clutter or project overhead.",
+    "core_concept": "A real-time web whiteboard designed for temporary sessions where input (text, drawings, links) and the entire board disappear after a set time limit or manual reset, promoting fleeting, unfiltered input.",
+    "proposed_approach": "A web app that provides a shared canvas where participants can add content and collaborate. Features include basic drawing tools, text boxes, and image embedding. A prominent countdown timer governs the board's lifespan.",
+    "prototype_scope": "Implement a web application allowing up to 4 concurrent users to contribute text notes and draw on a shared canvas within a session lasting a fixed 30 minutes, after which all content is cleared upon session closure."
+  },
+  {
+    "candidate_id": "BLIND_0004",
+    "title": "AI-Powered Coffee Brewing Coach",
+    "target_user": "Home baristas who own advanced brewing equipment (e.g., pour-over, espresso machines) and want to perfect their technique.",
+    "problem_or_desire": "Inconsistent brewing results and a desire for personalized, real-time guidance to achieve optimal coffee extraction and flavor.",
+    "core_concept": "A smart device or app that uses AI and sensor data (e.g., water temperature, pour rate, grind size estimation) to provide live feedback and adjustments for home coffee brewing.",
+    "proposed_approach": "Develop algorithms to analyze brewing parameters. Integrate with smart scales or cameras, or allow manual input. Offer personalized recommendations based on bean type and desired outcome.",
+    "prototype_scope": "Create a mobile app that allows users to manually input brewing parameters (water temp, grind size, brew time, ratio). Provide feedback and suggest adjustments for pour-over brewing. Test with 20 home baristas."
+  },
+  {
+    "candidate_id": "BLIND_0031",
+    "title": "Collaborative Storytelling Platform for Early Literacy",
+    "target_user": "Preschool and early elementary school children (ages 4-7).",
+    "problem_or_desire": "Children need engaging ways to develop narrative skills, vocabulary, and creative expression beyond passive consumption of stories.",
+    "core_concept": "A gamified digital platform where children collaboratively build stories by adding sentences, drawing illustrations, and choosing plot elements, guided by simple prompts.",
+    "proposed_approach": "Create a user-friendly interface with drag-and-drop elements for text and drawing. Implement a moderation system for shared stories and a prompt generation engine.",
+    "prototype_scope": "A tablet application allowing two children to collaboratively write and illustrate a short story (up to 10 turns each) based on a given theme, with basic character and setting options."
+  },
+  {
+    "candidate_id": "BLIND_0052",
+    "title": "Augmented Reality Archaeology Puzzles",
+    "target_user": "Casual mobile gamers interested in history and puzzles, aged 25-45",
+    "problem_or_desire": "Desire for mentally stimulating casual games that blend digital and real-world experiences.",
+    "core_concept": "Using smartphone AR to overlay puzzle elements onto the real world, creating an interactive experience that blends digital puzzles with the player's physical environment, hinting at historical discoveries.",
+    "proposed_approach": "A mobile game where players use their phone's camera to scan specific, pre-defined markers or simple surfaces in their environment. Upon detection, AR elements appear, forming part of a puzzle that hints at a historical artifact or discovery. The core interaction involves observing and interacting with these AR elements within the player's physical space to solve a contained puzzle.",
+    "prototype_scope": "A mobile AR puzzle game where players scan a printed QR code or a distinct, flat surface (like a specific book cover or a placemat) to trigger an AR overlay. This overlay presents a simple puzzle (e.g., a jigsaw of an artifact, a sequence to tap) that, when solved, reveals a historical fact or image. The MVP focuses on one themed puzzle set (e.g., Ancient Egypt) and a single marker type for detection. | Develop a basic AR scene setup using a mobile AR SDK…"
+  },
+  {
+    "candidate_id": "BLIND_0095",
+    "title": "Interactive Web-Story Builder for Children",
+    "target_user": "Parents of young children (ages 4-8)",
+    "problem_or_desire": "To engage their children in creative storytelling and early literacy in a personalized digital format.",
+    "core_concept": "A web application that allows parents and children to collaboratively create illustrated digital stories using pre-set interactive elements and drag-and-drop functionality.",
+    "proposed_approach": "Develop a simple drag-and-drop interface with character templates, background scenes, and pre-written story starters. Users can input text for dialogue and narration. Stories can be exported as multi-page PDFs.",
+    "prototype_scope": "Build a single-page application supporting a fixed set of character and background assets, with rudimentary text input fields and a PDF export function for a story with a maximum of 5 pages."
+  }
+]

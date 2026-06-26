@@ -1,0 +1,102 @@
+{
+  "batch_id": "P1_NEUTRAL_GEMINI_004",
+  "stage": "neutral_randomized_pairwise_m1_m3",
+  "prompt_regime": "P1_shared_neutral",
+  "pairs": [
+    {
+      "pair_id": "P1PAIR_0016",
+      "candidate_a": {
+        "title": "Hyper-local Seasonal Gleaner App",
+        "target_user": "Urban residential cooks",
+        "problem_or_desire": "Difficulty sourcing surplus fresh, unrefined local produce for complex meals",
+        "core_concept": "Direct trade of backyard fruit/vegetable surplus with local households",
+        "proposed_approach": "Develop a geolocated map-based exchange that matches excess home-grown supply with localized kitchen demand",
+        "prototype_scope": "One neighborhood Slack/Telegram integration managing peer-to-peer pick-ups of three specified seasonal food items"
+      },
+      "candidate_b": {
+        "title": "Hyper-local Seasonal Gleaner App",
+        "target_user": "Urban residential cooks",
+        "problem_or_desire": "Difficulty sourcing surplus fresh, unrefined local produce for complex meals",
+        "core_concept": "Peer-to-peer exchange of surplus backyard produce.",
+        "proposed_approach": "A manual, community-moderated bulletin board for neighborhood produce sharing.",
+        "prototype_scope": "A dedicated WhatsApp group for one street to post photos of surplus items for free pickup. | Identify 10 households with gardens; Create WhatsApp group; Facilitate 5 successful exchanges; Document pickup friction points"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0017",
+      "candidate_a": {
+        "title": "Pantry Potioneer",
+        "target_user": "Home cooks trying to minimize food waste",
+        "problem_or_desire": "Managing quickly expiring ingredients that end up in the trash",
+        "core_concept": "An RPG fantasy loop where monsters representing hunger levels and potion recipes are dynamically generated based on manual pantry inventory scanning.",
+        "proposed_approach": "Camera-vision OCR scanning that maps specific pantry items to equipment traits (e.g., milk is defensive, spice is offensive) to fend off pantry chaos creatures.",
+        "prototype_scope": "Inventory scanner integration processing ten basic produce items as offensive ability slots."
+      },
+      "candidate_b": {
+        "title": "Pantry Potioneer",
+        "target_user": "Home cooks trying to minimize food waste",
+        "problem_or_desire": "Managing quickly expiring ingredients that end up in the trash",
+        "core_concept": "RPG fantasy loop where inventory management is tied to real-world pantry items.",
+        "proposed_approach": "An RPG where players manually input their pantry items to gain equipment traits for a fantasy battle.",
+        "prototype_scope": "An inventory screen where users select from ten basic produce items to assign offensive ability slots. | Design ten produce items and their traits; Implement manual inventory selection UI; Build simple battle loop"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0018",
+      "candidate_a": {
+        "title": "Syntax Storm",
+        "target_user": "Developers working on clean code focus",
+        "problem_or_desire": "High mental fatigue during weekend learning periods",
+        "core_concept": "Combat strategy built on cleaning buggy code snippets.",
+        "proposed_approach": "A puzzle game where players fix buggy code snippets to defeat enemies in a grid-based combat system.",
+        "prototype_scope": "One combat grid that rewards valid syntax string repair of two predefined erroneous input segments. | Design two buggy code snippets; Implement basic grid combat logic; Build simple UI for code repair"
+      },
+      "candidate_b": {
+        "title": "Syntax Storm",
+        "target_user": "Developers working on clean code focus",
+        "problem_or_desire": "High mental fatigue during weekend learning periods",
+        "core_concept": "Combat strategy built entirely on cleaning buggy snippets, represented as infected territory grids.",
+        "proposed_approach": "Applying real regex principles as combat commands, effectively treating syntax repair as real-time defensive fortification building.",
+        "prototype_scope": "One combat grid that rewards valid syntax string repair of two predefined erroneous input segments."
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0019",
+      "candidate_a": {
+        "title": "Institutional Waste Conversion Catering",
+        "target_user": "Small enterprise HR departments",
+        "problem_or_desire": "Requirement to serve ethical, low-impact high-quality group catering",
+        "core_concept": "Catering using 'ugly' or near-expiry bulk ingredients.",
+        "proposed_approach": "A boutique catering service sourcing ingredients from local produce markets' end-of-day surplus.",
+        "prototype_scope": "Prepare and serve 5 lunches using ingredients purchased at a discount from a local market at closing time. | Identify local market surplus schedule; Design menu based on available 'ugly' produce; Execute 5 lunch deliveries; Survey recipients on quality perception"
+      },
+      "candidate_b": {
+        "title": "Institutional Waste Conversion Catering",
+        "target_user": "Small enterprise HR departments",
+        "problem_or_desire": "Requirement to serve ethical, low-impact high-quality group catering",
+        "core_concept": "Meals prepared exclusively from 'ugly' or near-expiry restaurant bulk raw materials",
+        "proposed_approach": "Maintain partnerships with high-end food distributors to repurpose unpicked perfectly edible industrial excess",
+        "prototype_scope": "Catering 5 lunches for one specific office office environment focusing on total reduction of carbon-spend data collection"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0020",
+      "candidate_a": {
+        "title": "KitchenCodex",
+        "target_user": "Home hobby cooks attempting complex international cuisine",
+        "problem_or_desire": "Information silos occurring during parallel recipe preparations across multi-ingredient workflows",
+        "core_concept": "Ingredient-centralized timeline visualization",
+        "proposed_approach": "Instead of procedural text recipe formats, render active time steps chronologically per critical ingredient node",
+        "prototype_scope": "Horizontal scrolling chart mapping preparation stages from prep work to cook time by category"
+      },
+      "candidate_b": {
+        "title": "KitchenCodex",
+        "target_user": "Home hobby cooks attempting complex international cuisine",
+        "problem_or_desire": "Information silos occurring during parallel recipe preparations across multi-ingredient workflows",
+        "core_concept": "Ingredient-centralized timeline visualization.",
+        "proposed_approach": "A recipe viewer that allows users to toggle between procedural and ingredient-based views.",
+        "prototype_scope": "A web page with a simple timeline visualization for one recipe. | Choose one complex recipe; Build a timeline visualization; Test with a user"
+      }
+    }
+  ]
+}

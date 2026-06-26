@@ -1,0 +1,92 @@
+[
+  {
+    "candidate_id": "BLIND_0149",
+    "title": "Collaborative Cold-Brew Barista Collective",
+    "target_user": "Commuter rail users",
+    "problem_or_desire": "Long transit waiting times leading to inconsistent coffee intake due to unpredictable cafe wait times",
+    "core_concept": "On-transit cold brew access optimized for commuter traffic patterns.",
+    "proposed_approach": "A mobile cold-brew cart stationed at a high-traffic commuter location, with inventory adjusted based on manual observation of train schedules.",
+    "prototype_scope": "A single mobile cart at one transit hub for 1 week, tracking sales against train arrival times. | Secure permit for one transit hub location.; Operate a mobile cart for 5 days.; Record sales volume vs train arrival times."
+  },
+  {
+    "candidate_id": "BLIND_0093",
+    "title": "Coffee Rental & Skill Development Platform",
+    "target_user": "Entry-level specialty coffee enthusiasts",
+    "problem_or_desire": "High barrier to entry regarding technical manual pour-over hardware acquisition costs",
+    "core_concept": "Trial-based access to premium coffee brewing equipment with guided technique support.",
+    "proposed_approach": "A rental service for manual brewing equipment (e.g., V60, Chemex) paired with a digital guide or video tutorial for the user.",
+    "prototype_scope": "A 30-day rental program for 5 users using 2 types of manual brewing rigs. | Acquire 5 sets of manual brewing equipment.; Create a simple PDF/video guide for each rig.; Run a 30-day pilot with 5 local users."
+  },
+  {
+    "candidate_id": "BLIND_0058",
+    "title": "Corporate Sensory Break Kits",
+    "target_user": "HR benefits departments",
+    "problem_or_desire": "Need to boost morale during remote workforce burnout via shared, multi-sensory team rituals",
+    "core_concept": "Shared, multi-sensory team coffee rituals for remote workers.",
+    "proposed_approach": "A kit containing curated coffee samples and a guided tasting card for remote teams to use during a video call.",
+    "prototype_scope": "Host 3 virtual tasting events for teams using physical kits sent by mail. | Assemble 3 sets of tasting kits.; Coordinate with 3 team leads for virtual events.; Conduct the events and collect feedback."
+  },
+  {
+    "candidate_id": "BLIND_0040",
+    "title": "QuietQuest",
+    "target_user": "Remote professionals who work in shared urban noise environments",
+    "problem_or_desire": "Lack of data on acoustic environments of candidate public coffee shops for focus time",
+    "core_concept": "Crowd-sourced acoustic environment mapping.",
+    "proposed_approach": "A map where users manually rate the noise level of coffee shops.",
+    "prototype_scope": "A map interface with a simple 1-5 noise rating system. | Build a map interface; Implement a rating form for users; Display average ratings on the map"
+  },
+  {
+    "candidate_id": "BLIND_0022",
+    "title": "Ingredient-First Meal Kits",
+    "target_user": "Home cooks with specific dietary restrictions",
+    "problem_or_desire": "Meal kits often contain excessive packaging and pre-processed sauces.",
+    "core_concept": "A subscription service providing only the raw, hard-to-source specialty ingredients for a recipe.",
+    "proposed_approach": "Source high-quality, bulk-packaged specialty items and provide digital recipe cards for the remaining pantry staples.",
+    "prototype_scope": "A subscription box for one specific cuisine (e.g., authentic Thai) delivered to 20 local households."
+  },
+  {
+    "candidate_id": "BLIND_0073",
+    "title": "Arboretum Architect",
+    "target_user": "Urban professionals feeling disconnected from nature",
+    "problem_or_desire": "Lack of calming mental stimulation during public transit commutes",
+    "core_concept": "Slow-paced, nature-focused horticultural design that evolves based on external environmental data.",
+    "proposed_approach": "A slow-paced gardening game where plant growth is simulated based on a pre-defined 'sunlight schedule' that mimics local day/night cycles, allowing users to check in on their virtual garden at their own pace.",
+    "prototype_scope": "A single-biome garden app where one cactus grows over 48 hours based on a static, simulated light-tracking algorithm. | Develop basic 3D model of a cactus; Implement a 48-hour growth state machine; Create a UI that displays current 'sunlight' status based on local time"
+  },
+  {
+    "candidate_id": "BLIND_0092",
+    "title": "Interactive Communal Meal Assembler",
+    "target_user": "First-year apartment dwellers with culinary novice skills",
+    "problem_or_desire": "Desire for social shared meals to overcome urban isolation",
+    "core_concept": "Collaborative cooking experience between remote users.",
+    "proposed_approach": "A guided, synchronous cooking session where two users prepare complementary parts of a meal via video call.",
+    "prototype_scope": "Host 5 pairs of users in a guided 'cook-along' where they prepare different components of a shared meal simultaneously. | Design a two-part recipe; Recruit 5 pairs of participants; Facilitate 5 live sessions; Measure social satisfaction"
+  },
+  {
+    "candidate_id": "BLIND_0045",
+    "title": "Niche Newsletter Marketplace",
+    "target_user": "Independent newsletter writers",
+    "problem_or_desire": "Difficulty finding relevant sponsors for small, highly specific audiences",
+    "core_concept": "A curated matching platform connecting micro-newsletters with hyper-local advertisers",
+    "proposed_approach": "A directory where writers list audience demographics and advertisers bid on placement slots",
+    "prototype_scope": "A static directory site with contact forms for manual matching"
+  },
+  {
+    "candidate_id": "BLIND_0153",
+    "title": "LegacyLeaf",
+    "target_user": "Older adults digital preservation enthusiasts",
+    "problem_or_desire": "Difficulty in contextualizing old digitized family photos with metadata",
+    "core_concept": "Chronological storytelling grid for digital archives.",
+    "proposed_approach": "A simple drag-and-drop interface for arranging photos on a timeline with user-defined text labels.",
+    "prototype_scope": "A web interface allowing 10 image uploads and manual chronological ordering. | Build image upload functionality; Implement drag-and-drop sorting; Add text annotation fields for each image"
+  },
+  {
+    "candidate_id": "BLIND_0086",
+    "title": "Commuter Collaborative RPG",
+    "target_user": "Daily public transit commuters",
+    "problem_or_desire": "Boredom during short, fragmented transit windows",
+    "core_concept": "Asynchronous multiplayer world-building that advances only when players are in motion",
+    "proposed_approach": "Use GPS data to trigger 'travel events' that contribute resources to a shared global map",
+    "prototype_scope": "A basic map interface where users can contribute resources based on simulated movement speed"
+  }
+]

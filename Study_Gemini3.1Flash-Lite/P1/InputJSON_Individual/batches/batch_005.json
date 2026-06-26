@@ -1,0 +1,92 @@
+[
+  {
+    "candidate_id": "BLIND_0023",
+    "title": "Institutional Compost Loyalty Loop",
+    "target_user": "Office administrators",
+    "problem_or_desire": "High workplace organic waste volume with no benefit or impact reflection",
+    "core_concept": "Closing the loop on office coffee waste by returning composted material to the office environment.",
+    "proposed_approach": "A closed-loop service that collects office coffee grounds and delivers finished compost from a local partner to the office's indoor/outdoor plants.",
+    "prototype_scope": "A pilot with 3 offices using a local community garden partner to process grounds and return finished compost. | Identify 3 offices with plant maintenance needs.; Partner with a local community garden for composting.; Establish a weekly bucket exchange schedule."
+  },
+  {
+    "candidate_id": "BLIND_0006",
+    "title": "SyllabusSwap",
+    "target_user": "College graduate teaching assistants",
+    "problem_or_desire": "Finding open-source creative examples for repetitive academic assignment prompts",
+    "core_concept": "Searchable registry of verified academic supplemental material",
+    "proposed_approach": "Gamified metadata tagging for faculty members to recommend specific outside readings for specific syllabus modules",
+    "prototype_scope": "Directory of three dummy course modules where items can be liked, sorted, and suggested via form submission"
+  },
+  {
+    "candidate_id": "BLIND_0119",
+    "title": "Substack Monetization Audits",
+    "target_user": "Newsletter creators",
+    "problem_or_desire": "Creators struggling to convert free subscribers into paid members",
+    "core_concept": "A manual 10-point audit tool focused purely on the 'pricing page' conversion funnel",
+    "proposed_approach": "Audit reports delivered via Loom video analyzing email sign-up landing page effectiveness",
+    "prototype_scope": "Ten free experimental audits performed for beta users"
+  },
+  {
+    "candidate_id": "BLIND_0044",
+    "title": "Coffee Education for Seniors",
+    "target_user": "Retirees interested in new hobbies",
+    "problem_or_desire": "Lack of accessible, low-pressure social learning environments",
+    "core_concept": "In-home coffee brewing workshops focusing on manual methods like pour-over and French press",
+    "proposed_approach": "Small group sessions hosted in community centers or private homes",
+    "prototype_scope": "Three workshops for a group of 6 participants"
+  },
+  {
+    "candidate_id": "BLIND_0132",
+    "title": "Sleep Sentinel",
+    "target_user": "Light sleepers suffering from screen light overstimulation",
+    "problem_or_desire": "Late night fidgeting and phone reliance impacting transition to REM cycles",
+    "core_concept": "Audio-only tactical adventure navigable through haptic and voice commands.",
+    "proposed_approach": "An audio-only adventure game where players navigate a simple maze using voice commands.",
+    "prototype_scope": "Calibration of gyroscope-to-rotation mapping for selecting directions within a simple 3x3 audio maze. | Record audio cues for maze navigation; Implement voice command recognition; Build simple 3x3 maze logic"
+  },
+  {
+    "candidate_id": "BLIND_0004",
+    "title": "Virtual Co-working Accountability Partner",
+    "target_user": "Solopreneurs struggling with procrastination",
+    "problem_or_desire": "Lack of structure and social pressure to complete daily tasks",
+    "core_concept": "A platform that pairs users for 90-minute silent, video-on co-working sessions",
+    "proposed_approach": "Automated scheduling and pairing based on time zones and task types",
+    "prototype_scope": "A simple scheduling calendar that pairs two users for a Zoom session"
+  },
+  {
+    "candidate_id": "BLIND_0009",
+    "title": "Institutional Waste Conversion Catering",
+    "target_user": "Small enterprise HR departments",
+    "problem_or_desire": "Requirement to serve ethical, low-impact high-quality group catering",
+    "core_concept": "Meals prepared exclusively from 'ugly' or near-expiry restaurant bulk raw materials",
+    "proposed_approach": "Maintain partnerships with high-end food distributors to repurpose unpicked perfectly edible industrial excess",
+    "prototype_scope": "Catering 5 lunches for one specific office office environment focusing on total reduction of carbon-spend data collection"
+  },
+  {
+    "candidate_id": "BLIND_0061",
+    "title": "Post-Coffee Circadian Monitoring",
+    "target_user": "Bio-tracking wellness early adopters",
+    "problem_or_desire": "Overdose on caffeine causing unintended interference with evening sleep and focus patterns",
+    "core_concept": "Optimizing caffeine intake based on individual sleep readiness.",
+    "proposed_approach": "A service where users manually input their sleep data from a wearable, and receive a daily recommendation for their coffee roast and amount.",
+    "prototype_scope": "A 10-person pilot where users report sleep data and receive a daily email recommendation. | Recruit 10 users with wearables.; Set up a manual email system for daily recommendations.; Run the pilot for 2 weeks."
+  },
+  {
+    "candidate_id": "BLIND_0136",
+    "title": "Subscription Audit Concierge",
+    "target_user": "Freelancers with multiple SaaS subscriptions",
+    "problem_or_desire": "Difficulty tracking and canceling unused software subscriptions",
+    "core_concept": "A manual audit service that identifies and cancels redundant digital tools",
+    "proposed_approach": "Users upload billing statements; a human analyst identifies overlaps and executes cancellations",
+    "prototype_scope": "A simple landing page with a secure file upload form and a manual email-based reporting system"
+  },
+  {
+    "candidate_id": "BLIND_0175",
+    "title": "SEO Decay Alert System",
+    "target_user": "Content-heavy blog websites",
+    "problem_or_desire": "Losing existing traffic revenue to un-indexed updates in Google search result pages",
+    "core_concept": "Threshold alerts triggered by rank fluctuation, mapping back to specific page edit suggestions",
+    "proposed_approach": "Lightweight wrapper over monitoring data that notifies creators exactly what snippet needs revision",
+    "prototype_scope": "Plugin analyzing URLs via search metrics to provide alert-based revision suggestions"
+  }
+]

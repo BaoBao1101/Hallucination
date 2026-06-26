@@ -1,0 +1,56 @@
+[
+  {
+    "batch_file": "pairwise_batch_001.json",
+    "sha256": "305744e53ca60adfa5729a8a579f8d94568a2fceedf1ae4d52b90db5bd8f6b54",
+    "pairs": 4,
+    "batch_id": "P1_NEUTRAL_GEMINI_001"
+  },
+  {
+    "batch_file": "pairwise_batch_002.json",
+    "sha256": "7af4c0a331b90034a958dced80519aac48c09b782dbb8c52e7421c0988b31b07",
+    "pairs": 4,
+    "batch_id": "P1_NEUTRAL_GEMINI_002"
+  },
+  {
+    "batch_file": "pairwise_batch_003.json",
+    "sha256": "3a73c471ada60548c41455c95b1f36e5a18d5493113122a15039720139af1177",
+    "pairs": 4,
+    "batch_id": "P1_NEUTRAL_GEMINI_003"
+  },
+  {
+    "batch_file": "pairwise_batch_004.json",
+    "sha256": "d244b942e0644dbe535afeafb3bd13b7530cd62186f066d080ef548887052fb4",
+    "pairs": 4,
+    "batch_id": "P1_NEUTRAL_GEMINI_004"
+  },
+  {
+    "batch_file": "pairwise_batch_005.json",
+    "sha256": "875fafbdd633afa0f525a3eabe9e377e98135b9c139095350c7a08077464a489",
+    "pairs": 4,
+    "batch_id": "P1_NEUTRAL_GEMINI_005"
+  },
+  {
+    "batch_file": "pairwise_batch_006.json",
+    "sha256": "fc4078293bd4e53f664dda74ce010633cd32ceb2d1989741b5ebbb0d81a945ca",
+    "pairs": 4,
+    "batch_id": "P1_NEUTRAL_GEMINI_006"
+  },
+  {
+    "batch_file": "pairwise_batch_007.json",
+    "sha256": "5e8dcc58314c9fa7e585375eecfc57d51a6e55f19735b5d910f697e3089b2f7f",
+    "pairs": 4,
+    "batch_id": "P1_NEUTRAL_GEMINI_007"
+  },
+  {
+    "batch_file": "pairwise_batch_008.json",
+    "sha256": "dc55eddf819ab3711330d8b1f446f9e5d51f8d115dded8bf2643165be9ab8252",
+    "pairs": 4,
+    "batch_id": "P1_NEUTRAL_GEMINI_008"
+  },
+  {
+    "batch_file": "pairwise_batch_009.json",
+    "sha256": "77d5cd8123a3353675ccb142502001c107219448bff798c1fe4ba44ba53cd237",
+    "pairs": 3,
+    "batch_id": "P1_NEUTRAL_GEMINI_009"
+  }
+]

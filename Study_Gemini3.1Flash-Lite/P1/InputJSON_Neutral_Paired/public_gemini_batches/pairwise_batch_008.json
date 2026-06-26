@@ -1,0 +1,102 @@
+{
+  "batch_id": "P1_NEUTRAL_GEMINI_008",
+  "stage": "neutral_randomized_pairwise_m1_m3",
+  "prompt_regime": "P1_shared_neutral",
+  "pairs": [
+    {
+      "pair_id": "P1PAIR_0036",
+      "candidate_a": {
+        "title": "Micro-batch Kitchens for Allergens",
+        "target_user": "Individuals with high-specificity celiac disease",
+        "problem_or_desire": "Anxiety around cross-contamination in communal food spaces",
+        "core_concept": "Visual transparency of food preparation for allergy-sensitive users.",
+        "proposed_approach": "A specialized meal prep service providing time-stamped video clips of the preparation process for specific orders.",
+        "prototype_scope": "Prepare 3 allergen-free meals for 5 users, providing a recorded video of the assembly process for each. | Define strict allergen-free protocols; Set up recording station; Prepare 15 meals with video proof; Gather feedback on trust levels"
+      },
+      "candidate_b": {
+        "title": "Micro-batch Kitchens for Allergens",
+        "target_user": "Individuals with high-specificity celiac disease",
+        "problem_or_desire": "Anxiety around cross-contamination in communal food spaces",
+        "core_concept": "A transparent preparation window enabled through recorded 24-hour visual feed accessibility",
+        "proposed_approach": "Operating exclusively single-allergy micro kitchens, providing authenticated 'visual documentation' of all food assembly phases",
+        "prototype_scope": "Testing pre-ordering on three specialized nutrient packs prepared under restricted 24/7 web camera documentation for five trial users"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0037",
+      "candidate_a": {
+        "title": "Collaborative Cold-Brew Barista Collective",
+        "target_user": "Commuter rail users",
+        "problem_or_desire": "Long transit waiting times leading to inconsistent coffee intake due to unpredictable cafe wait times",
+        "core_concept": "On-transit cold brew access optimized for commuter traffic patterns.",
+        "proposed_approach": "A mobile cold-brew cart stationed at a high-traffic commuter location, with inventory adjusted based on manual observation of train schedules.",
+        "prototype_scope": "A single mobile cart at one transit hub for 1 week, tracking sales against train arrival times. | Secure permit for one transit hub location.; Operate a mobile cart for 5 days.; Record sales volume vs train arrival times."
+      },
+      "candidate_b": {
+        "title": "Collaborative Cold-Brew Barista Collective",
+        "target_user": "Commuter rail users",
+        "problem_or_desire": "Long transit waiting times leading to inconsistent coffee intake due to unpredictable cafe wait times",
+        "core_concept": "On-transit batch-chilled hydration stations replenished based on daily train scheduling metadata",
+        "proposed_approach": "Deploying self-contained cold press kiosks that receive daily batch fills tuned to anticipated traffic on train lines",
+        "prototype_scope": "Deploying one prototype vending interface in a specific bus transition hub managed with dynamic inventory logic"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0038",
+      "candidate_a": {
+        "title": "GiftGuard",
+        "target_user": "Frequent gift purchasers",
+        "problem_or_desire": "Losing track of birthdays, anniversary-gift history, and social relationship nuances",
+        "core_concept": "Categorized notification system organized strictly by social relationship tiers",
+        "proposed_approach": "Systemic reminder sequences filtered by proximity thresholds",
+        "prototype_scope": "Personal profile vault holding name, key date, gift category tags, and past interaction dates for 5 dummy contacts"
+      },
+      "candidate_b": {
+        "title": "GiftGuard",
+        "target_user": "Frequent gift purchasers",
+        "problem_or_desire": "Losing track of birthdays, anniversary-gift history, and social relationship nuances",
+        "core_concept": "Categorized gift tracking by relationship tier.",
+        "proposed_approach": "A simple CRM for personal relationships to track gift history.",
+        "prototype_scope": "A profile vault for contacts with gift history fields. | Build a contact list; Add fields for gift history; Implement a simple search/filter"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0039",
+      "candidate_a": {
+        "title": "Institutional Compost Loyalty Loop",
+        "target_user": "Office administrators",
+        "problem_or_desire": "High workplace organic waste volume with no benefit or impact reflection",
+        "core_concept": "Closing the loop on office coffee waste by returning composted material to the office environment.",
+        "proposed_approach": "A closed-loop service that collects office coffee grounds and delivers finished compost from a local partner to the office's indoor/outdoor plants.",
+        "prototype_scope": "A pilot with 3 offices using a local community garden partner to process grounds and return finished compost. | Identify 3 offices with plant maintenance needs.; Partner with a local community garden for composting.; Establish a weekly bucket exchange schedule."
+      },
+      "candidate_b": {
+        "title": "Institutional Compost Loyalty Loop",
+        "target_user": "Office administrators",
+        "problem_or_desire": "High workplace organic waste volume with no benefit or impact reflection",
+        "core_concept": "Closing the loop on office grounds by returning enriched garden soil equivalents back to common spaces",
+        "proposed_approach": "Pickup service providing reusable metal receptacles for spent coffee pucks; providing professional composting services and quarterly soil analytics",
+        "prototype_scope": "Ten offices sharing a municipal processing pipeline with branded bucket exchange infrastructure"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0040",
+      "candidate_a": {
+        "title": "SyncMyBoard",
+        "target_user": "Amateur board game hobbyists",
+        "problem_or_desire": "Mismatching players, times, and learning difficulty levels",
+        "core_concept": "Profile matchmaking system optimized solely for complexity class requirements of game libraries",
+        "proposed_approach": "Constraint matching where hosting users define acceptable game type metrics versus guest expertise filters",
+        "prototype_scope": "Match creation form allowing search results filter based on complexity level and participant timezone matches"
+      },
+      "candidate_b": {
+        "title": "SyncMyBoard",
+        "target_user": "Amateur board game hobbyists",
+        "problem_or_desire": "Mismatching players, times, and learning difficulty levels",
+        "core_concept": "Matchmaking based on game complexity and player expertise.",
+        "proposed_approach": "A platform where users list games they want to play and their own experience level.",
+        "prototype_scope": "A simple match-making form. | Build a game listing form; Implement a search/filter for players; Add a simple messaging feature"
+      }
+    }
+  ]
+}

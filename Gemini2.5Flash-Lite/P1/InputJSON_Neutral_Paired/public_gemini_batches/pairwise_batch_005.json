@@ -1,0 +1,83 @@
+{
+  "batch_id": "P1_NEUTRAL_GEMINI_005",
+  "stage": "neutral_randomized_pairwise_m1_m3",
+  "prompt_regime": "P1_shared_neutral",
+  "pairs": [
+    {
+      "pair_id": "P1PAIR_0017",
+      "candidate_a": {
+        "title": "Dynamic 'How-To' Visual Guide Generator",
+        "target_user": "Hobbyists and DIY enthusiasts sharing complex procedures.",
+        "problem_or_desire": "To easily create clear, step-by-step visual guides for demonstrating complex skills or procedures.",
+        "core_concept": "A web platform that simplifies the creation of annotated image sequences or animated GIFs from user-uploaded video clips for instructive content.",
+        "proposed_approach": "A web tool that allows users to upload short video clips and select key frames to add simple text annotations and drawing elements, generating a series of annotated images for a single-step guide.",
+        "prototype_scope": "A web application where users can upload a video (up to 60 seconds, MP4 format). The tool allows users to select one key frame from the video. On this selected frame, users can add text annotations and draw simple lines or shapes. The output is a single annotated image. | Develop a web interface for video upload (MP4, max 60s).; Implement video playback and frame scrubbing functionality.; Allow users to select a single frame.; Integrate basic annotation tools: text input and a simple drawing tool (line/arrow).; Implement an image export function for the annotated frame.; Test with hobbyists and DIY enthusiasts to validate the core utility of creating single-step visual instructions."
+      },
+      "candidate_b": {
+        "title": "Dynamic 'How-To' Visual Guide Generator",
+        "target_user": "Hobbyists and DIY enthusiasts sharing complex procedures.",
+        "problem_or_desire": "To easily create clear, step-by-step visual guides for demonstrating complex skills or procedures.",
+        "core_concept": "A web platform that simplifies the creation of annotated image sequences and animated GIFs from uploaded video clips for instructive content.",
+        "proposed_approach": "Users upload short video clips demonstrating a task. The platform automatically extracts key frames and allows users to add text annotations and draw pointers. Generated output can be embedded as responsive web modules.",
+        "prototype_scope": "Develop a web tool that accepts MP4 uploads up to 60 seconds, allows frame selection at 5-second intervals, permits basic text annotations, and outputs a set of annotated images for a single-step guide."
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0018",
+      "candidate_a": {
+        "title": "Sensory Dining Experience Room",
+        "target_user": "Special occasion diners and couples looking for immersive and interactive entertainment.",
+        "problem_or_desire": "Desire for dining experiences that engage all senses, transforming a meal into a multi-dimensional event.",
+        "core_concept": "A small, appointment-only dining room that synchronizes courses with curated scents, ambient soundscapes, custom lighting, and tactile elements.",
+        "proposed_approach": "Design themed 'sensory menus' (e.g., 'Forest Floor Feast', 'Ocean Whisper'). Use advanced scent diffusion technology, spatial audio, and controlled lighting to enhance specific food attributes. Prepare minimal, high-quality dishes focusing on texture and flavor purity.",
+        "prototype_scope": "Develop and test one 'sensory menu' for 10 participants, assessing the synergy between sensory stimuli and food, and the overall emotional impact of the experience."
+      },
+      "candidate_b": {
+        "title": "Sensory Dining Experience Room",
+        "target_user": "Special occasion diners and couples looking for immersive and interactive entertainment.",
+        "problem_or_desire": "Desire for dining experiences that engage all senses, transforming a meal into a multi-dimensional event.",
+        "core_concept": "An immersive dining experience that synchronizes food courses with curated sensory elements (scent, sound, light, texture) to enhance the overall meal perception.",
+        "proposed_approach": "A curated, multi-sensory dining experience where each course is paired with specific ambient elements designed to complement the food. The focus is on a controlled environment that uses readily available technology to influence mood and perception.",
+        "prototype_scope": "Develop and test one themed 'sensory menu' (e.g., 'Forest Floor Feast') for 10 participants in a controlled, small dining space. This MVP will use carefully selected background music (spatial audio via a good sound system), ambient lighting (e.g., color-changing bulbs), and subtle, complementary scents (e.g., natural essential oils diffused sparingly) to enhance a 3-course meal. The focus is on assessing the synergy between the sensory stimuli and the food, and the overall emotional impact. | Design a 3-course menu with distinct flavor and texture profiles.; Select and curate a complementary soundscape, lighting scheme, and subtle scent for each course.; Set up a small dining area with appropriate AV equipment (good speakers, controllable lighting).; Host 10 participants for the sensory dining experience.; Collect detailed feedback on the perceived synergy between food and sensory elements, and the overall enjoyment and impact of the experience."
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0019",
+      "candidate_a": {
+        "title": "Auditory Decision Tree Simulator",
+        "target_user": "Students learning diagnostic skills in applied fields (e.g., nursing, field biology)",
+        "problem_or_desire": "Developing effective diagnostic reasoning from limited, qualitative information (verbal descriptions, situational clues).",
+        "core_concept": "An interactive audio-based game that simulates a real-world scenario, forcing players to ask specific, sequential questions to identify a subject (e.g., disease, species) through a constrained information flow.",
+        "proposed_approach": "Design a scenario branching narrative triggered by user question inputs. Utilize a rule-based system or a simplified decision tree algorithm to manage information availability and guide the player through a deductive process.",
+        "prototype_scope": "A desktop application presenting scenarios for basic botany identification. The user hears a brief initial description of a plant. They can select from a limited list of Yes/No questions ('Does it have leaves?', 'Are the edges serrated?') to identify it, presented as short audio clips."
+      },
+      "candidate_b": {
+        "title": "Auditory Decision Tree Simulator",
+        "target_user": "Students learning diagnostic skills in applied fields (e.g., nursing, field biology)",
+        "problem_or_desire": "Developing effective diagnostic reasoning from limited, qualitative information (verbal descriptions, situational clues).",
+        "core_concept": "An interactive audio-based game that simulates diagnostic scenarios, requiring users to ask specific questions to gather information and deduce an outcome.",
+        "proposed_approach": "A desktop application presenting a limited set of diagnostic scenarios where users select from pre-defined questions to gather audio clues and identify a subject.",
+        "prototype_scope": "A desktop application for basic botany identification. The user hears a brief audio description of a plant. They can select from a limited list of pre-written Yes/No questions (e.g., 'Does it have leaves?', 'Are the edges serrated?'). Each question triggers a short, pre-recorded audio response providing a specific clue. The goal is to identify the plant from a small set of possibilities. | Develop a desktop application interface.; Create 3-5 distinct plant identification scenarios.; For each scenario, write an initial audio description.; For each scenario, define a limited set of 5-10 pre-written Yes/No questions.; Record short audio clips for the 'Yes' and 'No' answers to each question.; Implement a simple logic to present the correct audio response based on the user's selected question.; Provide a mechanism for the user to make a final identification guess.; Focus on pre-defined questions and audio responses, not natural language processing."
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0020",
+      "candidate_a": {
+        "title": "Automated Office Coffee Pod Replenishment System",
+        "target_user": "Small to medium-sized business office managers (10-50 employees) burdened by running out of essential office supplies, including coffee pods.",
+        "problem_or_desire": "The recurring frustration and lost productivity caused by the office coffee pod supply consistently running dry and procurement delays.",
+        "core_concept": "An automated system that monitors office coffee pod levels and triggers reorders to prevent stockouts.",
+        "proposed_approach": "A simple, sensor-based system that monitors coffee pod inventory in an office and alerts a designated administrator or triggers a pre-configured reorder from a single, chosen supplier when levels are low. The focus is on preventing stockouts through basic automation.",
+        "prototype_scope": "Develop a basic, battery-powered visual sensor that can be placed in a coffee pod storage bin to estimate the number of pods remaining (e.g., by detecting fill level). This sensor will connect via Wi-Fi and send a low-stock alert (e.g., email or SMS) to a pre-defined office manager contact when the estimated quantity falls below a set threshold. The MVP will pilot with 3-5 small offices, using a single, pre-selected coffee pod supplier for manual reordering triggered by the alert. | Develop a prototype visual sensor (e.g., using an ESP32/ESP8266 with a simple distance or camera sensor) to estimate pod quantity in a bin.; Implement basic Wi-Fi connectivity and a cloud function to receive sensor data.; Set up an alert system (e.g., email notifications) triggered by low-pod thresholds.; Partner with one local office supply vendor or coffee pod distributor for the pilot.; Recruit 3-5 small offices (10-50 employees) for a pilot program.; Install sensors and configure alert recipients in pilot offices.; Manually manage the reordering process based on alerts, focusing on testing the sensor's accuracy and the alert system's reliability."
+      },
+      "candidate_b": {
+        "title": "Automated Office Coffee Pod Replenishment System",
+        "target_user": "Small to medium-sized business office managers (10-50 employees) burdened by running out of essential office supplies, including coffee pods.",
+        "problem_or_desire": "The recurring frustration and lost productivity caused by the office coffee pod supply consistently running dry and procurement delays.",
+        "core_concept": "An IoT-enabled system that monitors office coffee pod levels and triggers automatic reorders from a curated marketplace of sustainable and ethically produced coffee pod brands.",
+        "proposed_approach": "Design and implement smart sensing devices for prevalent coffee pod packaging and bases. Integrate with a streamlined e-commerce backend that aggregates supply from multiple compatible, vetted pod manufacturers. Focus on predictive order fulfillment leveraging usage data.",
+        "prototype_scope": "Develop a visual, battery-powered occupancy sensor for coffee storage bins capable of approximating pod quantity, connected via Wi-Fi. Pilot the system with 3 pre-selected office coffee providers for two distinct office sizes in a single city, requiring manual restocking initiation by admin until detection is optimized."
+      }
+    }
+  ]
+}

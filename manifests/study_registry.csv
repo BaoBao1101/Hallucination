@@ -1,0 +1,11 @@
+study_id,task,judge,version,status,n_records,strict_validation_issues,reason,release_path
+G25_P0,legacy_exploratory_bundle,multiple archived judges,P0,archived_context,not_harmonized,see_embedded_audits,legacy exploratory artifact; not main G31_P1 inference,Gemini2.5Flash-Lite/P0
+G25_P1,legacy_exploratory_bundle,multiple archived judges,P1,archived_context,not_harmonized,see_embedded_audits,legacy exploratory artifact; not main G31_P1 inference,Gemini2.5Flash-Lite/P1
+G31_P1,individual,ChatGPT Plus 5.5 Web,v1,included,180,0,,Study_Gemini3.1Flash-Lite/P1/Output_Individual_Scores/gpt5.5plus_score_individual.json
+G31_P1,individual,Gemini 3.1 Pro Web,v1,included,180,0,,Study_Gemini3.1Flash-Lite/P1/Output_Individual_Scores/gemini3.1pro_score_individual.json
+G31_P1,directional_traceability,ChatGPT Plus 5.5 Web,v1,included,60,0,,Study_Gemini3.1Flash-Lite/P1/Output_Paired_Wised_Score_Directional/gpt5.5plus_score_directional.json
+G31_P1,directional_traceability,Gemini 3.1 Pro Web,v1,included,60,0,,Study_Gemini3.1Flash-Lite/P1/Output_Paired_Wised_Score_Directional/gemini3.1pro_score_directional.json
+G31_P1,neutral_pairwise,ChatGPT Plus 5.5 Web,v1,included,60,0,strict_valid,Study_Gemini3.1Flash-Lite/P1/Output_Paired_Wised_Score_Neutral/Included/ChatGPT5.5Plus_v1/gpt5.5plus_score_neutral.v1.json
+G31_P1,neutral_pairwise,Gemini 3.1 Pro Web,v1,excluded,60,9,score_preference_inconsistency,Study_Gemini3.1Flash-Lite/P1/Output_Paired_Wised_Score_Neutral/Excluded/Gemini3.1Pro_v1_preference_inconsistent
+G31_P1,neutral_pairwise,Gemini 3.1 Pro Web,v2,excluded,60,39,score_preference_inconsistency,Study_Gemini3.1Flash-Lite/P1/Output_Paired_Wised_Score_Neutral/Excluded/Gemini3.1Pro_v2_preference_inconsistent
+G31_P1,neutral_pairwise,Gemini 3.1 Pro Web,v3,excluded,60,57,score_preference_inconsistency,Study_Gemini3.1Flash-Lite/P1/Output_Paired_Wised_Score_Neutral/Excluded/Gemini3.1Pro_v3_preference_inconsistent

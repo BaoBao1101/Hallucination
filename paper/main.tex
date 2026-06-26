@@ -1,0 +1,234 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcommand{\chvd}{\textsc{CHVD}}
+\newcommand{\mone}{M1}
+\newcommand{\mthree}{M3}
+
+\title{\textbf{Controlled Distillation of Speculative LLM Venture Concepts:}\\
+Evaluator-Assessed Evidence for Bounded MVP Hypotheses}
+\author{Anonymous author(s) for review}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Large language models can generate unusual venture concepts, but speculative outputs
+often combine a potentially distinctive mechanism with unsupported claims, broad
+dependencies, and an MVP scope that is difficult to test. We introduce Controlled
+Hallucination Venture Discovery (\chvd{}), a controlled concept-distillation procedure
+that separates speculative venture-concept generation (\mone{}) from a bounded
+transformation (\mthree{}). The objective is not to establish market success or
+real-world startup readiness. Instead, the study tests whether a transformation can
+retain a concept's distinctive creative mechanism while improving evaluator-assessed
+prototype readiness at the level of written concept cards. The primary study uses 60
+matched \mone{}--\mthree{} pairs from Gemini 3.1 Flash Lite P1 across six domains.
+Two independent LLM evaluators performed blinded individual-card scoring, and two
+role-aware directional audits assessed creative-core preservation and practical MVP
+improvement. In individual scoring, technical plausibility was higher for \mthree{}
+than for \mone{} for both evaluators after Holm correction (ChatGPT:
+$\Delta=+0.150$, $p_{\mathrm{Holm}}=.025$; Gemini: $\Delta=+0.433$,
+$p_{\mathrm{Holm}}<.001$). Directional audits rated creative-core preservation near
+4/5, practical MVP improvement above 4.27/5, and overclaim-removal quality above
+4/5 for both evaluators. The results support a bounded claim: \chvd{} can function
+as an auditable procedure for converting selected speculative mechanisms into more
+testable MVP hypotheses. They do not demonstrate human preference, factual
+correctness, market viability, startup success, or universal superiority of
+transformed concepts.
+\end{abstract}
+
+\noindent\textbf{Keywords:} large language models; venture ideation; concept
+distillation; hallucination; prototype readiness; LLM-as-a-judge; minimum viable product
+
+\section{Introduction}
+Large language models (LLMs) can generate plausible and unusual venture concepts. The
+same capacity for non-obvious association can also introduce unsupported technical
+claims, unclear dependencies, and scopes too broad to test. In early ideation, the
+question is not whether unsupported content is intrinsically valuable. It is whether a
+controlled process can retain a distinctive creative mechanism while converting the
+mechanism into a constrained experimental hypothesis.
+
+We introduce Controlled Hallucination Venture Discovery (\chvd{}), a two-stage
+within-model concept-distillation framework. \mone{} is a speculative venture concept
+that may contain a distinctive but unverified mechanism. \mthree{} is a controlled,
+bounded reformulation intended to preserve that mechanism while replacing open-ended
+dependencies or unsupported assumptions with a testable MVP hypothesis.
+
+The contribution is deliberately narrow. We report evaluator-assessed properties of
+written cards rather than market outcomes. We also separate individual-card scoring,
+role-aware directional traceability, and neutral paired comparison because those
+protocols answer different questions and cannot be treated as interchangeable
+evidence.
+
+\section{Study design and evidence policy}
+Table~\ref{tab:inventory} distinguishes the primary Gemini 3.1 Flash Lite P1 study
+from earlier Gemini 2.5 Flash Lite P0/P1 developmental studies. The studies differ in
+corpus construction, domains, prompt regimes, and evaluation sessions; raw scores are
+not pooled and no generator-model ranking is claimed.
+
+\begin{table}[htbp]\centering\small
+\caption{Study inventory and evidential role.}
+\label{tab:inventory}
+\begin{tabularx}{\textwidth}{@{}lrrYY@{}}
+\toprule
+Study & Pairs & Role & Individual/directional evidence & Neutral paired status\\
+\midrule
+Gemini 2.5 FL P0 & 38 & Supporting & Developmental only; not pooled & Not used for main inference\\
+Gemini 2.5 FL P1 & 35 & Supporting & Developmental only; not pooled & Non-confirmatory after Holm\\
+Gemini 3.1 FL P1 & 60 & Primary & Main individual and directional evidence & Quarantined; not used for efficacy/equivalence\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+The primary individual protocol compares matched \mone{}--\mthree{} cards for ten
+metrics using paired Wilcoxon signed-rank tests, with Holm correction within each
+evaluator. The cross-evaluator replication rule is strict: a result is called
+replicated only when the direction is compatible and the Holm-adjusted test is
+significant for both evaluators. Risk metrics are oriented so lower values favor
+\mthree{}.
+
+The directional protocol is intentionally role-aware: evaluators see the reference
+and transformation labels because creative-core preservation and semantic drift cannot
+be assessed without that relationship. Directional prototype choice therefore measures
+traceability-oriented recommendation, not neutral A/B preference.
+
+\section{Results}
+\subsection{All individual metrics in the primary study}
+Table~\ref{tab:individualall} reports every primary-study individual metric, not only
+the significant findings. Technical plausibility is the only result satisfying the
+pre-specified cross-evaluator replication criterion. Gemini additionally reports
+M3-favorable changes in MVP clarity, unsupported-claim risk, ethical/privacy risk,
+overall MVP usefulness, and prototype willingness; these remain evaluator-specific
+secondary findings. The full statistics, bootstrap intervals, and tie counts are in
+Supplementary Table S1 and the machine-readable file
+\texttt{results/tables/S01\_Gemini31\_P1\_Individual\_All\_Metrics.csv}.
+
+\begin{table}[htbp]\centering\scriptsize
+\caption{Gemini 3.1 Flash Lite P1: all individual-card metrics ($n=60$ pairs per evaluator). $\Delta=$M3--M1. ``Rep.'' requires Holm significance for both evaluators in the same direction.}
+\label{tab:individualall}
+\begin{tabular}{lrrrrr}
+\toprule
+Metric & GPT $\Delta$ & GPT $p_H$ & Gemini $\Delta$ & Gemini $p_H$ & Rep.\\
+\midrule
+Novelty & -0.067 & 1.000 & -0.217 & .010 & No \\
+Conceptual Coherence & +0.042 & 1.000 & +0.067 & .656 & No \\
+User Pain Plausibility & +0.000 & — & +0.033 & 1.000 & No \\
+Technical Plausibility & +0.150 & .025 & +0.433 & <.001 & Yes \\
+MVP Clarity & -0.025 & 1.000 & +0.583 & <.001 & No \\
+Business Model Plausibility & +0.133 & .163 & -0.033 & 1.000 & No \\
+Unsupported Claim Risk & -0.192 & .110 & -0.333 & <.001 & No \\
+Ethical Privacy Risk & -0.033 & 1.000 & -0.117 & .062 & No \\
+Overall MVP Usefulness & +0.050 & .089 & +0.233 & .014 & No \\
+Prototype Willingness & +0.055 & .110 & +0.367 & <.001 & No \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Directional traceability evidence}
+Table~\ref{tab:directionalall} reports all five directional metrics. Both evaluators
+rated creative-core preservation near 4/5, practical MVP improvement above 4.27/5,
+and overclaim-removal quality above 4/5. Semantic-drift risk was below the midpoint
+for both evaluators. This is the main evidence about the intended process mechanism:
+preservation of a recognizable creative core alongside practical bounding.
+
+\begin{table}[htbp]\centering\small
+\caption{Gemini 3.1 Flash Lite P1: role-aware directional metrics ($n=60$ per evaluator).}
+\label{tab:directionalall}
+\begin{tabular}{lrrrr}
+\toprule
+Metric & GPT mean & GPT 95\% CI & Gemini mean & Gemini 95\% CI\\
+\midrule
+Creative Core Preservation & 3.998 & [3.893, 4.105] & 4.030 & [3.868, 4.182] \\
+Novelty Retention & 3.803 & [3.692, 3.917] & 3.408 & [3.230, 3.582] \\
+Practical MVP Improvement & 4.370 & [4.325, 4.415] & 4.277 & [4.182, 4.370] \\
+Overclaim Removal Quality & 4.100 & [4.032, 4.168] & 4.077 & [3.962, 4.188] \\
+Semantic Drift Risk & 2.428 & [2.273, 2.580] & 2.013 & [1.850, 2.187] \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[htbp]\centering\small
+\caption{Gemini 3.1 Flash Lite P1: role-aware directional prototype choice. This is not a neutral preference test.}
+\label{tab:prototype}
+\begin{tabular}{lrrrrr}
+\toprule
+Evaluator & Transformation & Reference & Tie & Transform. share excl. ties & Exact $p$\\
+\midrule
+ChatGPT Plus 5.5 Web & 48 & 12 & 0 & .800 & $3.18\times10^{-6}$\\
+Gemini 3.1 Pro Web & 37 & 5 & 18 & .881 & $4.43\times10^{-7}$\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Neutral paired evidence is retained but not used for efficacy inference}
+The repository retains detailed neutral paired tables for transparency. Their
+evidential status is reported in Table~\ref{tab:status}. Gemini 3.1 P1 neutral
+outputs are quarantined from efficacy/equivalence inference because later diagnostics
+identified position-sensitive behavior; Gemini neutral v1/v2/v3 outputs are also
+archived as excluded preference-consistency artifacts. Gemini 2.5 P1 neutral results
+are reported in the supplement but are non-confirmatory after Holm correction.
+Consequently, no main paper claim relies on neutral paired results.
+
+\begin{table}[htbp]\centering\small
+\caption{Evidence disposition.}
+\label{tab:status}
+\begin{tabularx}{\textwidth}{@{}lYY@{}}
+\toprule
+Evidence stream & Repository treatment & Manuscript use\\
+\midrule
+G3.1 individual & Fully reported, strict schema audits pass & Primary individual inference\\
+G3.1 directional & Fully reported, strict schema audits pass & Primary traceability inference\\
+G3.1 neutral & Full archive retained; quarantined & No efficacy/equivalence claim\\
+G2.5 P0/P1 & Full detailed supplement retained & Supporting/developmental only\\
+Human evaluation & Protocol prepared, no outcomes collected & No claim\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\section{Discussion}
+The evidence supports a limited interpretation of \chvd{}. A speculative concept can
+serve as a source of a distinctive creative mechanism. A controlled transformation
+can then express that mechanism through a smaller, more testable MVP hypothesis. The
+most reliable individual-card effect in the primary corpus is higher
+evaluator-assessed technical plausibility. The strongest process evidence is
+directional: substantial creative-core preservation, high practical-MVP improvement,
+high overclaim-removal quality, and lower semantic-drift risk.
+
+The results indicate a structured novelty--practicalization trade-off rather than an
+unconditional quality gain. The study does not establish factual truth, implementation
+success, user adoption, profitability, or market viability.
+
+\section{Limitations and reproducibility}
+All reported outcomes are LLM-evaluator assessments of written concept cards. They
+are not human or expert judgments and are not implementation outcomes. A blinded human
+evaluation is planned as external validation. The repository includes this manuscript,
+its compiled PDF, all aggregate result tables, source outputs, validators, hashes,
+and explicit exclusions. It does not release private A/B keys, candidate-level
+unblinding maps, credentials, account/session metadata, or human-participant data.
+
+\section{Conclusion}
+Within the evaluated Gemini 3.1 Flash Lite P1 matched corpus, \chvd{} provides
+auditable evidence for a constrained transformation from selected speculative
+mechanisms to evaluator-assessed testable MVP hypotheses. The findings do not claim
+startup readiness. They support a narrower claim of controlled LLM concept
+distillation, with human evaluation as the next external validation layer.
+
+\begin{thebibliography}{9}
+\bibitem{ji2022survey} Z. Ji et al., ``Survey of Hallucination in Natural Language Generation,'' \textit{ACM Computing Surveys}, 2023.
+\bibitem{wang2023spp} Z. Wang et al., ``Unleashing the Emergent Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration,'' arXiv:2307.05300, 2023.
+\bibitem{liu2023geval} Y. Liu et al., ``G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment,'' arXiv:2303.16634, 2023.
+\bibitem{zheng2023judge} L. Zheng et al., ``Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena,'' arXiv:2306.05685, 2023.
+\end{thebibliography}
+\end{document}

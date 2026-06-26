@@ -1,0 +1,318 @@
+{
+  "batch_id": "P1_DIRECTIONAL_TRACE_005",
+  "stage": "directional_role_aware_method_blind_traceability",
+  "prompt_regime": "P1_shared_neutral",
+  "blindness_note": "Hidden method identity: the evaluator is not shown M1/M3, model, temperature, prompt, source filename, or generation pipeline. Visible directional role: Reference Concept versus Transformation Candidate.",
+  "pairs": [
+    {
+      "pair_id": "P1TRACE_0041",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Cloud Scribes",
+            "target_user": "Visual artists seeking cooperative abstract outlet",
+            "problem_or_desire": "Digital art being solitary by design",
+            "core_concept": "A painting tool that forces cooperative constraint, where one user can only define the line curvature while the other holds exclusive rights to color saturation selection.",
+            "proposed_approach": "Sync-based 'Duel Painting' rounds where a single artifact cannot progress unless both parties contribute concurrently over 60 seconds.",
+            "prototype_scope": "Two-user concurrent drawing interface demonstrating synchronization logic for one shared layer."
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Cloud Scribes",
+            "target_user": "Visual artists seeking cooperative abstract outlet",
+            "problem_or_desire": "Digital art being solitary by design",
+            "core_concept": "Cooperative drawing tool with forced constraints.",
+            "proposed_approach": "A drawing app where two users must coordinate to create a single image, with one controlling line and the other controlling color.",
+            "prototype_scope": "A two-user concurrent drawing interface demonstrating basic synchronization logic for one shared layer. | Implement basic drawing canvas; Build simple networking for two-user sync; Define line and color control roles"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0042",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Remote Cultural Consultant Tooling",
+            "target_user": "Remote-only service startups",
+            "problem_or_desire": "Churn due to poor communication onboarding in distributed digital agencies",
+            "core_concept": "Interactive, asynchronous onboarding playbooks for remote teams.",
+            "proposed_approach": "A service providing modular, interactive PDF/Notion playbooks for remote team onboarding.",
+            "prototype_scope": "Three modular playbooks delivered as interactive documents. | Design 3 modular playbooks.; Format as interactive documents.; Test with 3 remote startups.; Gather feedback on usability."
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Remote Cultural Consultant Tooling",
+            "target_user": "Remote-only service startups",
+            "problem_or_desire": "Churn due to poor communication onboarding in distributed digital agencies",
+            "core_concept": "Pre-composed interactive playbooks that teams execute during onboarding asynchronously",
+            "proposed_approach": "Interactive documentation SaaS measuring engagement speed through team progress reports",
+            "prototype_scope": "Three modular asynchronous playbooks delivered in interactive documentation files"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0043",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Vertical Hyper-Growth Greens Box",
+            "target_user": "Small households living without access to light",
+            "problem_or_desire": "Fresh, raw herbs losing structural viability within days of shop delivery",
+            "core_concept": "Live subscription of micro-planters moved directly from industrial shelf to kitchen counter",
+            "proposed_approach": "Retail unit which features replaceable harvest substrate cassettes specifically designed for light-starved indoor kitchens",
+            "prototype_scope": "Installation of 20 live harvesting modules into resident fridges testing herb survival across fifteen separate kitchens"
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Vertical Hyper-Growth Greens Box",
+            "target_user": "Small households living without access to light",
+            "problem_or_desire": "Fresh, raw herbs losing structural viability within days of shop delivery",
+            "core_concept": "Live, harvestable herbs in the kitchen.",
+            "proposed_approach": "A subscription for pre-grown, potted herbs that are replaced weekly.",
+            "prototype_scope": "Deliver 20 potted herbs to 15 kitchens and replace them weekly for one month. | Source 20 potted herbs; Recruit 15 households; Execute weekly delivery/replacement; Measure herb survival and user satisfaction"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0044",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Coffee Rental & Skill Development Platform",
+            "target_user": "Entry-level specialty coffee enthusiasts",
+            "problem_or_desire": "High barrier to entry regarding technical manual pour-over hardware acquisition costs",
+            "core_concept": "Trial-based access to premium coffee brewing equipment with guided technique support.",
+            "proposed_approach": "A rental service for manual brewing equipment (e.g., V60, Chemex) paired with a digital guide or video tutorial for the user.",
+            "prototype_scope": "A 30-day rental program for 5 users using 2 types of manual brewing rigs. | Acquire 5 sets of manual brewing equipment.; Create a simple PDF/video guide for each rig.; Run a 30-day pilot with 5 local users."
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Coffee Rental & Skill Development Platform",
+            "target_user": "Entry-level specialty coffee enthusiasts",
+            "problem_or_desire": "High barrier to entry regarding technical manual pour-over hardware acquisition costs",
+            "core_concept": "Circularity economy platform for premium coffee equipment trial with integrated technique support",
+            "proposed_approach": "Temporary hardware consignment model featuring high-end devices like automatic pulse pour-over drippers",
+            "prototype_scope": "Testing a thirty-day rental loop with five local residential customers using two popular brewing rigs"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0045",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Professional Field Brew Station Repair Service",
+            "target_user": "Small independent retail cafes",
+            "problem_or_desire": "Machine downtime disproportionately impacting revenue during slow maintenance call-outs from established vendors",
+            "core_concept": "Rapid-response modular machine heart swaps and standardized component library to reduce technical failure periods",
+            "proposed_approach": "Aggregator of independent master electricians trained in industry equipment, utilizing modular chassis exchange rather than deep in-store diagnostics",
+            "prototype_scope": "Testing speed-to-solution with five broken commercial devices by delivering serviced, reconditioned replacement module parts"
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Professional Field Brew Station Repair Service",
+            "target_user": "Small independent retail cafes",
+            "problem_or_desire": "Machine downtime disproportionately impacting revenue during slow maintenance call-outs from established vendors",
+            "core_concept": "Rapid-response repair service using modular swaps to minimize downtime.",
+            "proposed_approach": "A repair service that stocks common replacement parts for popular machines to offer faster turnaround times than traditional vendors.",
+            "prototype_scope": "A pilot repair service for 5 local cafes focusing on one common machine brand. | Identify 5 cafes using the same machine brand.; Stock common parts for that brand.; Offer a 24-hour repair guarantee for those cafes."
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0046",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Personalized Traceability Identity (TI)",
+            "target_user": "High-transparency supply chain consumers",
+            "problem_or_desire": "Lack of granular detail connecting payment to specific farmer/crop outcomes in mainstream coffee service channels",
+            "core_concept": "Connecting consumer spend directly to specific agricultural outcomes or beneficiaries.",
+            "proposed_approach": "A loyalty program where points can be redeemed as direct donations to a specific agricultural school or project associated with the coffee origin.",
+            "prototype_scope": "A manual dashboard tracking customer points and corresponding donations to a partner agricultural project. | Partner with one agricultural project.; Set up a manual tracking system for 10 customers.; Execute one donation cycle."
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Personalized Traceability Identity (TI)",
+            "target_user": "High-transparency supply chain consumers",
+            "problem_or_desire": "Lack of granular detail connecting payment to specific farmer/crop outcomes in mainstream coffee service channels",
+            "core_concept": "Banking interface enabling customers to link their loyalty point spend directly to local agricultural school endowments",
+            "proposed_approach": "Transaction routing through blockchain smart-contracts to transparently distribute surplus margins to individual coffee harvesters mentioned on labeling",
+            "prototype_scope": "Ten-person feedback session simulated via a manual dashboard mapping donations to localized, known agricultural beneficiaries"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0047",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "RepairRiddle",
+            "target_user": "DIY appliance repair enthusiast",
+            "problem_or_desire": "Vetting the legitimacy and relevancy of massive amounts of instructional media",
+            "core_concept": "Annotation map on exploded parts-view images.",
+            "proposed_approach": "A tool where users can upload an image and add hotspots to identify parts.",
+            "prototype_scope": "A web interface for uploading an image and adding clickable hotspots. | Build image upload; Implement hotspot creation; Add text annotation to hotspots"
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "RepairRiddle",
+            "target_user": "DIY appliance repair enthusiast",
+            "problem_or_desire": "Vetting the legitimacy and relevancy of massive amounts of instructional media",
+            "core_concept": "Annotation map on procedural image slices identifying likely trouble spots within the manufacturer schematics",
+            "proposed_approach": "Guided hotspot selection overlaid on visual guides supplied to identify broken components visually",
+            "prototype_scope": "Interaction of an exploded parts-view image enabling users to pin suspected common failure point warnings"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0048",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "SEO Decay Alert System",
+            "target_user": "Content-heavy blog websites",
+            "problem_or_desire": "Losing existing traffic revenue to un-indexed updates in Google search result pages",
+            "core_concept": "Threshold alerts triggered by rank fluctuation, mapping back to specific page edit suggestions",
+            "proposed_approach": "Lightweight wrapper over monitoring data that notifies creators exactly what snippet needs revision",
+            "prototype_scope": "Plugin analyzing URLs via search metrics to provide alert-based revision suggestions"
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "SEO Decay Alert System",
+            "target_user": "Content-heavy blog websites",
+            "problem_or_desire": "Losing existing traffic revenue to un-indexed updates in Google search result pages",
+            "core_concept": "Threshold alerts for SEO rank fluctuations.",
+            "proposed_approach": "A monitoring service that alerts content creators when specific pages experience significant rank drops, prompting manual review.",
+            "prototype_scope": "A simple script or manual check that emails users when rank drops below a threshold. | Set up rank tracking for 5 sites.; Define alert thresholds.; Send manual alerts for 30 days.; Gather feedback on utility."
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0049",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Echo Archive",
+            "target_user": "History buffs and collaborative world builders",
+            "problem_or_desire": "Disconnected storytelling platforms for regional historical facts",
+            "core_concept": "Location-based storytelling that overlays historical narratives onto modern landscapes.",
+            "proposed_approach": "A location-based app that triggers audio clips when a user reaches specific, pre-defined coordinates in a city.",
+            "prototype_scope": "A single city square map with one tethered narrative mission triggered by GPS proximity. | Implement basic GPS geofencing; Record and integrate one audio narrative; Build simple map interface"
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Echo Archive",
+            "target_user": "History buffs and collaborative world builders",
+            "problem_or_desire": "Disconnected storytelling platforms for regional historical facts",
+            "core_concept": "GPS-located audio logs left by 'Ghosts' that require movement to a specific real-world coordinate to initiate narration.",
+            "proposed_approach": "Location-based point-to-point traversal gameplay that overlays a local-history ghost narrative onto modern landscapes.",
+            "prototype_scope": "Single city square map supporting one tethered narrative mission."
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0050",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Event Schedule Peacekeeper",
+            "target_user": "Chief of Staff to growing leadership teams",
+            "problem_or_desire": "Managing individual goal priorities within restricted master organizational capacity plans.",
+            "core_concept": "Constraint-based scheduling that prioritizes project milestones over availability.",
+            "proposed_approach": "A tool that allows users to define 'critical blocks' and suggests rescheduling based on project milestones.",
+            "prototype_scope": "A calendar plugin that lets users tag meetings as 'milestone-critical' and suggests moving non-critical meetings if conflicts arise. | Define milestone-critical tags; Build calendar API integration; Implement conflict detection; Create suggestion engine"
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Event Schedule Peacekeeper",
+            "target_user": "Chief of Staff to growing leadership teams",
+            "problem_or_desire": "Managing individual goal priorities within restricted master organizational capacity plans.",
+            "core_concept": "Constraint-optimization based scheduler prioritizing stated goal achievement rather than empty availability.",
+            "proposed_approach": "The agent performs impact analysis of moving one 'critical block' by predicting potential schedule collapse based on historical meeting habits.",
+            "prototype_scope": "Plugin interfacing with a public calendar API that suggests reshuffling times based on user-designated project milestones."
+          }
+        }
+      ]
+    }
+  ]
+}

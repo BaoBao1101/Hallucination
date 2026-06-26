@@ -1,0 +1,32 @@
+{
+  "created_at_utc": "2026-06-23T06:39:15+00:00",
+  "prompt_regime": "P1_shared_neutral",
+  "protocol_type": "Directional traceability audit: role-aware, method-blind, display-order-counterbalanced.",
+  "pair_count": 35,
+  "public_batch_size": 4,
+  "public_batch_count": 9,
+  "visible_roles": [
+    "Reference Concept",
+    "Transformation Candidate"
+  ],
+  "hidden_information": [
+    "M1/M3 labels",
+    "model identity",
+    "temperature",
+    "prompt text",
+    "source filenames",
+    "generation pipeline"
+  ],
+  "display_order_counterbalance": {
+    "reference_first": 17,
+    "transformation_first": 18
+  },
+  "metrics": [
+    "creative_core_preservation",
+    "novelty_retention",
+    "practical_mvp_improvement",
+    "overclaim_removal_quality",
+    "semantic_drift_risk"
+  ],
+  "warning": "This is not a neutral preference experiment. Direction is visible by design because preservation and semantic-drift metrics require a reference/transformation relationship."
+}

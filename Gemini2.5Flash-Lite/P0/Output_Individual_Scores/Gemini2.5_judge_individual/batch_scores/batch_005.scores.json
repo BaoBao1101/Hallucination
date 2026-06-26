@@ -1,0 +1,188 @@
+{
+  "metadata": {
+    "stage": "blind_individual_metric_judge",
+    "judge_model": "gemini-2.5-flash-lite",
+    "temperature": 0.0,
+    "top_p": 0.1,
+    "batch_source": "blind_eval_10domains_b12\\batches\\batch_005.json",
+    "created_at": "2026-06-22T09:58:30"
+  },
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0030",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Ý tưởng thú vị, kết hợp đa giác quan vào học tập trừu tượng. Tuy nhiên, tính khả thi kỹ thuật và phạm vi MVP còn khá tham vọng và chưa rõ ràng."
+    },
+    {
+      "candidate_id": "BLIND_0051",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 3.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.0,
+        "prototype_willingness": 3.0
+      },
+      "short_rationale": "Khái niệm huấn luyện kỹ năng cho tương lai bằng AI giả lập rất hấp dẫn. MVP có thể rõ ràng hơn về cách AI đánh giá và phản hồi."
+    },
+    {
+      "candidate_id": "BLIND_0045",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng game RTS tập trung vào vi mô sinh hóa là mới lạ và có tiềm năng. MVP được mô tả rõ ràng, dễ hình dung và thử nghiệm."
+    },
+    {
+      "candidate_id": "BLIND_0040",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 2.5,
+        "mvp_clarity": 3.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.5,
+        "overall_mvp_usefulness": 3.0,
+        "prototype_willingness": 3.0
+      },
+      "short_rationale": "Khái niệm mô phỏng giấc mơ tùy chỉnh rất hấp dẫn, nhưng tính khả thi kỹ thuật và MVP còn khá mơ hồ, dựa nhiều vào công nghệ chưa rõ ràng."
+    },
+    {
+      "candidate_id": "BLIND_0079",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.5,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Nền tảng thiết kế giấc mơ cá nhân hóa có tiềm năng giải trí mới lạ. MVP rõ ràng hơn về việc tạo kịch bản từ mẫu có sẵn."
+    },
+    {
+      "candidate_id": "BLIND_0109",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 3.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Ý tưởng game ARPG kết hợp từ vựng và phép thuật rất sáng tạo. MVP có thể làm rõ hơn cách kết hợp từ ngữ tạo ra hiệu ứng phép thuật."
+    },
+    {
+      "candidate_id": "BLIND_0039",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Cách tiếp cận học lịch sử/sinh học qua game hóa và tương tác vi mô rất hấp dẫn. MVP được mô tả cụ thể, dễ thử nghiệm."
+    },
+    {
+      "candidate_id": "BLIND_0080",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 1.5,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Ý tưởng sử dụng giấc ngủ để hỗ trợ học tập có tiềm năng, nhưng cần làm rõ hơn về cơ sở khoa học và cách thức tác động. MVP tập trung vào từ vựng là hợp lý."
+    },
+    {
+      "candidate_id": "BLIND_0064",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng game giải đố phục dựng kỷ niệm gia đình rất cảm động và có tính mới. MVP được mô tả rõ ràng, tập trung vào các chức năng cốt lõi."
+    },
+    {
+      "candidate_id": "BLIND_0007",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Game idle kết hợp ASMR và yếu tố tâm lý là một hướng đi thú vị. MVP có thể làm rõ hơn cách 'thu hoạch' kiến thức và 'vận hành sự bình an nội tại'."
+    },
+    {
+      "candidate_id": "BLIND_0012",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.5,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Ý tưởng AI trợ lý đưa ra góc nhìn từ tương lai để hỗ trợ quyết định rất độc đáo. MVP được mô tả rõ ràng, tập trung vào một góc nhìn duy nhất."
+    }
+  ]
+}

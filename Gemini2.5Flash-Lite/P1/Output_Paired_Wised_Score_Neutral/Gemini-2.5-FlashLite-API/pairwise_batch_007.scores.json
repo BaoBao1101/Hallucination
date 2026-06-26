@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "stage": "neutral_randomized_pairwise_m1_m3_judge",
+    "judge_model": "gemini-2.5-flash-lite",
+    "temperature": 0.0,
+    "top_p": 0.1,
+    "batch_id": "P1_NEUTRAL_GEMINI_007",
+    "input_source": "[LOCAL_PATH_REDACTED]",
+    "created_at": "2026-06-23T13:05:57",
+    "blindness_note": "The judge received randomized Candidate A/B cards without method or source/revision labels."
+  },
+  "evaluations": [
+    {
+      "pair_id": "P1PAIR_0025",
+      "preferences": {
+        "novelty_preference": "TIE",
+        "conceptual_coherence_preference": "B",
+        "user_pain_plausibility_preference": "TIE",
+        "technical_plausibility_preference": "B",
+        "mvp_clarity_preference": "B",
+        "business_model_plausibility_preference": "TIE",
+        "lower_unsupported_claim_risk": "TIE",
+        "lower_ethical_privacy_risk": "TIE",
+        "overall_mvp_usefulness_preference": "B",
+        "prototype_preference": "B"
+      },
+      "short_rationale": "Candidate B provides a more detailed and structured approach to the proposed solution and MVP scope. Candidate A's proposed approach is less specific, and its MVP scope is less defined compared to B."
+    },
+    {
+      "pair_id": "P1PAIR_0026",
+      "preferences": {
+        "novelty_preference": "TIE",
+        "conceptual_coherence_preference": "TIE",
+        "user_pain_plausibility_preference": "TIE",
+        "technical_plausibility_preference": "B",
+        "mvp_clarity_preference": "B",
+        "business_model_plausibility_preference": "TIE",
+        "lower_unsupported_claim_risk": "TIE",
+        "lower_ethical_privacy_risk": "TIE",
+        "overall_mvp_usefulness_preference": "B",
+        "prototype_preference": "B"
+      },
+      "short_rationale": "Candidate B offers a more detailed breakdown of the MVP scope and proposed approach. Candidate A's MVP scope is less specific and lacks the detailed implementation steps provided by B."
+    },
+    {
+      "pair_id": "P1PAIR_0027",
+      "preferences": {
+        "novelty_preference": "TIE",
+        "conceptual_coherence_preference": "B",
+        "user_pain_plausibility_preference": "TIE",
+        "technical_plausibility_preference": "B",
+        "mvp_clarity_preference": "B",
+        "business_model_plausibility_preference": "B",
+        "lower_unsupported_claim_risk": "TIE",
+        "lower_ethical_privacy_risk": "TIE",
+        "overall_mvp_usefulness_preference": "B",
+        "prototype_preference": "B"
+      },
+      "short_rationale": "Candidate B provides a more concrete MVP scope and a clearer business model. Candidate A's proposed approach is less detailed, and its MVP scope is less specific than B's."
+    },
+    {
+      "pair_id": "P1PAIR_0028",
+      "preferences": {
+        "novelty_preference": "B",
+        "conceptual_coherence_preference": "B",
+        "user_pain_plausibility_preference": "TIE",
+        "technical_plausibility_preference": "B",
+        "mvp_clarity_preference": "B",
+        "business_model_plausibility_preference": "B",
+        "lower_unsupported_claim_risk": "B",
+        "lower_ethical_privacy_risk": "TIE",
+        "overall_mvp_usefulness_preference": "B",
+        "prototype_preference": "B"
+      },
+      "short_rationale": "Candidate B's approach is more innovative by leveraging machine learning for style analysis, and its MVP scope is more clearly defined. Candidate A's approach relies more on manual curation and less on advanced technology for its core function."
+    }
+  ]
+}

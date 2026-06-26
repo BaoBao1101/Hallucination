@@ -1,0 +1,724 @@
+{
+  "evaluations": [
+    {
+      "pair_id": "P1TRACE_0001",
+      "scores": {
+        "creative_core_preservation": 4.8,
+        "novelty_retention": 4.5,
+        "practical_mvp_improvement": 3.5,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.2
+      },
+      "preferred_for_prototype": "TIE",
+      "short_rationale": "The transformation retains the manual audit mechanism and Loom delivery almost exactly, adding only minor structure to the MVP steps, resulting in a tie for prototype readiness."
+    },
+    {
+      "pair_id": "P1TRACE_0002",
+      "scores": {
+        "creative_core_preservation": 3.5,
+        "novelty_retention": 3.0,
+        "practical_mvp_improvement": 4.2,
+        "overclaim_removal_quality": 4.5,
+        "semantic_drift_risk": 2.5
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "The transformation removes the need for custom hardware pads and complex cookbook localization, cleanly focusing the MVP on the core remote coaching experience."
+    },
+    {
+      "pair_id": "P1TRACE_0003",
+      "scores": {
+        "creative_core_preservation": 4.2,
+        "novelty_retention": 3.5,
+        "practical_mvp_improvement": 4.5,
+        "overclaim_removal_quality": 4.2,
+        "semantic_drift_risk": 2.0
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Moving from automated API integrations to manual CSV uploads makes the initial prototype vastly more feasible while validating the exact same auditing logic."
+    },
+    {
+      "pair_id": "P1TRACE_0004",
+      "scores": {
+        "creative_core_preservation": 3.2,
+        "novelty_retention": 2.5,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.5,
+        "semantic_drift_risk": 3.5
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "The reference's sync protocol is technically complex; the transformation tests the core value proposition (finding bad placements) through manageable manual reporting."
+    },
+    {
+      "pair_id": "P1TRACE_0005",
+      "scores": {
+        "creative_core_preservation": 4.8,
+        "novelty_retention": 4.5,
+        "practical_mvp_improvement": 3.8,
+        "overclaim_removal_quality": 3.5,
+        "semantic_drift_risk": 1.2
+      },
+      "preferred_for_prototype": "TIE",
+      "short_rationale": "Both rely on a simple PDF generator for modular contract templates; feasibility and core preservation are nearly identical."
+    },
+    {
+      "pair_id": "P1TRACE_0006",
+      "scores": {
+        "creative_core_preservation": 3.5,
+        "novelty_retention": 3.0,
+        "practical_mvp_improvement": 4.5,
+        "overclaim_removal_quality": 4.5,
+        "semantic_drift_risk": 2.5
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Replaces vague acoustic sentiment monitoring and metadata assumptions with a concrete manual rating system, making it highly testable."
+    },
+    {
+      "pair_id": "P1TRACE_0007",
+      "scores": {
+        "creative_core_preservation": 3.0,
+        "novelty_retention": 2.5,
+        "practical_mvp_improvement": 4.2,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 3.2
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Dropping the gamified tagging simplifies the platform to a basic submission directory, which is much easier to validate first."
+    },
+    {
+      "pair_id": "P1TRACE_0008",
+      "scores": {
+        "creative_core_preservation": 4.5,
+        "novelty_retention": 4.2,
+        "practical_mvp_improvement": 4.8,
+        "overclaim_removal_quality": 4.8,
+        "semantic_drift_risk": 1.5
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Beautifully scales down from a massively parallel hub to a manageable single-player static NPC bartering scene while perfectly preserving the language-for-inventory mechanic."
+    },
+    {
+      "pair_id": "P1TRACE_0009",
+      "scores": {
+        "creative_core_preservation": 4.2,
+        "novelty_retention": 3.5,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 2.0
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Replaces vague sentiment trend parsing across messy offline channels with predefined categorization buckets, improving initial buildability."
+    },
+    {
+      "pair_id": "P1TRACE_0010",
+      "scores": {
+        "creative_core_preservation": 3.5,
+        "novelty_retention": 3.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 3.5,
+        "semantic_drift_risk": 2.5
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Removing the auto-population of external historical dates focuses the MVP on the core chronological photo arrangement task."
+    },
+    {
+      "pair_id": "P1TRACE_0011",
+      "scores": {
+        "creative_core_preservation": 4.5,
+        "novelty_retention": 4.2,
+        "practical_mvp_improvement": 4.2,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.5
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Swaps expensive batch-certified lab testing for known low-acid varieties and an at-home pH kit, preserving the concept while increasing feasibility."
+    },
+    {
+      "pair_id": "P1TRACE_0012",
+      "scores": {
+        "creative_core_preservation": 3.2,
+        "novelty_retention": 2.5,
+        "practical_mvp_improvement": 4.8,
+        "overclaim_removal_quality": 4.8,
+        "semantic_drift_risk": 3.0
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Completely removes the automated climate-controlled hardware dependency, opting for a staffed pickup point to test transit-hub demand first."
+    },
+    {
+      "pair_id": "P1TRACE_0013",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 3.5,
+        "practical_mvp_improvement": 4.5,
+        "overclaim_removal_quality": 4.5,
+        "semantic_drift_risk": 2.0
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Replacing live meteorological API integrations with a pre-defined simulated schedule makes the 48-hour prototype much more stable and buildable."
+    },
+    {
+      "pair_id": "P1TRACE_0014",
+      "scores": {
+        "creative_core_preservation": 2.5,
+        "novelty_retention": 2.0,
+        "practical_mvp_improvement": 3.8,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 3.5
+      },
+      "preferred_for_prototype": "REFERENCE",
+      "short_rationale": "The transformation strips away the core mechanism of biological comparison tracking and turns it into a completely generic line graph."
+    },
+    {
+      "pair_id": "P1TRACE_0015",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 3.0,
+        "practical_mvp_improvement": 3.8,
+        "overclaim_removal_quality": 3.5,
+        "semantic_drift_risk": 2.0
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Replaces automated gating architectures with manual checklist protocols to validate the barrier-to-entry concept safely."
+    },
+    {
+      "pair_id": "P1TRACE_0016",
+      "scores": {
+        "creative_core_preservation": 4.5,
+        "novelty_retention": 3.5,
+        "practical_mvp_improvement": 4.8,
+        "overclaim_removal_quality": 4.2,
+        "semantic_drift_risk": 1.5
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Tests the peer-to-peer produce exchange dynamic using a simple WhatsApp group, completely avoiding custom map or geolocation builds."
+    },
+    {
+      "pair_id": "P1TRACE_0017",
+      "scores": {
+        "creative_core_preservation": 4.2,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.8,
+        "overclaim_removal_quality": 4.8,
+        "semantic_drift_risk": 1.8
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Eliminates the complex and failure-prone camera-vision OCR, testing the core inventory-to-combat mechanic via manual input."
+    },
+    {
+      "pair_id": "P1TRACE_0018",
+      "scores": {
+        "creative_core_preservation": 4.5,
+        "novelty_retention": 4.2,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 3.5,
+        "semantic_drift_risk": 1.5
+      },
+      "preferred_for_prototype": "TIE",
+      "short_rationale": "Both rely on basic grid logic and valid syntax string repair. The transformation is slightly more generic but fundamentally identical in prototype scope."
+    },
+    {
+      "pair_id": "P1TRACE_0019",
+      "scores": {
+        "creative_core_preservation": 4.5,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.5,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.5
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Pivots from complex industrial high-end distributor partnerships to local produce market surplus, making the initial 5-lunch pilot highly feasible."
+    },
+    {
+      "pair_id": "P1TRACE_0020",
+      "scores": {
+        "creative_core_preservation": 4.8,
+        "novelty_retention": 4.5,
+        "practical_mvp_improvement": 3.5,
+        "overclaim_removal_quality": 3.0,
+        "semantic_drift_risk": 1.2
+      },
+      "preferred_for_prototype": "TIE",
+      "short_rationale": "Both propose a horizontal/timeline visualization of a complex recipe. Feasibility and novelty are effectively the same."
+    },
+    {
+      "pair_id": "P1TRACE_0021",
+      "scores": {
+        "creative_core_preservation": 3.8,
+        "novelty_retention": 3.0,
+        "practical_mvp_improvement": 4.8,
+        "overclaim_removal_quality": 4.8,
+        "semantic_drift_risk": 2.5
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Drops the synchronized smart hardware completely in favor of a video call cook-along, perfectly testing the social mechanic without hardware R&D."
+    },
+    {
+      "pair_id": "P1TRACE_0022",
+      "scores": {
+        "creative_core_preservation": 3.5,
+        "novelty_retention": 3.0,
+        "practical_mvp_improvement": 3.8,
+        "overclaim_removal_quality": 3.5,
+        "semantic_drift_risk": 2.5
+      },
+      "preferred_for_prototype": "TIE",
+      "short_rationale": "Both are form-based calculators estimating project hours. The reference uses style benchmarks, while the candidate uses historical data multipliers."
+    },
+    {
+      "pair_id": "P1TRACE_0023",
+      "scores": {
+        "creative_core_preservation": 4.2,
+        "novelty_retention": 3.8,
+        "practical_mvp_improvement": 4.8,
+        "overclaim_removal_quality": 4.5,
+        "semantic_drift_risk": 1.8
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Bypasses live API wearable integration and automated dispensing by using manual data entry and email recommendations."
+    },
+    {
+      "pair_id": "P1TRACE_0024",
+      "scores": {
+        "creative_core_preservation": 2.5,
+        "novelty_retention": 2.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 3.5
+      },
+      "preferred_for_prototype": "REFERENCE",
+      "short_rationale": "The transformation completely loses the unique AI-adversary mechanic, reducing the concept to a standard branching narrative game."
+    },
+    {
+      "pair_id": "P1TRACE_0025",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 3.5,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 3.5,
+        "semantic_drift_risk": 2.0
+      },
+      "preferred_for_prototype": "TIE",
+      "short_rationale": "Both execute a blindfolded tasting event for 20 people. The reference's textural focus is slightly more novel, but feasibility is identical."
+    },
+    {
+      "pair_id": "P1TRACE_0026",
+      "scores": {
+        "creative_core_preservation": 3.5,
+        "novelty_retention": 2.5,
+        "practical_mvp_improvement": 4.5,
+        "overclaim_removal_quality": 4.2,
+        "semantic_drift_risk": 2.5
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Replaces complex PDF/CSV invoice parsing with manual data entry to validate if users actually care about the side-by-side comparison."
+    },
+    {
+      "pair_id": "P1TRACE_0027",
+      "scores": {
+        "creative_core_preservation": 4.5,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.8,
+        "overclaim_removal_quality": 4.2,
+        "semantic_drift_risk": 1.5
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Keeps the 48-hour freshness promise but tests it with a manual courier and spreadsheet rather than a custom middleware routing platform."
+    },
+    {
+      "pair_id": "P1TRACE_0028",
+      "scores": {
+        "creative_core_preservation": 3.8,
+        "novelty_retention": 3.0,
+        "practical_mvp_improvement": 4.5,
+        "overclaim_removal_quality": 4.5,
+        "semantic_drift_risk": 2.2
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Pivots from autonomous background AI summarization to a user-triggered button, making it a highly reliable and buildable MVP."
+    },
+    {
+      "pair_id": "P1TRACE_0029",
+      "scores": {
+        "creative_core_preservation": 4.2,
+        "novelty_retention": 3.5,
+        "practical_mvp_improvement": 4.5,
+        "overclaim_removal_quality": 4.5,
+        "semantic_drift_risk": 2.0
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Removes remote sensor requirements and custom apps, relying entirely on physical kits and standard video calls for the shared ritual."
+    },
+    {
+      "pair_id": "P1TRACE_0030",
+      "scores": {
+        "creative_core_preservation": 4.5,
+        "novelty_retention": 3.8,
+        "practical_mvp_improvement": 4.2,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.5
+      },
+      "preferred_for_prototype": "TIE",
+      "short_rationale": "Both involve scraping technical forums and grading public contributions. The candidate slightly clarifies the script logic but MVP boundaries are similar."
+    },
+    {
+      "pair_id": "P1TRACE_0031",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 3.8,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 3.5,
+        "semantic_drift_risk": 1.8
+      },
+      "preferred_for_prototype": "TIE",
+      "short_rationale": "Both prototype a simple 3x3 audio maze. The transformation drops haptics but keeps voice and gyroscope rotation."
+    },
+    {
+      "pair_id": "P1TRACE_0032",
+      "scores": {
+        "creative_core_preservation": 4.5,
+        "novelty_retention": 3.5,
+        "practical_mvp_improvement": 4.2,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.5
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Drops whiteboard output analysis to focus purely on transcript ingestion, which is much more achievable for an initial brief generation tool."
+    },
+    {
+      "pair_id": "P1TRACE_0033",
+      "scores": {
+        "creative_core_preservation": 2.5,
+        "novelty_retention": 2.0,
+        "practical_mvp_improvement": 3.5,
+        "overclaim_removal_quality": 3.5,
+        "semantic_drift_risk": 3.5
+      },
+      "preferred_for_prototype": "REFERENCE",
+      "short_rationale": "The transformation completely loses the unique visual mechanic of subterranean connections wilting surface crops based on dependency health."
+    },
+    {
+      "pair_id": "P1TRACE_0034",
+      "scores": {
+        "creative_core_preservation": 4.2,
+        "novelty_retention": 3.5,
+        "practical_mvp_improvement": 4.5,
+        "overclaim_removal_quality": 4.5,
+        "semantic_drift_risk": 2.0
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Replaces automated governmental feed monitoring with manual text paste/upload, drastically simplifying the comparison engine."
+    },
+    {
+      "pair_id": "P1TRACE_0035",
+      "scores": {
+        "creative_core_preservation": 4.8,
+        "novelty_retention": 3.8,
+        "practical_mvp_improvement": 3.8,
+        "overclaim_removal_quality": 3.5,
+        "semantic_drift_risk": 1.2
+      },
+      "preferred_for_prototype": "TIE",
+      "short_rationale": "Both are literally a Google Sheets portal providing vetted vendors. They are identical in feasibility and concept."
+    },
+    {
+      "pair_id": "P1TRACE_0036",
+      "scores": {
+        "creative_core_preservation": 4.5,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.5,
+        "overclaim_removal_quality": 4.2,
+        "semantic_drift_risk": 1.5
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Shifts from an always-on 24/7 live camera feed to recorded time-stamped video clips, achieving the same trust mechanism with lower technical overhead."
+    },
+    {
+      "pair_id": "P1TRACE_0037",
+      "scores": {
+        "creative_core_preservation": 3.5,
+        "novelty_retention": 2.5,
+        "practical_mvp_improvement": 4.8,
+        "overclaim_removal_quality": 4.8,
+        "semantic_drift_risk": 2.8
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Entirely removes the automated kiosk hardware, testing the core inventory/train-schedule hypothesis manually with a standard coffee cart."
+    },
+    {
+      "pair_id": "P1TRACE_0038",
+      "scores": {
+        "creative_core_preservation": 3.5,
+        "novelty_retention": 2.5,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 3.8,
+        "semantic_drift_risk": 2.5
+      },
+      "preferred_for_prototype": "REFERENCE",
+      "short_rationale": "The transformation drops the automated reminder sequences and proximity thresholds, turning it into a completely generic address book CRM."
+    },
+    {
+      "pair_id": "P1TRACE_0039",
+      "scores": {
+        "creative_core_preservation": 4.5,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.2,
+        "overclaim_removal_quality": 3.8,
+        "semantic_drift_risk": 1.5
+      },
+      "preferred_for_prototype": "TIE",
+      "short_rationale": "Both utilize a bucket exchange pilot with local offices to return compost. The concepts are equally bounded."
+    },
+    {
+      "pair_id": "P1TRACE_0040",
+      "scores": {
+        "creative_core_preservation": 4.2,
+        "novelty_retention": 3.5,
+        "practical_mvp_improvement": 4.2,
+        "overclaim_removal_quality": 3.5,
+        "semantic_drift_risk": 1.8
+      },
+      "preferred_for_prototype": "TIE",
+      "short_rationale": "Both are simple matchmaking forms based on game complexity and player expertise."
+    },
+    {
+      "pair_id": "P1TRACE_0041",
+      "scores": {
+        "creative_core_preservation": 4.8,
+        "novelty_retention": 4.8,
+        "practical_mvp_improvement": 3.8,
+        "overclaim_removal_quality": 3.2,
+        "semantic_drift_risk": 1.2
+      },
+      "preferred_for_prototype": "TIE",
+      "short_rationale": "The transformation is almost word-for-word the exact same prototype scope and core cooperative line/color mechanism."
+    },
+    {
+      "pair_id": "P1TRACE_0042",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 3.2,
+        "practical_mvp_improvement": 4.5,
+        "overclaim_removal_quality": 4.2,
+        "semantic_drift_risk": 2.0
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Downgrades a custom SaaS platform to interactive PDFs/Notion, making the content highly testable without engineering."
+    },
+    {
+      "pair_id": "P1TRACE_0043",
+      "scores": {
+        "creative_core_preservation": 3.2,
+        "novelty_retention": 2.5,
+        "practical_mvp_improvement": 4.5,
+        "overclaim_removal_quality": 4.5,
+        "semantic_drift_risk": 3.0
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "By delivering weekly potted herbs instead of building custom replaceable harvest substrate cassettes, it tests household demand for live greens cheaply."
+    },
+    {
+      "pair_id": "P1TRACE_0044",
+      "scores": {
+        "creative_core_preservation": 4.5,
+        "novelty_retention": 3.5,
+        "practical_mvp_improvement": 4.2,
+        "overclaim_removal_quality": 3.8,
+        "semantic_drift_risk": 1.5
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Pivots from high-end automatic machines to accessible manual drippers, slightly increasing feasibility for a pilot trial."
+    },
+    {
+      "pair_id": "P1TRACE_0045",
+      "scores": {
+        "creative_core_preservation": 2.5,
+        "novelty_retention": 2.0,
+        "practical_mvp_improvement": 3.8,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 3.5
+      },
+      "preferred_for_prototype": "REFERENCE",
+      "short_rationale": "The transformation completely loses the novel modular chassis exchange mechanic, reverting to a generic repair stockroom model."
+    },
+    {
+      "pair_id": "P1TRACE_0046",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 3.5,
+        "practical_mvp_improvement": 4.8,
+        "overclaim_removal_quality": 4.8,
+        "semantic_drift_risk": 2.2
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Excises all blockchain smart-contract overclaims, testing the core desire for point-based agricultural donations via a manual tracking dashboard."
+    },
+    {
+      "pair_id": "P1TRACE_0047",
+      "scores": {
+        "creative_core_preservation": 3.8,
+        "novelty_retention": 3.0,
+        "practical_mvp_improvement": 4.2,
+        "overclaim_removal_quality": 3.8,
+        "semantic_drift_risk": 2.0
+      },
+      "preferred_for_prototype": "TIE",
+      "short_rationale": "Both involve uploading schematic images and dropping interactive hotspots. Neither provides a clear feasibility advantage."
+    },
+    {
+      "pair_id": "P1TRACE_0048",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 3.2,
+        "practical_mvp_improvement": 4.5,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.8
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Removes the AI-driven specific page edit suggestions to focus purely on rank drop alerts, which is much easier to script."
+    },
+    {
+      "pair_id": "P1TRACE_0049",
+      "scores": {
+        "creative_core_preservation": 4.5,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 3.5,
+        "semantic_drift_risk": 1.5
+      },
+      "preferred_for_prototype": "TIE",
+      "short_rationale": "Both are single-city square GPS audio triggers. Feasibility and novelty are identical."
+    },
+    {
+      "pair_id": "P1TRACE_0050",
+      "scores": {
+        "creative_core_preservation": 4.2,
+        "novelty_retention": 3.5,
+        "practical_mvp_improvement": 4.5,
+        "overclaim_removal_quality": 4.5,
+        "semantic_drift_risk": 1.8
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Replaces complex predictive impact analysis based on historical habits with manual milestone tags and simple conflict detection."
+    },
+    {
+      "pair_id": "P1TRACE_0051",
+      "scores": {
+        "creative_core_preservation": 4.5,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.2,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.5
+      },
+      "preferred_for_prototype": "TIE",
+      "short_rationale": "Both require accelerometer beat-detection on a single track in a treadmill setting."
+    },
+    {
+      "pair_id": "P1TRACE_0052",
+      "scores": {
+        "creative_core_preservation": 5.0,
+        "novelty_retention": 4.5,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 4.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "TIE",
+      "short_rationale": "The cards are practically identical in concept and scope, utilizing a Slack group to connect brands and creators."
+    },
+    {
+      "pair_id": "P1TRACE_0053",
+      "scores": {
+        "creative_core_preservation": 4.2,
+        "novelty_retention": 3.5,
+        "practical_mvp_improvement": 4.5,
+        "overclaim_removal_quality": 4.2,
+        "semantic_drift_risk": 1.8
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Steps back from auto-moving files based on metadata patterns to simply alerting on non-compliant file names, reducing risk."
+    },
+    {
+      "pair_id": "P1TRACE_0054",
+      "scores": {
+        "creative_core_preservation": 4.0,
+        "novelty_retention": 3.0,
+        "practical_mvp_improvement": 4.5,
+        "overclaim_removal_quality": 4.5,
+        "semantic_drift_risk": 2.0
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Scraps AI-moderated skill verification for manual matchmaking, keeping the focus on legacy code patches."
+    },
+    {
+      "pair_id": "P1TRACE_0055",
+      "scores": {
+        "creative_core_preservation": 4.2,
+        "novelty_retention": 3.5,
+        "practical_mvp_improvement": 4.8,
+        "overclaim_removal_quality": 4.5,
+        "semantic_drift_risk": 1.8
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Bypasses biometric tracking and linguistic sentiment analysis in favor of simple written feedback loops for snack curation."
+    },
+    {
+      "pair_id": "P1TRACE_0056",
+      "scores": {
+        "creative_core_preservation": 4.5,
+        "novelty_retention": 4.0,
+        "practical_mvp_improvement": 4.5,
+        "overclaim_removal_quality": 4.2,
+        "semantic_drift_risk": 1.5
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Swaps API integrations and email extraction for standard PDF and CSV parsing scripts, heavily reducing MVP development time."
+    },
+    {
+      "pair_id": "P1TRACE_0057",
+      "scores": {
+        "creative_core_preservation": 4.8,
+        "novelty_retention": 4.2,
+        "practical_mvp_improvement": 4.2,
+        "overclaim_removal_quality": 3.8,
+        "semantic_drift_risk": 1.2
+      },
+      "preferred_for_prototype": "TIE",
+      "short_rationale": "Both propose the exact same 5-household pickup/processing service."
+    },
+    {
+      "pair_id": "P1TRACE_0058",
+      "scores": {
+        "creative_core_preservation": 4.2,
+        "novelty_retention": 3.5,
+        "practical_mvp_improvement": 4.8,
+        "overclaim_removal_quality": 4.5,
+        "semantic_drift_risk": 1.8
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Drops live scraping and automated ERP updates in favor of static rate tables and manual approval suggestions."
+    },
+    {
+      "pair_id": "P1TRACE_0059",
+      "scores": {
+        "creative_core_preservation": 4.8,
+        "novelty_retention": 3.8,
+        "practical_mvp_improvement": 4.0,
+        "overclaim_removal_quality": 3.5,
+        "semantic_drift_risk": 1.2
+      },
+      "preferred_for_prototype": "TIE",
+      "short_rationale": "The core mechanism and MVP delivery (templates + videos) are functionally identical."
+    },
+    {
+      "pair_id": "P1TRACE_0060",
+      "scores": {
+        "creative_core_preservation": 3.5,
+        "novelty_retention": 2.5,
+        "practical_mvp_improvement": 4.5,
+        "overclaim_removal_quality": 4.5,
+        "semantic_drift_risk": 2.8
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": "Totally removes the implausible bin monitoring and heat maps to focus strictly on QR survey preference aggregation."
+    }
+  ]
+}

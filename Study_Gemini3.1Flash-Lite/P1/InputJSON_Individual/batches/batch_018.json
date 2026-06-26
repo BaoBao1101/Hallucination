@@ -1,0 +1,92 @@
+[
+  {
+    "candidate_id": "BLIND_0043",
+    "title": "GiftGuard",
+    "target_user": "Frequent gift purchasers",
+    "problem_or_desire": "Losing track of birthdays, anniversary-gift history, and social relationship nuances",
+    "core_concept": "Categorized notification system organized strictly by social relationship tiers",
+    "proposed_approach": "Systemic reminder sequences filtered by proximity thresholds",
+    "prototype_scope": "Personal profile vault holding name, key date, gift category tags, and past interaction dates for 5 dummy contacts"
+  },
+  {
+    "candidate_id": "BLIND_0139",
+    "title": "AI Coffee Palette Auditor",
+    "target_user": "Hospitality startup management",
+    "problem_or_desire": "Mismatch between generic inventory bean selection and local customer latent flavour preference data",
+    "core_concept": "Optimizing coffee inventory based on actual customer preference data.",
+    "proposed_approach": "A service that uses simple QR-code surveys at the point of sale to gather customer flavor preferences and adjust inventory accordingly.",
+    "prototype_scope": "A 1-month pilot in one co-working space using QR codes to survey coffee preferences. | Set up QR codes at one coffee station.; Collect survey data for 30 days.; Analyze data to recommend inventory changes."
+  },
+  {
+    "candidate_id": "BLIND_0180",
+    "title": "Corporate Wellness Vending",
+    "target_user": "Large corporate offices",
+    "problem_or_desire": "Employees struggle to find healthy snacks that align with their fitness goals.",
+    "core_concept": "Smart vending machines that sync with employee fitness trackers to suggest snacks based on activity levels.",
+    "proposed_approach": "Develop a machine that recognizes users via app and recommends snacks based on caloric needs.",
+    "prototype_scope": "One machine in a single office building with 50 opt-in users."
+  },
+  {
+    "candidate_id": "BLIND_0002",
+    "title": "Arboretum Architect",
+    "target_user": "Urban professionals feeling disconnected from nature",
+    "problem_or_desire": "Lack of calming mental stimulation during public transit commutes",
+    "core_concept": "Slow-paced horticultural design where trees grow in real-time synchronization with sunlight exposure in the player's zip code.",
+    "proposed_approach": "Integrate local meteorological and astronomical APIs to dictate plant growth patterns, incentivizing small adjustments to virtual plots throughout the day.",
+    "prototype_scope": "Single desert garden biome where user can plant one cactus and observe sun-path light-tracking simulations over a 48-hour period."
+  },
+  {
+    "candidate_id": "BLIND_0082",
+    "title": "Dynamic Menu Pricing",
+    "target_user": "Independent restaurant owners",
+    "problem_or_desire": "Food waste due to unpredictable demand and menu pricing rigidity.",
+    "core_concept": "Software that adjusts menu prices in real-time based on inventory levels and time of day.",
+    "proposed_approach": "Integrate with existing POS systems to offer digital menu boards that update prices automatically.",
+    "prototype_scope": "A software plugin for one local cafe to test price fluctuations on three high-waste items."
+  },
+  {
+    "candidate_id": "BLIND_0010",
+    "title": "SEO Decay Alert System",
+    "target_user": "Content-heavy blog websites",
+    "problem_or_desire": "Losing existing traffic revenue to un-indexed updates in Google search result pages",
+    "core_concept": "Threshold alerts for SEO rank fluctuations.",
+    "proposed_approach": "A monitoring service that alerts content creators when specific pages experience significant rank drops, prompting manual review.",
+    "prototype_scope": "A simple script or manual check that emails users when rank drops below a threshold. | Set up rank tracking for 5 sites.; Define alert thresholds.; Send manual alerts for 30 days.; Gather feedback on utility."
+  },
+  {
+    "candidate_id": "BLIND_0029",
+    "title": "Vendor Dispute Navigator",
+    "target_user": "Small business operations managers",
+    "problem_or_desire": "Reconciling billing discrepancies with disparate cloud service vendors.",
+    "core_concept": "An agent that autonomously cross-references service usage logs against line-item invoices.",
+    "proposed_approach": "The agent extracts data from emailed invoices and uses API-accessible usage reports to flag potential overcharges for human review.",
+    "prototype_scope": "Support for exactly three major SaaS billing platforms processing synthetic email data."
+  },
+  {
+    "candidate_id": "BLIND_0060",
+    "title": "Local Lore Collector",
+    "target_user": "Local travelers and tourists",
+    "problem_or_desire": "Wanting to discover hidden local stories rather than tourist traps",
+    "core_concept": "A location-based game where players 'capture' local legends by visiting specific, non-commercial landmarks",
+    "proposed_approach": "Crowdsourced database of local folklore tied to specific geofenced coordinates",
+    "prototype_scope": "A map interface showing three 'legend' pins that unlock text stories when the user is within 50 meters"
+  },
+  {
+    "candidate_id": "BLIND_0167",
+    "title": "SyncMyBoard",
+    "target_user": "Amateur board game hobbyists",
+    "problem_or_desire": "Mismatching players, times, and learning difficulty levels",
+    "core_concept": "Profile matchmaking system optimized solely for complexity class requirements of game libraries",
+    "proposed_approach": "Constraint matching where hosting users define acceptable game type metrics versus guest expertise filters",
+    "prototype_scope": "Match creation form allowing search results filter based on complexity level and participant timezone matches"
+  },
+  {
+    "candidate_id": "BLIND_0113",
+    "title": "Brand Integrity Monitoring",
+    "target_user": "Service providers with paid media ads",
+    "problem_or_desire": "Brand advertising displaying alongside unsuitable or scammy link farms",
+    "core_concept": "Monthly reporting on ad placements on low-reputation sites.",
+    "proposed_approach": "A service providing monthly reports to store owners identifying where their ads are appearing on low-reputation sites.",
+    "prototype_scope": "Manual monthly report generation for 5 clients. | Identify 5 clients.; Perform manual placement audits.; Deliver monthly reports.; Gather feedback."
+  }
+]

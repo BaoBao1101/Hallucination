@@ -1,0 +1,65 @@
+[
+  {
+    "candidate_id": "BLIND_0045",
+    "title": "Rhythm Raiders",
+    "target_user": "Rhythm game enthusiasts looking for a more action-oriented experience.",
+    "problem_or_desire": "The desire for action-packed combat that is synchronized with music, offering a unique sensory and skill-based challenge.",
+    "core_concept": "A fast-paced action-adventure game where all combat actions, enemy attacks, and environmental hazards are precisely timed to the beat of an adaptive soundtrack, requiring players to perform actions in rhythm to succeed.",
+    "proposed_approach": "Design combat mechanics that are intrinsically tied to musical timing. Develop a dynamic music system that reacts to player performance and game state.",
+    "prototype_scope": "A single level with a set musical track, featuring basic melee and ranged combat where attacks and dodges must be performed on beat. Enemy patterns are also synchronized to the music."
+  },
+  {
+    "candidate_id": "BLIND_0065",
+    "title": "Office Coffee Wellness Program",
+    "target_user": "Small to medium-sized businesses seeking to improve employee well-being and productivity.",
+    "problem_or_desire": "Employees experience mid-afternoon slumps and desire healthier, more energizing beverage options at work.",
+    "core_concept": "A curated office coffee service that includes not only high-quality coffee but also functional add-ins like adaptogens, nootropics, and vitamin B complexes, delivered with educational materials.",
+    "proposed_approach": "Partner with specialty coffee roasters and supplement providers. Offer tiered subscription packages based on office size and desired add-ins. Provide optional on-site 'coffee wellness' workshops.",
+    "prototype_scope": "Develop 3 'wellness blend' options (e.g., focus, energy, calm). Identify 5 local businesses willing to pilot the service for one month. Provide coffee, add-ins, and basic informational flyers."
+  },
+  {
+    "candidate_id": "BLIND_0010",
+    "title": "Symbiotic Surge",
+    "target_user": "Players who enjoy character progression and strategic team building in action games.",
+    "problem_or_desire": "The wish for a mobile action game where character abilities are not static but dynamically evolve based on synergistic relationships with other characters or environmental elements.",
+    "core_concept": "A cooperative action RPG where players control distinct symbiotic entities. Their abilities and combat effectiveness change drastically based on their proximity and interaction with their partner entity, creating emergent combat strategies.",
+    "proposed_approach": "Focus on designing complementary character abilities and a dynamic proximity-based buff/debuff system. Emphasize cooperative play and strategic positioning.",
+    "prototype_scope": "Two playable characters with distinct but interconnected abilities. A single co-op arena level where players must work together, demonstrating how their abilities change when close to each other versus when separated, and how this impacts combat effectiveness against simple AI enemies."
+  },
+  {
+    "candidate_id": "BLIND_0029",
+    "title": "Collaborative Chef Residency Hub",
+    "target_user": "Emerging chefs seeking to experiment with innovative concepts and build their brand without the risk of opening their own full-scale restaurant.",
+    "problem_or_desire": "Need for affordable, low-overhead platforms for culinary experimentation and professional development, allowing chefs to test unique concepts with real customers.",
+    "core_concept": "A shared kitchen and dining space that hosts rotating 'resident' chefs for fixed periods, allowing them to operate limited-term 'studiocuisine' concepts.",
+    "proposed_approach": "Provide chefs with fully equipped kitchen facilities and a customizable small dining area. Offer marketing support, front-of-house training, and operational backend assistance (booking, payment processing).",
+    "prototype_scope": "Invite two aspiring chefs to each 'reside' for one week, operating dinner service Tuesday-Saturday. Gather feedback from chefs on facility usability and client interactions, and from diners on service and food novelty."
+  },
+  {
+    "candidate_id": "BLIND_0043",
+    "title": "Hyper-Local Urban Foraged Meals",
+    "target_user": "Environmentally conscious urban dwellers seeking unique, sustainable dining experiences.",
+    "problem_or_desire": "Desire for fresh, highly seasonal food and a deeper connection to the local urban environment through dining.",
+    "core_concept": "A pop-up restaurant and food delivery service sourcing ingredients directly from urban farms, community gardens, and authorized foraging locations within a 5-mile radius.",
+    "proposed_approach": "Partner with urban agriculture initiatives and trained foragers. Menus change weekly based on available produce. Offer educational workshops on urban foraging alongside tasting menus.",
+    "prototype_scope": "Host a one-night pop-up dinner for 20 guests showcasing a 3-course menu made entirely from ingredients sourced within the immediate neighborhood. Collect qualitative feedback on taste, concept novelty, and sustainability messaging."
+  },
+  {
+    "candidate_id": "BLIND_0015",
+    "title": "Micro-Batch Roastery Subscription for Enthusiasts",
+    "target_user": "Gourmet coffee enthusiasts aged 30-55 with disposable income seeking unique single-origin beans.",
+    "problem_or_desire": "Desire to explore rare, exceptionally fresh, and ethically sourced coffee varietals that are not widely available.",
+    "core_concept": "Hyper-local, micro-batch coffee roasting services offering surprise selections of limited-availability single-origin beans sourced directly from smallholder farms.",
+    "proposed_approach": "Develop direct relationships with a small network of select coffee farms. Employ on-demand micro-roasting technology powered by renewable energy for minimal environmental impact. Offer personalized bean profiles based on subscriber preferences and cupping scores.",
+    "prototype_scope": "Build an online platform showcasing 5 ethically sourced, micro-lot green bean offerings. Implement an automated email confirmation system for limited initial batch subscriptions, fulfilled with first-choice roasting equipment and manually packaged for 25 early subscribers in one metropolitan area."
+  },
+  {
+    "candidate_id": "BLIND_0096",
+    "title": "Kinetic Rhythm Training Tool",
+    "target_user": "Amateur musicians and dancers looking to improve their internal tempo and rhythmic precision.",
+    "problem_or_desire": "Need a more engaging and effective way to train their sense of rhythm beyond metronomes.",
+    "core_concept": "A game that visualizes complex rhythmic patterns as interactive mazes or paths in an abstract 3D space. Players control a tempo marker to stay 'on beat' or tap precisely on nodal points aligned with sub-beats, encouraging kinesthetic rhythmic learning.",
+    "proposed_approach": "Develop precise beat-detection algorithms. Design progressively complex rhythmic challenges incorporating polyrhythms and syncopation. Use dynamic visual feedback synchronized to audio cues to indicate accuracy. Implement progressive difficulty tiers unlocking new rhythmic patterns.",
+    "prototype_scope": "Build a core game loop where a user taps on their screen in time with audio pulses. Create five distinct difficulty levels featuring increasingly complex 4/4 rhythmic subdivisions, with visual feedback for accuracy."
+  }
+]

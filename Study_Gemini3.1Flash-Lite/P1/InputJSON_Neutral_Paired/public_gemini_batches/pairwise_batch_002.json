@@ -1,0 +1,102 @@
+{
+  "batch_id": "P1_NEUTRAL_GEMINI_002",
+  "stage": "neutral_randomized_pairwise_m1_m3",
+  "prompt_regime": "P1_shared_neutral",
+  "pairs": [
+    {
+      "pair_id": "P1PAIR_0006",
+      "candidate_a": {
+        "title": "QuietQuest",
+        "target_user": "Remote professionals who work in shared urban noise environments",
+        "problem_or_desire": "Lack of data on acoustic environments of candidate public coffee shops for focus time",
+        "core_concept": "Acoustic sentiment monitoring based on non-private noise profile crowd-sourcing",
+        "proposed_approach": "Visualization dashboard identifying specific coffee shops through public metadata metrics about business hours",
+        "prototype_scope": "Web mapping layer highlighting locations coded by assumed levels of background conversational traffic intensity"
+      },
+      "candidate_b": {
+        "title": "QuietQuest",
+        "target_user": "Remote professionals who work in shared urban noise environments",
+        "problem_or_desire": "Lack of data on acoustic environments of candidate public coffee shops for focus time",
+        "core_concept": "Crowd-sourced acoustic environment mapping.",
+        "proposed_approach": "A map where users manually rate the noise level of coffee shops.",
+        "prototype_scope": "A map interface with a simple 1-5 noise rating system. | Build a map interface; Implement a rating form for users; Display average ratings on the map"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0007",
+      "candidate_a": {
+        "title": "SyllabusSwap",
+        "target_user": "College graduate teaching assistants",
+        "problem_or_desire": "Finding open-source creative examples for repetitive academic assignment prompts",
+        "core_concept": "Searchable registry of verified academic supplemental material",
+        "proposed_approach": "Gamified metadata tagging for faculty members to recommend specific outside readings for specific syllabus modules",
+        "prototype_scope": "Directory of three dummy course modules where items can be liked, sorted, and suggested via form submission"
+      },
+      "candidate_b": {
+        "title": "SyllabusSwap",
+        "target_user": "College graduate teaching assistants",
+        "problem_or_desire": "Finding open-source creative examples for repetitive academic assignment prompts",
+        "core_concept": "Searchable registry of verified academic supplemental material.",
+        "proposed_approach": "A curated directory where users can submit and view links to supplemental materials for specific course modules.",
+        "prototype_scope": "A simple directory site with search and submission forms. | Create a database of 3 dummy course modules; Build a submission form for links; Implement a basic search/filter interface"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0008",
+      "candidate_a": {
+        "title": "Polyglot Plaza",
+        "target_user": "Casual language learners",
+        "problem_or_desire": "Low retention rates caused by repetitive and dry grammar exercises",
+        "core_concept": "Massively parallel text adventure where inventory management items are earned exclusively through accurate contextual sentence translation.",
+        "proposed_approach": "A shared hub city map where dialogue between automated shopkeepers and NPCs prompts players to input simple phrases in their target language.",
+        "prototype_scope": "A simple market vendor area with one 'Bartering' minigame that unlocks trade items."
+      },
+      "candidate_b": {
+        "title": "Polyglot Plaza",
+        "target_user": "Casual language learners",
+        "problem_or_desire": "Low retention rates caused by repetitive and dry grammar exercises",
+        "core_concept": "Contextual language learning through inventory management and NPC interaction.",
+        "proposed_approach": "A single-player text-based adventure where players must translate simple phrases to trade items with static NPCs.",
+        "prototype_scope": "A market vendor scene with one bartering minigame requiring translation of three specific phrases. | Design three simple bartering scenarios; Implement basic text input and validation logic; Create static NPC dialogue trees"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0009",
+      "candidate_a": {
+        "title": "Multi-Channel Feedback Resolver",
+        "target_user": "Restaurant group field trainers",
+        "problem_or_desire": "Rapid identification of recurring regional training lapses reported in informal channels.",
+        "core_concept": "Aggregating and categorizing feedback from disparate sources to identify training lapses.",
+        "proposed_approach": "A tool that categorizes feedback into predefined buckets to help managers spot trends.",
+        "prototype_scope": "A dashboard that ingests feedback from two sources and displays a categorized frequency chart. | Define feedback categories; Build ingestion for two sources; Implement categorization logic; Create dashboard"
+      },
+      "candidate_b": {
+        "title": "Multi-Channel Feedback Resolver",
+        "target_user": "Restaurant group field trainers",
+        "problem_or_desire": "Rapid identification of recurring regional training lapses reported in informal channels.",
+        "core_concept": "Parsing and normalizing sentiment trends across messy Yelp reviews, physical location comment cards, and SMS responses.",
+        "proposed_approach": "An aggregation engine detects semantic trends indicating training issues and issues digest reports specifically for site managers.",
+        "prototype_scope": "Input normalization agent for two disparate survey feedback databases focused purely on categorization performance."
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0010",
+      "candidate_a": {
+        "title": "LegacyLeaf",
+        "target_user": "Older adults digital preservation enthusiasts",
+        "problem_or_desire": "Difficulty in contextualizing old digitized family photos with metadata",
+        "core_concept": "Chronological storytelling grid for digital archives.",
+        "proposed_approach": "A simple drag-and-drop interface for arranging photos on a timeline with user-defined text labels.",
+        "prototype_scope": "A web interface allowing 10 image uploads and manual chronological ordering. | Build image upload functionality; Implement drag-and-drop sorting; Add text annotation fields for each image"
+      },
+      "candidate_b": {
+        "title": "LegacyLeaf",
+        "target_user": "Older adults digital preservation enthusiasts",
+        "problem_or_desire": "Difficulty in contextualizing old digitized family photos with metadata",
+        "core_concept": "Chronological storytelling grid for digital archives",
+        "proposed_approach": "Users pin photos to a virtual timeline populated with external major historical dates as anchor points",
+        "prototype_scope": "Web interface where 10 image uploads can be arranged chronologically with editable text annotations per slot"
+      }
+    }
+  ]
+}

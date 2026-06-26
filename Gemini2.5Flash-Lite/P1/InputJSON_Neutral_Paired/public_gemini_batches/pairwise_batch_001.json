@@ -1,0 +1,83 @@
+{
+  "batch_id": "P1_NEUTRAL_GEMINI_001",
+  "stage": "neutral_randomized_pairwise_m1_m3",
+  "prompt_regime": "P1_shared_neutral",
+  "pairs": [
+    {
+      "pair_id": "P1PAIR_0001",
+      "candidate_a": {
+        "title": "Empathetic Roleplay Tutor",
+        "target_user": "High school students learning foreign languages",
+        "problem_or_desire": "Fear of making mistakes when speaking in front of others and lack of engaging practice partners",
+        "core_concept": "An AI-powered conversational partner designed to simulate diverse social scenarios for language practice with constructive, empathetic feedback.",
+        "proposed_approach": "Develop a sophisticated AI language model trained on nuanced conversational data, focusing on emotional intelligence for response generation and scenario adaptation. Offer immediate, private, and non-judgmental conversation practice.",
+        "prototype_scope": "A web-based chatbot accessible via common browsers, capable of holding basic conversations in a single chosen language (e.g., Spanish), with a limited set of pre-defined relatable social scenarios (e.g., ordering food, asking for directions)."
+      },
+      "candidate_b": {
+        "title": "Empathetic Roleplay Tutor",
+        "target_user": "High school students learning foreign languages",
+        "problem_or_desire": "Fear of making mistakes when speaking in front of others and lack of engaging practice partners",
+        "core_concept": "An AI-powered conversational partner for language practice that simulates social scenarios and provides feedback, aiming to reduce user anxiety about making mistakes.",
+        "proposed_approach": "A language practice tool that uses AI to simulate basic social interactions, offering a non-judgmental space for users to practice speaking a foreign language and receive simple, constructive feedback.",
+        "prototype_scope": "A web-based chatbot for practicing basic Spanish conversations. It will offer a limited set of pre-defined, common social scenarios (e.g., ordering food, asking for directions). The AI will provide immediate, text-based feedback on grammar and vocabulary, focusing on clarity and correctness rather than emotional nuance. | Develop a basic chatbot interface using a readily available NLP framework (e.g., Rasa, Dialogflow).; Define and script 2-3 common conversational scenarios (e.g., ordering food at a restaurant, asking for directions).; Integrate a language model capable of basic Spanish text generation and understanding.; Implement simple feedback mechanisms for grammar and vocabulary errors.; Focus on text-based interaction to avoid complex speech recognition/synthesis for the MVP.; Deploy as a web application accessible via common browsers."
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0002",
+      "candidate_a": {
+        "title": "Automated Website Personalization Snippets",
+        "target_user": "E-commerce store owners aiming to increase conversion rates through minor dynamic content changes.",
+        "problem_or_desire": "To show personalized offers or product recommendations to visitors based on predefined simple user segments (e.g., first-time visitor, returning customer, location origin) without complex integrations.",
+        "core_concept": "A JavaScript-based service that injects small, customizable website content blocks (like banners or testimonial snippets) dynamically based on user visit characteristics, detectable via client-side logic.",
+        "proposed_approach": "Provide users with a code snippet to embed on their website. In a simple web-based dashboard, they configure conditional messages or content blocks targeting specific visitor traits. The JavaScript interprets these rules in the user's browser.",
+        "prototype_scope": "Offer a single banner placement with rule-based text display for three simple conditions: 'first visit,' 'returning visit,' and 'specific region (e.g., 'CA').' Admin setup in a minimal web interface."
+      },
+      "candidate_b": {
+        "title": "Automated Website Personalization Snippets",
+        "target_user": "E-commerce store owners aiming to increase conversion rates through minor dynamic content changes.",
+        "problem_or_desire": "To show personalized offers or product recommendations to visitors based on predefined simple user segments (e.g., first-time visitor, returning customer, location origin) without complex integrations.",
+        "core_concept": "A JavaScript-based service that injects small, customizable website content blocks dynamically based on simple, client-side detectable user visit characteristics.",
+        "proposed_approach": "A simple JavaScript snippet that allows e-commerce store owners to display a single, customizable banner message based on basic visitor segmentation (e.g., first-time visitor, returning visitor, or general location).",
+        "prototype_scope": "A JavaScript code snippet that website owners can embed. A minimal web interface allows owners to configure a single banner's text content for three conditions: 'first visit,' 'returning visit,' and 'default' (fallback). The JavaScript will display the appropriate banner text in a predefined banner area on the website based on client-side detection. Location-based targeting is omitted for MVP. | Develop a JavaScript snippet for dynamic content display.; Create a minimal web interface for configuring banner text for 'first visit', 'returning visit', and 'default' states.; Implement client-side logic in the JS snippet to detect first/returning visits (using cookies).; Define a simple, fixed banner element structure (e.g., a div) that the JS snippet targets.; Provide clear instructions for embedding the snippet and configuring the banner.; Test with a few e-commerce store owners to validate ease of use and perceived value for simple personalization."
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0003",
+      "candidate_a": {
+        "title": "Visual Problem Deconstructor",
+        "target_user": "University students struggling with complex STEM problem-solving",
+        "problem_or_desire": "Difficulty breaking down complex problems into manageable steps and visualizing abstract concepts",
+        "core_concept": "A digital tool that helps users visually break down complex problems and receive AI-driven guidance on problem-solving strategies.",
+        "proposed_approach": "A single-user desktop application that provides a digital canvas for students to visually organize elements of a STEM problem and receive AI-generated suggestions for applying a specific, pre-defined problem-solving method.",
+        "prototype_scope": "A desktop application for introductory physics problems. Users can draw simple diagrams, input text labels, and connect elements on a canvas. The AI will offer context-aware suggestions for applying *one* specific problem-solving technique (e.g., identifying forces for a free-body diagram) based on user input and pre-programmed rules for that technique. | Develop a basic canvas interface for drawing, text input, and connecting nodes.; Focus on a single, well-defined problem type (e.g., basic mechanics problems requiring free-body diagrams).; Implement a rule-based system or a simple decision tree to guide users through the steps of creating a free-body diagram (e.g., 'Identify all objects', 'Draw forces acting on object X').; Provide visual cues or text prompts based on user actions.; Limit to single-user functionality.; Build as a desktop application for easier prototyping of UI interactions."
+      },
+      "candidate_b": {
+        "title": "Visual Problem Deconstructor",
+        "target_user": "University students struggling with complex STEM problem-solving",
+        "problem_or_desire": "Difficulty breaking down complex problems into manageable steps and visualizing abstract concepts",
+        "core_concept": "A collaborative digital whiteboard platform that guides users to visually deconstruct problems and receive AI-driven suggestions for problem-solving strategies.",
+        "proposed_approach": "Utilize interactive graph algorithms to map out problem components and create a flow of inquiry. Incorporate an AI assistant trained on problem-solving frameworks to offer prompts for abstraction, simplification, and generalization of steps.",
+        "prototype_scope": "A single-user, desktop application prototype for introductory physics problems. It allows users to draw diagrams, input text segments, and drag/connect elements. The AI will offer suggestions for one specific problem-solving method (e.g., drawing free-body diagrams)."
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0004",
+      "candidate_a": {
+        "title": "Contextual Skill Pairing for Remote Project Teams",
+        "target_user": "Independent freelance software developers working remotely.",
+        "problem_or_desire": "Need to quickly find other freelancers for short-term, specialized project collaborations without lengthy vetting processes.",
+        "core_concept": "An AI-powered platform that matches developers based on real-time project need descriptions and their demonstrated (though implicit) problem-solving patterns in code repositories.",
+        "proposed_approach": "Develop a matching algorithm that analyzes public code commit histories for common error patterns and solution strategies, linking them to short descriptions of problems posted by other users.",
+        "prototype_scope": "A web-based platform where users can paste a snippet of code/description of a programming challenge and receive AI-suggested peer collaborators whose publicly available code shows relevant solution approaches or architectural styles."
+      },
+      "candidate_b": {
+        "title": "Contextual Skill Pairing for Remote Project Teams",
+        "target_user": "Independent freelance software developers working remotely.",
+        "problem_or_desire": "Need to quickly find other freelancers for short-term, specialized project collaborations without lengthy vetting processes.",
+        "core_concept": "Matching remote freelance developers for project collaboration based on their demonstrated problem-solving approaches, moving beyond explicit skill lists.",
+        "proposed_approach": "A platform that helps remote freelance developers find collaborators by allowing them to describe their project needs and offering suggestions based on self-reported experience and explicit skill tags, with a focus on facilitating initial connections.",
+        "prototype_scope": "A web application where freelance developers can create profiles listing their explicit technical skills, preferred project types, and a brief description of their current project needs. Users can also post short project 'briefs' detailing the problem they are trying to solve. The platform then suggests potential collaborators based on keyword matching between project briefs and profile skills/descriptions, and allows users to initiate contact. | Develop a basic user profile system for freelancers (skills, experience, project interests).; Implement a project posting feature where users can describe their current needs.; Create a keyword-based matching algorithm to suggest collaborators based on profile and project brief text.; Build a simple messaging system for users to connect.; Focus on a single programming language or a small set of related technologies for initial matching.; Manual curation of initial user base or partnerships with small freelance groups to seed the platform."
+      }
+    }
+  ]
+}

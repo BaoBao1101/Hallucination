@@ -1,0 +1,92 @@
+[
+  {
+    "candidate_id": "BLIND_0080",
+    "title": "Academic Paper Summarizer",
+    "target_user": "Undergraduate students",
+    "problem_or_desire": "Overwhelmed by dense academic literature and jargon.",
+    "core_concept": "A web-based tool that translates complex research papers into plain language summaries.",
+    "proposed_approach": "A document upload portal that uses structured text processing to extract key findings and definitions.",
+    "prototype_scope": "A text-input box that outputs a three-bullet-point summary and a glossary of terms."
+  },
+  {
+    "candidate_id": "BLIND_0128",
+    "title": "Coffee Bean 'Flight' Subscription",
+    "target_user": "Coffee enthusiasts exploring global origins",
+    "problem_or_desire": "Difficulty finding diverse, high-quality beans without buying large quantities",
+    "core_concept": "Monthly delivery of 50g samples from 4 different global regions to allow for comparative tasting",
+    "proposed_approach": "Direct sourcing from small-scale international farmers",
+    "prototype_scope": "A 3-month subscription pilot for 50 users"
+  },
+  {
+    "candidate_id": "BLIND_0041",
+    "title": "Community Moderation Firewall",
+    "target_user": "Slack-hosted or Discord-hosted digital service communities",
+    "problem_or_desire": "Managing community quality during organic spikes of paid users joining chat rooms",
+    "core_concept": "Gated community entry based on checklist requirements.",
+    "proposed_approach": "A service providing manual moderation and gated entry protocols for private communities to ensure quality.",
+    "prototype_scope": "Manual invite workflow gate protocols for 3 Discord communities. | Define entry checklist.; Implement manual gate protocols.; Test with 3 communities.; Gather feedback."
+  },
+  {
+    "candidate_id": "BLIND_0032",
+    "title": "StudioPulse",
+    "target_user": "Freelance graphic designers",
+    "problem_or_desire": "Difficulty calculating the correct time allowance for revisions vs. design production",
+    "core_concept": "Predictive duration simulator based on style complexity benchmarks",
+    "proposed_approach": "Questionnaire interface that asks users to input dimensions, density of elements, and file type requirements",
+    "prototype_scope": "An interactive form calculating an estimated project hour count based on toggle choices of design project type"
+  },
+  {
+    "candidate_id": "BLIND_0108",
+    "title": "Creative Brief Translator",
+    "target_user": "Mid-sized marketing agency project leads",
+    "problem_or_desire": "The information gap between high-level client conceptual needs and individual production brief quality.",
+    "core_concept": "Automated extraction of technical requirements from unstructured meeting transcripts into structured templates.",
+    "proposed_approach": "A tool that processes uploaded meeting transcripts to populate a standardized creative brief template.",
+    "prototype_scope": "A web interface where users upload a transcript and receive a pre-filled brief based on a fixed template. | Select target creative brief template; Develop prompt engineering for transcript extraction; Build simple file upload UI; Implement template export (e.g., PDF/Docx)"
+  },
+  {
+    "candidate_id": "BLIND_0122",
+    "title": "Meeting Action Item Executor",
+    "target_user": "Project managers",
+    "problem_or_desire": "Action items from meetings are often forgotten or not tracked across different platforms.",
+    "core_concept": "An agent that listens to meeting transcripts, extracts tasks, and assigns them to the correct project management board.",
+    "proposed_approach": "Natural language processing to identify task owners and deadlines, followed by API calls to task management software.",
+    "prototype_scope": "A tool that parses a meeting transcript and creates three tasks in a Trello board with correct assignees."
+  },
+  {
+    "candidate_id": "BLIND_0030",
+    "title": "Mind Mapping Mycology",
+    "target_user": "Project managers needing mental organizational structure",
+    "problem_or_desire": "Hard-to-track complex logical connections between project silos",
+    "core_concept": "Isometric management simulation where project nodes propagate resources.",
+    "proposed_approach": "An isometric management game where project nodes are connected, and players must manage resource flow between them.",
+    "prototype_scope": "A visualization engine displaying connections between one parent and three child entities. | Design isometric node system; Implement resource flow logic; Build simple UI for node management"
+  },
+  {
+    "candidate_id": "BLIND_0121",
+    "title": "Micro-Influencer Agreement Gen",
+    "target_user": "Product creators targeting tiny markets",
+    "problem_or_desire": "Excessive manual effort preparing contracts and performance requirements for smaller-scale influencers",
+    "core_concept": "Modular snippet editor for legally compliant barter-based or equity influencer deals",
+    "proposed_approach": "Logic-based document generator for specific project types in the creative domain",
+    "prototype_scope": "Simple PDF contract engine with adjustable performance tracking variables"
+  },
+  {
+    "candidate_id": "BLIND_0053",
+    "title": "KitchenCodex",
+    "target_user": "Home hobby cooks attempting complex international cuisine",
+    "problem_or_desire": "Information silos occurring during parallel recipe preparations across multi-ingredient workflows",
+    "core_concept": "Ingredient-centralized timeline visualization.",
+    "proposed_approach": "A recipe viewer that allows users to toggle between procedural and ingredient-based views.",
+    "prototype_scope": "A web page with a simple timeline visualization for one recipe. | Choose one complex recipe; Build a timeline visualization; Test with a user"
+  },
+  {
+    "candidate_id": "BLIND_0064",
+    "title": "Remote Team Culture Box",
+    "target_user": "Remote-first startup founders",
+    "problem_or_desire": "Lack of shared physical experiences for distributed teams",
+    "core_concept": "A subscription service that ships identical, curated activity kits to team members globally",
+    "proposed_approach": "Logistics management for sourcing and shipping kits to multiple international addresses simultaneously",
+    "prototype_scope": "A single-page order form for a pilot run of 10 kits to one company"
+  }
+]

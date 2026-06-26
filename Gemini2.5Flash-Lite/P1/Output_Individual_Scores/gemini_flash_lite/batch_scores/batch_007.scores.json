@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "stage": "P1_blind_individual_metric_judge",
+    "judge_model": "gemini-2.5-flash-lite",
+    "temperature": 0.0,
+    "top_p": 0.1,
+    "score_scale": "continuous_numeric_1_to_5",
+    "batch_source": "[LOCAL_PATH_REDACTED]",
+    "batch_source_sha256": "c6b7eda055b7774ec95e11606e8beb337abb6e8250373b0b939d6ea622670182",
+    "created_at_utc": "2026-06-22T07:37:22+00:00"
+  },
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0014",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "The core mechanic 'Erosive Construction' is highly novel and addresses a plausible gamer desire. The MVP is clear, but the business model is absent, and the technical feasibility of real-time terrain deformation and AI pathfinding is ambitious."
+    },
+    {
+      "candidate_id": "BLIND_0035",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.0,
+        "prototype_willingness": 3.0
+      },
+      "short_rationale": "The concept addresses a plausible pain point for freelancers with a coherent approach. The MVP is clear, but the novelty is low, and the business model is only briefly touched upon with a focus on initial connections rather than monetization."
+    },
+    {
+      "candidate_id": "BLIND_0040",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "This concept is highly novel and addresses a plausible desire for cultural exploration with a well-defined MVP and approach. The business model is clear, and the technical and ethical risks are minimal."
+    },
+    {
+      "candidate_id": "BLIND_0054",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The concept addresses a plausible student pain point with a coherent approach. The MVP is clear, but the business model is entirely absent, and the technical feasibility of a truly adaptive diagnostic engine is questionable at this scope."
+    },
+    {
+      "candidate_id": "BLIND_0086",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "This concept offers high novelty with a clear MVP focused on a unique artistic experience. The business model is not addressed, and the technical feasibility of 'living' brushes and a degrading canvas is speculative but contained within the MVP scope."
+    },
+    {
+      "candidate_id": "BLIND_0094",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 2.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The concept is moderately novel and addresses a plausible community need with a coherent approach. The MVP is reasonably clear, but the technical feasibility of robust geospatial verification and the ethical risks of address privacy are concerns."
+    },
+    {
+      "candidate_id": "BLIND_0104",
+      "scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 3.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 1.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.0,
+        "prototype_willingness": 3.0
+      },
+      "short_rationale": "The idea is moderately novel and addresses a plausible desire for deeper literary analysis. The MVP is reasonably clear, but the business model is missing, and the AI's role in 'organizing and visualizing' interpretations is vague."
+    }
+  ]
+}

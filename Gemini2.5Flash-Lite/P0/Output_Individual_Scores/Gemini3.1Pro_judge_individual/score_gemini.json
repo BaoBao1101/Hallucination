@@ -1,0 +1,1812 @@
+{
+"evaluations": [
+{
+"candidate_id": "BLIND_0112",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 3.5,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Ý tưởng kết nối cảm xúc với học tập rất sáng tạo và có nhu cầu thực tế. Tuy nhiên, việc phân tích chính xác trạng thái cảm xúc qua AI cần kiểm chứng thêm về mặt kỹ thuật."
+},
+{
+"candidate_id": "BLIND_0046",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 5.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Biến bình luận tiêu cực thành nội dung hài hước là một cách tiếp cận thú vị và giải tỏa áp lực tốt cho creator. MVP chỉ yêu cầu xử lý text nên tính khả thi kỹ thuật rất cao."
+},
+{
+"candidate_id": "BLIND_0037",
+"scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 5.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Kết hợp cafe và chiêm tinh/tâm lý khá phổ biến nhưng được cá nhân hóa tốt. Scope MVP rất cụ thể, dễ triển khai tại quán và đo lường ngay."
+},
+{
+"candidate_id": "BLIND_0054",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Trò chơi dựa hoàn toàn vào âm thanh rất sáng tạo, giải quyết tốt sự bão hòa thị giác của game truyền thống. Scope demo nhỏ giúp kiểm chứng dễ dàng tính khả thi."
+},
+{
+"candidate_id": "BLIND_0067",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Trải nghiệm ẩm thực 'trinh thám' tạo sự tò mò cao và dễ thực hiện qua dịch vụ giao hàng. MVP rất tinh gọn, tuy nhiên mô hình kinh doanh dài hạn có thể khó giữ độ mới lạ."
+},
+{
+"candidate_id": "BLIND_0017",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 3.0,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 3.5,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Điều chỉnh nhạc theo trạng thái sinh học thời gian thực đòi hỏi công nghệ cảm biến rất phức tạp. May mắn là MVP đã thu hẹp xuống phản hồi thủ công nên khả thi hơn nhiều."
+},
+{
+"candidate_id": "BLIND_0009",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 3.0,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Trải nghiệm lại giấc mơ bằng web app rất hấp dẫn nhưng tiềm ẩn claim kỹ thuật chưa chứng minh được trong tương lai xa. MVP tĩnh sinh ảnh từ text khá thực tế."
+},
+{
+"candidate_id": "BLIND_0004",
+"scores": {
+"novelty": 3.5,
+"conceptual_coherence": 3.0,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 2.5,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 2.0,
+"unsupported_claim_risk": 4.5,
+"ethical_privacy_risk": 4.5,
+"overall_mvp_usefulness": 2.5,
+"prototype_willingness": 2.0
+},
+"short_rationale": "Dùng AI dịch gen thành hành vi hoặc cảm xúc có rủi ro đạo đức, quyền riêng tư và tính khoa học rất cao. Các claim kỹ thuật mang tính chất định mệnh học thiếu hỗ trợ vững chắc."
+},
+{
+"candidate_id": "BLIND_0060",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Dùng âm thanh thay đổi cảm nhận vị giác là trải nghiệm độc đáo có cơ sở khoa học (cross-modal perception). Prototype tại một quán pop-up rất dễ thực hiện và đo lường trực tiếp."
+},
+{
+"candidate_id": "BLIND_0104",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Game khám phá bằng âm thanh tạo lối chơi mới mẻ, thu thập và phát lại âm thanh để giải đố rất logic. MVP giới hạn ở môi trường nhỏ rõ ràng và dễ phát triển."
+},
+{
+"candidate_id": "BLIND_0033",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Ý tưởng game quản lý nhà máy xuyên thời gian khá thú vị, cơ chế nghịch lý thời gian tạo chiều sâu chiến thuật. Phạm vi MVP sản xuất nguyên liệu đơn giản hợp lý để thử nghiệm."
+},
+{
+"candidate_id": "BLIND_0015",
+"scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 5.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Trải nghiệm liên giác quan giữa cafe và âm nhạc dễ triển khai và thu hút sự chú ý. MVP kết hợp playlist nhạc sẵn có với đồ uống không đòi hỏi chi phí kỹ thuật phức tạp."
+},
+{
+"candidate_id": "BLIND_0025",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Mô phỏng hậu quả nghề nghiệp rất hữu ích cho người trẻ đứng trước các ngã rẽ. MVP dùng AI sinh kịch bản text trên web app đơn giản là hoàn toàn khả thi và trực quan."
+},
+{
+"candidate_id": "BLIND_0029",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Game nội tâm giải đố 2D sắp xếp ký ức có tính nghệ thuật và dễ đồng cảm. Phạm vi thử nghiệm giới hạn không gian kéo thả mảnh ghép rất rõ ràng để phát triển."
+},
+{
+"candidate_id": "BLIND_0003",
+"scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Dùng eco-credits đổi cafe giúp tăng ý thức bảo vệ môi trường và giữ chân khách hàng. App beta cho phép báo cáo thủ công là MVP cực kỳ thực tế và tiết kiệm."
+},
+{
+"candidate_id": "BLIND_0094",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Giải mã câu chuyện văn hóa của đồ vật bằng AI kích thích tính tò mò khám phá. MVP nhận diện hình ảnh đồ vật phổ biến hiện nay rất dễ thực hiện qua các API có sẵn."
+},
+{
+"candidate_id": "BLIND_0036",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "AI đóng vai trò huấn luyện viên đối thoại giải quyết đúng nỗi đau sợ hãi giao tiếp quan trọng. MVP dưới dạng kịch bản text trả lời phản hồi rất rõ ràng và dễ lập trình."
+},
+{
+"candidate_id": "BLIND_0059",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Game thiền định dùng ảnh cá nhân giúp người chơi tạo sự kết nối nội tâm sâu sắc. MVP có chức năng tự tạo không gian 3D đơn giản kết hợp ảnh thực là hướng đi khả thi."
+},
+{
+"candidate_id": "BLIND_0105",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 3.0,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 3.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Truyền đạt cảm giác vật lý phi ngôn ngữ qua AI là khái niệm rất đột phá nhưng thuật toán phân tích mức độ tương đồng cử chỉ có thể chưa trưởng thành. MVP cho người dùng tự đánh giá giúp giảm rủi ro này."
+},
+{
+"candidate_id": "BLIND_0068",
+"scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Nhạc nền AI tùy chỉnh tâm trạng giải quyết tốt nhu cầu tập trung và thư giãn hàng ngày. MVP không sử dụng cảm biến sinh trắc học phức tạp giúp độ khả thi kỹ thuật tăng cao."
+},
+{
+"candidate_id": "BLIND_0076",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.5
+},
+"short_rationale": "Sàn giao dịch kỹ năng vô hình dùng blockchain minh bạch hóa hồ sơ năng lực là xu hướng hay nhưng khó duy trì thanh khoản. MVP dùng diễn đàn nhỏ chứng nhận chéo là bước đệm hợp lý."
+},
+{
+"candidate_id": "BLIND_0082",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 3.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Công cụ tiến hóa hệ thống ngôn ngữ giả định cực kỳ hấp dẫn cho người đam mê sáng tạo nội dung ngách. Scope MVP giúp sinh từ vựng qua quy luật âm thanh rất rõ ràng và dễ test."
+},
+{
+"candidate_id": "BLIND_0062",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Game giải đố vật lý các nguyên tố cơ bản mang lại lối chơi tương tác trực quan. MVP giới hạn tương tác giữa nước và lửa dễ dàng thiết lập cơ chế vật lý 2D."
+},
+{
+"candidate_id": "BLIND_0063",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.5
+},
+"short_rationale": "Mô hình định lượng kỹ năng mềm qua blockchain có ý nghĩa nhưng khó thu hút user ban đầu để tạo mạng lưới. Diễn đàn chứng nhận chéo ở MVP là cách làm tinh gọn."
+},
+{
+"candidate_id": "BLIND_0058",
+"scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 5.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Quán cafe kết hợp chiêm tinh và năng lượng vũ trụ đánh trúng tâm lý người trẻ. Setup MVP 5 loại đồ uống theo cung hoàng đạo rất dễ vận hành trong thực tế."
+},
+{
+"candidate_id": "BLIND_0072",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.0,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 3.5,
+"ethical_privacy_risk": 4.5,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.0
+},
+"short_rationale": "Thương mại hóa insight và quy trình tư duy của não bộ nghe rất hấp dẫn nhưng đối mặt với rủi ro cực lớn về thao túng tâm lý và quyền riêng tư dữ liệu nhạy cảm."
+},
+{
+"candidate_id": "BLIND_0057",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Tạo kênh bán tài sản tinh thần độc quyền cho creator giải quyết triệt để nhu cầu đa dạng hóa thu nhập. Bỏ qua token và dùng VND/USD ở MVP là quyết định thông minh."
+},
+{
+"candidate_id": "BLIND_0081",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Web app tái hiện ký ức qua công thức nấu ăn và bài hát có khả năng khơi gợi cảm xúc mạnh. Phân tích text sang playlist/công thức rất dễ thực hiện bằng API hiện đại."
+},
+{
+"candidate_id": "BLIND_0061",
+"scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Liều thuốc cảm xúc kỹ thuật số qua chatbot giúp xoa dịu tâm lý hiệu quả. Trả về ảnh tĩnh/nhạc ngắn theo trạng thái đã chọn ở MVP rất tinh gọn và an toàn."
+},
+{
+"candidate_id": "BLIND_0097",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 3.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Trồng cafe sinh học tại nhà mang lại trải nghiệm bền vững độc đáo nhưng gặp rào cản chi phí và chăm sóc. Bộ kit mini trong MVP là giải pháp thử nghiệm rủi ro thấp."
+},
+{
+"candidate_id": "BLIND_0090",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 5.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Biến bữa trưa văn phòng thành trò chơi giải mã tên món ăn kích thích sự tò mò. Dùng mã QR mở link nguồn gốc nguyên liệu là một MVP cực kỳ rẻ và thông minh."
+},
+{
+"candidate_id": "BLIND_0013",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Học lịch sử bằng cách hóa thân thành sinh vật cổ đại đem lại trải nghiệm giáo dục nhập vai mạnh mẽ. Kiosk thử nghiệm mô phỏng kỷ nguyên Jurassic có giới hạn rất tốt."
+},
+{
+"candidate_id": "BLIND_0014",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 5.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 5.0,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Plugin AI gợi ý nội dung và resource miễn phí giải quyết trực tiếp nỗi đau cạn kiệt ý tưởng của creator. MVP qua extension Chrome rất dễ cài đặt và tiếp cận người dùng."
+},
+{
+"candidate_id": "BLIND_0053",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Xây dựng không gian thiền định từ ảnh chuyến đi cá nhân hóa trải nghiệm sâu sắc. Cơ chế sắp xếp 3D dựa trên 3-4 nguyên tắc tương sinh tâm lý tạo gameplay nhẹ nhàng."
+},
+{
+"candidate_id": "BLIND_0027",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Sử dụng AI giả lập phiên bản tương lai để khuyên nhủ hiện tại là góc nhìn tâm lý xuất sắc. Trả lời dưới 1 nhân cách duy nhất ở MVP có thể làm ngay với LLM phổ thông."
+},
+{
+"candidate_id": "BLIND_0083",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 3.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.5
+},
+"short_rationale": "Lớp học nấu ăn với robot mang tính trình diễn cao nhưng chi phí phần cứng và an toàn là rào cản. Việc tập trung demo cánh tay robot cắt thái đơn giản giúp MVP thực tế hơn."
+},
+{
+"candidate_id": "BLIND_0005",
+"scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 5.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Gửi thông điệp cho tương lai không mới nhưng có nhu cầu trường tồn. MVP gửi email theo lịch trình là tính năng kỹ thuật rất trưởng thành và không có rủi ro."
+},
+{
+"candidate_id": "BLIND_0111",
+"scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Dịch vụ cung cấp liều thuốc tinh thần kỹ thuật số qua chatbot dễ tiếp cận người dùng đang lo âu. MVP trả ảnh và nhạc ngắn theo biểu cảm cơ bản là hoàn toàn khả thi."
+},
+{
+"candidate_id": "BLIND_0032",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Thuê đầu bếp tại gia nấu theo tâm trạng mang lại trải nghiệm chăm sóc xa xỉ nhưng cá nhân hóa. Giới hạn khu vực và đặt trước 24h giúp quản lý vận hành MVP tốt."
+},
+{
+"candidate_id": "BLIND_0073",
+"scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 5.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Tương tự BLIND_0005, nền tảng lưu giữ ký ức gửi email định kỳ không đột phá về công nghệ nhưng đánh trúng tâm lý kết nối nội tâm an toàn."
+},
+{
+"candidate_id": "BLIND_0100",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 2.5,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 4.5,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.5
+},
+"short_rationale": "Lập trình giấc ngủ để học tập đột phá nhưng thiếu bằng chứng y khoa mạnh mẽ về hiệu quả lâu dài. MVP dùng âm thanh lặp lại giúp kiểm chứng nhẹ nhàng không xâm lấn."
+},
+{
+"candidate_id": "BLIND_0110",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Cà phê kết hợp nốt nhạc dựa trên khoa học cảm quan (synesthesia) mang tính nghệ thuật cao. Thử nghiệm 3-4 loại mocktail tương ứng nốt nhạc cụ thể có tính thực tế cao."
+},
+{
+"candidate_id": "BLIND_0008",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 4.0,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.5
+},
+"short_rationale": "Kết nối qua giao điểm ký ức số khơi gợi hoài niệm tốt nhưng đối diện rào cản rất lớn về chia sẻ vị trí và quyền riêng tư mạng xã hội."
+},
+{
+"candidate_id": "BLIND_0087",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Học lịch sử bằng cách du hành VR tăng tính tương tác nhưng chi phí sản xuất 3D đắt đỏ. Demo một khu chợ nhỏ với 3-4 NPC AI là phạm vi MVP phù hợp."
+},
+{
+"candidate_id": "BLIND_0010",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Tùy chỉnh giấc mơ qua file âm thanh khi ngủ giải quyết khao khát thoát ly thực tại. MVP tạo kịch bản dựa trên mẫu có sẵn giúp giảm chi phí AI sinh thành."
+},
+{
+"candidate_id": "BLIND_0030",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 3.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Học đa giác quan giúp hiểu sâu khái niệm trừu tượng. Việc MVP lùi lại dùng chuột máy tính tạo haptic feedback đơn giản thay vì găng tay đắt tiền là rất khả thi."
+},
+{
+"candidate_id": "BLIND_0051",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Huấn luyện kỹ năng sinh tồn trong tình huống tương lai giúp giảm bớt lo âu vĩ mô. Dùng AI sinh câu hỏi tình huống qua web là MVP nhẹ và hữu ích."
+},
+{
+"candidate_id": "BLIND_0045",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Game chiến thuật RTS vi mô dựa trên nguyên lý hóa sinh tạo chiều sâu lôi cuốn. Scope bản đồ nhỏ với 3 module thu thập vật chất rất rõ ràng để code demo."
+},
+{
+"candidate_id": "BLIND_0040",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 2.5,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 3.5,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.5
+},
+"short_rationale": "Điều khiển giấc mơ theo phản hồi tín hiệu sinh học là một claim quá xa thực tế công nghệ. May mắn MVP chỉ sinh video tĩnh theo text, giúp dự án khả thi hơn."
+},
+{
+"candidate_id": "BLIND_0079",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Tương tự BLIND_0010, nền tảng thiết lập kịch bản âm thanh lúc ngủ khá thú vị nhưng tác động cần được đo lường. MVP mẫu có sẵn giúp AI dễ vận hành."
+},
+{
+"candidate_id": "BLIND_0109",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Game ARPG dùng ngữ nghĩa và từ vựng để tạo phép thuật giải quyết vấn đề nghèo nàn ngôn ngữ rất sáng tạo. Giao diện chiến đấu 20 ô từ khóa dễ triển khai trên mobile."
+},
+{
+"candidate_id": "BLIND_0039",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Trải nghiệm e-learning qua góc nhìn sinh vật cổ đại sinh động và dễ hiểu. Trắc nghiệm và infographic tương tác cho MVP rẻ và dễ tiếp cận hơn đồ họa 3D."
+},
+{
+"candidate_id": "BLIND_0080",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 3.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 3.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Sử dụng chu kỳ REM và âm thanh để học từ vựng hấp dẫn nhưng tính hiệu quả thực tế cần kiểm chứng y khoa. MVP giới hạn ở 10 từ mới lặp lại là phép thử an toàn."
+},
+{
+"candidate_id": "BLIND_0064",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Phục dựng câu chuyện gia đình thành game giải đố mang ý nghĩa nhân văn mạnh mẽ. Tính năng AI chuyển file ảnh và thư thành đối thoại tương tác rất khả thi và thú vị."
+},
+{
+"candidate_id": "BLIND_0007",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 5.0,
+"technical_plausibility": 5.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Game idle kết hợp ASMR và chiêm nghiệm tâm lý rất hợp xu hướng chữa lành. Lối chơi chỉ bấm nút để 'thu hoạch' câu nói triết lý là một MVP cực kỳ tiết kiệm và hiệu quả."
+},
+{
+"candidate_id": "BLIND_0012",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Tư vấn quyết định từ góc nhìn 'phiên bản tương lai' giúp người dùng thoát khỏi áp lực hiện tại. Việc dùng prompt LLM cho một nhân cách giả định duy nhất hoàn toàn dễ làm."
+},
+{
+"candidate_id": "BLIND_0077",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Game giải đố lắng nghe tần số rung của vật thể mang lại trải nghiệm cảm quan tinh tế. MVP tập trung 5 vật thể với cơ chế chạm đơn giản để so khớp âm thanh cực kỳ rõ nét."
+},
+{
+"candidate_id": "BLIND_0034",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 5.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Kết hợp cafe Zen và quan sát động vật qua lớp kính vừa chữa lành vừa đảm bảo phúc lợi động vật. Scope pop-up chia 2 phòng màn hình rất dễ vận hành."
+},
+{
+"candidate_id": "BLIND_0049",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 4.5,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.5
+},
+"short_rationale": "Số hóa ký ức người thân thành AI tương tác gây e ngại về đạo đức và rủi ro tái tạo sai lệch. Tuy nhiên MVP chỉ dựa vào văn bản email cũ để mô phỏng tính cách khá thực tế."
+},
+{
+"candidate_id": "BLIND_0006",
+"scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Tương tự nền tảng tạo kịch bản giấc mơ ngủ, ý tưởng này dựa vào âm thanh dẫn dắt. MVP cung cấp các kịch bản mẫu giúp phát triển nội dung dễ hơn tạo sinh tự động hoàn toàn."
+},
+{
+"candidate_id": "BLIND_0016",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Liên kết tình trạng da với mâu thuẫn nội tâm tạo ra lớp gameplay mô phỏng sâu sắc. MVP chẩn đoán 3 bệnh nhân ảo với cơ chế làm sạch đơn giản rất khả thi."
+},
+{
+"candidate_id": "BLIND_0035",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 5.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Sử dụng thực vật sinh thái trang trí cafe không chỉ tăng thẩm mỹ mà còn nhấn mạnh bền vững. Liên kết farm địa phương là MVP kinh doanh tối ưu nhất."
+},
+{
+"candidate_id": "BLIND_0065",
+"scores": {
+"novelty": 3.5,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 3.5,
+"ethical_privacy_risk": 4.5,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.5
+},
+"short_rationale": "Cung cấp lời giải thích cảm xúc dựa trên gen tiềm ẩn rủi ro chẩn đoán y tế. Việc đối chiếu với báo cáo khoa học ở MVP giúp giảm nhẹ claim nhưng bảo mật gen vẫn là điểm nóng."
+},
+{
+"candidate_id": "BLIND_0099",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Lối chơi kết hợp từ vựng logic ẩn để thi triển phép thuật đánh quái tăng sức sáng tạo đáng kể. Giao diện đòn đánh phụ thuộc tổ hợp từ khóa là MVP gọn gàng."
+},
+{
+"candidate_id": "BLIND_0047",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Chợ bán quyền xem trước ý tưởng/clip cho fan cứng giúp creator kiếm tiền ngoài quảng cáo. Bán quyền truy cập link video private là MVP không cần tích hợp kỹ thuật sâu."
+},
+{
+"candidate_id": "BLIND_0095",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 5.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Gamification việc học như quá trình trả 'nợ kỹ năng' tạo động lực theo dõi tiến độ tuyệt vời. Tạo danh sách và ghi nhận hoàn thành từng task là MVP rất cơ bản."
+},
+{
+"candidate_id": "BLIND_0021",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Game giải đố phục dựng ảnh và thư gia đình gắn kết lịch sử nhân vật với người chơi. MVP sử dụng LLM tạo đối thoại ngắn từ ảnh rất sáng tạo và giới hạn đúng 10 cặp tư liệu."
+},
+{
+"candidate_id": "BLIND_0018",
+"scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Cung cấp sân chơi an toàn để phân tích và sinh ảnh từ text giấc mơ bằng AI. MVP trả về 1-2 ảnh tĩnh và từ khóa cảm xúc dựa vào NLP đã rất trưởng thành."
+},
+{
+"candidate_id": "BLIND_0044",
+"scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 5.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Mô hình cafe Zen màn hình giống hệt BLIND_0034. MVP cung cấp đồ uống đơn giản lấy cảm hứng động vật kết hợp video hành vi làm không gian an tĩnh rất tốt."
+},
+{
+"candidate_id": "BLIND_0096",
+"scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 5.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Tích điểm xanh eco-credits đổi cafe tương tự BLIND_0003. Việc MVP dựa vào khai báo trung thực giảm nhẹ gánh nặng vận hành phần mềm ban đầu."
+},
+{
+"candidate_id": "BLIND_0102",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 5.0,
+"technical_plausibility": 5.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Game idle lật mở câu văn triết lý kết hợp ASMR giải tỏa căng thẳng nhịp độ nhanh. Cơ chế chạm để thu thập text vào danh sách lưu trữ vô cùng khả thi."
+},
+{
+"candidate_id": "BLIND_0026",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Ứng dụng AR biến việc học lịch sử địa phương thành mini-game tìm kho báu thực tế. MVP giới hạn 5-10 địa điểm tại trung tâm thành phố với quiz 3 câu là chuẩn mực."
+},
+{
+"candidate_id": "BLIND_0088",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 5.0,
+"technical_plausibility": 5.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 5.0,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Web tool dùng AI tối ưu Bio và title mạng xã hội xử lý thẳng điểm mù của newbie creator. Điền form và nhận 5 gợi ý ngắn gọn là MVP hoàn hảo."
+},
+{
+"candidate_id": "BLIND_0056",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Lai tạo cảm xúc dưới dạng sinh vật kỹ thuật số giúp việc nhận diện tâm lý trực quan và dễ thương hơn. MVP cơ chế hợp nhất đơn giản rất tốt cho game 2D giải đố."
+},
+{
+"candidate_id": "BLIND_0071",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 5.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Sử dụng AI diễn tập đàm thoại nan giải giúp lấy lại tự tin. Trả về 3 phương án phản hồi với sắc thái văn bản khác nhau là MVP dễ dùng API LLM nhất."
+},
+{
+"candidate_id": "BLIND_0038",
+"scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.5,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 4.5,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.0
+},
+"short_rationale": "Thuật toán tìm điểm chung quá khứ từ lịch sử vị trí có sức hút mạnh mẽ nhưng sẽ vấp phải kháng cự cực lớn về quyền riêng tư dữ liệu cá nhân."
+},
+{
+"candidate_id": "BLIND_0075",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Cung cấp radio ambient do AI mix tự động dựa trên bối cảnh giúp hạn chế xao nhãng. Bản thu 5 phút ghép nối ngẫu nhiên tĩnh tại MVP là hợp lý."
+},
+{
+"candidate_id": "BLIND_0069",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 5.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 5.0,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Tương tự BLIND_0014, extension hỗ trợ content creator vượt qua bế tắc ý tưởng bằng prompt nhanh và tài nguyên free rất cấp thiết và dễ lan truyền."
+},
+{
+"candidate_id": "BLIND_0107",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 5.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Game giải đố mảnh ghép tái hiện trạng thái cảm xúc tĩnh lặng và thư giãn. Hạn chế ở một vài cảm xúc cơ bản giúp MVP thiết kế dễ và code nhanh."
+},
+{
+"candidate_id": "BLIND_0050",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Xây dựng siêu cấu trúc hóa sinh vi mô là ngách RTS mới lạ. Thử thách xếp đặt enzyme sinh hóa để nhận output đơn giá ở MVP kiểm chứng tốt gameplay cốt lõi."
+},
+{
+"candidate_id": "BLIND_0089",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 2.5,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 3.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 3.0,
+"prototype_willingness": 3.0
+},
+"short_rationale": "Nhà hàng thao túng thời tiết mô phỏng vi khí hậu từng bàn ăn đòi hỏi HVAC cực đắt đỏ và cồng kềnh. Tính khả thi kỹ thuật cho mô hình kinh doanh này quá rủi ro."
+},
+{
+"candidate_id": "BLIND_0052",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 3.5,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.5
+},
+"short_rationale": "Khai thác bài viết ý tưởng để đóng góp cho mô hình AI nghiên cứu cung cấp cách thức kiếm điểm thưởng. Rủi ro về kiểm duyệt nội dung và sở hữu trí tuệ cần chú ý."
+},
+{
+"candidate_id": "BLIND_0002",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Sử dụng AR gắn mô hình 3D sự kiện tại di tích lịch sử cải thiện rõ rệt trải nghiệm học tập. Demo quiz mở khóa thông tin tại 1 khu vực nhỏ là thiết kế chuẩn mực."
+},
+{
+"candidate_id": "BLIND_0085",
+"scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Tương tự nền tảng tạo ảnh/nhạc cảm xúc số. MVP trả về output cố định thay vì gen runtime đảm bảo độ mượt và tiết kiệm chi phí ban đầu."
+},
+{
+"candidate_id": "BLIND_0093",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Tạo video gợi mở kịch bản giấc mơ bằng Stable Diffusion hiện đã rất phổ cập. MVP nhập văn bản để xuất đoạn video ngắn hoàn toàn thiết thực và lôi cuốn."
+},
+{
+"candidate_id": "BLIND_0001",
+"scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.5
+},
+"short_rationale": "Chứng nhận kỹ năng vô hình qua cộng đồng làm tăng giá trị chuyên môn. Tạm gác blockchain ở MVP thay bằng diễn đàn text giúp kiểm chứng nhu cầu thực lõi trước."
+},
+{
+"candidate_id": "BLIND_0070",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Tái hiện cafe gắn với mốc thời gian cá nhân tạo giá trị quà tặng sâu sắc. Việc chuyển thành dịch vụ gợi ý hồ sơ trực tuyến giảm nhẹ tính khả thi cho vận hành offline."
+},
+{
+"candidate_id": "BLIND_0048",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Trò chơi so khớp rung động âm thanh vật lý thách thức thính giác một cách tao nhã. Giao diện trực quan mức độ tương đồng giúp MVP rất dễ đo lường thành tích."
+},
+{
+"candidate_id": "BLIND_0103",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 5.0,
+"user_pain_plausibility": 5.0,
+"technical_plausibility": 5.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 5.0,
+"prototype_willingness": 5.0
+},
+"short_rationale": "Biến mẹo vặt thành template có biến số (placeholder) là một ý tưởng thiên tài vì tốc độ lan truyền mạnh. Copy text qua click ở MVP dễ triển khai và đánh giá."
+},
+{
+"candidate_id": "BLIND_0023",
+"scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Nền tảng đặt món từ đầu bếp gia đình kết hợp xem công thức mang lại ẩm thực nhà làm chân thực. Phạm vi giới hạn khu phố kiểm soát tốt chi phí giao hàng."
+},
+{
+"candidate_id": "BLIND_0086",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.5
+},
+"short_rationale": "Nhà hàng tái hiện món ăn ký ức bằng AI gợi ý công thức mang tính hoài niệm cao nhưng chi phí customize bếp cực đắt đỏ. MVP 1 loại đồ ăn giúp giảm tải rủi ro."
+},
+{
+"candidate_id": "BLIND_0022",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Game sandbox sinh vật thể 3D từ text giấc mơ là tương lai sáng của AI gaming. Dù vậy sinh 3D runtime rất tốn kém, nhưng giới hạn 3-5 đối tượng cơ bản ở MVP khá hợp lý."
+},
+{
+"candidate_id": "BLIND_0084",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Sử dụng playlist âm nhạc bổ trợ cường điệu vị giác thay vì claim thay đổi hóa học tạo sự trung thực. Pop-up nhỏ kết hợp cafe và nhạc nền riêng rất dễ triển khai."
+},
+{
+"candidate_id": "BLIND_0108",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Gợi ý cafe theo trạng thái cảm xúc đem lại tính cá nhân hóa thường ngày. MVP chỉ dừng ở web app gửi công thức pha tại nhà giúp tiết giảm chi phí hoàn toàn."
+},
+{
+"candidate_id": "BLIND_0024",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 5.0,
+"user_pain_plausibility": 5.0,
+"technical_plausibility": 5.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 5.0,
+"prototype_willingness": 5.0
+},
+"short_rationale": "Mã hóa life-hack thành các snippet biến số có khả năng scale viral cực lớn trên social media. Modal điền form sinh copy text ngắn gọn cho MVP là sự lựa chọn tối ưu."
+},
+{
+"candidate_id": "BLIND_0101",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 5.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Cafe kết hợp ẩm thực hoa lá sinh thái giúp định vị thương hiệu gần gũi thiên nhiên. MVP đồ uống trang trí hoa ăn được theo mùa rất dễ thiết lập với farm địa phương."
+},
+{
+"candidate_id": "BLIND_0020",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 3.0,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 4.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.5
+},
+"short_rationale": "Tương tự BLIND_0100, truyền kiến thức âm thanh vào giấc ngủ sâu mang rủi ro kỳ vọng chưa thực tế. App phát audio theo chu kỳ tự ước tính là MVP đơn giản nhất."
+},
+{
+"candidate_id": "BLIND_0041",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 5.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Sử dụng LLM để viết lại comment toxic thành giọng điệu hài hước giúp creator phòng thủ tâm lý. MVP sinh output text 3 phương án bảo đảm kỹ thuật vận hành mượt mà."
+},
+{
+"candidate_id": "BLIND_0091",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 5.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Game chỉnh sửa hình ảnh thương mại thao túng truyền thông đưa người chơi về lý tưởng thẩm mỹ số 0. Công cụ trượt sáng/màu đơn giản dễ lập trình."
+},
+{
+"candidate_id": "BLIND_0055",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Phân tích và gợi mở giấc mơ bằng NLP để tạo ảnh tĩnh giúp người dùng giải mã bản ngã. MVP xuất hình ảnh minh họa yếu tố chính rất rõ ràng và tránh thay đổi sai lệch."
+},
+{
+"candidate_id": "BLIND_0043",
+"scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 5.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Tương tự nền tảng gửi thư tương lai, MVP chỉ nhập text hẹn giờ email gửi đi hạn chế rủi ro nhưng ít tính khác biệt hóa sản phẩm."
+},
+{
+"candidate_id": "BLIND_0031",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Xây dựng khu vườn giấc mơ biểu tượng tâm lý NPC tạo game mô phỏng đầy chiều sâu nghệ thuật. Lối chơi dùng object 2D đáp ứng request MVP cực chuẩn xác."
+},
+{
+"candidate_id": "BLIND_0066",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 2.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Trực quan hóa tư liệu số gia đình thành dòng thời gian tăng tương tác ký ức. MVP gắn thẻ và nhóm ảnh qua AI tích hợp API sẵn có rất tiện dụng, nhưng cần lưu ý bảo mật data."
+},
+{
+"candidate_id": "BLIND_0106",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Trạm phát thanh AI không gian âm thanh đáp ứng ngách người nghe chill/ambient sâu sắc. MVP sinh tiếng động môi trường 5 phút từ text là ranh giới phù hợp."
+},
+{
+"candidate_id": "BLIND_0074",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 5.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Giải đố 2D sắp xếp chắp vá Mảnh Vỡ tổn thương để đạt sự chấp nhận rất nhân văn. Các cụm art pixel di chuyển ở MVP có tính khả thi kỹ thuật làm game nhanh."
+},
+{
+"candidate_id": "BLIND_0011",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 5.0,
+"technical_plausibility": 5.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 5.0,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Công cụ web tạo Bio mạng xã hội giải bài toán chuẩn hóa profile cho Newbie. Dùng form đơn giản xuất 3 option Bio tối ưu là ý tưởng tinh gọn bậc nhất."
+},
+{
+"candidate_id": "BLIND_0042",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Trình mô phỏng sự nghiệp bằng thực tế ảo văn bản giúp trải nghiệm áp lực rủi ro an toàn. MVP 1 biến cố dạng sa thải để test độ hứng thú rất sáng suốt."
+},
+{
+"candidate_id": "BLIND_0098",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Nền tảng sáng tạo ngôn ngữ giả tưởng hỗ trợ giới thiết kế nội dung thế giới mở. Việc MVP sinh bộ cấu trúc SVO/SOV và từ vựng IPA đáp ứng cực rõ tính năng cốt lõi."
+},
+{
+"candidate_id": "BLIND_0028",
+"scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 3.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Học đổ latte bằng lớp phủ AR trực quan hóa tốc độ dòng nước cực sinh động. Dù vậy đo lường góc nghiêng tay qua phone vẫn cần chứng minh độ mượt trong MVP."
+},
+{
+"candidate_id": "BLIND_0019",
+"scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 3.0,
+"mvp_clarity": 4.0,
+"business_model_plausibility": 2.5,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.0
+},
+"short_rationale": "Điều chỉnh môi trường khí hậu theo thực đơn nhà hàng tạo bối cảnh đặc sắc. Việc giảm mức độ cá nhân hóa xuống 1 khu vực nhỏ ở MVP vẫn tốn chi phí triển khai phần cứng."
+},
+{
+"candidate_id": "BLIND_0078",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 5.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Mô phỏng trị liệu da theo cảm xúc mâu thuẫn mang lại nhận thức thẩm mỹ sâu từ bên trong. Phạm vi 3 bệnh nhân ảo làm sạch da là MVP kinh điển của dòng game này."
+},
+{
+"candidate_id": "BLIND_0113",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.5,
+"mvp_clarity": 4.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"short_rationale": "Mô hình trao đổi và học kỹ năng qua cảm giác phi ngôn từ là triết lý giáo dục ngược rất sáng tạo. Việc bắt lỗi chuyển động mo-cap ở MVP có thể gặp khó khăn kỹ thuật nhẹ."
+},
+{
+"candidate_id": "BLIND_0092",
+"scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 5.0,
+"mvp_clarity": 5.0,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"short_rationale": "Game chỉnh sửa hình ảnh quảng cáo làm mờ lỗi lệch màu rèn luyện tư duy phản biện mỹ học số. Thanh trượt cân bằng màu là cơ chế quá đỗi thực tế và dễ code cho MVP."
+}
+]
+}

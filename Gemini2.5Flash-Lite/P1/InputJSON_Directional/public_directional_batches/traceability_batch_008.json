@@ -1,0 +1,132 @@
+{
+  "batch_id": "P1_DIRECTIONAL_TRACE_008",
+  "stage": "directional_role_aware_method_blind_traceability",
+  "prompt_regime": "P1_shared_neutral",
+  "blindness_note": "Hidden method identity: the evaluator is not shown M1/M3, model, temperature, prompt, source filename, or generation pipeline. Visible directional role: Reference Concept versus Transformation Candidate.",
+  "pairs": [
+    {
+      "pair_id": "P1TRACE_0029",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Ephemeral Collaborative Idea Boards",
+            "target_user": "Project teams in early brainstorm or discovery phases.",
+            "problem_or_desire": "To have temporary, focused spaces for rapid idea generation and annotation without long-term clutter or project overhead.",
+            "core_concept": "A real-time web whiteboard designed for temporary sessions where input (text, drawings, links) and the entire board disappear after a set time limit or manual reset, promoting fleeting, unfiltered input.",
+            "proposed_approach": "A web app that provides a shared canvas where participants can add content and collaborate. Features include basic drawing tools, text boxes, and image embedding. A prominent countdown timer governs the board's lifespan.",
+            "prototype_scope": "Implement a web application allowing up to 4 concurrent users to contribute text notes and draw on a shared canvas within a session lasting a fixed 30 minutes, after which all content is cleared upon session closure."
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Ephemeral Collaborative Idea Boards",
+            "target_user": "Project teams in early brainstorm or discovery phases.",
+            "problem_or_desire": "To have temporary, focused spaces for rapid idea generation and annotation without long-term clutter or project overhead.",
+            "core_concept": "A real-time web whiteboard designed for temporary, focused brainstorming sessions where all content is automatically cleared after a set time limit or manual reset.",
+            "proposed_approach": "A real-time web-based whiteboard application designed for short, collaborative brainstorming sessions. It features basic drawing and text input tools, with a prominent timer that automatically clears all content upon session expiry.",
+            "prototype_scope": "A web application supporting up to 4 concurrent users. Users can add text notes and draw simple lines/shapes on a shared canvas. A fixed 30-minute countdown timer is displayed. At the end of the 30 minutes, or when a 'reset' button is clicked, all content on the board is permanently cleared. No user accounts or data persistence. | Develop a web application with a shared canvas.; Implement real-time synchronization for text notes and drawing actions for up to 4 users.; Include basic drawing tools (pen, eraser) and text input.; Implement a visible countdown timer (fixed at 30 minutes).; Develop the 'auto-clear' functionality upon timer expiry or manual reset.; Test with project teams in early brainstorming phases to validate the concept of temporary, focused collaboration."
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0030",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Hyper-Niche Newsletter Growth Co-Pilot",
+            "target_user": "Independent creators and small businesses running hyper-niche email newsletters who struggle with sustained audience growth.",
+            "problem_or_desire": "Need for actionable, content-specific strategies to attract and retain a highly targeted subscriber base.",
+            "core_concept": "Providing actionable, content-specific growth strategies for hyper-niche newsletters.",
+            "proposed_approach": "A tool that helps niche newsletter creators identify potential cross-promotion partners and content themes based on manual analysis of their content and audience description.",
+            "prototype_scope": "A web application where creators input their newsletter's topic, target audience description, and paste 3-5 recent newsletter content examples (or provide an RSS feed link). The platform then generates a PDF report containing: 1) A list of 5-10 potential complementary newsletter niches for cross-promotion, identified through keyword analysis and manual research of existing newsletters. 2) 3-5 content idea suggestions based on recurring themes identified in the provided content. The 'AI' aspect is limited to keyword extraction and pattern identification, with human curation guiding the suggestions. | Build a simple web form for users to input newsletter topic, audience description, and paste content samples or RSS feed.; Develop a keyword extraction and basic theme identification module for the provided content.; Create a curated database of existing niche newsletters and their topics/audiences.; Implement logic to suggest potential cross-promotion partners based on keyword overlap and topic complementarity.; Generate a structured PDF report with content ideas and partnership suggestions.; Focus on a limited number of newsletter categories for initial testing."
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Hyper-Niche Newsletter Growth Co-Pilot",
+            "target_user": "Independent creators and small businesses running hyper-niche email newsletters who struggle with sustained audience growth.",
+            "problem_or_desire": "Need for actionable, content-specific strategies to attract and retain a highly targeted subscriber base.",
+            "core_concept": "An AI-driven service that analyzes a newsletter's content and audience engagement, generating personalized growth suggestions like cross-promotion targets and micro-campaign ideas.",
+            "proposed_approach": "Develop an analytics engine that scans newsletter content for recurring themes and linguistic patterns, combining this with user-provided engagement data to identify analogous or complementary content niches for potential collaborations or featured segments.",
+            "prototype_scope": "A web application where creators input their newsletter content source (e.g., RSS feed link) and basic subscriber numbers/engagement metrics. The platform generates a single, printable PDF report per month with tailored content recommendations and potential partnership ideas for audience sharing."
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0031",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Craft Skills Micro-Apprenticeship",
+            "target_user": "Vocational trainees learning practical craft skills (e.g., carpentry, welding)",
+            "problem_or_desire": "Lack of immediate, objective feedback on fine motor skill execution and tool usage technique outside formal workshop hours",
+            "core_concept": "A mobile application that provides real-time feedback on user technique for practical craft skills using smartphone sensors and computer vision.",
+            "proposed_approach": "A mobile app that provides visual feedback on basic craft techniques by comparing user-submitted video recordings against pre-defined ideal motion paths or static reference images.",
+            "prototype_scope": "A mobile app focused on teaching two specific foundational carpentry techniques (e.g., a straight hand saw cut, a basic hammer strike). Users record a short video of themselves performing the technique. The app then overlays a simplified visual guide (e.g., a target line for saw angle, a target impact zone for hammer) onto their video, highlighting gross deviations. No complex sensor analysis or AI pattern matching is used; it's a visual comparison against a template. | Develop a mobile app interface for video recording and playback.; Define two simple carpentry techniques with clear visual targets (e.g., straight line for saw, target area for hammer).; Create static reference images or simple animated guides for these techniques.; Implement a feature to overlay a reference guide onto the user's recorded video.; Allow users to manually compare their video against the guide, with simple visual indicators for major deviations (e.g., 'Saw angle too steep').; Focus on visual comparison rather than automated analysis."
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Craft Skills Micro-Apprenticeship",
+            "target_user": "Vocational trainees learning practical craft skills (e.g., carpentry, welding)",
+            "problem_or_desire": "Lack of immediate, objective feedback on fine motor skill execution and tool usage technique outside formal workshop hours",
+            "core_concept": "A mobile application using smartphone sensors and computer vision to provide real-time, motion-based feedback on user technique during practiced skill tasks.",
+            "proposed_approach": "Develop proprietary algorithms for analyzing recorded video or accelerometer data during physical tasks. Generate simple metrics and visual overlays indicating deviation from expert patterns for common beginner mistakes.",
+            "prototype_scope": "A mobile app focused on teaching two specific foundational carpentry techniques (e.g., hand saw straight cut, hammer strike). The user records a short video, and the app provides visual feedback on saw angle or hammer impact deviation."
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0032",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Modular Combat Architect",
+            "target_user": "Core mobile gamers looking for deep strategic customization.",
+            "problem_or_desire": "Frustration with limited customization options in existing mobile action games and a desire to create unique combat playstyles.",
+            "core_concept": "A real-time action combat game where players can swap and combine hundreds of micro-modules (e.g., weapon attachments, cybernetic augments, projectile modifiers) during a match to dynamically adapt their build against opponents or environmental challenges.",
+            "proposed_approach": "Focus on developing an intuitive modular UI for pre-match building and an event-driven system for on-the-fly module integration during gameplay. Utilize procedural generation for visual module variations to expand aesthetic diversity.",
+            "prototype_scope": "A single-player PvE challenge mode where players must defeat waves of enemies by progressively swapping and testing five distinct purchasable module types on a base attack, demonstrating the dynamic customization and combat synergy."
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Modular Combat Architect",
+            "target_user": "Core mobile gamers looking for deep strategic customization.",
+            "problem_or_desire": "Frustration with limited customization options in existing mobile action games and a desire to create unique combat playstyles.",
+            "core_concept": "The core concept of dynamically swapping and combining combat modules during real-time action to adapt playstyles.",
+            "proposed_approach": "A real-time action combat game focused on a core set of distinct, swappable combat modules that players can combine to adapt their build during gameplay. The initial focus is on demonstrating the synergy and adaptability of a limited set of modules.",
+            "prototype_scope": "A single-player PvE challenge mode where players control one character against waves of enemies. The player starts with a base attack and can acquire/swap up to 5 distinct module types (e.g., a projectile modifier, a melee enhancement, a defensive buff) during the match. The goal is to survive waves by strategically adapting the character's build using these modules. | Implement core character movement and a basic attack.; Develop 5 distinct module types with clear visual and functional differences (e.g., 'fire projectile', 'lifesteal on hit', 'temporary shield', 'dash attack', 'area-of-effect burst').; Create a simple UI for equipping/swapping modules before a match.; Implement a system for dynamically activating/integrating modules during gameplay.; Design a single-player PvE arena with waves of simple enemy AI.; Focus on demonstrating the synergy between 2-3 modules at a time."
+          }
+        }
+      ]
+    }
+  ]
+}

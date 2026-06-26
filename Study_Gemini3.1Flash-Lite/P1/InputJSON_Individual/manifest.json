@@ -1,0 +1,28 @@
+{
+  "stage": "P1_blind_individual_dataset_builder",
+  "prompt_regime": "P1_shared_neutral",
+  "created_at_utc": "2026-06-24T04:10:13+00:00",
+  "input_root": "[LOCAL_PATH_REDACTED]",
+  "seed": 20260622,
+  "batch_size": 10,
+  "expected_domains": 6,
+  "discovered_domains": 6,
+  "ideas_per_condition_domain": 10,
+  "candidate_count_total": 180,
+  "candidate_count_by_method": {
+    "M0_DIRECT_LOW_TEMP": 60,
+    "M1_RAW_HIGH_TEMP": 60,
+    "M3_CHVD_DISTILLED": 60
+  },
+  "batch_count": 18,
+  "sibling_collisions_within_batch": 0,
+  "public_files": [
+    "blind_candidates_public.jsonl",
+    "batches/batch_*.json",
+    "input_file_manifest_sha256.csv",
+    "manifest.json"
+  ],
+  "private_files_never_share_with_judge": [
+    "blind_key_private.csv"
+  ]
+}

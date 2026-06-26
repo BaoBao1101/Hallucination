@@ -1,0 +1,32 @@
+{
+  "stage": "neutral_randomized_pairwise_m1_m3_judge",
+  "judge_model": "gemini-2.5-flash-lite",
+  "temperature": 0.0,
+  "top_p": 0.1,
+  "metrics": [
+    "novelty_preference",
+    "conceptual_coherence_preference",
+    "user_pain_plausibility_preference",
+    "technical_plausibility_preference",
+    "mvp_clarity_preference",
+    "business_model_plausibility_preference",
+    "lower_unsupported_claim_risk",
+    "lower_ethical_privacy_risk",
+    "overall_mvp_usefulness_preference",
+    "prototype_preference"
+  ],
+  "allowed_choice_values": [
+    "A",
+    "B",
+    "TIE"
+  ],
+  "num_batches": 9,
+  "num_pairs": 35,
+  "combined_output": "[LOCAL_PATH_REDACTED]",
+  "created_at": "2026-06-23T13:06:10",
+  "notes": [
+    "Neutral A/B randomized, blind M1-vs-M3 pairwise protocol.",
+    "This output contains no M1/M3 mapping and can be shared only with the local unblinding script.",
+    "Do not merge with directional P0-style audit scores."
+  ]
+}

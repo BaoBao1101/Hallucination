@@ -1,0 +1,79 @@
+{
+  "allowed_choice_values": [
+    "A",
+    "B",
+    "TIE"
+  ],
+  "metrics": [
+    {
+      "name": "novelty_preference",
+      "direction": "higher_is_better",
+      "description": "Candidate nào có cơ chế hoặc cách tiếp cận khác biệt, sáng tạo và ít rập khuôn hơn?"
+    },
+    {
+      "name": "conceptual_coherence_preference",
+      "direction": "higher_is_better",
+      "description": "Candidate nào logic và nhất quán hơn giữa problem/desire, concept, approach và MVP?"
+    },
+    {
+      "name": "user_pain_plausibility_preference",
+      "direction": "higher_is_better",
+      "description": "Candidate nào mô tả user pain hoặc desire hợp lý hơn như một giả thuyết cần kiểm thử?"
+    },
+    {
+      "name": "technical_plausibility_preference",
+      "direction": "higher_is_better",
+      "description": "Candidate nào khả thi hơn về mặt kỹ thuật trong đúng phạm vi được mô tả?"
+    },
+    {
+      "name": "mvp_clarity_preference",
+      "direction": "higher_is_better",
+      "description": "Candidate nào có MVP cụ thể, đủ hẹp và dễ kiểm thử hơn?"
+    },
+    {
+      "name": "business_model_plausibility_preference",
+      "direction": "higher_is_better",
+      "description": "Candidate nào có giả thuyết value exchange hoặc business model hợp lý hơn?"
+    },
+    {
+      "name": "lower_unsupported_claim_risk",
+      "direction": "lower_is_better",
+      "description": "Candidate nào có ít unsupported claim, vague claim hoặc overclaim hơn?"
+    },
+    {
+      "name": "lower_ethical_privacy_risk",
+      "direction": "lower_is_better",
+      "description": "Candidate nào có rủi ro đạo đức, quyền riêng tư, thao túng hoặc misuse thấp hơn?"
+    },
+    {
+      "name": "overall_mvp_usefulness_preference",
+      "direction": "higher_is_better",
+      "description": "Candidate nào hữu ích hơn như một MVP hypothesis để kiểm thử?"
+    },
+    {
+      "name": "prototype_preference",
+      "direction": "higher_is_better",
+      "description": "Nếu nguồn lực chỉ đủ prototype một candidate trước, bạn chọn candidate nào?"
+    }
+  ],
+  "output_schema": {
+    "evaluations": [
+      {
+        "pair_id": "P1PAIR_0001",
+        "preferences": {
+          "novelty_preference": "A",
+          "conceptual_coherence_preference": "A",
+          "user_pain_plausibility_preference": "A",
+          "technical_plausibility_preference": "A",
+          "mvp_clarity_preference": "A",
+          "business_model_plausibility_preference": "A",
+          "lower_unsupported_claim_risk": "A",
+          "lower_ethical_privacy_risk": "A",
+          "overall_mvp_usefulness_preference": "A",
+          "prototype_preference": "A"
+        },
+        "short_rationale": ""
+      }
+    ]
+  }
+}

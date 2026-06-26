@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "stage": "P1_blind_individual_metric_judge",
+    "judge_model": "gemini-2.5-flash-lite",
+    "temperature": 0.0,
+    "top_p": 0.1,
+    "score_scale": "continuous_numeric_1_to_5",
+    "batch_source": "[LOCAL_PATH_REDACTED]",
+    "batch_source_sha256": "ea1745a3756e13c5234835c25dc5c4e60f6b0b99081cc7c7bc7f4ea4a1c522fb",
+    "created_at_utc": "2026-06-22T07:36:48+00:00"
+  },
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0023",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "Addresses a significant pain point for self-directed learners with a plausible AI-driven solution. The MVP is clear, but the technical feasibility of a truly adaptive AI in the MVP is questionable."
+    },
+    {
+      "candidate_id": "BLIND_0024",
+      "scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.0,
+        "prototype_willingness": 3.0
+      },
+      "short_rationale": "Provides a practical solution for creating micro-learning content with a clear MVP. The novelty is moderate, and the scope is well-defined for testing."
+    },
+    {
+      "candidate_id": "BLIND_0034",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Offers a novel and immersive experience that combines food with other senses, addressing a desire for unique entertainment. The MVP is well-defined and feasible."
+    },
+    {
+      "candidate_id": "BLIND_0039",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 2.5,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The concept of location-based, time-limited challenges is engaging and taps into a desire for spontaneous activity. The MVP scope is clear, but the business model and verification methods seem underdeveloped."
+    },
+    {
+      "candidate_id": "BLIND_0074",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "Addresses a critical and complex need for individuals with severe allergies, offering a highly valuable solution. The MVP is well-defined and tests the core value proposition."
+    },
+    {
+      "candidate_id": "BLIND_0082",
+      "scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 3.0,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.0,
+        "business_model_plausibility": 2.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 2.5,
+        "prototype_willingness": 2.5
+      },
+      "short_rationale": "The concept of simplifying visual guide creation is useful, but the MVP is extremely limited, only allowing a single annotated image. The business model is unclear."
+    },
+    {
+      "candidate_id": "BLIND_0100",
+      "scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 2.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.0,
+        "prototype_willingness": 3.0
+      },
+      "short_rationale": "Addresses a plausible pain point for niche newsletter creators with a focused approach. The MVP is concrete, but the reliance on manual research for partner identification limits scalability."
+    }
+  ]
+}

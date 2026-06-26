@@ -1,0 +1,2404 @@
+{
+"evaluations": [
+{
+"pair_id": "P1PAIR_0001",
+"candidate_a_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 3.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.0,
+"prototype_willingness": 4.0
+},
+"candidate_b_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.2,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.6
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "TIE",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Both candidates offer highly plausible, low-risk service businesses. Candidate B wins because its prototype scope provides explicit, actionable execution steps, making the MVP exceptionally clear and ready to test."
+},
+{
+"pair_id": "P1PAIR_0002",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.6,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"candidate_b_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 2.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.0,
+"mvp_clarity": 2.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 2.8,
+"prototype_willingness": 2.5
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "A",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Candidate A provides a coherent link between the concept (remote coaching) and the live-video prototype. Candidate B introduces crowdsourced cookbooks but tests remote interface pads, creating a disjointed and confusing MVP scope."
+},
+{
+"pair_id": "P1PAIR_0003",
+"candidate_a_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 3.0,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.2
+},
+"candidate_b_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.8,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.6
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Candidate B proposes a highly grounded CSV-based ingestion MVP with clear execution steps. Candidate A relies on automated API connections to disparate identity platforms, which is significantly harder to build and riskier for a V1 prototype."
+},
+{
+"pair_id": "P1PAIR_0004",
+"candidate_a_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.2,
+"technical_plausibility": 3.0,
+"mvp_clarity": 3.0,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 3.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.2,
+"prototype_willingness": 3.0
+},
+"candidate_b_scores": {
+"novelty": 2.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.2,
+"technical_plausibility": 5.0,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.6
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Candidate B defines a low-risk, manual service MVP to validate the pain point before building software. Candidate A assumes a complex automated exclusion list sync protocol out of the gate, making it a much riskier prototype."
+},
+{
+"pair_id": "P1PAIR_0005",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.7
+},
+"candidate_b_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.8,
+"prototype_willingness": 3.8
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Candidate A provides a strictly bounded and explicitly actionable MVP scope with discrete implementation steps. Candidate B outlines a very similar product but lacks the concrete execution timeline and testing boundaries found in A."
+},
+{
+"pair_id": "P1PAIR_0006",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 3.0,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 2.5,
+"mvp_clarity": 2.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 3.5,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 2.5,
+"prototype_willingness": 2.5
+},
+"candidate_b_scores": {
+"novelty": 2.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.8,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "B",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Candidate B proposes a feasible, manual user-rating system to map acoustic environments, making for an excellent MVP. Candidate A relies on 'acoustic sentiment monitoring' and 'assumed levels,' which are vague, technically demanding, and unsupported."
+},
+{
+"pair_id": "P1PAIR_0007",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 3.8,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.5,
+"mvp_clarity": 3.2,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.2
+},
+"candidate_b_scores": {
+"novelty": 2.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.8,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Candidate B outlines a highly actionable, structured directory site with concrete database steps. Candidate A introduces 'gamified metadata tagging' which adds unnecessary complexity and scope creep for a basic validation prototype."
+},
+{
+"pair_id": "P1PAIR_0008",
+"candidate_a_scores": {
+"novelty": 4.0,
+"conceptual_coherence": 3.0,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 2.5,
+"mvp_clarity": 3.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 3.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 2.8,
+"prototype_willingness": 2.5
+},
+"candidate_b_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.6
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Candidate A claims a 'massively parallel text adventure' but only tests a simple minigame, showing a huge scope mismatch. Candidate B aligns a bounded single-player concept with a clear, step-by-step prototype."
+},
+{
+"pair_id": "P1PAIR_0009",
+"candidate_a_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.6
+},
+"candidate_b_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 2.5,
+"mvp_clarity": 3.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 3.0,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 3.2,
+"prototype_willingness": 3.0
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "A",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Candidate A details a full, logical prototype pipeline from ingestion to a categorized dashboard. Candidate B focuses purely on an 'input normalization agent' to parse 'messy Yelp reviews', which is technically ambiguous and less actionable as a product."
+},
+{
+"pair_id": "P1PAIR_0010",
+"candidate_a_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.8,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.5
+},
+"candidate_b_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.8,
+"prototype_willingness": 3.8
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Candidate A provides a very structured, step-by-step prototype scope outlining exactly what features will be built. Candidate B is conceptually similar but lacks the discrete execution instructions that make A highly actionable."
+},
+{
+"pair_id": "P1PAIR_0011",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.8
+},
+"candidate_b_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 2.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 3.0,
+"mvp_clarity": 2.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 2.5,
+"prototype_willingness": 2.5
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "A",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Candidate A offers an excellently bounded pilot using a simple manual test kit and subjective feedback. Candidate B is missing a core concept statement and uses overly complex phrasing ('batch-certified', 'objectively measured laboratory acidity') for a prototype."
+},
+{
+"pair_id": "P1PAIR_0012",
+"candidate_a_scores": {
+"novelty": 4.0,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 2.0,
+"mvp_clarity": 3.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 3.0,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 2.5,
+"prototype_willingness": 2.0
+},
+"candidate_b_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.6
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "B",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "B",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Candidate B proposes a pragmatic, manual concierge MVP to test demand for pre-prepped meals at transit hubs. Candidate A proposes deploying complex, climate-controlled automated modular lockers right away, which is an unrealistic first step."
+},
+{
+"pair_id": "P1PAIR_0013",
+"candidate_a_scores": {
+"novelty": 4.2,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.0,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.5
+},
+"candidate_b_scores": {
+"novelty": 3.8,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.6
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Candidate B uses a statically simulated sunlight cycle to test the gardening game concept, which is a perfect, contained MVP. Candidate A relies on live meteorological/astronomical APIs out of the gate, adding unnecessary technical risk."
+},
+{
+"pair_id": "P1PAIR_0014",
+"candidate_a_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 3.8,
+"user_pain_plausibility": 4.2,
+"technical_plausibility": 4.0,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.5
+},
+"candidate_b_scores": {
+"novelty": 2.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.2,
+"technical_plausibility": 5.0,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.6
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Candidate B outlines a highly specific, executable prototype scope with discrete steps (build form, implement charting, display). Candidate A lacks this execution breakdown, making it less clear as a starting point."
+},
+{
+"pair_id": "P1PAIR_0015",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 3.8,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.5
+},
+"candidate_b_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.6
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Candidate B explicitly outlines the step-by-step implementation of manual entry protocols to test the gated entry concept. Candidate A suggests auto-clearing workflows, which requires more complex initial integration, and lacks discrete testing steps."
+},
+{
+"pair_id": "P1PAIR_0016",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.0,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.0
+},
+"candidate_b_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.8,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.7
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "B",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Candidate B uses a WhatsApp group as a highly practical, no-code MVP to validate user willingness to share backyard produce. Candidate A's proposal to build a custom geolocated map-based exchange is overkill for validation."
+},
+{
+"pair_id": "P1PAIR_0017",
+"candidate_a_scores": {
+"novelty": 4.5,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 4.2,
+"technical_plausibility": 2.0,
+"mvp_clarity": 3.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 3.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 2.5,
+"prototype_willingness": 2.5
+},
+"candidate_b_scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.2,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.6
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Candidate B brilliantly grounds the RPG concept by using manual inventory input for the prototype. Candidate A relies on camera-vision OCR scanning to map pantry items, which introduces massive technical friction for a simple gaming MVP."
+},
+{
+"pair_id": "P1PAIR_0018",
+"candidate_a_scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.6
+},
+"candidate_b_scores": {
+"novelty": 4.0,
+"conceptual_coherence": 3.8,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.5,
+"mvp_clarity": 3.2,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.2
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Candidate A defines explicit steps to build the coding-combat prototype. Candidate B describes an interesting 'regex fortification' mechanic but lacks the clear operational bounds and step-by-step clarity found in A."
+},
+{
+"pair_id": "P1PAIR_0019",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.8
+},
+"candidate_b_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 3.0,
+"mvp_clarity": 3.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.2,
+"prototype_willingness": 3.0
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "A",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Candidate A outlines a perfectly scaled concierge MVP: explicitly procuring local market surplus and catering 5 lunches to gather feedback. Candidate B aims at 'total reduction of carbon-spend data collection', which is overly complex and vague."
+},
+{
+"pair_id": "P1PAIR_0020",
+"candidate_a_scores": {
+"novelty": 3.8,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.2,
+"technical_plausibility": 4.0,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 3.8,
+"prototype_willingness": 3.5
+},
+"candidate_b_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.2,
+"technical_plausibility": 4.8,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.7
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "TIE",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Candidate B breaks down the implementation into clear, actionable steps (choose recipe, build visualization, test). Candidate A describes the end-state UI but lacks the explicit testing blueprint that makes B a superior MVP."
+},
+{
+"pair_id": "P1PAIR_0021",
+"candidate_a_scores": {
+"novelty": 3.8,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.8,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.8
+},
+"candidate_b_scores": {
+"novelty": 4.0,
+"conceptual_coherence": 3.0,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 1.5,
+"mvp_clarity": 2.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 3.5,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 2.0,
+"prototype_willingness": 1.5
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "A",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "A",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Candidate A tests the core desire for social cooking using simple video calls and well-defined testing steps. Candidate B requires building synchronized smart hardware to connect solo kitchens, an absurdly complex barrier for an initial prototype."
+},
+{
+"pair_id": "P1PAIR_0022",
+"candidate_a_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 3.8,
+"prototype_willingness": 3.8
+},
+"candidate_b_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.8,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.6
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Candidate B provides explicit steps for constructing the calculator (define variables, build form, implement logic). Candidate A describes the exact same product but lacks the procedural clarity that makes B a better prototype guide."
+},
+{
+"pair_id": "P1PAIR_0023",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.8,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.6
+},
+"candidate_b_scores": {
+"novelty": 4.0,
+"conceptual_coherence": 3.0,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 2.0,
+"mvp_clarity": 2.5,
+"business_model_plausibility": 3.0,
+"unsupported_claim_risk": 3.5,
+"ethical_privacy_risk": 3.0,
+"overall_mvp_usefulness": 2.2,
+"prototype_willingness": 2.0
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "A",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "A",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Candidate A tests the personalized caffeine value proposition using manual email delivery and a simple pilot. Candidate B requires live software integration between wearable sensors and dispensing machinery, introducing immense risk and unsupported technical claims."
+},
+{
+"pair_id": "P1PAIR_0024",
+"candidate_a_scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.2,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.5
+},
+"candidate_b_scores": {
+"novelty": 4.2,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 4.2,
+"technical_plausibility": 2.5,
+"mvp_clarity": 3.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 3.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.0,
+"prototype_willingness": 2.8
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "A",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Candidate A builds a highly feasible branching logic MVP with explicitly defined steps. Candidate B relies on an AI machine 'attempting to solve probability curves' during session rounds, which is complex and difficult to bound for testing."
+},
+{
+"pair_id": "P1PAIR_0025",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.8,
+"prototype_willingness": 3.5
+},
+"candidate_b_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.8,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.6
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Candidate B explicitly outlines the logistical steps for the blind-tasting MVP (design menu, recruit, host, collect feedback). Candidate A proposes the same event but lacks the crisp operational clarity of B."
+},
+{
+"pair_id": "P1PAIR_0026",
+"candidate_a_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.8,
+"technical_plausibility": 4.8,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.6
+},
+"candidate_b_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 3.8,
+"user_pain_plausibility": 4.8,
+"technical_plausibility": 3.0,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.2,
+"prototype_willingness": 3.0
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "A",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Candidate A uses a manual web form to test the demand for price tracking, which is trivial to build. Candidate B relies on automated parsing of CSV or PDF invoices, introducing substantial OCR/formatting technical risk for an MVP."
+},
+{
+"pair_id": "P1PAIR_0027",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.6
+},
+"candidate_b_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 2.5,
+"mvp_clarity": 3.0,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.0,
+"prototype_willingness": 2.8
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Candidate A brilliantly scopes the MVP to a manual subscription list, single courier, and basic spreadsheet routing. Candidate B unnecessarily scopes building a custom 'middleware logistics platform' and 'delivery route scheduler,' ballooning the technical barrier."
+},
+{
+"pair_id": "P1PAIR_0028",
+"candidate_a_scores": {
+"novelty": 4.0,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 2.5,
+"mvp_clarity": 3.0,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 3.5,
+"ethical_privacy_risk": 2.5,
+"overall_mvp_usefulness": 2.8,
+"prototype_willingness": 2.5
+},
+"candidate_b_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.6
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "B",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Candidate B proposes a bounded, manual interaction ('save to ticket' button) with explicit build steps. Candidate A assumes a fully autonomous background agent synthesizing contextual summaries, carrying high technical and privacy risks."
+},
+{
+"pair_id": "P1PAIR_0029",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.2,
+"technical_plausibility": 4.8,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.7
+},
+"candidate_b_scores": {
+"novelty": 3.8,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 4.2,
+"technical_plausibility": 2.5,
+"mvp_clarity": 3.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 3.0,
+"prototype_willingness": 2.8
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "A",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "A",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Candidate A bounds the MVP to shipping physical kits and hosting a video call, an extremely feasible test. Candidate B incorporates remote sensors and synchronized global delivery timing, adding massive operational and technical complexity."
+},
+{
+"pair_id": "P1PAIR_0030",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"candidate_b_scores": {
+"novelty": 3.8,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 2.5,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 3.0,
+"ethical_privacy_risk": 2.5,
+"overall_mvp_usefulness": 3.2,
+"prototype_willingness": 3.0
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "A",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "A",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Candidate A provides a tangible, step-by-step prototype (build scraper, define rubric, score output). Candidate B utilizes buzzwords like 'autonomous social reading' and 'grading mindshare', which represent unsupported analytical leaps."
+},
+{
+"pair_id": "P1PAIR_0031",
+"candidate_a_scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 3.8,
+"prototype_willingness": 3.5
+},
+"candidate_b_scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.2,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "TIE",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Candidate B breaks the prototype down into explicit, actionable build steps (record cues, implement recognition, build logic). Candidate A describes the same prototype but without the clear step-by-step structure."
+},
+{
+"pair_id": "P1PAIR_0032",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.8,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.7
+},
+"candidate_b_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 3.8,
+"user_pain_plausibility": 4.8,
+"technical_plausibility": 2.5,
+"mvp_clarity": 3.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 3.0,
+"ethical_privacy_risk": 2.5,
+"overall_mvp_usefulness": 3.0,
+"prototype_willingness": 2.8
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "A",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "A",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Candidate A scopes a realistic MVP utilizing simple transcript uploads and prompt engineering. Candidate B envisions 'agents that shadow planning calls' to autonomously document whiteboards, which is significantly riskier and harder to build."
+},
+{
+"pair_id": "P1PAIR_0033",
+"candidate_a_scores": {
+"novelty": 4.2,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.5,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.5
+},
+"candidate_b_scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.2,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "TIE",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Candidate B features a well-defined step-by-step prototype (design node system, logic, UI) which clearly translates the idea into a buildable format. Candidate A lacks this execution breakdown."
+},
+{
+"pair_id": "P1PAIR_0034",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 3.8,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 2.5,
+"mvp_clarity": 3.0,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.0,
+"prototype_willingness": 2.8
+},
+"candidate_b_scores": {
+"novelty": 3.2,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.8,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.6
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Candidate B proposes a pragmatic text comparison engine where users paste content to highlight overlap, making it highly testable. Candidate A assumes the capability to monitor and interpret abstract governmental regulatory feeds automatically."
+},
+{
+"pair_id": "P1PAIR_0035",
+"candidate_a_scores": {
+"novelty": 2.5,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 3.8,
+"prototype_willingness": 3.5
+},
+"candidate_b_scores": {
+"novelty": 2.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.8,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.6
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Candidate B provides explicit execution steps for the Google Sheets concierge service (vet 3 vendors, create portal, onboard 5 retailers). Candidate A proposes the same prototype but without the clear step-by-step breakdown."
+},
+{
+"pair_id": "P1PAIR_0036",
+"candidate_a_scores": {
+"novelty": 3.8,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.7
+},
+"candidate_b_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 3.0,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 3.0,
+"overall_mvp_usefulness": 3.2,
+"prototype_willingness": 3.0
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "A",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "A",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Candidate A provides a simple, actionable workflow using time-stamped video clips sent to users. Candidate B requires '24/7 web camera documentation', which creates privacy/surveillance concerns for staff and is harder to manage."
+},
+{
+"pair_id": "P1PAIR_0037",
+"candidate_a_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.8,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.6
+},
+"candidate_b_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 2.5,
+"mvp_clarity": 3.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 2.8,
+"prototype_willingness": 2.5
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "A",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Candidate A correctly scopes the MVP by using a mobile cart and manual tracking to test demand first. Candidate B assumes immediate deployment of automated 'dynamic inventory logic' kiosks, which is technically intensive and risky for validation."
+},
+{
+"pair_id": "P1PAIR_0038",
+"candidate_a_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.2,
+"technical_plausibility": 4.0,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.8,
+"prototype_willingness": 3.5
+},
+"candidate_b_scores": {
+"novelty": 2.5,
+"conceptual_coherence": 4.2,
+"user_pain_plausibility": 4.2,
+"technical_plausibility": 4.8,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "TIE",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Candidate B clearly defines the prototype build steps (build list, add fields, implement filter) for the personal CRM concept. Candidate A lacks this operational breakdown."
+},
+{
+"pair_id": "P1PAIR_0039",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.7
+},
+"candidate_b_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.5,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.5
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "A",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Candidate A outlines a perfectly scaled concierge pilot by partnering with a local community garden and executing bucket exchanges. Candidate B relies on 'municipal processing pipelines', which involves heavier infrastructure and coordination."
+},
+{
+"pair_id": "P1PAIR_0040",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 3.8,
+"prototype_willingness": 3.5
+},
+"candidate_b_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Candidate B clearly operationalizes the prototype with a sequential build plan (form, filter, messaging feature). Candidate A relies on 'constraint matching metrics', which sounds slightly complex without explicit steps for validation."
+},
+{
+"pair_id": "P1PAIR_0041",
+"candidate_a_scores": {
+"novelty": 4.5,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 3.5,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.5
+},
+"candidate_b_scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.0,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Candidate B breaks the cooperative drawing tool prototype down into clear technical milestones (canvas, networking, control roles). Candidate A presents the same fundamental test but lacks the explicit step-by-step clarity."
+},
+{
+"pair_id": "P1PAIR_0042",
+"candidate_a_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.8,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.7
+},
+"candidate_b_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 3.5,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.5
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "A",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "A",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Candidate A proposes a pragmatic MVP using existing tools (PDF/Notion playbooks) with distinct feedback-gathering steps. Candidate B requires building a full 'interactive documentation SaaS measuring engagement,' which is overbuilt for validation."
+},
+{
+"pair_id": "P1PAIR_0043",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.2,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.8
+},
+"candidate_b_scores": {
+"novelty": 3.8,
+"conceptual_coherence": 3.0,
+"user_pain_plausibility": 4.2,
+"technical_plausibility": 2.0,
+"mvp_clarity": 3.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 3.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 2.8,
+"prototype_willingness": 2.5
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "A",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "A",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Candidate A effectively validates the demand for fresh kitchen herbs using a manual replacement subscription service. Candidate B introduces custom hardware installations ('harvest substrate cassettes' into resident fridges), creating immense barrier-to-entry for an MVP."
+},
+{
+"pair_id": "P1PAIR_0044",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.8,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.7
+},
+"candidate_b_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 3.5,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 2.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.5
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "A",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Candidate A provides clear, discrete execution steps for testing the coffee gear rental service. Candidate B wraps the same idea in abstract buzzwords ('Circularity economy platform') and lacks the explicit operational roadmap."
+},
+{
+"pair_id": "P1PAIR_0045",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.8,
+"technical_plausibility": 3.0,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.8,
+"unsupported_claim_risk": 2.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.5
+},
+"candidate_b_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.8,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.2,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.7
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "B",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Candidate B proposes a pragmatic stocking strategy and a bounded 5-cafe pilot to validate the rapid repair service. Candidate A demands an aggregated network of master electricians and 'modular machine heart swaps,' which poses massive upfront execution risk."
+},
+{
+"pair_id": "P1PAIR_0046",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.8,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.7
+},
+"candidate_b_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 3.0,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 2.0,
+"mvp_clarity": 3.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 3.5,
+"ethical_privacy_risk": 2.0,
+"overall_mvp_usefulness": 2.5,
+"prototype_willingness": 2.0
+},
+"preferences": {
+"novelty_preference": "TIE",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "A",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "A",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Candidate A tests the transparent tipping concept using a fully manual tracking dashboard, perfect for early validation. Candidate B insists on 'blockchain smart-contracts' to distribute surplus, adding severe and unnecessary technical friction."
+},
+{
+"pair_id": "P1PAIR_0047",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.2,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"candidate_b_scores": {
+"novelty": 3.8,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 4.2,
+"technical_plausibility": 4.0,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 3.8,
+"prototype_willingness": 3.5
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "TIE",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "TIE",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Candidate A includes step-by-step instructions (build upload, implement hotspot, add text) that clearly delineate the MVP scope. Candidate B is conceptually identical but lacks these specific execution details."
+},
+{
+"pair_id": "P1PAIR_0048",
+"candidate_a_scores": {
+"novelty": 3.0,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 3.0,
+"mvp_clarity": 3.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 3.0,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.0,
+"prototype_willingness": 2.8
+},
+"candidate_b_scores": {
+"novelty": 2.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.8,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.7
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "B",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "B",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Candidate B proposes a simple threshold monitoring script backed by manual alerts, an ideal validation step. Candidate A assumes the capability to 'notif[y] creators exactly what snippet needs revision,' representing a significant unsupported technical leap."
+},
+{
+"pair_id": "P1PAIR_0049",
+"candidate_a_scores": {
+"novelty": 4.0,
+"conceptual_coherence": 4.0,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 3.8,
+"mvp_clarity": 3.5,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 3.5,
+"prototype_willingness": 3.5
+},
+"candidate_b_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 3.5,
+"technical_plausibility": 4.5,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 1.0,
+"ethical_privacy_risk": 1.0,
+"overall_mvp_usefulness": 4.5,
+"prototype_willingness": 4.5
+},
+"preferences": {
+"novelty_preference": "A",
+"conceptual_coherence_preference": "B",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "B",
+"mvp_clarity_preference": "B",
+"business_model_plausibility_preference": "TIE",
+"lower_unsupported_claim_risk": "B",
+"lower_ethical_privacy_risk": "B",
+"overall_mvp_usefulness_preference": "B",
+"prototype_preference": "B"
+},
+"short_rationale": "Candidate B lists exactly what the build entails (implement geofencing, record audio, build interface), making it highly actionable. Candidate A relies on gamified terms ('tethered narrative mission') but lacks the concrete technical blueprint."
+},
+{
+"pair_id": "P1PAIR_0050",
+"candidate_a_scores": {
+"novelty": 3.5,
+"conceptual_coherence": 4.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 4.0,
+"mvp_clarity": 4.8,
+"business_model_plausibility": 4.0,
+"unsupported_claim_risk": 1.5,
+"ethical_privacy_risk": 1.5,
+"overall_mvp_usefulness": 4.6,
+"prototype_willingness": 4.6
+},
+"candidate_b_scores": {
+"novelty": 4.0,
+"conceptual_coherence": 3.5,
+"user_pain_plausibility": 4.5,
+"technical_plausibility": 2.0,
+"mvp_clarity": 3.0,
+"business_model_plausibility": 3.5,
+"unsupported_claim_risk": 3.5,
+"ethical_privacy_risk": 2.5,
+"overall_mvp_usefulness": 2.8,
+"prototype_willingness": 2.5
+},
+"preferences": {
+"novelty_preference": "B",
+"conceptual_coherence_preference": "A",
+"user_pain_plausibility_preference": "TIE",
+"technical_plausibility_preference": "A",
+"mvp_clarity_preference": "A",
+"business_model_plausibility_preference": "A",
+"lower_unsupported_claim_risk": "A",
+"lower_ethical_privacy_risk": "A",
+"overall_mvp_usefulness_preference": "A",
+"prototype_preference": "A"
+},
+"short_rationale": "Candidate A frames a highly plausible, bounded scheduling MVP based on manual tagging and simple calendar rules. Candidate B proposes predictive behavior analysis ('predicting schedule collapse based on historical meeting habits'), an incredibly complex feature for an MVP."
+},
+{
+      "pair_id": "P1PAIR_0051",
+      "candidate_a_scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.8,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.5,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "candidate_b_scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 2.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 1.5,
+        "overall_mvp_usefulness": 3.0,
+        "prototype_willingness": 2.5
+      },
+      "preferences": {
+        "novelty_preference": "B",
+        "conceptual_coherence_preference": "A",
+        "user_pain_plausibility_preference": "TIE",
+        "technical_plausibility_preference": "A",
+        "mvp_clarity_preference": "A",
+        "business_model_plausibility_preference": "TIE",
+        "lower_unsupported_claim_risk": "A",
+        "lower_ethical_privacy_risk": "TIE",
+        "overall_mvp_usefulness_preference": "A",
+        "prototype_preference": "A"
+      },
+      "short_rationale": "Candidate A defines a clear, bounded prototype scope with execution steps (integrate data, implement detection, build UI). Candidate B relies on 'procedurally generated audio experience' and 'faster melodic overlays', introducing significant and unbounded technical complexity for an MVP."
+    },
+    {
+      "pair_id": "P1PAIR_0052",
+      "candidate_a_scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 4.8,
+        "mvp_clarity": 4.8,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.6,
+        "prototype_willingness": 4.7
+      },
+      "candidate_b_scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 3.8,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.5
+      },
+      "preferences": {
+        "novelty_preference": "TIE",
+        "conceptual_coherence_preference": "TIE",
+        "user_pain_plausibility_preference": "TIE",
+        "technical_plausibility_preference": "A",
+        "mvp_clarity_preference": "A",
+        "business_model_plausibility_preference": "TIE",
+        "lower_unsupported_claim_risk": "TIE",
+        "lower_ethical_privacy_risk": "TIE",
+        "overall_mvp_usefulness_preference": "A",
+        "prototype_preference": "A"
+      },
+      "short_rationale": "Candidate A clearly delineates the operational steps to test the procurement bridge (recruit creators/brands, facilitate, monitor). Candidate B describes the exact same Slack-based prototype but lacks the step-by-step clarity."
+    },
+    {
+      "pair_id": "P1PAIR_0053",
+      "candidate_a_scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 3.5,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 2.5,
+        "mvp_clarity": 3.0,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 2.5,
+        "overall_mvp_usefulness": 3.0,
+        "prototype_willingness": 2.8
+      },
+      "candidate_b_scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.8,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.5,
+        "overall_mvp_usefulness": 4.6,
+        "prototype_willingness": 4.6
+      },
+      "preferences": {
+        "novelty_preference": "A",
+        "conceptual_coherence_preference": "B",
+        "user_pain_plausibility_preference": "TIE",
+        "technical_plausibility_preference": "B",
+        "mvp_clarity_preference": "B",
+        "business_model_plausibility_preference": "TIE",
+        "lower_unsupported_claim_risk": "B",
+        "lower_ethical_privacy_risk": "B",
+        "overall_mvp_usefulness_preference": "B",
+        "prototype_preference": "B"
+      },
+      "short_rationale": "Candidate B breaks down a pragmatic, script-based folder monitoring service with specific build steps. Candidate A relies on 'intelligent filing agents' that autonomously move files and check against 'house style', carrying massive technical and legal risk."
+    },
+    {
+      "pair_id": "P1PAIR_0054",
+      "candidate_a_scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 2.5,
+        "ethical_privacy_risk": 1.5,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "candidate_b_scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 4.8,
+        "mvp_clarity": 4.8,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.6,
+        "prototype_willingness": 4.7
+      },
+      "preferences": {
+        "novelty_preference": "A",
+        "conceptual_coherence_preference": "B",
+        "user_pain_plausibility_preference": "TIE",
+        "technical_plausibility_preference": "B",
+        "mvp_clarity_preference": "B",
+        "business_model_plausibility_preference": "TIE",
+        "lower_unsupported_claim_risk": "B",
+        "lower_ethical_privacy_risk": "B",
+        "overall_mvp_usefulness_preference": "B",
+        "prototype_preference": "B"
+      },
+      "short_rationale": "Candidate B outlines a purely manual matchmaking MVP with explicit execution steps, perfectly suited for early validation. Candidate A adds 'AI-moderated skill verification' to the manual pilot, introducing unnecessary technical complexity and unsupported claims."
+    },
+    {
+      "pair_id": "P1PAIR_0055",
+      "candidate_a_scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 3.0,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 2.0,
+        "mvp_clarity": 2.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 4.0,
+        "ethical_privacy_risk": 3.5,
+        "overall_mvp_usefulness": 2.5,
+        "prototype_willingness": 2.0
+      },
+      "candidate_b_scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.8,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.5,
+        "overall_mvp_usefulness": 4.6,
+        "prototype_willingness": 4.7
+      },
+      "preferences": {
+        "novelty_preference": "A",
+        "conceptual_coherence_preference": "B",
+        "user_pain_plausibility_preference": "TIE",
+        "technical_plausibility_preference": "B",
+        "mvp_clarity_preference": "B",
+        "business_model_plausibility_preference": "B",
+        "lower_unsupported_claim_risk": "B",
+        "lower_ethical_privacy_risk": "B",
+        "overall_mvp_usefulness_preference": "B",
+        "prototype_preference": "B"
+      },
+      "short_rationale": "Candidate B correctly limits the prototype to a manual delivery and feedback loop to test demand. Candidate A relies on 'biometric and linguistic sentiment ratings' and 'neuro-sensory feedback loops', presenting huge technical, privacy, and medical claim risks."
+    },
+    {
+      "pair_id": "P1PAIR_0056",
+      "candidate_a_scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 4.8,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.5,
+        "overall_mvp_usefulness": 4.6,
+        "prototype_willingness": 4.6
+      },
+      "candidate_b_scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 3.8,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 2.5,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 3.0,
+        "ethical_privacy_risk": 2.0,
+        "overall_mvp_usefulness": 3.0,
+        "prototype_willingness": 2.8
+      },
+      "preferences": {
+        "novelty_preference": "TIE",
+        "conceptual_coherence_preference": "A",
+        "user_pain_plausibility_preference": "TIE",
+        "technical_plausibility_preference": "A",
+        "mvp_clarity_preference": "A",
+        "business_model_plausibility_preference": "TIE",
+        "lower_unsupported_claim_risk": "A",
+        "lower_ethical_privacy_risk": "A",
+        "overall_mvp_usefulness_preference": "A",
+        "prototype_preference": "A"
+      },
+      "short_rationale": "Candidate A defines a concrete, bounded script MVP relying on parsing explicitly defined formats with regex. Candidate B uses an autonomous agent that extracts data from emails and APIs to flag overcharges, which is much riskier and less bounded."
+    },
+    {
+      "pair_id": "P1PAIR_0057",
+      "candidate_a_scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.2,
+        "technical_plausibility": 4.8,
+        "mvp_clarity": 4.8,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.6
+      },
+      "candidate_b_scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 3.8,
+        "user_pain_plausibility": 4.2,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.5
+      },
+      "preferences": {
+        "novelty_preference": "TIE",
+        "conceptual_coherence_preference": "A",
+        "user_pain_plausibility_preference": "TIE",
+        "technical_plausibility_preference": "A",
+        "mvp_clarity_preference": "A",
+        "business_model_plausibility_preference": "TIE",
+        "lower_unsupported_claim_risk": "TIE",
+        "lower_ethical_privacy_risk": "TIE",
+        "overall_mvp_usefulness_preference": "A",
+        "prototype_preference": "A"
+      },
+      "short_rationale": "Candidate A details the logistical steps for the co-op service (define methods, recruit, execute, gather feedback). Candidate B describes a similar prototype but lacks the explicit step-by-step breakdown that makes A highly executable."
+    },
+    {
+      "pair_id": "P1PAIR_0058",
+      "candidate_a_scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.8,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.6,
+        "prototype_willingness": 4.6
+      },
+      "candidate_b_scores": {
+        "novelty": 3.8,
+        "conceptual_coherence": 3.0,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 2.0,
+        "mvp_clarity": 3.0,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 3.5,
+        "ethical_privacy_risk": 1.5,
+        "overall_mvp_usefulness": 2.5,
+        "prototype_willingness": 2.2
+      },
+      "preferences": {
+        "novelty_preference": "B",
+        "conceptual_coherence_preference": "A",
+        "user_pain_plausibility_preference": "TIE",
+        "technical_plausibility_preference": "A",
+        "mvp_clarity_preference": "A",
+        "business_model_plausibility_preference": "TIE",
+        "lower_unsupported_claim_risk": "A",
+        "lower_ethical_privacy_risk": "TIE",
+        "overall_mvp_usefulness_preference": "A",
+        "prototype_preference": "A"
+      },
+      "short_rationale": "Candidate A defines a realistic decision-support dashboard requiring manual approval and utilizing static data. Candidate B envisions a self-modifying agent scraping pricing to update ERP systems automatically, introducing massive operational risk and complexity."
+    },
+    {
+      "pair_id": "P1PAIR_0059",
+      "candidate_a_scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 4.8,
+        "mvp_clarity": 4.8,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.6,
+        "prototype_willingness": 4.7
+      },
+      "candidate_b_scores": {
+        "novelty": 2.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 4.5,
+        "mvp_clarity": 3.5,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.8,
+        "prototype_willingness": 3.8
+      },
+      "preferences": {
+        "novelty_preference": "TIE",
+        "conceptual_coherence_preference": "A",
+        "user_pain_plausibility_preference": "TIE",
+        "technical_plausibility_preference": "A",
+        "mvp_clarity_preference": "A",
+        "business_model_plausibility_preference": "TIE",
+        "lower_unsupported_claim_risk": "A",
+        "lower_ethical_privacy_risk": "TIE",
+        "overall_mvp_usefulness_preference": "A",
+        "prototype_preference": "A"
+      },
+      "short_rationale": "Candidate A breaks down the exact execution steps for creating the onboarding kit (draft, record, package, test). Candidate B is conceptually identical but lacks this explicit operational roadmap."
+    },
+    {
+      "pair_id": "P1PAIR_0060",
+      "candidate_a_scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 2.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 2.0,
+        "mvp_clarity": 3.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 3.5,
+        "ethical_privacy_risk": 2.0,
+        "overall_mvp_usefulness": 2.5,
+        "prototype_willingness": 2.0
+      },
+      "candidate_b_scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.8,
+        "mvp_clarity": 4.8,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.5,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.6,
+        "prototype_willingness": 4.7
+      },
+      "preferences": {
+        "novelty_preference": "A",
+        "conceptual_coherence_preference": "B",
+        "user_pain_plausibility_preference": "TIE",
+        "technical_plausibility_preference": "B",
+        "mvp_clarity_preference": "B",
+        "business_model_plausibility_preference": "TIE",
+        "lower_unsupported_claim_risk": "B",
+        "lower_ethical_privacy_risk": "B",
+        "overall_mvp_usefulness_preference": "B",
+        "prototype_preference": "B"
+      },
+      "short_rationale": "Candidate B uses a simple, low-tech QR code survey to validate customer taste preferences. Candidate A relies on analyzing waste patterns via bin monitoring combined with footfall metadata, creating severe technical and operational feasibility issues."
+    }
+]
+}

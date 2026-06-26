@@ -1,0 +1,102 @@
+{
+  "batch_id": "P1_NEUTRAL_GEMINI_012",
+  "stage": "neutral_randomized_pairwise_m1_m3",
+  "prompt_regime": "P1_shared_neutral",
+  "pairs": [
+    {
+      "pair_id": "P1PAIR_0056",
+      "candidate_a": {
+        "title": "Vendor Dispute Navigator",
+        "target_user": "Small business operations managers",
+        "problem_or_desire": "Reconciling billing discrepancies with disparate cloud service vendors.",
+        "core_concept": "Automated cross-referencing of usage logs against invoice line items to identify discrepancies.",
+        "proposed_approach": "A diagnostic tool that ingests PDF invoices and CSV usage reports to highlight mathematical mismatches for human review.",
+        "prototype_scope": "A Python script that parses three specific SaaS billing formats and generates a CSV report of flagged discrepancies. | Define schema for three target SaaS billing formats; Develop regex-based invoice parser; Build comparison logic for usage vs. billing; Create output report generator"
+      },
+      "candidate_b": {
+        "title": "Vendor Dispute Navigator",
+        "target_user": "Small business operations managers",
+        "problem_or_desire": "Reconciling billing discrepancies with disparate cloud service vendors.",
+        "core_concept": "An agent that autonomously cross-references service usage logs against line-item invoices.",
+        "proposed_approach": "The agent extracts data from emailed invoices and uses API-accessible usage reports to flag potential overcharges for human review.",
+        "prototype_scope": "Support for exactly three major SaaS billing platforms processing synthetic email data."
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0057",
+      "candidate_a": {
+        "title": "The Community Preservative Co-op",
+        "target_user": "Time-poor vegetable-heavy cooking households",
+        "problem_or_desire": "Waste of fresh aromatics and stock perishables leading to lost inventory and cooking motivation",
+        "core_concept": "Professional preservation of home-bought produce.",
+        "proposed_approach": "A local service that picks up bulk produce and returns it prepped for the freezer.",
+        "prototype_scope": "Process 10 bags of produce for 5 households over one week. | Define preservation methods (blanching, chopping); Recruit 5 households; Execute pickup and processing; Gather feedback on convenience"
+      },
+      "candidate_b": {
+        "title": "The Community Preservative Co-op",
+        "target_user": "Time-poor vegetable-heavy cooking households",
+        "problem_or_desire": "Waste of fresh aromatics and stock perishables leading to lost inventory and cooking motivation",
+        "core_concept": "A distributed subscription for dehydration/freezing labor as an utility",
+        "proposed_approach": "Rotating service where home users get a pick-up that returns their raw grocery goods to them refined into flavor concentrates/freezer portions",
+        "prototype_scope": "Ten bags processed for local home users over one pilot week including simple inventory storage tagging"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0058",
+      "candidate_a": {
+        "title": "Inventory Equilibrium Scout",
+        "target_user": "E-commerce warehouse lead operators",
+        "problem_or_desire": "Balancing low inventory costs with delivery lead time requirements across geographic regions.",
+        "core_concept": "Dynamic adjustment of inventory buffer stocks based on external shipping cost signals.",
+        "proposed_approach": "A decision-support tool that suggests buffer stock adjustments based on static carrier rate tables and historical throughput.",
+        "prototype_scope": "A dashboard that calculates and displays recommended buffer stock changes based on user-provided CSV data. | Model inventory buffer logic; Build CSV ingestion for throughput and rates; Develop recommendation engine; Create UI for manual approval of changes"
+      },
+      "candidate_b": {
+        "title": "Inventory Equilibrium Scout",
+        "target_user": "E-commerce warehouse lead operators",
+        "problem_or_desire": "Balancing low inventory costs with delivery lead time requirements across geographic regions.",
+        "core_concept": "Self-modifying replenishment rules based on localized shipping cost fluctuations.",
+        "proposed_approach": "Connecting historical fulfillment throughput with carrier pricing scrapers to update ERP buffer stocks automatically.",
+        "prototype_scope": "Agent capable of updating buffer stock values in one simulated cloud-based inventory system."
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0059",
+      "candidate_a": {
+        "title": "Affiliate Onboarding Concierge",
+        "target_user": "Small SaaS companies under $50k ARR",
+        "problem_or_desire": "Zero experience or manual friction in onboarding new affiliate partners",
+        "core_concept": "Templatized onboarding workflows for SaaS affiliate programs.",
+        "proposed_approach": "A service providing standardized onboarding documentation and CRM templates for small SaaS companies to manage affiliate partners.",
+        "prototype_scope": "Create a digital kit of templates and a 3-video training suite. | Draft onboarding templates.; Record 3 training videos.; Package as a digital product.; Test with 3 beta users."
+      },
+      "candidate_b": {
+        "title": "Affiliate Onboarding Concierge",
+        "target_user": "Small SaaS companies under $50k ARR",
+        "problem_or_desire": "Zero experience or manual friction in onboarding new affiliate partners",
+        "core_concept": "Templatized automated workflow setup for new creator partnerships",
+        "proposed_approach": "Service-as-software; human-managed onboarding docs paired with recurring CRM templates",
+        "prototype_scope": "Onboarding document templates plus a 3-video 'how to setup' training suite"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0060",
+      "candidate_a": {
+        "title": "AI Coffee Palette Auditor",
+        "target_user": "Hospitality startup management",
+        "problem_or_desire": "Mismatch between generic inventory bean selection and local customer latent flavour preference data",
+        "core_concept": "Analyzing customer waste patterns via bin monitoring combined with QR-scan-based beverage survey inputs to optimize shelf supply",
+        "proposed_approach": "Aggregating digital intake metadata from specific location footfall into heat maps characterizing taste skew for future inventory orders",
+        "prototype_scope": "Implementing one tablet kiosk feedback gatherer integrated with traditional POS output in a non-traditional coffee setting like a co-working shared area"
+      },
+      "candidate_b": {
+        "title": "AI Coffee Palette Auditor",
+        "target_user": "Hospitality startup management",
+        "problem_or_desire": "Mismatch between generic inventory bean selection and local customer latent flavour preference data",
+        "core_concept": "Optimizing coffee inventory based on actual customer preference data.",
+        "proposed_approach": "A service that uses simple QR-code surveys at the point of sale to gather customer flavor preferences and adjust inventory accordingly.",
+        "prototype_scope": "A 1-month pilot in one co-working space using QR codes to survey coffee preferences. | Set up QR codes at one coffee station.; Collect survey data for 30 days.; Analyze data to recommend inventory changes."
+      }
+    }
+  ]
+}

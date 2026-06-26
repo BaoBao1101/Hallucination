@@ -1,0 +1,51 @@
+{
+  "score_range": "1.0 to 5.0 inclusive, exactly one decimal",
+  "metrics": [
+    {
+      "name": "creative_core_preservation",
+      "direction": "higher_is_better",
+      "description": "Transformation Candidate có giữ distinctive causal mechanism, experiential interaction, hoặc imaginative premise trung tâm của Reference Concept không?"
+    },
+    {
+      "name": "novelty_retention",
+      "direction": "higher_is_better",
+      "description": "Transformation Candidate có còn giữ phần khác biệt, không-rập-khuôn, và creative leap quan trọng của Reference Concept không?"
+    },
+    {
+      "name": "practical_mvp_improvement",
+      "direction": "higher_is_better",
+      "description": "Transformation Candidate có biến ý tưởng thành MVP rõ hơn, hẹp hơn, khả thi hơn, và dễ kiểm thử hơn không?"
+    },
+    {
+      "name": "overclaim_removal_quality",
+      "direction": "higher_is_better",
+      "description": "Transformation Candidate có loại bỏ hoặc hạ cấp unsupported claims, vague claims, và overclaims tốt không?"
+    },
+    {
+      "name": "semantic_drift_risk",
+      "direction": "lower_is_better",
+      "description": "Transformation Candidate có bị lệch khỏi central mechanism hoặc thay thế Reference Concept bằng một ý tưởng khác/generic khác không?"
+    }
+  ],
+  "prototype_choice_values": [
+    "REFERENCE",
+    "TRANSFORMATION",
+    "TIE"
+  ],
+  "output_schema": {
+    "evaluations": [
+      {
+        "pair_id": "P1TRACE_0001",
+        "scores": {
+          "creative_core_preservation": 1.0,
+          "novelty_retention": 1.0,
+          "practical_mvp_improvement": 1.0,
+          "overclaim_removal_quality": 1.0,
+          "semantic_drift_risk": 1.0
+        },
+        "preferred_for_prototype": "TRANSFORMATION",
+        "short_rationale": ""
+      }
+    ]
+  }
+}

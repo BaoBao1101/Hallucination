@@ -1,0 +1,65 @@
+[
+  {
+    "candidate_id": "BLIND_0072",
+    "title": "Gravity Sling: Adaptive Platformer",
+    "target_user": "Casual mobile players who enjoy puzzle elements within fast-paced action.",
+    "problem_or_desire": "A lack of mobile action games that fluidly integrate physics puzzles into core combat and exploration loops, leading to predictable gameplay.",
+    "core_concept": "The core mechanic of altering gravity's direction and intensity within localized zones for navigation and puzzle-solving in a 2D action game.",
+    "proposed_approach": "A 2D side-scrolling action game where players can manipulate localized gravity fields to navigate environments and solve simple environmental puzzles. The focus is on demonstrating the core gravity manipulation mechanic and its impact on player movement and interaction with the environment.",
+    "prototype_scope": "A tutorial level and one short adventure stage. The tutorial introduces basic character movement and the ability to create and move localized gravity zones (e.g., a small area where gravity pulls sideways). The adventure stage requires the player to use this mechanic to reach a goal, overcome simple obstacles (like moving platforms or barriers), and potentially use gravity to push a single enemy into a hazard. No complex combat AI or intricate puzzle chai…"
+  },
+  {
+    "candidate_id": "BLIND_0098",
+    "title": "Procedural Mystery Puzzle Generator",
+    "target_user": "Adult puzzle enthusiasts (30-60) who enjoy logic deduction and high replayability.",
+    "problem_or_desire": "Tired of finite puzzle sets; seeking a game that offers endless unique logic challenges.",
+    "core_concept": "Leveraging procedural generation to create distinct detective/logic puzzles with a unique set of clues, characters, and deduction trees for each playthrough. Focus on solving a specific anomaly or crime per generated puzzle.",
+    "proposed_approach": "Engineer a puzzle generation algorithm capable of creating varied narrative scenarios and interdependent clue structures. Design a grid/interface for clue intake and logical deduction, and character 'profiles' to manage evidence linkage. Offer replayability through near-infinite procedural generation variations.",
+    "prototype_scope": "Implement a procedural generation system for three discrete archetypal mystery elements (witness, evidence, location). Design a clean note-taking/deduction grid UI for a single, algorithmically generated, simple logical deduction puzzle based on these elements."
+  },
+  {
+    "candidate_id": "BLIND_0075",
+    "title": "Sensory Dining Experience Room",
+    "target_user": "Special occasion diners and couples looking for immersive and interactive entertainment.",
+    "problem_or_desire": "Desire for dining experiences that engage all senses, transforming a meal into a multi-dimensional event.",
+    "core_concept": "An immersive dining experience that synchronizes food courses with curated sensory elements (scent, sound, light, texture) to enhance the overall meal perception.",
+    "proposed_approach": "A curated, multi-sensory dining experience where each course is paired with specific ambient elements designed to complement the food. The focus is on a controlled environment that uses readily available technology to influence mood and perception.",
+    "prototype_scope": "Develop and test one themed 'sensory menu' (e.g., 'Forest Floor Feast') for 10 participants in a controlled, small dining space. This MVP will use carefully selected background music (spatial audio via a good sound system), ambient lighting (e.g., color-changing bulbs), and subtle, complementary scents (e.g., natural essential oils diffused sparingly) to enhance a 3-course meal. The focus is on assessing the synergy between the sensory stimuli and the foo…"
+  },
+  {
+    "candidate_id": "BLIND_0003",
+    "title": "AI-Powered Personal Brand Storyteller",
+    "target_user": "Freelance creatives (writers, designers, artists) seeking to attract clients.",
+    "problem_or_desire": "Difficulty articulating their unique value proposition and personal brand narrative in a compelling way on their portfolio website.",
+    "core_concept": "An AI tool that analyzes a user's work samples and professional history to generate multiple engaging personal brand story options for their website's 'About Me' section.",
+    "proposed_approach": "Develop a web application where users upload their portfolio, answer a few guided questions, and receive AI-generated narrative drafts. Users can then edit and select their preferred story.",
+    "prototype_scope": "A single-page web application that accepts a link to a user's existing portfolio (e.g., Behance, Dribbble) and generates three distinct 'About Me' narrative options based on predefined templates and AI text generation."
+  },
+  {
+    "candidate_id": "BLIND_0093",
+    "title": "Personalized Website Accessibility Checker",
+    "target_user": "Small business owners and bloggers who want to ensure their websites are usable by people with disabilities.",
+    "problem_or_desire": "Lack of understanding and tools to identify and fix accessibility issues on their personal or business websites.",
+    "core_concept": "A simple, user-friendly website that performs basic automated checks for common web accessibility barriers (e.g., missing alt text, low contrast) and provides actionable, easy-to-understand recommendations.",
+    "proposed_approach": "Create a web tool where users input their website URL. The tool runs a series of automated accessibility checks and presents a simplified report with prioritized fixes.",
+    "prototype_scope": "A web-based tool that accepts a single website URL and performs 5-7 automated checks for common WCAG 2.1 Level AA violations, presenting the results as a checklist with explanations and links to simple remediation guides."
+  },
+  {
+    "candidate_id": "BLIND_0011",
+    "title": "Kinetic Canvas",
+    "target_user": "Casual mobile gamers interested in creative expression through action.",
+    "problem_or_desire": "Desire for a mobile action game that allows for artistic creation and sharing alongside engaging gameplay.",
+    "core_concept": "A physics-based action game where players use a variety of projectile weapons and environmental interactions to 'paint' dynamic, evolving art pieces within a sandbox environment, which can then be shared and experienced by others.",
+    "proposed_approach": "Focus on intuitive touch controls for both combat and artistic creation. Build a robust sharing platform for user-generated 'kinetic art' experiences.",
+    "prototype_scope": "A single sandbox level with basic physics objects, a few projectile types (e.g., paint bombs, sticky goo), and a simple recording/playback feature for user creations, allowing players to create and share short, animated 'paintings'."
+  },
+  {
+    "candidate_id": "BLIND_0007",
+    "title": "Modular Combat Architect",
+    "target_user": "Core mobile gamers looking for deep strategic customization.",
+    "problem_or_desire": "Frustration with limited customization options in existing mobile action games and a desire to create unique combat playstyles.",
+    "core_concept": "The core concept of dynamically swapping and combining combat modules during real-time action to adapt playstyles.",
+    "proposed_approach": "A real-time action combat game focused on a core set of distinct, swappable combat modules that players can combine to adapt their build during gameplay. The initial focus is on demonstrating the synergy and adaptability of a limited set of modules.",
+    "prototype_scope": "A single-player PvE challenge mode where players control one character against waves of enemies. The player starts with a base attack and can acquire/swap up to 5 distinct module types (e.g., a projectile modifier, a melee enhancement, a defensive buff) during the match. The goal is to survive waves by strategically adapting the character's build using these modules. | Implement core character movement and a basic attack.; Develop 5 distinct module types…"
+  }
+]

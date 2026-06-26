@@ -1,0 +1,132 @@
+{
+  "batch_id": "P1_DIRECTIONAL_TRACE_002",
+  "stage": "directional_role_aware_method_blind_traceability",
+  "prompt_regime": "P1_shared_neutral",
+  "blindness_note": "Hidden method identity: the evaluator is not shown M1/M3, model, temperature, prompt, source filename, or generation pipeline. Visible directional role: Reference Concept versus Transformation Candidate.",
+  "pairs": [
+    {
+      "pair_id": "P1TRACE_0005",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Personalized Micro-Learning Website Template Service",
+            "target_user": "Small business trainers and subject matter experts.",
+            "problem_or_desire": "To create bite-sized, engaging online learning modules for their specific audiences without requiring advanced web development skills.",
+            "core_concept": "A service that provides highly customizable, mobile-responsive website templates pre-integrated with interactive quiz elements, progress tracking, and simple multimedia embedding, specifically for micro-learning content.",
+            "proposed_approach": "Offer a curated selection of visually clean templates that are easy to brand. Content can be structured into short 'lessons' with integrated multiple-choice quizzes, flashcards, and short video playback. Data is managed with simple internal tracking.",
+            "prototype_scope": "Create one responsive template for course delivery, featuring drag-and-drop text/image/video upload and a simple, non-graduated quiz module, suitable for up to three distinct learning 'modules'."
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Personalized Micro-Learning Website Template Service",
+            "target_user": "Small business trainers and subject matter experts.",
+            "problem_or_desire": "To create bite-sized, engaging online learning modules for their specific audiences without requiring advanced web development skills.",
+            "core_concept": "A service providing customizable, mobile-responsive website templates for micro-learning content, featuring integrated interactive quiz elements and basic progress tracking.",
+            "proposed_approach": "A service offering a limited selection of pre-designed, mobile-responsive website templates specifically structured for delivering short, focused learning modules. These templates include basic content embedding and a simple quiz feature.",
+            "prototype_scope": "A single, mobile-responsive website template designed for delivering micro-learning content. It allows users to upload text, images, and short videos for up to three distinct learning 'modules'. Each module includes a simple, non-graduated multiple-choice quiz (e.g., 3 questions). No advanced progress tracking is implemented beyond basic completion indication. | Design and develop one clean, mobile-responsive website template.; Implement content upload functionality for text, images, and short videos (e.g., < 2 mins).; Integrate a simple multiple-choice quiz builder (max 3 questions per quiz).; Structure the template to support up to three distinct learning modules.; Ensure basic branding customization (e.g., logo, primary color).; Test with a small group of trainers or subject matter experts to assess ease of use and suitability for micro-learning delivery."
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0006",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "AI-Powered Allergy-Aware Meal Planner & Grocery Service",
+            "target_user": "Individuals with multiple severe food allergies or dietary restrictions who struggle to find safe and enjoyable meal solutions.",
+            "problem_or_desire": "Difficulty in finding diverse, appealing, and consistently safe meal options and efficiently managing groceries while adhering to strict dietary needs.",
+            "core_concept": "A personalized meal planning and grocery service that prioritizes safety for individuals with severe food allergies and dietary restrictions, using technology to manage complexity.",
+            "proposed_approach": "A personalized meal planning service that generates safe, allergy-aware meal plans and corresponding shopping lists for individuals with severe dietary restrictions.",
+            "prototype_scope": "Develop a web-based form where users can input a detailed list of severe allergies (e.g., nuts, dairy, gluten, soy) and dietary preferences. Based on this input, the service will generate a 7-day meal plan with recipes and a corresponding shopping list of pre-approved, safe ingredients. The focus is on testing the accuracy and safety of the generated meal plans and shopping lists, and the user experience of inputting restrictions and receiving the plan. | Develop a user-friendly web form for inputting allergies and preferences.; Curate a database of recipes and ingredients that are verified to be free of common severe allergens.; Implement a system (initially rule-based, not necessarily complex AI) to generate a 7-day meal plan and shopping list based on user input.; Onboard 15 beta users with severe allergies.; Provide users with their personalized meal plans and shopping lists.; Collect feedback on the safety, variety, and usability of the generated plans and lists."
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "AI-Powered Allergy-Aware Meal Planner & Grocery Service",
+            "target_user": "Individuals with multiple severe food allergies or dietary restrictions who struggle to find safe and enjoyable meal solutions.",
+            "problem_or_desire": "Difficulty in finding diverse, appealing, and consistently safe meal options and efficiently managing groceries while adhering to strict dietary needs.",
+            "core_concept": "A service that uses AI to generate personalized meal plans and curated grocery boxes that guarantee 100% avoidance of listed allergens/restrictions, tailored to individual taste preferences.",
+            "proposed_approach": "Customers input a detailed list of allergies, intolerances, and preferences. The AI algorithm selects from vetted recipes and ingredient suppliers to create weekly meal plans and shop for users.",
+            "prototype_scope": "Create a web-based form for users to input severe allergies (e.g., nut, dairy, gluten) and test recipes for a 7-day meal plan for 15 users. Provide a shopping list of pre-approved safe ingredients (no full grocery delivery in prototype)."
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0007",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Kinetic Rhythm Training Tool",
+            "target_user": "Amateur musicians and dancers looking to improve their internal tempo and rhythmic precision.",
+            "problem_or_desire": "Need a more engaging and effective way to train their sense of rhythm beyond metronomes.",
+            "core_concept": "A game that visualizes complex rhythmic patterns as interactive mazes or paths in an abstract 3D space. Players control a tempo marker to stay 'on beat' or tap precisely on nodal points aligned with sub-beats, encouraging kinesthetic rhythmic learning.",
+            "proposed_approach": "Develop precise beat-detection algorithms. Design progressively complex rhythmic challenges incorporating polyrhythms and syncopation. Use dynamic visual feedback synchronized to audio cues to indicate accuracy. Implement progressive difficulty tiers unlocking new rhythmic patterns.",
+            "prototype_scope": "Build a core game loop where a user taps on their screen in time with audio pulses. Create five distinct difficulty levels featuring increasingly complex 4/4 rhythmic subdivisions, with visual feedback for accuracy."
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Kinetic Rhythm Training Tool",
+            "target_user": "Amateur musicians and dancers looking to improve their internal tempo and rhythmic precision.",
+            "problem_or_desire": "Need a more engaging and effective way to train their sense of rhythm beyond metronomes.",
+            "core_concept": "A game that helps users improve their sense of rhythm by providing engaging, visual, and kinesthetic feedback tied to precise timing and rhythmic patterns, moving beyond traditional metronomes.",
+            "proposed_approach": "A mobile rhythm game where players tap or hold on their screen in time with visual cues that are synchronized to a pre-defined audio track. The game focuses on accuracy of timing relative to the beat and subdivisions, providing immediate visual feedback on performance.",
+            "prototype_scope": "A mobile application featuring a core gameplay loop where users tap on the screen in time with a simple, repeating audio pulse (e.g., a 4/4 beat at 120 BPM). The MVP includes five distinct difficulty levels, each presenting a slightly more complex rhythmic pattern within the 4/4 time signature (e.g., eighth notes, sixteenth notes). Visual feedback (e.g., color change, score multiplier) indicates timing accuracy (early, on-time, late). | Set up a mobile development environment (e.g., Unity, native iOS/Android).; Implement a core tap input system with precise timing measurement.; Integrate a simple audio playback system.; Design and implement five distinct rhythmic patterns with increasing complexity (within 4/4).; Develop visual feedback for timing accuracy (e.g., hit window, score display).; Create a basic UI for level selection and score display."
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0008",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Localized Community Skill Exchange Bartering",
+            "target_user": "Residents within a defined geographic neighborhood seeking to trade goods or services without monetary exchange.",
+            "problem_or_desire": "Need a simple, trustworthy platform to offer skills or goods (e.g., tutoring, gardening help, baked goods) and find others within their immediate community with complementary needs and offers.",
+            "core_concept": "A hyper-local web and mobile platform facilitating skill and good bartering through a point-based system earned by offering and redeemed by receiving within the same authenticated community boundary.",
+            "proposed_approach": "Develop a geospatial verification system linked to simple user profiles where individuals list offered/needed services and items. A curated notification system alerts users of direct reciprocal matches or matches near their location.",
+            "prototype_scope": "A single-city web platform that requires email verification and basic address information (with privacy obfuscation for public listing) to access a moderated offer/request board. Users can manually propose exchanges or flag potential matches that get reviewed by a community moderator."
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Localized Community Skill Exchange Bartering",
+            "target_user": "Residents within a defined geographic neighborhood seeking to trade goods or services without monetary exchange.",
+            "problem_or_desire": "Need a simple, trustworthy platform to offer skills or goods (e.g., tutoring, gardening help, baked goods) and find others within their immediate community with complementary needs and offers.",
+            "core_concept": "Facilitating skill and goods bartering within a defined local community, emphasizing trust and non-monetary exchange.",
+            "proposed_approach": "A moderated online board for a specific neighborhood where residents can list skills/goods they offer and needs they have, facilitating direct, manual bartering proposals.",
+            "prototype_scope": "A single-city, web-based platform requiring email verification for user accounts. Users can create profiles listing skills/goods they offer and items/services they need within their neighborhood. A moderated 'Offer/Request Board' displays these listings. Users can browse listings and submit a 'Barter Proposal' to another user via a simple internal messaging system. The platform does not enforce a point system or automated matching; all exchanges are proposed and agreed upon manually by users, with community moderators available to resolve disputes or verify neighborhood residency if needed. | Develop a web application with user registration (email verification).; Create user profile pages to list 'Offers' and 'Needs'.; Implement a moderated 'Offer/Request Board' for browsing listings.; Build a simple internal messaging system for users to propose exchanges.; Define clear community guidelines and moderation processes.; Focus on a single, well-defined neighborhood or small city for initial launch.; Manual moderation of new user sign-ups and listings to ensure local relevance and prevent spam."
+          }
+        }
+      ]
+    }
+  ]
+}

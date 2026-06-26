@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "stage": "neutral_randomized_pairwise_m1_m3_judge",
+    "judge_model": "gemini-2.5-flash-lite",
+    "temperature": 0.0,
+    "top_p": 0.1,
+    "batch_id": "P1_NEUTRAL_GEMINI_001",
+    "input_source": "[LOCAL_PATH_REDACTED]",
+    "created_at": "2026-06-23T13:05:23",
+    "blindness_note": "The judge received randomized Candidate A/B cards without method or source/revision labels."
+  },
+  "evaluations": [
+    {
+      "pair_id": "P1PAIR_0001",
+      "preferences": {
+        "novelty_preference": "A",
+        "conceptual_coherence_preference": "A",
+        "user_pain_plausibility_preference": "TIE",
+        "technical_plausibility_preference": "B",
+        "mvp_clarity_preference": "B",
+        "business_model_plausibility_preference": "TIE",
+        "lower_unsupported_claim_risk": "A",
+        "lower_ethical_privacy_risk": "A",
+        "overall_mvp_usefulness_preference": "A",
+        "prototype_preference": "B"
+      },
+      "short_rationale": "Candidate B provides a more detailed and actionable prototype scope, including specific technical steps and a clearer focus on text-based interaction. Candidate A's approach is more novel but less defined in its MVP."
+    },
+    {
+      "pair_id": "P1PAIR_0002",
+      "preferences": {
+        "novelty_preference": "A",
+        "conceptual_coherence_preference": "A",
+        "user_pain_plausibility_preference": "TIE",
+        "technical_plausibility_preference": "B",
+        "mvp_clarity_preference": "B",
+        "business_model_plausibility_preference": "TIE",
+        "lower_unsupported_claim_risk": "A",
+        "lower_ethical_privacy_risk": "A",
+        "overall_mvp_usefulness_preference": "A",
+        "prototype_preference": "B"
+      },
+      "short_rationale": "Candidate B offers a more concrete and testable MVP scope with specific implementation details and a clear exclusion of complex features like location-based targeting. Candidate A's approach is more innovative but less defined for an MVP."
+    },
+    {
+      "pair_id": "P1PAIR_0003",
+      "preferences": {
+        "novelty_preference": "A",
+        "conceptual_coherence_preference": "A",
+        "user_pain_plausibility_preference": "TIE",
+        "technical_plausibility_preference": "A",
+        "mvp_clarity_preference": "A",
+        "business_model_plausibility_preference": "TIE",
+        "lower_unsupported_claim_risk": "A",
+        "lower_ethical_privacy_risk": "A",
+        "overall_mvp_usefulness_preference": "A",
+        "prototype_preference": "A"
+      },
+      "short_rationale": "Candidate A's MVP scope is more specific and focused on a single problem-solving technique, making it more testable and technically feasible for a prototype. Candidate B's concept is broader and includes collaboration, which adds complexity to an initial MVP."
+    },
+    {
+      "pair_id": "P1PAIR_0004",
+      "preferences": {
+        "novelty_preference": "A",
+        "conceptual_coherence_preference": "A",
+        "user_pain_plausibility_preference": "TIE",
+        "technical_plausibility_preference": "B",
+        "mvp_clarity_preference": "B",
+        "business_model_plausibility_preference": "TIE",
+        "lower_unsupported_claim_risk": "A",
+        "lower_ethical_privacy_risk": "A",
+        "overall_mvp_usefulness_preference": "A",
+        "prototype_preference": "B"
+      },
+      "short_rationale": "Candidate B provides a more detailed and realistic MVP scope, focusing on explicit skills and keyword matching, which is more achievable than Candidate A's approach of analyzing code commit histories for implicit problem-solving patterns. Candidate A's approach is more novel but less technically defined for an MVP."
+    }
+  ]
+}

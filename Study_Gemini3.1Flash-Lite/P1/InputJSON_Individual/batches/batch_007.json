@@ -1,0 +1,92 @@
+[
+  {
+    "candidate_id": "BLIND_0055",
+    "title": "Ethical Shopping Assistant",
+    "target_user": "Conscious consumers",
+    "problem_or_desire": "Difficulty verifying the sustainability claims of consumer brands.",
+    "core_concept": "A browser-integrated web app that displays sustainability scores while shopping.",
+    "proposed_approach": "A web dashboard that allows users to search brands and view aggregated data on labor practices and environmental impact.",
+    "prototype_scope": "A search bar that returns a pre-populated sustainability score for 50 common retail brands."
+  },
+  {
+    "candidate_id": "BLIND_0012",
+    "title": "Recruitment Sourcing Filter",
+    "target_user": "Startups technical hiring managers",
+    "problem_or_desire": "Identifying stealth, passive candidate sentiment signals before they actively enter the job market.",
+    "core_concept": "Autonomous social reading and contribution analysis, focused solely on long-form public content authored by candidates.",
+    "proposed_approach": "Ranking candidate 'mindshare' via analysis of high-depth technical content production on community forums as opposed to resumes.",
+    "prototype_scope": "Limited to scraping and grading public contribution histories for one job description on one coding community forum."
+  },
+  {
+    "candidate_id": "BLIND_0157",
+    "title": "Cloud Scribes",
+    "target_user": "Visual artists seeking cooperative abstract outlet",
+    "problem_or_desire": "Digital art being solitary by design",
+    "core_concept": "Cooperative drawing tool with forced constraints.",
+    "proposed_approach": "A drawing app where two users must coordinate to create a single image, with one controlling line and the other controlling color.",
+    "prototype_scope": "A two-user concurrent drawing interface demonstrating basic synchronization logic for one shared layer. | Implement basic drawing canvas; Build simple networking for two-user sync; Define line and color control roles"
+  },
+  {
+    "candidate_id": "BLIND_0163",
+    "title": "Echo Archive",
+    "target_user": "History buffs and collaborative world builders",
+    "problem_or_desire": "Disconnected storytelling platforms for regional historical facts",
+    "core_concept": "GPS-located audio logs left by 'Ghosts' that require movement to a specific real-world coordinate to initiate narration.",
+    "proposed_approach": "Location-based point-to-point traversal gameplay that overlays a local-history ghost narrative onto modern landscapes.",
+    "prototype_scope": "Single city square map supporting one tethered narrative mission."
+  },
+  {
+    "candidate_id": "BLIND_0094",
+    "title": "Legal Workflow Traffic Controller",
+    "target_user": "Corporate paralegals",
+    "problem_or_desire": "Uncontrolled document version chaos across external law firms.",
+    "core_concept": "Automated enforcement of folder structures and naming conventions for shared documents.",
+    "proposed_approach": "A script that monitors a local or cloud-synced folder and alerts users when files violate naming or structural conventions.",
+    "prototype_scope": "A folder-watcher service that scans a specific directory and generates a report of non-compliant files. | Define naming/structure rules; Implement file system watcher; Build compliance checker; Create alert/reporting mechanism"
+  },
+  {
+    "candidate_id": "BLIND_0141",
+    "title": "Coffee Equipment Rental Library",
+    "target_user": "Aspiring home baristas",
+    "problem_or_desire": "High cost of entry for professional-grade brewing equipment",
+    "core_concept": "A rental service for high-end espresso machines and grinders on a monthly basis",
+    "proposed_approach": "Inventory management and maintenance of high-end machines for short-term rental",
+    "prototype_scope": "A library of 5 machines available for rent to local users"
+  },
+  {
+    "candidate_id": "BLIND_0106",
+    "title": "Community Kitchen Incubator",
+    "target_user": "Aspiring food truck owners",
+    "problem_or_desire": "High barrier to entry for commercial kitchen space and licensing.",
+    "core_concept": "A shared-use kitchen facility that handles all health department compliance and insurance for members.",
+    "proposed_approach": "Provide hourly kitchen rentals bundled with administrative support for food safety certification.",
+    "prototype_scope": "A pilot program with three food entrepreneurs sharing one kitchen space for one month."
+  },
+  {
+    "candidate_id": "BLIND_0104",
+    "title": "The Community Preservative Co-op",
+    "target_user": "Time-poor vegetable-heavy cooking households",
+    "problem_or_desire": "Waste of fresh aromatics and stock perishables leading to lost inventory and cooking motivation",
+    "core_concept": "A distributed subscription for dehydration/freezing labor as an utility",
+    "proposed_approach": "Rotating service where home users get a pick-up that returns their raw grocery goods to them refined into flavor concentrates/freezer portions",
+    "prototype_scope": "Ten bags processed for local home users over one pilot week including simple inventory storage tagging"
+  },
+  {
+    "candidate_id": "BLIND_0123",
+    "title": "Shadow Script",
+    "target_user": "Aspiring creative writers",
+    "problem_or_desire": "Stalled imagination due to lack of character stakes",
+    "core_concept": "A 'reverse Choose-Your-Own-Adventure' where the player constructs the obstacle/protagonist and then attempts to break the story outcome for a sidekick AI.",
+    "proposed_approach": "Utilize prompt-input dynamics where user-led conflicts dictate probability curves that the machine tries to solve during session rounds.",
+    "prototype_scope": "Two scripted chapters defining the protagonist and one 'conflict injection' scene test."
+  },
+  {
+    "candidate_id": "BLIND_0172",
+    "title": "RepairRiddle",
+    "target_user": "DIY appliance repair enthusiast",
+    "problem_or_desire": "Vetting the legitimacy and relevancy of massive amounts of instructional media",
+    "core_concept": "Annotation map on procedural image slices identifying likely trouble spots within the manufacturer schematics",
+    "proposed_approach": "Guided hotspot selection overlaid on visual guides supplied to identify broken components visually",
+    "prototype_scope": "Interaction of an exploded parts-view image enabling users to pin suspected common failure point warnings"
+  }
+]

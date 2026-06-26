@@ -1,0 +1,92 @@
+[
+  {
+    "candidate_id": "BLIND_0033",
+    "title": "Community-Led Product Feedback Loop",
+    "target_user": "Product managers at early-stage startups",
+    "problem_or_desire": "Difficulty getting honest, actionable feedback from early users",
+    "core_concept": "A platform that incentivizes community members to perform specific usability tests",
+    "proposed_approach": "A task-based reward system where users earn credits for completing recorded walkthroughs",
+    "prototype_scope": "A Google Form-based system that connects testers with product links"
+  },
+  {
+    "candidate_id": "BLIND_0011",
+    "title": "Community Moderation Firewall",
+    "target_user": "Slack-hosted or Discord-hosted digital service communities",
+    "problem_or_desire": "Managing community quality during organic spikes of paid users joining chat rooms",
+    "core_concept": "Threshold filtering allowing new user interactions after passing specific introductory checklist requirements",
+    "proposed_approach": "Gated room architecture that auto-clears users as members provide identity verification/intro requirements",
+    "prototype_scope": "Set of manual invite workflow gate protocols installed for three specific private Discord communities"
+  },
+  {
+    "candidate_id": "BLIND_0152",
+    "title": "Event Schedule Peacekeeper",
+    "target_user": "Chief of Staff to growing leadership teams",
+    "problem_or_desire": "Managing individual goal priorities within restricted master organizational capacity plans.",
+    "core_concept": "Constraint-based scheduling that prioritizes project milestones over availability.",
+    "proposed_approach": "A tool that allows users to define 'critical blocks' and suggests rescheduling based on project milestones.",
+    "prototype_scope": "A calendar plugin that lets users tag meetings as 'milestone-critical' and suggests moving non-critical meetings if conflicts arise. | Define milestone-critical tags; Build calendar API integration; Implement conflict detection; Create suggestion engine"
+  },
+  {
+    "candidate_id": "BLIND_0070",
+    "title": "Echo-Location Puzzler",
+    "target_user": "Visually impaired mobile gamers",
+    "problem_or_desire": "Lack of accessible high-fidelity puzzle games",
+    "core_concept": "A game played entirely through spatial audio cues",
+    "proposed_approach": "Use binaural recording techniques to create a 3D soundscape where players navigate mazes by listening to wall reflections",
+    "prototype_scope": "A single level demonstrating navigation through a 3D audio environment using touch-to-move controls"
+  },
+  {
+    "candidate_id": "BLIND_0089",
+    "title": "Micro-History Architect",
+    "target_user": "History enthusiasts",
+    "problem_or_desire": "Desire to visualize historical urban changes",
+    "core_concept": "An AR game that overlays historical architectural blueprints onto current city streets",
+    "proposed_approach": "Use device camera and geolocation to anchor 3D models of historical buildings over modern ruins",
+    "prototype_scope": "A single AR view of one historical building model anchored to a specific GPS coordinate"
+  },
+  {
+    "candidate_id": "BLIND_0026",
+    "title": "Regulatory Change Response Architect",
+    "target_user": "Food and beverage quality assurance heads",
+    "problem_or_desire": "Drastic differences in health safety manual implementation when regulations shift locally.",
+    "core_concept": "Mapping regulatory changes to internal SOPs using diff identification.",
+    "proposed_approach": "A tool that allows users to upload new regulations and existing SOPs, then highlights potential areas of conflict.",
+    "prototype_scope": "A web tool where users paste text from a regulation and an SOP, and the tool highlights keywords that appear in both. | Define keyword mapping; Build text comparison engine; Create simple UI; Test with sample regulations"
+  },
+  {
+    "candidate_id": "BLIND_0114",
+    "title": "Affiliate Onboarding Concierge",
+    "target_user": "Small SaaS companies under $50k ARR",
+    "problem_or_desire": "Zero experience or manual friction in onboarding new affiliate partners",
+    "core_concept": "Templatized automated workflow setup for new creator partnerships",
+    "proposed_approach": "Service-as-software; human-managed onboarding docs paired with recurring CRM templates",
+    "prototype_scope": "Onboarding document templates plus a 3-video 'how to setup' training suite"
+  },
+  {
+    "candidate_id": "BLIND_0066",
+    "title": "Inventory Reorder Agent",
+    "target_user": "Small retail business owners",
+    "problem_or_desire": "Balancing inventory levels to avoid stockouts without over-ordering and tying up cash.",
+    "core_concept": "An agent that predicts demand based on historical sales and seasonality, then drafts purchase orders.",
+    "proposed_approach": "Time-series forecasting combined with automated email generation for suppliers.",
+    "prototype_scope": "A script that analyzes 6 months of sales data and generates a draft purchase order for the top 5 low-stock items."
+  },
+  {
+    "candidate_id": "BLIND_0110",
+    "title": "RepairRiddle",
+    "target_user": "DIY appliance repair enthusiast",
+    "problem_or_desire": "Vetting the legitimacy and relevancy of massive amounts of instructional media",
+    "core_concept": "Annotation map on exploded parts-view images.",
+    "proposed_approach": "A tool where users can upload an image and add hotspots to identify parts.",
+    "prototype_scope": "A web interface for uploading an image and adding clickable hotspots. | Build image upload; Implement hotspot creation; Add text annotation to hotspots"
+  },
+  {
+    "candidate_id": "BLIND_0008",
+    "title": "Recruitment Sourcing Filter",
+    "target_user": "Startups technical hiring managers",
+    "problem_or_desire": "Identifying stealth, passive candidate sentiment signals before they actively enter the job market.",
+    "core_concept": "Ranking candidates based on public technical content production.",
+    "proposed_approach": "A tool that scrapes public contribution histories and grades them based on a predefined rubric.",
+    "prototype_scope": "A script that takes a GitHub/StackOverflow profile and outputs a score based on frequency and complexity of contributions. | Define scoring rubric; Build scraper for one platform; Implement scoring logic; Create simple report"
+  }
+]

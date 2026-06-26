@@ -1,0 +1,21 @@
+{
+  "created_at_utc": "2026-06-24T04:19:42+00:00",
+  "prompt_regime": "P1_shared_neutral",
+  "pair_design": "Matched M1-vs-M3; A/B order randomized and method labels withheld.",
+  "pair_count": 60,
+  "public_batch_size": 5,
+  "public_batch_count": 12,
+  "neutral_metrics": [
+    "novelty_preference",
+    "conceptual_coherence_preference",
+    "user_pain_plausibility_preference",
+    "technical_plausibility_preference",
+    "mvp_clarity_preference",
+    "business_model_plausibility_preference",
+    "lower_unsupported_claim_risk",
+    "lower_ethical_privacy_risk",
+    "overall_mvp_usefulness_preference",
+    "prototype_preference"
+  ],
+  "privacy_notice": "No method labels, source labels, seed, or A/B mapping appear in public files."
+}

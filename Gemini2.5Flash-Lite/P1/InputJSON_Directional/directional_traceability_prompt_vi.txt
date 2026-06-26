@@ -1,0 +1,110 @@
+# CHVD P1 — Directional Traceability Evaluation
+
+You are an independent evaluator for a matched venture-concept transformation study.
+
+Each pair contains:
+
+- `Reference Concept`: the concept used as the reference point.
+- `Transformation Candidate`: a candidate derived from or reformulated from the reference.
+
+The visual order of the two cards is randomized. Always use the role labels, not display position.
+
+## Blindness rules
+
+Do not infer, mention, or speculate about:
+
+- hidden generation methods;
+- model names;
+- temperature or sampling settings;
+- prompts, pipelines, baselines, M1, M3, CHVD, or any source file;
+- whether the transformation is necessarily better.
+
+You may use only the text in the pair.
+
+## Goal
+
+Assess whether the Transformation Candidate preserves the distinctive creative mechanism of the Reference Concept while converting it into a more bounded, realistic, testable MVP.
+
+## Score scale
+
+For every numeric metric, use exactly one decimal from `1.0` through `5.0`.
+
+Do not use integers automatically. Use decimal values when a textual distinction is supported.
+
+### Creative-core preservation — higher is better
+
+- 1.0: Central mechanism has been replaced by an unrelated idea.
+- 2.0: Only topic or surface wording remains; central mechanism is mostly lost.
+- 3.0: Part of the core remains, but a major mechanism changed.
+- 4.0: Central mechanism is clearly retained while scope is narrowed.
+- 5.0: Distinctive mechanism is retained almost completely and concretely operationalized.
+
+### Novelty retention — higher is better
+
+- 1.0: Transformation is generic and loses the distinguishing leap.
+- 2.0: Mostly conventional, with little distinctive character remaining.
+- 3.0: Some distinctive element remains, but novelty is substantially reduced.
+- 4.0: Most important novelty is retained.
+- 5.0: The transformation retains the distinctive novelty almost intact.
+
+### Practical MVP improvement — higher is better
+
+- 1.0: No improvement or transformation is less buildable.
+- 2.0: Minor narrowing but no credible MVP boundary.
+- 3.0: Moderate improvement in scope or implementation specificity.
+- 4.0: Clearly more feasible, bounded, and testable.
+- 5.0: Strong transformation into a concrete near-term MVP with credible scope.
+
+### Overclaim-removal quality — higher is better
+
+- 1.0: Unsupported claims remain or become worse.
+- 2.0: Few overclaims are softened.
+- 3.0: Some important overclaims are removed.
+- 4.0: Most major unsupported claims are bounded or removed.
+- 5.0: Overclaims are systematically replaced by careful, testable assumptions.
+
+### Semantic-drift risk — lower is better
+
+- 1.0: Almost no drift; clearly the same central concept.
+- 2.0: Minor reframing, but the core is still recognizable.
+- 3.0: Material change to the mechanism, though relation remains visible.
+- 4.0: Transformation largely behaves as a different concept.
+- 5.0: The reference concept is effectively replaced by an unrelated/generic concept.
+
+## Prototype preference
+
+Choose exactly one:
+
+- `REFERENCE`: the Reference Concept should be prototyped first.
+- `TRANSFORMATION`: the Transformation Candidate should be prototyped first.
+- `TIE`: neither is clearly preferable.
+
+Do not assume the Transformation Candidate must win.
+
+## Response requirements
+
+1. Evaluate every pair independently.
+2. Return every pair exactly once.
+3. Rationale must be specific to the pair and no more than 50 words.
+4. Return valid JSON only. No markdown, no code fences, no text outside JSON.
+
+## Required schema
+
+```json
+{
+  "evaluations": [
+    {
+      "pair_id": "P1TRACE_0001",
+      "scores": {
+        "creative_core_preservation": 1.0,
+        "novelty_retention": 1.0,
+        "practical_mvp_improvement": 1.0,
+        "overclaim_removal_quality": 1.0,
+        "semantic_drift_risk": 1.0
+      },
+      "preferred_for_prototype": "TRANSFORMATION",
+      "short_rationale": ""
+    }
+  ]
+}
+```

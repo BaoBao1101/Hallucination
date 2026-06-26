@@ -1,0 +1,92 @@
+[
+  {
+    "candidate_id": "BLIND_0138",
+    "title": "Hyper-local Seasonal Gleaner App",
+    "target_user": "Urban residential cooks",
+    "problem_or_desire": "Difficulty sourcing surplus fresh, unrefined local produce for complex meals",
+    "core_concept": "Direct trade of backyard fruit/vegetable surplus with local households",
+    "proposed_approach": "Develop a geolocated map-based exchange that matches excess home-grown supply with localized kitchen demand",
+    "prototype_scope": "One neighborhood Slack/Telegram integration managing peer-to-peer pick-ups of three specified seasonal food items"
+  },
+  {
+    "candidate_id": "BLIND_0084",
+    "title": "Cloud Scribes",
+    "target_user": "Visual artists seeking cooperative abstract outlet",
+    "problem_or_desire": "Digital art being solitary by design",
+    "core_concept": "A painting tool that forces cooperative constraint, where one user can only define the line curvature while the other holds exclusive rights to color saturation selection.",
+    "proposed_approach": "Sync-based 'Duel Painting' rounds where a single artifact cannot progress unless both parties contribute concurrently over 60 seconds.",
+    "prototype_scope": "Two-user concurrent drawing interface demonstrating synchronization logic for one shared layer."
+  },
+  {
+    "candidate_id": "BLIND_0077",
+    "title": "Interactive Communal Meal Assembler",
+    "target_user": "First-year apartment dwellers with culinary novice skills",
+    "problem_or_desire": "Desire for social shared meals to overcome urban isolation",
+    "core_concept": "Collaborative modular kit prep through synchronized smart hardware to connect solo kitchens",
+    "proposed_approach": "Supplying meal sets that require coordination with someone else's smart stove to complete temperature thresholds for dishes to unite",
+    "prototype_scope": "One physical joint appliance prototype where users at separate physical desks coordinate timed cooking commands to finalize two collaborative bowls"
+  },
+  {
+    "candidate_id": "BLIND_0135",
+    "title": "User-Generated Video Repository",
+    "target_user": "Direct-to-consumer physical goods brands",
+    "problem_or_desire": "Inability to find or license high-quality, authentic smartphone unboxing footage",
+    "core_concept": "Peer-to-peer exchange for authentic consumer social media video assets",
+    "proposed_approach": "Direct procurement bridge linking video creators with brand social managers",
+    "prototype_scope": "Closed Slack group vetting 20 creators supplying 20 small brands"
+  },
+  {
+    "candidate_id": "BLIND_0056",
+    "title": "Hyper-Fresh Produce Subscription",
+    "target_user": "Urban families",
+    "problem_or_desire": "Grocery store produce lacks flavor and freshness due to long supply chains.",
+    "core_concept": "Direct-to-consumer delivery of produce harvested within 24 hours of delivery.",
+    "proposed_approach": "Partner with vertical farms and peri-urban growers to bypass traditional distribution centers.",
+    "prototype_scope": "A weekly delivery route for 15 households sourcing from one local vertical farm."
+  },
+  {
+    "candidate_id": "BLIND_0097",
+    "title": "Fresh-Roast Micro-batch Aggregator",
+    "target_user": "Remote professionals",
+    "problem_or_desire": "Difficulty in tracking distinct flavor profiles from independent local roasters without shipping bloat",
+    "core_concept": "Curated selection service focusing solely on roasting dates within 48 hours",
+    "proposed_approach": "Middleware logistics platform connecting regional small-scale roasters to single-cup subscribers",
+    "prototype_scope": "Testing logistical feasibility with three local roasters using a custom delivery route scheduler"
+  },
+  {
+    "candidate_id": "BLIND_0024",
+    "title": "Content Localization Agent",
+    "target_user": "Global marketing teams",
+    "problem_or_desire": "High cost and slow turnaround for adapting marketing copy for different cultural and linguistic markets.",
+    "core_concept": "An agent that adapts brand voice and cultural nuances in marketing copy rather than performing literal translation.",
+    "proposed_approach": "Fine-tuned LLM prompts that incorporate brand style guides and regional cultural context.",
+    "prototype_scope": "A tool that takes one English blog post and generates three localized versions for different regions with distinct tone adjustments."
+  },
+  {
+    "candidate_id": "BLIND_0020",
+    "title": "Senior Nutrition Concierge",
+    "target_user": "Elderly individuals living independently",
+    "problem_or_desire": "Difficulty preparing balanced meals that meet specific medical dietary needs.",
+    "core_concept": "A personalized meal delivery service managed by a registered dietitian.",
+    "proposed_approach": "Consultations to create a meal plan that is then prepared by a local kitchen and delivered daily.",
+    "prototype_scope": "A pilot with five seniors receiving customized meals for two weeks."
+  },
+  {
+    "candidate_id": "BLIND_0007",
+    "title": "Vendor Dispute Navigator",
+    "target_user": "Small business operations managers",
+    "problem_or_desire": "Reconciling billing discrepancies with disparate cloud service vendors.",
+    "core_concept": "Automated cross-referencing of usage logs against invoice line items to identify discrepancies.",
+    "proposed_approach": "A diagnostic tool that ingests PDF invoices and CSV usage reports to highlight mathematical mismatches for human review.",
+    "prototype_scope": "A Python script that parses three specific SaaS billing formats and generates a CSV report of flagged discrepancies. | Define schema for three target SaaS billing formats; Develop regex-based invoice parser; Build comparison logic for usage vs. billing; Create output report generator"
+  },
+  {
+    "candidate_id": "BLIND_0151",
+    "title": "Botanical Bio-Feedback",
+    "target_user": "High-stress office workers",
+    "problem_or_desire": "Need for quick, calming mental breaks",
+    "core_concept": "A virtual garden that grows based on the user's heart rate variability",
+    "proposed_approach": "Integrate with mobile camera sensors to measure pulse via fingertip contact to influence plant growth speed",
+    "prototype_scope": "A single plant model that changes color and size based on a simulated heart rate input"
+  }
+]

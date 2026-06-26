@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "stage": "P1_blind_individual_metric_judge",
+    "judge_model": "gemini-2.5-flash-lite",
+    "temperature": 0.0,
+    "top_p": 0.1,
+    "score_scale": "continuous_numeric_1_to_5",
+    "batch_source": "[LOCAL_PATH_REDACTED]",
+    "batch_source_sha256": "8c33516bf77385a1b5699dfaf52251e7221ba77c4e23731a32aac94a8806360e",
+    "created_at_utc": "2026-06-22T07:37:57+00:00"
+  },
+  "evaluations": [
+    {
+      "candidate_id": "BLIND_0009",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 4.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "This is a novel and coherent concept that plausibly addresses a desire for hands-on learning. The MVP is clear and testable, and the business model is straightforward for a physical establishment."
+    },
+    {
+      "candidate_id": "BLIND_0012",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 1.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The concept addresses a plausible student pain point with a coherent approach. However, the business model is entirely missing, and the technical feasibility of AI-driven guidance on a visual canvas for complex problems is speculative."
+    },
+    {
+      "candidate_id": "BLIND_0032",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 4.0,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "This concept offers a novel application of AR to a hobbyist's pain point, with a clear MVP. The technical feasibility of robust AR recognition and guidance is a challenge, and the business model is somewhat underdeveloped."
+    },
+    {
+      "candidate_id": "BLIND_0047",
+      "scores": {
+        "novelty": 3.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.0,
+        "prototype_willingness": 4.0
+      },
+      "short_rationale": "This concept is a practical adaptation of a novel idea, with a clear MVP and plausible technical execution. The business model is that of a standard coffee shop, which is understandable but not particularly innovative."
+    },
+    {
+      "candidate_id": "BLIND_0055",
+      "scores": {
+        "novelty": 4.5,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 1.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The core mechanic is highly novel and the MVP scope is well-defined for demonstrating it. However, the user pain is weakly articulated, and the business model is absent, making it difficult to assess commercial viability."
+    },
+    {
+      "candidate_id": "BLIND_0073",
+      "scores": {
+        "novelty": 4.0,
+        "conceptual_coherence": 4.0,
+        "user_pain_plausibility": 3.5,
+        "technical_plausibility": 3.5,
+        "mvp_clarity": 4.0,
+        "business_model_plausibility": 1.0,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 3.5,
+        "prototype_willingness": 3.5
+      },
+      "short_rationale": "The concept offers a novel twist on rhythm games, and the MVP is clear. The technical feasibility of real-time audio manipulation and intuitive gesture controls is a significant challenge, and the business model is not addressed."
+    },
+    {
+      "candidate_id": "BLIND_0105",
+      "scores": {
+        "novelty": 3.5,
+        "conceptual_coherence": 4.5,
+        "user_pain_plausibility": 4.5,
+        "technical_plausibility": 4.0,
+        "mvp_clarity": 4.5,
+        "business_model_plausibility": 3.5,
+        "unsupported_claim_risk": 1.0,
+        "ethical_privacy_risk": 1.0,
+        "overall_mvp_usefulness": 4.5,
+        "prototype_willingness": 4.5
+      },
+      "short_rationale": "The concept is a well-structured and plausible solution to a common student problem. The MVP is concrete and testable, and the gamified approach is a sound business model for educational content."
+    }
+  ]
+}

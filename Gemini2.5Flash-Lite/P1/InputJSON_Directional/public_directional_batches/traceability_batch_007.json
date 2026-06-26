@@ -1,0 +1,132 @@
+{
+  "batch_id": "P1_DIRECTIONAL_TRACE_007",
+  "stage": "directional_role_aware_method_blind_traceability",
+  "prompt_regime": "P1_shared_neutral",
+  "blindness_note": "Hidden method identity: the evaluator is not shown M1/M3, model, temperature, prompt, source filename, or generation pipeline. Visible directional role: Reference Concept versus Transformation Candidate.",
+  "pairs": [
+    {
+      "pair_id": "P1TRACE_0025",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Collaborative Storytelling Sandbox",
+            "target_user": "Creative adolescents and young adults (13-20) who enjoy narrative games and social interaction.",
+            "problem_or_desire": "Desire to co-create and collectively influence evolving fictional worlds and character arcs in a game format.",
+            "core_concept": "A turn-based game where each player contributes a narrative event or character action that sequentially shapes an ongoing, shared story. Players vote on critical story junctures. No strict win/loss condition, emphasis is on the unfolding narrative.",
+            "proposed_approach": "Design a robust backend to manage story states and player contributions. Develop an intuitive text-input and event-creation interface. Integrate a simple polling system for branching narrative points. Structure game sessions to encourage short bursts of creative input over days.",
+            "prototype_scope": "Create a simplified lobby system allowing 3-5 users to connect. Implement a basic text-based turn progression where each player adds one sentence; incorporate one player vote for a pre-defined story branch decision."
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Collaborative Storytelling Sandbox",
+            "target_user": "Creative adolescents and young adults (13-20) who enjoy narrative games and social interaction.",
+            "problem_or_desire": "Desire to co-create and collectively influence evolving fictional worlds and character arcs in a game format.",
+            "core_concept": "A turn-based game where multiple players collaboratively build a story by contributing narrative elements and voting on key plot points, emphasizing shared creation over competition.",
+            "proposed_approach": "A simple, text-based, turn-based game where a small group of players collaboratively write a story. Each player adds a short segment (e.g., a sentence or two) in sequence. At designated points, players vote on one of a few pre-defined narrative branches to guide the story's direction.",
+            "prototype_scope": "A web-based application where 3-5 users can join a 'story session'. The game progresses in turns, with each user submitting a single sentence to continue the narrative. After every 3-5 turns, a simple multiple-choice prompt appears, and the group votes on the next story direction. The MVP focuses on text input, turn progression, and a single voting mechanic. | Set up a basic backend for managing game sessions and player turns.; Implement user authentication and lobby system for 3-5 players.; Develop a text input interface for submitting story contributions.; Create a turn-based progression system.; Implement a simple voting mechanism for one pre-defined story branch point.; Display the evolving story text to all participants."
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0026",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Rhythmic Retaliator: Symphony of Carnage",
+            "target_user": "Casual rhythm game players seeking a visceral action experience.",
+            "problem_or_desire": "Boredom with standard 'tap-to-attack' or 'virtual joystick' controls; a desire for mobile combat that rewards precision timing and a sense of flow.",
+            "core_concept": "The core mechanic of executing combat actions (attacks, dodges) in time with music to increase combos and trigger enhanced effects.",
+            "proposed_approach": "A swipe-and-tap combat game where player actions are rewarded for timing with a fixed background music track. Successful rhythmic inputs build a combo multiplier, leading to more impactful attacks and visual flair.",
+            "prototype_scope": "A 'score attack' survival mode against 3 simple enemy archetypes. The MVP features one song with a clear, consistent beat. The player can perform melee attacks and dodges. Inputs must be timed to the beat for them to register as successful and contribute to a combo multiplier. Consecutive successful timed inputs increase the multiplier, leading to slightly more damaging attacks and more visually impressive animations (e.g., a flourish or a brief particle effect). The focus is solely on the rhythmic input registration for basic actions and the feedback loop of combos. | Implement core swipe/tap controls for attack and dodge.; Integrate a beat-tracking system for a single music track.; Link attack and dodge inputs to the beat; successful timing registers as 'on-beat'.; Develop a combo multiplier system that increases with consecutive on-beat actions.; Implement basic visual feedback for on-beat actions (e.g., hit effect, sound cue).; Design 3 simple enemy archetypes with basic AI.; Create a score attack mode where survival time and combo score are tracked.; Focus on the feel of rhythmic input and combo building."
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Rhythmic Retaliator: Symphony of Carnage",
+            "target_user": "Casual rhythm game players seeking a visceral action experience.",
+            "problem_or_desire": "Boredom with standard 'tap-to-attack' or 'virtual joystick' controls; a desire for mobile combat that rewards precision timing and a sense of flow.",
+            "core_concept": "A swipe-and-tap combat game where every player action (attacks, dodges, special abilities) must be executed in time with dynamic background music. Consecutive timed inputs increase a combo multiplier and trigger enhanced, spectacular animations and attacks tied to musical beats.",
+            "proposed_approach": "Integrate a beat-tracking system linked directly to core attack/defend inputs. Design music tracks with clear rhythmic patterns and tie them procedurally to combat events. Develop responsive animation feedback systems to signal successful timing and combos.",
+            "prototype_scope": "A 'score attack' survival mode against 3 enemy archetypes. Three songs of increasing complexity. The prototype focuses solely on demonstrating rhythmic input registration for melee attacks and basic dodges. Success on a song scores points based on timing accuracy and chain combos. No complex ability systems."
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0027",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Augmented Reality Archaeology Puzzles",
+            "target_user": "Casual mobile gamers interested in history and puzzles, aged 25-45",
+            "problem_or_desire": "Desire for mentally stimulating casual games that blend digital and real-world experiences.",
+            "core_concept": "Use smartphone AR capabilities to scan real-world objects (e.g., books, walls, tables) and overlay puzzle elements that hint at historical artifacts or discoveries, requiring players to manipulate their environment to solve.",
+            "proposed_approach": "Develop a foundational AR engine to recognize basic surfaces. Create a small set of themed puzzle sets that utilize object recognition and AR overlay techniques. Offer a freemium model with core puzzles free and expanded historical epochs as in-app purchases.",
+            "prototype_scope": "Implement AR surface detection and a simple object placement/manipulation system for one themed historical discovery puzzle within a domestic living room environment."
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Augmented Reality Archaeology Puzzles",
+            "target_user": "Casual mobile gamers interested in history and puzzles, aged 25-45",
+            "problem_or_desire": "Desire for mentally stimulating casual games that blend digital and real-world experiences.",
+            "core_concept": "Using smartphone AR to overlay puzzle elements onto the real world, creating an interactive experience that blends digital puzzles with the player's physical environment, hinting at historical discoveries.",
+            "proposed_approach": "A mobile game where players use their phone's camera to scan specific, pre-defined markers or simple surfaces in their environment. Upon detection, AR elements appear, forming part of a puzzle that hints at a historical artifact or discovery. The core interaction involves observing and interacting with these AR elements within the player's physical space to solve a contained puzzle.",
+            "prototype_scope": "A mobile AR puzzle game where players scan a printed QR code or a distinct, flat surface (like a specific book cover or a placemat) to trigger an AR overlay. This overlay presents a simple puzzle (e.g., a jigsaw of an artifact, a sequence to tap) that, when solved, reveals a historical fact or image. The MVP focuses on one themed puzzle set (e.g., Ancient Egypt) and a single marker type for detection. | Develop a basic AR scene setup using a mobile AR SDK (e.g., ARKit, ARCore).; Create a simple marker detection system (e.g., using QR codes or image targets).; Design and implement one themed AR puzzle (e.g., assembling a 3D artifact from fragments).; Integrate a mechanism to display a historical fact or image upon puzzle completion.; Test on a limited set of target devices and environments."
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0028",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Curated Vintage Fashion Recommendation Engine",
+            "target_user": "Gen Z consumers interested in unique, sustainable fashion but overwhelmed by the abundance of online vintage marketplaces.",
+            "problem_or_desire": "Desire to discover authentic vintage clothing items that fit specific personal aesthetics without endlessly scrolling through diverse platforms.",
+            "core_concept": "A recommendation service that learns a user's style preferences (via visual cues, mood boards, and descriptive keywords) and aggregates curated vintage finds from various online sellers.",
+            "proposed_approach": "Utilize machine learning to analyze user-uploaded inspiration images and stylistic inputs, cross-referencing them with metadata from aggregated vintage listings to personalize recommendations.",
+            "prototype_scope": "A mobile app where users can create style profiles using visual uploads and preferences. The app then presents a daily 'discovery feed' of vintage clothing items linked directly to their seller pages, sourced from an initial, limited set of online marketplaces."
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Curated Vintage Fashion Recommendation Engine",
+            "target_user": "Gen Z consumers interested in unique, sustainable fashion but overwhelmed by the abundance of online vintage marketplaces.",
+            "problem_or_desire": "Desire to discover authentic vintage clothing items that fit specific personal aesthetics without endlessly scrolling through diverse platforms.",
+            "core_concept": "Helping users discover unique vintage fashion items that match their personal aesthetic by learning their style preferences, aggregating finds from multiple sources.",
+            "proposed_approach": "A curated discovery feed for vintage fashion, where users define their style through a limited set of inputs, and the platform presents items from a manually selected, small set of online vintage marketplaces.",
+            "prototype_scope": "A mobile app where users can create a style profile by selecting from predefined aesthetic categories (e.g., '90s grunge', 'bohemian', 'minimalist'), uploading 1-3 inspiration photos, and choosing preferred item types (e.g., 'dresses', 'jackets'). The app then presents a daily feed of vintage items sourced from a manually curated list of 2-3 specific online vintage marketplaces (e.g., Etsy vintage, Depop sellers). Items are linked directly to their seller pages. The 'learning' aspect is initially based on user selections and explicit inputs, not complex image analysis. | Develop a simple user profile creation flow with aesthetic category selection, photo upload (for reference, not ML analysis), and item type preferences.; Manually identify and integrate with 2-3 specific online vintage marketplaces (e.g., via RSS feeds, simple scraping, or manual curation of listings).; Build a feed display for recommended items, linking directly to seller pages.; Implement a basic feedback mechanism (e.g., 'like'/'dislike' on items) for future iteration.; Focus on a specific niche within vintage fashion for initial testing (e.g., women's outerwear).; Manual review and tagging of initial inventory from selected marketplaces."
+          }
+        }
+      ]
+    }
+  ]
+}

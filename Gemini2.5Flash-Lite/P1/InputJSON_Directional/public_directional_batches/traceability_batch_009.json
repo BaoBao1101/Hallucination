@@ -1,0 +1,101 @@
+{
+  "batch_id": "P1_DIRECTIONAL_TRACE_009",
+  "stage": "directional_role_aware_method_blind_traceability",
+  "prompt_regime": "P1_shared_neutral",
+  "blindness_note": "Hidden method identity: the evaluator is not shown M1/M3, model, temperature, prompt, source filename, or generation pipeline. Visible directional role: Reference Concept versus Transformation Candidate.",
+  "pairs": [
+    {
+      "pair_id": "P1TRACE_0033",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Flavor Profile Discovery Meal Kit",
+            "target_user": "Home cooks interested in expanding their culinary palate and understanding flavor.",
+            "problem_or_desire": "Desire to learn about complex flavor pairings beyond basic recipes and replicate professional-level taste experiences at home.",
+            "core_concept": "Subscription meal kits focused on specific flavor profiles, with curated ingredients and educational content to help home cooks understand and replicate complex tastes.",
+            "proposed_approach": "A subscription service offering meal kits designed to teach home cooks about specific flavor principles (e.g., umami, balancing sweet and sour) through curated ingredients and educational content.",
+            "prototype_scope": "A single, single-serving meal kit focused on a specific flavor profile (e.g., 'Mastering Umami'). This kit will include precisely measured ingredients for one meal, a recipe card, and a concise educational insert explaining the flavor principles involved and the role of key ingredients. The focus is on testing recipe clarity, ingredient quality, and the educational value of the accompanying material. | Source ingredients for a single 'Mastering Umami' meal kit.; Develop a clear, single-serving recipe and an educational insert on umami.; Package 10 kits for delivery to beta users.; Collect feedback from beta users on recipe clarity, ingredient quality, educational content, and overall experience."
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Flavor Profile Discovery Meal Kit",
+            "target_user": "Home cooks interested in expanding their culinary palate and understanding flavor.",
+            "problem_or_desire": "Desire to learn about complex flavor pairings beyond basic recipes and replicate professional-level taste experiences at home.",
+            "core_concept": "Subscription meal kits focused on specific flavor profiles (e.g., umami, sweet & sour balancing, herbaceousness) with small, curated ingredients and educational notes from culinary experts.",
+            "proposed_approach": "Offer monthly kits containing unusual but accessible ingredients, precisely measured spice blends, and easy-to-follow recipes designed to highlight specific flavor principles. Include fact sheets on ingredient sourcing and history.",
+            "prototype_scope": "Create a single, single-serving meal kit for a 'Savoring Umami' theme, delivered to 10 beta users for feedback on recipe clarity, ingredient quality, and educational value."
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0034",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Gravity Sling: Adaptive Platformer",
+            "target_user": "Casual mobile players who enjoy puzzle elements within fast-paced action.",
+            "problem_or_desire": "A lack of mobile action games that fluidly integrate physics puzzles into core combat and exploration loops, leading to predictable gameplay.",
+            "core_concept": "The core mechanic of altering gravity's direction and intensity within localized zones for navigation and puzzle-solving in a 2D action game.",
+            "proposed_approach": "A 2D side-scrolling action game where players can manipulate localized gravity fields to navigate environments and solve simple environmental puzzles. The focus is on demonstrating the core gravity manipulation mechanic and its impact on player movement and interaction with the environment.",
+            "prototype_scope": "A tutorial level and one short adventure stage. The tutorial introduces basic character movement and the ability to create and move localized gravity zones (e.g., a small area where gravity pulls sideways). The adventure stage requires the player to use this mechanic to reach a goal, overcome simple obstacles (like moving platforms or barriers), and potentially use gravity to push a single enemy into a hazard. No complex combat AI or intricate puzzle chains. | Implement core 2D character controller (jump, move).; Develop the core gravity manipulation mechanic: ability to create a localized gravity field with adjustable direction and intensity.; Design intuitive controls for placing and adjusting gravity fields.; Create a simple level demonstrating platforming challenges solvable with gravity shifts.; Add one simple environmental hazard or obstacle that interacts with gravity.; Implement a single enemy archetype that can be affected by gravity.; Focus on the feel of movement and gravity interaction."
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Gravity Sling: Adaptive Platformer",
+            "target_user": "Casual mobile players who enjoy puzzle elements within fast-paced action.",
+            "problem_or_desire": "A lack of mobile action games that fluidly integrate physics puzzles into core combat and exploration loops, leading to predictable gameplay.",
+            "core_concept": "A 2D side-scrolling action game where the player character can alter gravity's direction and intensity within localized zones. This core mechanic is used for navigation, avoiding traps, and manipulating projectiles to defeat enemies.",
+            "proposed_approach": "Develop physics engine supporting real-time gravity field manipulation. Implement character movement that interacts intuitively with these changing forces. Design level layouts that explicitly leverage gravity shifts for both offense and defense.",
+            "prototype_scope": "A tutorial level and two short adventure stages demonstrating: 1) Using gravity shifts to reach platforms and clear debris, and 2) Using gravity bursts to launch enemies into traps or environmental hazards. No deep enemy AI required."
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0035",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Procedural Mystery Puzzle Generator",
+            "target_user": "Adult puzzle enthusiasts (30-60) who enjoy logic deduction and high replayability.",
+            "problem_or_desire": "Tired of finite puzzle sets; seeking a game that offers endless unique logic challenges.",
+            "core_concept": "A logic puzzle game that uses procedural generation to create unique detective mysteries, offering high replayability by generating new sets of clues, characters, and deduction challenges for each playthrough.",
+            "proposed_approach": "A logic puzzle game where procedural generation creates simplified mystery scenarios. The generation focuses on creating a set of distinct entities (e.g., suspects, items, locations) and a limited set of logical relationships between them, which the player must deduce using a provided interface.",
+            "prototype_scope": "A web or mobile application that procedurally generates a simple logic grid puzzle. The generation system creates a small pool of archetypal elements (e.g., 3 suspects, 3 items, 3 locations) and a fixed set of logical constraints (e.g., 'Suspect A did not use Item X', 'Item Y was found at Location Z'). The player is presented with a deduction grid UI to solve these relationships. The MVP focuses on generating one type of simple logical puzzle. | Develop a procedural generation module for a small set of archetypal mystery elements (e.g., suspects, items, locations).; Implement a system to generate a fixed number of logical constraints between these elements.; Design and build a user interface for a logic grid puzzle.; Integrate the generated puzzle into the UI.; Ensure the generated puzzle is solvable and has a unique solution within its simplified scope."
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Procedural Mystery Puzzle Generator",
+            "target_user": "Adult puzzle enthusiasts (30-60) who enjoy logic deduction and high replayability.",
+            "problem_or_desire": "Tired of finite puzzle sets; seeking a game that offers endless unique logic challenges.",
+            "core_concept": "Leveraging procedural generation to create distinct detective/logic puzzles with a unique set of clues, characters, and deduction trees for each playthrough. Focus on solving a specific anomaly or crime per generated puzzle.",
+            "proposed_approach": "Engineer a puzzle generation algorithm capable of creating varied narrative scenarios and interdependent clue structures. Design a grid/interface for clue intake and logical deduction, and character 'profiles' to manage evidence linkage. Offer replayability through near-infinite procedural generation variations.",
+            "prototype_scope": "Implement a procedural generation system for three discrete archetypal mystery elements (witness, evidence, location). Design a clean note-taking/deduction grid UI for a single, algorithmically generated, simple logical deduction puzzle based on these elements."
+          }
+        }
+      ]
+    }
+  ]
+}

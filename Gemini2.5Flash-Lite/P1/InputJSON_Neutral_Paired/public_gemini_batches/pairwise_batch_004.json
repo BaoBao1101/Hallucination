@@ -1,0 +1,83 @@
+{
+  "batch_id": "P1_NEUTRAL_GEMINI_004",
+  "stage": "neutral_randomized_pairwise_m1_m3",
+  "prompt_regime": "P1_shared_neutral",
+  "pairs": [
+    {
+      "pair_id": "P1PAIR_0013",
+      "candidate_a": {
+        "title": "Interactive Web-Story Builder for Children",
+        "target_user": "Parents of young children (ages 4-8)",
+        "problem_or_desire": "To engage their children in creative storytelling and early literacy in a personalized digital format.",
+        "core_concept": "A web application that allows parents and children to collaboratively create illustrated digital stories using pre-set interactive elements and drag-and-drop functionality.",
+        "proposed_approach": "Develop a simple drag-and-drop interface with character templates, background scenes, and pre-written story starters. Users can input text for dialogue and narration. Stories can be exported as multi-page PDFs.",
+        "prototype_scope": "Build a single-page application supporting a fixed set of character and background assets, with rudimentary text input fields and a PDF export function for a story with a maximum of 5 pages."
+      },
+      "candidate_b": {
+        "title": "Interactive Web-Story Builder for Children",
+        "target_user": "Parents of young children (ages 4-8)",
+        "problem_or_desire": "To engage their children in creative storytelling and early literacy in a personalized digital format.",
+        "core_concept": "A web application enabling collaborative creation of illustrated digital stories by parents and children, using pre-set interactive elements and drag-and-drop functionality.",
+        "proposed_approach": "A simplified web tool for parents and children to create short, illustrated digital stories. It focuses on a guided, collaborative experience with pre-defined assets and basic text input, culminating in a shareable digital output.",
+        "prototype_scope": "A web application where parents and children can select from a limited set of pre-designed characters and backgrounds, drag them onto a page, add simple text boxes for dialogue or narration, and then export the story as a multi-page PDF. | Develop a basic web interface with a canvas area.; Implement a library of 5-10 pre-designed character sprites and 5-10 background scenes.; Create drag-and-drop functionality for placing characters and backgrounds on the canvas.; Add a text input tool for adding dialogue or narration boxes.; Implement a page management system (add/remove pages, max 5 pages).; Develop a PDF export function that renders the story pages.; Conduct user testing with a small group of parents and children to gather feedback on usability and engagement."
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0014",
+      "candidate_a": {
+        "title": "Ephemeral Artificer: The Sand Kingdom",
+        "target_user": "Mid-core mobile gamers who appreciate procedural generation and emergent storytelling.",
+        "problem_or_desire": "A longing for single-player action adventure games where the game world feels unique and responsive to player actions beyond static encounters, facilitating a sense of authorship.",
+        "core_concept": "A 3D open-world action game set in a constantly evolving desert environment. The core mechanic involves 'Erosive Construction,' where player actions (attacks, movements) dynamically sculpt the terrain, creating temporary cover, trapdoors, or new pathways that 'wind away' over time like sand dunes.",
+        "proposed_approach": "Employ advanced terrain deformation algorithms that run in near real-time. Implement agent AI that can dynamically pathfind and react to the constantly changing landscape. Design elemental spells that interact procedurally with the shifting sands (e.g., temporary petrification, mini-dust storms).",
+        "prototype_scope": "One controllable character exploring a small desert biome segment. Task: reach a specific landmark using terrain manipulation to overcome 3 predefined physical obstacles. Enemies present (a few types), their AI only minimally aware of environmental shifts."
+      },
+      "candidate_b": {
+        "title": "Ephemeral Artificer: The Sand Kingdom",
+        "target_user": "Mid-core mobile gamers who appreciate procedural generation and emergent storytelling.",
+        "problem_or_desire": "A longing for single-player action adventure games where the game world feels unique and responsive to player actions beyond static encounters, facilitating a sense of authorship.",
+        "core_concept": "The core mechanic of player actions dynamically sculpting the terrain, creating temporary environmental changes that affect navigation and gameplay.",
+        "proposed_approach": "A 3D action game segment where player actions (e.g., specific attacks or abilities) cause localized, temporary changes to the terrain, creating new pathways or obstacles. The focus is on demonstrating the 'Erosive Construction' mechanic in a controlled environment.",
+        "prototype_scope": "One controllable character in a small, contained 3D desert biome segment. The player has a specific ability (e.g., a ground-pound or a sand-blasting attack) that can temporarily deform the terrain, creating small ramps, pits, or cover. The objective is to navigate a short path with 3 predefined environmental obstacles that require terrain manipulation to overcome. A few simple enemies are present, but their AI does not need to dynamically pathfind through the changing terrain; they can be static or follow simple patrol routes. | Implement core 3D character controller (movement, basic attack).; Develop a localized terrain deformation system triggered by a specific player action.; Ensure terrain changes are temporary and 'wind away' over a set period.; Design 3 distinct environmental obstacles that require terrain manipulation to pass.; Create a small, contained 3D level segment showcasing these elements.; Implement basic enemy AI that can be avoided or defeated.; Focus on the feel and visual feedback of terrain deformation."
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0015",
+      "candidate_a": {
+        "title": "Ephemeral Real-World Social 'Quests'",
+        "target_user": "Urban young adults and college students (18-28) seeking fun, spontaneous group activities and location-based discovery.",
+        "problem_or_desire": "Desire for low-stakes, time-bound, socially interactive real-world 'missions' to add an element of surprise to daily routines or outings.",
+        "core_concept": "Short, time-limited, location-based 'quests' or challenges that encourage spontaneous, social, real-world interaction and discovery, with a focus on group participation and quick verification.",
+        "proposed_approach": "A mobile application that presents users with simple, location-based tasks that must be completed within a short time frame. Completion is verified by a simple photo upload with GPS data. The focus is on testing the core loop of receiving a quest, navigating to a location, and verifying completion.",
+        "prototype_scope": "A mobile application for a defined, small geographic area (e.g., a single park or university campus). Users can initiate a 'quest' which directs them to a single GPS coordinate. Upon arrival, they must take a photo that includes a specific, pre-defined landmark or object at that location. The photo, along with its GPS stamp, is uploaded for manual or basic automated verification. Successful completion provides a simple confirmation message. The MVP focuses on the core user journey for 2-4 players. | Set up a mobile app framework with GPS capabilities.; Implement a system to define a small, testable geographic zone.; Create a simple quest generation system that assigns a single GPS coordinate and a visual target within that zone.; Develop a photo capture feature with GPS timestamping.; Implement a photo upload mechanism.; Create a basic verification process (manual or simple rule-based check).; Design a user flow for initiating, completing, and verifying a quest."
+      },
+      "candidate_b": {
+        "title": "Ephemeral Real-World Social 'Quests'",
+        "target_user": "Urban young adults and college students (18-28) seeking fun, spontaneous group activities and location-based discovery.",
+        "problem_or_desire": "Desire for low-stakes, time-bound, socially interactive real-world 'missions' to add an element of surprise to daily routines or outings.",
+        "core_concept": "Users receive short, randomized scavenger-hunt-like quests tied to geolocated points in their vicinity. Quests have tight time windows, and successful completion (verified via photo-geo-tag) unlocks a small community leaderboard or digital reward for participating groups.",
+        "proposed_approach": "Utilize mapping APIs and GPS to define quest locations. Implement a secure geo-tagging and photo-upload system for task verification. Design a backend for queueing randomized, time-sensitive quests relevant to urban public spaces. Monetize by offering branded local business sponsorships for quests.",
+        "prototype_scope": "Create a user journey allowing two players within a defined walkable zone (e.g., university campus). Present one objective at a single GPS coordinate and require photo upload with GPS stamp within a 15-minute window to verify successful 'completion'."
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0016",
+      "candidate_a": {
+        "title": "Micro-Batch Roastery Subscription for Enthusiasts",
+        "target_user": "Gourmet coffee enthusiasts aged 30-55 with disposable income seeking unique single-origin beans.",
+        "problem_or_desire": "Desire to explore rare, exceptionally fresh, and ethically sourced coffee varietals that are not widely available.",
+        "core_concept": "Hyper-local, micro-batch coffee roasting services offering surprise selections of limited-availability single-origin beans sourced directly from smallholder farms.",
+        "proposed_approach": "Develop direct relationships with a small network of select coffee farms. Employ on-demand micro-roasting technology powered by renewable energy for minimal environmental impact. Offer personalized bean profiles based on subscriber preferences and cupping scores.",
+        "prototype_scope": "Build an online platform showcasing 5 ethically sourced, micro-lot green bean offerings. Implement an automated email confirmation system for limited initial batch subscriptions, fulfilled with first-choice roasting equipment and manually packaged for 25 early subscribers in one metropolitan area."
+      },
+      "candidate_b": {
+        "title": "Micro-Batch Roastery Subscription for Enthusiasts",
+        "target_user": "Gourmet coffee enthusiasts aged 30-55 with disposable income seeking unique single-origin beans.",
+        "problem_or_desire": "Desire to explore rare, exceptionally fresh, and ethically sourced coffee varietals that are not widely available.",
+        "core_concept": "Offering subscribers surprise selections of limited-availability, single-origin coffee beans that are exceptionally fresh and ethically sourced, with a focus on unique varietals.",
+        "proposed_approach": "A subscription service that curates and delivers small-batch roasted, limited-availability single-origin coffee beans to enthusiasts. The focus is on sourcing unique, ethically produced beans and providing a fresh, high-quality coffee experience. Personalization will be based on broad preference categories rather than detailed cupping scores initially.",
+        "prototype_scope": "A curated subscription box service offering a single, rotating selection of ethically sourced, single-origin coffee beans, roasted in small batches. The MVP will focus on sourcing 2-3 unique micro-lot beans per month, roasting them just before shipping, and delivering them to a limited number of subscribers within a specific geographic region. Customer feedback will be collected on bean selection, roast quality, and freshness. | Secure partnerships with 1-2 reputable green coffee importers or brokers to source 2-3 distinct micro-lot, single-origin beans.; Establish a relationship with a local, high-quality small-batch roaster for initial production (or use existing roasting equipment if available).; Develop a simple landing page and subscription signup form for a single tier of service (e.g., monthly delivery).; Manually curate and package the first month's offering for a maximum of 50 subscribers.; Implement a basic email communication flow for order confirmation and shipping notifications.; Focus marketing efforts on niche coffee forums and social media groups targeting enthusiasts in a single metropolitan area.; Collect direct feedback from initial subscribers via surveys and personal outreach."
+      }
+    }
+  ]
+}

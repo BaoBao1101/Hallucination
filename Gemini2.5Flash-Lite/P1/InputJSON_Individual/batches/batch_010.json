@@ -1,0 +1,65 @@
+[
+  {
+    "candidate_id": "BLIND_0085",
+    "title": "Visual Problem Deconstructor",
+    "target_user": "University students struggling with complex STEM problem-solving",
+    "problem_or_desire": "Difficulty breaking down complex problems into manageable steps and visualizing abstract concepts",
+    "core_concept": "A collaborative digital whiteboard platform that guides users to visually deconstruct problems and receive AI-driven suggestions for problem-solving strategies.",
+    "proposed_approach": "Utilize interactive graph algorithms to map out problem components and create a flow of inquiry. Incorporate an AI assistant trained on problem-solving frameworks to offer prompts for abstraction, simplification, and generalization of steps.",
+    "prototype_scope": "A single-user, desktop application prototype for introductory physics problems. It allows users to draw diagrams, input text segments, and drag/connect elements. The AI will offer suggestions for one specific problem-solving method (e.g., drawing free-body diagrams)."
+  },
+  {
+    "candidate_id": "BLIND_0061",
+    "title": "Augmented Reality Guided Coffee Brewing Guide",
+    "target_user": "Home coffee brewing hobbyists aged 25-45 who own sophisticated brewing equipment (e.g., pour-over kettles, espresso machines) and seek to improve their technique.",
+    "problem_or_desire": "Difficulty in mastering complex brewing techniques and consistency, leading to sub-optimal coffee taste and a desire for real-time, step-by-step interactive instruction.",
+    "core_concept": "Providing dynamic, visual, step-by-step guidance for coffee brewing methods using augmented reality.",
+    "proposed_approach": "A mobile application that uses augmented reality to overlay visual cues and instructions for specific coffee brewing methods, helping users improve their technique and consistency.",
+    "prototype_scope": "Develop a mobile app that guides users through two popular brewing methods (e.g., pour-over and AeroPress) using AR. The app will display visual overlays for key actions such as water pouring angles, target water levels, and timing prompts. It will not attempt complex equipment recognition or automated feedback; instead, it will rely on users aligning their actions with the visual guides. The MVP will be tested with 10-15 home brewing hobbyists to assess…"
+  },
+  {
+    "candidate_id": "BLIND_0038",
+    "title": "Gravity Sling: Adaptive Platformer",
+    "target_user": "Casual mobile players who enjoy puzzle elements within fast-paced action.",
+    "problem_or_desire": "A lack of mobile action games that fluidly integrate physics puzzles into core combat and exploration loops, leading to predictable gameplay.",
+    "core_concept": "A 2D side-scrolling action game where the player character can alter gravity's direction and intensity within localized zones. This core mechanic is used for navigation, avoiding traps, and manipulating projectiles to defeat enemies.",
+    "proposed_approach": "Develop physics engine supporting real-time gravity field manipulation. Implement character movement that interacts intuitively with these changing forces. Design level layouts that explicitly leverage gravity shifts for both offense and defense.",
+    "prototype_scope": "A tutorial level and two short adventure stages demonstrating: 1) Using gravity shifts to reach platforms and clear debris, and 2) Using gravity bursts to launch enemies into traps or environmental hazards. No deep enemy AI required."
+  },
+  {
+    "candidate_id": "BLIND_0022",
+    "title": "AI-Powered Allergy-Aware Meal Planner & Grocery Service",
+    "target_user": "Individuals with multiple severe food allergies or dietary restrictions who struggle to find safe and enjoyable meal solutions.",
+    "problem_or_desire": "Difficulty in finding diverse, appealing, and consistently safe meal options and efficiently managing groceries while adhering to strict dietary needs.",
+    "core_concept": "A personalized meal planning and grocery service that prioritizes safety for individuals with severe food allergies and dietary restrictions, using technology to manage complexity.",
+    "proposed_approach": "A personalized meal planning service that generates safe, allergy-aware meal plans and corresponding shopping lists for individuals with severe dietary restrictions.",
+    "prototype_scope": "Develop a web-based form where users can input a detailed list of severe allergies (e.g., nuts, dairy, gluten, soy) and dietary preferences. Based on this input, the service will generate a 7-day meal plan with recipes and a corresponding shopping list of pre-approved, safe ingredients. The focus is on testing the accuracy and safety of the generated meal plans and shopping lists, and the user experience of inputting restrictions and receiving the plan. |…"
+  },
+  {
+    "candidate_id": "BLIND_0078",
+    "title": "Modular Combat Architect",
+    "target_user": "Core mobile gamers looking for deep strategic customization.",
+    "problem_or_desire": "Frustration with limited customization options in existing mobile action games and a desire to create unique combat playstyles.",
+    "core_concept": "A real-time action combat game where players can swap and combine hundreds of micro-modules (e.g., weapon attachments, cybernetic augments, projectile modifiers) during a match to dynamically adapt their build against opponents or environmental challenges.",
+    "proposed_approach": "Focus on developing an intuitive modular UI for pre-match building and an event-driven system for on-the-fly module integration during gameplay. Utilize procedural generation for visual module variations to expand aesthetic diversity.",
+    "prototype_scope": "A single-player PvE challenge mode where players must defeat waves of enemies by progressively swapping and testing five distinct purchasable module types on a base attack, demonstrating the dynamic customization and combat synergy."
+  },
+  {
+    "candidate_id": "BLIND_0042",
+    "title": "Personalized Micro-Dose Coffee Subscription",
+    "target_user": "Individuals sensitive to caffeine but who enjoy the ritual and flavor of coffee.",
+    "problem_or_desire": "Desire for the coffee experience without the jitters or sleep disruption.",
+    "core_concept": "A subscription service delivering precisely measured, single-serving coffee pods with varying, low caffeine content, tailored to individual tolerance levels.",
+    "proposed_approach": "Develop a proprietary blending and portioning system. Offer an initial taste profile quiz to gauge user sensitivity. Utilize a direct-to-consumer subscription model.",
+    "prototype_scope": "Create 5 distinct low-caffeine blends. Develop a simple online form for initial user profiling. Fulfill a limited number of local test subscriptions (e.g., 50 users) using manual packaging."
+  },
+  {
+    "candidate_id": "BLIND_0027",
+    "title": "Hyperlocal Event Discovery for Niche Hobbies",
+    "target_user": "Individuals with specific, less common hobbies (e.g., urban foraging, historical reenactment, board game design) looking for local meetups.",
+    "problem_or_desire": "Difficulty finding local, in-person events and communities related to niche hobbies that are not widely advertised.",
+    "core_concept": "A community-driven platform for discovering and organizing hyper-local events for specialized interest groups.",
+    "proposed_approach": "Users can post and discover events within a defined geographic radius, with filtering options for specific hobby categories. Event organizers can manage RSVPs.",
+    "prototype_scope": "A mobile-first web application allowing users to view events on a map within a 10-mile radius, filter by 5-10 predefined niche categories, and RSVP to events."
+  }
+]

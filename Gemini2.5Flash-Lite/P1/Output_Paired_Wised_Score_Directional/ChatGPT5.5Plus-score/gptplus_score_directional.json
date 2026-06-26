@@ -1,0 +1,424 @@
+{
+"evaluations": [
+{
+"pair_id": "P1TRACE_0001",
+"scores": {
+"creative_core_preservation": 3.6,
+"novelty_retention": 3.3,
+"practical_mvp_improvement": 4.4,
+"overclaim_removal_quality": 4.6,
+"semantic_drift_risk": 3.1
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The transformation retains scenario-based language practice and private feedback but replaces empathetic nuance with grammar and vocabulary correction. Its fixed scenarios and text-only feedback form a clearer MVP, while the emotional-support mechanism is materially narrowed."
+},
+{
+"pair_id": "P1TRACE_0002",
+"scores": {
+"creative_core_preservation": 4.1,
+"novelty_retention": 3.7,
+"practical_mvp_improvement": 4.3,
+"overclaim_removal_quality": 3.7,
+"semantic_drift_risk": 2.7
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Dynamic client-side personalization remains, but the broader content-block and regional-targeting idea becomes one banner for visit-state conditions. That reduction makes the implementation boundary clearer, though it removes some of the reference's configurable variety."
+},
+{
+"pair_id": "P1TRACE_0003",
+"scores": {
+"creative_core_preservation": 4.0,
+"novelty_retention": 3.8,
+"practical_mvp_improvement": 4.3,
+"overclaim_removal_quality": 4.1,
+"semantic_drift_risk": 2.7
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Visual decomposition and guided problem-solving remain, while collaboration is removed and guidance is constrained to one rule-based physics technique. The narrower single-user workflow and explicit rule boundary improve prototype testability at the cost of the shared-learning dimension."
+},
+{
+"pair_id": "P1TRACE_0004",
+"scores": {
+"creative_core_preservation": 2.4,
+"novelty_retention": 2.0,
+"practical_mvp_improvement": 4.3,
+"overclaim_removal_quality": 4.3,
+"semantic_drift_risk": 4.1
+},
+"preferred_for_prototype": "REFERENCE",
+"short_rationale": "The transformation makes matching concrete through profiles and keywords, but replaces the reference's distinctive matching on demonstrated solution approaches with conventional explicit-skill matching. It is more bounded, yet the reference retains the defining mechanism worth testing first."
+},
+{
+"pair_id": "P1TRACE_0005",
+"scores": {
+"creative_core_preservation": 4.5,
+"novelty_retention": 4.2,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.2,
+"semantic_drift_risk": 1.8
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The transformation preserves customizable mobile micro-learning templates, media, quizzes, and basic completion tracking. It converts broad customization and tracking into one template, three modules, and capped quizzes, creating a substantially clearer MVP with little loss of the central service."
+},
+{
+"pair_id": "P1TRACE_0006",
+"scores": {
+"creative_core_preservation": 4.0,
+"novelty_retention": 3.8,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.8,
+"semantic_drift_risk": 2.5
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Personalized restriction-aware meal planning and shopping guidance remain, but guaranteed avoidance and grocery-box delivery are replaced with vetted ingredients, recipes, and testing. This preserves the safety-focused service while sharply bounding claims and delivery scope for an initial prototype."
+},
+{
+"pair_id": "P1TRACE_0007",
+"scores": {
+"creative_core_preservation": 2.7,
+"novelty_retention": 2.6,
+"practical_mvp_improvement": 4.1,
+"overclaim_removal_quality": 3.8,
+"semantic_drift_risk": 3.8
+},
+"preferred_for_prototype": "REFERENCE",
+"short_rationale": "The transformation keeps timing practice and visual feedback but drops the reference's interactive 3D maze or path interaction and nodal spatial premise. Its beat-tapping MVP is clearer, yet it becomes a more routine rhythm trainer without enough compensating feasibility gain."
+},
+{
+"pair_id": "P1TRACE_0008",
+"scores": {
+"creative_core_preservation": 3.4,
+"novelty_retention": 3.0,
+"practical_mvp_improvement": 4.4,
+"overclaim_removal_quality": 3.9,
+"semantic_drift_risk": 3.3
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Local non-monetary exchange and moderated community access remain, but the point-based earning and redemption mechanism becomes manual proposals and messaging. The simpler workflow creates a testable exchange board, while sacrificing a meaningful part of the reference's coordination model."
+},
+{
+"pair_id": "P1TRACE_0009",
+"scores": {
+"creative_core_preservation": 4.7,
+"novelty_retention": 4.6,
+"practical_mvp_improvement": 4.3,
+"overclaim_removal_quality": 3.5,
+"semantic_drift_risk": 1.6
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Recording three to five actions and releasing a replaying temporal clone for tactical distraction or flanking is retained almost exactly. The transformation gives clearer action examples and prototype behaviors without materially changing the distinctive combat interaction."
+},
+{
+"pair_id": "P1TRACE_0010",
+"scores": {
+"creative_core_preservation": 4.7,
+"novelty_retention": 4.5,
+"practical_mvp_improvement": 4.4,
+"overclaim_removal_quality": 4.2,
+"semantic_drift_risk": 1.5
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Rotating short-term chef residencies in a shared kitchen and dining space remain central. The transformation operationalizes support, feedback, and manual booking or payments, preserving the studiocuisine premise while making the initial residency test more explicitly manageable."
+},
+{
+"pair_id": "P1TRACE_0011",
+"scores": {
+"creative_core_preservation": 4.0,
+"novelty_retention": 3.7,
+"practical_mvp_improvement": 4.3,
+"overclaim_removal_quality": 4.2,
+"semantic_drift_risk": 2.6
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Shared annotation and thematic organization persist, but community-level synthesis of divergent readings becomes predefined tags, keyword extraction, and word clouds. The transformation offers a clear single-text test while reducing the richness of comparative interpretation."
+},
+{
+"pair_id": "P1TRACE_0012",
+"scores": {
+"creative_core_preservation": 3.8,
+"novelty_retention": 3.5,
+"practical_mvp_improvement": 4.3,
+"overclaim_removal_quality": 4.1,
+"semantic_drift_risk": 2.9
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The hyper-local seasonal meal premise remains through an urban-farm and community-garden dinner, but food delivery and authorized foraging disappear. Confining sourcing to known providers and a one-night event improves operational clarity while narrowing the original sourcing concept."
+},
+{
+"pair_id": "P1TRACE_0013",
+"scores": {
+"creative_core_preservation": 4.9,
+"novelty_retention": 4.8,
+"practical_mvp_improvement": 4.4,
+"overclaim_removal_quality": 3.9,
+"semantic_drift_risk": 1.1
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Collaborative parent-child story creation, fixed visual assets, drag-and-drop composition, text, and PDF export are all retained. The transformation states concrete asset counts and page management, making the already bounded concept easier to test without meaningful conceptual loss."
+},
+{
+"pair_id": "P1TRACE_0014",
+"scores": {
+"creative_core_preservation": 4.3,
+"novelty_retention": 4.1,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.5,
+"semantic_drift_risk": 2.2
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Temporary terrain deformation that opens routes, creates cover, and changes navigation remains the core interaction. The transformation confines it to specific abilities, obstacles, and simple enemy behavior, preserving Erosive Construction while removing broad world and adaptive-AI demands."
+},
+{
+"pair_id": "P1TRACE_0015",
+"scores": {
+"creative_core_preservation": 3.6,
+"novelty_retention": 3.4,
+"practical_mvp_improvement": 4.2,
+"overclaim_removal_quality": 4.0,
+"semantic_drift_risk": 2.9
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Location-based photo-verified quests and group discovery remain, but explicit randomization, tight time windows, and social rewards are no longer central. The defined-zone journey and landmark verification form a bounded pilot, though the spontaneous game-like pressure is reduced."
+},
+{
+"pair_id": "P1TRACE_0016",
+"scores": {
+"creative_core_preservation": 3.6,
+"novelty_retention": 3.6,
+"practical_mvp_improvement": 4.3,
+"overclaim_removal_quality": 4.2,
+"semantic_drift_risk": 3.1
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Surprise subscriptions, limited single-origin beans, freshness, and small-batch roasting remain, while hyper-local operation and direct smallholder sourcing are softened. The rotating selection and regional delivery create a more bounded pilot but lessen the original sourcing distinctiveness."
+},
+{
+"pair_id": "P1TRACE_0017",
+"scores": {
+"creative_core_preservation": 3.2,
+"novelty_retention": 3.2,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.3,
+"semantic_drift_risk": 3.5
+},
+"preferred_for_prototype": "REFERENCE",
+"short_rationale": "The transformation retains upload and annotation but collapses image sequences or GIF-style guides into one manually selected annotated frame. It is highly buildable, yet the reference's multi-frame instructional output remains a clearer expression of the concept's distinctive utility."
+},
+{
+"pair_id": "P1TRACE_0018",
+"scores": {
+"creative_core_preservation": 4.6,
+"novelty_retention": 4.5,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.6,
+"semantic_drift_risk": 1.6
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Course-synchronized scent, sound, lighting, texture, and food remain the central experience. The transformation specifies a contained menu, available ambience tools, and participant feedback, retaining the sensory premise while replacing broader technical ambition with a testable event."
+},
+{
+"pair_id": "P1TRACE_0019",
+"scores": {
+"creative_core_preservation": 4.8,
+"novelty_retention": 4.7,
+"practical_mvp_improvement": 4.3,
+"overclaim_removal_quality": 4.0,
+"semantic_drift_risk": 1.3
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Audio-led constrained questioning and sequential deduction are preserved almost exactly in the botany scenario. The transformation clarifies prerecorded clue responses and a small answer set, improving the test boundary without changing the central diagnostic-game interaction."
+},
+{
+"pair_id": "P1TRACE_0020",
+"scores": {
+"creative_core_preservation": 3.1,
+"novelty_retention": 3.0,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.4,
+"semantic_drift_risk": 3.5
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Pod-level sensing and stockout prevention remain, but automated marketplace reordering becomes a low-stock alert followed by manual ordering from one supplier. This makes sensing and threshold validation concrete, while removing the reference's automated purchasing and curated-marketplace mechanism."
+},
+{
+"pair_id": "P1TRACE_0021",
+"scores": {
+"creative_core_preservation": 3.7,
+"novelty_retention": 3.5,
+"practical_mvp_improvement": 4.6,
+"overclaim_removal_quality": 4.7,
+"semantic_drift_risk": 3.0
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "AR visual brewing guidance for two methods remains, but equipment recognition, automated feedback, and personalized recalibration become user-aligned static overlays and timers. The result is much more bounded and testable, though less dynamic than the reference experience."
+},
+{
+"pair_id": "P1TRACE_0022",
+"scores": {
+"creative_core_preservation": 2.1,
+"novelty_retention": 2.0,
+"practical_mvp_improvement": 4.7,
+"overclaim_removal_quality": 4.8,
+"semantic_drift_risk": 4.3
+},
+"preferred_for_prototype": "REFERENCE",
+"short_rationale": "The transformation preserves a glowing evening ambience but replaces the living bioluminescent-material mechanism with conventional lighting and decor. It is far more bounded, yet becomes a generic themed cafe; the reference should be tested first because its distinctive premise is lost."
+},
+{
+"pair_id": "P1TRACE_0023",
+"scores": {
+"creative_core_preservation": 4.1,
+"novelty_retention": 4.0,
+"practical_mvp_improvement": 4.4,
+"overclaim_removal_quality": 4.2,
+"semantic_drift_risk": 2.5
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Coffee, regional stories, tasting notes, ingredients, and a cultural ceremony box remain. Replacing a traditional brewing tool with a simplified interpretation can reduce ritual fidelity, but creates a more explicitly bounded 50-box pilot while retaining the experiential learning core."
+},
+{
+"pair_id": "P1TRACE_0024",
+"scores": {
+"creative_core_preservation": 3.8,
+"novelty_retention": 3.6,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.6,
+"semantic_drift_risk": 2.8
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Organizing personal files into themed containers with contextual notes for future recipients remains. The transformation replaces a rich cloud platform with a local encrypted archive and explicit key-sharing workflow, improving MVP specificity while reducing metadata and platform breadth."
+},
+{
+"pair_id": "P1TRACE_0025",
+"scores": {
+"creative_core_preservation": 4.8,
+"novelty_retention": 4.7,
+"practical_mvp_improvement": 4.4,
+"overclaim_removal_quality": 4.1,
+"semantic_drift_risk": 1.3
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Sequential collaborative writing, small groups, shared story development, and voting on branches are retained nearly intact. The transformation makes turn cadence and the voting moment explicit, yielding a clear web MVP without changing the noncompetitive storytelling mechanism."
+},
+{
+"pair_id": "P1TRACE_0026",
+"scores": {
+"creative_core_preservation": 4.4,
+"novelty_retention": 4.2,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.0,
+"semantic_drift_risk": 1.9
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Beat-timed attacks and dodges, combo growth, and enhanced feedback remain central. The transformation narrows dynamic music and broader actions to one fixed track and basic inputs, making the feedback loop easier to validate while retaining the rhythmic-combat identity."
+},
+{
+"pair_id": "P1TRACE_0027",
+"scores": {
+"creative_core_preservation": 3.6,
+"novelty_retention": 3.5,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.3,
+"semantic_drift_risk": 3.1
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "AR overlays, physical-space interaction, and historical puzzle framing remain, but scanning varied real objects becomes QR or fixed-surface triggering with a simpler puzzle. The transformation sharply improves controllability, although environmental manipulation is materially reduced."
+},
+{
+"pair_id": "P1TRACE_0028",
+"scores": {
+"creative_core_preservation": 3.9,
+"novelty_retention": 3.8,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.4,
+"semantic_drift_risk": 2.6
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Personalized vintage discovery and multi-source aggregation remain, but learned visual preference analysis becomes explicit categories, a few images, and manual marketplace curation. This produces a credible initial feed while reducing the adaptive visual-matching mechanism."
+},
+{
+"pair_id": "P1TRACE_0029",
+"scores": {
+"creative_core_preservation": 4.7,
+"novelty_retention": 4.6,
+"practical_mvp_improvement": 4.3,
+"overclaim_removal_quality": 4.0,
+"semantic_drift_risk": 1.3
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Temporary collaborative whiteboarding with timed or manual deletion is retained almost exactly. The transformation omits links and image embedding but explicitly fixes user count, timer, reset behavior, and no persistence, yielding a clearer test with minimal conceptual loss."
+},
+{
+"pair_id": "P1TRACE_0030",
+"scores": {
+"creative_core_preservation": 3.7,
+"novelty_retention": 3.4,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.5,
+"semantic_drift_risk": 2.9
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Content-informed cross-promotion and idea suggestions remain, but audience engagement analysis and personalized micro-campaign logic become keyword analysis plus human curation. The transformation provides a bounded report workflow while reducing the reference's richer analytical co-pilot mechanism."
+},
+{
+"pair_id": "P1TRACE_0031",
+"scores": {
+"creative_core_preservation": 3.2,
+"novelty_retention": 3.0,
+"practical_mvp_improvement": 4.6,
+"overclaim_removal_quality": 4.6,
+"semantic_drift_risk": 3.4
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Technique feedback for two carpentry tasks remains, but real-time sensor and computer-vision analysis becomes recorded-video comparison to simple visual templates. This is far more concrete for an MVP, though it changes the feedback mechanism from dynamic motion analysis to gross deviation guidance."
+},
+{
+"pair_id": "P1TRACE_0032",
+"scores": {
+"creative_core_preservation": 4.1,
+"novelty_retention": 3.9,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.2,
+"semantic_drift_risk": 2.5
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "In-match swapping and combining of modules to adapt a combat build remains central. The transformation cuts hundreds of modules and broad variation to five defined types and a single-player mode, creating a feasible test while reducing combinatorial breadth."
+},
+{
+"pair_id": "P1TRACE_0033",
+"scores": {
+"creative_core_preservation": 4.8,
+"novelty_retention": 4.7,
+"practical_mvp_improvement": 4.4,
+"overclaim_removal_quality": 4.1,
+"semantic_drift_risk": 1.3
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Flavor-profile education through curated ingredients, a recipe, and explanatory material remains intact. The transformation specifies one serving, precise components, and beta feedback, making the existing meal-kit premise more operational without materially reducing its distinctive educational interaction."
+},
+{
+"pair_id": "P1TRACE_0034",
+"scores": {
+"creative_core_preservation": 4.4,
+"novelty_retention": 4.3,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.2,
+"semantic_drift_risk": 1.9
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Localized directional and intensity-based gravity manipulation remains the defining interaction. The transformation reduces stages, projectile manipulation, and complex encounters to a tutorial and short level, preserving the unusual mechanic while establishing a focused playable test."
+},
+{
+"pair_id": "P1TRACE_0035",
+"scores": {
+"creative_core_preservation": 4.1,
+"novelty_retention": 4.0,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.2,
+"semantic_drift_risk": 2.4
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Procedural generation of distinct mystery elements and a deduction interface remains, while rich narrative scenarios and broad deduction trees become one small logic-grid format. This improves implementable scope while retaining the repeatable, generated-mystery premise."
+}
+]
+}

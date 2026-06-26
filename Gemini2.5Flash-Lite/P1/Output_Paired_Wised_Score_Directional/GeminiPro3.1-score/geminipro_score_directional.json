@@ -1,0 +1,424 @@
+{
+"evaluations": [
+{
+"pair_id": "P1TRACE_0029",
+"scores": {
+"creative_core_preservation": 5.0,
+"novelty_retention": 4.5,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.0,
+"semantic_drift_risk": 1.0
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The candidate perfectly preserves the ephemeral whiteboard core while providing highly concrete MVP boundaries, such as user limits and specific tools, translating the reference into a highly feasible test."
+},
+{
+"pair_id": "P1TRACE_0030",
+"scores": {
+"creative_core_preservation": 3.5,
+"novelty_retention": 3.0,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.5,
+"semantic_drift_risk": 2.5
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The transformation removes vague AI analytics in favor of testable, manual keyword extraction. It sacrifices some automated novelty for a highly feasible and bounded prototype, successfully trading complex algorithms for practical execution."
+},
+{
+"pair_id": "P1TRACE_0031",
+"scores": {
+"creative_core_preservation": 3.5,
+"novelty_retention": 3.0,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.5,
+"semantic_drift_risk": 3.0
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The transformation wisely strips away highly complex computer vision algorithms, opting for a feasible visual overlay comparison. This improves testability while retaining the core educational goal, accepting a moderate mechanism change."
+},
+{
+"pair_id": "P1TRACE_0032",
+"scores": {
+"creative_core_preservation": 4.5,
+"novelty_retention": 4.0,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.0,
+"semantic_drift_risk": 1.5
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The transformation preserves the dynamic module-swapping combat while effectively bounding the scope by removing procedural generation. Limiting the prototype to five specific, testable modules significantly improves feasibility."
+},
+{
+"pair_id": "P1TRACE_0033",
+"scores": {
+"creative_core_preservation": 4.5,
+"novelty_retention": 4.5,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.0,
+"semantic_drift_risk": 1.5
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "By narrowing a full subscription service to a single, testable kit, the transformation provides a much more practical MVP. It bounds the scope beautifully while fully preserving the educational flavor-discovery core."
+},
+{
+"pair_id": "P1TRACE_0034",
+"scores": {
+"creative_core_preservation": 4.5,
+"novelty_retention": 4.5,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.0,
+"semantic_drift_risk": 1.0
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The candidate successfully scopes the game down to a tutorial and single stage, avoiding complex AI or intricate puzzles, while completely preserving the distinctive gravity-manipulation mechanic for a practical, focused prototype."
+},
+{
+"pair_id": "P1TRACE_0035",
+"scores": {
+"creative_core_preservation": 4.5,
+"novelty_retention": 4.0,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.5,
+"semantic_drift_risk": 1.5
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The transformation replaces the grandiose claim of near-infinite procedural generation with a highly feasible, bounded logic grid generator using a small pool of archetypal elements, perfectly trading overclaims for a testable prototype."
+},
+{
+"pair_id": "P1TRACE_0001",
+"scores": {
+"creative_core_preservation": 2.5,
+"novelty_retention": 2.0,
+"practical_mvp_improvement": 4.0,
+"overclaim_removal_quality": 4.0,
+"semantic_drift_risk": 4.5
+},
+"preferred_for_prototype": "REFERENCE",
+"short_rationale": "The transformation achieves feasibility by completely abandoning the distinctive empathetic and emotional intelligence aspects of the reference. It results in a conventional language chatbot, losing the core premise in the pursuit of simplicity."
+},
+{
+"pair_id": "P1TRACE_0002",
+"scores": {
+"creative_core_preservation": 4.5,
+"novelty_retention": 4.5,
+"practical_mvp_improvement": 4.0,
+"overclaim_removal_quality": 3.5,
+"semantic_drift_risk": 1.5
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The transformation bounds the MVP perfectly by maintaining the dynamic JavaScript injection but dropping complex location-based targeting, ensuring a highly testable first iteration without losing the core premise."
+},
+{
+"pair_id": "P1TRACE_0003",
+"scores": {
+"creative_core_preservation": 4.0,
+"novelty_retention": 3.5,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.5,
+"semantic_drift_risk": 2.5
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The candidate replaces complex AI with a structured rule-based system for free-body diagrams, greatly improving testability while still preserving the visual deconstruction core of the original."
+},
+{
+"pair_id": "P1TRACE_0004",
+"scores": {
+"creative_core_preservation": 2.0,
+"novelty_retention": 1.5,
+"practical_mvp_improvement": 4.0,
+"overclaim_removal_quality": 4.5,
+"semantic_drift_risk": 4.5
+},
+"preferred_for_prototype": "REFERENCE",
+"short_rationale": "The candidate drops the core code-history analysis mechanism for generic keyword matching. While highly feasible, it abandons the distinctive leap entirely, making the original reference much more compelling to prototype."
+},
+{
+"pair_id": "P1TRACE_0005",
+"scores": {
+"creative_core_preservation": 4.5,
+"novelty_retention": 4.5,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 3.5,
+"semantic_drift_risk": 1.0
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The transformation sets clear limits on quiz size and template count while perfectly preserving the micro-learning core, establishing a highly credible MVP boundary."
+},
+{
+"pair_id": "P1TRACE_0006",
+"scores": {
+"creative_core_preservation": 4.0,
+"novelty_retention": 3.5,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.5,
+"semantic_drift_risk": 2.0
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "By dropping complex AI and grocery delivery for a rule-based MVP, the transformation prioritizes safety and feasibility while remaining true to the personalized allergy-aware meal planning mechanism."
+},
+{
+"pair_id": "P1TRACE_0007",
+"scores": {
+"creative_core_preservation": 3.0,
+"novelty_retention": 2.5,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.0,
+"semantic_drift_risk": 3.0
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The transformation simplifies complex 3D polyrhythms into a 2D 4/4 tap game. It loses some distinctive novelty but gains immense practical testability for a rhythm-based training tool MVP."
+},
+{
+"pair_id": "P1TRACE_0008",
+"scores": {
+"creative_core_preservation": 3.5,
+"novelty_retention": 3.0,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.0,
+"semantic_drift_risk": 2.5
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The candidate removes complex geospatial and automated point systems in favor of a manual, moderated board, retaining the core local exchange while dramatically lowering the implementation barrier."
+},
+{
+"pair_id": "P1TRACE_0009",
+"scores": {
+"creative_core_preservation": 4.5,
+"novelty_retention": 4.5,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 3.5,
+"semantic_drift_risk": 1.0
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The transformation elegantly bounds the clone mechanic to a limited sequence of inputs and echo types, vastly improving technical feasibility without losing the unique temporal combat core."
+},
+{
+"pair_id": "P1TRACE_0010",
+"scores": {
+"creative_core_preservation": 5.0,
+"novelty_retention": 5.0,
+"practical_mvp_improvement": 4.0,
+"overclaim_removal_quality": 3.0,
+"semantic_drift_risk": 1.0
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The candidate clarifies the operational scope for a short-term test, specifying duration and tools, while fully maintaining the residency concept and core distinctive mechanism."
+},
+{
+"pair_id": "P1TRACE_0011",
+"scores": {
+"creative_core_preservation": 4.0,
+"novelty_retention": 4.0,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.0,
+"semantic_drift_risk": 2.0
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The transformation replaces deep AI synthesis with manual tags and basic keyword extraction, successfully trading overambitious automated insight for a practical, buildable peer interpretation platform."
+},
+{
+"pair_id": "P1TRACE_0012",
+"scores": {
+"creative_core_preservation": 4.5,
+"novelty_retention": 4.5,
+"practical_mvp_improvement": 4.0,
+"overclaim_removal_quality": 3.5,
+"semantic_drift_risk": 1.5
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Restricting sourcing to known urban farms instead of pure generalized foraging makes the dining experience safe and practical to execute, while strongly preserving the hyper-local narrative."
+},
+{
+"pair_id": "P1TRACE_0013",
+"scores": {
+"creative_core_preservation": 4.5,
+"novelty_retention": 4.5,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 3.0,
+"semantic_drift_risk": 1.0
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The transformation beautifully bounds the scope with explicit limits on pages and pre-designed assets, making the collaborative digital story builder concrete and testable."
+},
+{
+"pair_id": "P1TRACE_0014",
+"scores": {
+"creative_core_preservation": 4.0,
+"novelty_retention": 4.0,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.5,
+"semantic_drift_risk": 2.0
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Replaces complex open-world terrain algorithms and emergent AI with a localized, controlled deformation test, successfully retaining the erosive core mechanic in a highly buildable state."
+},
+{
+"pair_id": "P1TRACE_0015",
+"scores": {
+"creative_core_preservation": 4.0,
+"novelty_retention": 3.5,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.0,
+"semantic_drift_risk": 2.0
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The candidate drops dynamic queueing and automated leaderboards for a single-location test with basic photo verification, bounding the real-world quest MVP perfectly."
+},
+{
+"pair_id": "P1TRACE_0016",
+"scores": {
+"creative_core_preservation": 4.0,
+"novelty_retention": 4.0,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.5,
+"semantic_drift_risk": 1.5
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The transformation removes the unrealistic renewable on-demand roasting claim in favor of a standard small-batch partnership, creating a highly feasible manual curation test that retains the surprise discovery."
+},
+{
+"pair_id": "P1TRACE_0017",
+"scores": {
+"creative_core_preservation": 3.5,
+"novelty_retention": 3.0,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.5,
+"semantic_drift_risk": 2.5
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "By replacing automatic multi-frame extraction with manual single-frame selection, the transformation sacrifices some automation for a highly testable, focused visual guide generator."
+},
+{
+"pair_id": "P1TRACE_0018",
+"scores": {
+"creative_core_preservation": 4.5,
+"novelty_retention": 4.0,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.0,
+"semantic_drift_risk": 1.5
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The candidate utilizes accessible technology like color bulbs and essential oils over advanced custom diffusion systems to test the multi-sensory dining hypothesis safely and affordably."
+},
+{
+"pair_id": "P1TRACE_0019",
+"scores": {
+"creative_core_preservation": 4.0,
+"novelty_retention": 4.0,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 3.5,
+"semantic_drift_risk": 1.5
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Using pre-recorded audio responses to pre-written Yes/No questions explicitly bounds the narrative tree, ensuring the core diagnostic process is entirely testable without complex logic engines."
+},
+{
+"pair_id": "P1TRACE_0020",
+"scores": {
+"creative_core_preservation": 4.0,
+"novelty_retention": 3.5,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.5,
+"semantic_drift_risk": 2.0
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The transformation drops predictive AI and automated e-commerce fulfillment for a simple threshold alert system, vastly improving MVP feasibility while addressing the core supply problem."
+},
+{
+"pair_id": "P1TRACE_0021",
+"scores": {
+"creative_core_preservation": 4.0,
+"novelty_retention": 3.5,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.5,
+"semantic_drift_risk": 2.0
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The candidate removes highly complex dynamic object recognition in favor of static AR overlays for pouring angles, effectively bounding the scope while testing the core visual guidance value."
+},
+{
+"pair_id": "P1TRACE_0022",
+"scores": {
+"creative_core_preservation": 3.5,
+"novelty_retention": 3.0,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.5,
+"semantic_drift_risk": 3.0
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The transformation replaces complex biological light sources with accessible UV and LED equivalents. While the 'bioluminescent' core is lost, it creates a viable test for the calming ambient atmosphere."
+},
+{
+"pair_id": "P1TRACE_0023",
+"scores": {
+"creative_core_preservation": 4.5,
+"novelty_retention": 4.0,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 3.5,
+"semantic_drift_risk": 1.5
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "Replaces complex authentic tools with simplified approximations to maintain cultural immersion while controlling costs, providing a concrete plan for sourcing and building 50 limited-edition boxes."
+},
+{
+"pair_id": "P1TRACE_0024",
+"scores": {
+"creative_core_preservation": 4.0,
+"novelty_retention": 3.5,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.5,
+"semantic_drift_risk": 2.0
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The transformation shifts from an AI-assisted cloud platform to a local encrypted desktop app, drastically simplifying security and development for the MVP while retaining the curation core."
+},
+{
+"pair_id": "P1TRACE_0025",
+"scores": {
+"creative_core_preservation": 4.5,
+"novelty_retention": 4.5,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 3.0,
+"semantic_drift_risk": 1.0
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The candidate perfectly operationalizes the narrative sandbox by setting concrete constraints on turn length, player count, and voting frequency, keeping the core highly recognizable."
+},
+{
+"pair_id": "P1TRACE_0026",
+"scores": {
+"creative_core_preservation": 4.0,
+"novelty_retention": 3.5,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.5,
+"semantic_drift_risk": 2.0
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The transformation replaces complex procedural music generation with a single fixed track, focusing entirely on validating the rhythmic input mechanic and combo multiplier effectively."
+},
+{
+"pair_id": "P1TRACE_0027",
+"scores": {
+"creative_core_preservation": 4.0,
+"novelty_retention": 3.5,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.0,
+"semantic_drift_risk": 2.0
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The candidate swaps generalized surface detection for reliable printed QR markers, ensuring the AR puzzle mechanic functions smoothly for early testing without sacrificing the historical premise."
+},
+{
+"pair_id": "P1TRACE_0028",
+"scores": {
+"creative_core_preservation": 3.5,
+"novelty_retention": 3.0,
+"practical_mvp_improvement": 4.5,
+"overclaim_removal_quality": 4.5,
+"semantic_drift_risk": 2.5
+},
+"preferred_for_prototype": "TRANSFORMATION",
+"short_rationale": "The transformation removes complex ML visual analysis, relying on explicit user categorization and manual curation from specific marketplaces to test the core feed value proposition affordably."
+}
+]
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "candidate_id": "BLIND_0170",
+    "title": "Local Supply Chain Mapper",
+    "target_user": "Small-scale independent restaurants",
+    "problem_or_desire": "Inefficiency in sourcing seasonal ingredients from multiple local farms.",
+    "core_concept": "A centralized procurement dashboard for local farm inventory.",
+    "proposed_approach": "A web app that aggregates inventory lists from local producers into a single ordering interface for chefs.",
+    "prototype_scope": "A static inventory view for three local farms and a simple email-based order submission button."
+  },
+  {
+    "candidate_id": "BLIND_0176",
+    "title": "Legal Workflow Traffic Controller",
+    "target_user": "Corporate paralegals",
+    "problem_or_desire": "Uncontrolled document version chaos across external law firms.",
+    "core_concept": "Automated synchronization of shared folder structures managed by intelligent filing agents.",
+    "proposed_approach": "The agent moves incoming files into designated folders based on metadata patterns and alerts if structural changes don't adhere to house style.",
+    "prototype_scope": "Automated folder sorting agent interfacing exclusively with shared enterprise cloud document repositories."
+  },
+  {
+    "candidate_id": "BLIND_0068",
+    "title": "Zero-Waste Vending",
+    "target_user": "University students",
+    "problem_or_desire": "Lack of healthy, affordable, and sustainable late-night food options.",
+    "core_concept": "Automated kiosks dispensing hot, fresh meals in reusable, returnable containers.",
+    "proposed_approach": "Install a smart vending unit that tracks container returns via QR codes to incentivize circular usage.",
+    "prototype_scope": "One vending unit in a single dormitory lobby serving three types of hot bowls."
+  },
+  {
+    "candidate_id": "BLIND_0174",
+    "title": "Technical Debt Resolution Tasking",
+    "target_user": "Solo founders with technical debt",
+    "problem_or_desire": "Difficulty hiring fractional experts to debug one-off legacy code patches",
+    "core_concept": "Micro-scope project matchmaking tailored strictly for specific framework codebases",
+    "proposed_approach": "AI-moderated skill verification for legacy system languages to find precise specialist coders",
+    "prototype_scope": "Manual pilot job-matching board restricted to three niche PHP and React bug-fixes"
+  },
+  {
+    "candidate_id": "BLIND_0166",
+    "title": "AI Coffee Palette Auditor",
+    "target_user": "Hospitality startup management",
+    "problem_or_desire": "Mismatch between generic inventory bean selection and local customer latent flavour preference data",
+    "core_concept": "Analyzing customer waste patterns via bin monitoring combined with QR-scan-based beverage survey inputs to optimize shelf supply",
+    "proposed_approach": "Aggregating digital intake metadata from specific location footfall into heat maps characterizing taste skew for future inventory orders",
+    "prototype_scope": "Implementing one tablet kiosk feedback gatherer integrated with traditional POS output in a non-traditional coffee setting like a co-working shared area"
+  },
+  {
+    "candidate_id": "BLIND_0145",
+    "title": "Personalized Traceability Identity (TI)",
+    "target_user": "High-transparency supply chain consumers",
+    "problem_or_desire": "Lack of granular detail connecting payment to specific farmer/crop outcomes in mainstream coffee service channels",
+    "core_concept": "Banking interface enabling customers to link their loyalty point spend directly to local agricultural school endowments",
+    "proposed_approach": "Transaction routing through blockchain smart-contracts to transparently distribute surplus margins to individual coffee harvesters mentioned on labeling",
+    "prototype_scope": "Ten-person feedback session simulated via a manual dashboard mapping donations to localized, known agricultural beneficiaries"
+  },
+  {
+    "candidate_id": "BLIND_0173",
+    "title": "Fresh-Roast Micro-batch Aggregator",
+    "target_user": "Remote professionals",
+    "problem_or_desire": "Difficulty in tracking distinct flavor profiles from independent local roasters without shipping bloat",
+    "core_concept": "Curated coffee subscription focused strictly on 48-hour roast freshness.",
+    "proposed_approach": "A hyper-local subscription service that partners with three roasters to deliver beans roasted within 48 hours via a manual, fixed-route courier model.",
+    "prototype_scope": "A manual subscription list for 20 local users, with a single courier picking up and delivering on a set day. | Secure commitment from 3 local roasters for specific roast days.; Recruit 20 local subscribers via email/social.; Execute 4 weekly delivery cycles using a manual spreadsheet for routing."
+  },
+  {
+    "candidate_id": "BLIND_0099",
+    "title": "Remote Heritage Immersion Kitchen",
+    "target_user": "Expats seeking nostalgia and traditional cooking comfort",
+    "problem_or_desire": "Failure of traditional catering to capture regional specific 'feel' of comfort home-cooking",
+    "core_concept": "Remote coaching by heritage cooks.",
+    "proposed_approach": "A platform connecting heritage cooks with home cooks for live, remote cooking sessions.",
+    "prototype_scope": "Facilitate 5 live video cooking sessions between heritage cooks and home cooks. | Recruit 2 heritage cooks; Recruit 5 home cooks; Facilitate 5 sessions; Gather feedback on the 'heritage' experience"
+  },
+  {
+    "candidate_id": "BLIND_0028",
+    "title": "Low-Acid Caffeine Concierge",
+    "target_user": "Individuals with caffeine sensitivities",
+    "problem_or_desire": "Inconsistency in non-irritating, laboratory-tested gentle preparation methods in cafe environments",
+    "core_concept": "Personalized coffee selection based on individual sensitivity to acidity.",
+    "proposed_approach": "A subscription service that curates beans known for low-acidity profiles and provides a simple pH test kit for users to track their own reactions.",
+    "prototype_scope": "A 10-person pilot using existing low-acid bean varieties and a basic pH strip kit to gather subjective feedback. | Source 3 known low-acid coffee varieties.; Recruit 10 participants with known sensitivities.; Distribute coffee and pH test strips for a 2-week trial."
+  },
+  {
+    "candidate_id": "BLIND_0116",
+    "title": "Customer Support Resolution Agent",
+    "target_user": "E-commerce support teams",
+    "problem_or_desire": "High volume of repetitive 'where is my order' inquiries consuming human agent time.",
+    "core_concept": "An agent that autonomously interacts with logistics APIs to provide real-time status updates and initiate refunds if criteria are met.",
+    "proposed_approach": "Direct integration with order management systems to execute actions rather than just providing information.",
+    "prototype_scope": "A chatbot that successfully retrieves tracking data and processes a mock refund for a specific order ID."
+  }
+]

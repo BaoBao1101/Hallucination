@@ -1,0 +1,92 @@
+[
+  {
+    "candidate_id": "BLIND_0160",
+    "title": "SyllabusSwap",
+    "target_user": "College graduate teaching assistants",
+    "problem_or_desire": "Finding open-source creative examples for repetitive academic assignment prompts",
+    "core_concept": "Searchable registry of verified academic supplemental material.",
+    "proposed_approach": "A curated directory where users can submit and view links to supplemental materials for specific course modules.",
+    "prototype_scope": "A simple directory site with search and submission forms. | Create a database of 3 dummy course modules; Build a submission form for links; Implement a basic search/filter interface"
+  },
+  {
+    "candidate_id": "BLIND_0165",
+    "title": "LegacyLeaf",
+    "target_user": "Older adults digital preservation enthusiasts",
+    "problem_or_desire": "Difficulty in contextualizing old digitized family photos with metadata",
+    "core_concept": "Chronological storytelling grid for digital archives",
+    "proposed_approach": "Users pin photos to a virtual timeline populated with external major historical dates as anchor points",
+    "prototype_scope": "Web interface where 10 image uploads can be arranged chronologically with editable text annotations per slot"
+  },
+  {
+    "candidate_id": "BLIND_0069",
+    "title": "Event Schedule Peacekeeper",
+    "target_user": "Chief of Staff to growing leadership teams",
+    "problem_or_desire": "Managing individual goal priorities within restricted master organizational capacity plans.",
+    "core_concept": "Constraint-optimization based scheduler prioritizing stated goal achievement rather than empty availability.",
+    "proposed_approach": "The agent performs impact analysis of moving one 'critical block' by predicting potential schedule collapse based on historical meeting habits.",
+    "prototype_scope": "Plugin interfacing with a public calendar API that suggests reshuffling times based on user-designated project milestones."
+  },
+  {
+    "candidate_id": "BLIND_0101",
+    "title": "Micro-SaaS Idea Validator",
+    "target_user": "Aspiring software entrepreneurs",
+    "problem_or_desire": "Spending too much time building products that lack market interest.",
+    "core_concept": "A landing page generator specifically designed for A/B testing value propositions.",
+    "proposed_approach": "A web app that creates two versions of a landing page and tracks conversion rates for different feature sets.",
+    "prototype_scope": "A template builder that creates two distinct landing pages and a basic analytics dashboard."
+  },
+  {
+    "candidate_id": "BLIND_0130",
+    "title": "Collaborative Cold-Brew Barista Collective",
+    "target_user": "Commuter rail users",
+    "problem_or_desire": "Long transit waiting times leading to inconsistent coffee intake due to unpredictable cafe wait times",
+    "core_concept": "On-transit batch-chilled hydration stations replenished based on daily train scheduling metadata",
+    "proposed_approach": "Deploying self-contained cold press kiosks that receive daily batch fills tuned to anticipated traffic on train lines",
+    "prototype_scope": "Deploying one prototype vending interface in a specific bus transition hub managed with dynamic inventory logic"
+  },
+  {
+    "candidate_id": "BLIND_0125",
+    "title": "SyncMyBoard",
+    "target_user": "Amateur board game hobbyists",
+    "problem_or_desire": "Mismatching players, times, and learning difficulty levels",
+    "core_concept": "Matchmaking based on game complexity and player expertise.",
+    "proposed_approach": "A platform where users list games they want to play and their own experience level.",
+    "prototype_scope": "A simple match-making form. | Build a game listing form; Implement a search/filter for players; Add a simple messaging feature"
+  },
+  {
+    "candidate_id": "BLIND_0014",
+    "title": "Sales Lead Qualifier Agent",
+    "target_user": "B2B sales development representatives",
+    "problem_or_desire": "Wasted time on unqualified leads that do not fit the ideal customer profile.",
+    "core_concept": "An agent that performs deep research on incoming leads by analyzing public digital footprints and company data.",
+    "proposed_approach": "Automated web-scraping and data synthesis to score leads based on predefined firmographic criteria.",
+    "prototype_scope": "A tool that takes a list of 20 LinkedIn profiles and returns a 'qualified' or 'unqualified' status with a one-sentence justification."
+  },
+  {
+    "candidate_id": "BLIND_0057",
+    "title": "Mind Mapping Mycology",
+    "target_user": "Project managers needing mental organizational structure",
+    "problem_or_desire": "Hard-to-track complex logical connections between project silos",
+    "core_concept": "An isometric management simulation where project nodes propagate resources like fungal mycelium, forcing identification of 'thin' link areas through intuitive visual obstruction.",
+    "proposed_approach": "Mapping abstract work dependencies to subterranean connections; broken/weak linkages result in wilting the surface network of crops.",
+    "prototype_scope": "Visualization engine displaying connections between one parent and three child entities."
+  },
+  {
+    "candidate_id": "BLIND_0074",
+    "title": "Software Dependency Auditor",
+    "target_user": "Engineering leads",
+    "problem_or_desire": "Managing security vulnerabilities in open-source dependencies across multiple microservices.",
+    "core_concept": "An agent that scans dependency manifests, checks against vulnerability databases, and creates pull requests for patches.",
+    "proposed_approach": "Automated version checking and testing of patches in a sandboxed environment before notifying developers.",
+    "prototype_scope": "A tool that identifies one outdated dependency in a repository and generates a pull request with the updated version."
+  },
+  {
+    "candidate_id": "BLIND_0051",
+    "title": "Personal Flavor Genome Modeler",
+    "target_user": "Post-medical patients recovering flavor receptors",
+    "problem_or_desire": "Inability to predict which meals currently maximize palatability vs nausea",
+    "core_concept": "Correlative nutrient adjustment system based on specific neuro-sensory feedback loops",
+    "proposed_approach": "Delivering custom savory snacks modeled off tracked daily biometric and linguistic sentiment ratings of food quality",
+    "prototype_scope": "Three day delivery set monitored by participant phone journals analyzing flavor preference patterns in one clinic community"
+  }
+]

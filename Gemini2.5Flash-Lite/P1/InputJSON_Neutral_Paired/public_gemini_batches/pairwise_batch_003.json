@@ -1,0 +1,83 @@
+{
+  "batch_id": "P1_NEUTRAL_GEMINI_003",
+  "stage": "neutral_randomized_pairwise_m1_m3",
+  "prompt_regime": "P1_shared_neutral",
+  "pairs": [
+    {
+      "pair_id": "P1PAIR_0009",
+      "candidate_a": {
+        "title": "Kinetic Echo Recall",
+        "target_user": "Experienced competitive mobile gamers seeking novel tactical depth.",
+        "problem_or_desire": "The meta in competitive mobile action games often becomes stale, and players desire fresh strategic options that reward foresight and timing.",
+        "core_concept": "The core mechanic of recording a sequence of player actions and replaying it via a temporal clone to flank, distract, or attack.",
+        "proposed_approach": "A 1v1 arena combat game where players can record a short sequence of actions and then replay it as a temporal clone. The focus is on demonstrating the tactical use of the clone for creating openings, feints, or flanking maneuvers.",
+        "prototype_scope": "Two hero characters in a symmetrical arena. One-on-one combat. The core mechanic demonstrated is: Player A performs a sequence of 3-5 actions (e.g., attack, dodge, attack). Player A then triggers the 'Kinetic Echo', creating a clone that replays those exact actions. Player A can then use this echo to distract Player B, create a pincer attack, or set up a combo. The MVP includes 3 distinct echo 'types' (e.g., offensive echo, defensive echo, movement echo) that modify the clone's behavior or the recorded sequence. | Implement basic character movement and combat (attack, dodge).; Develop the 'Kinetic Echo' recording system (capture 3-5 inputs).; Implement the echo playback system, ensuring precise replication of recorded actions.; Create 3 distinct echo 'types' that alter the playback or clone behavior.; Design a simple arena for 1v1 combat.; Implement basic AI for the opponent (Player B) to react to the echo.; Focus on the tactical interplay between the player and their echo."
+      },
+      "candidate_b": {
+        "title": "Kinetic Echo Recall",
+        "target_user": "Experienced competitive mobile gamers seeking novel tactical depth.",
+        "problem_or_desire": "The meta in competitive mobile action games often becomes stale, and players desire fresh strategic options that reward foresight and timing.",
+        "core_concept": "A player-versus-player arena brawler where players can, after a successful execution of a 'Kinetic Echo' (recording a sequence of 3-5 combat actions), replay that entire sequence by releasing a temporal clone. These echoes can flank, distract, or even perform complex attacks.",
+        "proposed_approach": "Design AI for echo replication that precisely mirrors player input at specific timings. Balance the cooldown and resource costs for echo deployment and recovery. Develop intuitive player feedback for clone intent and potential threats.",
+        "prototype_scope": "Two hero characters in a symmetrical arena. One vs. One mode demonstrating basic combat and the core 'Kinetic Echo' mechanic: perform an echo attack, dodge enemy counter-attack, then trigger the echo sequence to flank the opponent. Limited to 3 sample echo ability types."
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0010",
+      "candidate_a": {
+        "title": "Collaborative Chef Residency Hub",
+        "target_user": "Emerging chefs seeking to experiment with innovative concepts and build their brand without the risk of opening their own full-scale restaurant.",
+        "problem_or_desire": "Need for affordable, low-overhead platforms for culinary experimentation and professional development, allowing chefs to test unique concepts with real customers.",
+        "core_concept": "A shared kitchen and dining space that provides a platform for emerging chefs to operate temporary, experimental 'studiocuisine' concepts, offering them operational support.",
+        "proposed_approach": "A shared culinary space that hosts rotating emerging chefs for short-term residencies, allowing them to test unique restaurant concepts with real customers.",
+        "prototype_scope": "Invite two aspiring chefs to each 'reside' for one week, operating dinner service Tuesday-Saturday in a provided, fully equipped small kitchen and dining area. The MVP will focus on testing the usability of the facilities for the chefs and gathering feedback from both chefs (on support and operations) and diners (on food and service novelty). Basic booking and payment processing will be handled manually or via simple tools. | Secure a small, equipped kitchen and dining space.; Recruit two emerging chefs willing to participate for one week each.; Define the operational support provided (e.g., basic marketing, POS system, cleaning).; Schedule and promote dinner services for each chef.; Gather feedback from chefs on facility usability and operational support.; Gather feedback from diners on food quality, concept novelty, and overall experience."
+      },
+      "candidate_b": {
+        "title": "Collaborative Chef Residency Hub",
+        "target_user": "Emerging chefs seeking to experiment with innovative concepts and build their brand without the risk of opening their own full-scale restaurant.",
+        "problem_or_desire": "Need for affordable, low-overhead platforms for culinary experimentation and professional development, allowing chefs to test unique concepts with real customers.",
+        "core_concept": "A shared kitchen and dining space that hosts rotating 'resident' chefs for fixed periods, allowing them to operate limited-term 'studiocuisine' concepts.",
+        "proposed_approach": "Provide chefs with fully equipped kitchen facilities and a customizable small dining area. Offer marketing support, front-of-house training, and operational backend assistance (booking, payment processing).",
+        "prototype_scope": "Invite two aspiring chefs to each 'reside' for one week, operating dinner service Tuesday-Saturday. Gather feedback from chefs on facility usability and client interactions, and from diners on service and food novelty."
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0011",
+      "candidate_a": {
+        "title": "Personalized Literary Interpretation Network",
+        "target_user": "Late secondary and early university students in literature humanities",
+        "problem_or_desire": "To engage in deeper, multi-faceted analysis of literary texts beyond surface-level understanding and to connect with diverse analytical viewpoints.",
+        "core_concept": "A peer-to-peer learning platform where users 'annotate' and share their unique interpretations of literary passages, with an AI that synthesizes thematic trends and identifies divergent readings across the community.",
+        "proposed_approach": "Create a secure platform with rich annotation tools that allow for text markup, conceptual tagging, and short analytical entries. Implement NLP to categorize and visualize submitted interpretations for discoverability and synthesis.",
+        "prototype_scope": "A web platform for analyzing a single Shakespearean sonnet. Users can highlight words or phrases, tag them with predefined conceptual categories (e.g., 'love', 'time', 'loss'), and write short comments. An AI will provide basic categorization of the comments and display word frequency related to these themes."
+      },
+      "candidate_b": {
+        "title": "Personalized Literary Interpretation Network",
+        "target_user": "Late secondary and early university students in literature humanities",
+        "problem_or_desire": "To engage in deeper, multi-faceted analysis of literary texts beyond surface-level understanding and to connect with diverse analytical viewpoints.",
+        "core_concept": "A platform for users to share and discover diverse interpretations of literary texts, with AI assistance in organizing and visualizing these interpretations.",
+        "proposed_approach": "A web platform where users can annotate literary passages and share short textual interpretations, with basic AI features to categorize comments by predefined themes and display word frequencies.",
+        "prototype_scope": "A web platform for analyzing a single Shakespearean sonnet. Users can highlight text, assign predefined tags (e.g., 'love', 'time', 'loss'), and write short comments. The AI will perform basic keyword extraction from comments and categorize them based on the predefined tags. It will then display a word cloud of frequently used terms within comments associated with each tag. | Develop a web interface for displaying a single sonnet.; Implement text highlighting and annotation tools.; Create a predefined list of tags relevant to the chosen sonnet.; Allow users to assign tags and write short comments.; Implement basic NLP for keyword extraction and frequency counting from comments.; Develop a simple visualization (e.g., word cloud) for terms within tagged comment groups.; Focus on manual tag assignment and basic AI-driven aggregation."
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0012",
+      "candidate_a": {
+        "title": "Hyper-Local Urban Foraged Meals",
+        "target_user": "Environmentally conscious urban dwellers seeking unique, sustainable dining experiences.",
+        "problem_or_desire": "Desire for fresh, highly seasonal food and a deeper connection to the local urban environment through dining.",
+        "core_concept": "A dining experience that emphasizes hyper-local sourcing, connecting diners to their immediate urban environment through unique, seasonal ingredients.",
+        "proposed_approach": "A pop-up dining experience that highlights ingredients sourced exclusively from urban farms, community gardens, and potentially small-scale, permitted urban agriculture initiatives within a defined, very close proximity (e.g., neighborhood or district).",
+        "prototype_scope": "Host a single, one-night pop-up dinner for 20 guests in a chosen urban neighborhood. The menu will feature a 3-course meal composed entirely of ingredients sourced from known urban farms and community gardens within a 1-2 mile radius. The focus is on testing the appeal of the hyper-local concept, the quality and uniqueness of the sourced ingredients, and the narrative around urban agriculture. | Identify and partner with 2-3 local urban farms/community gardens in a specific neighborhood.; Develop a 3-course menu based on available seasonal produce from these sources.; Secure a venue for a one-night pop-up event.; Market the event to local residents interested in sustainability and unique food experiences.; Host the pop-up dinner and collect qualitative feedback on taste, concept novelty, and connection to the local environment."
+      },
+      "candidate_b": {
+        "title": "Hyper-Local Urban Foraged Meals",
+        "target_user": "Environmentally conscious urban dwellers seeking unique, sustainable dining experiences.",
+        "problem_or_desire": "Desire for fresh, highly seasonal food and a deeper connection to the local urban environment through dining.",
+        "core_concept": "A pop-up restaurant and food delivery service sourcing ingredients directly from urban farms, community gardens, and authorized foraging locations within a 5-mile radius.",
+        "proposed_approach": "Partner with urban agriculture initiatives and trained foragers. Menus change weekly based on available produce. Offer educational workshops on urban foraging alongside tasting menus.",
+        "prototype_scope": "Host a one-night pop-up dinner for 20 guests showcasing a 3-course menu made entirely from ingredients sourced within the immediate neighborhood. Collect qualitative feedback on taste, concept novelty, and sustainability messaging."
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "candidate_id": "BLIND_0052",
+    "title": "Micro-Influencer Agreement Gen",
+    "target_user": "Product creators targeting tiny markets",
+    "problem_or_desire": "Excessive manual effort preparing contracts and performance requirements for smaller-scale influencers",
+    "core_concept": "Modular contract generator for barter/equity influencer deals.",
+    "proposed_approach": "A tool providing modular contract templates for small-scale influencer partnerships, focusing on barter and equity terms.",
+    "prototype_scope": "A PDF contract engine with adjustable variables. | Draft modular contract templates.; Create a simple PDF generator.; Test with 3 creators.; Gather feedback."
+  },
+  {
+    "candidate_id": "BLIND_0131",
+    "title": "Polyglot Plaza",
+    "target_user": "Casual language learners",
+    "problem_or_desire": "Low retention rates caused by repetitive and dry grammar exercises",
+    "core_concept": "Massively parallel text adventure where inventory management items are earned exclusively through accurate contextual sentence translation.",
+    "proposed_approach": "A shared hub city map where dialogue between automated shopkeepers and NPCs prompts players to input simple phrases in their target language.",
+    "prototype_scope": "A simple market vendor area with one 'Bartering' minigame that unlocks trade items."
+  },
+  {
+    "candidate_id": "BLIND_0048",
+    "title": "Dialect Detective",
+    "target_user": "Language learners",
+    "problem_or_desire": "Difficulty understanding regional accents and slang",
+    "core_concept": "A mystery game where clues are hidden in audio clips of various regional dialects",
+    "proposed_approach": "Use a branching narrative structure where players must correctly identify slang terms to unlock dialogue options",
+    "prototype_scope": "One mystery scene with three audio clips and a multiple-choice dialogue interface"
+  },
+  {
+    "candidate_id": "BLIND_0169",
+    "title": "Sensory-Blind Catering Experiences",
+    "target_user": "Office event organizers targeting high social engagement",
+    "problem_or_desire": "Traditional group events often focus too heavily on conversation distractants over menu intentionality",
+    "core_concept": "Focus on taste and texture through sensory deprivation.",
+    "proposed_approach": "A curated tasting event where participants are blindfolded to focus on flavor profiles.",
+    "prototype_scope": "Host one 20-person event with a blindfolded tasting menu. | Design a 6-course tasting menu; Recruit 20 participants; Host the event; Collect qualitative feedback"
+  },
+  {
+    "candidate_id": "BLIND_0042",
+    "title": "Personal Flavor Genome Modeler",
+    "target_user": "Post-medical patients recovering flavor receptors",
+    "problem_or_desire": "Inability to predict which meals currently maximize palatability vs nausea",
+    "core_concept": "Customized food delivery based on individual sensory feedback.",
+    "proposed_approach": "A personalized snack subscription service based on user-reported flavor preferences and feedback.",
+    "prototype_scope": "Deliver 3 snack boxes to 5 users, adjusting subsequent boxes based on their written feedback. | Create a flavor preference survey; Source 5 snack varieties; Deliver and collect feedback; Iterate on box contents"
+  },
+  {
+    "candidate_id": "BLIND_0076",
+    "title": "Vendor Selection Orchestrator",
+    "target_user": "First-time e-commerce brand owners",
+    "problem_or_desire": "Difficulty in finding legitimate, non-spammy shipping and fulfillment partners",
+    "core_concept": "A verified private dashboard of filtered vendors based on store volume metrics",
+    "proposed_approach": "Manual white-glove curation of pre-negotiated volume tiers",
+    "prototype_scope": "Google Sheets landing page portal connecting 5 retailers to vetted 3PL vendors"
+  },
+  {
+    "candidate_id": "BLIND_0088",
+    "title": "The Coffee Pairing Concierge",
+    "target_user": "High-end dinner party hosts",
+    "problem_or_desire": "Difficulty matching coffee profiles to specific dessert courses",
+    "core_concept": "A service that curates and delivers small-batch coffee beans specifically roasted to complement a user's planned menu",
+    "proposed_approach": "Digital questionnaire about the menu followed by curated bean delivery",
+    "prototype_scope": "A landing page for 10 test users to receive a pairing recommendation and sample pack"
+  },
+  {
+    "candidate_id": "BLIND_0050",
+    "title": "QuietQuest",
+    "target_user": "Remote professionals who work in shared urban noise environments",
+    "problem_or_desire": "Lack of data on acoustic environments of candidate public coffee shops for focus time",
+    "core_concept": "Acoustic sentiment monitoring based on non-private noise profile crowd-sourcing",
+    "proposed_approach": "Visualization dashboard identifying specific coffee shops through public metadata metrics about business hours",
+    "prototype_scope": "Web mapping layer highlighting locations coded by assumed levels of background conversational traffic intensity"
+  },
+  {
+    "candidate_id": "BLIND_0067",
+    "title": "Office Sensory Calibration Service",
+    "target_user": "Corporate office managers",
+    "problem_or_desire": "Inconsistent coffee quality leading to employee dissatisfaction",
+    "core_concept": "A recurring service that calibrates office brewing equipment and adjusts grind settings based on water chemistry analysis",
+    "proposed_approach": "Monthly technician visits to test water pH and machine extraction efficiency",
+    "prototype_scope": "Calibration service for 5 office breakrooms in a single business park"
+  },
+  {
+    "candidate_id": "BLIND_0091",
+    "title": "Gesture-Based Spellcaster",
+    "target_user": "Hardcore mobile fantasy gamers",
+    "problem_or_desire": "Dissatisfaction with repetitive tap-to-attack mechanics",
+    "core_concept": "Combat system requiring complex screen-drawing gestures to cast specific spells",
+    "proposed_approach": "Implement a gesture recognition engine that maps specific shapes to spell effects in real-time combat",
+    "prototype_scope": "A combat arena with three distinct spells triggered by drawing specific shapes on the screen"
+  }
+]

@@ -1,0 +1,318 @@
+{
+  "batch_id": "P1_DIRECTIONAL_TRACE_002",
+  "stage": "directional_role_aware_method_blind_traceability",
+  "prompt_regime": "P1_shared_neutral",
+  "blindness_note": "Hidden method identity: the evaluator is not shown M1/M3, model, temperature, prompt, source filename, or generation pipeline. Visible directional role: Reference Concept versus Transformation Candidate.",
+  "pairs": [
+    {
+      "pair_id": "P1TRACE_0011",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Low-Acid Caffeine Concierge",
+            "target_user": "Individuals with caffeine sensitivities",
+            "problem_or_desire": "Inconsistency in non-irritating, laboratory-tested gentle preparation methods in cafe environments",
+            "core_concept": "Personalized coffee selection based on individual sensitivity to acidity.",
+            "proposed_approach": "A subscription service that curates beans known for low-acidity profiles and provides a simple pH test kit for users to track their own reactions.",
+            "prototype_scope": "A 10-person pilot using existing low-acid bean varieties and a basic pH strip kit to gather subjective feedback. | Source 3 known low-acid coffee varieties.; Recruit 10 participants with known sensitivities.; Distribute coffee and pH test strips for a 2-week trial."
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Low-Acid Caffeine Concierge",
+            "target_user": "Individuals with caffeine sensitivities",
+            "problem_or_desire": "Inconsistency in non-irritating, laboratory-tested gentle preparation methods in cafe environments",
+            "core_concept": "",
+            "proposed_approach": "Sub-sampling subscription offering batch-certified low-acid coffee beans screened for standardized PH levels",
+            "prototype_scope": "A pH-measuring toolkit distributed to participants to gather subjective reaction data vs objectively measured laboratory acidity"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0012",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "High-Efficiency Batch Prep Lockers",
+            "target_user": "Early-career shift workers in transit corridors",
+            "problem_or_desire": "No time to properly nutritious pre-prepped daily sustenance between rigid shift boundaries",
+            "core_concept": "Automated kiosk network stocked by local morning-prep professional chef kitchens",
+            "proposed_approach": "Time-sensitive temperature kiosks near train hubs that enable rapid mobile code retrieval of bulk caloric daily prep portions",
+            "prototype_scope": "Deployment of three climate controlled modular locker cabinets dispensing pre-prepped heat-or-eat nutritious vegetable pods near a single bus hub"
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "High-Efficiency Batch Prep Lockers",
+            "target_user": "Early-career shift workers in transit corridors",
+            "problem_or_desire": "No time to properly nutritious pre-prepped daily sustenance between rigid shift boundaries",
+            "core_concept": "Convenient pickup of pre-prepped meals for shift workers.",
+            "proposed_approach": "A scheduled pickup service for pre-prepped meals at transit hubs.",
+            "prototype_scope": "Coordinate 3 pickup points at a transit hub where users collect pre-ordered meals from a staff member. | Partner with a local kitchen; Recruit 10 shift workers; Execute 3 days of pickups; Gather feedback on convenience"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0013",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Arboretum Architect",
+            "target_user": "Urban professionals feeling disconnected from nature",
+            "problem_or_desire": "Lack of calming mental stimulation during public transit commutes",
+            "core_concept": "Slow-paced horticultural design where trees grow in real-time synchronization with sunlight exposure in the player's zip code.",
+            "proposed_approach": "Integrate local meteorological and astronomical APIs to dictate plant growth patterns, incentivizing small adjustments to virtual plots throughout the day.",
+            "prototype_scope": "Single desert garden biome where user can plant one cactus and observe sun-path light-tracking simulations over a 48-hour period."
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Arboretum Architect",
+            "target_user": "Urban professionals feeling disconnected from nature",
+            "problem_or_desire": "Lack of calming mental stimulation during public transit commutes",
+            "core_concept": "Slow-paced, nature-focused horticultural design that evolves based on external environmental data.",
+            "proposed_approach": "A slow-paced gardening game where plant growth is simulated based on a pre-defined 'sunlight schedule' that mimics local day/night cycles, allowing users to check in on their virtual garden at their own pace.",
+            "prototype_scope": "A single-biome garden app where one cactus grows over 48 hours based on a static, simulated light-tracking algorithm. | Develop basic 3D model of a cactus; Implement a 48-hour growth state machine; Create a UI that displays current 'sunlight' status based on local time"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0014",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "BotanicTrack",
+            "target_user": "Casual urban gardener",
+            "problem_or_desire": "Difficulty tracking plant growth performance compared to recommended care",
+            "core_concept": "Visualization of plant growth progress.",
+            "proposed_approach": "A simple tracker where users log plant height and see their own progress over time.",
+            "prototype_scope": "A form to log height and a line graph to visualize it. | Build a log form; Implement a charting library; Display the user's own data"
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "BotanicTrack",
+            "target_user": "Casual urban gardener",
+            "problem_or_desire": "Difficulty tracking plant growth performance compared to recommended care",
+            "core_concept": "Visualization-heavy comparison interface between 'optimal' vs. 'attained' progress steps",
+            "proposed_approach": "Data-heavy tracking focused solely on height metrics over fixed duration time intervals",
+            "prototype_scope": "Form fields for recording plant dimensions weekly, displaying line graphs against ideal biological grow trajectories"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0015",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Community Moderation Firewall",
+            "target_user": "Slack-hosted or Discord-hosted digital service communities",
+            "problem_or_desire": "Managing community quality during organic spikes of paid users joining chat rooms",
+            "core_concept": "Threshold filtering allowing new user interactions after passing specific introductory checklist requirements",
+            "proposed_approach": "Gated room architecture that auto-clears users as members provide identity verification/intro requirements",
+            "prototype_scope": "Set of manual invite workflow gate protocols installed for three specific private Discord communities"
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Community Moderation Firewall",
+            "target_user": "Slack-hosted or Discord-hosted digital service communities",
+            "problem_or_desire": "Managing community quality during organic spikes of paid users joining chat rooms",
+            "core_concept": "Gated community entry based on checklist requirements.",
+            "proposed_approach": "A service providing manual moderation and gated entry protocols for private communities to ensure quality.",
+            "prototype_scope": "Manual invite workflow gate protocols for 3 Discord communities. | Define entry checklist.; Implement manual gate protocols.; Test with 3 communities.; Gather feedback."
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0016",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Hyper-local Seasonal Gleaner App",
+            "target_user": "Urban residential cooks",
+            "problem_or_desire": "Difficulty sourcing surplus fresh, unrefined local produce for complex meals",
+            "core_concept": "Direct trade of backyard fruit/vegetable surplus with local households",
+            "proposed_approach": "Develop a geolocated map-based exchange that matches excess home-grown supply with localized kitchen demand",
+            "prototype_scope": "One neighborhood Slack/Telegram integration managing peer-to-peer pick-ups of three specified seasonal food items"
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Hyper-local Seasonal Gleaner App",
+            "target_user": "Urban residential cooks",
+            "problem_or_desire": "Difficulty sourcing surplus fresh, unrefined local produce for complex meals",
+            "core_concept": "Peer-to-peer exchange of surplus backyard produce.",
+            "proposed_approach": "A manual, community-moderated bulletin board for neighborhood produce sharing.",
+            "prototype_scope": "A dedicated WhatsApp group for one street to post photos of surplus items for free pickup. | Identify 10 households with gardens; Create WhatsApp group; Facilitate 5 successful exchanges; Document pickup friction points"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0017",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Pantry Potioneer",
+            "target_user": "Home cooks trying to minimize food waste",
+            "problem_or_desire": "Managing quickly expiring ingredients that end up in the trash",
+            "core_concept": "RPG fantasy loop where inventory management is tied to real-world pantry items.",
+            "proposed_approach": "An RPG where players manually input their pantry items to gain equipment traits for a fantasy battle.",
+            "prototype_scope": "An inventory screen where users select from ten basic produce items to assign offensive ability slots. | Design ten produce items and their traits; Implement manual inventory selection UI; Build simple battle loop"
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Pantry Potioneer",
+            "target_user": "Home cooks trying to minimize food waste",
+            "problem_or_desire": "Managing quickly expiring ingredients that end up in the trash",
+            "core_concept": "An RPG fantasy loop where monsters representing hunger levels and potion recipes are dynamically generated based on manual pantry inventory scanning.",
+            "proposed_approach": "Camera-vision OCR scanning that maps specific pantry items to equipment traits (e.g., milk is defensive, spice is offensive) to fend off pantry chaos creatures.",
+            "prototype_scope": "Inventory scanner integration processing ten basic produce items as offensive ability slots."
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0018",
+      "displayed_cards": [
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Syntax Storm",
+            "target_user": "Developers working on clean code focus",
+            "problem_or_desire": "High mental fatigue during weekend learning periods",
+            "core_concept": "Combat strategy built entirely on cleaning buggy snippets, represented as infected territory grids.",
+            "proposed_approach": "Applying real regex principles as combat commands, effectively treating syntax repair as real-time defensive fortification building.",
+            "prototype_scope": "One combat grid that rewards valid syntax string repair of two predefined erroneous input segments."
+          }
+        },
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Syntax Storm",
+            "target_user": "Developers working on clean code focus",
+            "problem_or_desire": "High mental fatigue during weekend learning periods",
+            "core_concept": "Combat strategy built on cleaning buggy code snippets.",
+            "proposed_approach": "A puzzle game where players fix buggy code snippets to defeat enemies in a grid-based combat system.",
+            "prototype_scope": "One combat grid that rewards valid syntax string repair of two predefined erroneous input segments. | Design two buggy code snippets; Implement basic grid combat logic; Build simple UI for code repair"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0019",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "Institutional Waste Conversion Catering",
+            "target_user": "Small enterprise HR departments",
+            "problem_or_desire": "Requirement to serve ethical, low-impact high-quality group catering",
+            "core_concept": "Catering using 'ugly' or near-expiry bulk ingredients.",
+            "proposed_approach": "A boutique catering service sourcing ingredients from local produce markets' end-of-day surplus.",
+            "prototype_scope": "Prepare and serve 5 lunches using ingredients purchased at a discount from a local market at closing time. | Identify local market surplus schedule; Design menu based on available 'ugly' produce; Execute 5 lunch deliveries; Survey recipients on quality perception"
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "Institutional Waste Conversion Catering",
+            "target_user": "Small enterprise HR departments",
+            "problem_or_desire": "Requirement to serve ethical, low-impact high-quality group catering",
+            "core_concept": "Meals prepared exclusively from 'ugly' or near-expiry restaurant bulk raw materials",
+            "proposed_approach": "Maintain partnerships with high-end food distributors to repurpose unpicked perfectly edible industrial excess",
+            "prototype_scope": "Catering 5 lunches for one specific office office environment focusing on total reduction of carbon-spend data collection"
+          }
+        }
+      ]
+    },
+    {
+      "pair_id": "P1TRACE_0020",
+      "displayed_cards": [
+        {
+          "role_id": "TRANSFORMATION_CANDIDATE",
+          "role_name": "Transformation Candidate",
+          "role_instruction": "Assess how this candidate changes, preserves, narrows, or operationalizes the Reference Concept. Do not assume this transformation is automatically better.",
+          "candidate": {
+            "title": "KitchenCodex",
+            "target_user": "Home hobby cooks attempting complex international cuisine",
+            "problem_or_desire": "Information silos occurring during parallel recipe preparations across multi-ingredient workflows",
+            "core_concept": "Ingredient-centralized timeline visualization.",
+            "proposed_approach": "A recipe viewer that allows users to toggle between procedural and ingredient-based views.",
+            "prototype_scope": "A web page with a simple timeline visualization for one recipe. | Choose one complex recipe; Build a timeline visualization; Test with a user"
+          }
+        },
+        {
+          "role_id": "REFERENCE_CONCEPT",
+          "role_name": "Reference Concept",
+          "role_instruction": "Use this concept only as the reference point for judging preservation, retention, MVP improvement, overclaim removal, and semantic drift.",
+          "candidate": {
+            "title": "KitchenCodex",
+            "target_user": "Home hobby cooks attempting complex international cuisine",
+            "problem_or_desire": "Information silos occurring during parallel recipe preparations across multi-ingredient workflows",
+            "core_concept": "Ingredient-centralized timeline visualization",
+            "proposed_approach": "Instead of procedural text recipe formats, render active time steps chronologically per critical ingredient node",
+            "prototype_scope": "Horizontal scrolling chart mapping preparation stages from prep work to cook time by category"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "candidate_id": "BLIND_0018",
+    "domain": "Web App Services",
+    "title": "Thư Viện Giấc Mơ Tương Tác",
+    "problem_or_desire": "Mong muốn hiểu rõ hơn về những thông điệp ẩn giấu trong giấc mơ, tìm kiếm nguồn cảm hứng sáng tạo từ tiềm thức, hoặc đơn giản là muốn có một 'sân chơi' an toàn để khám phá những khía cạnh kỳ lạ của tâm trí.",
+    "core_concept": "Một nền tảng web cho phép người dùng ghi lại, phân tích và 'chơi đùa' với giấc mơ của họ thông qua các công cụ AI sáng tạo và trải nghiệm nhập vai.",
+    "proposed_approach": "Một web app cho phép người dùng nhập mô tả giấc mơ (văn bản, giọng nói). AI sẽ phân tích các yếu tố chính, biểu tượng, cảm xúc và tạo ra hình ảnh, âm thanh, hoặc thậm chí là một câu chuyện ngắn dựa trên giấc mơ đó. Người dùng có thể 'chỉnh sửa' giấc mơ, tạo ra các biến thể, hoặc chia sẻ (ẩn danh) với cộng đồng để nhận diễn giải.",
+    "prototype_scope": "Cho phép người dùng nhập mô tả giấc mơ bằng văn bản, AI tạo ra 1-2 hình ảnh minh họa và một vài từ khóa phân tích cảm xúc/biểu tượng chính."
+  },
+  {
+    "candidate_id": "BLIND_0044",
+    "domain": "Restaurant Services",
+    "title": "Neko/Pu*py Latte + Cat & Canine Zen Zones",
+    "problem_or_desire": "Nỗi cô đơn về mặt cảm xúc và sự mệt mỏi thể chất với quá nhiều tác động quá tải hàng ngày từ môi trường sống vốn bị ảnh hưởng rất nhiều và việc thiếu một không gian \"hồi phục nhanh\" mà hoàn toàn yên tĩnh và chân thành trong một nịp sống ngày càng tấp nập của đa số người dùng. Nguyên tắc 'nuôi pets' an toàn với môi trường sinh thái đang gây áp lực nặng như con kiến đi chậm.",
+    "core_concept": "Tạo ra một không gian yên tĩnh, thư giãn, nơi con người có thể tìm thấy sự bình yên và kết nối cảm xúc thông qua sự hiện diện của động vật, mà không cần tương tác vật lý trực tiếp. Kết hợp yếu tố trị liệu thụ động với trải nghiệm ẩm thực nhẹ nhàng.",
+    "proposed_approach": "Một quán cà phê 'Zen' với các khu vực riêng biệt: một khu vực 'Quan sát Động vật' nơi khách hàng có thể quan sát chó/mèo đã được huấn luyện (thông qua kính hoặc màn hình) trong môi trường sống của chúng, và một khu vực 'Thư giãn' yên tĩnh với âm nhạc nhẹ nhàng, cây xanh và đồ uống/thức ăn nhẹ. Tập trung vào việc tạo ra không gian thư giãn và mang lại cảm giác bình yên thông qua sự hiện diện 'tinh tế' của động vật, thay vì cố gắng tái tạo sự tương tác vật lý.",
+    "prototype_scope": "Một quán cà phê pop-up nhỏ với hai khu vực: 1) Khu vực 'Quan sát' với một màn hình lớn chiếu video trực tiếp hoặc các đoạn phim được ghi sẵn về hành vi yên tĩnh của chó/mèo đã được huấn luyện. 2) Khu vực 'Thư giãn' với ghế ngồi thoải mái, cây xanh và nhạc ambient. Phục vụ các loại đồ uống đơn giản (cà phê, trà) với tên gọi gợi nhớ động vật (ví dụ: 'Latte Mèo Ngủ', 'Cappuccino Chó Vẫy Đuôi'). Mục tiêu là tạo ra một không gian yên tĩnh và mang lại cảm giác dễ chịu."
+  },
+  {
+    "candidate_id": "BLIND_0096",
+    "domain": "Coffee Services",
+    "title": "Trao Đổi Môi Trường Lấy Cà Phê (Eco-Credit Cafe Exchange)",
+    "problem_or_desire": "Người dùng có ý thức bảo vệ môi trường nhưng thiếu động lực hữu hình để duy trì, và mong muốn những hành động đó được công nhận rõ ràng và có lợi tức (lấy cafe ngon).",
+    "core_concept": "Khuyến khích hành vi bền vững bằng cách thưởng cho người dùng bằng 'eco-credits' có thể đổi lấy cà phê hoặc ưu đãi, tạo động lực hữu hình cho các hành động xanh.",
+    "proposed_approach": "Một chương trình khách hàng thân thiết cho quán cà phê, nơi khách hàng tích lũy 'điểm xanh' (eco-credits) thông qua các hành động bền vững đơn giản (ví dụ: mang bình nước cá nhân, từ chối ống hút nhựa, tái chế). Các điểm này có thể đổi lấy đồ uống hoặc ưu đãi tại quán. Việc xác minh ban đầu dựa trên khai báo trung thực hoặc xác nhận đơn giản từ nhân viên.",
+    "prototype_scope": "Xây dựng một hệ thống tích điểm đơn giản trên ứng dụng di động hoặc thẻ vật lý. Khách hàng được cấp một số điểm ban đầu. Họ có thể 'báo cáo' các hành động xanh (ví dụ: chụp ảnh mang bình nước, khai báo đã tái chế) và nhận thêm điểm sau khi nhân viên xác nhận thủ công hoặc dựa trên sự trung thực ban đầu. Điểm tích lũy có thể đổi lấy các loại đồ uống cơ bản hoặc giảm giá."
+  },
+  {
+    "candidate_id": "BLIND_0102",
+    "domain": "Game Mobile",
+    "title": "Biện Phép Thoát Hiểm Bản Năng Nguyên Thủy: Tĩnh tâm qua Sức mạnh Trí nhớ Chậm Phản Tư'",
+    "problem_or_desire": "Cuộc sống hiện đại quá nhanh, nông cạn, gây căng thẳng thần kinh; khiến con người mất đi kết nối sâu sắc với bản ngã. Khao khát tìm một không gian \"hiện sinh tỉnh thức\" mà không đòi hỏi quá nhiều công sức hay kỹ năng từ phía người chơi, cho phép thụ động \"cài đặt\" và 'vận hành sự bình an nội tại'.",
+    "core_concept": "Một game idle/narrative kết hợp ASMR, nơi người chơi dẫn dắt nhân vật 'trôi nổi trong ký ức tiềm thức', vượt qua rào cản tâm lý bằng cách thao tác dòng thời gian và thụ động 'thu hoạch' kiến thức sâu sắc từ các bài học chậm rãi.",
+    "proposed_approach": "Một game idle/narrative kết hợp yếu tố ASMR, nơi người chơi tương tác với các 'mảnh ký ức' ảo. Thay vì thao tác dòng thời gian phức tạp, người chơi sẽ 'chạm' vào các mốc ký ức để mở khóa các đoạn văn bản chiêm nghiệm hoặc triết lý đơn giản. Game tập trung vào trải nghiệm thư giãn, thụ động, với hiệu ứng âm thanh ASMR nhẹ nhàng, khuyến khích người chơi thực hành mindfulness. Tiến trình game dựa trên việc 'thu hoạch' các bài học và mở khóa các mốc ký ức mới.",
+    "prototype_scope": "Trong một màn chơi 'Đám mây Trạng thái Kí ức', với một kiểu ký tự 'Lá Úa'. Người chơi bấm nút 'Gợi nhớ', game diễn hoạt nó bay trong không trung mờ ảo. Sau thời gian nhất định, nó xuất hiện 2 câu text triết lí đơn giản về mất mát (ví dụ: 'Cuộc đời luôn để lại vết tích trên đó, quan trọng là ta tìm thấy gì sau khi dấu vết nó lui vào tăm tối?'). Nút để ‘thu hoạch’ câu nói, cho nó trơ vào mục lục thu thập 'Kính ngắm'. Khai thác không bị hạn chế."
+  },
+  {
+    "candidate_id": "BLIND_0026",
+    "domain": "Web App Services",
+    "title": "Du Ca Kiến Thức",
+    "problem_or_desire": "Sự nhàm chán của sách giáo khoa lịch sử truyền thống, khó ghi nhớ các mốc thời gian, sự kiện phức tạp, thiếu sự liên kết cảm xúc và cảm giác chân thật với quá khứ.",
+    "core_concept": "Một ứng dụng web biến việc học các sự kiện lịch sử ngẫu nhiên, tiểu sử nhân vật ít được biết đến thành một trải nghiệm khám phá thế giới thực tế aumentada (AR) vui nhộn.",
+    "proposed_approach": "Người dùng nhận nhiệm vụ tìm 'Mảnh Vụn Lịch Sử' tại các địa điểm thực tế hoặc theo chỉ dẫn AR. Khi đến đúng vị trí, ứng dụng mở ra một mô hình 3D AR của một hiện vật, chân dung nhân vật, hoặc sự kiện. Người dùng hoàn thành nhiệm vụ mini (trả lời câu hỏi, sắp xếp lại trật tự sự kiện) để thu thập 'mảnh', dần hoàn thiện 'bức tranh' lịch sử và mở khóa câu chuyện sâu hơn, đôi khi kể từ góc nhìn bất ngờ (thằng lính vô danh, người bán hàng rong).",
+    "prototype_scope": "Chọn 5-10 sự kiện lịch sử với các địa điểm được xác định rõ (chỉ quanh một vài thành phố lớn để thử nghiệm). Cho phép người dùng mở map tìm điểm đến. Tại điểm đến, màn hình chỉ hiện dòng mô tả sự kiện và một nhân vật 3D đơn giản. Có nút 'Quiz 3 câu' về sự kiện đó. Thành công unlock text chi tiết ngắn."
+  },
+  {
+    "candidate_id": "BLIND_0088",
+    "domain": "Youtube & Tiktok Video Content",
+    "title": "Duyệt Bios của Cải",
+    "problem_or_desire": "Mọi người đều biết 'màn đầu tiên' rất quan trọng nhưng bios/descriptions trên YouTube/TikTok hay bio trên INSTA chỉ là dăm ba câu đại ý kiểu \"mình là Vlogs cá nhân, bấm Sub đi nhé!\". Khán giả/thuật toán bị lãng phí 'ngôi nhà đầu tiên'. Tìm một 'lối tắt' hiệu quả cho sự thay đổi hình ảnh cá nhân mang tính chuyên nghiệp.",
+    "core_concept": "Dịch vụ đánh giá và sáng tạo lại bios 'nghèo nàn' cho các kênh/tài khoản social creator để tối ưu SEO, USP, và sức hút tương tác ngay từ cái nhìn đầu tiên, hướng tới biến nó thành 'AI Prompt' chuẩn chỉnh ban đầu cho chân dung sản phẩm/người sáng tạo.",
+    "proposed_approach": "Web Tool nơi user điền qua 1 QSIR (thang đo thu thập thông tin), về style content, độ tuổi client, đối tượng hướng tới... công cụ trả về ~2-3 options 'signature bios/titiles' ko quá 80char, đã đc tối ưu 'giá trị trao gửi' và cả 'Tỉ lệ từ khóa phù hợp cho Search-SEO' từ Platform đó. Các tùy biến nhỏ dành cho những creator mới là user đang ở cấp beginner (ít biết hoặc muốn thay đổi nó)\".",
+    "prototype_scope": "Webtool dùng form đơn giản > Input user key word/industry > AI spuggest 5 tittles and ~3 variations Bio. Mỗi tip bio sẽ show keyphrase it tried to solve to rank/appeal ."
+  },
+  {
+    "candidate_id": "BLIND_0056",
+    "domain": "Game Mobile",
+    "title": "Thư Viện Cảm Xúc Số",
+    "problem_or_desire": "Mong muốn hiểu rõ hơn về cảm xúc của bản thân, cách chúng tương tác và ảnh hưởng đến cuộc sống, nhưng thiếu công cụ trực quan và vui vẻ để khám phá.",
+    "core_concept": "Một game mobile nhập vai nơi người chơi thu thập, nuôi dưỡng và 'trộn lẫn' các cảm xúc dưới dạng sinh vật kỹ thuật số để giải quyết các câu đố và xây dựng thế giới nội tâm.",
+    "proposed_approach": "Người chơi thu thập 'hạt giống cảm xúc' (ví dụ: 'Niềm vui nhỏ', 'Nỗi buồn thoáng qua'), nuôi dưỡng chúng để chúng lớn lên thành các 'linh hồn cảm xúc' với đặc tính riêng. Kết hợp các linh hồn này để tạo ra các cảm xúc phức tạp hơn hoặc sử dụng chúng để vượt qua các chướng ngại vật trong game (ví dụ: dùng 'Sự kiên nhẫn' để vượt qua một mê cung khó).",
+    "prototype_scope": "Một vài loại cảm xúc cơ bản có thể thu thập, một cơ chế 'lai tạo' đơn giản, và một vài màn chơi giải đố sử dụng các cảm xúc đã lai tạo."
+  },
+  {
+    "candidate_id": "BLIND_0071",
+    "domain": "Edtech",
+    "title": "Biên Tập viên Nội Tâm: Huấn luyện Kịch tính Đàm thoại Tự sự",
+    "problem_or_desire": "Nỗi sợ thất bại trong các cuộc hội thoại định hình tương lai (dự án cá nhân/với mối quan hệ sinh tử), mong muốn thể hiện bản thân một cách mạnh mẽ, rõ ràng và đầy cảm xúc, thay vì đơn thuần truyền thông. Đã qua rồi 'cuộc sống bình thường không tính'.'",
+    "core_concept": "Một AI biên tập và huấn luyện viên giao tiếp theo phong cách tự sự/bi kịch, giúp người dùng \"sắp đặt\" các tình huống khó xử, diễn tập thoại phản ứng để đối thoại tự tin và sâu sắc hơn, từ đó nâng cao khả năng sử dụng ngôn ngữ cá nhân để 'quản trị' thực tại xung quanh.",
+    "proposed_approach": "AI cung cấp những bài 'kịch bản mẫu' về các tình huống nan giải nhất (ví dụ: từ chối trách nhiệm xã hội/khái niệm gia trưởng khó xoay chuyển. hoặc làm chứng trước đám đông.). Người dùng chọn \"vai diễn\" cho mình, nhập những gì đã được làm. Sau đó AI đưa ra lời thoại của 'bản phản hồi lý tưởng'. Có được làm rõ thì có người chơi cùng ta rất nhiều.",
+    "prototype_scope": "Một công cụ tư vấn 'chế độ giọng điệu'. Cho phép người dùng nhập một câu thoại, AI phân tích nó và đưa ra 3 biến thể để thử xem có thay đổi ở mỗi trường hợp. ”,"
+  },
+  {
+    "candidate_id": "BLIND_0038",
+    "domain": "Online Business",
+    "title": "Sân Khấu Hội Ngộ Của Ký Ức",
+    "problem_or_desire": "Sự cô đơn thế hệ; cảm giác lãng quên, mất mát khi các nền tảng mạng xã hội trở nên quá ồn ào và nông cạn; mong muốn tái kết nối với chính mình hoặc người khác thông qua dòng chảy thời gian.",
+    "core_concept": "Một nền tảng kết nối mọi người lại với nhau qua những khoảnh khắc ký ức chung ngẫu nhiên được gợi lên từ quá khứ số của họ.",
+    "proposed_approach": "Nền tảng web/app cho phép người dùng kết nối tài khoản cũ (vd: Facebook timeline, Google Photos archive, trình duyệt history)... hệ thống phân tích và chủ động đề xuất 'giao điểm ký ức' giữa bạn với một người dùng khác (không cần biết nhau) hoặc giữa bạn với chính bạn ở quá khứ.",
+    "prototype_scope": "Một chức năng tìm 'khoảnh khắc chung quá khứ' giữa hai người dùng ngẫu nhiên dựa trên lịch sử vị trí hoặc nhạc đã từng nghe song song."
+  },
+  {
+    "candidate_id": "BLIND_0075",
+    "domain": "Online Business",
+    "title": "AI Sóng Radio Kếch",
+    "problem_or_desire": "Sự khó chịu của playlist âm nhạc 'cố định'; cần âm thanh đồng hành phù hợp từng khoảnh khắc cực kỳ cụ thể (thay vì chỉ 'pop', 'rock'); khám phá những rung động âm thanh mới không thể tìm thấy ở định dạng quen thuộc; bảo vệ trải nghiệm âm thanh khỏi áp lực lan tỏa đại chúng.",
+    "core_concept": "Nền tảng cung cấp trải nghiệm âm thanh cá nhân hóa sâu sắc, do AI sáng tác liên tục và hữu cơ theo tâm trạng, môi trường và yêu cầu của người nghe, tạo ra 'phát thanh của vũ trụ riêng'.",
+    "proposed_approach": "Một ứng dụng di động cho phép người dùng chọn một 'chủ đề âm thanh' (ví dụ: 'Mưa đêm ở Thường Châu', 'Tiệm sách cổ ven biển') và một 'tâm trạng' (ví dụ: 'yên bình', 'huyền bí'). AI sẽ tạo ra một luồng âm thanh môi trường liên tục, kết hợp các yếu tố âm thanh tự nhiên và âm nhạc ambient nhẹ nhàng, phù hợp với lựa chọn của người dùng. Tập trung vào việc tạo ra bầu không khí âm thanh dễ chịu và không gây xao nhãng.",
+    "prototype_scope": "Một trang web đơn giản cho phép người dùng chọn từ 3-5 chủ đề âm thanh được định sẵn (ví dụ: 'Rừng nhiệt đới', 'Quán cà phê yên tĩnh'). AI sẽ tạo ra một đoạn âm thanh môi trường ngẫu nhiên, kéo dài 5 phút, dựa trên chủ đề đã chọn. Không có tính năng tùy chỉnh tâm trạng hoặc lời nói."
+  },
+  {
+    "candidate_id": "BLIND_0069",
+    "domain": "Youtube & Tiktok Video Content",
+    "title": "Nguồn Năng Lượng Hết Giờ Cho Kênh Nhỏ & Trung Bình",
+    "problem_or_desire": "Hết ý tưởng khi sức lực và tài chính chỉ cho phép quay cảnh vật trong vòng không, sản xuất 'hiệu ứng sốc' đơn giản, chi phí paid promotions cho bài post còn leo thang nhanh trong khi bản thân không có chi phí 'big money' để 'hối lộ'.",
+    "core_concept": "Trợ lý sáng tạo siêu nhân gửi AI prompt và các plugin nhỏ (thậm chí dùng atép nguồn tài nguyên) cho creators/manager nhỏ khi năng lượng sáng tạo và ngân sách đều eo hẹp.",
+    "proposed_approach": "Một trình duyệt extension / dashboard: khi creator 'rất' cạn \"hưởng thụ\", cứ bật cái app nhỏ lên, nó 'tung ra' một menu nhỏ 5 ý tưởng tuần này (cho phù hợp theo brand, sở thích), các công cụ \"giúp vui 'thả ảnh tự động và edit đơn giản' - dựa vào prompt, tài liệu ngẫu nhiên của creator hoặc free resource API.. vd: AI Gen theme for meme, Random Stock footage for fill your B-roll etc.",
+    "prototype_scope": "Trình duyệt 'plugin' trên Chrome. Khi bị drain energy / nản - paste 3-5 keyword theo dạng nội dung muốn làm, AI resp 3 gợi ý content: 1) ý tưởng cho 'quick poll post/story', 2) bài PR (báo NLCS free UGC from online news API or relevant Public Posts about ur content), 3) gợi ý B-roll template (link vid free), dùng cho outro/intro)"
+  },
+  {
+    "candidate_id": "BLIND_0107",
+    "domain": "Offline 2D Games",
+    "title": "Thư Viện Ký Ức Số: Trò Chơi Giải Mã Cảm Xúc",
+    "problem_or_desire": "Nhu cầu hiểu và xử lý cảm xúc của bản thân một cách tinh tế, hoặc mong muốn có một phương tiện giải trí mang tính nghệ thuật và suy ngẫm cao.",
+    "core_concept": "Một trò chơi giải đố 2D nơi người chơi sắp xếp lại các mảnh ký ức (hình ảnh, âm thanh, văn bản) để tái hiện và giải mã các trạng thái cảm xúc phức tạp của nhân vật.",
+    "proposed_approach": "Phát triển một game 2D với giao diện tối giản, tập trung vào việc người chơi kéo thả, xoay, ghép nối các 'mảnh ký ức' (ảnh tĩnh, đoạn âm thanh ngắn, câu chữ gợi ý) để hoàn thành một 'bức tranh cảm xúc' hoặc một chuỗi sự kiện dẫn đến một trạng thái cảm xúc nhất định.",
+    "prototype_scope": "Một vài màn chơi tập trung vào một cảm xúc cơ bản (ví dụ: nỗi buồn, niềm vui), với bộ mảnh ghép giới hạn và giao diện đơn giản."
+  }
+]

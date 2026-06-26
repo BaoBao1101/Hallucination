@@ -1,0 +1,102 @@
+{
+  "batch_id": "P1_NEUTRAL_GEMINI_001",
+  "stage": "neutral_randomized_pairwise_m1_m3",
+  "prompt_regime": "P1_shared_neutral",
+  "pairs": [
+    {
+      "pair_id": "P1PAIR_0001",
+      "candidate_a": {
+        "title": "Substack Monetization Audits",
+        "target_user": "Newsletter creators",
+        "problem_or_desire": "Creators struggling to convert free subscribers into paid members",
+        "core_concept": "A manual 10-point audit tool focused purely on the 'pricing page' conversion funnel",
+        "proposed_approach": "Audit reports delivered via Loom video analyzing email sign-up landing page effectiveness",
+        "prototype_scope": "Ten free experimental audits performed for beta users"
+      },
+      "candidate_b": {
+        "title": "Substack Monetization Audits",
+        "target_user": "Newsletter creators",
+        "problem_or_desire": "Creators struggling to convert free subscribers into paid members",
+        "core_concept": "A structured 10-point audit framework specifically for Substack pricing page conversion.",
+        "proposed_approach": "A specialized consulting service providing a standardized 10-point audit of Substack landing pages to improve conversion rates.",
+        "prototype_scope": "Perform 10 manual audits for free in exchange for testimonials and case studies. | Define the 10-point audit criteria.; Identify 20 potential Substack creators.; Conduct 10 audits via Loom video.; Collect feedback and conversion data."
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0002",
+      "candidate_a": {
+        "title": "Remote Heritage Immersion Kitchen",
+        "target_user": "Expats seeking nostalgia and traditional cooking comfort",
+        "problem_or_desire": "Failure of traditional catering to capture regional specific 'feel' of comfort home-cooking",
+        "core_concept": "Remote coaching by heritage cooks.",
+        "proposed_approach": "A platform connecting heritage cooks with home cooks for live, remote cooking sessions.",
+        "prototype_scope": "Facilitate 5 live video cooking sessions between heritage cooks and home cooks. | Recruit 2 heritage cooks; Recruit 5 home cooks; Facilitate 5 sessions; Gather feedback on the 'heritage' experience"
+      },
+      "candidate_b": {
+        "title": "Remote Heritage Immersion Kitchen",
+        "target_user": "Expats seeking nostalgia and traditional cooking comfort",
+        "problem_or_desire": "Failure of traditional catering to capture regional specific 'feel' of comfort home-cooking",
+        "core_concept": "Crowdsourced historical cook books localized into professional recipe standards by diaspora community cooks",
+        "proposed_approach": "Pairing a certified older migrant cook to coach the home visitor remotely over real-time guidance tools as the customer actually prepares their own specialized regional dish",
+        "prototype_scope": "Test sessions where five experts use standardized remote interface pads to walk households through four heritage dumpling recipes"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0003",
+      "candidate_a": {
+        "title": "Tech Stacks Lifecycle Steward",
+        "target_user": "Information technology procurement specialists",
+        "problem_or_desire": "Underutilized 'seat licenses' contributing to phantom software spending.",
+        "core_concept": "Continuous entitlement auditing via automated API connection to single sign-on access logs.",
+        "proposed_approach": "Periodic cross-comparison of user access timestamps against user seating assignment lists, highlighting license retirement recommendations.",
+        "prototype_scope": "Script that performs a one-time automated scan of two disparate identity management SaaS platform usage records."
+      },
+      "candidate_b": {
+        "title": "Tech Stacks Lifecycle Steward",
+        "target_user": "Information technology procurement specialists",
+        "problem_or_desire": "Underutilized 'seat licenses' contributing to phantom software spending.",
+        "core_concept": "Cross-referencing user access logs with license assignments to identify unused seats.",
+        "proposed_approach": "A tool that ingests exported CSVs from SSO and SaaS platforms to identify inactive users.",
+        "prototype_scope": "A script that takes two CSV files (user list and access logs) and outputs a list of potential license reclamation candidates. | Define CSV schema for SSO/SaaS exports; Develop matching logic; Build report generator; Test with synthetic data"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0004",
+      "candidate_a": {
+        "title": "Brand Integrity Monitoring",
+        "target_user": "Service providers with paid media ads",
+        "problem_or_desire": "Brand advertising displaying alongside unsuitable or scammy link farms",
+        "core_concept": "Monitoring mechanism specific to detecting when client URLs are appearing on bad reputation host platforms",
+        "proposed_approach": "Exclusion list sync protocol keeping ad-network blocks consistent across platforms",
+        "prototype_scope": "Report utility highlighting current placements to the store owner once per month"
+      },
+      "candidate_b": {
+        "title": "Brand Integrity Monitoring",
+        "target_user": "Service providers with paid media ads",
+        "problem_or_desire": "Brand advertising displaying alongside unsuitable or scammy link farms",
+        "core_concept": "Monthly reporting on ad placements on low-reputation sites.",
+        "proposed_approach": "A service providing monthly reports to store owners identifying where their ads are appearing on low-reputation sites.",
+        "prototype_scope": "Manual monthly report generation for 5 clients. | Identify 5 clients.; Perform manual placement audits.; Deliver monthly reports.; Gather feedback."
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0005",
+      "candidate_a": {
+        "title": "Micro-Influencer Agreement Gen",
+        "target_user": "Product creators targeting tiny markets",
+        "problem_or_desire": "Excessive manual effort preparing contracts and performance requirements for smaller-scale influencers",
+        "core_concept": "Modular contract generator for barter/equity influencer deals.",
+        "proposed_approach": "A tool providing modular contract templates for small-scale influencer partnerships, focusing on barter and equity terms.",
+        "prototype_scope": "A PDF contract engine with adjustable variables. | Draft modular contract templates.; Create a simple PDF generator.; Test with 3 creators.; Gather feedback."
+      },
+      "candidate_b": {
+        "title": "Micro-Influencer Agreement Gen",
+        "target_user": "Product creators targeting tiny markets",
+        "problem_or_desire": "Excessive manual effort preparing contracts and performance requirements for smaller-scale influencers",
+        "core_concept": "Modular snippet editor for legally compliant barter-based or equity influencer deals",
+        "proposed_approach": "Logic-based document generator for specific project types in the creative domain",
+        "prototype_scope": "Simple PDF contract engine with adjustable performance tracking variables"
+      }
+    }
+  ]
+}

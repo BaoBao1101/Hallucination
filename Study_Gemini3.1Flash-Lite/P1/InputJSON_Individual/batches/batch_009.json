@@ -1,0 +1,92 @@
+[
+  {
+    "candidate_id": "BLIND_0013",
+    "title": "Professional Field Brew Station Repair Service",
+    "target_user": "Small independent retail cafes",
+    "problem_or_desire": "Machine downtime disproportionately impacting revenue during slow maintenance call-outs from established vendors",
+    "core_concept": "Rapid-response modular machine heart swaps and standardized component library to reduce technical failure periods",
+    "proposed_approach": "Aggregator of independent master electricians trained in industry equipment, utilizing modular chassis exchange rather than deep in-store diagnostics",
+    "prototype_scope": "Testing speed-to-solution with five broken commercial devices by delivering serviced, reconditioned replacement module parts"
+  },
+  {
+    "candidate_id": "BLIND_0120",
+    "title": "Brand Integrity Monitoring",
+    "target_user": "Service providers with paid media ads",
+    "problem_or_desire": "Brand advertising displaying alongside unsuitable or scammy link farms",
+    "core_concept": "Monitoring mechanism specific to detecting when client URLs are appearing on bad reputation host platforms",
+    "proposed_approach": "Exclusion list sync protocol keeping ad-network blocks consistent across platforms",
+    "prototype_scope": "Report utility highlighting current placements to the store owner once per month"
+  },
+  {
+    "candidate_id": "BLIND_0150",
+    "title": "Multi-Channel Feedback Resolver",
+    "target_user": "Restaurant group field trainers",
+    "problem_or_desire": "Rapid identification of recurring regional training lapses reported in informal channels.",
+    "core_concept": "Aggregating and categorizing feedback from disparate sources to identify training lapses.",
+    "proposed_approach": "A tool that categorizes feedback into predefined buckets to help managers spot trends.",
+    "prototype_scope": "A dashboard that ingests feedback from two sources and displays a categorized frequency chart. | Define feedback categories; Build ingestion for two sources; Implement categorization logic; Create dashboard"
+  },
+  {
+    "candidate_id": "BLIND_0102",
+    "title": "Coffee-Based Networking Events",
+    "target_user": "Freelancers and solo entrepreneurs",
+    "problem_or_desire": "Isolation and lack of professional networking opportunities",
+    "core_concept": "Curated morning coffee meetups where participants are matched based on professional interests",
+    "proposed_approach": "Facilitated small-group coffee tastings at local cafes",
+    "prototype_scope": "Two events with 10 participants each to test matching logic"
+  },
+  {
+    "candidate_id": "BLIND_0085",
+    "title": "Affiliate Onboarding Concierge",
+    "target_user": "Small SaaS companies under $50k ARR",
+    "problem_or_desire": "Zero experience or manual friction in onboarding new affiliate partners",
+    "core_concept": "Templatized onboarding workflows for SaaS affiliate programs.",
+    "proposed_approach": "A service providing standardized onboarding documentation and CRM templates for small SaaS companies to manage affiliate partners.",
+    "prototype_scope": "Create a digital kit of templates and a 3-video training suite. | Draft onboarding templates.; Record 3 training videos.; Package as a digital product.; Test with 3 beta users."
+  },
+  {
+    "candidate_id": "BLIND_0025",
+    "title": "Digital Asset Legacy Planner",
+    "target_user": "Digital creators and crypto-asset holders",
+    "problem_or_desire": "Ensuring digital assets are accessible to heirs after death",
+    "core_concept": "A secure, time-locked digital vault that releases access credentials to designated beneficiaries",
+    "proposed_approach": "A dead-man's switch mechanism that triggers notification and release after a period of inactivity",
+    "prototype_scope": "A basic web interface that allows users to store encrypted text and set a trigger date"
+  },
+  {
+    "candidate_id": "BLIND_0035",
+    "title": "BotanicTrack",
+    "target_user": "Casual urban gardener",
+    "problem_or_desire": "Difficulty tracking plant growth performance compared to recommended care",
+    "core_concept": "Visualization-heavy comparison interface between 'optimal' vs. 'attained' progress steps",
+    "proposed_approach": "Data-heavy tracking focused solely on height metrics over fixed duration time intervals",
+    "prototype_scope": "Form fields for recording plant dimensions weekly, displaying line graphs against ideal biological grow trajectories"
+  },
+  {
+    "candidate_id": "BLIND_0059",
+    "title": "Virtual Cooking Class Kits",
+    "target_user": "Couples looking for date-night activities",
+    "problem_or_desire": "Lack of engaging, interactive culinary experiences at home.",
+    "core_concept": "A kit containing pre-measured ingredients and a live, interactive video link to a professional chef.",
+    "proposed_approach": "Ship kits to arrive on the day of a scheduled live-streamed group cooking session.",
+    "prototype_scope": "A single event for 10 couples using a pre-recorded video and shipped ingredient boxes."
+  },
+  {
+    "candidate_id": "BLIND_0054",
+    "title": "Institutional Waste Conversion Catering",
+    "target_user": "Small enterprise HR departments",
+    "problem_or_desire": "Requirement to serve ethical, low-impact high-quality group catering",
+    "core_concept": "Catering using 'ugly' or near-expiry bulk ingredients.",
+    "proposed_approach": "A boutique catering service sourcing ingredients from local produce markets' end-of-day surplus.",
+    "prototype_scope": "Prepare and serve 5 lunches using ingredients purchased at a discount from a local market at closing time. | Identify local market surplus schedule; Design menu based on available 'ugly' produce; Execute 5 lunch deliveries; Survey recipients on quality perception"
+  },
+  {
+    "candidate_id": "BLIND_0019",
+    "title": "Inter-App Knowledge Scavenger",
+    "target_user": "Customer-facing freelance consultants",
+    "problem_or_desire": "Duplicate information creation where project context is scattered between messenger apps and whiteboard collaboration tools.",
+    "core_concept": "Summarizing chat discussions and linking them to project management tickets.",
+    "proposed_approach": "A tool that allows users to select chat messages and push them as comments to a project management ticket.",
+    "prototype_scope": "A Slack/Teams bot that lets users click a 'save to ticket' button on a message. | Build chat bot integration; Implement ticket API connection; Create 'save' action; Test with one PM tool"
+  }
+]

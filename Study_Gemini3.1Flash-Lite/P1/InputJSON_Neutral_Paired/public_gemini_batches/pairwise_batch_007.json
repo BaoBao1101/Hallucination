@@ -1,0 +1,102 @@
+{
+  "batch_id": "P1_NEUTRAL_GEMINI_007",
+  "stage": "neutral_randomized_pairwise_m1_m3",
+  "prompt_regime": "P1_shared_neutral",
+  "pairs": [
+    {
+      "pair_id": "P1PAIR_0031",
+      "candidate_a": {
+        "title": "Sleep Sentinel",
+        "target_user": "Light sleepers suffering from screen light overstimulation",
+        "problem_or_desire": "Late night fidgeting and phone reliance impacting transition to REM cycles",
+        "core_concept": "Audio-only tactical adventure navigable through binary haptic pulses and voice commands while keeping the eyes fully closed (phone screen brightness reduced to black).",
+        "proposed_approach": "Binaural storytelling using spatial audio to indicate direction; user must verbally command left, right, or push maneuvers to solve escape puzzles while lying in darkness.",
+        "prototype_scope": "Calibration of gyroscope-to-rotation mapping for selecting directions within a simple 3x3 audio maze."
+      },
+      "candidate_b": {
+        "title": "Sleep Sentinel",
+        "target_user": "Light sleepers suffering from screen light overstimulation",
+        "problem_or_desire": "Late night fidgeting and phone reliance impacting transition to REM cycles",
+        "core_concept": "Audio-only tactical adventure navigable through haptic and voice commands.",
+        "proposed_approach": "An audio-only adventure game where players navigate a simple maze using voice commands.",
+        "prototype_scope": "Calibration of gyroscope-to-rotation mapping for selecting directions within a simple 3x3 audio maze. | Record audio cues for maze navigation; Implement voice command recognition; Build simple 3x3 maze logic"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0032",
+      "candidate_a": {
+        "title": "Creative Brief Translator",
+        "target_user": "Mid-sized marketing agency project leads",
+        "problem_or_desire": "The information gap between high-level client conceptual needs and individual production brief quality.",
+        "core_concept": "Automated extraction of technical requirements from unstructured meeting transcripts into structured templates.",
+        "proposed_approach": "A tool that processes uploaded meeting transcripts to populate a standardized creative brief template.",
+        "prototype_scope": "A web interface where users upload a transcript and receive a pre-filled brief based on a fixed template. | Select target creative brief template; Develop prompt engineering for transcript extraction; Build simple file upload UI; Implement template export (e.g., PDF/Docx)"
+      },
+      "candidate_b": {
+        "title": "Creative Brief Translator",
+        "target_user": "Mid-sized marketing agency project leads",
+        "problem_or_desire": "The information gap between high-level client conceptual needs and individual production brief quality.",
+        "core_concept": "Agents that 'shadow' planning calls to autonomously document technical requirements for contractors.",
+        "proposed_approach": "Agent analyzes collaborative whiteboard output and transcript data to fill structured standardized agency brief templates.",
+        "prototype_scope": "Template ingestion for graphic design asset requests derived from transcribed meetings."
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0033",
+      "candidate_a": {
+        "title": "Mind Mapping Mycology",
+        "target_user": "Project managers needing mental organizational structure",
+        "problem_or_desire": "Hard-to-track complex logical connections between project silos",
+        "core_concept": "An isometric management simulation where project nodes propagate resources like fungal mycelium, forcing identification of 'thin' link areas through intuitive visual obstruction.",
+        "proposed_approach": "Mapping abstract work dependencies to subterranean connections; broken/weak linkages result in wilting the surface network of crops.",
+        "prototype_scope": "Visualization engine displaying connections between one parent and three child entities."
+      },
+      "candidate_b": {
+        "title": "Mind Mapping Mycology",
+        "target_user": "Project managers needing mental organizational structure",
+        "problem_or_desire": "Hard-to-track complex logical connections between project silos",
+        "core_concept": "Isometric management simulation where project nodes propagate resources.",
+        "proposed_approach": "An isometric management game where project nodes are connected, and players must manage resource flow between them.",
+        "prototype_scope": "A visualization engine displaying connections between one parent and three child entities. | Design isometric node system; Implement resource flow logic; Build simple UI for node management"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0034",
+      "candidate_a": {
+        "title": "Regulatory Change Response Architect",
+        "target_user": "Food and beverage quality assurance heads",
+        "problem_or_desire": "Drastic differences in health safety manual implementation when regulations shift locally.",
+        "core_concept": "Mapping new legislation changes to existing internal standard operating procedure documents using diff identification.",
+        "proposed_approach": "Monitoring governmental regulatory feeds for trigger keywords and automatically highlighting modified procedure steps for policy-drafter human rewrite.",
+        "prototype_scope": "Dashboard tool for monitoring two specific municipality codes impacting packaging labeling."
+      },
+      "candidate_b": {
+        "title": "Regulatory Change Response Architect",
+        "target_user": "Food and beverage quality assurance heads",
+        "problem_or_desire": "Drastic differences in health safety manual implementation when regulations shift locally.",
+        "core_concept": "Mapping regulatory changes to internal SOPs using diff identification.",
+        "proposed_approach": "A tool that allows users to upload new regulations and existing SOPs, then highlights potential areas of conflict.",
+        "prototype_scope": "A web tool where users paste text from a regulation and an SOP, and the tool highlights keywords that appear in both. | Define keyword mapping; Build text comparison engine; Create simple UI; Test with sample regulations"
+      }
+    },
+    {
+      "pair_id": "P1PAIR_0035",
+      "candidate_a": {
+        "title": "Vendor Selection Orchestrator",
+        "target_user": "First-time e-commerce brand owners",
+        "problem_or_desire": "Difficulty in finding legitimate, non-spammy shipping and fulfillment partners",
+        "core_concept": "A verified private dashboard of filtered vendors based on store volume metrics",
+        "proposed_approach": "Manual white-glove curation of pre-negotiated volume tiers",
+        "prototype_scope": "Google Sheets landing page portal connecting 5 retailers to vetted 3PL vendors"
+      },
+      "candidate_b": {
+        "title": "Vendor Selection Orchestrator",
+        "target_user": "First-time e-commerce brand owners",
+        "problem_or_desire": "Difficulty in finding legitimate, non-spammy shipping and fulfillment partners",
+        "core_concept": "A curated, private directory of vetted e-commerce fulfillment partners.",
+        "proposed_approach": "A curated directory of vetted 3PL vendors for small e-commerce brands, focusing on reliability and transparency.",
+        "prototype_scope": "A Google Sheets portal connecting 5 retailers to 3 vetted vendors. | Vet 3 reliable 3PL vendors.; Create a landing page/portal.; Onboard 5 retailers.; Facilitate introductions."
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+study_id,task,judge,version,status,n_records,strict_validation_issues,reason,release_path
+G31_P1,neutral_pairwise,Gemini 3.1 Pro Web,v1,excluded,60,9,score_preference_inconsistency,Study_Gemini3.1Flash-Lite/P1/Output_Paired_Wised_Score_Neutral/Excluded/Gemini3.1Pro_v1_preference_inconsistent
+G31_P1,neutral_pairwise,Gemini 3.1 Pro Web,v2,excluded,60,39,score_preference_inconsistency,Study_Gemini3.1Flash-Lite/P1/Output_Paired_Wised_Score_Neutral/Excluded/Gemini3.1Pro_v2_preference_inconsistent
+G31_P1,neutral_pairwise,Gemini 3.1 Pro Web,v3,excluded,60,57,score_preference_inconsistency,Study_Gemini3.1Flash-Lite/P1/Output_Paired_Wised_Score_Neutral/Excluded/Gemini3.1Pro_v3_preference_inconsistent

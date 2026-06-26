@@ -1,0 +1,65 @@
+[
+  {
+    "candidate_id": "BLIND_0054",
+    "title": "AI-Powered Personalized Learning Path Generator for High School STEM",
+    "target_user": "High school students struggling with foundational STEM concepts.",
+    "problem_or_desire": "Students often feel overwhelmed by the breadth of STEM topics and lack a clear, personalized roadmap to build understanding from the ground up.",
+    "core_concept": "An AI that analyzes a student's current knowledge gaps through interactive diagnostics and generates a dynamic, step-by-step learning path using curated open educational resources.",
+    "proposed_approach": "Develop an adaptive diagnostic assessment engine and an AI algorithm to map prerequisite relationships between STEM concepts. Integrate with existing OER repositories.",
+    "prototype_scope": "A web application that diagnoses a student's understanding of basic algebra and generates a personalized learning path for the first three modules of introductory physics, linking to specific OER videos and practice problems."
+  },
+  {
+    "candidate_id": "BLIND_0104",
+    "title": "Personalized Literary Interpretation Network",
+    "target_user": "Late secondary and early university students in literature humanities",
+    "problem_or_desire": "To engage in deeper, multi-faceted analysis of literary texts beyond surface-level understanding and to connect with diverse analytical viewpoints.",
+    "core_concept": "A platform for users to share and discover diverse interpretations of literary texts, with AI assistance in organizing and visualizing these interpretations.",
+    "proposed_approach": "A web platform where users can annotate literary passages and share short textual interpretations, with basic AI features to categorize comments by predefined themes and display word frequencies.",
+    "prototype_scope": "A web platform for analyzing a single Shakespearean sonnet. Users can highlight text, assign predefined tags (e.g., 'love', 'time', 'loss'), and write short comments. The AI will perform basic keyword extraction from comments and categorize them based on the predefined tags. It will then display a word cloud of frequently used terms within comments associated with each tag. | Develop a web interface for displaying a single sonnet.; Implement text highligh…"
+  },
+  {
+    "candidate_id": "BLIND_0086",
+    "title": "Ephemeral Art Canvas",
+    "target_user": "Creative individuals and casual gamers looking for a relaxing, non-competitive digital art experience.",
+    "problem_or_desire": "Desire for a mobile art tool that encourages spontaneous creation and embraces the beauty of temporary, evolving digital art.",
+    "core_concept": "A mobile game where players paint with 'living' brushes that have unique behaviors (e.g., spreading, fading, reacting to other strokes) on a canvas that slowly degrades or transforms over time.",
+    "proposed_approach": "Develop a physics-based or agent-based simulation for brush behaviors. Focus on a tactile, intuitive drawing interface and a visually appealing, evolving aesthetic.",
+    "prototype_scope": "A single canvas with 2-3 distinct 'living' brush types and a time-based decay mechanic, allowing users to create and observe a piece evolve for a limited duration."
+  },
+  {
+    "candidate_id": "BLIND_0035",
+    "title": "Contextual Skill Pairing for Remote Project Teams",
+    "target_user": "Independent freelance software developers working remotely.",
+    "problem_or_desire": "Need to quickly find other freelancers for short-term, specialized project collaborations without lengthy vetting processes.",
+    "core_concept": "Matching remote freelance developers for project collaboration based on their demonstrated problem-solving approaches, moving beyond explicit skill lists.",
+    "proposed_approach": "A platform that helps remote freelance developers find collaborators by allowing them to describe their project needs and offering suggestions based on self-reported experience and explicit skill tags, with a focus on facilitating initial connections.",
+    "prototype_scope": "A web application where freelance developers can create profiles listing their explicit technical skills, preferred project types, and a brief description of their current project needs. Users can also post short project 'briefs' detailing the problem they are trying to solve. The platform then suggests potential collaborators based on keyword matching between project briefs and profile skills/descriptions, and allows users to initiate contact. | Develop…"
+  },
+  {
+    "candidate_id": "BLIND_0040",
+    "title": "Culturally Immersive Coffee Experience Boxes",
+    "target_user": "Individuals interested in cultural exploration and global flavors aged 40-65, seeking novel experiential learning activities they can do at home.",
+    "problem_or_desire": "A longing for accessible, engaging cultural experiences that go beyond typical travel, with a focus on understanding how different cultures prepare and savor coffee.",
+    "core_concept": "Curated subscription boxes that deliver authentic ingredients, regional brewing tools, background stories, and expert tasting notes for brewing coffee in the traditional style of a different country or region each month.",
+    "proposed_approach": "Partner with cultural attaches and coffee experts from diverse coffee-growing regions. Source small quantities of signature local roasts and traditional accessories. Develop engaging multimedia content explaining the cultural significance, history, and brewing rituals associated with each coffee tradition.",
+    "prototype_scope": "Design and assemble 50 limited edition 'Ethiopian Coffee Ceremony' boxes containing roasted beans (sufficient for two brewings), a traditional Jebena (miniature), ceremonial instructions booklet, and taste pairing suggestions. Deliver these within a defined region to interested customers responding to online interest-based advertising."
+  },
+  {
+    "candidate_id": "BLIND_0094",
+    "title": "Localized Community Skill Exchange Bartering",
+    "target_user": "Residents within a defined geographic neighborhood seeking to trade goods or services without monetary exchange.",
+    "problem_or_desire": "Need a simple, trustworthy platform to offer skills or goods (e.g., tutoring, gardening help, baked goods) and find others within their immediate community with complementary needs and offers.",
+    "core_concept": "A hyper-local web and mobile platform facilitating skill and good bartering through a point-based system earned by offering and redeemed by receiving within the same authenticated community boundary.",
+    "proposed_approach": "Develop a geospatial verification system linked to simple user profiles where individuals list offered/needed services and items. A curated notification system alerts users of direct reciprocal matches or matches near their location.",
+    "prototype_scope": "A single-city web platform that requires email verification and basic address information (with privacy obfuscation for public listing) to access a moderated offer/request board. Users can manually propose exchanges or flag potential matches that get reviewed by a community moderator."
+  },
+  {
+    "candidate_id": "BLIND_0014",
+    "title": "Ephemeral Artificer: The Sand Kingdom",
+    "target_user": "Mid-core mobile gamers who appreciate procedural generation and emergent storytelling.",
+    "problem_or_desire": "A longing for single-player action adventure games where the game world feels unique and responsive to player actions beyond static encounters, facilitating a sense of authorship.",
+    "core_concept": "A 3D open-world action game set in a constantly evolving desert environment. The core mechanic involves 'Erosive Construction,' where player actions (attacks, movements) dynamically sculpt the terrain, creating temporary cover, trapdoors, or new pathways that 'wind away' over time like sand dunes.",
+    "proposed_approach": "Employ advanced terrain deformation algorithms that run in near real-time. Implement agent AI that can dynamically pathfind and react to the constantly changing landscape. Design elemental spells that interact procedurally with the shifting sands (e.g., temporary petrification, mini-dust storms).",
+    "prototype_scope": "One controllable character exploring a small desert biome segment. Task: reach a specific landmark using terrain manipulation to overcome 3 predefined physical obstacles. Enemies present (a few types), their AI only minimally aware of environmental shifts."
+  }
+]
